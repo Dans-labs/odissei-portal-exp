@@ -31,6 +31,12 @@ const config = defineConfig({
     viteReact(),
     babel({ presets: [reactCompilerPreset()] }),
   ],
+  optimizeDeps: {
+    include: ["typesense-instantsearch-adapter"],
+  },
+  ssr: {
+    noExternal: ["typesense-instantsearch-adapter"],
+  },
 });
 
 export default config;
