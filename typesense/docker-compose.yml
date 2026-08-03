@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  typesense:
+    image: typesense/typesense:27.1
+    restart: on-failure
+    ports:
+      - "8108:8108"
+    volumes:
+      - ./typesense-data:/data
+    environment:
+      - TYPESENSE_API_KEY=${TYPESENSE_API_KEY:-xyz-local-dev-key}
+      - TYPESENSE_DATA_DIR=/data
+      - TYPESENSE_ENABLE_CORS=true
