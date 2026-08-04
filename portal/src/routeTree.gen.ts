@@ -8,61 +8,120 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-import { Route as rootRouteImport } from './routes/__root'
-import { Route as IndexRouteImport } from './routes/index'
+import { Route as rootRouteImport } from "./routes/__root";
+import { Route as SearchRouteImport } from "./routes/_search";
+import { Route as SearchIndexRouteImport } from "./routes/_search.index";
+import { Route as DatasetSplatRouteImport } from "./routes/dataset.$";
+import { Route as SearchViewSplatRouteImport } from "./routes/_search.view.$";
 
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const SearchRoute = SearchRouteImport.update({
+  id: "/_search",
   getParentRoute: () => rootRouteImport,
-} as any)
+} as any);
+const SearchIndexRoute = SearchIndexRouteImport.update({
+  id: "/",
+  path: "/",
+  getParentRoute: () => SearchRoute,
+} as any);
+const DatasetSplatRoute = DatasetSplatRouteImport.update({
+  id: "/dataset/$",
+  path: "/dataset/$",
+  getParentRoute: () => rootRouteImport,
+} as any);
+const SearchViewSplatRoute = SearchViewSplatRouteImport.update({
+  id: "/view/$",
+  path: "/view/$",
+  getParentRoute: () => SearchRoute,
+} as any);
 
 export interface FileRoutesByFullPath {
-  '/': typeof IndexRoute
+  "/": typeof SearchIndexRoute;
+  "/dataset/$": typeof DatasetSplatRoute;
+  "/view/$": typeof SearchViewSplatRoute;
 }
 export interface FileRoutesByTo {
-  '/': typeof IndexRoute
+  "/dataset/$": typeof DatasetSplatRoute;
+  "/": typeof SearchIndexRoute;
+  "/view/$": typeof SearchViewSplatRoute;
 }
 export interface FileRoutesById {
-  __root__: typeof rootRouteImport
-  '/': typeof IndexRoute
+  __root__: typeof rootRouteImport;
+  "/_search": typeof SearchRouteWithChildren;
+  "/dataset/$": typeof DatasetSplatRoute;
+  "/_search/": typeof SearchIndexRoute;
+  "/_search/view/$": typeof SearchViewSplatRoute;
 }
 export interface FileRouteTypes {
-  fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
-  fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
-  fileRoutesById: FileRoutesById
+  fileRoutesByFullPath: FileRoutesByFullPath;
+  fullPaths: "/" | "/dataset/$" | "/view/$";
+  fileRoutesByTo: FileRoutesByTo;
+  to: "/dataset/$" | "/" | "/view/$";
+  id: "__root__" | "/_search" | "/dataset/$" | "/_search/" | "/_search/view/$";
+  fileRoutesById: FileRoutesById;
 }
 export interface RootRouteChildren {
-  IndexRoute: typeof IndexRoute
+  SearchRoute: typeof SearchRouteWithChildren;
+  DatasetSplatRoute: typeof DatasetSplatRoute;
 }
 
-declare module '@tanstack/react-router' {
+declare module "@tanstack/react-router" {
   interface FileRoutesByPath {
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
-      parentRoute: typeof rootRouteImport
-    }
+    "/_search": {
+      id: "/_search";
+      path: "";
+      fullPath: "/";
+      preLoaderRoute: typeof SearchRouteImport;
+      parentRoute: typeof rootRouteImport;
+    };
+    "/_search/": {
+      id: "/_search/";
+      path: "/";
+      fullPath: "/";
+      preLoaderRoute: typeof SearchIndexRouteImport;
+      parentRoute: typeof SearchRoute;
+    };
+    "/dataset/$": {
+      id: "/dataset/$";
+      path: "/dataset/$";
+      fullPath: "/dataset/$";
+      preLoaderRoute: typeof DatasetSplatRouteImport;
+      parentRoute: typeof rootRouteImport;
+    };
+    "/_search/view/$": {
+      id: "/_search/view/$";
+      path: "/view/$";
+      fullPath: "/view/$";
+      preLoaderRoute: typeof SearchViewSplatRouteImport;
+      parentRoute: typeof SearchRoute;
+    };
   }
 }
 
-const rootRouteChildren: RootRouteChildren = {
-  IndexRoute: IndexRoute,
+interface SearchRouteChildren {
+  SearchIndexRoute: typeof SearchIndexRoute;
+  SearchViewSplatRoute: typeof SearchViewSplatRoute;
 }
+
+const SearchRouteChildren: SearchRouteChildren = {
+  SearchIndexRoute: SearchIndexRoute,
+  SearchViewSplatRoute: SearchViewSplatRoute,
+};
+
+const SearchRouteWithChildren = SearchRoute._addFileChildren(SearchRouteChildren);
+
+const rootRouteChildren: RootRouteChildren = {
+  SearchRoute: SearchRouteWithChildren,
+  DatasetSplatRoute: DatasetSplatRoute,
+};
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
-  ._addFileTypes<FileRouteTypes>()
+  ._addFileTypes<FileRouteTypes>();
 
-import type { getRouter } from './router.tsx'
-import type { createStart } from '@tanstack/react-start'
-declare module '@tanstack/react-start' {
+import type { getRouter } from "./router.tsx";
+import type { createStart } from "@tanstack/react-start";
+declare module "@tanstack/react-start" {
   interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
+    ssr: true;
+    router: Awaited<ReturnType<typeof getRouter>>;
   }
 }

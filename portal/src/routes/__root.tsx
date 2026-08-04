@@ -2,16 +2,9 @@ import { HeadContent, Scripts, createRootRouteWithContext } from "@tanstack/reac
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import { TanStackDevtools } from "@tanstack/react-devtools";
 import TanStackQueryDevtools from "../integrations/tanstack-query/devtools";
-import { InstantSearch } from "react-instantsearch";
-
 import { getLocale } from "#/paraglide/runtime";
-
 import appCss from "../styles.css?url";
-
 import type { QueryClient } from "@tanstack/react-query";
-import { getTypesenseConfig } from "#/integrations/instantsearch/env.server";
-import { useMemo } from "react";
-import { createSearchClient } from "#/integrations/instantsearch/client";
 
 interface MyRouterContext {
   queryClient: QueryClient;
@@ -24,11 +17,6 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
     if (typeof document !== "undefined") {
       document.documentElement.setAttribute("lang", getLocale());
     }
-  },
-  loader: async () => {
-    return {
-      searchConfig: getTypesenseConfig(),
-    };
   },
 
   head: () => ({
@@ -55,16 +43,13 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
 });
 
 function RootDocument({ children }: { children: React.ReactNode }) {
-  const { searchConfig } = Route.useLoaderData();
-  const searchClient = useMemo(() => createSearchClient(searchConfig), [searchConfig]);
-
   return (
     <html lang={getLocale()}>
       <head>
         <HeadContent />
       </head>
       <body>
-        <InstantSearch searchClient={searchClient}>{children}</InstantSearch>
+        {children}
         <TanStackDevtools
           config={{
             position: "bottom-right",

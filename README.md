@@ -9,6 +9,7 @@ python3 flatten_datasets.py ./data ./flattened_output
 ## Setup Typesense
 1. Copy env template and start Typesense
 ```bash
+cd typsense
 cp .env.example .env    # edit the API key for anything beyond local dev
 docker compose up -d
 ```
@@ -21,7 +22,7 @@ python3 setup_typesense_collection.py --api-key xyz-local-dev-key
 
 3. Bulk import
 ```bash
-python3 import_to_typesense.py ./flattened_output/all_datasets.jsonl --api-key xyz-local-dev-key
+python3 import_to_typesense.py ../flattened_output/all_datasets.jsonl --api-key xyz-local-dev-key
 ```
 
 ## Setup OAI PMH server
