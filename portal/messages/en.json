@@ -10,5 +10,15 @@
   "restrictedAccess": "Restricted access",
   "clearFilters": "Clear filters",
   "noResults": "No results found",
-  "resultsFound": "{count} results found"
+  "resultsFound": "{count} results found",
+  "resultCount": [
+    {
+      "declarations": ["input count", "local countPlural = count: plural"],
+      "selectors": ["countPlural"],
+      "match": {
+        "countPlural=one": "{count} result found",
+        "countPlural=other": "{count} results found"
+      }
+    }
+  ]
 }

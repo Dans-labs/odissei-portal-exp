@@ -19,15 +19,19 @@ export function Checkbox({
         {...(checked ? { checked } : {})}
         {...(onCheckedChange ? { onCheckedChange } : {})}
         value={value}
-        className="flex h-4 w-4 items-center justify-center rounded border border-gray-300 bg-white transition-colors data-[checked]:border-black data-[checked]:bg-black"
+        className="flex h-4 w-4 items-center justify-center rounded border border-gray-300 bg-white transition-colors data-checked:bg-cyan-600"
       >
         <BaseCheckbox.Indicator>
           <CheckIcon />
         </BaseCheckbox.Indicator>
       </BaseCheckbox.Root>
 
-      <span>{label}</span>
-      {count && <span className="text-gray-500">({count})</span>}
+      <span>
+        {label}{" "}
+        {count && (
+          <span className="bg-gray-100 text-gray-400 text-xs rounded-md px-1 py-0.5">{count}</span>
+        )}
+      </span>
     </label>
   );
 }

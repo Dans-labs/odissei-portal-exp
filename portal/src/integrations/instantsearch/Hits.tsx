@@ -1,5 +1,6 @@
 import { useHits } from "react-instantsearch";
 import { Link } from "@tanstack/react-router";
+import { m } from "#/paraglide/messages";
 
 type DatasetHit = {
   id: string;
@@ -15,7 +16,7 @@ export function Hits() {
   return (
     <div>
       <p className="mb-4 text-sm text-gray-500 text-right">
-        {results?.nbHits} {results?.nbHits === 1 ? "result" : "results"}
+        {m.resultCount({ count: results?.nbHits ?? 0 })}
       </p>
       <div className="space-y-4">
         {items.map((hit) => (

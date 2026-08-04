@@ -59,22 +59,15 @@ export function DatasetDrawer() {
               h-full
               w-screen
               max-w-2xl
-      
               overflow-y-auto
-
-              rounded-l-[2rem]
-
+              rounded-l-4xl
               border-l
               border-zinc-200
-
               bg-[#fafaf9]
-
               shadow-2xl
-
               transition-[translate,opacity]
               duration-300
               ease-out
-
               data-starting-style:translate-x-full
               data-ending-style:translate-x-full
             "
@@ -88,15 +81,11 @@ export function DatasetDrawer() {
                   sticky
                   top-0
                   z-10
-
                   border-b
                   border-zinc-200
-
                   bg-[#fafaf9]/90
-
                   px-8
                   py-6
-
                   backdrop-blur
                 "
                 >
@@ -135,17 +124,12 @@ export function DatasetDrawer() {
                       shrink-0
                       items-center
                       justify-center
-
                       rounded-full
-
                       text-zinc-500
-
                       transition
-
                       hover:bg-zinc-200
                       hover:text-zinc-900
-
-
+                      cursor-pointer
                     "
                     >
                       ✕
@@ -157,10 +141,10 @@ export function DatasetDrawer() {
 
                 <div
                   className="
-                  space-y-10
-                  px-8
-                  py-8
-                "
+                    space-y-10
+                    px-8
+                    py-8
+                  "
                 >
                   {/* Access CTA */}
 
@@ -168,24 +152,17 @@ export function DatasetDrawer() {
                     <Button
                       className="
                       w-full
-
                       rounded-2xl
-
-                      bg-gradient-to-r
+                      bg-linear-to-r
                       from-cyan-500
                       to-blue-600
-
                       px-5
                       py-3
-
                       text-sm
                       font-medium
                       text-white
-
                       shadow-sm
-
                       transition
-
                       hover:brightness-110
                       active:scale-[0.99]
                       cursor-pointer
@@ -266,13 +243,10 @@ function MetadataRow({ label, value }: { label: string; value?: string }) {
         flex
         justify-between
         gap-4
-
         rounded-2xl
         border
         border-zinc-200
-
         bg-white
-
         px-4
         py-3
       "
@@ -297,14 +271,14 @@ function Badge({ children }: { children: React.ReactNode }) {
   return (
     <span
       className="
-      rounded-full
-      bg-zinc-100
-      px-3
-      py-1
-      text-xs
-      font-medium
-      text-zinc-600
-    "
+        rounded-full
+        bg-zinc-100
+        px-3
+        py-1
+        text-xs
+        font-medium
+        text-zinc-600
+      "
     >
       {children}
     </span>
