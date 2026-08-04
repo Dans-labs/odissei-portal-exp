@@ -23,13 +23,15 @@ function SearchLayout() {
       <Drawer.Provider>
         <Drawer.IndentBackground />
         <InstantSearch searchClient={searchClient} indexName="datasets">
-          <div className="mx-auto grid max-w-6xl grid-cols-[280px_1fr] gap-8 p-6">
-            <FacetSidebar />
-            <main className="relative">
-              <Hits />
-              <Pagination />
-              <DatasetDrawer />
-            </main>
+          <div className="min-h-screen bg-[#fafaf9] text-zinc-950">
+            <div className="mx-auto flex max-w-[1600px] gap-8 px-8 py-8">
+              <FacetSidebar />
+              <main className="min-w-0 flex-1">
+                <Hits />
+                <Pagination />
+                <DatasetDrawer />
+              </main>
+            </div>
           </div>
         </InstantSearch>
       </Drawer.Provider>
