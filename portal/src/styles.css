@@ -1,4 +1,11 @@
 @import "tailwindcss";
+@import "@fontsource/ubuntu";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+@theme {
+  --font-sans: "Ubuntu", sans-serif;
+}
 
 * {
   box-sizing: border-box;

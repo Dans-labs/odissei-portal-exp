@@ -1,4 +1,5 @@
 import { Checkbox as BaseCheckbox } from "@base-ui/react/checkbox";
+import { CheckIcon } from "@heroicons/react/24/solid";
 
 export function Checkbox({
   checked,
@@ -22,7 +23,7 @@ export function Checkbox({
         className="flex h-4 w-4 items-center justify-center rounded border border-gray-300 bg-white transition-colors data-checked:bg-cyan-600"
       >
         <BaseCheckbox.Indicator>
-          <CheckIcon />
+          <CheckIcon className="size-3 text-white" />
         </BaseCheckbox.Indicator>
       </BaseCheckbox.Root>
 
@@ -35,15 +36,3 @@ export function Checkbox({
     </label>
   );
 }
-
-const CheckIcon = () => (
-  <svg
-    viewBox="0 0 16 16"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    className="h-3 w-3 text-white"
-  >
-    <path d="M3.5 8.5 6.5 11.5 12.5 4.5" />
-  </svg>
-);

@@ -28,6 +28,7 @@ import json
 import re
 import sys
 from pathlib import Path
+from datetime import datetime
 
 
 # ---------------------------------------------------------------------------
@@ -80,6 +81,50 @@ def primitive_value(fields, type_name):
     """Same as primitive_values but returns a single scalar (or None)."""
     vals = primitive_values(fields, type_name)
     return vals[0] if vals else None
+
+def extract_year_from_date_string(date_str):
+    """
+    Best-effort year extraction from a date-like string.
+    Handles full ISO dates ("2023-05-01"), year-only strings ("2023"),
+    and anything else that at least starts with a 4-digit year.
+    """
+    if not date_str:
+        return None
+
+    try:
+        return datetime.fromisoformat(date_str).year
+    except ValueError:
+        pass
+
+    match = re.match(r"^(\d{4})", str(date_str).strip())
+    if match:
+        return int(match.group(1))
+
+    return None
+
+
+def extract_publication_year(citation, fallback_dates):
+    """
+    Resolve a single publication year for faceting/range filtering.
+
+    Prefers the explicit publicationYear field from the citation metadata,
+    falling back to the first usable year found in fallback_dates (in order).
+    Always returns an int or None — never a raw/malformed string — since
+    this feeds a Typesense int32 facet field.
+    """
+    raw_year = primitive_value(citation, "publicationYear")
+    if raw_year is not None:
+        try:
+            return int(str(raw_year).strip()[:4])
+        except (ValueError, TypeError):
+            pass
+
+    for date_str in fallback_dates:
+        year = extract_year_from_date_string(date_str)
+        if year is not None:
+            return year
+
+    return None
 
 
 def compound_values(fields, type_name, subfield_names):
@@ -242,6 +287,14 @@ def flatten_dataset(dataset_json, source_path, doi_from_folder=None):
         "production_date": primitive_value(citation, "productionDate"),
         "distribution_date": primitive_value(citation, "distributionDate"),
         "date_of_deposit": primitive_value(citation, "dateOfDeposit"),
+        "publication_year": extract_publication_year(
+            citation,
+            fallback_dates=[
+                primitive_value(citation, "distributionDate"),
+                primitive_value(citation, "productionDate"),
+                primitive_value(citation, "dateOfDeposit"),
+            ],
+        ),
 
         # coverage
         "temporal_coverage": primitive_values(temporal_spatial, "dansTemporalCoverage"),

@@ -1,0 +1,83 @@
+{
+  "id": "10.17026/DANS-XAR-HQVG",
+  "doi": "10.17026/DANS-XAR-HQVG",
+  "doi_url": "https://doi.org/10.17026/DANS-XAR-HQVG",
+  "bag_id": "urn:uuid:71dfbe24-db66-4476-900e-29945b931f2d",
+  "nbn": "urn:nbn:nl:ui:13-ryiq-j5",
+  "data_source": "DANS",
+  "title": "KBK-1M - Koninklijke Bibliotheek Kranten – 1 Miljoen",
+  "authors": [
+    "M. Kleppe",
+    "D. Elliott",
+    "W.J. Faber"
+  ],
+  "contributors": [],
+  "contacts": [
+    {
+      "name": "K.B.  Data",
+      "affiliation": "Koninklijke Bibliotheek"
+    }
+  ],
+  "descriptions": [
+    "The KBK-1M Dataset (‘Koninklijke Bibliotheek Kranten – 1 Miljoen’) is a collection of 1,603,396 images and accompanying captions of the period 1922 – 1994. We extracted the images from digitised newspapers that are stored in the National Library (KB) Newspaper Archive and that are publicly accessible via www.delpher.nl . Via Delpher visitors can search and browse through several collections including Dutch newspapers. One way to narrow down retrieved results is by clicking on facets. One of these is ‘illustraties met onderschrift’ (illustrations with caption) that contain photographs (black & white and colour), comic strips, political cartoons and weather-forecasts. This KBK-1M dataset contains these illustrations with captions of all newspapers in the period 1922-1994 which were on Delpher when we crawled the illustrations, in August 2015. Creation of the datase In the newspaper archive of the KB, each issue is stored as a set of scanned pages with one JPEG per newspaper page. Each page is associated with a set of metadata files which describe the locations of each image, caption and article on that page. During the digitisation process of the newspapers, these locations were manually annotated by trained workers. The article and caption texts are available through automatic OCR-processed output. We took these data as starting point when we built the harvester to create the KBK-1M dataset. The data harvester was built using the Python programming language which prepared and extracted the images and captions using KB-internal RESTful APIs. We transformed the raw source material into the dataset that contains JPEG files for the images and JSON files for the metadata. All relevant metadata for each image is stored in a JSON file. In order to create this file, we serialised the caption (“caption”), the title of the newspaper issue (“paper_title”), the page (“page”), the date of publication (“date”), and the identifiers of the content and text blocks (“content_block & text_block” and “content_block”) as stored in the original repository metadata document. Each newspaper issue is stored with a unique identifier linking an image caption pair (“content_block_url” & “jp2_url”) directly back to the newspaper issue ID (“alto_url”) from the Newspaper Archive. Finally, we created a unique filename for each JPEG/JSON file (“image_name”) Set-up of the dataset This KBK-1M dataset consists of a collection of zipfiles that correspond with each year. In each zipfile three types of files are available: - JPEG files that contain the actual image. Each image has a unique filename. In the case of the example image above it is ‘1951/DDD:ddd:010474896:mpeg21/p001-P1_CB00003.jpg. The OCR is provided on article level, that all have classifications. The articles that we harvested for the KBK-1M dataset all have classification 'Illustratie met onderschrift’ (‘Image with caption'). Since the images are stored on page-level, each image in this set is a subset of a newspaper page. - JSON files that contain all information about the image as listed above in listing 1. - CSV files containing the following information for each year: alto_url; content_block_url; jp2_url; image_name; caption; content_block; date; text_block; page; paper_title Each CSV file can be used as an index-file of all photos of that particular year. Access To obtain this dataset, request for access through Easy. Your request will be forward to a representative of the KB. He or she will contact you and can provide you access to the dataset for scientific or scholarly purposes only after a contract has been signed. Please note this process can take a couple of working days before access can formally be granted."
+  ],
+  "description": "The KBK-1M Dataset (‘Koninklijke Bibliotheek Kranten – 1 Miljoen’) is a collection of 1,603,396 images and accompanying captions of the period 1922 – 1994. We extracted the images from digitised newspapers that are stored in the National Library (KB) Newspaper Archive and that are publicly accessible via www.delpher.nl . Via Delpher visitors can search and browse through several collections including Dutch newspapers. One way to narrow down retrieved results is by clicking on facets. One of these is ‘illustraties met onderschrift’ (illustrations with caption) that contain photographs (black & white and colour), comic strips, political cartoons and weather-forecasts. This KBK-1M dataset contains these illustrations with captions of all newspapers in the period 1922-1994 which were on Delpher when we crawled the illustrations, in August 2015. Creation of the datase In the newspaper archive of the KB, each issue is stored as a set of scanned pages with one JPEG per newspaper page. Each page is associated with a set of metadata files which describe the locations of each image, caption and article on that page. During the digitisation process of the newspapers, these locations were manually annotated by trained workers. The article and caption texts are available through automatic OCR-processed output. We took these data as starting point when we built the harvester to create the KBK-1M dataset. The data harvester was built using the Python programming language which prepared and extracted the images and captions using KB-internal RESTful APIs. We transformed the raw source material into the dataset that contains JPEG files for the images and JSON files for the metadata. All relevant metadata for each image is stored in a JSON file. In order to create this file, we serialised the caption (“caption”), the title of the newspaper issue (“paper_title”), the page (“page”), the date of publication (“date”), and the identifiers of the content and text blocks (“content_block & text_block” and “content_block”) as stored in the original repository metadata document. Each newspaper issue is stored with a unique identifier linking an image caption pair (“content_block_url” & “jp2_url”) directly back to the newspaper issue ID (“alto_url”) from the Newspaper Archive. Finally, we created a unique filename for each JPEG/JSON file (“image_name”) Set-up of the dataset This KBK-1M dataset consists of a collection of zipfiles that correspond with each year. In each zipfile three types of files are available: - JPEG files that contain the actual image. Each image has a unique filename. In the case of the example image above it is ‘1951/DDD:ddd:010474896:mpeg21/p001-P1_CB00003.jpg. The OCR is provided on article level, that all have classifications. The articles that we harvested for the KBK-1M dataset all have classification 'Illustratie met onderschrift’ (‘Image with caption'). Since the images are stored on page-level, each image in this set is a subset of a newspaper page. - JSON files that contain all information about the image as listed above in listing 1. - CSV files containing the following information for each year: alto_url; content_block_url; jp2_url; image_name; caption; content_block; date; text_block; page; paper_title Each CSV file can be used as an index-file of all photos of that particular year. Access To obtain this dataset, request for access through Easy. Your request will be forward to a representative of the KB. He or she will contact you and can provide you access to the dataset for scientific or scholarly purposes only after a contract has been signed. Please note this process can take a couple of working days before access can formally be granted.",
+  "subjects": [
+    "Arts and Humanities",
+    "Computer and Information Science"
+  ],
+  "keywords": [
+    "photographs",
+    "comic strips",
+    "political cartoons",
+    "weather-forecasts",
+    "captions",
+    "newspapers",
+    "chessplays"
+  ],
+  "languages": [
+    "Dutch"
+  ],
+  "production_date": "2015-12-31",
+  "distribution_date": "2017-09-30",
+  "date_of_deposit": "2017-08-21",
+  "publication_year": 2017,
+  "temporal_coverage": [
+    "1922-1994"
+  ],
+  "spatial_coverage": [],
+  "license": "DANS Licence",
+  "file_access_request": true,
+  "rights_holders": [
+    "National Library of the Netherlands"
+  ],
+  "personal_data_present": "Unknown",
+  "relations": [
+    {
+      "type": "relation",
+      "text": "Kleppe, M., Desmond, E. (2016). 1 Million Dutch Newspaper Images available for researchers: The KBK-1M Dataset. In Digital Humanities 2016: Conference Abstracts. Jagiellonian University & Pedagogical University, Kraków, pp. 824-825",
+      "uri": "http://dh2016.adho.org/abstracts/193"
+    },
+    {
+      "type": "relation",
+      "text": "Elliott, D., Kleppe, M. (2016) 1 Million Captioned Dutch Newspaper Images. In Nicoletta Calzolari et al, Proceedings of Language Resources and Evaluation Conference (LREC '16), Portorož, Slovenia",
+      "uri": "http://www.lrec-conf.org/proceedings/lrec2016/summaries/448.html"
+    }
+  ],
+  "audience": [
+    "https://www.narcis.nl/classification/D30000",
+    "https://www.narcis.nl/classification/D35000",
+    "https://www.narcis.nl/classification/D35100",
+    "https://www.narcis.nl/classification/D35400",
+    "https://www.narcis.nl/classification/D16000"
+  ],
+  "collections": [],
+  "data_sources": [
+    "The images in this dataset are derived from digitised newspapers that are stored in the National Library (KB) Newspaper Archive and that are publicly accessible via www.delpher.nl  via the facet ‘illustraties met onderschrift’ (illustrations with caption) that contain photographs (black & white and colour), comic strips, political cartoons and weather-forecasts."
+  ],
+  "file_count": 0,
+  "total_file_size_bytes": 0,
+  "has_restricted_files": null,
+  "files": [],
+  "_source_path": "data/doi-10.17026-DANS-XAR-HQVG/metadata/dataset-metadata.json"
+}

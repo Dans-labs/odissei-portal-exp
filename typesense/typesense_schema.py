@@ -54,6 +54,7 @@ SCHEMA = {
         {"name": "distribution_date", "type": "string", "facet": False, "optional": True, "index": False},
         {"name": "distribution_timestamp", "type": "int64", "facet": False, "optional": True},
         {"name": "date_of_deposit", "type": "string", "facet": False, "optional": True, "index": False},
+        {"name": "publication_year", "type": "int32", "facet": True, "optional": True},
 
         {"name": "temporal_coverage", "type": "string[]", "facet": True, "optional": True},
         {"name": "spatial_coverage", "type": "string[]", "facet": True, "optional": True},

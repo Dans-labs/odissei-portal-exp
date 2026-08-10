@@ -1,0 +1,63 @@
+{
+  "id": "10.17026/DANS-2Z4-MRGM",
+  "doi": "10.17026/DANS-2Z4-MRGM",
+  "doi_url": "https://doi.org/10.17026/DANS-2Z4-MRGM",
+  "bag_id": "urn:uuid:40431827-68aa-4360-8170-3a39253b614f",
+  "nbn": "urn:nbn:nl:ui:13-0z-nxq8",
+  "data_source": "DANS",
+  "title": "OK, Computer, what are these books about? - data files",
+  "authors": [
+    "R Snijder"
+  ],
+  "contributors": [],
+  "contacts": [
+    {
+      "name": "R.  Snijder",
+      "affiliation": "OAPEN Foundation"
+    }
+  ],
+  "descriptions": [
+    "The core of this experiment is the use of the entity-fishing algorithm, as created and deployed by DARIAH. In the most simple terms: it scans texts for terms that can be linked to Wikipedia pages. Based on the algorithm, new keywords are added to the book descriptions, plus a list of relevant Wikipedia pages. For this experiment, the full text of 4125 books and chapters – available in the OAPEN Library – is scanned, resulting in a data file of over 25 million entries. In other words, on average the algorithm found roughly 6,100 ‘hits’ for each publication. When only the most common terms per publication are selected, does this result in a useful description of its content? The data file OK_Computer_results contains a list of open access books and chapters descriptions found in the OAPEN Library, combined with Wikipedia entries found using the entity-fishing algorithm, plus several actions to filter out only the terms which describe the publication best. Each book or chapter is available in the OAPEN Library (www.oapen.org), see the column HANDLE/ The data file nerd_oapen_response_database contains the complete data set. The other text files contain R code to manipulate the file nerd_oapen_response_database. Description of nerd_oapen_response_database: The data is divided into the following columns: Data Description OAPEN_ID Unique ID of the publication in the OAPEN Library rawName The entity as it appears in the text nerd_score Disambiguation confidence score nerd_selection_score Selection confidence score, indicates how certain the disambiguated entity is actually valid for the text mention wikipediaExternalRef ID of the Wikipedia page wiki_URL URL of the Wikipedia page type NER class of the entity domains Description of subject domain Each book may contain more than one occurrence of the same entity. The nerd_score and the nerd_selection_score may vary. This allows researchers to count the number of occurrences and use this as an additional method to assess the contents of the book. The OAPEN_ID refers to the identifier of the title in the OAPEN Library. For more information about the entity-fishing query processing service see https://nerd.readthedocs.io/en/latest/restAPI.html#response.",
+    "Date: 2020-06-03"
+  ],
+  "description": "The core of this experiment is the use of the entity-fishing algorithm, as created and deployed by DARIAH. In the most simple terms: it scans texts for terms that can be linked to Wikipedia pages. Based on the algorithm, new keywords are added to the book descriptions, plus a list of relevant Wikipedia pages. For this experiment, the full text of 4125 books and chapters – available in the OAPEN Library – is scanned, resulting in a data file of over 25 million entries. In other words, on average the algorithm found roughly 6,100 ‘hits’ for each publication. When only the most common terms per publication are selected, does this result in a useful description of its content? The data file OK_Computer_results contains a list of open access books and chapters descriptions found in the OAPEN Library, combined with Wikipedia entries found using the entity-fishing algorithm, plus several actions to filter out only the terms which describe the publication best. Each book or chapter is available in the OAPEN Library (www.oapen.org), see the column HANDLE/ The data file nerd_oapen_response_database contains the complete data set. The other text files contain R code to manipulate the file nerd_oapen_response_database. Description of nerd_oapen_response_database: The data is divided into the following columns: Data Description OAPEN_ID Unique ID of the publication in the OAPEN Library rawName The entity as it appears in the text nerd_score Disambiguation confidence score nerd_selection_score Selection confidence score, indicates how certain the disambiguated entity is actually valid for the text mention wikipediaExternalRef ID of the Wikipedia page wiki_URL URL of the Wikipedia page type NER class of the entity domains Description of subject domain Each book may contain more than one occurrence of the same entity. The nerd_score and the nerd_selection_score may vary. This allows researchers to count the number of occurrences and use this as an additional method to assess the contents of the book. The OAPEN_ID refers to the identifier of the title in the OAPEN Library. For more information about the entity-fishing query processing service see https://nerd.readthedocs.io/en/latest/restAPI.html#response.",
+  "subjects": [
+    "Arts and Humanities"
+  ],
+  "keywords": [
+    "Open access books",
+    "entity fishing",
+    "wikipedia",
+    "classification",
+    "Library and information science"
+  ],
+  "languages": [
+    "English"
+  ],
+  "production_date": "2020-07-07",
+  "distribution_date": "2020-07-07",
+  "date_of_deposit": "2020-07-07",
+  "publication_year": 2020,
+  "temporal_coverage": [
+    "1954-2019 - Year of publication of the books and chapters listed"
+  ],
+  "spatial_coverage": [],
+  "license": "CC-BY-4.0",
+  "file_access_request": true,
+  "rights_holders": [
+    "Dr. R. Snijder (OAPEN Foundation)",
+    "Dr. R. Snijder (OAPEN Foundation)"
+  ],
+  "personal_data_present": "Unknown",
+  "relations": [],
+  "audience": [
+    "https://www.narcis.nl/classification/D30100"
+  ],
+  "collections": [],
+  "data_sources": [],
+  "file_count": 0,
+  "total_file_size_bytes": 0,
+  "has_restricted_files": null,
+  "files": [],
+  "_source_path": "data/doi-10.17026-DANS-2Z4-MRGM/metadata/dataset-metadata.json"
+}
