@@ -6,7 +6,7 @@ import hsn from "#/assets/HSN.png";
 import liss from "#/assets/LISS-Panel-Logo-RGB_V2_LISS-geel-panel-byCenterdata.png";
 import { m } from "#/paraglide/messages";
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className="text-sm text-slate-500 flex flex-col items-center justify-center">
       <div className="max-w-3xl p-4 md:p-10 ">

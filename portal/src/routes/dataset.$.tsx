@@ -18,8 +18,10 @@ export const Route = createFileRoute("/dataset/$")({
 function DatasetDetail() {
   const { dataset } = Route.useLoaderData();
   return (
-    <article className="mx-auto max-w-3xl py-8">
-      <DatasetDetails dataset={dataset} />
-    </article>
+    <div className="bg-zinc-100">
+      <article className="mx-auto max-w-3xl py-8">
+        <DatasetDetails dataset={dataset} />
+      </article>
+    </div>
   );
 }

@@ -8,7 +8,6 @@ import { Hits } from "#/integrations/instantsearch/Hits";
 import { Pagination } from "#/integrations/instantsearch/Pagination";
 import { DatasetDrawer } from "#/components/DatasetDrawer";
 import { Drawer } from "@base-ui/react/drawer";
-import Header from "#/components/Header";
 
 export const Route = createFileRoute("/_search")({
   loader: async () => getSearchServerState(),
@@ -23,9 +22,8 @@ function SearchLayout() {
     <InstantSearchSSRProvider {...serverState}>
       <Drawer.Provider>
         <Drawer.IndentBackground />
-        <Header />
         <InstantSearch searchClient={searchClient} indexName="datasets">
-          <div className="min-h-screen bg-[#fafaf9] text-zinc-950">
+          <div className="min-h-screen bg-zinc-100 text-zinc-950">
             <div className="mx-auto flex flex-col md:flex-row max-w-[1600px] gap-4 px-4 py-4 md:gap-8 md:px-8 md:py-8">
               <FacetSidebar />
               <main className="min-w-0 flex-1">
