@@ -74,7 +74,7 @@ function ResultCard({ hit }: { hit: DatasetHit }) {
           </Link>
         </h3>
 
-        <FileCountBadge count={hit.file_count} requested={hit.file_access_request} />
+        <FileCountBadge count={hit.file_count} requested={hit.file_access_request} pid={hit.id} />
       </div>
 
       <div className="mt-3 flex flex-wrap items-center gap-2">
@@ -105,7 +105,7 @@ function ResultCard({ hit }: { hit: DatasetHit }) {
             target="_blank"
             rel="noopener noreferrer"
             className="
-              relative z-10
+              relative
               inline-flex items-center gap-1
               rounded-full
               px-1
@@ -119,7 +119,7 @@ function ResultCard({ hit }: { hit: DatasetHit }) {
             "
           >
             {hit.doi}
-            <ArrowTopRightOnSquareIcon />
+            <ArrowTopRightOnSquareIcon className="size-4" />
           </a>
         )}
       </div>

@@ -4,6 +4,7 @@ import { m } from "#/paraglide/messages";
 type BadgeProps = {
   children: React.ReactNode;
   className?: string;
+  link?: string;
 };
 
 type SourceBadgeProps = {
@@ -35,20 +36,37 @@ function colorForSource(source: string) {
   return SOURCE_PALETTE[Math.abs(hash) % SOURCE_PALETTE.length];
 }
 
+const badgeClass =
+  "inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold ring-1 ring-inset";
+
 export function Badge({ children, className = "" }: BadgeProps) {
   return (
     <span
       className={`
-        inline-flex items-center gap-1.5
-        rounded-full
-        px-3 py-1
-        text-xs font-semibold
-        ring-1 ring-inset
+        ${badgeClass}
         ${className}
       `}
     >
       {children}
     </span>
+  );
+}
+
+export function LinkBadge({ children, className = "", link }: BadgeProps) {
+  return (
+    <a
+      className={`
+        ${badgeClass}
+        ${className}
+        transition
+        hover:text-cyan-600 hover:scale-105
+      `}
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {children}
+    </a>
   );
 }
 
@@ -72,15 +90,28 @@ export function LicenseBadge({ license }: LicenseBadgeProps) {
   );
 }
 
-export function FileCountBadge({ count, requested }: { count?: number; requested?: boolean }) {
+export function FileCountBadge({
+  count,
+  requested,
+  pid,
+}: {
+  count?: number;
+  requested?: boolean;
+  pid?: string;
+}) {
   const n = count ?? 0;
   const label =
     n === 0 ? (requested ? m.requestAccess() : m.noFiles()) : m.fileCountDetails({ count: n });
 
+  const BadgeVariant = requested ? LinkBadge : Badge;
+
   return (
-    <Badge className="bg-zinc-50 text-zinc-600 shrink-0">
+    <BadgeVariant
+      className="bg-zinc-50 text-zinc-600 shrink-0 relative z-10"
+      link={requested ? `https://dab.surf.nl/dataset?pid=doi:${pid}` : undefined}
+    >
       <DocumentIcon className="size-4" />
       {label}
-    </Badge>
+    </BadgeVariant>
   );
 }

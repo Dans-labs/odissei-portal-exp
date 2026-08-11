@@ -91,7 +91,7 @@ export function DatasetDrawer() {
           >
             {dataset && (
               <Drawer.Content>
-                <DatasetDetails dataset={dataset} />
+                <DatasetDetails dataset={dataset} isDrawer />
               </Drawer.Content>
             )}
           </Drawer.Popup>
@@ -102,19 +102,39 @@ export function DatasetDrawer() {
 }
 
 /* Content wrapper */
-export function DatasetDetails({ dataset }: { dataset: DatasetDetail }) {
+export function DatasetDetails({
+  dataset,
+  isDrawer,
+}: {
+  dataset: DatasetDetail;
+  isDrawer?: boolean;
+}) {
   return (
     <>
-      <Header dataset={dataset} />
-      <div className="space-y-8 px-8 py-8">
+      {isDrawer ? (
+        <Header dataset={dataset} />
+      ) : (
+        <div className="space-y-8 px-8 pt-8 pb-0">
+          <h1 className="text-2xl font-bold mb-2">{dataset.title}</h1>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <SourceBadge source={dataset.data_source} />
+            {dataset.license && <LicenseBadge license={dataset.license} />}
+          </div>
+        </div>
+      )}
+      <div className="p-4 space-y-4 md:space-y-8 md:p-8">
         <CtaAndStats dataset={dataset} />
 
         {dataset.description && (
           <section>
             <SectionTitle>{m.description()}</SectionTitle>
-            <Drawer.Description className="mt-3 text-sm leading-7 text-zinc-600">
-              {dataset.description}
-            </Drawer.Description>
+            {isDrawer ? (
+              <Drawer.Description className="mt-3 text-sm leading-7 text-zinc-600">
+                {dataset.description}
+              </Drawer.Description>
+            ) : (
+              <p className="mt-3 text-sm leading-7 text-zinc-600">{dataset.description}</p>
+            )}
           </section>
         )}
         <DetailTabs dataset={dataset} />
@@ -129,7 +149,7 @@ function Header({ dataset }: { dataset: DatasetDetail }) {
     <div
       className="
         sticky top-0 z-10 border-b border-zinc-200
-        bg-[#fafaf9]/90 px-8 py-6 backdrop-blur
+        bg-[#fafaf9]/90 px-4 md:px-8 py-4 md:py-6 backdrop-blur
       "
     >
       <div className="flex justify-between gap-6">
@@ -415,22 +435,39 @@ function AccessPanel({ dataset }: { dataset: DatasetDetail }) {
       <MetadataRow label={m.license()} value={dataset.license} />
       <MetadataRow label={m.dataSource()} value={dataset.data_source} />
 
-      <div className="flex justify-between gap-4 rounded-2xl border border-zinc-200 bg-white px-4 py-3">
-        <span className="text-sm text-zinc-400">{m.fileAccess()}</span>
-        <span
-          className={`
-            inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5
-            text-xs font-semibold
-            ${dataset.file_access_request ? "bg-amber-50 text-amber-700" : "bg-emerald-50 text-emerald-700"}
-          `}
-        >
-          {dataset.file_access_request ? (
-            <LockClosedIcon className="size-4" />
-          ) : (
-            <LockOpenIcon className="size-4" />
-          )}
-          {dataset.file_access_request ? "Request required" : "Open access"}
-        </span>
+      <div className="flex flex-stretch gap-2">
+        <div className="flex flex-1 justify-between gap-4 rounded-2xl border border-zinc-200 bg-white px-4 py-3">
+          <span className="text-sm text-zinc-400">{m.fileAccess()}</span>
+          <span
+            className={`
+              inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5
+              text-xs font-semibold
+              ${dataset.file_access_request ? "bg-amber-50 text-amber-700" : "bg-emerald-50 text-emerald-700"}
+            `}
+          >
+            {dataset.file_access_request ? (
+              <LockClosedIcon className="size-4" />
+            ) : (
+              <LockOpenIcon className="size-4" />
+            )}
+            {dataset.file_access_request ? "Request required" : "Open access"}
+          </span>
+        </div>
+        {dataset.file_access_request && (
+          <a
+            href={`https://dab.surf.nl/dataset?pid=doi:${dataset.doi}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="
+              flex items-center gap-1.5 rounded-2xl bg-linear-to-r from-cyan-500 to-blue-600
+              px-5 py-3 text-sm font-medium text-white shadow-sm
+              transition hover:brightness-110 active:scale-[0.99]
+            "
+          >
+            {m.requestAccess()}
+            <ArrowTopRightOnSquareIcon className="size-4" />
+          </a>
+        )}
       </div>
 
       <div className="flex justify-between gap-4 rounded-2xl border border-zinc-200 bg-white px-4 py-3">
