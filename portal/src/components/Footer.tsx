@@ -8,19 +8,20 @@ import { m } from "#/paraglide/messages";
 
 export function Footer() {
   return (
-    <footer className="p-4 md:p-10 text-sm text-slate-500 flex flex-col gap-6 md:gap-10 lg:gap-16 items-center justify-center">
-      <div className="max-w-3xl">
-        <h2 className="mb-3 text-lg font-semibold text-zinc-700">{m.footerTitle()}</h2>
-        <p className="mb-3 text-sm leading-5 text-zinc-600">{m.footerParagraph1()}</p>
-        <p className="text-sm leading-5 text-zinc-600">{m.footerParagraph2()}</p>
+    <footer className="text-sm text-slate-500 flex flex-col items-center justify-center">
+      <div className="max-w-3xl p-4 md:p-10 ">
+        <h2 className="mb-3 text-lg font-semibold text-zinc-500">{m.footerTitle()}</h2>
+        <p className="mb-3 text-sm leading-5 text-zinc-500">{m.footerParagraph1()}</p>
+        <p className="text-sm leading-5 text-zinc-500">{m.footerParagraph2()}</p>
       </div>
-      <div className="flex gap-14 justify-center items-center flex-wrap">
-        <img src={cbs} alt="CBS" className="h-20" />
-        <img src={cd2} alt="CD2" className="h-20" />
-        <img src={dans} alt="DANS" className="h-20" />
-        <img src={dataverse} alt="DataverseNL" className="h-20" />
-        <img src={hsn} alt="HSN" className="h-20" />
-        <img src={liss} alt="LISS" className="h-20" />
+      <div className="h-px w-full bg-zinc-200" />
+      <div className="flex gap-8 md:gap-14 justify-center items-center flex-wrap p-4 md:p-10">
+        <img src={cbs} alt="CBS" className="h-14 md:h-20" />
+        <img src={cd2} alt="CD2" className="h-14 md:h-20" />
+        <img src={dans} alt="DANS" className="h-14 md:h-20" />
+        <img src={dataverse} alt="DataverseNL" className="h-14 md:h-20" />
+        <img src={hsn} alt="HSN" className="h-14 md:h-20" />
+        <img src={liss} alt="LISS" className="h-14 md:h-20" />
       </div>
     </footer>
   );

@@ -35,7 +35,7 @@ export function Pagination() {
         flex
         justify-center
         flex-wrap
-        gap-2
+        gap-4
         "
     >
       <div
