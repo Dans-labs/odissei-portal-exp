@@ -1,4 +1,5 @@
 import { HeadContent, Scripts, createRootRouteWithContext } from "@tanstack/react-router";
+import { Footer } from "#/components/Footer";
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
 import { TanStackDevtools } from "@tanstack/react-devtools";
 import TanStackQueryDevtools from "../integrations/tanstack-query/devtools";
@@ -37,6 +38,23 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
         rel: "stylesheet",
         href: appCss,
       },
+      {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "/src/assets/odissei-logo-180.png",
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "/src/assets/odissei-logo-32.png",
+      },
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        href: "/src/assets/odissei-logo-16.png",
+      },
     ],
   }),
   shellComponent: RootDocument,
@@ -50,6 +68,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       </head>
       <body>
         {children}
+        <Footer />
         <TanStackDevtools
           config={{
             position: "bottom-right",

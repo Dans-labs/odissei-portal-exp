@@ -17,10 +17,8 @@ export const getDataset = createServerFn({ method: "GET" })
   .validator((id: string) => id)
   .handler(async ({ data }) => {
     const client = createTypesenseClient();
-
     try {
       const dataset = await client.collections<Dataset>("datasets").documents(data).retrieve();
-
       return { dataset };
     } catch {
       return { dataset: null };

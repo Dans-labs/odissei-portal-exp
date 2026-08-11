@@ -37,7 +37,7 @@ SCHEMA = {
 
         {"name": "data_source", "type": "string", "facet": True},
 
-        {"name": "title", "type": "string"},
+        {"name": "title", "type": "string", "sort": True},
         {"name": "authors", "type": "string[]", "facet": True, "optional": True},
         {"name": "contributors", "type": "string[]", "facet": True, "optional": True},
         {"name": "contacts", "type": "object[]", "optional": True, "index": False},

@@ -1,4 +1,5 @@
 import { useHits } from "react-instantsearch";
+import { SortBy } from "./Sort";
 import { Link } from "@tanstack/react-router";
 import { m } from "#/paraglide/messages";
 import { CalendarIcon, ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
@@ -24,9 +25,12 @@ export function Hits() {
 
   return (
     <div>
-      <p className="mb-4 text-right text-sm text-gray-500">
-        {m.resultCount({ count: results?.nbHits ?? 0 })}
-      </p>
+      <div className="flex justify-end items-center gap-4 mb-4">
+        <p className="text-right text-sm text-gray-500">
+          {m.resultCount({ count: results?.nbHits ?? 0 })}
+        </p>
+        <SortBy />
+      </div>
       <div className="space-y-4">
         {items.map((hit) => (
           <ResultCard key={hit.id} hit={hit} />

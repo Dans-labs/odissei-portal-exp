@@ -107,7 +107,7 @@ export function FileCountBadge({
 
   return (
     <BadgeVariant
-      className="bg-zinc-50 text-zinc-600 shrink-0 relative z-10"
+      className="bg-zinc-50 text-zinc-500 shrink-0 relative z-10"
       link={requested ? `https://dab.surf.nl/dataset?pid=doi:${pid}` : undefined}
     >
       <DocumentIcon className="size-4" />
