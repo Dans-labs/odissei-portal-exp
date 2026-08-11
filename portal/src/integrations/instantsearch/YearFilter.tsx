@@ -1,5 +1,6 @@
 import { useMemo, useRef } from "react";
 import { useRefinementList } from "react-instantsearch";
+import { m } from "#/paraglide/messages";
 
 const YEARLY_VIEW_THRESHOLD = 40; // spans wider than this collapse into decades
 
@@ -137,9 +138,7 @@ export function YearFilter({ attribute = "publication_year" }: { attribute?: str
         </div>
       )}
 
-      <p className="mt-2 text-[11px] text-zinc-400">
-        Click to toggle a year · Shift-click to select a range
-      </p>
+      <p className="mt-2 text-[11px] text-zinc-400">{m.yearFilterHint()}</p>
     </div>
   );
 }

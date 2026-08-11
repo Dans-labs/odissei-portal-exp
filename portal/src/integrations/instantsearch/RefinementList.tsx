@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { m } from "#/paraglide/messages";
 import { useRefinementList } from "react-instantsearch";
 import { CheckboxGroup } from "@base-ui/react/checkbox-group";
 import { Checkbox } from "#/components/Checkbox";
@@ -57,7 +58,7 @@ export function RefinementList({
         }}
         className="space-y-1.5"
       >
-        {items.length === 0 && <p className="py-1 text-xs text-zinc-400">No matches</p>}
+        {items.length === 0 && <p className="py-1 text-xs text-zinc-400">{m.noMatches()}</p>}
         {items.map((item) => (
           <Checkbox key={item.value} label={item.label} value={item.value} count={item.count} />
         ))}
@@ -68,7 +69,7 @@ export function RefinementList({
           onClick={toggleShowMore}
           className="text-xs font-medium text-cyan-600 transition hover:text-cyan-700 cursor-pointer"
         >
-          {isShowingMore ? "Show less" : "Show more"}
+          {isShowingMore ? m.showLess() : m.showMore()}
         </button>
       )}
     </div>

@@ -1,12 +1,13 @@
 import { useSortBy } from "react-instantsearch";
 import { Select } from "#/components/Select";
+import { m } from "#/paraglide/messages";
 
 export function SortBy() {
   const { options, currentRefinement, refine } = useSortBy({
     items: [
-      { value: "datasets", label: "Relevance" },
-      { value: "datasets/sort/title:asc", label: "Title (A-Z)" },
-      { value: "datasets/sort/title:desc", label: "Title (Z-A)" },
+      { value: "datasets", label: m.sortByRelevance() },
+      { value: "datasets/sort/title:asc", label: m.sortByTitleAsc() },
+      { value: "datasets/sort/title:desc", label: m.sortByTitleDesc() },
     ],
   });
 
@@ -15,7 +16,7 @@ export function SortBy() {
       onValueChange={(value) => refine(value ?? "")}
       items={options.map((item) => ({ label: item.label, value: item.value }))}
       value={currentRefinement}
-      label="Sort by"
+      label={m.sortBy()}
     />
   );
 }

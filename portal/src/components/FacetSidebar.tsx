@@ -56,6 +56,9 @@ function ClearRefinementsButton() {
           active:scale-[0.98] cursor-pointer
         `,
       }}
+      translations={{
+        resetButtonText: m.clearRefinements(),
+      }}
     />
   );
 }
