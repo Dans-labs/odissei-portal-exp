@@ -143,7 +143,7 @@ function MobileFacetDrawer() {
 
       <Drawer.Portal>
         <Drawer.Backdrop
-          className={`${styles.Backdrop} fixed inset-0 z-20 bg-gray-600 md:hidden backdrop-blur ${isExpanded ? "pointer-events-auto" : "pointer-events-none"}`}
+          className={`${styles.Backdrop} fixed inset-0 z-20 bg-gray-600 dark:bg-gray-700 md:hidden backdrop-blur ${isExpanded ? "pointer-events-auto" : "pointer-events-none"}`}
           onClick={() => setSnapPoint(PEEK_SNAP_POINT)}
         />
 
@@ -155,8 +155,8 @@ function MobileFacetDrawer() {
               ${styles.Popup}
               pointer-events-auto
               flex h-[85vh] flex-col
-              rounded-t-3xl border-t border-gray-200/80
-              bg-white${!isExpanded ? "/80" : ""} shadow-[0_-4px_24px_rgba(0,0,0,0.08)] backdrop-blur
+              rounded-t-3xl border-t border-gray-200/80 dark:border-gray-800/80!
+              bg-white${!isExpanded ? "/80" : ""} dark:bg-gray-950${!isExpanded ? "/80" : ""} shadow-[0_-4px_24px_rgba(0,0,0,0.08)] backdrop-blur
             `}
           >
             {/* Handle bar — the ONLY thing that toggles open <-> closed */}

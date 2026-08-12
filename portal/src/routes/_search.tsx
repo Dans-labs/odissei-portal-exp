@@ -2,11 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { LoadingIndicator } from "#/integrations/instantsearch/Loading";
 import { useMemo } from "react";
 import { InstantSearch, InstantSearchSSRProvider } from "react-instantsearch";
+import SearchWrapper from "#/integrations/instantsearch/SearchWrapper";
 import { createSearchClient } from "#/integrations/instantsearch/client";
 import { getSearchServerState } from "#/integrations/instantsearch/search-state";
-import { FacetSidebar } from "#/components/FacetSidebar";
-import { Hits } from "#/integrations/instantsearch/Hits";
-import { Pagination } from "#/integrations/instantsearch/Pagination";
 import { DatasetDrawer } from "#/components/DatasetDrawer";
 import { Drawer } from "@base-ui/react/drawer";
 
@@ -26,14 +24,8 @@ function SearchLayout() {
         <InstantSearch searchClient={searchClient} indexName="datasets">
           <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
             <LoadingIndicator />
-            <div className="mx-auto flex flex-col md:flex-row max-w-[1600px] gap-4 px-4 py-4 md:gap-8 md:px-8 md:py-8">
-              <FacetSidebar />
-              <main className="min-w-0 flex-1">
-                <Hits />
-                <Pagination />
-                <DatasetDrawer />
-              </main>
-            </div>
+            <SearchWrapper />
+            <DatasetDrawer />
           </div>
         </InstantSearch>
       </Drawer.Provider>
