@@ -5,6 +5,8 @@ import dataverse from "#/assets/DataverseNL-logo-1.png";
 import hsn from "#/assets/HSN.png";
 import liss from "#/assets/LISS-Panel-Logo-RGB_V2_LISS-geel-panel-byCenterdata.png";
 import { m } from "#/paraglide/messages";
+import { cn } from "#/utils/cn";
+import { devider } from "#/utils/surfaces";
 
 export default function Footer() {
   return (
@@ -14,7 +16,7 @@ export default function Footer() {
         <p className="mb-3 text-sm">{m.footerParagraph1()}</p>
         <p className="text-sm">{m.footerParagraph2()}</p>
       </div>
-      <div className="h-px w-full bg-gray-200 dark:bg-gray-800" />
+      <div className={cn("h-px w-full border-b", devider)} />
       <div className="flex gap-8 md:gap-14 justify-center items-center flex-wrap p-4 md:p-10">
         <img src={cbs} alt="CBS" className="h-14 md:h-20" />
         <img src={cd2} alt="CD2" className="h-14 md:h-20" />
