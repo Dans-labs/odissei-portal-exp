@@ -1,0 +1,596 @@
+{
+  "id": 604685,
+  "identifier": "F2ZV9E",
+  "persistentUrl": "https://doi.org/10.34894/F2ZV9E",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-01-27",
+  "storageIdentifier": "surf://10.34894/F2ZV9E",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 33870,
+    "datasetId": 604685,
+    "datasetPersistentId": "doi:10.34894/F2ZV9E",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/F2ZV9E",
+    "versionNumber": 2,
+    "internalVersionNumber": 19,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-01-27T13:39:27Z",
+    "releaseTime": "2026-01-27T13:39:27Z",
+    "createTime": "2026-01-27T13:39:17Z",
+    "publicationDate": "2026-01-27",
+    "citationDate": "2026-01-27",
+    "termsOfUse": "CC-BY-SA",
+    "termsOfAccess": "No access.",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Demographic data for Guelders"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Demografische data Gelderse Geschiedenis"
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Moes, Rozemarijn"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Verhoeven, Dolly"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Verhoeven, Dolly"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Moes, Rozemarijn"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains information on and estimates of the population in Guelders from prehistory to 2019. Its creation was part of the project ‘Verhaal van Gelderland’ and was aimed at creating a global overview of long term (regional) population developments in Guelders. To this end, population estimates were collected from literature and/or complemented by new estimates and calculations. The full bibliography and an explanation of the dataset can be found in: Rozemarijn Moes, Rapportage demografische ontwikkeling Gelderland: algemeen document (15 January 2021), incl. addendum ‘Aanpassing eindcijfers deel 4’. Please note that the database and the report are in Dutch.\nThe dataset includes:<br>\n<ul>\n<li>\tPopulation numbers per municipality 1795-2019 </li>\n<ul>\n<li>This information is derived from a.o.:</li>\n<ul>\n<li>\tDataverse, ‘Historical Database of Dutch Municipalities (International Institute of Social History)’, <https://datasets.iisg.amsterdam/file.xhtml?fileId=3988&version=2.0> [version 2010, downloaded February 2020] </li>\n<li>\tCBS StatLine</li>\n<li>\tThe national censuses, accessed at Volkstellingen.nl</li>\n<li>\t‘Lijsten van het aantal zielen en van het aantal meerderjarige mannen, ingezonden door municipaliteiten en justitiële ambtenaren t.b.v. de vaststelling van grondvergaderingen ingevolge aanschrijving van het Provinciaal College van 26 september 1795, en ter behandeling aan het departement overgedragen, 1795,’ Gelders Archief, Arnhem, 0016 Gewestelijke besturen in de Bataafs-Franse tijd, MS 233-235.</li>\n</ul></ul>\n<li>Development of municipalities;</li>\n<ul>\n<li>That is: creation and termination, and, in case of the latter with what municipality the territory fused;</li> \n<li>Based mostly on: Meer, A. van der, en O. Boonstra, Repertorium van Nederlandse gemeenten vanaf 1812 waaraan toegevoegd de Amsterdamse code, DANS Data Guide 2, tweede editie (z.p. 2011) and Wikipedia;</li>\n<li>This database does not list changes in borders, only a separate list of provincial border changes;</li>\n</ul>\n<li>Guelders city size estimates for the period 1100-1795 from different authors;</li>\n<li>Population in 1795 per hamlet;</li>\n<ul>\n<li>Based on the hand written census records in het Gelders Archief (see above); </li>\n<li>Including the processing of these numbers into the aggregation level of 19th-century municipalities;</li>\n<li>The full explanation and additional corrections (Elburg, Lent and German territory) can be found in the report (see above);</li>\n</ul>\n<li>Long term estimates for Guelders and each of its three (current as of 2021) regions based on the entire report;</li>\n<li>Birth, death and migration numbers per municipality, region and for the entire province, for the 19th and 20th century;</li>\n<ul>\n<li>Based on:</li>\n<ul>\n<li>the numbers of S. Verhoeven, see also S. Verhoeven, ‘Toezien, vastleggen en bestrijden. Infectieziekten en het geneeskundig toezicht in Gelderland in de negentiende eeuw”, Bijdragen en Mededelingen Gelre 111 (2020), 169-196;</li>\n<li>HDNG (see above);</li>\n<li>CBS StatLine;</li>\n</ul>\n<li>For full explanation and an explanation of the calculation of saldi, please read the report (above). In most cases the calculation is ‘lazy’, using not the average population in a year, but the population on December 31th;</li>\n</ul>\n<li>Population characteristics and origin in the 19th century according to the censuses;</li>\n<li>20th century population density and municipal surface, based on:</li>\n<ul>\n<li>HDNG;</li>\n<li>CBS StatLine;</li>\n<li>Statistisch Zakboek Gelderland.</li>\n</ul>\n</ul>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-10-15"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Moes, R. 2021. Rapportage demografische ontwikkeling Gelderland. pp 316."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "url"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.sambis.nl/iguana/www.main.cls?surl=search&p=f7e4f44c-063f-11e6-85de-50569b526600#recordId=2.2014576"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.sambis.nl/iguana/www.main.cls?surl=search&p=f7e4f44c-063f-11e6-85de-50569b526600#recordId=2.2014576"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Zijdeman, Richard"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-11-24"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/F2ZV9E"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:3c0ac96a-0a19-4253-94ca-6484b6666b95"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-161f319f-763e-440c-858c-58b313e7c8f2"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "aanpassing-eindcijfers-deel4.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604698,
+          "persistentId": "",
+          "filename": "aanpassing-eindcijfers-deel4.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 289062,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffae16f0-e60395467daf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "edc49584f2a22020484a6a455d0d1789d217c291"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Bevolkingsdichtheden 20e eeuw.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604686,
+          "persistentId": "",
+          "filename": "Bevolkingsdichtheden 20e eeuw.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 98568,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadeceb-79fa8f4ae531",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "115557adf5461d6010f1f5ab2a7c177a2e55dc18"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Bevolkingskenmerken 19eE Volkstellingen.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604687,
+          "persistentId": "",
+          "filename": "Bevolkingskenmerken 19eE Volkstellingen.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 31390165,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadef93-b16537e43cf3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "345e956c5e1004d61c9f90b77dc0ab85857e27f6"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "De bevolking 1795-heden.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604688,
+          "persistentId": "",
+          "filename": "De bevolking 1795-heden.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 168254,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadf230-15a882122d65",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8482652c4dfcf8d1f592a6793ff278179105a8ec"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Geboorte en sterfte 19eE.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604689,
+          "persistentId": "",
+          "filename": "Geboorte en sterfte 19eE.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 649610,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadf311-839891a811bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "55dc1576fd0076126ef96940b621bdb6c84dd60d"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Geboorte en sterfte 20eE.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604690,
+          "persistentId": "",
+          "filename": "Geboorte en sterfte 20eE.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 9492844,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadf538-babfb509625c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3fc6b538518a2462d30026108268dddb7fa1882c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Gemeenteverloop samenvoeging en splitsing.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604691,
+          "persistentId": "",
+          "filename": "Gemeenteverloop samenvoeging en splitsing.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 122733,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadf6d8-5cd42d4de405",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1ec8684d2230d6c47c490abea7567c0e967dab01"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Herkomst 19e eeuw volkstellingen.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604692,
+          "persistentId": "",
+          "filename": "Herkomst 19e eeuw volkstellingen.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 213769,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadf7bb-5d61419d67fc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ace9b992efdfe2ad734a00c800b8393a5ce81f1f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Migratie 19e eeuw.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604693,
+          "persistentId": "",
+          "filename": "Migratie 19e eeuw.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1090675,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadfb75-c9e3eae3d2a9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4ee355ae575af743c7e544262e68fe9788cb0490"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Migratie 20e eeuw.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604694,
+          "persistentId": "",
+          "filename": "Migratie 20e eeuw.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1817757,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadfc86-77c4660597f2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7dc8fadaab509387f9961f4fd7c124d0e3e30ba1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "rapportage-demografische-ontwikkeling-gelderland.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604699,
+          "persistentId": "",
+          "filename": "rapportage-demografische-ontwikkeling-gelderland.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 8801945,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffae295e-0a6eeb288f3f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8a22e0254fe406597f5169b26b022316c38fdf25"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Reconstructie prehistorie-heden ME veranderd conform addendum, 15-6.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604695,
+          "persistentId": "",
+          "filename": "Reconstructie prehistorie-heden ME veranderd conform addendum, 15-6.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 31618,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadfd87-3ea94473fcc1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2e3384783aeb6ec84fccf0cb17bb81448e9553a2"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Steden middeleeuwen - vroeg modern.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604696,
+          "persistentId": "",
+          "filename": "Steden middeleeuwen - vroeg modern.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 48474,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadfe68-74540ed87a44",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "02469602acb886b1fcc0f76c088829bff9fcfbb8"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Volkstelling 1795.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33870,
+        "dataFile": {
+          "id": 604697,
+          "persistentId": "",
+          "filename": "Volkstelling 1795.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 99677,
+          "description": "",
+          "storageIdentifier": "surf://store:19bffadff4d-484c6a4952d1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cdc42017c654393a22edce33cc4e984d17f557b4"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Moes, Rozemarijn; Verhoeven, Dolly, 2026, \"Demographic data for Guelders\", https://doi.org/10.34894/F2ZV9E, DataverseNL, V2"
+  }
+}

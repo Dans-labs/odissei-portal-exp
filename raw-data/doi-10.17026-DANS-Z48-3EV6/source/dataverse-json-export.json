@@ -1,0 +1,580 @@
+{
+  "id": 613992,
+  "identifier": "dans-z48-3ev6",
+  "persistentUrl": "https://doi.org/10.17026/DANS-Z48-3EV6",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2021-01-01",
+  "storageIdentifier": "surf://10.17026/dans-z48-3ev6",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24529,
+    "datasetId": 613992,
+    "datasetPersistentId": "doi:10.17026/DANS-Z48-3EV6",
+    "storageIdentifier": "surf://10.17026/dans-z48-3ev6",
+    "versionNumber": 2,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2022-01-27",
+    "productionDate": "2021-01-01",
+    "lastUpdateTime": "2025-02-20T15:39:53Z",
+    "releaseTime": "2020-12-31T23:00:00Z",
+    "createTime": "2025-02-20T14:55:16Z",
+    "publicationDate": "2021-01-01",
+    "citationDate": "2021-01-01",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    "termsOfAccess": "The total size of the dataset exceeds the download limits. Please\ncontact DANS at info@dans.knaw.nl for delivery of the dataset.",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "SpokenSTS"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:237533"
+                }
+              },
+              {
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "690743"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "D.G.M. Merkx"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "DAI"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "info:eu-repo/dai/nl/41326534X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "S.L. Frank"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "DAI"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "info:eu-repo/dai/nl/263294005"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "M.T.C. Ernestus"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "DAI"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "info:eu-repo/dai/nl/165662689"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "RU  Radboud University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Spoken versions of the Semantic Textual Similarity dataset for testing semantic sentence level embeddings.<br>Contains thousands of sentence pairs annotated by humans for semantic similarity. The spoken sentences can be used in sentence embedding models to test whether your model learns to capture sentence semantics.<br>All sentences available in 6 synthetic Wavenet voices and a subset (5%) in 4 real voices recorded in a sound attenuated booth. Code to train a visually grounded spoken sentence embedding model and evaluation code is available at https://github.com/DannyMerkx/speech2image/tree/Interspeech21</p>"
+                }
+              },
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>The total size of the dataset exceeds the download limits. Please<br>contact DANS at info@dans.knaw.nl for delivery of the dataset.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Semantic Sentence Similarity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Representation Learning"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Speech Recognition"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch",
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-01-01"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-01-27"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-02-23"
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Radboud University"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D16000",
+              "https://www.narcis.nl/classification/D36000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D16000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Computer science"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Informatica"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D36000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Taal- en literatuurwetenschappen"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Language and literature studies"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Merkx, D.G.M., Ernestus, M.T.C. & Frank, S.L. (2021). Semantic sentence similarity. Size does not always matter. In <i>Proceedings of Interspeech 2021</i> (pp. 4393-4397). ISCA doi: <a href=\"https://doi.org/10.21437/Interspeech.2021-1464\" target=\"_blank\">10.21437/Interspeech.2021-1464</a>"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Merkx, D.G.M., Ernestus, M.T.C. & Frank, S.L. (2021). <i>Semantic sentence similarity: size does not always matter.</i> [data management plan]."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Collection period: start=2019-08-01; end=2020-02-20;"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageText",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "north=51.81925368550771; east=5.865797996520996Nijmegen"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/dans-z48-3ev6"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:74865161-504e-4bcc-8e81-9025229d3252"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-to-x7sw"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24529,
+        "dataFile": {
+          "id": 613995,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 18181,
+          "description": "",
+          "storageIdentifier": "surf://store:19523db19a7-4936c89e2a05",
+          "rootDataFileId": 613993,
+          "previousDataFileId": 613993,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "026af0b2f79bb9e1e91048eae95cbb972437b62c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-02-20",
+          "publicationDate": "2021-01-01",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "original-2.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24529,
+        "dataFile": {
+          "id": 613998,
+          "persistentId": "",
+          "filename": "original-2.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 9675354515,
+          "description": "",
+          "storageIdentifier": "surf://store:19523f12271-8b432d76b393",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "860f4f07473355e5370bc0b5ed9b8e5c62447527"
+          },
+          "tabularData": false,
+          "creationDate": "2025-02-20",
+          "publicationDate": "2021-01-01",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "original-3.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24529,
+        "dataFile": {
+          "id": 613999,
+          "persistentId": "",
+          "filename": "original-3.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 9671319514,
+          "description": "",
+          "storageIdentifier": "surf://store:19523fa2530-34b49ae9cd11",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7dbbd8e39315ee9a02d12d7af2b87f68d482e348"
+          },
+          "tabularData": false,
+          "creationDate": "2025-02-20",
+          "publicationDate": "2021-01-01",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "original-4.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24529,
+        "dataFile": {
+          "id": 613996,
+          "persistentId": "",
+          "filename": "original-4.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 9671553240,
+          "description": "",
+          "storageIdentifier": "surf://store:19523e1d126-32df1870ac14",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "51465b7ae45d3faff0ca440b9c63ec6f820012e5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-02-20",
+          "publicationDate": "2021-01-01",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "original-5.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24529,
+        "dataFile": {
+          "id": 613997,
+          "persistentId": "",
+          "filename": "original-5.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 7572257296,
+          "description": "",
+          "storageIdentifier": "surf://store:19523e964b8-5dc3b9dbdb46",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c6322632dd363a4411476e012e4b26a65a147653"
+          },
+          "tabularData": false,
+          "creationDate": "2025-02-20",
+          "publicationDate": "2021-01-01",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "original.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24529,
+        "dataFile": {
+          "id": 614000,
+          "persistentId": "",
+          "filename": "original.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 9677185662,
+          "description": "",
+          "storageIdentifier": "surf://store:1952401ee34-83a775b6845d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8fbf0c5e285529ca9cb662718d21bd647ed35a4e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-02-20",
+          "publicationDate": "2021-01-01",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "D.G.M. Merkx; S.L. Frank; M.T.C. Ernestus, 2021, \"SpokenSTS\", https://doi.org/10.17026/DANS-Z48-3EV6, DANS Data Station Social Sciences and Humanities, V2"
+  }
+}

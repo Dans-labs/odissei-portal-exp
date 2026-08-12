@@ -25,7 +25,16 @@
   ],
   "requestAccess": "Toegang aanvragen",
   "noFiles": "Geen bestanden",
-  "fileCountDetails": "{count} bestand | {count} bestanden",
+  "fileCountDetails": [
+    {
+      "declarations": ["input count", "local countPlural = count: plural"],
+      "selectors": ["countPlural"],
+      "match": {
+        "countPlural=one": "{count} bestand",
+        "countPlural=other": "{count} bestanden"
+      }
+    }
+  ],
   "fileAccess": "Bestandstoegang",
   "personalDataPresent": "Persoonsgegevens aanwezig",
   "languages": "Talen",
@@ -64,5 +73,14 @@
   "sortByOldest": "Oudste eerst",
   "sortByTitleAsc": "Titel (A-Z)",
   "sortByTitleDesc": "Titel (Z-A)",
-  "yearFilterHint": "Klik om een jaar te selecteren · Shift-klik om een bereik te selecteren"
+  "sortByDateOfDepositAsc": "Datum van deponering (oudste eerst)",
+  "sortByDateOfDepositDesc": "Datum van deponering (nieuwste eerst)",
+  "yearFilterHint": "Klik om een jaar te selecteren · Shift-klik om een bereik te selecteren",
+  "filter": "Filter",
+  "loadingLonger": "Laden duurt wat langer...",
+  "themeSystem": "Systeem",
+  "themeLight": "Licht",
+  "themeDark": "Donker",
+  "themeSwitcherButton": "Schakel thema naar: {theme}",
+  "themeSwitcherButtonGroup": "Themakeuze, huidig thema: {theme}"
 }

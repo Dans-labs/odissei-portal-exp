@@ -2,16 +2,27 @@
 """
 import_to_typesense.py
 
-Reads the combined NDJSON produced by flatten_datasets.py and bulk-upserts
-every record into the Typesense 'datasets' collection.
+Reads the combined NDJSON produced by flatten_datasets.py or
+flatten_dataverse_export.py and bulk-upserts every record into the
+Typesense 'datasets' collection.
 
-Handles two things Typesense is picky about:
+Handles three things Typesense is picky about:
   1. No explicit nulls: optional fields with value None (or empty list,
      for the file-count/restricted-files case) must be omitted from the
      document entirely, not sent as null.
   2. Date fields: adds *_timestamp (int64, unix seconds) alongside the
-     existing *_date strings, so the frontend can do real numeric range
-     filtering/sorting on dates, not just string comparisons.
+     existing *_date/*_time strings, so the frontend can do real numeric
+     range filtering/sorting on dates, not just string comparisons.
+     Source dates come in two shapes depending on which flattener produced
+     them — plain "YYYY-MM-DD" (both sources) and full ISO-8601 datetimes
+     like "2025-03-20T13:59:00Z" (Dataverse export only, for
+     last_update_time/release_time) — parse_date_to_timestamp handles both.
+  3. Field drift between sources: flatten_dataverse_export.py populates a
+     few fields (version_number, license_uri, citation_text, etc.) that
+     flatten_datasets.py never sets. Since prepare_document copies whatever
+     keys are present on the record and only special-cases the *_date/
+     *_time -> *_timestamp fields below, no per-source branching is needed
+     here — new optional fields just flow through.
 
 Usage:
   pip install typesense
@@ -32,18 +43,45 @@ from typesense_schema import COLLECTION_NAME, OPTIONAL_FIELDS, DROP_FIELDS
 
 BATCH_SIZE = 200
 
+# date/time field -> derived timestamp field, both source formats included.
+TIMESTAMP_FIELD_MAP = {
+    "production_date": "production_timestamp",
+    "distribution_date": "distribution_timestamp",
+    "date_of_deposit": "date_of_deposit_timestamp",
+    "last_update_time": "last_update_timestamp",   # Dataverse export only
+    "release_time": "release_timestamp",           # Dataverse export only
+}
+
 
 def parse_date_to_timestamp(date_str):
-    """Best-effort parse of common date formats found in the source data
-    (full ISO dates like '2008-08-01', or occasionally just a year)."""
+    """
+    Best-effort parse of the date/datetime formats found in the source
+    data:
+      - plain dates: "2008-08-01", "2008-08", "2008"
+      - ISO-8601 datetimes: "2025-03-20T13:59:00Z" (the trailing 'Z' is
+        swapped for '+00:00' since Python's fromisoformat didn't accept
+        bare 'Z' until 3.11 — this keeps it working on older runtimes too)
+    """
     if not date_str:
         return None
+    s = str(date_str).strip()
+
+    iso_candidate = s[:-1] + "+00:00" if s.endswith("Z") else s
+    try:
+        dt = datetime.fromisoformat(iso_candidate)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone.utc)
+        return int(dt.timestamp())
+    except ValueError:
+        pass
+
     for fmt in ("%Y-%m-%d", "%Y-%m", "%Y"):
         try:
-            dt = datetime.strptime(date_str, fmt).replace(tzinfo=timezone.utc)
+            dt = datetime.strptime(s, fmt).replace(tzinfo=timezone.utc)
             return int(dt.timestamp())
         except ValueError:
             continue
+
     return None
 
 
@@ -51,16 +89,15 @@ def prepare_document(record: dict) -> dict:
     doc = {k: v for k, v in record.items() if k not in DROP_FIELDS}
 
     # Typesense's own document id must be a string and, by convention here,
-    # equal to the DOI (also used as the 'id' field in flatten_datasets.py).
+    # equal to the DOI (also used as the 'id' field in both flatteners).
     doc["id"] = str(doc.get("id") or doc.get("doi") or "")
 
-    # Derive numeric timestamps for range filtering/sorting.
-    prod_ts = parse_date_to_timestamp(doc.get("production_date"))
-    if prod_ts is not None:
-        doc["production_timestamp"] = prod_ts
-    dist_ts = parse_date_to_timestamp(doc.get("distribution_date"))
-    if dist_ts is not None:
-        doc["distribution_timestamp"] = dist_ts
+    # Derive numeric timestamps for range filtering/sorting, for every
+    # date/datetime field that has one (see TIMESTAMP_FIELD_MAP above).
+    for source_field, ts_field in TIMESTAMP_FIELD_MAP.items():
+        ts = parse_date_to_timestamp(doc.get(source_field))
+        if ts is not None:
+            doc[ts_field] = ts
 
     # Strip None / empty values for optional fields — Typesense rejects
     # explicit nulls, so "no value" must mean "key absent".

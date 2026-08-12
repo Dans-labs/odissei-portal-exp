@@ -1,0 +1,634 @@
+{
+  "id": 315328,
+  "identifier": "HOINL3",
+  "persistentUrl": "https://doi.org/10.34894/HOINL3",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-03-23",
+  "storageIdentifier": "surf://10.34894/HOINL3",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 29565,
+    "datasetId": 315328,
+    "datasetPersistentId": "doi:10.34894/HOINL3",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/HOINL3",
+    "versionNumber": 1,
+    "internalVersionNumber": 18,
+    "versionMinorNumber": 2,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-08-08T13:57:45Z",
+    "releaseTime": "2024-08-08T13:57:45Z",
+    "createTime": "2024-08-08T12:59:59Z",
+    "publicationDate": "2023-03-23",
+    "citationDate": "2023-03-23",
+    "termsOfUse": "Users interested in the use of DALC for research purposes may obtain the dataset in the standard format and in the full text format. Users can freely download the standard format from the DALC GitHub repository. \n\nResearchers affiliated with universities or not-for-profit research institutes may use the full version of DALC in accordance with the Data Transfer Agreement provided by the University of Groningen. \n\nThe data may be used only for the purpose of conducting not-for-profit scientific research. \n\nIt is not allowed to actively search online for any of the information contained in the full version of DALC. \n\nIt is not allowed to disclose the full version of DALC to any third party or otherwise use it for your own benefit or for the benefit of a third party, without first obtaining written consent from the University of Groningen\n",
+    "restrictions": "For reasons of compliance with Twitter/X Terms of Use (March, 2023) and to protect data subjects given the sensitive nature of the data, certain files of DALC are under restricted access.  As such, signing a Data Transfer Agreement provided by the University of Groningen is part of the procedure for re-use of the full version of DALC. \n<br>\n<br>\nThe agreement will enter into force as of the date both parties have signed it. The agreement will continue to be effective during the period that you possess the data. During that period, you cannot terminate the agreement. \n\nThe University of Groningen may terminate the agreement if you have not cured a breach of the agreement within a reasonable period of being notified of such a breach. \n\nAt the request of the University of Groningen, you will return or destroy all copies of the full version of DALC.",
+    "termsOfAccess": "Permission for re-use can be granted by the University of Groningen Digital Competence Centre on behalf of the first author after inspecting credentials and the reason for request. The procedure starts with a request for access via this dataset at DataverseNL. \n\nSigning of a Data Transfer Agreement is part of the procedure for re-use of the data. ",
+    "contactForAccess": "dcc@rug.nl; \nt.caselli@rug.nl",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "DALC - Dutch Abusive Language Corpus"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "DALC"
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Caselli, Tommaso"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2936-0256"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Weultjes, Marieke"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schelhaas, Arjan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Leistra, Folkert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0004-4981-5961"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Veen, Hylke"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Robben, Menno"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Timmerman, Gerben"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ruitenbeek, Waard"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zwart, Victor"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Noord, Robin"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gnezdilov, Zhenja"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Theodoridis, Dionysios"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This repository contains the full text format of the Dutch Abusive Language Corpus (DALC), which is composed of tweets in Dutch. The corpus is structured as follows:\n<br>\n<div class=\"indented\">\n<ul>\n <li> unique numeric id of the message </li>\n<li> full text message annonymised </li>\n <li> annotated data for abusive language </li>\n<li> annotated data for offensive language </li>\n</ul>\n</div>\nA full description of the dataset and accompanying data statement is available at  <a href=\"https://github.com/tommasoc80/DALC\">https://github.com/tommasoc80/DALC</a>."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "abusive language, offensive language detection, hate speech detection, training data"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Abusive Language and Hate Speech"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Caselli, T., Schelhaas, A., Weultjes, M., Leistra, F., Van Der Veen, H., Timmerman, G., & Nissim, M. (2021, July). DALC: the Dutch abusive language corpus. In Proceedings of the 5th Workshop on Online Abuse and Harm (WOAH) (pp. 54-66). Association for Computational Linguistics (ACL)."
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://doi.org/10.18653/v1/2021.woah-1.6"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ruitenbeek, W., Zwart, V., Van Der Noord, R., Gnezdilov, Z., & Caselli, T. (2022, July). “Zo Grof!”: A Comprehensive Corpus for Offensive and Abusive Language in Dutch. In Proceedings of the Sixth Workshop on Online Abuse and Harms (WOAH) (pp. 40-56)."
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.18653/v1/2022.woah-1.5"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Theodoridis, D., & Caselli, T. (2022). All that glitters is not gold: Transfer-learning for offensive language detection in dutch. Computational Linguistics in the Netherlands Journal, 12, 141-164."
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.clinjournal.org/clinj/article/view/152"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Silva Correia Alves, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-11-01"
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Twitter"
+            ]
+          },
+          {
+            "typeName": "originOfSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Twitter"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/HOINL3"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.2"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d54a5765-bdb8-42bc-b1c2-4a7745f66ded"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-70a70c46-b6b3-4896-82a6-ae8a6a7f278d"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "DALC V2 DEV FILE - FULL TEXT FORMAT",
+        "label": "DALC-2_dev_full.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29565,
+        "dataFile": {
+          "id": 356631,
+          "persistentId": "",
+          "filename": "DALC-2_dev_full.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 226627,
+          "description": "DALC V2 DEV FILE - FULL TEXT FORMAT",
+          "storageIdentifier": "surf://store:1863185286b-8734794c7983",
+          "rootDataFileId": -1,
+          "md5": "8aaf5c50d894225683128871e0bbd597",
+          "checksum": {
+            "type": "MD5",
+            "value": "8aaf5c50d894225683128871e0bbd597"
+          },
+          "tabularData": false,
+          "creationDate": "2023-02-08",
+          "publicationDate": "2023-03-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "DALC V2 TEST FILE - FULL TEXT FORMAT",
+        "label": "DALC-2_test_full.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29565,
+        "dataFile": {
+          "id": 356630,
+          "persistentId": "",
+          "filename": "DALC-2_test_full.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 579246,
+          "description": "DALC V2 TEST FILE - FULL TEXT FORMAT",
+          "storageIdentifier": "surf://store:186318528f2-82e219841c2b",
+          "rootDataFileId": -1,
+          "md5": "0a0f77ff4b6f54916fb5b6335eeaed2e",
+          "checksum": {
+            "type": "MD5",
+            "value": "0a0f77ff4b6f54916fb5b6335eeaed2e"
+          },
+          "tabularData": false,
+          "creationDate": "2023-02-08",
+          "publicationDate": "2023-03-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "DALC V2 TRAIN FILE - FULL TEXT FORMAT",
+        "label": "DALC-2_train_full.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29565,
+        "dataFile": {
+          "id": 356632,
+          "persistentId": "",
+          "filename": "DALC-2_train_full.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1292778,
+          "description": "DALC V2 TRAIN FILE - FULL TEXT FORMAT",
+          "storageIdentifier": "surf://store:18631852974-a2ad6caade42",
+          "rootDataFileId": -1,
+          "md5": "1237a8789aeb346720fee7c55318eed8",
+          "checksum": {
+            "type": "MD5",
+            "value": "1237a8789aeb346720fee7c55318eed8"
+          },
+          "tabularData": false,
+          "creationDate": "2023-02-08",
+          "publicationDate": "2023-03-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "DALC_README.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29565,
+        "dataFile": {
+          "id": 358672,
+          "persistentId": "",
+          "filename": "DALC_README.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1009665,
+          "storageIdentifier": "surf://store:1870f2b31b3-6bf18cb0f90a",
+          "rootDataFileId": -1,
+          "md5": "c36d7beda25f2da1a905315f65fc5fee",
+          "checksum": {
+            "type": "MD5",
+            "value": "c36d7beda25f2da1a905315f65fc5fee"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-23",
+          "publicationDate": "2023-03-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "DACL V1 DEV FILE - FULL TEXT FORMAT",
+        "label": "dalc_v1_dev_text.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29565,
+        "dataFile": {
+          "id": 356628,
+          "persistentId": "",
+          "filename": "dalc_v1_dev_text.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 80227,
+          "description": "DACL V1 DEV FILE - FULL TEXT FORMAT",
+          "storageIdentifier": "surf://store:18631830fe8-fca8e961f63e",
+          "rootDataFileId": -1,
+          "md5": "fe7cd9f20ceffff744891ca41ac69a4d",
+          "checksum": {
+            "type": "MD5",
+            "value": "fe7cd9f20ceffff744891ca41ac69a4d"
+          },
+          "tabularData": false,
+          "creationDate": "2023-02-08",
+          "publicationDate": "2023-03-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "DACL V1 TEST FILE - FULL TEXT FORMAT",
+        "label": "dalc_v1_test_text.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29565,
+        "dataFile": {
+          "id": 356629,
+          "persistentId": "",
+          "filename": "dalc_v1_test_text.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 267168,
+          "description": "DACL V1 TEST FILE - FULL TEXT FORMAT",
+          "storageIdentifier": "surf://store:18631831038-f64ec76bba3d",
+          "rootDataFileId": -1,
+          "md5": "3160dc77d68a35db9bb270362694a35d",
+          "checksum": {
+            "type": "MD5",
+            "value": "3160dc77d68a35db9bb270362694a35d"
+          },
+          "tabularData": false,
+          "creationDate": "2023-02-08",
+          "publicationDate": "2023-03-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "DACL V1 TRAIN FILE - FULL TEXT FORMAT",
+        "label": "dalc_v1_train_text.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29565,
+        "dataFile": {
+          "id": 356627,
+          "persistentId": "",
+          "filename": "dalc_v1_train_text.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 819870,
+          "description": "DACL V1 TRAIN FILE - FULL TEXT FORMAT",
+          "storageIdentifier": "surf://store:186318310ca-70f36b97b164",
+          "rootDataFileId": -1,
+          "md5": "86015a1812e53aea0ce590136f0ce9d0",
+          "checksum": {
+            "type": "MD5",
+            "value": "86015a1812e53aea0ce590136f0ce9d0"
+          },
+          "tabularData": false,
+          "creationDate": "2023-02-08",
+          "publicationDate": "2023-03-23",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Caselli, Tommaso; Weultjes, Marieke; Schelhaas, Arjan; Leistra, Folkert; van der Veen, Hylke; Robben, Menno; Timmerman, Gerben; Ruitenbeek, Waard; Zwart, Victor; van der Noord, Robin; Gnezdilov, Zhenja; Theodoridis, Dionysios, 2023, \"DALC - Dutch Abusive Language Corpus\", https://doi.org/10.34894/HOINL3, DataverseNL, V1"
+  }
+}

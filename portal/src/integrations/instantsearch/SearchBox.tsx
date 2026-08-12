@@ -1,5 +1,5 @@
 import { useSearchBox } from "react-instantsearch";
-import { Input } from "@base-ui/react/input";
+import { Input } from "#/components/Input";
 import { m } from "#/paraglide/messages";
 
 export function SearchBox() {
@@ -9,23 +9,9 @@ export function SearchBox() {
       <Input
         type="search"
         value={query}
-        onChange={(e) => refine(e.target.value)}
+        onChange={(value) => refine(value)}
         placeholder={m.searchPlaceholder()}
-        className="
-        h-12 w-full
-        rounded-2xl
-        border border-zinc-200
-        bg-zinc-50
-        px-4
-        text-sm
-        outline-none
-        transition
-        placeholder:text-zinc-400
-        focus:border-zinc-400
-        focus:bg-white
-        focus:ring-4
-        focus:ring-zinc-100
-      "
+        size="lg"
       />
     </div>
   );

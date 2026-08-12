@@ -1,0 +1,399 @@
+{
+  "id": 511847,
+  "identifier": "MRZD75",
+  "persistentUrl": "https://doi.org/10.34894/MRZD75",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-21",
+  "storageIdentifier": "surf://10.34894/MRZD75",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31415,
+    "datasetId": 511847,
+    "datasetPersistentId": "doi:10.34894/MRZD75",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/MRZD75",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2022-08-18",
+    "lastUpdateTime": "2025-08-21T14:46:37Z",
+    "releaseTime": "2025-08-21T14:46:37Z",
+    "createTime": "2025-08-21T14:45:36Z",
+    "publicationDate": "2025-08-21",
+    "citationDate": "2025-08-21",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Incentives in Surveys - Data Set"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.20422017"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Granic, Georg"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-9504-3545"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Baillon, Aurelien"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-0169-9760"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bleichrodt, Han"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Granic, Georg"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus School of Economics <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Data set and codebook variables for paper   </p>\n<p>Incentives in Surveys, accepted for publication in the Journal of Economic Psychology.</p>\n<p><br></p>\n<p>Abstract: Surveys typically use hypothetical questions to measure subjective and unverifiable concepts like happiness and quality of life. We test whether this is problematic using a large survey experiment on health and subjective well-being. We use Prelec’s Bayesian truth serum to incentivize the experiment and defaults to introduce biases in responses. Without defaults, the data quality was good and incentives had no impact. With defaults, incentives reduced biases in the subjective well-being questions by inducing participants to spend more effort. Incentives had no impact on the health questions regardless of whether defaults were used.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Surveys"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Incentives"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Happiness"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Default Bias"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Behavioural Economics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a two-file data package totaling 3.7 MB, containing files in .csv and .txt formats.<p><p>If you use this dataset, please cite: Granic, Georg; Baillon, Aurelien; Bleichrodt, Han (2022). Incentives in Surveys - Data Set. Erasmus University Rotterdam (EUR). Dataset. <a href=\"https://doi.org/10.25397/eur.20422017\" target=\"_blank\">https://doi.org/10.25397/eur.20422017</a><p>"
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "[Funder Name: Dutch Research Council; Grant Label: Beyond rational expectations; Grant URL: https://app.dimensions.ai/details/grant/grant.6626585]"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "[Grant Code: 452-13-013]"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-08-18"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Granic, Georg"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-08-02"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://doi.org/10.1016/j.joep.2022.102552\" target=\"_blank\">https://doi.org/10.1016/j.joep.2022.102552</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/MRZD75"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:9c527c53-6033-40bc-9783-b6470e34c8d0"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-f1ec909f-3deb-4ffd-8e31-2a50a818489b"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "CodeBookVariables.txt",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.20422017",
+        "version": 1,
+        "datasetVersionId": 31415,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511849,
+          "persistentId": "",
+          "filename": "CodeBookVariables.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3143,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd17ad51-e7d2dd210b2f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "33fef532d4215dbec410dbaf4b40670b2f35eaae"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "JOEP-BTS-Data-All-Aug2-2022.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.20422017",
+        "version": 1,
+        "datasetVersionId": 31415,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511848,
+          "persistentId": "",
+          "filename": "JOEP-BTS-Data-All-Aug2-2022.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3864503,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd17ac1f-b6c64d60292f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2c176eafb8d8a92d9a8738110f66a9938f143f58"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Granic, Georg; Baillon, Aurelien; Bleichrodt, Han, 2025, \"Incentives in Surveys - Data Set\", https://doi.org/10.34894/MRZD75, DataverseNL, V1"
+  }
+}

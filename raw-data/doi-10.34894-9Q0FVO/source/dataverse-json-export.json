@@ -1,0 +1,2462 @@
+{
+  "id": 217620,
+  "identifier": "9Q0FVO",
+  "persistentUrl": "https://doi.org/10.34894/9Q0FVO",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-04-19",
+  "storageIdentifier": "surf://10.34894/9Q0FVO",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 20961,
+    "datasetId": 217620,
+    "datasetPersistentId": "doi:10.34894/9Q0FVO",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/9Q0FVO",
+    "versionNumber": 2,
+    "internalVersionNumber": 59,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-01-10T17:02:46Z",
+    "releaseTime": "2023-01-10T17:02:46Z",
+    "createTime": "2022-06-04T06:56:10Z",
+    "publicationDate": "2022-04-19",
+    "citationDate": "2022-04-19",
+    "termsOfUse": "The standard Data Sharing Agreement (DSA) of the UMC Utrecht must be signed without adjustments. This DSA is in compliance with Dutch law. No costs are involved",
+    "confidentialityDeclaration": "no",
+    "specialPermissions": "To obtain access to the data, a <a href=\"https://www.umcutrecht.nl/en/data-request-form-umc-utrecht\">request form</a>\nhas to be completed. In addition to a completed request form, a Data Sharing Agreement\n(DSA) in line with GDPR regulations and/or a Research Collaboration Agreement (RCA) should\nbe signed before data is shared. Only data requests in line with the Terms of Use will be\ntaken into consideration.",
+    "restrictions": "See Data Sharing Agreement",
+    "citationRequirements": "See Data Sharing Agreement",
+    "conditions": "To access and use the dataset please read the Terms of Use and the Terms of Access.\n",
+    "disclaimer": "See Data Sharing Agreement.",
+    "termsOfAccess": "The data is not available for download directly via DataverseNL. Data is available on request by completing the <a href=\"https://www.umcutrecht.nl/en/data-request-form-umc-utrecht\">request form</a>. Only data requests in line with the Terms of Use will be taken into consideration. In addition to a completed request form, the Data Sharing Agreement (DSA) in line with GDPR regulations and/or the Research Collaboration Agreement (RCA) should be signed before data is shared. If a data request is approved, the data will be delivered in a safe and secure manner. By signing the DSA and/or RCA and\naccessing the Materials, the recipient represents his/her acceptance of the Terms of Use.",
+    "availabilityStatus": "The data is not available for download directly via DataverseNL but is available on request if the request is compliant with the Terms of Access",
+    "contactForAccess": "Please fill out the <a href=\"https://www.umcutrecht.nl/en/data-request-form-umc-utrecht\">request form</a>.",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Data and R Scripts for: \"Transcriptome network analysis implicates CX3CR1-positive type 3 dendritic cells in non-infectious uveitis\""
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "CD1c+ cDC2 RNA seq in non-infectious uveitis"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jonas J.W. Kuiper"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-5370-6395"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "data management"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jonas J.W. Kuiper"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains the processed RNA sequencing data of purified CD1c-positive conventional type 2 dendritic cells (CD1c+ cDC2s), functional enrichment analysis, manual and automatic gating data of (i.e., flowSOM) flow cytometry, and multiplex cytokine analyses as outlined in <i>Hiddingh et al. 2022 \"Transcriptome network analysis implicates CX3CR1-positive type 3 dendritic cells in non-infectious uveitis </i> <dl>see preprint on <a href=\"https://www.biorxiv.org/content/10.1101/2021.11.16.468816v4\"><i>BioRxiv</i></a>\n</dl>\nData are from two cohorts (cohort I, n=36, and cohort II, n=42) of in total 51 patients with non-infectious uveitis (<i>HLA-B27-positive acute anterior uveitis</i>, <i>idiopathic intermediate uveitis</i>, <i>HLA-A29-positive Birdshot Uveitis (Birdshot chorioretinopathy)</i>, and 27 sex/age-matched healthy controls without ocular inflammatory disease). <br></br>\nAll raw sequencing data are available at NCBI SRA under the accession number: <dl>\n\n<li> <a href=\"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE195501\"><i>GSE195501</i></a> (FACS-sorted cohort I). </li>\n<li><a href=\"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194060\"><i>GSE194060</i></a> (MACS-sorted cohort II).</li>\n</dl>\nThis dataverseNL dataset contains additional raw, processed, and metadata (see <a href=\"https://dataverse.nl/api/access/datafile/299114\">readme</a> file and reproducible R notebooks (R script and Image) used for the analysis in the manuscript: <br></br>\n<dl>\n<dt>R scripts (markdown + R image) with <i>step-by-step</i> analyses </dt> \n<ul><li><dd> Figure_1.rmd (see <a href=\"https://dataverse.nl/api/access/datafile/320666\">\"Figure_1.html\"</a>)</dd></li>\n<li><dd>Figure_2.rmd (see <a href=\"https://dataverse.nl/api/access/datafile/320651\">\"Figure_2.html\"</a>)</dd></li>\n<li><dd>Figure_3.rmd (see <a href=\"https://dataverse.nl/api/access/datafile/320723\">\"Figure_3.html\"</a>)</dd>\n</li>\n<li><dd>Figure_4.rmd (see <a href=\"https://dataverse.nl/api/access/datafile/320726\">\"Figure_4.html\"</a>)</dd>\n</li>\n<li><dd>Figure_5.rmd(see <a href=\"https://dataverse.nl/api/access/datafile/320692\">\"Figure_5.html\"</a>)</dd></li>\n</dd></li>\n\n<li><dd>Processed RNA seq data (including WGCNA) (see folder <b>Uveitis_mDC</b> in files)</dd></li></ul>\n\n<dt>Experimental data</dt>\n<ul><li><dd>Manual gating data of MACS-sorted fractions cohort I (see <a href=\"https://dataverse.nl/api/access/datafile/320648\">here</a>)</dd></li>\n<li><dd>Manual gating data for CD1c+ cDC2 subsets in PBMCs (see <a href=\"https://dataverse.nl/api/access/datafile/320646\">here</a>)</dd></li>\n<li><dd>Manual gating CD14+ and CD14- CD1c+ cDC2 fractions from Buffy (see <a href=\"https://dataverse.nl/api/access/datafile/320697\">here</a>)</dd></li>\n<li><dd>qPCR data for <i>CX3CR1</i>,<i>CCR5</i>,<i>CCR2</i>,<i>IRF8</i>,<i>TLR7</i>,<i>RUNX3</i> and <i>CD36</i> in sorted CD14+ and CD14- CD1c+ DCs (see <a href=\"https://dataverse.nl/api/access/datafile/320682\">here</a>)</dd></li>\n<li><dd>qPCR data (fold change compared to medium) for <i>RUNX3</i> and <i>CD36</i> in overnight stimulated cDC2 cultures (see <a href=\"https://dataverse.nl/api/access/datafile/320652\">here</a>)</dd></li>\n<li><dd>Cell phenotypes identified by flowSOM (7x7 grid) using the cDC2-subset flow cytometry panel (see <a href=\"https://dataverse.nl/api/access/datafile/320674\">here</a>)</dd></li>\n<li><dd>IL-23 ELISA concentration in supernatant of overnight LTA-stimulated cDC2 subset cultures (see <a href=\"https://dataverse.nl/api/access/datafile/320658\">here</a>)</dd></li>\n<li><dd>Luminex Multiplex Cytokine analysis of supernatant of overnight LTA-stimulated cDC2 subset cultures (see <a href=\"https://dataverse.nl/api/access/datafile/320644\">here</a>)</dd></li></ul>\n\n\n<dt>Other transcriptomic data used in the R scripts (above)</dt> \n<ul><li><dd> WT Untreated cDC2 versus cDC2 from <i>Runx3</i>-11cKO mice<a href=\"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48590\">GSE48590</i> </a> generated by <a href=\"https://pubmed.ncbi.nlm.nih.gov/24204843/\"><i> Dicken et al., PLoS One\n2013</i> </a></li>\n<li><dd>WT Untreated cDC2 versus cDC2 from <i>Notch2</i>-11cKO mice<a href=\"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE119242\">GSE119242</i> </a> generated by <a href=\"https://pubmed.ncbi.nlm.nih.gov/30279176/\"><i> Briseño et al., Proc Natl Acad Sci U S A 2018</i> </a></li>\n\n<li><dd>Sorted CD14+CD5-CD163+  and CD14-CD5-CD163+ cDC2s from SLE and Scleroderma patients <a href=\"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE136731\">GSE136731</i> </a> generated by <a href=\"https://www.cell.com/immunity/fulltext/S1074-7613(19)30334-6?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1074761319303346%3Fshowall%3Dtrue\"><i> Dutertre et al., Immunity 2019</i> </a></li>\n\n<li><dd>Single-cell RNA-seq of aqueous humor from 4 HLA-B27-positive uveitis patients and control <a href=\"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE178833\">GSE178833</i> </a> generated by <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8594918/\"><i> Kasper et al., Elife 2021</i> </a></li>\n\n<li><dd>Inflammatory [inf-]cDC2s<a href=\"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149619\">GSE149619</i> </a> generated by <a href=\"https://pubmed.ncbi.nlm.nih.gov/32392463/\"><i> Bosteels  et al., Immunity 2020</i> </a></li>\n\n<li><dd>RNA-seq data from cDC2s generated from murine bone marrow cells in co-culture with stromal OP-9 cell line transduced with or without expression of the Notch ligand Delta-like 1<a href=\"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110577\">GSE110577</i> </a> generated by <a href=\"https://pubmed.ncbi.nlm.nih.gov/29925006/\"><i> Kirkling et al., Cell Rep 2018 </i> </a></li>\n</dl>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-01-10"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Uveitis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "RNA-sequencing"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dendritic cells"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<i>Transcriptome network analysis implicates CX3CR1-positive type 3 dendritic cells in non-infectious uveitis.</i>\n<br></br>\n<b>S. Hiddingh, A. Pandit, F.H. Verhagen, R. Rijken, N. H. Servaas, C.G.K. Wichers, N.H. ten Dam-van Loon, S.M. Imhof, T.R.D.J. Radstake, J.H. de Boer, J.J.W. Kuiper*</b> <i>2022</i><br></br>  \n*) Corresponding author\n<br></br>\n<a href=\"https://www.biorxiv.org/content/10.1101/2021.11.16.468816v4\"><i>BioRxiv</i></a>"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "url"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.biorxiv.org/content/10.1101/2021.11.16.468816v4"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<b>Transcriptome network analysis implicates CX3CR1-positive type 3 dendritic cells in non-infectious uveitis</b>\n<br></br>\n<b>Background:</b>Type I interferons (IFNs) promote the expansion of subsets of CD1c+ conventional dendritic cells (CD1c+ DCs), but the molecular basis of CD1c+ DCs involvement in conditions not associated without elevated type I IFNs remains unclear.\n<br></br>\n<b>Methods: </b>We analyzed CD1c+ DCs from two cohorts of non-infectious uveitis patients and healthy donors using RNA-sequencing followed by high-dimensional flow cytometry to characterize the CD1c+ DC populations. <br></br>\n<b>Results:</b> We report that the CD1c+ DCs pool from patients with non-infectious uveitis is skewed towards a gene module with the chemokine receptor CX3CR1 as the key hub gene. We confirmed these results in an independent case-control cohort and show that the disease-associated gene module is not mediated by type I IFNs. An analysis of peripheral blood using flow cytometry revealed that CX3CR1+ DC3s were diminished, whereas CX3CR1- DC3s were not. Stimulated CX3CR1+ DC3s secrete high levels of inflammatory cytokines, including TNF-alpha, and CX3CR1+ DC3-like cells can be detected in inflamed eyes of patients. <br></br><b>Conclusion:</b> These results show that CX3CR1+ DC3s are implicated in non-infectious uveitis and can secrete proinflammatory mediators implicated in its pathophysiology."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "University Medical Center Utrecht"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Uitzicht"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2014-4/2015-5"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Kuiper, Jonas"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-01-03"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/9Q0FVO"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:8625cb1d-eee9-47e6-8a08-8901bdc61803"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-d028b543-878a-41d1-a5f1-dc5e8f27dd17"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "147_cDC2_genes.txt",
+        "restricted": false,
+        "directoryLabel": "Figure 5",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320657,
+          "persistentId": "",
+          "filename": "147_cDC2_genes.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 9953,
+          "storageIdentifier": "surf://store:184946e8f0a-9569afd20732",
+          "rootDataFileId": -1,
+          "md5": "a1aba824b19c38faa836deec68d65676",
+          "checksum": {
+            "type": "MD5",
+            "value": "a1aba824b19c38faa836deec68d65676"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "20201127 IL-23 ELISA cDC subsets - RESULTS.xlsx",
+        "restricted": false,
+        "directoryLabel": "Figure 4",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320658,
+          "persistentId": "",
+          "filename": "20201127 IL-23 ELISA cDC subsets - RESULTS.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 23236,
+          "storageIdentifier": "surf://store:18494543824-2026738cff38",
+          "rootDataFileId": -1,
+          "md5": "9cd0066f69edd6a85b377490fa84e106",
+          "checksum": {
+            "type": "MD5",
+            "value": "9cd0066f69edd6a85b377490fa84e106"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "20210112 all samples CD36_CX3CR1 of HLA-DR Lin- stats.xls",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320675,
+          "persistentId": "",
+          "filename": "20210112 all samples CD36_CX3CR1 of HLA-DR Lin- stats.xls",
+          "contentType": "application/vnd.ms-excel",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 21504,
+          "storageIdentifier": "surf://store:18494542d8d-eb365ed231b3",
+          "rootDataFileId": -1,
+          "md5": "ef2e78d53cf68a343bbb434bfe68bef4",
+          "checksum": {
+            "type": "MD5",
+            "value": "ef2e78d53cf68a343bbb434bfe68bef4"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "20210112 all samples CD36_CX3CR1 of single cells stats.xls",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320655,
+          "persistentId": "",
+          "filename": "20210112 all samples CD36_CX3CR1 of single cells stats.xls",
+          "contentType": "application/vnd.ms-excel",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 29184,
+          "storageIdentifier": "surf://store:184945436a0-57891a87129e",
+          "rootDataFileId": -1,
+          "md5": "f8a1646f051586fbc094592f30265e13",
+          "checksum": {
+            "type": "MD5",
+            "value": "f8a1646f051586fbc094592f30265e13"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "20210112 all samples CD5_CD163 of HLA-DR lin- stats.xls",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320718,
+          "persistentId": "",
+          "filename": "20210112 all samples CD5_CD163 of HLA-DR lin- stats.xls",
+          "contentType": "application/vnd.ms-excel",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 29184,
+          "storageIdentifier": "surf://store:18494542d94-13af101e94de",
+          "rootDataFileId": -1,
+          "md5": "d81d8231e32b2d0e33e1aaa32ffb3767",
+          "checksum": {
+            "type": "MD5",
+            "value": "d81d8231e32b2d0e33e1aaa32ffb3767"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "20210112 all samples CD5_CD163 of single cells stats.xls",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320716,
+          "persistentId": "",
+          "filename": "20210112 all samples CD5_CD163 of single cells stats.xls",
+          "contentType": "application/vnd.ms-excel",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 29696,
+          "storageIdentifier": "surf://store:18494543095-a98fb48e3743",
+          "rootDataFileId": -1,
+          "md5": "851cbb52391f6cebd80701f9e2df1d0f",
+          "checksum": {
+            "type": "MD5",
+            "value": "851cbb52391f6cebd80701f9e2df1d0f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "20210112 statistics CD36 CX3CR1 of CD1c+CD11c+HLA-DR+Lin-.xls",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320696,
+          "persistentId": "",
+          "filename": "20210112 statistics CD36 CX3CR1 of CD1c+CD11c+HLA-DR+Lin-.xls",
+          "contentType": "application/vnd.ms-excel",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 22528,
+          "storageIdentifier": "surf://store:1849454341c-c53d21bcfe95",
+          "rootDataFileId": -1,
+          "md5": "8dd4a5ea6f79109bf5d833e16e3da07c",
+          "checksum": {
+            "type": "MD5",
+            "value": "8dd4a5ea6f79109bf5d833e16e3da07c"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cDC2_sort_gating_Buffy.pdf",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320697,
+          "persistentId": "",
+          "filename": "cDC2_sort_gating_Buffy.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 694017,
+          "storageIdentifier": "surf://store:1849454315b-741e0b3f16e6",
+          "rootDataFileId": -1,
+          "md5": "e65a9200c1f0ead1664307a10fa52b48",
+          "checksum": {
+            "type": "MD5",
+            "value": "e65a9200c1f0ead1664307a10fa52b48"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cDC2_Uveitis_Revision_2.docx",
+        "restricted": true,
+        "directoryLabel": "manuscript files",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320667,
+          "persistentId": "",
+          "filename": "cDC2_Uveitis_Revision_2.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 104730,
+          "storageIdentifier": "surf://store:1849470026c-b78c5e31ebcf",
+          "rootDataFileId": -1,
+          "md5": "4f8489ca30f37a50cfc9b2176244ec3e",
+          "checksum": {
+            "type": "MD5",
+            "value": "4f8489ca30f37a50cfc9b2176244ec3e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cDC2_Uveitis_Revision_2TTdocx.docx",
+        "restricted": true,
+        "directoryLabel": "manuscript files",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320688,
+          "persistentId": "",
+          "filename": "cDC2_Uveitis_Revision_2TTdocx.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 107821,
+          "storageIdentifier": "surf://store:18494700273-2efa37de5f8f",
+          "rootDataFileId": -1,
+          "md5": "4cad740b35c17a42af056a1c1c688b36",
+          "checksum": {
+            "type": "MD5",
+            "value": "4cad740b35c17a42af056a1c1c688b36"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "clin_merge.RData",
+        "restricted": true,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320676,
+          "persistentId": "",
+          "filename": "clin_merge.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 218660,
+          "storageIdentifier": "surf://store:18494528001-facb942f90e4",
+          "rootDataFileId": -1,
+          "md5": "ec2197f15568521b3bbf024c3e3ab6cd",
+          "checksum": {
+            "type": "MD5",
+            "value": "ec2197f15568521b3bbf024c3e3ab6cd"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Cluster_Annotations.RData",
+        "restricted": false,
+        "directoryLabel": "scRNAseq",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320649,
+          "persistentId": "",
+          "filename": "Cluster_Annotations.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 262424,
+          "storageIdentifier": "surf://store:184947fb61c-92ea30adbc93",
+          "rootDataFileId": -1,
+          "md5": "0e35120f8e64dfe227aca50ca54e4091",
+          "checksum": {
+            "type": "MD5",
+            "value": "0e35120f8e64dfe227aca50ca54e4091"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "DESEQ2.IFN.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320701,
+          "persistentId": "",
+          "filename": "DESEQ2.IFN.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 41524124,
+          "storageIdentifier": "surf://store:184945435c5-01447cd28ee1",
+          "rootDataFileId": -1,
+          "md5": "576857de81f68279bc71d1748eea2031",
+          "checksum": {
+            "type": "MD5",
+            "value": "576857de81f68279bc71d1748eea2031"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Elife_rebuttal_2_+_editor_statement.docx",
+        "restricted": true,
+        "directoryLabel": "manuscript files",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320712,
+          "persistentId": "",
+          "filename": "Elife_rebuttal_2_+_editor_statement.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 340510,
+          "storageIdentifier": "surf://store:1849470025c-c0bfd494e187",
+          "rootDataFileId": -1,
+          "md5": "93680109f5d2a9d7025cc9d5eef9a2c5",
+          "checksum": {
+            "type": "MD5",
+            "value": "93680109f5d2a9d7025cc9d5eef9a2c5"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 1 - Figure Supplement 1.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320693,
+          "persistentId": "",
+          "filename": "Figure 1 - Figure Supplement 1.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 490016,
+          "storageIdentifier": "surf://store:18494700407-8e77eb8dab9e",
+          "rootDataFileId": -1,
+          "md5": "843e29061e69bbb56c946ea60634a823",
+          "checksum": {
+            "type": "MD5",
+            "value": "843e29061e69bbb56c946ea60634a823"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 1 - Figure Supplement 2.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320717,
+          "persistentId": "",
+          "filename": "Figure 1 - Figure Supplement 2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 193950,
+          "storageIdentifier": "surf://store:184947003fd-43afae23bdaf",
+          "rootDataFileId": -1,
+          "md5": "98bef404b4df7a9597ebb0895f1ffb38",
+          "checksum": {
+            "type": "MD5",
+            "value": "98bef404b4df7a9597ebb0895f1ffb38"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 1 - Figure Supplement 3.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320645,
+          "persistentId": "",
+          "filename": "Figure 1 - Figure Supplement 3.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 552839,
+          "storageIdentifier": "surf://store:184947003f3-495cbe86278b",
+          "rootDataFileId": -1,
+          "md5": "0ed198037c7101b17b3890e8576696cf",
+          "checksum": {
+            "type": "MD5",
+            "value": "0ed198037c7101b17b3890e8576696cf"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure_1_Nov22.html",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320666,
+          "persistentId": "",
+          "filename": "Figure_1_Nov22.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 3302914,
+          "storageIdentifier": "surf://store:18494527fd2-75d21823d845",
+          "rootDataFileId": -1,
+          "md5": "1f8c591003a1b840a0cf589f0b5b89fb",
+          "checksum": {
+            "type": "MD5",
+            "value": "1f8c591003a1b840a0cf589f0b5b89fb"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure_1_Nov22.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320673,
+          "persistentId": "",
+          "filename": "Figure_1_Nov22.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 111824201,
+          "storageIdentifier": "surf://store:18494531712-afad4c111af0",
+          "rootDataFileId": -1,
+          "md5": "cb38152f3b7a67dc589600aa191105fc",
+          "checksum": {
+            "type": "MD5",
+            "value": "cb38152f3b7a67dc589600aa191105fc"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure_1_Nov22.Rmd",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320714,
+          "persistentId": "",
+          "filename": "Figure_1_Nov22.Rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 25042,
+          "storageIdentifier": "surf://store:1849452d190-0e2ea3e79d89",
+          "rootDataFileId": -1,
+          "md5": "93b32a4af08cf7ab36534ee0c8ce9e66",
+          "checksum": {
+            "type": "MD5",
+            "value": "93b32a4af08cf7ab36534ee0c8ce9e66"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 1.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320704,
+          "persistentId": "",
+          "filename": "Figure 1.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 3203857,
+          "storageIdentifier": "surf://store:18494700462-26ddb4379de0",
+          "rootDataFileId": -1,
+          "md5": "0d6c747427ef3f18b2de845ccf406b62",
+          "checksum": {
+            "type": "MD5",
+            "value": "0d6c747427ef3f18b2de845ccf406b62"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure_2.html",
+        "restricted": false,
+        "directoryLabel": "Figure 2",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320651,
+          "persistentId": "",
+          "filename": "Figure_2.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 2027217,
+          "storageIdentifier": "surf://store:184945385f3-a789987d2dfd",
+          "rootDataFileId": -1,
+          "md5": "100fde374402be62d7f90b9fbb52fb84",
+          "checksum": {
+            "type": "MD5",
+            "value": "100fde374402be62d7f90b9fbb52fb84"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 2.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320705,
+          "persistentId": "",
+          "filename": "Figure 2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 4032468,
+          "storageIdentifier": "surf://store:18494700435-02e7f09f7c35",
+          "rootDataFileId": -1,
+          "md5": "9bbff876926c8d464e663942778f1b19",
+          "checksum": {
+            "type": "MD5",
+            "value": "9bbff876926c8d464e663942778f1b19"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure_2.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 2",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320660,
+          "persistentId": "",
+          "filename": "Figure_2.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 94396276,
+          "storageIdentifier": "surf://store:18494538a29-ef01a41311a6",
+          "rootDataFileId": -1,
+          "md5": "6831cdb3f6a037908b176e3356d9f28c",
+          "checksum": {
+            "type": "MD5",
+            "value": "6831cdb3f6a037908b176e3356d9f28c"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure_2.Rmd",
+        "restricted": false,
+        "directoryLabel": "Figure 2",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320661,
+          "persistentId": "",
+          "filename": "Figure_2.Rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 29703,
+          "storageIdentifier": "surf://store:184945385c2-4b044f6cbad5",
+          "rootDataFileId": -1,
+          "md5": "2be3ce5d4041f502e0dcb8df698b3ffd",
+          "checksum": {
+            "type": "MD5",
+            "value": "2be3ce5d4041f502e0dcb8df698b3ffd"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 2 - Supplement 1.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320663,
+          "persistentId": "",
+          "filename": "Figure 2 - Supplement 1.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 2219432,
+          "storageIdentifier": "surf://store:184947004e1-819bc79ffae2",
+          "rootDataFileId": -1,
+          "md5": "0c7e29fa8a2f6c51a6d97bc6514f1021",
+          "checksum": {
+            "type": "MD5",
+            "value": "0c7e29fa8a2f6c51a6d97bc6514f1021"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 3 - Figure Supplement 1.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320650,
+          "persistentId": "",
+          "filename": "Figure 3 - Figure Supplement 1.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 740294,
+          "storageIdentifier": "surf://store:184947004cd-a9b60e8edf42",
+          "rootDataFileId": -1,
+          "md5": "8b75065b2c6108a759745021ecda2393",
+          "checksum": {
+            "type": "MD5",
+            "value": "8b75065b2c6108a759745021ecda2393"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 3 - Figure Supplement 2.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320698,
+          "persistentId": "",
+          "filename": "Figure 3 - Figure Supplement 2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1491935,
+          "storageIdentifier": "surf://store:184947004ad-18b6295b7c87",
+          "rootDataFileId": -1,
+          "md5": "8ec729510f7d72682d8b34a265d62166",
+          "checksum": {
+            "type": "MD5",
+            "value": "8ec729510f7d72682d8b34a265d62166"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 3 - Figure Supplement 3.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320725,
+          "persistentId": "",
+          "filename": "Figure 3 - Figure Supplement 3.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 712703,
+          "storageIdentifier": "surf://store:1849470049c-6742cb69a0d8",
+          "rootDataFileId": -1,
+          "md5": "9a130e11d07eb56b5e7ca2787fe3beaf",
+          "checksum": {
+            "type": "MD5",
+            "value": "9a130e11d07eb56b5e7ca2787fe3beaf"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure-3.html",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320723,
+          "persistentId": "",
+          "filename": "Figure-3.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 2954689,
+          "storageIdentifier": "surf://store:1849454302c-bff7ba76bc64",
+          "rootDataFileId": -1,
+          "md5": "1133fa438037831e5986492d9c22ee68",
+          "checksum": {
+            "type": "MD5",
+            "value": "1133fa438037831e5986492d9c22ee68"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 3.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320678,
+          "persistentId": "",
+          "filename": "Figure 3.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 833176,
+          "storageIdentifier": "surf://store:18494700415-a490b003eb6e",
+          "rootDataFileId": -1,
+          "md5": "a37bf7221fadf96f3a1160f6d50ca548",
+          "checksum": {
+            "type": "MD5",
+            "value": "a37bf7221fadf96f3a1160f6d50ca548"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 3.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320713,
+          "persistentId": "",
+          "filename": "Figure 3.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 40698194,
+          "storageIdentifier": "surf://store:18494542f43-080f1d37f03b",
+          "rootDataFileId": -1,
+          "md5": "31144c8c3eaa14963144dc36fa909fc1",
+          "checksum": {
+            "type": "MD5",
+            "value": "31144c8c3eaa14963144dc36fa909fc1"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 3.rmd",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320691,
+          "persistentId": "",
+          "filename": "Figure 3.rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 34980,
+          "storageIdentifier": "surf://store:18494542da2-66a7ae12916d",
+          "rootDataFileId": -1,
+          "md5": "309d3b9467fa6cc6f5cb248cb5a88a1f",
+          "checksum": {
+            "type": "MD5",
+            "value": "309d3b9467fa6cc6f5cb248cb5a88a1f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 4 - Figure Supplement 1.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320671,
+          "persistentId": "",
+          "filename": "Figure 4 - Figure Supplement 1.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 126798,
+          "storageIdentifier": "surf://store:1849470041f-7042760d4ee4",
+          "rootDataFileId": -1,
+          "md5": "35156e6ce529098b285b76b3c8f05fb2",
+          "checksum": {
+            "type": "MD5",
+            "value": "35156e6ce529098b285b76b3c8f05fb2"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure-4.html",
+        "restricted": false,
+        "directoryLabel": "Figure 4",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320726,
+          "persistentId": "",
+          "filename": "Figure-4.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 1055275,
+          "storageIdentifier": "surf://store:184945437ff-7fc2cc25bd41",
+          "rootDataFileId": -1,
+          "md5": "19420607a14feb6c04598b11253ac0d9",
+          "checksum": {
+            "type": "MD5",
+            "value": "19420607a14feb6c04598b11253ac0d9"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 4.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320659,
+          "persistentId": "",
+          "filename": "Figure 4.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 529564,
+          "storageIdentifier": "surf://store:184947004bd-7dbe28c411fe",
+          "rootDataFileId": -1,
+          "md5": "505bbf848f42663cad7fd11672a3d4ab",
+          "checksum": {
+            "type": "MD5",
+            "value": "505bbf848f42663cad7fd11672a3d4ab"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure_4.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 4",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320679,
+          "persistentId": "",
+          "filename": "Figure_4.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 121944,
+          "storageIdentifier": "surf://store:18494543813-1b6b04297b47",
+          "rootDataFileId": -1,
+          "md5": "d756a0c9768300b8ee511f7237997fe1",
+          "checksum": {
+            "type": "MD5",
+            "value": "d756a0c9768300b8ee511f7237997fe1"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 4.Rmd",
+        "restricted": false,
+        "directoryLabel": "Figure 4",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320719,
+          "persistentId": "",
+          "filename": "Figure 4.Rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7642,
+          "storageIdentifier": "surf://store:18494543809-e8b4739ea7a8",
+          "rootDataFileId": -1,
+          "md5": "435e9665b6961db85d04d4e16e517a0c",
+          "checksum": {
+            "type": "MD5",
+            "value": "435e9665b6961db85d04d4e16e517a0c"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 5.pdf",
+        "restricted": false,
+        "directoryLabel": "manuscript files/Figures",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320699,
+          "persistentId": "",
+          "filename": "Figure 5.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1737584,
+          "storageIdentifier": "surf://store:18494700487-870c5a38b736",
+          "rootDataFileId": -1,
+          "md5": "f21e40b723f1de45745b7d0b93345393",
+          "checksum": {
+            "type": "MD5",
+            "value": "f21e40b723f1de45745b7d0b93345393"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure-5v2.html",
+        "restricted": false,
+        "directoryLabel": "Figure 5",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320692,
+          "persistentId": "",
+          "filename": "Figure-5v2.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 1219322,
+          "storageIdentifier": "surf://store:184946fe294-b02f78335da7",
+          "rootDataFileId": -1,
+          "md5": "9686e15a1b887eb266e52af1e65ff36a",
+          "checksum": {
+            "type": "MD5",
+            "value": "9686e15a1b887eb266e52af1e65ff36a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure_5v2.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 5",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320708,
+          "persistentId": "",
+          "filename": "Figure_5v2.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 6100640566,
+          "storageIdentifier": "surf://store:184946f70c6-f06939207cd3",
+          "rootDataFileId": -1,
+          "md5": "5f550d112aa94236f1ac23a5b533bb94",
+          "checksum": {
+            "type": "MD5",
+            "value": "5f550d112aa94236f1ac23a5b533bb94"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure 5v2.Rmd",
+        "restricted": false,
+        "directoryLabel": "Figure 5",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320702,
+          "persistentId": "",
+          "filename": "Figure 5v2.Rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4763,
+          "storageIdentifier": "surf://store:184946e8eff-f38c639fb113",
+          "rootDataFileId": -1,
+          "md5": "c9d7603c55c16b2f117c125c62c1d258",
+          "checksum": {
+            "type": "MD5",
+            "value": "c9d7603c55c16b2f117c125c62c1d258"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "FlowJo_CD11c_CD1c_CD14_CX3CR1_CD36_manualgating.xls",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320703,
+          "persistentId": "",
+          "filename": "FlowJo_CD11c_CD1c_CD14_CX3CR1_CD36_manualgating.xls",
+          "contentType": "application/vnd.ms-excel",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 30720,
+          "storageIdentifier": "surf://store:18494542d9b-66ecd46b09fe",
+          "rootDataFileId": -1,
+          "md5": "5cdef73645ce51954a9c41ee964fa30a",
+          "checksum": {
+            "type": "MD5",
+            "value": "5cdef73645ce51954a9c41ee964fa30a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "fraction_purity_check.xls",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320710,
+          "persistentId": "",
+          "filename": "fraction_purity_check.xls",
+          "contentType": "application/vnd.ms-excel",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 19968,
+          "storageIdentifier": "surf://store:18494527fa3-369253b4cb8a",
+          "rootDataFileId": -1,
+          "md5": "5ba218fe7f2c0535b24b4ff3d4b7ad29",
+          "checksum": {
+            "type": "MD5",
+            "value": "5ba218fe7f2c0535b24b4ff3d4b7ad29"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Graphpad_cultures.xlsx",
+        "restricted": false,
+        "directoryLabel": "Figure 2",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320652,
+          "persistentId": "",
+          "filename": "Graphpad_cultures.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12324,
+          "storageIdentifier": "surf://store:184945385bb-15b61c3880c6",
+          "rootDataFileId": -1,
+          "md5": "83aa386f730015550cf2a69e045e1128",
+          "checksum": {
+            "type": "MD5",
+            "value": "83aa386f730015550cf2a69e045e1128"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GSE136731_cDC2_subsets_counts.txt",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320672,
+          "persistentId": "",
+          "filename": "GSE136731_cDC2_subsets_counts.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 12073123,
+          "storageIdentifier": "surf://store:1849454310f-f48acb6e6850",
+          "rootDataFileId": -1,
+          "md5": "abc2ba2b92cd990a9793da5ebdcf4ec9",
+          "checksum": {
+            "type": "MD5",
+            "value": "abc2ba2b92cd990a9793da5ebdcf4ec9"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GSE136731_cDC2_subsets_counts.txt.gz",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320707,
+          "persistentId": "",
+          "filename": "GSE136731_cDC2_subsets_counts.txt.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4259683,
+          "storageIdentifier": "surf://store:18494543069-ece0df06d7e4",
+          "rootDataFileId": -1,
+          "md5": "3633284efe0c05abccda77e599bbd267",
+          "checksum": {
+            "type": "MD5",
+            "value": "3633284efe0c05abccda77e599bbd267"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GSE178833_annotation.csv.gz",
+        "restricted": false,
+        "directoryLabel": "scRNAseq",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320721,
+          "persistentId": "",
+          "filename": "GSE178833_annotation.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 321248,
+          "storageIdentifier": "surf://store:184947fb39b-26e52ad7b99f",
+          "rootDataFileId": -1,
+          "md5": "884b9f339e71c211dd55d1bbef2e0a00",
+          "checksum": {
+            "type": "MD5",
+            "value": "884b9f339e71c211dd55d1bbef2e0a00"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GSE178833_barcodes.tsv.gz",
+        "restricted": false,
+        "directoryLabel": "scRNAseq",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320656,
+          "persistentId": "",
+          "filename": "GSE178833_barcodes.tsv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 72567,
+          "storageIdentifier": "surf://store:184948078b6-16e5aca55087",
+          "rootDataFileId": -1,
+          "md5": "94381ca9a627a67e6c28ba14ea1d764f",
+          "checksum": {
+            "type": "MD5",
+            "value": "94381ca9a627a67e6c28ba14ea1d764f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GSE178833_features.tsv.gz",
+        "restricted": false,
+        "directoryLabel": "scRNAseq",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320668,
+          "persistentId": "",
+          "filename": "GSE178833_features.tsv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 304728,
+          "storageIdentifier": "surf://store:184947fb621-a0e471ff0472",
+          "rootDataFileId": -1,
+          "md5": "310e685e9d859839933ac9aa710f6b00",
+          "checksum": {
+            "type": "MD5",
+            "value": "310e685e9d859839933ac9aa710f6b00"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GSE178833_matrix.mtx.gz",
+        "restricted": false,
+        "directoryLabel": "scRNAseq",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320685,
+          "persistentId": "",
+          "filename": "GSE178833_matrix.mtx.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 43562825,
+          "storageIdentifier": "surf://store:184947fb539-69c0d24e4bc8",
+          "rootDataFileId": -1,
+          "md5": "b5fbef74d0c7c030b76356a5a4ee6de9",
+          "checksum": {
+            "type": "MD5",
+            "value": "b5fbef74d0c7c030b76356a5a4ee6de9"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GSM3003493_DC2-FL-A1_ct_genes.txt.gz",
+        "restricted": false,
+        "directoryLabel": "Figure 2",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320662,
+          "persistentId": "",
+          "filename": "GSM3003493_DC2-FL-A1_ct_genes.txt.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 176928,
+          "storageIdentifier": "surf://store:1849453860d-febe68375912",
+          "rootDataFileId": -1,
+          "md5": "553b53e0cb99f08e432e68c90b90569e",
+          "checksum": {
+            "type": "MD5",
+            "value": "553b53e0cb99f08e432e68c90b90569e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GSM3003494_DC2-FL-C1_ct_genes.txt.gz",
+        "restricted": false,
+        "directoryLabel": "Figure 2",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320700,
+          "persistentId": "",
+          "filename": "GSM3003494_DC2-FL-C1_ct_genes.txt.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 181888,
+          "storageIdentifier": "surf://store:184945385cc-6281d3a3d3bf",
+          "rootDataFileId": -1,
+          "md5": "45b25b899db8719ee6cac26cef695b31",
+          "checksum": {
+            "type": "MD5",
+            "value": "45b25b899db8719ee6cac26cef695b31"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GSM3003495_DC2-FL-DL1-B1_ct_genes.txt.gz",
+        "restricted": false,
+        "directoryLabel": "Figure 2",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320694,
+          "persistentId": "",
+          "filename": "GSM3003495_DC2-FL-DL1-B1_ct_genes.txt.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 179465,
+          "storageIdentifier": "surf://store:184945385d6-38f3db0e2cad",
+          "rootDataFileId": -1,
+          "md5": "29a31d5c4a9c7759e5869e31114952c3",
+          "checksum": {
+            "type": "MD5",
+            "value": "29a31d5c4a9c7759e5869e31114952c3"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GSM3003496_DC2-FL-DL1-D1_ct_genes.txt.gz",
+        "restricted": false,
+        "directoryLabel": "Figure 2",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320677,
+          "persistentId": "",
+          "filename": "GSM3003496_DC2-FL-DL1-D1_ct_genes.txt.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 180931,
+          "storageIdentifier": "surf://store:18494538604-4ad1d58055b7",
+          "rootDataFileId": -1,
+          "md5": "eb49476e8d2c04238375907957b77cd3",
+          "checksum": {
+            "type": "MD5",
+            "value": "eb49476e8d2c04238375907957b77cd3"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "HLA_DR_lin_of_Live_stats_all_samples.xlsx",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320722,
+          "persistentId": "",
+          "filename": "HLA_DR_lin_of_Live_stats_all_samples.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 9502,
+          "storageIdentifier": "surf://store:18494543415-b8bfecae99d0",
+          "rootDataFileId": -1,
+          "md5": "3af7eb9eadc7d1e6c7dafdea1bb9fff3",
+          "checksum": {
+            "type": "MD5",
+            "value": "3af7eb9eadc7d1e6c7dafdea1bb9fff3"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Key Resources Table.docx",
+        "restricted": false,
+        "directoryLabel": "manuscript files",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320653,
+          "persistentId": "",
+          "filename": "Key Resources Table.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 41249,
+          "storageIdentifier": "surf://store:18494700264-5e3a4ccecea8",
+          "rootDataFileId": -1,
+          "md5": "0a0392ad58ff5bd6333dbd6dde52ad99",
+          "checksum": {
+            "type": "MD5",
+            "value": "0a0392ad58ff5bd6333dbd6dde52ad99"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "manual_gating_cDC2s_v2.pdf",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320646,
+          "persistentId": "",
+          "filename": "manual_gating_cDC2s_v2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 43656921,
+          "storageIdentifier": "surf://store:18494543342-d906c2f30e06",
+          "rootDataFileId": -1,
+          "md5": "e1e5a518991b9fd6772bf4172900c910",
+          "checksum": {
+            "type": "MD5",
+            "value": "e1e5a518991b9fd6772bf4172900c910"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MEs.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320683,
+          "persistentId": "",
+          "filename": "MEs.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 8269,
+          "storageIdentifier": "surf://store:18494527fa1-8986384022db",
+          "rootDataFileId": -1,
+          "md5": "df4a6922a94c93f5922965d64f294f4e",
+          "checksum": {
+            "type": "MD5",
+            "value": "df4a6922a94c93f5922965d64f294f4e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MEs_rep.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320711,
+          "persistentId": "",
+          "filename": "MEs_rep.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 2027,
+          "storageIdentifier": "surf://store:18494531217-7e6e8658a973",
+          "rootDataFileId": -1,
+          "md5": "f79a5932c62d7242e9841bae52b0556e",
+          "checksum": {
+            "type": "MD5",
+            "value": "f79a5932c62d7242e9841bae52b0556e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "module_info_padj.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320687,
+          "persistentId": "",
+          "filename": "module_info_padj.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 31900,
+          "storageIdentifier": "surf://store:18494528004-3a0159bd9dc0",
+          "rootDataFileId": -1,
+          "md5": "c53c8b321186727c87c376bdb1cab3db",
+          "checksum": {
+            "type": "MD5",
+            "value": "c53c8b321186727c87c376bdb1cab3db"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "purity_check_discovery_cohort.pdf",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320648,
+          "persistentId": "",
+          "filename": "purity_check_discovery_cohort.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1605113,
+          "storageIdentifier": "surf://store:1849452cce1-256be3bec88e",
+          "rootDataFileId": -1,
+          "md5": "a2e58f6fce4de9f7227b0654ded71577",
+          "checksum": {
+            "type": "MD5",
+            "value": "a2e58f6fce4de9f7227b0654ded71577"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "readme.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320728,
+          "persistentId": "",
+          "filename": "readme.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 21477,
+          "storageIdentifier": "surf://store:184948eb755-5db90b608b33",
+          "rootDataFileId": -1,
+          "md5": "397f51548310d2471d45a4853c848443",
+          "checksum": {
+            "type": "MD5",
+            "value": "397f51548310d2471d45a4853c848443"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Results qPCR.xlsx",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320682,
+          "persistentId": "",
+          "filename": "Results qPCR.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 16799,
+          "storageIdentifier": "surf://store:184945436a7-0f2130f0233c",
+          "rootDataFileId": -1,
+          "md5": "e79eb5d2174fc2a62da1ab6124e44ea5",
+          "checksum": {
+            "type": "MD5",
+            "value": "e79eb5d2174fc2a62da1ab6124e44ea5"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Rscript_Results_MPCF019-0108_JKuiper.xlsx",
+        "restricted": false,
+        "directoryLabel": "Figure 4",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320644,
+          "persistentId": "",
+          "filename": "Rscript_Results_MPCF019-0108_JKuiper.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 9842,
+          "storageIdentifier": "surf://store:1849454381d-a81df3f5ad89",
+          "rootDataFileId": -1,
+          "md5": "f75a1f0cf7beac1092b8b84caed0903a",
+          "checksum": {
+            "type": "MD5",
+            "value": "f75a1f0cf7beac1092b8b84caed0903a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "scRNAseq_AqH_Uveitis_original.RData",
+        "restricted": false,
+        "directoryLabel": "scRNAseq",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320684,
+          "persistentId": "",
+          "filename": "scRNAseq_AqH_Uveitis_original.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 3482780973,
+          "storageIdentifier": "surf://store:184948038db-1ce44f20bb0a",
+          "rootDataFileId": -1,
+          "md5": "5e20d22de16ab1a720c5388b1657e967",
+          "checksum": {
+            "type": "MD5",
+            "value": "5e20d22de16ab1a720c5388b1657e967"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "scRNAseq.html",
+        "restricted": false,
+        "directoryLabel": "scRNAseq",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320670,
+          "persistentId": "",
+          "filename": "scRNAseq.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 1180211,
+          "storageIdentifier": "surf://store:184948078a2-ed13f031f043",
+          "rootDataFileId": -1,
+          "md5": "607c6e3b000ea3821124737742aafa2f",
+          "checksum": {
+            "type": "MD5",
+            "value": "607c6e3b000ea3821124737742aafa2f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "scRNAseq.rmd",
+        "restricted": false,
+        "directoryLabel": "scRNAseq",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320665,
+          "persistentId": "",
+          "filename": "scRNAseq.rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 5032,
+          "storageIdentifier": "surf://store:184947fb610-0c96ba76a4e6",
+          "rootDataFileId": -1,
+          "md5": "b07751a929ff46c2b3819acfe4285e9c",
+          "checksum": {
+            "type": "MD5",
+            "value": "b07751a929ff46c2b3819acfe4285e9c"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Seed42 -metaClustering_consensus Rlen=1000 Dist=2 Max=44 mst=1 -7x7mc_cl2.csv",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320674,
+          "persistentId": "",
+          "filename": "Seed42 -metaClustering_consensus Rlen=1000 Dist=2 Max=44 mst=1 -7x7mc_cl2.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 8440,
+          "storageIdentifier": "surf://store:18494543085-b472f53d078b",
+          "rootDataFileId": -1,
+          "md5": "36d49ce93582e56d4551e18b144020ec",
+          "checksum": {
+            "type": "MD5",
+            "value": "36d49ce93582e56d4551e18b144020ec"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Seed42 -metaClustering_consensus Rlen=1000 Dist=2 Max=44 mst=1 -7x7props_clusters.csv",
+        "restricted": false,
+        "directoryLabel": "Figure 3",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320669,
+          "persistentId": "",
+          "filename": "Seed42 -metaClustering_consensus Rlen=1000 Dist=2 Max=44 mst=1 -7x7props_clusters.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 31893,
+          "storageIdentifier": "surf://store:1849454308d-7e9f0808d484",
+          "rootDataFileId": -1,
+          "md5": "2ffda9bbe145c6e3250dd1aad15776ad",
+          "checksum": {
+            "type": "MD5",
+            "value": "2ffda9bbe145c6e3250dd1aad15776ad"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "seq_template _discovery.ods",
+        "restricted": false,
+        "directoryLabel": "meta_data_cohorts",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320690,
+          "persistentId": "",
+          "filename": "seq_template _discovery.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 15603,
+          "storageIdentifier": "surf://store:184947005a0-acad45d060ad",
+          "rootDataFileId": -1,
+          "md5": "a712b6b6f012b1a37deaee372c18db0e",
+          "checksum": {
+            "type": "MD5",
+            "value": "a712b6b6f012b1a37deaee372c18db0e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "seq_template_replication.xlsx",
+        "restricted": false,
+        "directoryLabel": "meta_data_cohorts",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320715,
+          "persistentId": "",
+          "filename": "seq_template_replication.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 362643,
+          "storageIdentifier": "surf://store:18494700596-b9fe21a35f3d",
+          "rootDataFileId": -1,
+          "md5": "4c4b94cdb59f2ef72e24eaa66c2ce936",
+          "checksum": {
+            "type": "MD5",
+            "value": "4c4b94cdb59f2ef72e24eaa66c2ce936"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SuppTables.xlsx",
+        "restricted": false,
+        "directoryLabel": "manuscript files",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320724,
+          "persistentId": "",
+          "filename": "SuppTables.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 22523395,
+          "storageIdentifier": "surf://store:1849470037b-cd32aa2ca1c6",
+          "rootDataFileId": -1,
+          "md5": "7dbcdcc1988cf9820ca645d043a7feac",
+          "checksum": {
+            "type": "MD5",
+            "value": "7dbcdcc1988cf9820ca645d043a7feac"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Uveitis_Dis_networkConstruction-manual.rdata",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320647,
+          "persistentId": "",
+          "filename": "Uveitis_Dis_networkConstruction-manual.rdata",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 980068500,
+          "storageIdentifier": "surf://store:1849453000c-f023a36e763b",
+          "rootDataFileId": -1,
+          "md5": "e817d49b0e0ff025ac1003aea83efe4b",
+          "checksum": {
+            "type": "MD5",
+            "value": "e817d49b0e0ff025ac1003aea83efe4b"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Uveitis_Dis_network-ImpGenes.rdata",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320689,
+          "persistentId": "",
+          "filename": "Uveitis_Dis_network-ImpGenes.rdata",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 2720466,
+          "storageIdentifier": "surf://store:18494527f92-6b2f66e64e52",
+          "rootDataFileId": -1,
+          "md5": "efb9fe6487eaf2d0eca4d9d63aa4c254",
+          "checksum": {
+            "type": "MD5",
+            "value": "efb9fe6487eaf2d0eca4d9d63aa4c254"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Uveitis_Dis_predata.rdata",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320654,
+          "persistentId": "",
+          "filename": "Uveitis_Dis_predata.rdata",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 2187635,
+          "storageIdentifier": "surf://store:1849452801c-5dd4f37bf6e6",
+          "rootDataFileId": -1,
+          "md5": "749402cec711c6a2f2e20e42ed7ca494",
+          "checksum": {
+            "type": "MD5",
+            "value": "749402cec711c6a2f2e20e42ed7ca494"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "process RNA-seq data used in the rmarkdown provided in this DataverseNL",
+        "label": "Uveitis_mDCs-1.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320727,
+          "persistentId": "",
+          "filename": "Uveitis_mDCs-1.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 137070301,
+          "description": "process RNA-seq data used in the rmarkdown provided in this DataverseNL",
+          "storageIdentifier": "surf://store:184948c65e8-0f22477e6019",
+          "rootDataFileId": -1,
+          "md5": "367e3ee8c69039fb1a78625e6e9fdd6b",
+          "checksum": {
+            "type": "MD5",
+            "value": "367e3ee8c69039fb1a78625e6e9fdd6b"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Uveitis_Rep_networkConstruction-manual.rdata",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320709,
+          "persistentId": "",
+          "filename": "Uveitis_Rep_networkConstruction-manual.rdata",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 85779928,
+          "storageIdentifier": "surf://store:18494531d58-96091323308b",
+          "rootDataFileId": -1,
+          "md5": "eb578f99a7d96ada38d0162f4bf35cb8",
+          "checksum": {
+            "type": "MD5",
+            "value": "eb578f99a7d96ada38d0162f4bf35cb8"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Uveitis_Rep_network-ImpGenes.rdata",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320706,
+          "persistentId": "",
+          "filename": "Uveitis_Rep_network-ImpGenes.rdata",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 258525,
+          "storageIdentifier": "surf://store:1849452d18d-ce964a98b337",
+          "rootDataFileId": -1,
+          "md5": "a38d2f50c862c07d71cce371ae25ef52",
+          "checksum": {
+            "type": "MD5",
+            "value": "a38d2f50c862c07d71cce371ae25ef52"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Uveitis_Rep_predata.rdata",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320680,
+          "persistentId": "",
+          "filename": "Uveitis_Rep_predata.rdata",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 544138,
+          "storageIdentifier": "surf://store:18494527ffa-ab3f4c56f0da",
+          "rootDataFileId": -1,
+          "md5": "251fb812fbbe1d4ce8e91522f48a7022",
+          "checksum": {
+            "type": "MD5",
+            "value": "251fb812fbbe1d4ce8e91522f48a7022"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "WGCNA_cDC2_dis.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320681,
+          "persistentId": "",
+          "filename": "WGCNA_cDC2_dis.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 1150434470,
+          "storageIdentifier": "surf://store:1849452b73f-1b842542d032",
+          "rootDataFileId": -1,
+          "md5": "6acbe673665ab81e62e39e8c09adb5c8",
+          "checksum": {
+            "type": "MD5",
+            "value": "6acbe673665ab81e62e39e8c09adb5c8"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "WGCNA_cDC2_rep.RData",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320686,
+          "persistentId": "",
+          "filename": "WGCNA_cDC2_rep.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 69572892,
+          "storageIdentifier": "surf://store:1849452d030-f946e4cd3ddd",
+          "rootDataFileId": -1,
+          "md5": "ef62317293d679b79f030cc9e63563d7",
+          "checksum": {
+            "type": "MD5",
+            "value": "ef62317293d679b79f030cc9e63563d7"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "WGCNA_Network_Manual.R",
+        "restricted": false,
+        "directoryLabel": "Figure 1",
+        "version": 1,
+        "datasetVersionId": 20961,
+        "dataFile": {
+          "id": 320664,
+          "persistentId": "",
+          "filename": "WGCNA_Network_Manual.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 6900,
+          "storageIdentifier": "surf://store:18494527feb-5f08af0bbb1f",
+          "rootDataFileId": -1,
+          "md5": "f964a5a252adc50f3e4a8959254d77bb",
+          "checksum": {
+            "type": "MD5",
+            "value": "f964a5a252adc50f3e4a8959254d77bb"
+          },
+          "tabularData": false,
+          "creationDate": "2022-11-20",
+          "publicationDate": "2023-01-10",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Jonas J.W. Kuiper, 2022, \"Data and R Scripts for: \"Transcriptome network analysis implicates CX3CR1-positive type 3 dendritic cells in non-infectious uveitis\"\", https://doi.org/10.34894/9Q0FVO, DataverseNL, V2"
+  }
+}

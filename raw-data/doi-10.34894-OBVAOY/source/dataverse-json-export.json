@@ -1,0 +1,263 @@
+{
+  "id": 552685,
+  "identifier": "OBVAOY",
+  "persistentUrl": "https://doi.org/10.34894/OBVAOY",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-09-23",
+  "storageIdentifier": "surf://10.34894/OBVAOY",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31636,
+    "datasetId": 552685,
+    "datasetPersistentId": "doi:10.34894/OBVAOY",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/OBVAOY",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-09-23T15:43:40Z",
+    "releaseTime": "2025-09-23T15:43:40Z",
+    "createTime": "2025-09-23T15:40:28Z",
+    "publicationDate": "2025-09-23",
+    "citationDate": "2025-09-23",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "CompuCrawl: Full database and code"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.17136383.v1"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Richard Haans"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Richard Haans"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus University Rotterdam <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p><br></p><p dir=\\\"ltr\\\">This folder contains the full set of code and data for the CompuCrawl database. The database contains the archived websites of publicly traded North American firms listed in the Compustat database between 1996 and 2020\\u2014representing 11,277 firms with 86,303 firm/year observations and 1,617,675 webpages in the final cleaned and selected set.</p><p dir=\\\"ltr\\\">The files are ordered by moment of use in the work flow. For example, the first file in the list is the input file for code files 01 and 02, which create and update the two tracking files \\\"scrapedURLs.csv\\\" and \\\"URLs_1_deeper.csv\\\" and which write HTML files to its folder. \\\"HTML.zip\\\" is the resultant folder, converted to .zip for ease of sharing. Code file 03 then reads this .zip file and is therefore below it in the ordering.</p><p dir=\\\"ltr\\\">The full set of files, in order of use, is as follows:</p><ul><li><i>Compustat_2021.xlsx</i>: The input file containing the URLs to be scraped and their date range.</li><li><i>01 Collect frontpages.py</i>: Python script scraping the front pages of the list of URLs and generating a list of URLs one page deeper in the domains.</li><li><i>URLs_1_deeper.csv</i>: List of URLs one page deeper on the main domains.</li><li><i>02 Collect further pages.py</i>: Python script scraping the list of URLs one page deeper in the domains.</li><li><i>scrapedURLs.csv</i>: Tracking file containing all URLs that were accessed and their scraping status.</li><li><i>HTML.zip</i>: Archived version of the set of individual HTML files.</li><li><i>03 Convert HTML to plaintext.py</i>: Python script converting the individual HTML pages to plaintext.</li><li><i>TXT_uncleaned.zip</i>: Archived version of the converted yet uncleaned plaintext files.</li><li><i>input_categorization_allpages.csv</i>: Input file for classification of pages using GPT according to their HTML title and URL.</li><li><i>04 GPT application.py</i>: Python script using OpenAI\\u2019s API to classify selected pages according to their HTML title and URL.</li><li><i>categorization_applied.csv</i>: Output file containing classification of selected pages.</li><li><i>exclusion_list.xlsx</i>: File containing three sheets: 'gvkeys' containing the GVKEYs of duplicate observations (that need to be excluded), 'pages' containing page IDs for pages that should be removed, and 'sentences' containing (sub-)sentences to be removed.</li><li><i>05 Clean and select.py</i>: Python script applying data selection and cleaning (including selection based on page category), with setting and decisions described at the top of the script. This script also combined individual pages into one combined observation per GVKEY/year.</li><li><i>metadata.csv</i>: Metadata containing information on all processed HTML pages, including those not selected.</li><li><i>TXT_cleaned.zip</i>: Archived version of the selected and cleaned plaintext page files. This file serves as input for the word embeddings application.</li><li><i>TXT_combined.zip</i>: Archived version of the combined plaintext files at the GVKEY/year level. This file serves as input for the data description using topic modeling.</li><li><i>06 Topic model.R</i>: R script that loads up the combined text data from the folder stored in \\\"TXT_combined.zip\\\", applies further cleaning, and estimates a 125-topic model.<br><i>TM_125.RData:</i> RData file containing the results of the 125-topic model.</li><li><i>loadings125.csv</i>: CSV file containing the loadings for all 125 topics for all GVKEY/year observations that were included in the topic model.</li><li><i>125_topprob.xlsx</i>: Overview of top-loading terms for the 125 topic model.</li><li><i>07 Word2Vec train and align.py</i>: Python script that loads the plaintext files in the \\\"TXT_cleaned.zip\\\" archive to train a series of Word2Vec models and subsequently align them in order to compare word embeddings across time periods.</li><li><i>Word2Vec_models.zip</i>: Archived version of the saved Word2Vec models, both unaligned and aligned.</li><li><i>08 Word2Vec work with aligned models.py</i>: Python script which loads the trained Word2Vec models to trace the development of the embeddings for the terms \\u201csustainability\\u201d and \\u201cprofitability\\u201d over time.</li><li><i>99 Scrape further levels down.py</i>: Python script that can be used to generate a list of unscraped URLs from the pages that themselves were one level deeper than the front page.</li><li><i>URLs_2_deeper.csv</i>: CSV file containing unscraped URLs from the pages that themselves were one level deeper than the front page.</li></ul><p dir=\\\"ltr\\\"><b>For those only interested in downloading the final database of texts, the files \\\"HTML.zip\\\", \\\"TXT_uncleaned.zip\\\", \\\"TXT_cleaned.zip\\\", and \\\"TXT_combined.zip\\\" contain the full set of HTML pages, the processed but uncleaned texts, the selected and cleaned texts, and combined and cleaned texts at the GVKEY/year level, respectively.</b></p><p dir=\\\"ltr\\\">The following webpage contains answers to frequently asked questions: https://haans-mertens.github.io/faq/. More information on the database and the underlying project can be found here: https://haans-mertens.github.io/ and the following article: \\u201c<i>The Internet Never Forgets: A Four-Step Scraping Tutorial, Codebase, and Database for Longitudinal Organizational Website Data</i>\\u201d, by Richard F.J. Haans and Marc J. Mertens in <i>Organizational Research Methods</i>. The full paper can be accessed <a href=\\\"https://journals.sagepub.com/doi/10.1177/10944281241284941\\\" target=\\\"_blank\\\">here</a>.</p><p dir=\\\"ltr\\\"><br></p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sociology"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Economics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Panel Data Analysis"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Other economics not elsewhere classified"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Panel data analysis"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sociological methodology and research methods"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>Online resource. <a href=\"https://doi.org/10.25397/eur.17136383\" target=\"_blank\">https://doi.org/10.25397/eur.17136383</a></p>"
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Richard Haans"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<p> DOI Is described by <a href=\"https://doi.org/10.1177/10944281241284941\" target=\"_blank\">The Internet Never Forgets: A Four-Step Scraping Tutorial, Codebase, and Database for Longitudinal Organizational Website Data</a></p>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/OBVAOY"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:7f8536a0-8263-405e-9920-84fb571b13a4"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-03d173bc-1960-4f46-9254-4378bd165587"
+          }
+        ]
+      }
+    },
+    "files": [],
+    "citation": "Richard Haans, 2025, \"CompuCrawl: Full database and code\", https://doi.org/10.34894/OBVAOY, DataverseNL, V1"
+  }
+}

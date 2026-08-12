@@ -1,0 +1,573 @@
+{
+  "id": 566777,
+  "identifier": "4ZOXHG",
+  "persistentUrl": "https://doi.org/10.34894/4ZOXHG",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-12-04",
+  "storageIdentifier": "surf://10.34894/4ZOXHG",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32019,
+    "datasetId": 566777,
+    "datasetPersistentId": "doi:10.34894/4ZOXHG",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/4ZOXHG",
+    "versionNumber": 1,
+    "internalVersionNumber": 9,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "productionDate": "2024-07-10",
+    "lastUpdateTime": "2025-12-04T08:26:08Z",
+    "releaseTime": "2025-12-04T08:26:08Z",
+    "createTime": "2025-11-28T10:52:42Z",
+    "publicationDate": "2025-12-04",
+    "citationDate": "2025-12-04",
+    "license": {
+      "name": "CC-BY-NC-SA-4.0",
+      "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
+    },
+    "termsOfAccess": "The data is not available for download directly via DataverseNL. Data is available on request by contacting the owner of the dataset. ",
+    "availabilityStatus": "The data is not available for download directly via DataverseNL but is available on request if the request is compliant with the Terms of Access.",
+    "contactForAccess": "In addition to the above CC code, which applies to the currently published data, acces to additional data will be assessed by the local review committee at OLVG (ACWO), in accordance with current laws and regulations, will review requests to ensure data privacy and ethical standards are maintained. The ACWO operates under the supervision of the Board of Directors of OLVG. Contact can be made by email to wetenschap@olvg.nl",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Predictors of 30-day hospitalization in patients with worsening heart failure receiving outpatient intravenous diuretics"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Maarschalkerwaart, Willemijn"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/01d02sf11",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "OLVG",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-1351-7178"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Heerebeek, Loek"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/01d02sf11",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "OLVG",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6718-2871"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "OLVG"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "OLVG"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset comes from a retrospective database combined with a prospective registry on heart failure patients who are treated with intravenous diuretics in an outpatient setting as an alternative to hospitalization in two hospitals in the Netherlands. The aim of the study was to identify predictors of heart failure hospitalization in order to improve the selection of patients who qualify for successful outpatient treatment. The study involves patients with an established diagnosis of chronic heart failure who experience symptoms of worsening heart failure that are unresponsive to intensification of oral medication or who are too symptomatic to treat at home. Patients with newly onset HF, ischemic heart disease with current ischemia, valve disease who are awaiting intervention, new cardiac rhythm disturbances, or cardiogenic shock or respiratory failure at time of presentation are excluded from outpatient treatment. The primary endpoint is 30-day heart failure hospitalization. Secondary endpoints include 6-month heart failure hospitalization, repeated outpatient treatment, and mortality. Data is collected from electronic health records."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Diuretics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heart failure"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Outpatient treatment"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Worsening heart failure"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sponsor OLVG"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The data are sensitive since they involve personal information of patients. There are restrictions on use by commercial parties and on sharing openly, based on (inter)national laws and regulations and written informed consent. Therefore these data (and additional clinical data) are only available upon signing a Data Transfer Agreement (see Terms of Access)."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-07-10"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "OLVG (Amsterdam)"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van Maarschalkerwaart, Willemijn"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-11-28"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2018-11-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023-06-30"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-02-27"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-07-10"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "clinical data"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Castor EDC"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "R Studio"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "accessToSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Only the metadata for this study has made publicly available to facilitate transparency and initial exploration. Access to the full database, which contains detailed information and study results, is restricted and requires explicit permission. Researchers interested in accessing the full database must contact the local review committee at OLVG (ACWO, e-mail: wetenschap@olvg.nl), which in accordance with current laws and regulations, will review requests to ensure data privacy and ethical standards are maintained. The ACWO operates under the supervision of the Board of Directors of OLVG."
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/4ZOXHG"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:4b01e4fd-36c9-4d85-96aa-ed6a378c3243"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-cb00421e-04ef-4f1f-8e36-3833b06e00a4"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Codebook",
+        "label": "Codebook_WO23.164.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32019,
+        "dataFile": {
+          "id": 566778,
+          "persistentId": "",
+          "filename": "Codebook_WO23.164.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 7194,
+          "description": "Codebook",
+          "storageIdentifier": "surf://store:19aca166057-89469c6a2542",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cb064f386f6656e103ec66536e79473fee149621"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-28",
+          "publicationDate": "2025-12-04",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "In- and exclusion criteria",
+        "label": "In_Exclusion_criteria.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32019,
+        "dataFile": {
+          "id": 566779,
+          "persistentId": "",
+          "filename": "In_Exclusion_criteria.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 815,
+          "description": "In- and exclusion criteria",
+          "storageIdentifier": "surf://store:19aca166223-0d634d9df138",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "847bbfacaf7fad87673f086b06950a2fde010a52"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-28",
+          "publicationDate": "2025-12-04",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Research protocol",
+        "label": "Research_protocol_WO.23.164_20240213.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32019,
+        "dataFile": {
+          "id": 566784,
+          "persistentId": "",
+          "filename": "Research_protocol_WO.23.164_20240213.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1122940,
+          "description": "Research protocol",
+          "storageIdentifier": "surf://store:19aca168546-3d4ceb6ec5cf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e375c227e420e59155a666660fbefd534f1c8aa6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-28",
+          "publicationDate": "2025-12-04",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Flowchart",
+        "label": "S1 Fig.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32019,
+        "dataFile": {
+          "id": 566782,
+          "persistentId": "",
+          "filename": "S1 Fig.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 6221058,
+          "description": "Flowchart",
+          "storageIdentifier": "surf://store:19aca168930-b09da317ecec",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8551faa3e021ec4e6e661b5578ecf025be9b5833"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-28",
+          "publicationDate": "2025-12-04",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "R Syntax multicollinearity check",
+        "label": "Script_multicollinaritycheck_revisions.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32019,
+        "dataFile": {
+          "id": 566785,
+          "persistentId": "",
+          "filename": "Script_multicollinaritycheck_revisions.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 4607,
+          "description": "R Syntax multicollinearity check",
+          "storageIdentifier": "surf://store:19aca168c16-3d4b0dea7eeb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "355acb1c9ff1bd11e645448acc2f17136c807e3c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-28",
+          "publicationDate": "2025-12-04",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "R Syntax results",
+        "label": "Script_results_20240819.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32019,
+        "dataFile": {
+          "id": 566783,
+          "persistentId": "",
+          "filename": "Script_results_20240819.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 75013,
+          "description": "R Syntax results",
+          "storageIdentifier": "surf://store:19aca168ef1-7025c7232d5a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e16c813f203ccf8310254557d54f9b708abf0bf3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-28",
+          "publicationDate": "2025-12-04",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "R Syntax results with adjusted analysis of eGFR (final manuscript)",
+        "label": "Script_results_egfr10unit_20250520.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32019,
+        "dataFile": {
+          "id": 566781,
+          "persistentId": "",
+          "filename": "Script_results_egfr10unit_20250520.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 38216,
+          "description": "R Syntax results with adjusted analysis of eGFR (final manuscript)",
+          "storageIdentifier": "surf://store:19aca1691c0-8e6d91017098",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ca5fe7abca6dbff5503ad50b480bcb6b6a28ed1a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-28",
+          "publicationDate": "2025-12-04",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "R Syntax for final results figure",
+        "label": "Script_results_plot_20241127.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32019,
+        "dataFile": {
+          "id": 566780,
+          "persistentId": "",
+          "filename": "Script_results_plot_20241127.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 13794,
+          "description": "R Syntax for final results figure",
+          "storageIdentifier": "surf://store:19aca16951f-28afece7f7a2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "045ca8f08b5bcd1abd442deb697dfe356cf71242"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-28",
+          "publicationDate": "2025-12-04",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "van Maarschalkerwaart, Willemijn; van Heerebeek, Loek, 2025, \"Replication Data for: Predictors of 30-day hospitalization in patients with worsening heart failure receiving outpatient intravenous diuretics\", https://doi.org/10.34894/4ZOXHG, DataverseNL, V1"
+  }
+}

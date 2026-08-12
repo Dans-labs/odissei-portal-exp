@@ -1,0 +1,242 @@
+{
+  "id": 478513,
+  "identifier": "Z8RVOE",
+  "persistentUrl": "https://doi.org/10.34894/Z8RVOE",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-04-10",
+  "storageIdentifier": "surf://10.34894/Z8RVOE",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30467,
+    "datasetId": 478513,
+    "datasetPersistentId": "doi:10.34894/Z8RVOE",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/Z8RVOE",
+    "versionNumber": 1,
+    "internalVersionNumber": 8,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-04-10T09:15:07Z",
+    "releaseTime": "2025-04-10T09:15:07Z",
+    "createTime": "2025-04-09T10:09:16Z",
+    "publicationDate": "2025-04-10",
+    "citationDate": "2025-04-10",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Study 4: Basic Bronchoscopy Competence Achieved by a Nationwide One-day Simulation-based Training"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Eveline Gerretsen - PhD Project data for study 4"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Eveline Gerretsen"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2353-0381"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Shedata"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<B>Short description of the study</B><BR><BR>\nThis study evaluated the effectiveness of a 1-day flexible bronchoscopy simulation-based training program that was implemented across 7 different simulation centers in the Netherlands. Participants first performed a pre-test, consisting of two simulator tasks (Task 1 and Task 2). Then they practiced their bronchoscopy skills under supervision of an experienced pulmonologist. At the end of the day, participants performed a post-test. Outcome measures were simulator metrics of Task 1, procedure time of Task 2 and observational assessment tool scores of participants’ performance of Task 2. Additionally, participants’ dexterity was rated by a blinded experts by means of video recordings of their scope handling. <BR><BR>\n<B>Short description of the data file</B><BR><BR>\nThe “240320 N100 Final dataset.sav” file contains the whole dataset, with participant age, gender, simulation experience, endoscopy experience, gaming experience and all outcome measures. In the Variable View the Value Labels (i.e. 0 = male, 1 = female, 0 = no gaming experience, etc.) can be found.<BR><BR>\n\nOverview of parameters in the .sav file, pre = pretest, post = posttest. For the assessment tools (Supplemental Digital Content 1 and Supplemental Digital Content 2): Higher scores indicate a better performance (i.e. 3 for R_Anatomy_pre means all segments in the right lung correctly named, 1 for R_Anatomy_pre means 2 or more segments in the right lung incorrectly named). <BR><BR>\n\nAge: age in years<BR>\nGender: gender<BR>\nSim_exp: experience with simulation-based training/practice<BR>\nBroncho_exp: experience with performing bronchoscopies<BR>\nEndo_exp: experience with performing endoscopies<BR>\nGaming_exp: gaming experience<BR><BR>\n\nSimulator metrics task 1:<BR><BR>\n\nLumen_pre: % of time in mid lumen <BR>\nLumen_post: % of time in mid lumen <BR>\nN_wall_pre: number of wall contacts <BR>\nN_wall_post: number of wall contacts<BR>\nTime_task1_pre: time <BR>\nTime_task1_post: time <BR>\nScope_wall_pre: scope wall contacts <BR>\nScope_wall_post: scope wall contacts <BR><BR>\n\nAssessment tool parameters task 2:  <BR><BR>\nIntroduction_pre: scope introduction<BR>\nIntroduction_post: scope introduction<BR>\nRL_reach_pre: entered segments right lung<BR>\nRL_reach_post: entered segments right lung<BR>\nLL_reach_pre: entered segments left lung<BR>\nLL_reach_post: entered segments left lung<BR>\nSystematic_pre: procedure (systematically reached or not)<BR>\nSystematic_post: procedure (systematically reached or not)<BR>\nIntra_move_pre: intra-bronchial scope movement overall<BR>\nIntra_move_post: intra-bronchial scope movement overall<BR>\nScope_handl_pre: dexterity<BR>\nScope_handl_post: dexterity<BR>\nHand_wrist_pre: hand-wrist movements<BR>\nHand_wrist_post: hand wrist movements<BR>\nTime_task3_pre: procedure time task 2<BR>\nTime_task3_post: procedure time task 2<BR>\nR_Anatomy_pre: segments correctly named right lung<BR>\nR_Anatomy_post: segments correctly named right lung<BR>\nL_anatomy_pre: segments correctly named left lung<BR>\nL_anatomy_post: segments correctly named left lung<BR>\nOverall_pre: overall rating<BR>\nOverall_post: overall rating<BR><BR>\n\nDexterity assessment task 2:<BR><BR>\n\nHandthumb_pre: hand thumb position<BR>\nMIHP_LOD_pre: movements in horizontal plane level of discrepancy<BR>\nMIHP_TOD_pre: movements in horizontal plane level time<BR>\nAggr_MIHP_pre: movements in horizontal plane final score<BR>\nBending_LOD_Pre: bending level of discrepancy<BR>\nBending_TOD_pre: time of suboptimal bending<BR>\nAS_Bending_pre: bending final score<BR>\nDel_wrist_mov_pre: deliberate wrist movements level<BR>\nTime_DWM_pre: deliberate wrist movements time<BR>\nAggreg_DWM_pre: deliberate wrist movements final score<BR>\nTot_score_pre: total score<BR>\nFluency_pre: fluency<BR>\nHandthumb_post: hand thumb position<BR>\nMIHP_LOD_post: movements in horizontal plane level of discrepancy<BR>\nMIHP_TOD_post: movements in horizontal plane level time<BR>\nAggr_MIHP_post: movements in horizontal plane final score<BR>\nBending_LOD_post: bending level of discrepancy<BR>\nBending_TOD_post: time of suboptimal bending<BR>\nAS_Bending_post: bending final score<BR>\nDel_wrist_mov_post: deliberate wrist movements level<BR>\nTime_DWM_post: deliberate wrist movements time<BR>\nAggreg_DWM_post: deliberate wrist movements final score<BR>\nTot_score_post: total score<BR>\nFluency_post: fluency<BR>\nWallMinNewPre: wall contacts per minute<BR>\nWallMinNewPost: wall contacts per minute<BR><BR>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-04-09"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "bronchoscopy, simulation, training"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gerretsen EC, Groenier M, Annema JT, Van Der Heijden EH, Van Mook WN, Aldenkamp AF, Citgez E, Crombag LM, Hiddinga BI, Hoppe BP, Ninaber MK. Basic Bronchoscopy Competence Achieved by a Nationwide One-day Simulation-based Training. Journal of bronchology & interventional pulmonology. 2025 Jan 1;32(1):e0995."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Shedata"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-04-09"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/Z8RVOE"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:80a50816-c792-4764-beca-3555faa3429f"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-1e074d0d-f1e2-4a30-92d9-6d00e135aba0"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "240320 N100 Final dataset.sav",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 30467,
+        "dataFile": {
+          "id": 478514,
+          "persistentId": "",
+          "filename": "240320 N100 Final dataset.sav",
+          "contentType": "application/x-spss-sav",
+          "friendlyType": "SPSS Binary",
+          "filesize": 21962,
+          "storageIdentifier": "surf://store:1961a065276-dbcd04ac0f47",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "08c42ed0f0b9430912583744c35b102bb94abea9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-04-09",
+          "publicationDate": "2025-04-10",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Eveline Gerretsen, 2025, \"Study 4: Basic Bronchoscopy Competence Achieved by a Nationwide One-day Simulation-based Training\", https://doi.org/10.34894/Z8RVOE, DataverseNL, V1"
+  }
+}

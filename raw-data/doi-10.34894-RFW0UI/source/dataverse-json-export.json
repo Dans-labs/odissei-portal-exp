@@ -1,0 +1,941 @@
+{
+  "id": 143123,
+  "identifier": "RFW0UI",
+  "persistentUrl": "https://doi.org/10.34894/RFW0UI",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-12-13",
+  "storageIdentifier": "surf://10.34894/RFW0UI",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 4054,
+    "datasetId": 143123,
+    "datasetPersistentId": "doi:10.34894/RFW0UI",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/RFW0UI",
+    "versionNumber": 1,
+    "internalVersionNumber": 28,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2013-01-31",
+    "lastUpdateTime": "2021-12-13T19:16:56Z",
+    "releaseTime": "2021-12-13T19:16:56Z",
+    "createTime": "2021-09-24T09:18:48Z",
+    "publicationDate": "2021-12-13",
+    "termsOfUse": "<img src=\"https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png\"/> Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) <a href=\"https://creativecommons.org/licenses/by-nc-nd/4.0/\">https://creativecommons.org/licenses/by-nc-nd/4.0/</a>",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Northwest UK, Hall I Th Wood, Bolton, Greater Manchester"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Digital Collaboratory for Cultural Dendrochronology (DCCD)"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "dccd:6868"
+                }
+              },
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Sheffield"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EH:P18"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tyers, C M"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Sheffield"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tyers, C M"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Sheffield"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dendrochronological research project"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2013-01-31"
+          }
+        ]
+      },
+      "dccd": {
+        "displayName": "DCCD Metadata",
+        "name": "dccd",
+        "fields": [
+          {
+            "typeName": "dccd-projectType",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "dating"
+            ]
+          },
+          {
+            "typeName": "dccd-category",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "built heritage"
+          },
+          {
+            "typeName": "dccd-principalInvestigator",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dccd-objectType",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "building"
+            ]
+          },
+          {
+            "typeName": "dccd-taxon",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Quercus"
+            ]
+          },
+          {
+            "typeName": "dccd-location",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dccd-latitude": {
+                  "typeName": "dccd-latitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "53.599911"
+                },
+                "dccd-longitude": {
+                  "typeName": "dccd-longitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "-2.416749"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dccd-period",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dccd-periodStart": {
+                  "typeName": "dccd-periodStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1467"
+                },
+                "dccd-periodEnd": {
+                  "typeName": "dccd-periodEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1569"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/RFW0UI"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:313d7f1e-145e-4928-b3d5-3a13f86ad892"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-8b0e77c4-af14-4eab-b95b-413e431e98d4"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "EH P18 Northwest, Hall I Th Wood, Bolton, Greater Manchester.xml",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143145,
+          "persistentId": "",
+          "filename": "EH P18 Northwest, Hall I Th Wood, Bolton, Greater Manchester.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 59002,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719c40e-24b7313ca14e",
+          "rootDataFileId": -1,
+          "md5": "b5e701c5fa8e948b4fb0f8220d2e5196",
+          "checksum": {
+            "type": "MD5",
+            "value": "b5e701c5fa8e948b4fb0f8220d2e5196"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW001.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143143,
+          "persistentId": "",
+          "filename": "HW001.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 512,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719c162-2ee179c946c7",
+          "rootDataFileId": -1,
+          "md5": "7bb8b2c0739ce27e992e562071e9c9ff",
+          "checksum": {
+            "type": "MD5",
+            "value": "7bb8b2c0739ce27e992e562071e9c9ff"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW002.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143137,
+          "persistentId": "",
+          "filename": "HW002.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 407,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719b999-aa63914e1c11",
+          "rootDataFileId": -1,
+          "md5": "c9053a817b1132a3be248e389fa38c57",
+          "checksum": {
+            "type": "MD5",
+            "value": "c9053a817b1132a3be248e389fa38c57"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW003.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143130,
+          "persistentId": "",
+          "filename": "HW003.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 591,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719b12c-bc678aa3f827",
+          "rootDataFileId": -1,
+          "md5": "a609ff6a984443aa7ccf4efeabb5a676",
+          "checksum": {
+            "type": "MD5",
+            "value": "a609ff6a984443aa7ccf4efeabb5a676"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW004.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143125,
+          "persistentId": "",
+          "filename": "HW004.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 786,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719ab38-2a93f944643f",
+          "rootDataFileId": -1,
+          "md5": "dd5dbd798f48e2c94b9f69357cde4f74",
+          "checksum": {
+            "type": "MD5",
+            "value": "dd5dbd798f48e2c94b9f69357cde4f74"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW005.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143144,
+          "persistentId": "",
+          "filename": "HW005.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 456,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719c2ad-f9451389158c",
+          "rootDataFileId": -1,
+          "md5": "2e060c6ac727efb309dbf13b8b471aa2",
+          "checksum": {
+            "type": "MD5",
+            "value": "2e060c6ac727efb309dbf13b8b471aa2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW006.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143140,
+          "persistentId": "",
+          "filename": "HW006.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 446,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719bd6f-298eaf469554",
+          "rootDataFileId": -1,
+          "md5": "1a9f8eb79280e17406b233bbfee09b63",
+          "checksum": {
+            "type": "MD5",
+            "value": "1a9f8eb79280e17406b233bbfee09b63"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW007.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143132,
+          "persistentId": "",
+          "filename": "HW007.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 409,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719b3a9-fca7621877b9",
+          "rootDataFileId": -1,
+          "md5": "5329c4a27ba719bda712f4f64c4ed655",
+          "checksum": {
+            "type": "MD5",
+            "value": "5329c4a27ba719bda712f4f64c4ed655"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW008.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143136,
+          "persistentId": "",
+          "filename": "HW008.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 468,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719b862-606c005dfaa4",
+          "rootDataFileId": -1,
+          "md5": "ac7d54392c2a62901cbf0acf66ec2bf1",
+          "checksum": {
+            "type": "MD5",
+            "value": "ac7d54392c2a62901cbf0acf66ec2bf1"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW009.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143131,
+          "persistentId": "",
+          "filename": "HW009.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 549,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719b26e-409940226767",
+          "rootDataFileId": -1,
+          "md5": "ddb3d794b90985c0307c5930ef231634",
+          "checksum": {
+            "type": "MD5",
+            "value": "ddb3d794b90985c0307c5930ef231634"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW010.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143129,
+          "persistentId": "",
+          "filename": "HW010.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 413,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719b002-c97f0f1bee8e",
+          "rootDataFileId": -1,
+          "md5": "b2259a36b80494e09f99a644f5442d5d",
+          "checksum": {
+            "type": "MD5",
+            "value": "b2259a36b80494e09f99a644f5442d5d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW011.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143147,
+          "persistentId": "",
+          "filename": "HW011.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 418,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719c6c8-12a288335f35",
+          "rootDataFileId": -1,
+          "md5": "cf1fddf63da55064ffb4d1994d49346d",
+          "checksum": {
+            "type": "MD5",
+            "value": "cf1fddf63da55064ffb4d1994d49346d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW012.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143141,
+          "persistentId": "",
+          "filename": "HW012.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 394,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719beb2-e9f73cac7788",
+          "rootDataFileId": -1,
+          "md5": "27a70dc3044287f0359f6f7677ed7653",
+          "checksum": {
+            "type": "MD5",
+            "value": "27a70dc3044287f0359f6f7677ed7653"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW013.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143134,
+          "persistentId": "",
+          "filename": "HW013.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 385,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719b605-a7dcad0ba39e",
+          "rootDataFileId": -1,
+          "md5": "1399a2d2c59af2c8f27cfd5667968adf",
+          "checksum": {
+            "type": "MD5",
+            "value": "1399a2d2c59af2c8f27cfd5667968adf"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW031.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143127,
+          "persistentId": "",
+          "filename": "HW031.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 422,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719adbb-95f0bc6af510",
+          "rootDataFileId": -1,
+          "md5": "1baf1c618b422a3434340e401338498b",
+          "checksum": {
+            "type": "MD5",
+            "value": "1baf1c618b422a3434340e401338498b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW032.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143133,
+          "persistentId": "",
+          "filename": "HW032.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 385,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719b4d0-abe93fdb3add",
+          "rootDataFileId": -1,
+          "md5": "9a9d8a09f5459bc3570d187bc75ef194",
+          "checksum": {
+            "type": "MD5",
+            "value": "9a9d8a09f5459bc3570d187bc75ef194"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW034.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143146,
+          "persistentId": "",
+          "filename": "HW034.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 387,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719c57b-de30fdabfd90",
+          "rootDataFileId": -1,
+          "md5": "2c0d3e64d7ddba27689ffc12057f2c67",
+          "checksum": {
+            "type": "MD5",
+            "value": "2c0d3e64d7ddba27689ffc12057f2c67"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW102.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143138,
+          "persistentId": "",
+          "filename": "HW102.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 385,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719badf-bb4ce51a285d",
+          "rootDataFileId": -1,
+          "md5": "6456a3748d8e24c5048ffae48dd8733c",
+          "checksum": {
+            "type": "MD5",
+            "value": "6456a3748d8e24c5048ffae48dd8733c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW104.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143126,
+          "persistentId": "",
+          "filename": "HW104.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 530,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719ac90-9041f1b60719",
+          "rootDataFileId": -1,
+          "md5": "70479f02e005cb7c4abf10761029ed33",
+          "checksum": {
+            "type": "MD5",
+            "value": "70479f02e005cb7c4abf10761029ed33"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW106.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143139,
+          "persistentId": "",
+          "filename": "HW106.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 484,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719bc2b-097325a61797",
+          "rootDataFileId": -1,
+          "md5": "9700fe38ce02a24c6ca9f3b2723052de",
+          "checksum": {
+            "type": "MD5",
+            "value": "9700fe38ce02a24c6ca9f3b2723052de"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW110.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143128,
+          "persistentId": "",
+          "filename": "HW110.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 483,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719aee0-553d4e017eca",
+          "rootDataFileId": -1,
+          "md5": "d6efdb833072725f11dfd75b5d82ca3e",
+          "checksum": {
+            "type": "MD5",
+            "value": "d6efdb833072725f11dfd75b5d82ca3e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW112.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143142,
+          "persistentId": "",
+          "filename": "HW112.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 482,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719c00a-0555e534b5f1",
+          "rootDataFileId": -1,
+          "md5": "1e19bb1032464b01a6a4945a3bbc19fb",
+          "checksum": {
+            "type": "MD5",
+            "value": "1e19bb1032464b01a6a4945a3bbc19fb"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HW113.D",
+        "restricted": true,
+        "directoryLabel": "originalvalues",
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143135,
+          "persistentId": "",
+          "filename": "HW113.D",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 562,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719b736-0d62e3ad8e7d",
+          "rootDataFileId": -1,
+          "md5": "394ab4af8a3250007966f893d1c7e8f9",
+          "checksum": {
+            "type": "MD5",
+            "value": "394ab4af8a3250007966f893d1c7e8f9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "tridas.xml",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 4054,
+        "dataFile": {
+          "id": 143124,
+          "persistentId": "",
+          "filename": "tridas.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 172136,
+          "description": "",
+          "storageIdentifier": "surf://store:17c1719a9eb-ee913a7c39a5",
+          "rootDataFileId": -1,
+          "md5": "604d61abcdf86e6ef0aca156760be873",
+          "checksum": {
+            "type": "MD5",
+            "value": "604d61abcdf86e6ef0aca156760be873"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-24",
+          "publicationDate": "2021-12-13",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Tyers, C M, 2013, \"Northwest UK, Hall I Th Wood, Bolton, Greater Manchester\", https://doi.org/10.34894/RFW0UI, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "id": 565101,
+  "identifier": "EHBPHJ",
+  "persistentUrl": "https://doi.org/10.34894/EHBPHJ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-11-20",
+  "storageIdentifier": "surf://10.34894/EHBPHJ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31966,
+    "datasetId": 565101,
+    "datasetPersistentId": "doi:10.34894/EHBPHJ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/EHBPHJ",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-11-20T11:15:55Z",
+    "releaseTime": "2025-11-20T11:15:55Z",
+    "createTime": "2025-11-20T11:15:54Z",
+    "publicationDate": "2025-11-20",
+    "citationDate": "2025-11-20",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Release_HSN_HISCO_2013_01_adapted"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zijdeman, Richard"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-3902-3720"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zijdeman, Richard"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This is a slightly adapted version of the official HSN 2013.01 HISCO release. The original file has no headers and a subsequent version was in Dutch csv standard (i.e. ';' as seperator and ',' as decimal indicator). This dataset contains that Dutch file, an R-script to transpose it to the international csv-format, and the resulting file."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2016-02-29"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HISCO"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HSN"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.iisg.nl/hsn/data/occupations.html"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "When using these data in any form (presentations, books, articles etc.) the HSN dataset should be cited as Kees Mandemakers, Sanne Muurling, Ineke Maas, Bart Van de Putte, Richard L. Zijdeman, Paul Lambert, Marco H.D. van Leeuwen, Frans van Poppel and Andrew Miles, HSN standardized, HISCO-coded and classified occupational titles, release 2013.01 (IISG Amsterdam 2013). And off course further citations are needed to HISCO: Marco H. D. van Leeuwen, Ineke Maas and Andrew Miles, HISCO. Historical International Standard Classification of Occupations (Leuven University Press 2002) and to the subsequent sources of used classifications.\n\nPlease visit the <a href=\"http://www.iisg.nl/hsn/data/occupations.html\">Historical Sample of the Netherlands<a> website for the latest updates."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Zijdeman, Richard"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-02-29"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/EHBPHJ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:87ef2104-e5e6-43b7-8f52-819e4625681a"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-28f10e0c-88d9-4bd4-b9b1-386fbe1c3e9e"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "This is the HSN 2013.01 release in international csv-format with headers.",
+        "label": "hsn2013a_hisco_comma.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31966,
+        "dataFile": {
+          "id": 565102,
+          "persistentId": "",
+          "filename": "hsn2013a_hisco_comma.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 10347769,
+          "description": "This is the HSN 2013.01 release in international csv-format with headers.",
+          "storageIdentifier": "surf://store:19aa0fa4535-d6d70599b393",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "06ff4bfd7c4ad040f2e869f55022f73b4b006528"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file reads in the HSN official release hsn_2013a and transposed the format to\r\nan international format (e.g. not seperated by colons, but by comma's.)",
+        "label": "hsn_2013a_hisco.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31966,
+        "dataFile": {
+          "id": 565103,
+          "persistentId": "",
+          "filename": "hsn_2013a_hisco.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 580,
+          "description": "This file reads in the HSN official release hsn_2013a and transposed the format to\r\nan international format (e.g. not seperated by colons, but by comma's.)",
+          "storageIdentifier": "surf://store:19aa0fa474a-da354d5fb308",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b6ba1d0e0c905a63ac1b1d9c43e5c29c54ea0116"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "HSN 2013 01a version received from Kees Mandemakers (with headers and in Dutch csv-format)",
+        "label": "Release_HSN_HISCO_2013_01a.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31966,
+        "dataFile": {
+          "id": 565104,
+          "persistentId": "",
+          "filename": "Release_HSN_HISCO_2013_01a.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 10456543,
+          "description": "HSN 2013 01a version received from Kees Mandemakers (with headers and in Dutch csv-format)",
+          "storageIdentifier": "surf://store:19aa0fa4ffb-c06972134ed9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "aacdb42c20bde7519130478bec13ba932e21c717"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-20",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Zijdeman, Richard, 2025, \"Release_HSN_HISCO_2013_01_adapted\", https://doi.org/10.34894/EHBPHJ, DataverseNL, V1"
+  }
+}

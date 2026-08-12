@@ -1,0 +1,440 @@
+{
+  "id": 458638,
+  "identifier": "YQIIQV",
+  "persistentUrl": "https://doi.org/10.34894/YQIIQV",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-12-09",
+  "storageIdentifier": "surf://10.34894/YQIIQV",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30320,
+    "datasetId": 458638,
+    "datasetPersistentId": "doi:10.34894/YQIIQV",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/YQIIQV",
+    "versionNumber": 1,
+    "internalVersionNumber": 8,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "productionDate": "2024",
+    "lastUpdateTime": "2025-02-28T14:58:57Z",
+    "releaseTime": "2025-02-28T14:58:57Z",
+    "createTime": "2025-02-28T08:44:07Z",
+    "publicationDate": "2024-12-09",
+    "citationDate": "2024-12-09",
+    "termsOfUse": "This dataset is only available under strict conditions within the Microdata environment at CBS. Since this is a project-generated dataset made available for reuse via the CBS Data Storage, access to the following source CBS files has to be requested:\n<ul>\n  <li>POLISBUS 2006-2009</li>\n  <li>SPOLISBUS 2010-2023</li>\n  <li>POLISLONGBAANTAB</li>\n  <li>SPOLISLONGBAANTAB</li>\n  <li>POLISHOOFDBAANBUS 2006-2009</li>\n  <li>SPOLISHOOFDBAANBUS 2010-2023</li>\n</ul>\n(see full list under Metadata > \"Data Source\").\n\nRead more about the conditions to access and use the CBS data: <a href=\"https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen\">www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen</a> ",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "NIDIO SPOLIS Month version 2006-2023"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Janietz, Christoph"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/012p63287",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Groningen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0006-0888-5650"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lippényi, Zoltán"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/012p63287",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Groningen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-8751-5741"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Janietz, Christoph"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lippényi, Zoltán"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset includes all jobs of individuals registered in the BRP (Personal Records Database) working in organizations registered in the ABR (General Business Register) existing in September of a given year. Each observation represents one unique job during the month of September between 2006 and 2023. All compensation and working hours accumulated within the same job during the month of September are summed up in one observation. Job IDs are made longitudinally consistent using SPOLISLONGBAANBUS. One main job per individual is identified using SPOLISHOOFDBAANBUS."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Business and Management",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Linked employer-employee data"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SPOLIS"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "jobs"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "earnings"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ELSST"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://elsst.cessda.eu/id/5/97fa827c-93f9-4dc3-acec-97bb301543a9"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "working hours"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "job characteristics"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ELSST"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://elsst.cessda.eu/id/5/dfc39f11-b25c-43d9-bd64-176a070ef42f"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "A detailed overview and codebook of all variables included in this dataset are available in the NIDIO manual (see <a href=\"https://osf.io/9b2xh/\" target=\"_blank\"> osf.io/9b2xh/</a>). The NIDIO manual also lists the original source variable from which each variable in the dataset is derived. The NIDIO variable descriptions and labels are in English. The dataset includes 31 variables and broadly covers the following content of SPOLIS:\n<ul>\n  <li>Various identifiers (year; rinpersoon; beid; baanrugid; ikvid; slbaanid) </li>\n  <li>Job characteristics during September in year XXXX  (e.g., cao status; contract type; ft factor; overall starting date of job; …)</li>\n  <li>Total compensation during September in year XXXX (decomposable into various components)</li>\n  <li>Total working hours during September in year XXXX</li>\n</ul>\nThe combination of the variables year, rinpersoon and baanrugid / ikvid is the unique identifier of each observation."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024"
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NWO Talent Scheme VIDI grant"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "VI.Vidi.211.231"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Centraal Bureau voor Statistiek"
+                },
+                "distributorAbbreviation": {
+                  "typeName": "distributorAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CBS"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Janietz, Christoph"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-11-19"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2006"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "The scripts used to produce the files are available via <a href=\"https://osf.io/9b2xh/\" target=\"_blank\"> osf.io/9b2xh/</a>"
+            ]
+          },
+          {
+            "typeName": "otherReferences",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "A detailed overview and codebook of all variables included in this dataset are available in the NIDIO manual (see <a href=\"https://osf.io/9b2xh/\" target=\"_blank\"> osf.io/9b2xh/</a>)."
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "CBS microdata: <a href=\"\"></a>\n<ul>\n<li>\tPOLISBUS\t2006-2010\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e41080246112\t\">\t10.57934/0b01e41080246112\t</a>\t</li>\n<li>\tSPOLISBUS\t2010-2014\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e4108024847a\t\">\t10.57934/0b01e4108024847a\t</a>\t</li>\n<li>\tSPOLISBUS\t2015\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e410802ae699\t\">\t10.57934/0b01e410802ae699\t</a>\t</li>\n<li>\tSPOLISBUS\t2016-2017\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e41080337ace\t\">\t10.57934/0b01e41080337ace\t</a>\t</li>\n<li>\tSPOLISBUS\t2018-2019\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e410803922c0\t\">\t10.57934/0b01e410803922c0\t</a>\t</li>\n<li>\tSPOLISBUS\t2020\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e410804cb681\t\">\t10.57934/0b01e410804cb681\t</a>\t</li>\n<li>\tSPOLISBUS\t2021\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e410805fd44a\t\">\t10.57934/0b01e410805fd44a\t</a>\t</li>\n<li>\tSPOLISBUS\t2022\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e4108071ea4c\t\">\t10.57934/0b01e4108071ea4c\t</a>\t</li>\n<li>\tSPOLISBUS\t2023\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e41080767395\t\">\t10.57934/0b01e41080767395\t</a>\t</li>\n<li>\tPOLISLONGBAANTAB\t\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e41080387e31\t\">\t10.57934/0b01e41080387e31\t</a>\t</li>\n<li>\tSPOLISLONGBAANTAB\t\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e41080388d9d\t\">\t10.57934/0b01e41080388d9d\t</a>\t</li>\n<li>\tPOLISHOOFDBAANBUS\t2006-2009\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e41080277932\t\">\t10.57934/0b01e41080277932\t</a>\t</li>\n<li>\tSPOLISHOOFDBAANBUS\t2010-2023\t,\tdoi:\t<a href=\"\t https://doi.org/\t10.57934/0b01e41080277938\t\">\t10.57934/0b01e41080277938\t</a>\t</li>\n</ul>"
+            ]
+          },
+          {
+            "typeName": "accessToSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "This dataset is only available under strict conditions within the Microdata environment at CBS. Since this is a project-generated dataset made available for reuse via the CBS Data Storage, access to the following source CBS files has to be requested:\n<ul>\n  <li>POLISBUS 2006-2009</li>\n  <li>SPOLISBUS 2010-2023</li>\n  <li>POLISLONGBAANTAB</li>\n  <li>SPOLISLONGBAANTAB</li>\n  <li>POLISHOOFDBAANBUS 2006-2009</li>\n  <li>SPOLISHOOFDBAANBUS 2010-2023</li>\n</ul>\n(see full list under \"Data Source\").\n\nRead more about the conditions to access and use the CBS data: <a href=\"https://www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen\">www.cbs.nl/nl-nl/onze-diensten/maatwerk-en-microdata/microdata-zelf-onderzoek-doen</a>"
+          }
+        ]
+      },
+      "socialscience": {
+        "displayName": "Social Science and Humanities Metadata",
+        "name": "socialscience",
+        "fields": [
+          {
+            "typeName": "unitOfAnalysis",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "All jobs of individuals registered in the BRP (Personal Records Database) working in organizations registered in the ABR (General Business Register) existing in September."
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/YQIIQV"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:a538db17-1737-4a52-a570-d28a42530607"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-85a43104-43eb-4810-a8b2-bea38e59fbba"
+          }
+        ]
+      }
+    },
+    "files": [],
+    "citation": "Janietz, Christoph; Lippényi, Zoltán, 2024, \"NIDIO SPOLIS Month version 2006-2023\", https://doi.org/10.34894/YQIIQV, DataverseNL, V1"
+  }
+}

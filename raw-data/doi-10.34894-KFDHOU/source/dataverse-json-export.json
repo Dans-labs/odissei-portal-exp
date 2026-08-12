@@ -1,0 +1,508 @@
+{
+  "id": 140945,
+  "identifier": "KFDHOU",
+  "persistentUrl": "https://doi.org/10.34894/KFDHOU",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-09-29",
+  "storageIdentifier": "surf://10.34894/KFDHOU",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3931,
+    "datasetId": 140945,
+    "datasetPersistentId": "doi:10.34894/KFDHOU",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/KFDHOU",
+    "versionNumber": 1,
+    "internalVersionNumber": 16,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-09-29T10:21:26Z",
+    "releaseTime": "2021-09-29T10:21:26Z",
+    "createTime": "2021-09-08T11:55:45Z",
+    "publicationDate": "2021-09-29",
+    "citationDate": "2021-09-29",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Dyna-CLUE land use model: updated multi-region application"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zagaria, Cecilia"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-0203-4370"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Malek, Ziga"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-6981-6708"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Verburg, Peter"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-6977-7104"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Malek, Ziga"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The Conversion of Land Use and its Effects modeling framework (CLUE) was developed to simulate land use change using empirically quantified relations between land use and its driving factors in combination with dynamic modeling of competition between land use types. Being one of the most widely used spatial land use models, CLUE has been applied all over the world on different scales. In this dataverse, we provide a multi-regional application example. Instead of developing numerous individual models, the user only prepares one Dyna-CLUE model application, which then allocates land use change across different regions. Multi-regional modelling is particularly useful in larger and diverse countries, where we can expect different spatial distributions in land use changes in different regions: regions of different levels of achieved socio-economic development, regions with different topographies (flat vs. mountainous), or different climatic regions (dry vs humid) within a same country. Accounting for such regional differences also facilitates developing ecosystem services models that consider region specific biophysical characteristics. This dataverse demonstrates multi-regional land use change modeling using the country of Colombia as an example. The user will learn how to prepare the data for the model application, and how the multi-regional run differs from a single-region simulation (which is also provided in the dataverse).\n\nThis application was develop to allow for improved integration with the Integrated Economic-Environmental Modeling (IEEM) Platform for subnational assessments and increases the efficiency of the IEEM and Ecosystem Services Modeling (IEEM+ESM) workflow."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-09-08"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Agricultural Sciences",
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "land use"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "spatial allocation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "land use model"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "integrated environmental modeling"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Geographic Information Systems"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Banerjee, O; Cicowiez, M; Malek, Ž; Verburg, P.H.; Vargas, R; Goodwin, S. 2020. The Value of Biodiversity in Economic Decision Making: Applying the IEEM ESM Approach to Conservation Strategies in Colombia. IDB Working Paper."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.18235/0002945"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.18235/0002945"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Verburg, P.H.; Malek, Ž; Goodwin, S; Zagaria C. 2021. The Integrated Economic-Environmental Modeling (IEEM) Platform: IEEM Platform Technical Guides: User Guide for the IEEM-enhanced Land Use Land Cover Change Model Dyna-CLUE."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.18235/0003625"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.18235/0003625"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Malek, Ziga"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-09-08"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "software",
+              "spatial data"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dyna-CLUE"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "relatedDatasets",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Zagaria, Cecilia; Malek, Ziga; Verburg, Peter, 2021, \"Dyna-CLUE land use model: updated single-region application\", https://doi.org/10.34894/SK5OAE"
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Colombia"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicUnit",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Country"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/KFDHOU"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:edf5f140-1c07-402f-8d12-04dc620f2eac"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-d7bb68e5-5647-43df-8e24-0d4dd8ba4f7e"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "dynaclue_multiregion.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3931,
+        "dataFile": {
+          "id": 141025,
+          "persistentId": "",
+          "filename": "dynaclue_multiregion.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 39450834,
+          "storageIdentifier": "surf://store:17bc9be9656-9125fe42b902",
+          "rootDataFileId": -1,
+          "md5": "b4a26fd848d9e95b91c3d2bc0620c857",
+          "checksum": {
+            "type": "MD5",
+            "value": "b4a26fd848d9e95b91c3d2bc0620c857"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-09",
+          "publicationDate": "2021-09-29",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "dynaclue_singleregion.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3931,
+        "dataFile": {
+          "id": 141026,
+          "persistentId": "",
+          "filename": "dynaclue_singleregion.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 39441936,
+          "storageIdentifier": "surf://store:17bc9be9ecf-dacc12e281b3",
+          "rootDataFileId": -1,
+          "md5": "88ff97291576ed15447ea2a7990a718c",
+          "checksum": {
+            "type": "MD5",
+            "value": "88ff97291576ed15447ea2a7990a718c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-09",
+          "publicationDate": "2021-09-29",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "help_parameter_files.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3931,
+        "dataFile": {
+          "id": 141024,
+          "persistentId": "",
+          "filename": "help_parameter_files.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 30286,
+          "storageIdentifier": "surf://store:17bc9bea52d-912b3818ac1e",
+          "rootDataFileId": -1,
+          "md5": "ddb182bed650de0d9ce0e4fad5d95917",
+          "checksum": {
+            "type": "MD5",
+            "value": "ddb182bed650de0d9ce0e4fad5d95917"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-09",
+          "publicationDate": "2021-09-29",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3931,
+        "dataFile": {
+          "id": 141023,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1754,
+          "storageIdentifier": "surf://store:17bc9bea532-11a46d32a82a",
+          "rootDataFileId": -1,
+          "md5": "233d7aff03e277dbb498eb213314bb40",
+          "checksum": {
+            "type": "MD5",
+            "value": "233d7aff03e277dbb498eb213314bb40"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-09",
+          "publicationDate": "2021-09-29",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Zagaria, Cecilia; Malek, Ziga; Verburg, Peter, 2021, \"Dyna-CLUE land use model: updated multi-region application\", https://doi.org/10.34894/KFDHOU, DataverseNL, V1"
+  }
+}

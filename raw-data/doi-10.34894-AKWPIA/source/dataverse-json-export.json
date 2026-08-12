@@ -1,0 +1,2561 @@
+{
+  "id": 389792,
+  "identifier": "AKWPIA",
+  "persistentUrl": "https://doi.org/10.34894/AKWPIA",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-12-19",
+  "storageIdentifier": "surf://10.34894/AKWPIA",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25641,
+    "datasetId": 389792,
+    "datasetPersistentId": "doi:10.34894/AKWPIA",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/AKWPIA",
+    "versionNumber": 2,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2023-12-19",
+    "lastUpdateTime": "2023-12-19T15:00:25Z",
+    "releaseTime": "2023-12-19T15:00:25Z",
+    "createTime": "2023-12-19T15:00:14Z",
+    "publicationDate": "2023-12-19",
+    "citationDate": "2023-12-19",
+    "termsOfUse": "This dataset is made available under a Creative Commons CC0 license with the following additional/modified terms and conditions: ",
+    "confidentialityDeclaration": "Signing a confidentiality agreement is needed to access the data.",
+    "specialPermissions": "The data are available upon request through the Dataverse data repository. Interested researchers who want to know more about the dataset can send an email to w.janssens@vu.nl or m.p.pradhan@vu.nl ",
+    "citationRequirements": "If active involvement of AIGHD/APHRC researchers is desired for data analysis and/or interpretation, the Diaries team is open to discussing co-authorship. Otherwise, researchers are asked to appropriately reference the dataset and acknowledge the AIGHD, APHRC and PharmAccess Foundation for making available the data.",
+    "termsOfAccess": "The data are available upon request through the Dataverse data repository. Interested researchers who want to know more about the dataset can send an email to w.janssens@vu.nl or m.p.pradhan@vu.nl.",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Health insurance in Kenya: A financial and health diaries dataset 2019-2021"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Amsterdam Institute for Global Health and Development (AIGHD)"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "www.aighd.org/"
+                }
+              },
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "African Population and Health Research Center (APHRC)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Janssens, Wendy"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "vu.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-2085-8608"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Menno Pradhan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "vu.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-7205-4409"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Janssens, Wendy"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "vu.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset was collected to evaluate the impact of the i-PUSH program, a digital health insurance program for low-income women and their family members in Western Kenya. i-PUSH was implemented by PharmAccess Foundation and Amref Health Africa. The evaluation was based on a randomized controlled trial (RCT) in 24 villages in Kakamega county from 2019 until 2021. Data include baseline, midline and endline household surveys; weekly financial and health diaries data; monthly/quarterly modules on food consumption, pregnancy, and mental health; and behavioral games to measure risk preferences, willingness-to-pay for health insurance and women's empowerment. In parallel to the RCT study in Kakamega, we collected similar data in Kisumu county, where the government was piloting universal health coverage, from 2019 until 2020 (baseline to midline)."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023-12-19"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences",
+              "Other"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "- Janssens, W., Pradhan, M. P., de Groot, R., Sidze, E., Donfouet, H., & Abajobir, A. (2021). “The short-term economic effects of COVID-19 on low-income households in rural Kenya: An analysis using weekly financial household data.”, World Development, Vol. 138, 105280."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.worlddev.2020.105280"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.worlddev.2020.105280"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "- Gloria P. Gómez-Pérez, Richard de Groot, Amanuel A. Abajobir, Caroline W. Wainaina, Tobias F. Rinke de Wit, Estelle Sidze, Menno Pradhan, Wendy Janssens (2023), “Reduced Incidence of Respiratory, Gastrointestinal and Malaria Infections Among Children During the COVID-19 Pandemic in Western Kenya: An Analysis of Facility-Based and Weekly Diaries Data, Journal of Global Health, Vol. 13(06024)."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.7189/jogh.13.06024"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "- Aksünger N, Vernot C, Littman R, Voors M, Meriggi N, Abajobir A, Beber, B, Dai, K, Egger, D, Islam, A, Kelley, J, Kharel, A, Matabaro, A, Moya, A, Mwachofi, P, Nekesa, C, Ochieng, E, Rahman, T, Scacco, A, Van Dalen, Y, Walker, M, Janssens, W*, Mobarak, AM* (2023) COVID-19 and mental health in 8 low- and middle-income countries: A prospective cohort study. PLoS Med 20(4): e1004081."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1371/journal.pmed.1004081"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "- Abajobir, A., de Groot, R., Wainaina, C. Njeri, A., Maina, D., Njoki, S., Mbaya, N., Donfouet, H.P.P., Pradhan, M., Janssens, W. and Sidze, E (2021). The impact of i-PUSH on maternal and child health care utilization, health outcomes, and financial protection: study protocol for a cluster randomized controlled trial based on financial and health diaries data. Trials 22, 629."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1186/s13063-021-05598-7"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1186/s13063-021-05598-7"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Acknowledgements: We greatly appreciate the continued support and many fruitful discussions with PharmAccess Foundation and Amref Health Africa and their i-PUSH program staff, and the continued high-quality data collection efforts of the field research team in Khwisero and Kisumu. Our study participants, who offered us their valuable time and provided so many insights into their lives, deserve our special gratitude. This work is funded by the Dutch National Postcode Lottery, the Joep Lange Institute, and the Dutch Ministry of Foreign Affairs through the Health Insurance Fund."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Kenya"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Research Group"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Richard de Groot"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Research Group"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Amanuel Abajobir"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Research Group"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Caroline Wainaina"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Research Group"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Estelle Sidze"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-12-19"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Janssens, Wendy"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-12-19"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2019-10-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-06-30"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2019-10-01"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-06-30"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Financial and health diaries data; household survey data; behavioral games data"
+            ]
+          },
+          {
+            "typeName": "accessToSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "See the Data Documentation Guide under \"Files\" for a detailed description of the dataset. For general project inquiries, please contact Wendy Janssens (w.janssens@vu.nl) or Menno Pradhan (m.p.pradhan@vu.nl)."
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/AKWPIA"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:046641f3-7f98-4d0c-9061-d6179fd7058c"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-ae5fc6ca-eeab-4bef-a54d-c0aa3c912c9d"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "~$dline Final.docx",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389838,
+          "persistentId": "",
+          "filename": "~$dline Final.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 162,
+          "storageIdentifier": "surf://store:18c81dd2d2b-0153c7db18fb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "899f6369f7cbd76b8ce23196c25de04b11c498c6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "baseline_income hiding_clean.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389806,
+          "persistentId": "",
+          "filename": "baseline_income hiding_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 92575,
+          "storageIdentifier": "surf://store:18c81e1157a-502ab117126c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c384f03baec18288b7f50d15a3dd253660fd7fa8"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "baseline_men_self_efficacy_clean.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389860,
+          "persistentId": "",
+          "filename": "baseline_men_self_efficacy_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 108679,
+          "storageIdentifier": "surf://store:18c81e17e02-7e1c34948b31",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fd7211bde4448684f8a87b855750b2ad7f584058"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "baseline_risk_preference_game_clean.dta",
+        "restricted": true,
+        "directoryLabel": "Games",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389863,
+          "persistentId": "",
+          "filename": "baseline_risk_preference_game_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 466230,
+          "storageIdentifier": "surf://store:18c81e01118-65877cfd7916",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7d9fd18d3fbe2722e6c854d0fe95b8f3f2c7dd10"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Baseline questionnaire",
+        "label": "Baseline Survey Final.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389835,
+          "persistentId": "",
+          "filename": "Baseline Survey Final.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 251133,
+          "description": "Baseline questionnaire",
+          "storageIdentifier": "surf://store:18c81d08c83-0bd5e0b7df75",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "73ebff49e3c25f7dbcc600b334c51b1162ed3e4f"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "baseline_women_empowerment_game_clean.dta",
+        "restricted": true,
+        "directoryLabel": "Games",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389850,
+          "persistentId": "",
+          "filename": "baseline_women_empowerment_game_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 95835,
+          "storageIdentifier": "surf://store:18c81e06a96-bcf106124c1c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cf98d5f0ce5f3595bdcee3ad5d645e4f2f577d03"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "baseline_women_empowerment_module_clean.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389826,
+          "persistentId": "",
+          "filename": "baseline_women_empowerment_module_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 140037,
+          "storageIdentifier": "surf://store:18c81e0c508-98cd9e2eb2ad",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f990e5d4a1835802099ca436d4f05bf49c24b661"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Merged_Full.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389830,
+          "persistentId": "",
+          "filename": "BL_Merged_Full.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 16609329,
+          "storageIdentifier": "surf://store:18c81dcb316-081ff6a6f0f9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "993a7bd06a4e43c22893f47dea6a8ec6fca13008"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Merged_Kakamega.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389855,
+          "persistentId": "",
+          "filename": "BL_Merged_Kakamega.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 11065941,
+          "storageIdentifier": "surf://store:18c81dcb3c8-f4427a840fa2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "68b01bd56e44c57732b31eb848cefb5406c232ed"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod10-17_Diaries.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389804,
+          "persistentId": "",
+          "filename": "BL_Mod10-17_Diaries.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 3859519,
+          "storageIdentifier": "surf://store:18c81dcb45e-2c74333656f3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "affeb4202264c3fb916a3be6538cb1adbd10b944"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod15_Savings_Coop.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389854,
+          "persistentId": "",
+          "filename": "BL_Mod15_Savings_Coop.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 403194,
+          "storageIdentifier": "surf://store:18c81dcb4ba-68aeea3aa8b7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ad0756f53f80342c0f6db1b4c84b7dc47b4434e2"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod16_Fin_Borrow.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389837,
+          "persistentId": "",
+          "filename": "BL_Mod16_Fin_Borrow.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 102123,
+          "storageIdentifier": "surf://store:18c81dcb4c3-5886409e9b7f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83199f5381388fcd5e7bbc6fec9eacb85919fdc1"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod16_Fin_Lend.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389828,
+          "persistentId": "",
+          "filename": "BL_Mod16_Fin_Lend.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 85668,
+          "storageIdentifier": "surf://store:18c81dcb4c6-45d64f4eef95",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13d31c66471c680572356c66dcd852bebc9b74e3"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod16_Fin_Save.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389846,
+          "persistentId": "",
+          "filename": "BL_Mod16_Fin_Save.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 80442,
+          "storageIdentifier": "surf://store:18c81dcb4c8-61a916cd47d9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fb9045433055b0ed3cadfe025e3dadb582af7c98"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod1_Survey_Info.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389852,
+          "persistentId": "",
+          "filename": "BL_Mod1_Survey_Info.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 376572,
+          "storageIdentifier": "surf://store:18c81dcb454-90f217c8ef32",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8d46d7d484456fec24072ef6aa9e55adc65dc6af"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod2_HH_Roster.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389861,
+          "persistentId": "",
+          "filename": "BL_Mod2_HH_Roster.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 504532,
+          "storageIdentifier": "surf://store:18c81dcb4ca-a827545e5daa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "220312e2ec096dc12ed05fca15890a0e154f476f"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod3_Soc_Dem.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389831,
+          "persistentId": "",
+          "filename": "BL_Mod3_Soc_Dem.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 491590,
+          "storageIdentifier": "surf://store:18c81dcb4d2-2330872d8273",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cb1e2e00032d88697c3cac90adbbf34abd8b0a9f"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod4_Educ.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389871,
+          "persistentId": "",
+          "filename": "BL_Mod4_Educ.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 303429,
+          "storageIdentifier": "surf://store:18c81dcb4d9-d068d1dc409a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "88229bdf8d3e06ebaec86e05e4dac9b4fdc42747"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod5_Health_Outcomes.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389864,
+          "persistentId": "",
+          "filename": "BL_Mod5_Health_Outcomes.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 1796889,
+          "storageIdentifier": "surf://store:18c81dcb4de-54b66b8ba0b3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "55ee4a829a708bf3e12811204aeed71e31a13f20"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod6_Healthcare_Util.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389815,
+          "persistentId": "",
+          "filename": "BL_Mod6_Healthcare_Util.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 989995,
+          "storageIdentifier": "surf://store:18c81dcb4ef-bd7699cc31f9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4000c6b238abf2d137f1174f3d32a4cf40e3047f"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod7_Food_Cons.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389868,
+          "persistentId": "",
+          "filename": "BL_Mod7_Food_Cons.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 85905,
+          "storageIdentifier": "surf://store:18c81dcb4fb-4a6709a67ba6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3d75df90b1610b9ac40d4e8acf4e7c01cec4bef6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod8_Housing_Assets.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389877,
+          "persistentId": "",
+          "filename": "BL_Mod8_Housing_Assets.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 337823,
+          "storageIdentifier": "surf://store:18c81dcb4ff-96e69f9fac52",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7bdd691586583189aabd49c56f8623cc296b979a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BL_Mod9_Employ_Inc.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389866,
+          "persistentId": "",
+          "filename": "BL_Mod9_Employ_Inc.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 319675,
+          "storageIdentifier": "surf://store:18c81dcb505-feea6cf15a46",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e5e5a678bdae856eeed7ddedb3eb3c39567940e9"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries Covid-19 module.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389857,
+          "persistentId": "",
+          "filename": "Diaries Covid-19 module.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 39526,
+          "storageIdentifier": "surf://store:18c81d4d4d5-68b2658e9cbc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "67e117c64dd124b34bcae78ec26ccac51917cd29"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Financial and health diaries questionnaire (incl. pregnancy modules)",
+        "label": "Diaries.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389858,
+          "persistentId": "",
+          "filename": "Diaries.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 142876,
+          "description": "Financial and health diaries questionnaire (incl. pregnancy modules)",
+          "storageIdentifier": "surf://store:18c81d3259f-90599e4a086e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fe7d6e90fa19aac916b3a30a30b9b5a2e45bc37f"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries Food consumption module.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389873,
+          "persistentId": "",
+          "filename": "Diaries Food consumption module.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 37438,
+          "storageIdentifier": "surf://store:18c81d4d54e-99b593d01a6e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5809cbe313be651ccc7359763675f24cb5cc776a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries Mental health module.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389862,
+          "persistentId": "",
+          "filename": "Diaries Mental health module.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 33254,
+          "storageIdentifier": "surf://store:18c81d4d5c6-10fe0f8db253",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2bd128d0510cebbc9e07cf2a09dcbe86cb5343ca"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod10_PND.dta",
+        "restricted": true,
+        "directoryLabel": "Health Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389827,
+          "persistentId": "",
+          "filename": "Diaries_Mod10_PND.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 246389,
+          "storageIdentifier": "surf://store:18c81ded13a-ce5528168fb1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "877c46d607e65d2cc53b09b43a25a749c0fabfa7"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod11_Post_Birth.dta",
+        "restricted": true,
+        "directoryLabel": "Health Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389865,
+          "persistentId": "",
+          "filename": "Diaries_Mod11_Post_Birth.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 105306,
+          "storageIdentifier": "surf://store:18c81ded13f-a4cfcd13e108",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "df538504914c7ba658ccf2d7ad192e7ef0a74470"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod1_Income (all observations).dta",
+        "restricted": true,
+        "directoryLabel": "Financial Diaries/Data without omissions",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389840,
+          "persistentId": "",
+          "filename": "Diaries_Mod1_Income (all observations).dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 15733501,
+          "storageIdentifier": "surf://store:18c81dd7390-6337e98b3356",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f17182379333cf29c2e4c2c19daac9dd578c3fc9"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod1_Income.dta",
+        "restricted": true,
+        "directoryLabel": "Financial Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389836,
+          "persistentId": "",
+          "filename": "Diaries_Mod1_Income.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 12608733,
+          "storageIdentifier": "surf://store:18c81dd7789-b859a854460e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d611896d7edfabba60466e54f62b33b72142bb33"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod2_Expend (all observations).dta",
+        "restricted": true,
+        "directoryLabel": "Financial Diaries/Data without omissions",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389814,
+          "persistentId": "",
+          "filename": "Diaries_Mod2_Expend (all observations).dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 50981009,
+          "storageIdentifier": "surf://store:18c81dd7445-4b07cdc4af1e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "158fa137941950716a12b4a521ea6f21804fafaa"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod2_Expend.dta",
+        "restricted": true,
+        "directoryLabel": "Financial Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389832,
+          "persistentId": "",
+          "filename": "Diaries_Mod2_Expend.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 44800742,
+          "storageIdentifier": "surf://store:18c81dd7821-467b93de24e7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "19559824a59f335a24a8702013f3411657b9a92f"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod3_GLC (all observations).dta",
+        "restricted": true,
+        "directoryLabel": "Financial Diaries/Data without omissions",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389807,
+          "persistentId": "",
+          "filename": "Diaries_Mod3_GLC (all observations).dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 19194139,
+          "storageIdentifier": "surf://store:18c81dd7602-b575a00636ce",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6c771f4d8af0101c9567a463a7ffe48181f7fccc"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod3_GLC.dta",
+        "restricted": true,
+        "directoryLabel": "Financial Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389856,
+          "persistentId": "",
+          "filename": "Diaries_Mod3_GLC.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 16082509,
+          "storageIdentifier": "surf://store:18c81dd79c3-17d40a476444",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3c3a827ac62edb8824cf57f1779a73f0eb22b223"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod4_Savings (all observations).dta",
+        "restricted": true,
+        "directoryLabel": "Financial Diaries/Data without omissions",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389872,
+          "persistentId": "",
+          "filename": "Diaries_Mod4_Savings (all observations).dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 14019317,
+          "storageIdentifier": "surf://store:18c81dd76f4-afa13737a607",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9bda644c46628f5233b5dd5411cb1f0a66dfee58"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod4_Savings.dta",
+        "restricted": true,
+        "directoryLabel": "Financial Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389833,
+          "persistentId": "",
+          "filename": "Diaries_Mod4_Savings.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 11521182,
+          "storageIdentifier": "surf://store:18c81dd7a7e-b932bd34230d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "94fa7445b22563d5fde98f2237b2af7cd5a7191b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod5_Health_Prob.dta",
+        "restricted": true,
+        "directoryLabel": "Health Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389841,
+          "persistentId": "",
+          "filename": "Diaries_Mod5_Health_Prob.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 29534615,
+          "storageIdentifier": "surf://store:18c81ded142-5cfa90d63946",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0a4a4f2f36961c5411f165e519b0c75b7bbf33fd"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod6_Consult.dta",
+        "restricted": true,
+        "directoryLabel": "Health Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389808,
+          "persistentId": "",
+          "filename": "Diaries_Mod6_Consult.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 9046962,
+          "storageIdentifier": "surf://store:18c81ded2a8-6cd18b52b843",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "58233608d1a5c8502db8d5164ab034308fcfe799"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod7_Ment_Health.dta",
+        "restricted": true,
+        "directoryLabel": "Health Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389825,
+          "persistentId": "",
+          "filename": "Diaries_Mod7_Ment_Health.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 1635202,
+          "storageIdentifier": "surf://store:18c81ded313-4ae443fd3243",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4dddbcd7da1c6931c68b9a1c3b40e40e9eb42a5f"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod8_Food_Anthro.dta",
+        "restricted": true,
+        "directoryLabel": "Health Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389817,
+          "persistentId": "",
+          "filename": "Diaries_Mod8_Food_Anthro.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 1868358,
+          "storageIdentifier": "surf://store:18c81ded32a-913c9cd31dd9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "339de8ac590ef7fda400211e223b4b81bf62073a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries_Mod9_Pregnancy.dta",
+        "restricted": true,
+        "directoryLabel": "Health Diaries",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389880,
+          "persistentId": "",
+          "filename": "Diaries_Mod9_Pregnancy.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 189667,
+          "storageIdentifier": "surf://store:18c81ded343-31e191ae4ecb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "399b441632d37e3b098b171f4d5d889164a316e7"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diaries Perinatal depression module.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389801,
+          "persistentId": "",
+          "filename": "Diaries Perinatal depression module.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 30753,
+          "storageIdentifier": "surf://store:18c81d4d63d-c1100157c3be",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "248f79a87e979f0aecc89b410a9c0c9d3d20e31d"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Merged_Kakamega.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389881,
+          "persistentId": "",
+          "filename": "EL_Merged_Kakamega.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 8136338,
+          "storageIdentifier": "surf://store:18c81dd2d34-36f423215d4f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "876ec0cdd3d29df28a936caf356a108e18600f21"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod10-18_Diaries.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389844,
+          "persistentId": "",
+          "filename": "EL_Mod10-18_Diaries.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 2518504,
+          "storageIdentifier": "surf://store:18c81dd2d89-6f89ed401329",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2f7ee1e758797d20f60bff9b8472410cebd779dc"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod16_Fin Borrow.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389869,
+          "persistentId": "",
+          "filename": "EL_Mod16_Fin Borrow.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 162877,
+          "storageIdentifier": "surf://store:18c81dd2da3-28b4a3626cbf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4d3610268841a70b00780ce25796c1a46950ae92"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod16_Fin_Lend.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389848,
+          "persistentId": "",
+          "filename": "EL_Mod16_Fin_Lend.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 71092,
+          "storageIdentifier": "surf://store:18c81dd2da7-63a0b2deda21",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d37ffc6e1e87ea5462d84127ea3d7930599d628a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod16_Fin_Save.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389847,
+          "persistentId": "",
+          "filename": "EL_Mod16_Fin_Save.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 62066,
+          "storageIdentifier": "surf://store:18c81dd2da9-e82d0ab8abcb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b66b465c93d0aa089215bbde3c7fc8e1ccdaa23b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod1_Survey_Info.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389845,
+          "persistentId": "",
+          "filename": "EL_Mod1_Survey_Info.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 228029,
+          "storageIdentifier": "surf://store:18c81dd2d85-1745e1cf9885",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bcb67ecae150daeb839f9eaef8b93b03baa18da9"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod2_HH_Roster.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389853,
+          "persistentId": "",
+          "filename": "EL_Mod2_HH_Roster.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 194043,
+          "storageIdentifier": "surf://store:18c81dd2dab-79858405f26f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ace870c8b909630c2c7b08da6454a4879e34e5cb"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod3_Soc_Dem.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389803,
+          "persistentId": "",
+          "filename": "EL_Mod3_Soc_Dem.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 244457,
+          "storageIdentifier": "surf://store:18c81dd2daf-d6516b28f808",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76ef5136decf2d98d2afb90d310528f2fdf9d420"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod4_Educ.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389802,
+          "persistentId": "",
+          "filename": "EL_Mod4_Educ.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 342406,
+          "storageIdentifier": "surf://store:18c81dd2db4-3a100cf9ad90",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "262886292715abd7ed213d674104ba41d60300db"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod5_Health_Outcomes.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389843,
+          "persistentId": "",
+          "filename": "EL_Mod5_Health_Outcomes.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 580623,
+          "storageIdentifier": "surf://store:18c81dd2dbb-93f87f1815db",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1f2a999bd9a994b185062f3a365bdc2eda65e213"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod6_Healthcare_Util.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389813,
+          "persistentId": "",
+          "filename": "EL_Mod6_Healthcare_Util.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 393925,
+          "storageIdentifier": "surf://store:18c81dd2dc3-d8880a7d1ed7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6344b54cddd9c07077f07aea1b8116fadcf55e6f"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod7_Food_Cons.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389875,
+          "persistentId": "",
+          "filename": "EL_Mod7_Food_Cons.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 86368,
+          "storageIdentifier": "surf://store:18c81dd2dc9-40ef5f836ae3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "de0d0bc1c04506060eb714578059a6037f36977f"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod8_Housing_Assets.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389834,
+          "persistentId": "",
+          "filename": "EL_Mod8_Housing_Assets.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 441897,
+          "storageIdentifier": "surf://store:18c81dd2dcb-a0156b0eb978",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b094f2189bee15dedcb128d5f43e2e7dbd885f64"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EL_Mod9_Employ_Inc.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389824,
+          "persistentId": "",
+          "filename": "EL_Mod9_Employ_Inc.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 344539,
+          "storageIdentifier": "surf://store:18c81dd2dd1-debe7975de40",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "62cf1801a4de4a1fd037e620743b4a242e667a54"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "endline_men_self_efficacy_clean.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389809,
+          "persistentId": "",
+          "filename": "endline_men_self_efficacy_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 83183,
+          "storageIdentifier": "surf://store:18c81e1bcf8-e1d5c6ca456b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5ca6effea15f69d2f1a4eebc21e4013ae4c46ed6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "endline_risk_preference_game_clean.dta",
+        "restricted": true,
+        "directoryLabel": "Games",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389812,
+          "persistentId": "",
+          "filename": "endline_risk_preference_game_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 110764,
+          "storageIdentifier": "surf://store:18c81e02d09-a364763d6a0c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2df4973bf83919e3049ac4def57296894b767e5e"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Endline questionnaire",
+        "label": "Endline Survey Final.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389842,
+          "persistentId": "",
+          "filename": "Endline Survey Final.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 268568,
+          "description": "Endline questionnaire",
+          "storageIdentifier": "surf://store:18c81d14e8f-6894ebf0f8dc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fc960a0349f383347b21755434994b89c55a3062"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "endline_willingness_to_pay_game_clean.dta",
+        "restricted": true,
+        "directoryLabel": "Games",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389823,
+          "persistentId": "",
+          "filename": "endline_willingness_to_pay_game_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 132168,
+          "storageIdentifier": "surf://store:18c81dff063-01702c37309f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "37b644df7a3900e00bcfcdb7eca0ac16be9e498b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "endline_women_empowerment_game_clean.dta",
+        "restricted": true,
+        "directoryLabel": "Games",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389859,
+          "persistentId": "",
+          "filename": "endline_women_empowerment_game_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 66977,
+          "storageIdentifier": "surf://store:18c81e0831d-cbf8f6216750",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bf861b96d15e73c6c16a318aa6f0042d3cf4a1ab"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "endline_women_empowerment_module_clean.dta",
+        "restricted": true,
+        "directoryLabel": "Endline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389816,
+          "persistentId": "",
+          "filename": "endline_women_empowerment_module_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 136889,
+          "storageIdentifier": "surf://store:18c81e0ed02-9b96c7c2ff77",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c00888483ffbf832adb970dcc49cd68c7c1a1b1b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Script Risk Preferences game and Women's empowerment game, collected at midline and endline",
+        "label": "Games script Risk Preferences and Empowerment.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389874,
+          "persistentId": "",
+          "filename": "Games script Risk Preferences and Empowerment.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 32612,
+          "description": "Script Risk Preferences game and Women's empowerment game, collected at midline and endline",
+          "storageIdentifier": "surf://store:18c81d84dc0-cedae96f52de",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4b0349b93199b03a8792ca0fc704b6fca7e5c3c2"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Script Willingness-to-Pay game, collected at endline",
+        "label": "Games script WTP.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389805,
+          "persistentId": "",
+          "filename": "Games script WTP.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 19681,
+          "description": "Script Willingness-to-Pay game, collected at endline",
+          "storageIdentifier": "surf://store:18c81d76372-41e5315cd190",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "07e84e30634e2406daa28f0d6f00bdfaf0984129"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Hospitalisation Reasons.dta",
+        "restricted": true,
+        "directoryLabel": "Baseline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389851,
+          "persistentId": "",
+          "filename": "Hospitalisation Reasons.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 29069,
+          "storageIdentifier": "surf://store:18c81dcb50a-1db0d1547fe3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "505bf199f9b1a14c2ac2205e2b6621dfaa102988"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "i-PUSH Data documentation guide 2023.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389883,
+          "persistentId": "",
+          "filename": "i-PUSH Data documentation guide 2023.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 678592,
+          "storageIdentifier": "surf://store:18c82972341-217f2a09a7a1",
+          "rootDataFileId": 389800,
+          "previousDataFileId": 389800,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3c9c95343a93acb4bfd3dd7298506e6f9cb79f28"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Collected at baseline and  endline (agression collected at endline only)",
+        "label": "Men self-efficacy and aggression survey module.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389810,
+          "persistentId": "",
+          "filename": "Men self-efficacy and aggression survey module.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 25231,
+          "description": "Collected at baseline and  endline (agression collected at endline only)",
+          "storageIdentifier": "surf://store:18c81da4d71-c279a16372b8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3fac17d2ceb7bfb8e24e9de2c7d384087c0f0f73"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Midline questionnaire",
+        "label": "Midline Survey Final.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389882,
+          "persistentId": "",
+          "filename": "Midline Survey Final.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 253998,
+          "description": "Midline questionnaire",
+          "storageIdentifier": "surf://store:18c81d0f08f-18272d1dc188",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d99fbda7b60c154c58c7f1b5b2267d8ea0466070"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Merged_Full.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389822,
+          "persistentId": "",
+          "filename": "ML_Merged_Full.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 9037679,
+          "storageIdentifier": "surf://store:18c81dd10e9-ee15d1a6c3eb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "93f76a913b1560fe21fc393520b0bed99f128aa9"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Merged_Kakamega.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389821,
+          "persistentId": "",
+          "filename": "ML_Merged_Kakamega.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 6604987,
+          "storageIdentifier": "surf://store:18c81dd114e-46c4fa8c3591",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "321f705da807534e8147840824753a39377f5143"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Mod10-18_Diaries.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389818,
+          "persistentId": "",
+          "filename": "ML_Mod10-18_Diaries.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 2339973,
+          "storageIdentifier": "surf://store:18c81dd1196-c8c5367df6b7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "519a24f0a508f196aae7771b99dd7fc953e3a54b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Mod1_Survey_Info.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389819,
+          "persistentId": "",
+          "filename": "ML_Mod1_Survey_Info.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 329410,
+          "storageIdentifier": "surf://store:18c81dd118f-c3e271315236",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2bc75fb6150685c9cba22422a32502818a71a260"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Mod2_HH_Roster.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389870,
+          "persistentId": "",
+          "filename": "ML_Mod2_HH_Roster.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 220511,
+          "storageIdentifier": "surf://store:18c81dd11b3-36cc8e855bd6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "18d66545b3a5bd0012a928c8112c67939dc95fe5"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Mod3_Soc_Dem.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389849,
+          "persistentId": "",
+          "filename": "ML_Mod3_Soc_Dem.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 323665,
+          "storageIdentifier": "surf://store:18c81dd11b7-37182291225e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c1c8a719147f744046c880bd129fd357873a8402"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Mod4_Educ.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389878,
+          "persistentId": "",
+          "filename": "ML_Mod4_Educ.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 215782,
+          "storageIdentifier": "surf://store:18c81dd11bd-e140950b7498",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8a0a49e3fd73977e6e803c48a5b59e9c182e63bf"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Mod5_Health_Outcomes.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389839,
+          "persistentId": "",
+          "filename": "ML_Mod5_Health_Outcomes.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 879988,
+          "storageIdentifier": "surf://store:18c81dd11c1-7ea085292bae",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "97f20f9575039021b54e0196632b43db60931ef1"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Mod6_Healthcare_Util.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389829,
+          "persistentId": "",
+          "filename": "ML_Mod6_Healthcare_Util.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 475851,
+          "storageIdentifier": "surf://store:18c81dd11cd-de7b6ec78fcc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7307e06bd47befd2f6d6839837f8a4ee093b608a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Mod7_Food_Cons.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389876,
+          "persistentId": "",
+          "filename": "ML_Mod7_Food_Cons.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 100625,
+          "storageIdentifier": "surf://store:18c81dd11d4-2e3c27d345fe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f40c825e01d705ed34ce8a3b1dd0654603bf0f0d"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Mod8_Housing_Assets.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389820,
+          "persistentId": "",
+          "filename": "ML_Mod8_Housing_Assets.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 92740,
+          "storageIdentifier": "surf://store:18c81dd11d7-ab324bd02b53",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "497ad753468a2e4b7a227bacee0cf51f08086365"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ML_Mod9_Employ_Inc.dta",
+        "restricted": true,
+        "directoryLabel": "Midline",
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389867,
+          "persistentId": "",
+          "filename": "ML_Mod9_Employ_Inc.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 324140,
+          "storageIdentifier": "surf://store:18c81dd11da-4267913e9323",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5a58d96f90a7a854032e4a5d80a75afa69f94666"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Collected at baseline and  endline",
+        "label": "Women empowerment and self-efficacy survey module.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389811,
+          "persistentId": "",
+          "filename": "Women empowerment and self-efficacy survey module.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 35654,
+          "description": "Collected at baseline and  endline",
+          "storageIdentifier": "surf://store:18c81d94dd4-e5c0c9324597",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0cc638d6858d055df11e6cef11b54ab7cceacaa6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Collected at baseline and  endline",
+        "label": "Women income hiding survey module.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25641,
+        "dataFile": {
+          "id": 389879,
+          "persistentId": "",
+          "filename": "Women income hiding survey module.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 18009,
+          "description": "Collected at baseline and  endline",
+          "storageIdentifier": "surf://store:18c81d9e821-a75fc8f8e30a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "25cbacece8554ea7022cc5e18eccbdb8365743e0"
+          },
+          "tabularData": false,
+          "creationDate": "2023-12-19",
+          "publicationDate": "2023-12-19",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Janssens, Wendy; Menno Pradhan, 2023, \"Health insurance in Kenya: A financial and health diaries dataset 2019-2021\", https://doi.org/10.34894/AKWPIA, DataverseNL, V2"
+  }
+}

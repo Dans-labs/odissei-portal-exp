@@ -1,0 +1,1426 @@
+{
+  "id": 13720,
+  "identifier": "dans-xtf-z3au",
+  "persistentUrl": "https://doi.org/10.17026/DANS-XTF-Z3AU",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2020-03-31",
+  "storageIdentifier": "surf://10.17026/dans-xtf-z3au",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 13431,
+    "datasetId": 13720,
+    "datasetPersistentId": "doi:10.17026/DANS-XTF-Z3AU",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-xtf-z3au",
+    "versionNumber": 2,
+    "internalVersionNumber": 33,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2020-03-08",
+    "productionDate": "2020-02-27",
+    "UNF": "UNF:6:+0HyazWVKqV1bYlcVDcRSw==",
+    "lastUpdateTime": "2023-07-03T14:52:01Z",
+    "releaseTime": "2020-03-30T22:00:00Z",
+    "createTime": "2023-07-03T12:19:52Z",
+    "publicationDate": "2020-03-31",
+    "citationDate": "2020-03-31",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    "termsOfAccess": "N/a",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Text Mining Twelfth-century Perceptions of Factions Dataset"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Data for \"Is there a Faction in this List?\""
+            ]
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:160005"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "H De Weerdt"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Universiteit Leiden"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-9670-674X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hilde  De Weerdt"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Universiteit Leiden"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>This dataset includes all data used in an article comparing the rationale behind twelfth century faction lists. For a fuller description see the original article and the appendix (Is there a Faction in this List? [Hilde De Weerdt, Brent Ho, Allon Wagner, Qiao Jiyan, and Chu Mingkin], Journal of Chinese History 2020).<br>It includes<br>1. the list of names and biographical ids for all those mentioned on the three lists under examination<br>2.  the raw data extracted from the co-occurrence of these names in corpora including all prose texts authored by authors active at the time when the lists may have been compiled<br>3. a document describing how the raw data was obtained and curated<br>4. curated co-occurrence network data for the Yuanyou and Qingyuan lists (differentiating between ties reported in total, in texts excluding self-references by the author, and in texts authored by peers who did not appear on the list)<br>5. network files including a range of metrics for the Yuanyou and Qingyuan networks<br>6.  native place and place of office (posting) data for those on the Yuanyou and Qingyuan lists<br>7. data calculating the significance of particular prefectures and routes in each of these networks<br>8. an interactive graph showing the significance of particular prefectures and routes in each of these networks<br>9. data showing sampling results based on the backgrounds of the QIngyuan list<br>10. raw co-occurrence network data for the sample group<br>The dataset consists of 34 datafiles and 1 document.<br>The following researchers helped with curating the data: Wang Wenxin, Daniel Stumm, Liu Jialong, Xiong Hueilan, Monica-Klasing Chen, Zhang Xiaofei, and Gabe van Beijeren, all graduate students at Leiden University.<br>The research leading to these results has received funding from the European Research Council under the European Union's Seventh Framework Programme (FP7/2007-2013) / ERC grant agreement n° 283525</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "political history; factionalism; Chinese history; digital humanities; medieval history;"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Chinese",
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-02-27"
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Researcher"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "B. Ho (Universiteit Leiden)"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Researcher"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A Wagner (University of California, Berkeley)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-03-08"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-02-27"
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Sources for all data are described in Hilde De Weerdt, Brent Ho, Allon Wagner, Qiao Jiyan, and Chu Mingkin, \"Is there a Faction in this List?\", Journal of Chinese History 2020"
+            ]
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Professor HILDE De Weerdt (Universiteit Leiden)",
+              "Professor Hilde De Weerdt (Universiteit Leiden)"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D34000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D34000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Geschiedenis"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "History"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "ca. 1080-1220"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageControlled",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "China"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/dans-xtf-z3au"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:0be78994-48ab-4e39-a7e4-9827117eff7c"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-e4-pn6k"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "bridges_prefecture.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13776,
+          "persistentId": "",
+          "filename": "bridges_prefecture.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 28147,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88ef52-b17e7c94e3a1",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 25242,
+          "originalFileName": "bridges_prefecture.csv",
+          "UNF": "UNF:6:9CnqmfnFrNaZdOUsgKEOnA==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f61a48a7808f9bea9f60afa86c8f5d44e2ba3e7b"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "bridges_route.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13772,
+          "persistentId": "",
+          "filename": "bridges_route.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 10003,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88e957-d527cb92e3a7",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 9559,
+          "originalFileName": "bridges_route.csv",
+          "UNF": "UNF:6:m1T0VHYeJekneizmWh7J8w==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ace190e9a0af9905c562f9614d27328e175de52d"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13757,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 43540,
+          "description": "",
+          "storageIdentifier": "surf://store:186df88b78a-3a9ea19e3e76",
+          "rootDataFileId": 13721,
+          "previousDataFileId": 13721,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "26b62172f03d46946755c204fbba5638796a39e4"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_1_data_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13773,
+          "persistentId": "",
+          "filename": "factionalism_1_data_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 2017549,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88eacb-c64cb1096422",
+          "originalFileFormat": "text/comma-separated-values",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 1361677,
+          "originalFileName": "factionalism_1_data_final.csv",
+          "UNF": "UNF:6:gHzKMJh6DCAwjN42Ehm07Q==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e875c204ccc38125a6928d56190f4bf54f533f70"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_1_edges_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13759,
+          "persistentId": "",
+          "filename": "factionalism_1_edges_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 1036509,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88d670-be08e47c0d11",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 1013914,
+          "originalFileName": "factionalism_1_edges_final.csv",
+          "UNF": "UNF:6:JMU/cTdq4xKpn3N9HIrwSQ==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "23e5c5426fb1b83c26d723cc242b9fc3f7e06ccd"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_1_edges_without_all_name_list_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13771,
+          "persistentId": "",
+          "filename": "factionalism_1_edges_without_all_name_list_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 184948,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88e7ed-cd322d79f055",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 180849,
+          "originalFileName": "factionalism_1_edges_without_all_name_list_final.csv",
+          "UNF": "UNF:6:JtTiu7nK90LCXp+fupG+BA==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9dec71ddcfceb0d7202b7159cefbf558638f68cf"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_1_edges_without_all_name_list_without_self_mentioned_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13767,
+          "persistentId": "",
+          "filename": "factionalism_1_edges_without_all_name_list_without_self_mentioned_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 103520,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88e20b-52b0ce5427d3",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 101243,
+          "originalFileName": "factionalism_1_edges_without_all_name_list_without_self_mentioned_final.csv",
+          "UNF": "UNF:6:UXRqd62ecokdIfQXhwXN6g==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8248b92fe031e5dc506be0f69a3664718494c7de"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_1_edges_without_all_name_list_without_self_mentioned_without_authors_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13764,
+          "persistentId": "",
+          "filename": "factionalism_1_edges_without_all_name_list_without_self_mentioned_without_authors_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 55793,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88dda2-ee881abb6940",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 54585,
+          "originalFileName": "factionalism_1_edges_without_all_name_list_without_self_mentioned_without_authors_final.csv",
+          "UNF": "UNF:6:sB4etW3nbvd59YYF0RnA5w==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "11e8fc47aea10a6728ca970b71df5544163408b7"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_1_node_cbdb_brieft.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13752,
+          "persistentId": "",
+          "filename": "factionalism_1_node_cbdb_brieft.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 10589,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df8856e1-f6f219054fc6",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 9784,
+          "originalFileName": "factionalism_1_node_cbdb_brieft.csv",
+          "UNF": "UNF:6:ZdzDi9ltwTee/xCAlrPhgw==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "386a5ad77c648e447879d93d12f12973b11bf061"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_1_node_native_properties_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13749,
+          "persistentId": "",
+          "filename": "factionalism_1_node_native_properties_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 16666,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df885328-8355633dea87",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 15025,
+          "originalFileName": "factionalism_1_node_native_properties_final.csv",
+          "UNF": "UNF:6:GKozJRPfF7zRbpamggCCjw==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7f3d1a09e0bab6d83a10a0e73d7fe97e0e729283"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_1_node_native_properties.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13740,
+          "persistentId": "",
+          "filename": "factionalism_1_node_native_properties.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 17144,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88481c-eb57562c3272",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 14786,
+          "originalFileName": "factionalism_1_node_native_properties.csv",
+          "UNF": "UNF:6:s65c8/J01X574LqIYTyshQ==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6863e1742e43b21c459d0f6afdf3c96396acca04"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_1_node_workplace_properties_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13725,
+          "persistentId": "",
+          "filename": "factionalism_1_node_workplace_properties_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 40371,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df883809-734fd0d8256d",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 35477,
+          "originalFileName": "factionalism_1_node_workplace_properties_final.csv",
+          "UNF": "UNF:6:SDl0NAJQUdLbSAjrMl4cVA==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cf158c718d98df9b82a15b80db2e0d835e580b23"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_1_node_workplace_properties.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13756,
+          "persistentId": "",
+          "filename": "factionalism_1_node_workplace_properties.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 41779,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df885b7a-57c22a91e669",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 34773,
+          "originalFileName": "factionalism_1_node_workplace_properties.csv",
+          "UNF": "UNF:6:bD+/TAt6FIwGkYtDQq8voQ==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c108a341e0801de4f2c618eab0b37c2f83ac44fd"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_3_data_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13777,
+          "persistentId": "",
+          "filename": "factionalism_3_data_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 1218128,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88f0ea-320cbde56587",
+          "originalFileFormat": "text/comma-separated-values",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 798707,
+          "originalFileName": "factionalism_3_data_final.csv",
+          "UNF": "UNF:6:W5ec5BlJ4DwtdCsLZT5DJQ==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bd3a4a554917cb99818f48e229f113c53bd8bba1"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_3_edges_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13778,
+          "persistentId": "",
+          "filename": "factionalism_3_edges_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 70767,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88f2a6-e04aad7605ef",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 69288,
+          "originalFileName": "factionalism_3_edges_final.csv",
+          "UNF": "UNF:6:3AKVH/CLRsB8M+fOMWLMuw==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f2a942bede2c5cee2e87288d61b590fb0ffe888b"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_3_edges_without_self_mentioned_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13766,
+          "persistentId": "",
+          "filename": "factionalism_3_edges_without_self_mentioned_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 54339,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88e0a8-d254f5248293",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 53215,
+          "originalFileName": "factionalism_3_edges_without_self_mentioned_final.csv",
+          "UNF": "UNF:6:Yj233DYyPez15FTzw4Dhrw==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "81e4a24f3953ef5ba356d0f1b5e7403d49d9c5fd"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_3_edges_without_self_mentioned_without_authors_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13763,
+          "persistentId": "",
+          "filename": "factionalism_3_edges_without_self_mentioned_without_authors_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 34101,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88dc3c-6e3dc3ab1e7c",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 33413,
+          "originalFileName": "factionalism_3_edges_without_self_mentioned_without_authors_final.csv",
+          "UNF": "UNF:6:R/LqgCU5KVssp8cznHnK3g==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "27a60608049c03decd3248f1dcc0cc9f14081b23"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_3_node_cbdb_brieft.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13753,
+          "persistentId": "",
+          "filename": "factionalism_3_node_cbdb_brieft.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 4093,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df885803-39e3b9a99dd3",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 3864,
+          "originalFileName": "factionalism_3_node_cbdb_brieft.csv",
+          "UNF": "UNF:6:cC8KzZ8ZHaHoM9ubsmDBmw==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e79448573bdf60c88c0615c41224cdc545f04937"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_3_node_native_properties_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13750,
+          "persistentId": "",
+          "filename": "factionalism_3_node_native_properties_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 6616,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df885446-dff4b28029a1",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 6006,
+          "originalFileName": "factionalism_3_node_native_properties_final.csv",
+          "UNF": "UNF:6:jAtd1OFV1299mZWRj7k4uA==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d4facdd15b3e80bfb0a2cbc594d55b77620878fd"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_3_node_native_properties.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13723,
+          "persistentId": "",
+          "filename": "factionalism_3_node_native_properties.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 6800,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df8835d7-bcdaa0d24e6b",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 5914,
+          "originalFileName": "factionalism_3_node_native_properties.csv",
+          "UNF": "UNF:6:seymzUDjsPjC9HhYGBQ7Bg==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "61c032dad83d7f674c186421bdd8ab7ed15c24fc"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_3_node_workplace_properties_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13754,
+          "persistentId": "",
+          "filename": "factionalism_3_node_workplace_properties_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 23999,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88592a-d14147d056fa",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 21268,
+          "originalFileName": "factionalism_3_node_workplace_properties_final.csv",
+          "UNF": "UNF:6:wEFAEJ6cKpo3+MHCaSY7kw==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ef805c3dd16c11beb72e57ef5b9e8a0e3a71c4b1"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "factionalism_3_node_workplace_properties.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13735,
+          "persistentId": "",
+          "filename": "factionalism_3_node_workplace_properties.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 24789,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df884299-a37f5ca538dd",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 20873,
+          "originalFileName": "factionalism_3_node_workplace_properties.csv",
+          "UNF": "UNF:6:5k/+anwEDXYpetqtcocZEw==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0f29515a4b5c817b7b4a393c056fafe1cf7cf613"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "Faction List.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13770,
+          "persistentId": "",
+          "filename": "Faction List.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 45440,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88e688-36843833ca3e",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 40697,
+          "originalFileName": "Faction List.csv",
+          "UNF": "UNF:6:CFy29VYO3/dRKYgn2u73Pw==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "57ebe7782b20968c970d133e801d15e7e322cd83"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "Group1_all_documents_final.ods",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13758,
+          "persistentId": "",
+          "filename": "Group1_all_documents_final.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 4357555,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88d50c-aca03715b904",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dd3ea17b47d33b7c78740d8779492b60228b58c5"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "Group 1.graphml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13733,
+          "persistentId": "",
+          "filename": "Group 1.graphml",
+          "contentType": "text/xml-graphml",
+          "friendlyType": "GraphML Network Data",
+          "filesize": 293833,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df884077-e3b5b7af8993",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6884a1a5219f2fd6b63ac7260b99dc7c69673b84"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "Group2_all_documents_final.ods",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13769,
+          "persistentId": "",
+          "filename": "Group2_all_documents_final.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 1509057,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88e4d1-3c090442deca",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "459b86bb08a0d6d8f9725896716244e7030baf0f"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "Group3_all_documents_final.ods",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13761,
+          "persistentId": "",
+          "filename": "Group3_all_documents_final.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 3456806,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88d94a-8b2baa8e3636",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1fde44d7f97595f4ede5ff18d3147ba157cbf3eb"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "Group 3 - Anti Han Tuozhou.graphml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13732,
+          "persistentId": "",
+          "filename": "Group 3 - Anti Han Tuozhou.graphml",
+          "contentType": "text/xml-graphml",
+          "friendlyType": "GraphML Network Data",
+          "filesize": 76618,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df883f94-9156ee85ec9b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1cb07df839b5f3df9cacb1faa8b8c0b644fc4a9a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "interactive.html",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13747,
+          "persistentId": "",
+          "filename": "interactive.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 4397152,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88507d-0f594dabe50f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7572ac7781211abb82042b7de606a7c721285dfd"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Preliminary dataset explanation.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13762,
+          "persistentId": "",
+          "filename": "Preliminary dataset explanation.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 72448,
+          "description": "",
+          "storageIdentifier": "surf://store:186df88dad9-0cda60c4a101",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "95468e71e78ab7c13c3b0013f0e05fbb209828f2"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "Sample_result.ods",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13760,
+          "persistentId": "",
+          "filename": "Sample_result.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 22807,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88d7dc-c8b35473ef37",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8d21225ff299988733635dd1cdb1f52536127557"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "sampling(Anti Han Touzou)_edges_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13775,
+          "persistentId": "",
+          "filename": "sampling(Anti Han Touzou)_edges_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 1775,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88ede3-f87731c84a93",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 1783,
+          "originalFileName": "sampling(Anti Han Touzou)_edges_final.csv",
+          "UNF": "UNF:6:k41BlmvfBYUgQfWqydo+2g==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "973ce5925968ad9cfa028df26659c1d2be23411c"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "sampling(Associated with and Anti Han Touzou)_edges_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13765,
+          "persistentId": "",
+          "filename": "sampling(Associated with and Anti Han Touzou)_edges_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 5525,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88df3f-96b13d5e9a31",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 5453,
+          "originalFileName": "sampling(Associated with and Anti Han Touzou)_edges_final.csv",
+          "UNF": "UNF:6:Lr5cCaqHa1Mmj4FCrhTlFw==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3263e74d6c444fe6b8907089fe6e022823619fa2"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "sampling(Associated with Han Touzou)_edges_final.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13774,
+          "persistentId": "",
+          "filename": "sampling(Associated with Han Touzou)_edges_final.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 940,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88ec44-fef5f1a2268a",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 966,
+          "originalFileName": "sampling(Associated with Han Touzou)_edges_final.csv",
+          "UNF": "UNF:6:x86aiYddYZmeDLXYkHEVQg==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c43b33824083be8c545b1db5b056bf9503e59544"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "sampling_node_cbdb_brieft.tab",
+        "restricted": false,
+        "version": 3,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13768,
+          "persistentId": "",
+          "filename": "sampling_node_cbdb_brieft.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 4539,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df88e369-994719db6723",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 4324,
+          "originalFileName": "sampling_node_cbdb_brieft.csv",
+          "UNF": "UNF:6:mU1+RUHfNMyQKajirzfnyg==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ab0b2be0066f87514421b65101328d110230c4bc"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+        "label": "sampling_node_cbdb_brieft.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 13431,
+        "dataFile": {
+          "id": 13751,
+          "persistentId": "",
+          "filename": "sampling_node_cbdb_brieft.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 4774,
+          "description": "othmat_codebook: \"Preliminary dataset explanation.pdf\"",
+          "storageIdentifier": "surf://store:186df885583-406fac33d4b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b04508c07d8dc741973a600d8b6db8da573a6a3c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-03-31",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "H De Weerdt, 2020, \"Text Mining Twelfth-century Perceptions of Factions Dataset\", https://doi.org/10.17026/DANS-XTF-Z3AU, DANS Data Station Social Sciences and Humanities, V2, UNF:6:+0HyazWVKqV1bYlcVDcRSw== [fileUNF]"
+  }
+}

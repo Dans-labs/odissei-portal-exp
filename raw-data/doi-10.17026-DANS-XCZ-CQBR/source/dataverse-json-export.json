@@ -1,0 +1,713 @@
+{
+  "id": 152824,
+  "identifier": "dans-xcz-cqbr",
+  "persistentUrl": "https://doi.org/10.17026/DANS-XCZ-CQBR",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2012-11-13",
+  "storageIdentifier": "surf://10.17026/dans-xcz-cqbr",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 33136,
+    "datasetId": 152824,
+    "datasetPersistentId": "doi:10.17026/DANS-XCZ-CQBR",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-xcz-cqbr",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2012-11-20",
+    "productionDate": "2012-11-20",
+    "lastUpdateTime": "2026-07-19T22:29:49Z",
+    "releaseTime": "2026-07-19T22:29:49Z",
+    "createTime": "2026-07-19T22:29:38Z",
+    "publicationDate": "2012-11-13",
+    "citationDate": "2012-11-13",
+    "versionNote": "The Python package langdetect was used to semi-automatically identify the languages used in the metadata. Human curators verified and corrected the results. If you notice any inaccuracies, please contact DANS.",
+    "license": {
+      "name": "DANS Licence",
+      "uri": "https://doi.org/10.17026/fp39-0x58",
+      "iconUri": ""
+    },
+    "termsOfAccess": "",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Transcription of the manuscripts containing the New Testament letter of Jude"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:52008"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "T. Wasserman"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Örebro School of Theology"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "T.  Wasserman"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Örebro Teologiska Högskola"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>This is the data corresponding to the monograph by the depositor, titled The Epistle of Jude: Its Text and Transmission.</p><p>This book treats the textual tradition of the Epistle of Jude. The nucleus of the study is an exhaustive critical apparatus presenting the evidence of 560 Greek MSS, including dozens of lectionaries. For the first time, all these MSS have been collated in a complete book of the NT. The complete collation has brought many new readings to light, some of which were only known through ancient versions, and previously known and important readings have gained additional support. An accompanying textual commentary explains the rationale behind the various text-critical decisions in over 100 passages.</p><p>This dataset consists of the transcriptions of the aforementioned 560 manuscripts plus a listing of their provenance. The transcriptions have been converted by the contributors from a proprietary format into UNICODE with XML-like markup. There is also a graphical representation of the texts, in which the information is split in several layers and anchored to the character positions. In order to compute with this representation, it has also been modeled as a database, and an sql representation is provided that can be directly imported into a MySQL database. A document describing the workflow from source to derived files is included as well.</p>"
+                }
+              },
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Much care has been taken to correctly describe the manuscripts, and to correctly transform the resulting transcriptions to UNICODE. Yet it is likely that there are remaining errors. This dataset has been published here to facilitate subsequent research and checking. New versions of the data will be deposited when the depositor deems it necessary, and new versions will be linked to this dataset.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "New Testament"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Textual Criticism"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Manuscripts"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Transcriptions"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Epistles"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jude"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bible"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2012-11-20"
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "J.L.H. Krans (Vrije Universiteit, Faculteit Theologie)"
+                }
+              },
+              {
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "D. Roorda (Data Archiving and Networked Services)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2012-11-20"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2012-11-06"
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "microfilms of 560 manuscripts in various repositories, see the list inside the dataset"
+            ]
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Unknown"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D30000",
+              "https://www.narcis.nl/classification/D36000",
+              "https://www.narcis.nl/classification/D36200",
+              "https://www.narcis.nl/classification/D33000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D30000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Geesteswetenschappen"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Humanities"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D36000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Taal- en literatuurwetenschappen"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Language and literature studies"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D36200",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Classic studies"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Klassieke taal- en letterkunde"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D33000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Theology and religious studies"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Godgeleerdheid en religiewetenschappen"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tommy Wasserman: The Epistle of Jude: Its Text and Transmission ConBNT 43. Stockholm: Almqvist & Wiksell International, 2006."
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.eisenbrauns.com/item/WASEPISTL"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The Digital Walters: Manuscript W.533"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.thedigitalwalters.org/Data/WaltersManuscripts/html/W533/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "AD 300-1800"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageText",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "world-wide"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/DANS-XCZ-CQBR"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:7f3cf455-960b-48dd-9def-e873e8f00e3d"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-qxf4-1v"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33136,
+        "dataFile": {
+          "id": 152825,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 22206,
+          "description": "",
+          "storageIdentifier": "surf://store:186ea52b1bf-54f006a1ef11",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "24a7f0d67eeac2a972e0b9b7fe62a16824e9b53c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2012-11-13",
+          "lastUpdateTime": "2026-07-19T22:29:49Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "graphpaper.txt",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33136,
+        "dataFile": {
+          "id": 152830,
+          "persistentId": "",
+          "filename": "graphpaper.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 23211160,
+          "description": "",
+          "storageIdentifier": "surf://store:186ea52b92a-b0a401d56bcb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "23c7fe631172a0fd881f5cfd69afe2e079ec92a1"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2012-11-13",
+          "lastUpdateTime": "2026-07-19T22:29:49Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "layers.sql",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33136,
+        "dataFile": {
+          "id": 152827,
+          "persistentId": "",
+          "filename": "layers.sql",
+          "contentType": "application/x-sql",
+          "friendlyType": "SQL Code",
+          "filesize": 46185349,
+          "description": "",
+          "storageIdentifier": "surf://store:186ea52b4b9-24de901bb7c3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76d32a88c440f2a8cd000fac3e4915e6d0a30c52"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2012-11-13",
+          "lastUpdateTime": "2026-07-19T22:29:49Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "provenance.txt",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33136,
+        "dataFile": {
+          "id": 152831,
+          "persistentId": "",
+          "filename": "provenance.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 27120,
+          "description": "",
+          "storageIdentifier": "surf://store:186ea52baae-0a1aafd89e3e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "54f402bfc37ee02a6469934d675c59d061c81c9c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2012-11-13",
+          "lastUpdateTime": "2026-07-19T22:29:49Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "summary.log",
+        "restricted": true,
+        "directoryLabel": "conversion",
+        "version": 1,
+        "datasetVersionId": 33136,
+        "dataFile": {
+          "id": 152832,
+          "persistentId": "",
+          "filename": "summary.log",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 15506,
+          "description": "",
+          "storageIdentifier": "surf://store:186ea52bba2-d2ecf459cc02",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "400b0db7dd8639e3def0409b1188ce48b5cdc634"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2012-11-13",
+          "directoryLabel": "conversion",
+          "lastUpdateTime": "2026-07-19T22:29:49Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "transcriptions.txt",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33136,
+        "dataFile": {
+          "id": 152829,
+          "persistentId": "",
+          "filename": "transcriptions.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3243336,
+          "description": "",
+          "storageIdentifier": "surf://store:186ea52b7d6-68c91cf4bf16",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1599c228b71f06675e85d8dbfdcb6b805f4142ce"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2012-11-13",
+          "lastUpdateTime": "2026-07-19T22:29:49Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "transform.log",
+        "restricted": true,
+        "directoryLabel": "conversion",
+        "version": 1,
+        "datasetVersionId": 33136,
+        "dataFile": {
+          "id": 152826,
+          "persistentId": "",
+          "filename": "transform.log",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1160176,
+          "description": "",
+          "storageIdentifier": "surf://store:186ea52b2f8-6d8cd86b9053",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "402c2d9b96841d6ab3b3b20b246cf379f0ca40cb"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2012-11-13",
+          "directoryLabel": "conversion",
+          "lastUpdateTime": "2026-07-19T22:29:49Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "transform.pl",
+        "restricted": true,
+        "directoryLabel": "conversion",
+        "version": 1,
+        "datasetVersionId": 33136,
+        "dataFile": {
+          "id": 152828,
+          "persistentId": "",
+          "filename": "transform.pl",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 14917,
+          "description": "",
+          "storageIdentifier": "surf://store:186ea52b6db-890e856a621d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b135125a1f412d2f66707cf4a0ba342bacee7a08"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2012-11-13",
+          "directoryLabel": "conversion",
+          "lastUpdateTime": "2026-07-19T22:29:49Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Workflow.pdf",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33136,
+        "dataFile": {
+          "id": 152833,
+          "persistentId": "",
+          "filename": "Workflow.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 870968,
+          "description": "",
+          "storageIdentifier": "surf://store:186ea52bc93-519216272c67",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "74d7ddc25bfd85dca55f43c229a7c1d9bf5bfe9c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2012-11-13",
+          "lastUpdateTime": "2026-07-19T22:29:49Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "T. Wasserman, 2012, \"Transcription of the manuscripts containing the New Testament letter of Jude\", https://doi.org/10.17026/DANS-XCZ-CQBR, DANS Data Station Social Sciences and Humanities, V1"
+  }
+}

@@ -6,7 +6,6 @@ import { ClearRefinements, useCurrentRefinements } from "react-instantsearch";
 import { SearchBox } from "#/integrations/instantsearch/SearchBox";
 import { RefinementList } from "#/integrations/instantsearch/RefinementList";
 import { ToggleRefinement } from "#/integrations/instantsearch/ToggleRefinement";
-import { RangeInput } from "#/integrations/instantsearch/RangeInput";
 import { YearFilter } from "#/integrations/instantsearch/YearFilter";
 import { FilterSection } from "./FilterSection";
 import { m } from "#/paraglide/messages";
@@ -21,6 +20,8 @@ import {
   DocumentIcon,
 } from "@heroicons/react/24/outline";
 import styles from "./FacetSidebar.module.css";
+import { cn } from "#/utils/cn";
+import { card, button } from "#/utils/surfaces";
 
 // Height of the collapsed "peek" state — handle + search box + padding.
 const PEEK_SNAP_POINT = "98px";
@@ -47,14 +48,7 @@ function ClearRefinementsButton() {
   return (
     <ClearRefinements
       classNames={{
-        button: `
-          w-full rounded-xl
-          bg-gradient-to-r from-cyan-500 to-blue-600
-          px-4 py-2
-          text-sm font-medium text-white
-          shadow-sm transition hover:brightness-105
-          active:scale-[0.98] cursor-pointer
-        `,
+        button: cn(button, "w-full"),
       }}
       translations={{
         resetButtonText: m.clearRefinements(),
@@ -111,7 +105,7 @@ function FiltersList() {
         icon={<DocumentIcon className="size-4" />}
         defaultOpen={false}
       >
-        <RangeInput attribute="file_count" label={m.fileCount()} />
+        <RefinementList attribute="file_count_bucket" />
       </FilterSection>
     </div>
   );
@@ -119,13 +113,7 @@ function FiltersList() {
 
 function DesktopSidebar() {
   return (
-    <aside
-      className="
-        sticky top-8 h-fit w-80 shrink-0
-        rounded-3xl border border-zinc-200/80
-        bg-white/80 p-6 shadow-sm backdrop-blur
-      "
-    >
+    <aside className={cn(card, "sticky top-8 h-fit w-80 shrink-0")}>
       <div className="space-y-5">
         <SearchBox />
         <ClearRefinementsButton />
@@ -167,7 +155,7 @@ function MobileFacetDrawer() {
               ${styles.Popup}
               pointer-events-auto
               flex h-[85vh] flex-col
-              rounded-t-3xl border-t border-zinc-200/80
+              rounded-t-3xl border-t border-gray-200/80
               bg-white${!isExpanded ? "/80" : ""} shadow-[0_-4px_24px_rgba(0,0,0,0.08)] backdrop-blur
             `}
           >

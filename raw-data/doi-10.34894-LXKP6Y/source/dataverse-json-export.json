@@ -1,0 +1,340 @@
+{
+  "id": 508437,
+  "identifier": "LXKP6Y",
+  "persistentUrl": "https://doi.org/10.34894/LXKP6Y",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-19",
+  "storageIdentifier": "surf://10.34894/LXKP6Y",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31324,
+    "datasetId": 508437,
+    "datasetPersistentId": "doi:10.34894/LXKP6Y",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/LXKP6Y",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2021-04-29",
+    "lastUpdateTime": "2025-08-19T09:41:43Z",
+    "releaseTime": "2025-08-19T09:41:43Z",
+    "createTime": "2025-08-19T09:40:56Z",
+    "publicationDate": "2025-08-19",
+    "citationDate": "2025-08-19",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Daily deaths across Italian municipalities in 2020 in excess with respect to 2015-2019"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mazzola, Francesco"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2570-5245"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bongaerts, Dion"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wagner, Wolf"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mazzola, Francesco"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rotterdam School of Management <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<div>We calculate excess mortality, i.e., attributable to Covid-19, across all (7,272) Italian municipalities using death registry data (see References) by deducting from a municipality's (daily) number of deaths the average number of deaths over the previous five years in the same municipality, using an evenly-spaced-around window of seven days. The date (\"GE\" column) is in \"mmdd\" format, while the municipality code (\"codice_comune\" column) follows standard ISTAT codes. The sample period runs from February to April 2020, and excludes municipalities that were never hit by the Covid-19 disease within the first four months of 2020, i.e. cumulative mortality rate among residents of a municipality did not reach a threshold of 100 deaths per 100,000 inhabitants.</div>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Covid-19 Deaths"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Covid-19 Mortality"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Italian Ministry"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Istat"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Excess Mortality"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Demography Not Elsewhere Classified"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Demography Not Elsewhere Classified"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a one-file data package totaling 4.1 MB, containing a file in .csv format.<p><p>If you use this dataset, please cite: Mazzola, Francesco; Bongaerts, Dion; Wagner, Wolf (2021). Daily deaths across Italian municipalities in 2020 in excess with respect to 2015-2019. Erasmus University Rotterdam (EUR). Dataset. <a href=\"https://doi.org/10.25397/eur.14500491\" target=\"_blank\">https://doi.org/10.25397/eur.14500491</a><p>"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-04-29"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Mazzola, Francesco"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-04-28"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://www.istat.it/it/archivio/240401\" target=\"_blank\">https://www.istat.it/it/archivio/240401</a>",
+              "<a href=\"https://doi.org/10.1371/journal.pone.0251373\" target=\"_blank\">https://doi.org/10.1371/journal.pone.0251373</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/LXKP6Y"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:07fa63c8-59e8-4d8b-8844-0f099e903413"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-c0177d15-4f07-4a33-aea5-d65adb7d5ba8"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "ExcessDeaths.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.14500491",
+        "version": 1,
+        "datasetVersionId": 31324,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 508438,
+          "persistentId": "",
+          "filename": "ExcessDeaths.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 4296559,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1b4036b-cdc42ef8afda",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "af0823ec7e4fc7bf59abc967b6ed84f83c8d1e9f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Mazzola, Francesco; Bongaerts, Dion; Wagner, Wolf, 2025, \"Daily deaths across Italian municipalities in 2020 in excess with respect to 2015-2019\", https://doi.org/10.34894/LXKP6Y, DataverseNL, V1"
+  }
+}

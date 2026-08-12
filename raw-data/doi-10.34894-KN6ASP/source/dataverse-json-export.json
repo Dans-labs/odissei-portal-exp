@@ -1,0 +1,273 @@
+{
+  "id": 552987,
+  "identifier": "KN6ASP",
+  "persistentUrl": "https://doi.org/10.34894/KN6ASP",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-02-09",
+  "storageIdentifier": "surf://10.34894/KN6ASP",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34076,
+    "datasetId": 552987,
+    "datasetPersistentId": "doi:10.34894/KN6ASP",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/KN6ASP",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-03-03T13:32:34Z",
+    "releaseTime": "2026-03-03T13:32:34Z",
+    "createTime": "2026-02-25T09:09:12Z",
+    "publicationDate": "2026-02-09",
+    "citationDate": "2026-02-09",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Simulated data for the paper \"Use of clustering techniques for clinical and epidemiological research"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bakker Mark"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bakker Mark"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "These two simulated datasets, belonging to the paper \"Use of clustering techniques for clinical and epidemiological research\", published in the Journal of Clinical Epidemiology (https://doi.org/10.1016/j.jclinepi.2026.112183), can be used to generate output of different clustering techniques, using the provided R-code."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Bakker Mark"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-10-03"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/KN6ASP"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:fabafb8c-0aed-40cf-8d35-f659aaa32cea"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-afa926c5-c483-46aa-9249-0fd3a4f21673"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "CSV file for the imputed example dataset",
+        "label": "example_imputed_data.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34076,
+        "dataFile": {
+          "id": 605985,
+          "persistentId": "",
+          "filename": "example_imputed_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 82504,
+          "description": "CSV file for the imputed example dataset",
+          "storageIdentifier": "surf://store:19c330ce6ad-46559334caf5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "390dc3736588ee320b538cd02046694b4b03c660"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-06",
+          "publicationDate": "2026-02-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "CSV file for the raw example dataset",
+        "label": "example_raw_data.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34076,
+        "dataFile": {
+          "id": 605984,
+          "persistentId": "",
+          "filename": "example_raw_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 91335,
+          "description": "CSV file for the raw example dataset",
+          "storageIdentifier": "surf://store:19c330ce6f1-6962b965270b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9278cdc26bf0def1684750174b77c91e07841e6b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-06",
+          "publicationDate": "2026-02-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Excel file linking individual questionnaire items to the scales",
+        "label": "QuestionsToScales.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34076,
+        "dataFile": {
+          "id": 605987,
+          "persistentId": "",
+          "filename": "QuestionsToScales.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 6928,
+          "description": "Excel file linking individual questionnaire items to the scales",
+          "storageIdentifier": "surf://store:19c330ce729-3a700b7e6064",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "211270b963885a6a56eee3fbf3b763c4a0999eae"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-06",
+          "publicationDate": "2026-02-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "R Code related to the article \"Use of clustering techniques for clinical and epidemiological research: practical tips using an example from rheumatology\"",
+        "label": "RCode_Appendix_JCEPI.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34076,
+        "dataFile": {
+          "id": 605986,
+          "persistentId": "",
+          "filename": "RCode_Appendix_JCEPI.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 59252,
+          "description": "R Code related to the article \"Use of clustering techniques for clinical and epidemiological research: practical tips using an example from rheumatology\"",
+          "storageIdentifier": "surf://store:19c330ce769-85b5323c459a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dec0ffa961c0ef1733a42bf655ae1641028304ce"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-06",
+          "publicationDate": "2026-02-09",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Bakker Mark, 2026, \"Simulated data for the paper \"Use of clustering techniques for clinical and epidemiological research\", https://doi.org/10.34894/KN6ASP, DataverseNL, V1"
+  }
+}

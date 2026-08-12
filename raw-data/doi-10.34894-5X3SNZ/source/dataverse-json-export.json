@@ -1,0 +1,402 @@
+{
+  "id": 608985,
+  "identifier": "5X3SNZ",
+  "persistentUrl": "https://doi.org/10.34894/5X3SNZ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-02-19",
+  "storageIdentifier": "surf://10.34894/5X3SNZ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34051,
+    "datasetId": 608985,
+    "datasetPersistentId": "doi:10.34894/5X3SNZ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/5X3SNZ",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-02-19T14:25:32Z",
+    "releaseTime": "2026-02-19T14:25:32Z",
+    "createTime": "2026-02-17T14:35:00Z",
+    "publicationDate": "2026-02-19",
+    "citationDate": "2026-02-19",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Subgroup detection in linear growth curve models with generalized linear mixed model (GLMM) trees"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fokkema, Marjolein"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/027bh9e22",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Leiden University",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-9252-8325"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zeileis, Achim"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Innsbruck University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-0918-3766"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Marjolein Fokkema"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Leiden University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Data Stewards Behavioural Sciences"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Leiden University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Scripts and data for reproducing all simulations and application to Math, Reading and Science trajectories in the EARLY CHILDHOOD LONGITUDINAL STUDY: KINDERGARTEN CLASS OF 1998-1999 data.\n\nGrowth curve models are popular tools for studying the development of a response variable within subjects over time. Heterogeneity between subjects is common in such models, and researchers are typically interested in explaining or predicting this heterogeneity. We show how generalized linear mixed-effects model (GLMM) trees can be used to identify subgroups with different trajectories in linear growth curve models. Originally developed for clustered cross-sectional data, GLMM trees are extended here to longitudinal data. The resulting extended GLMM trees are directly applicable to growth curve models as an important special case. In simulated and real-world data, we assess performance of the extensions and compare against other partitioning methods for growth curve models. Extended GLMM trees perform more accurately than the original algorithm and LongCART, and similarly accurate compared to structural equation model (SEM) trees. In addition, GLMM trees allow for modeling both discrete and continuous time series, are less sensitive to (mis-)specification of the random-effects structure and are much faster to compute."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Decision trees"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Growth curve models"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mixed-effects models"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Model-based recursive partitioning"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fokkema, M., & Zeileis, A. (2024). Subgroup detection in linear growth curve models with generalized linear mixed model (GLMM) trees. Behavior Research Methods, 56(7), 6759–6780."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.3758/s13428-024-02389-1"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://link.springer.com/article/10.3758/s13428-024-02389-1"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Hoffmann, Franca; Mink, Jaap-Willem; Plomp, Willemijn"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-02-19"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/5X3SNZ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:f73181ad-f998-42ab-abcf-c1e4d2e8e99c"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-e5bee4e3-fee3-4e1e-97f7-3d1b936c3856"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "1. Publication.zip",
+        "restricted": false,
+        "directoryLabel": "PP Marjolein Fokkema",
+        "version": 2,
+        "datasetVersionId": 34051,
+        "dataFile": {
+          "id": 608987,
+          "persistentId": "",
+          "filename": "1. Publication.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 5490857,
+          "storageIdentifier": "surf://store:19c6c0aa160-dbcd4683b5a8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b3205b12c1f779f70065342af78410f4955dfeb8"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-17",
+          "publicationDate": "2026-02-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2. Computer Code and Data Files.zip",
+        "restricted": false,
+        "directoryLabel": "PP Marjolein Fokkema",
+        "version": 1,
+        "datasetVersionId": 34051,
+        "dataFile": {
+          "id": 608988,
+          "persistentId": "",
+          "filename": "2. Computer Code and Data Files.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 684092,
+          "storageIdentifier": "surf://store:19c6c0aa191-f7db82ed11d1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eeca1fcdfb9b4331c736269e03e4e142bbfe7538"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-17",
+          "publicationDate": "2026-02-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "3. Data Pre-Processing.zip",
+        "restricted": false,
+        "directoryLabel": "PP Marjolein Fokkema",
+        "version": 1,
+        "datasetVersionId": 34051,
+        "dataFile": {
+          "id": 608989,
+          "persistentId": "",
+          "filename": "3. Data Pre-Processing.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 2503,
+          "storageIdentifier": "surf://store:19c6c0aa19b-746ecb0339a9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6e3e6139f5fc68da2a4cfbd23e459c7bb22f9e40"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-17",
+          "publicationDate": "2026-02-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "4. README.txt",
+        "restricted": false,
+        "directoryLabel": "PP Marjolein Fokkema",
+        "version": 1,
+        "datasetVersionId": 34051,
+        "dataFile": {
+          "id": 608986,
+          "persistentId": "",
+          "filename": "4. README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1429,
+          "storageIdentifier": "surf://store:19c6c0aa18b-78d73e658eab",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d74abfbbb2c338a536dd496ccad6688a202ef222"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-17",
+          "publicationDate": "2026-02-19",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Fokkema, Marjolein; Zeileis, Achim, 2026, \"Subgroup detection in linear growth curve models with generalized linear mixed model (GLMM) trees\", https://doi.org/10.34894/5X3SNZ, DataverseNL, V1"
+  }
+}

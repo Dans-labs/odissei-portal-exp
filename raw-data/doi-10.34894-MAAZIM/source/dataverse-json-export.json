@@ -1,0 +1,401 @@
+{
+  "id": 652024,
+  "identifier": "MAAZIM",
+  "persistentUrl": "https://doi.org/10.34894/MAAZIM",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-07-27",
+  "storageIdentifier": "surf://10.34894/MAAZIM",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 35044,
+    "datasetId": 652024,
+    "datasetPersistentId": "doi:10.34894/MAAZIM",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/MAAZIM",
+    "versionNumber": 1,
+    "internalVersionNumber": 30,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-07-27T13:26:20Z",
+    "releaseTime": "2026-07-27T13:26:20Z",
+    "createTime": "2026-07-06T12:13:50Z",
+    "publicationDate": "2026-07-27",
+    "citationDate": "2026-07-27",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Does Social Capital Improve Gender Equality? – Replication Data"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mangraviti, Nicola"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0009-0003-7820-541X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Staveren, Irene"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0001-7548-6795"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mangraviti, Nicola"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus University Rotterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<h3>Dataset Description</h3>\n\nThe Replication package includes dataset (.dta) and do file (.do) to execute the analysis presented in the paper. In the do file it is also reported a legend for a better clarification and reference between names of the variables in the codes and names used in the paper.\n\n<h3>Background</h3>\nThe dataset file includes socio-economic, political and institutional data on a sample of countries.\n\n<h3>Purpose</h3>\nThe dataset was built with the aim to study the relationship between Gender Equality (dependent variable) and Social Capital (key indipendent variable), at the country level, controlling also for other relevant variables such as (Democracy, Control of Corruption, GINI index, Government Effectiveness and others).\n\n<h3>Methods</h3>\nThe dataset was built by aggregating data from different sources and existing databases (OCSE, World Bank, V-DEM Institute, ISD).\n\n\n<h3>Data Structure / Contents</h3>\nThe structure of the data is longitudinal, with country data points every 5 years from 1990 to 2020.\n\n\n<h3>Value of the data  for potential reuse</h3>\nBy combining data from multiple sources the dataset represents a unique point of reference for investigating relationships between social dimensions of societies.\n\n<h3>Results</h3>\nFrom the analysis performed it is shown that the relationship between Gender Equality and Social Capital is generally not statistically significant.\n\n<h3>Conclusion</h3>\nMain conclusions focus on the role of Social Capital as as variable prone to reproduce existing gender inequalities also within existing networks, instead of a variable able to bridge existing gaps."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "IsSupplementTo"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Van Staveren Irene & Mangraviti Nicola (2026). Does Social Capital improve Gender Equality? Review of Social Economy (RSSE)."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a six-files data package totaling 1.14 MB when uncompressed, containing files in .csv, .do, .dta, .ods, .pdf and .txt formats.</p> <p>If you use this dataset, please cite: <p>Mangraviti, N., & van Staveren, I. (2026). <i> Does social capital improve gender equality? – replication data </i> (Version V1) [Dataset]. DataverseNL. <a href=\"https://doi.org/10.34894/MAAZIM\" target=\"https://doi.org/10.34894/MAAZIM\"> https://doi.org/10.34894/MAAZIM </a></p></p>"
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Mangraviti, Nicola"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-06-24"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1990"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Quantitative longitudinal data"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stata"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "18.5"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherGeographicCoverage": {
+                  "typeName": "otherGeographicCoverage",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Global"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicUnit",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Country"
+            ]
+          }
+        ]
+      },
+      "socialscience": {
+        "displayName": "Social Science and Humanities Metadata",
+        "name": "socialscience",
+        "fields": [
+          {
+            "typeName": "unitOfAnalysis",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Country"
+            ]
+          },
+          {
+            "typeName": "universe",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Sample of countries with data from 1990 to 2020, every 5 years, on Social Capital, Gender Equality, Control of Corruption, Democracy, Government Effectiveness, GINI, Patriarchy, Women's Social Capital, Health Expenditure as % of public budget, Eductation Expenditure, as % of public budget."
+            ]
+          },
+          {
+            "typeName": "timeMethod",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Panel"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/MAAZIM"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d2c3a308-da4e-48ff-88a7-94e26c6bdb44"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-78ee6f86-85f2-4488-a7c6-c199253437f4"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "doi-10.34894-maazim_data-package_2026.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 35044,
+        "dataFile": {
+          "id": 656386,
+          "persistentId": "",
+          "filename": "doi-10.34894-maazim_data-package_2026.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 442733,
+          "description": "",
+          "storageIdentifier": "surf://store:19f7eeb058d-56bc0a009ee2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a6b92b6889f33337273368a3060f8258b435fc89"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-20",
+          "publicationDate": "2026-07-27",
+          "lastUpdateTime": "2026-07-27T13:26:20Z",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Mangraviti, Nicola; van Staveren, Irene, 2026, \"Does Social Capital Improve Gender Equality? – Replication Data\", https://doi.org/10.34894/MAAZIM, DataverseNL, V1"
+  }
+}

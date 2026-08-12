@@ -1,0 +1,816 @@
+{
+  "id": 22841,
+  "identifier": "dans-z8s-p6ke",
+  "persistentUrl": "https://doi.org/10.17026/DANS-Z8S-P6KE",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2021-07-07",
+  "storageIdentifier": "surf://10.17026/dans-z8s-p6ke",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30151,
+    "datasetId": 22841,
+    "datasetPersistentId": "doi:10.17026/DANS-Z8S-P6KE",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-z8s-p6ke",
+    "versionNumber": 2,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 2,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2021-06-10",
+    "productionDate": "2021-01-01",
+    "UNF": "UNF:6:9+Wtp65l1Dt30QL9qnMNYg==",
+    "lastUpdateTime": "2026-07-19T13:53:55Z",
+    "releaseTime": "2026-07-19T13:53:55Z",
+    "createTime": "2026-07-19T13:53:45Z",
+    "publicationDate": "2021-07-07",
+    "citationDate": "2021-07-07",
+    "versionNote": "The Python package langdetect was used to semi-automatically identify the languages used in the metadata. Human curators verified and corrected the results. If you notice any inaccuracies, please contact DANS.",
+    "license": {
+      "name": "DANS Licence",
+      "uri": "https://doi.org/10.17026/fp39-0x58",
+      "iconUri": ""
+    },
+    "termsOfAccess": "N/a",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Investigating the association between smoking, environmental tobacco smoke exposure and reward-related brain activity in adolescent experimental smokers"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "688058"
+                }
+              },
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:215689"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "J. Dieleman"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "DAI"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "info:eu-repo/dai/nl/401332225"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "RU  Radboud University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>The dataset contains all raw data of the participants as well as corresponding sum scores and other variables created and used for the analyses as described in the paper by Dieleman and Colleagues. The syntax contains the code for the main analyses (Hierarchical Regression analyses) as well as how the sumscores and variables were created.</p><p>The codebook describes: 1) Recruitment, screening and inclusion, 2) Where data were collected and 3) Number of participants in the study. In addition, a codebook was added.  The syntax clearly describes how we made for example sumscores and subsequently what analyses we ran. A full description on the measures and how we created them is given in the Methodology file.</p><p>Abstract related paper:<br>Reduced anticipatory reward-related activity, especially in the ventral striatum (VS), may underly adolescent vulnerability to develop nicotine dependence. It remains unclear whether nicotine uptake caused by environmental tobacco smoke (ETS) exposure, known to be associated with future smoking, might prompt similar changes in the brain’s reward system, rendering adolescents vulnerable for development of nicotine dependence. To address this question, we tested whether current ETS exposure and monthly smoking are associated with VS hypoactivity for non-drug rewards in experimental smoking adolescents. One hundred adolescents performed a monetary incentive delay task while brain activity was measured using fMRI. To test the hypothesized relationship, we used a variety of approaches: 1) a whole-brain voxel-wise approach, 2) an region-of-interest approach in the VS using frequentist and Bayesian statistics, and 3) a small volume voxel-wise approach across the complete striatum. The results converged in revealing no significant relationships between monthly smoking, ETS exposure and reward-related brain activation across the brain or in the (ventral) striatum specifically. However, Bayesian statistics showed only anecdotal evidence for the null hypothesis in the VS, providing limited insight into the (non)-existence of the hypothesized relationship. Based on these results, we speculate that blunted VS reward-related activity might only occur after relatively high levels of exposure or might be associated with more long term effects of smoking. Future studies would benefit from even larger sample sizes to reliably distinguish between the null- and alternative models, as well as more objective measures of (environmental) smoking via using devices such as silicone wristbands.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Environmental Tobacco Smoke (ETS) exposure"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "fMRI"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MID"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "monthly smoking"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "reward"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "VS activity"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch",
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-01-01"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-06-10"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-07-06"
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Radboud University"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D50000",
+              "https://www.narcis.nl/classification/D60000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D50000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Gedragswetenschappen en onderwijskunde"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Behavioural and educational sciences"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D60000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Social sciences"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Sociale wetenschappen"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Collection period: start=2017-04-01; end=2018-08-31;"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageText",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Nijmegen, the Netherlands"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/DANS-Z8S-P6KE"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.2"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d73e255c-ac78-4586-b989-e6b95f94bf65"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-rw-wxxg"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "Codebook - fMRI paper Addiction Biology -.pdf",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22846,
+          "persistentId": "",
+          "filename": "Codebook - fMRI paper Addiction Biology -.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 187913,
+          "description": "",
+          "storageIdentifier": "surf://store:186e005c2c1-a3ae44bbecc8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7323f936b1100a741e05de0ce8e808c6d5fa4c7a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "DansDatasetMetadata.xml",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22844,
+          "persistentId": "",
+          "filename": "DansDatasetMetadata.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 4994,
+          "description": "",
+          "storageIdentifier": "surf://store:186e005c0a1-c251a6b239e0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7f8c0879e9718effe39e18c124caed7b58ad1546"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "DatasetContent.txt",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22851,
+          "persistentId": "",
+          "filename": "DatasetContent.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1598,
+          "description": "",
+          "storageIdentifier": "surf://store:186e005c7d6-17e230558238",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1b935559d1ef68e10246fb1928da0f3415f03d51"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Dataset_fMRI_experimental smokers-1.tab",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22850,
+          "persistentId": "",
+          "filename": "Dataset_fMRI_experimental smokers-1.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 22340,
+          "description": "",
+          "storageIdentifier": "surf://store:186e005c6e6-4d1d8a8b8d3c",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 103175,
+          "originalFileName": "Dataset_fMRI_experimental smokers.sav",
+          "UNF": "UNF:6:b+Bl/i9jH8rAnC6F1kV9+g==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4c30cb0de060ff3dde3fe9ac7feb019699bf899f"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Dataset_fMRI_experimental smokers.dat",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22856,
+          "persistentId": "",
+          "filename": "Dataset_fMRI_experimental smokers.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 20300,
+          "description": "",
+          "storageIdentifier": "surf://store:186e0060a85-74a6d6855032",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3ef3219681240bdc334d4be1aa07610f087a9142"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Dataset_fMRI_experimental smokers_parents-1.tab",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22849,
+          "persistentId": "",
+          "filename": "Dataset_fMRI_experimental smokers_parents-1.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 7085,
+          "description": "",
+          "storageIdentifier": "surf://store:186e005c5e6-812bdba5755f",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 114998,
+          "originalFileName": "Dataset_fMRI_experimental smokers_parents.sav",
+          "UNF": "UNF:6:1sxrfXY+R7shFuFUBqB6ow==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5c2bc34395649fcac628fbb621822bb628106f80"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Dataset_fMRI_experimental smokers_parents.dat",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22857,
+          "persistentId": "",
+          "filename": "Dataset_fMRI_experimental smokers_parents.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 6552,
+          "description": "",
+          "storageIdentifier": "surf://store:186e0060b99-d2c877450c13",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "06c16de1c5a17e10245fd4fa0ac3a5402de47aed"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Dataset_fMRI_experimental smokers_parents.sps",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22854,
+          "persistentId": "",
+          "filename": "Dataset_fMRI_experimental smokers_parents.sps",
+          "contentType": "application/x-spss-syntax",
+          "friendlyType": "SPSS Syntax",
+          "filesize": 11726,
+          "description": "",
+          "storageIdentifier": "surf://store:186e00607f4-9f2e22c0d00e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "45ce17dddd55acd61ee37931041aae7f5b7981e1"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Dataset_fMRI_experimental smokers_parents.tab",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22847,
+          "persistentId": "",
+          "filename": "Dataset_fMRI_experimental smokers_parents.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 7085,
+          "description": "",
+          "storageIdentifier": "surf://store:186e005c3d3-485874cfdf2f",
+          "originalFileFormat": "application/x-spss-por",
+          "originalFormatLabel": "SPSS Portable",
+          "originalFileSize": 20582,
+          "originalFileName": "Dataset_fMRI_experimental smokers_parents.por",
+          "UNF": "UNF:6:1sxrfXY+R7shFuFUBqB6ow==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8ae05d39c094cd684b904b01e5b8a8cf0634ae24"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Dataset_fMRI_experimental smokers.sps",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22855,
+          "persistentId": "",
+          "filename": "Dataset_fMRI_experimental smokers.sps",
+          "contentType": "application/x-spss-syntax",
+          "friendlyType": "SPSS Syntax",
+          "filesize": 16022,
+          "description": "",
+          "storageIdentifier": "surf://store:186e006094c-2d7d6bffabb5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3ce7daf8de9cff56ac38b394bed40272e09ed458"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Dataset_fMRI_experimental smokers.tab",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22852,
+          "persistentId": "",
+          "filename": "Dataset_fMRI_experimental smokers.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 19473,
+          "description": "",
+          "storageIdentifier": "surf://store:186e005c8df-1c2821c6f667",
+          "originalFileFormat": "application/x-spss-por",
+          "originalFormatLabel": "SPSS Portable",
+          "originalFileSize": 32964,
+          "originalFileName": "Dataset_fMRI_experimental smokers.por",
+          "UNF": "UNF:6:4hlK3mnyUmQPZ29KFRxp0A==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4f55a6e7ccc15ed2120fd4e283e1a484951b9c9e"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22853,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 25071,
+          "description": "",
+          "storageIdentifier": "surf://store:186e00606ce-6679f91613c7",
+          "rootDataFileId": 22842,
+          "previousDataFileId": 22842,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a59c6d2e1cca99f4af6fc719451d929263de0bf4"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Methodology - fMRI paper Addiction Biology.pdf",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22845,
+          "persistentId": "",
+          "filename": "Methodology - fMRI paper Addiction Biology.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 278248,
+          "description": "",
+          "storageIdentifier": "surf://store:186e005c1b2-fbdbf3e8da7b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5461208581af5c059342cd748c7d5224878f1386"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Syntax_fMRI_experimental smokers_parents.sps",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22848,
+          "persistentId": "",
+          "filename": "Syntax_fMRI_experimental smokers_parents.sps",
+          "contentType": "application/x-spss-syntax",
+          "friendlyType": "SPSS Syntax",
+          "filesize": 13529,
+          "description": "",
+          "storageIdentifier": "surf://store:186e005c4cc-41b843e605ca",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5b700c53c94bfe688bc401e8c63f03bfb9260d31"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Syntax_fMRI_experimental smokers.sps",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30151,
+        "dataFile": {
+          "id": 22843,
+          "persistentId": "",
+          "filename": "Syntax_fMRI_experimental smokers.sps",
+          "contentType": "application/x-spss-syntax",
+          "friendlyType": "SPSS Syntax",
+          "filesize": 20286,
+          "description": "",
+          "storageIdentifier": "surf://store:186e005bf97-e46f744e2832",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1c455f014516400fbfc82043318ece63437379a3"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-07-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:53:55Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "J. Dieleman, 2021, \"Investigating the association between smoking, environmental tobacco smoke exposure and reward-related brain activity in adolescent experimental smokers\", https://doi.org/10.17026/DANS-Z8S-P6KE, DANS Data Station Social Sciences and Humanities, V2, UNF:6:9+Wtp65l1Dt30QL9qnMNYg== [fileUNF]"
+  }
+}

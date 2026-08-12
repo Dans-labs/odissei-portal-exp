@@ -1,0 +1,2114 @@
+{
+  "id": 471333,
+  "identifier": "XJLFCF",
+  "persistentUrl": "https://doi.org/10.34894/XJLFCF",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-03-11",
+  "storageIdentifier": "surf://10.34894/XJLFCF",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30307,
+    "datasetId": 471333,
+    "datasetPersistentId": "doi:10.34894/XJLFCF",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/XJLFCF",
+    "versionNumber": 1,
+    "internalVersionNumber": 17,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-03-11T13:12:06Z",
+    "releaseTime": "2025-03-11T13:12:06Z",
+    "createTime": "2025-02-27T08:40:13Z",
+    "publicationDate": "2025-03-11",
+    "citationDate": "2025-03-11",
+    "license": {
+      "name": "CC-BY-NC-SA-4.0",
+      "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Exergo-economics of industrial heat pumps performance through process modifications"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Exergie analyse van industriele warmtepompen"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "de Raad, Brendon"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rotterdam University of Applied Sciences"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-5310-1927"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Lieshout, Marit"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/0481e1q24",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Rotterdam University of Applied Sciences",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stougie, Lydia"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/02e2c7k09",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Delft University of Technology",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ramirez, Andrea"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/02e2c7k09",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Delft University of Technology",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "de Raad, Brendon"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rotterdam University of Applied Sciences"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heat pumps are essential for industrial decarbonization, but their high installation costs and the challenge of selecting the most effective design from over seventy options hinder widespread adoption. Steam-generating heat pumps (SGHPs) offer a cost-effective solution by integrating with existing infrastructure. However, predicting their performance is complex due to the varying irreversibilities of components with temperature lift and condenser temperature.\nThis study highlights the superiority of exergy-based methods over energy-based methods in identifying favorable design improvements for SGHPs. Exergy analysis provides a clearer understanding of component-level inefficiencies and potential enhancements. For instance, the introduction of a sequential compressor with an intermediate cooler, based on energy analysis, reduced the heat pump’s techno-economic performance. In contrast, exergy-based methods led to the addition of either an internal heat exchanger or a flash vessel, both of which improved performance. The internal heat exchanger, in particular, increased the coefficient of performance from 2.3 to 2.8 and reduced operational costs by 0.8 M€ after 5 years, while also decreasing the initial investment by 135 k€ and total operational costs from 10.3 M€ to 8.7 M€.\nAdvanced exergo-economic analysis further investigates the factors influencing SGHP performance, focusing on the required steam temperature and heat pump cycle configuration. The results indicate that direct steam production via a mechanical vapor recompression (MVR) system is the most economically viable option. When direct production is infeasible, a single-stage subcritical (SS) cycle feeding steam at 80 °C into an MVR is optimal for steam temperatures above 130 °C. At intermediate temperatures between 80 °C and 130 °C, a closed cycle heat pump performs comparably or better, with the preferred configuration varying based on sink temperature and temperature lift.\nThese insights enhance the understanding of SGHP design and highlight pathways for industrial implementation, demonstrating that exergy-based methods are effective in selecting the right configuration for steam-generating heat pumps."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-01-20"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Engineering"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "heat pump"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "industry"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "sustainability"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "industrial decarbonization"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stougie, Lydia and Ramirez, Andrea and van Lieshout, Marit and de Raad, Brendon, Advanced Exergo-Economic Analysis of Steam-Generating Heat Pump Cycles. Available at SSRN: https://ssrn.com/abstract=5096005 or http://dx.doi.org/10.2139/ssrn.5096005"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "istc"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "5096005"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.2139/ssrn.5096005"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rijksdienst voor Ondernemend Nederland (RVO)"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MOOI42009"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Boot, Inge"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-02-27"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-01-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-12-31"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-01-01"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-12-31"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/XJLFCF"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:62aacf2c-be38-405b-9b79-a9317e79ab88"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-b9eaeba1-7600-4118-9044-0e98336c49b2"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "2SFV_AdvancedExergoEcon_AutoV2b.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471548,
+          "persistentId": "",
+          "filename": "2SFV_AdvancedExergoEcon_AutoV2b.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 321890,
+          "storageIdentifier": "surf://store:1955b22f5a6-e5f368d64da7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3ff5f4ed43e5b5e4d07a321a7255bdb43d1de17f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_AdvancedExergoEcon_AutoV2.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471547,
+          "persistentId": "",
+          "filename": "2SFV_AdvancedExergoEcon_AutoV2.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 350439,
+          "storageIdentifier": "surf://store:1955b22f59c-1e20e8278d0b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5f2b006868baecd550cc175feee17367b0077e34"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_AdvancedExergoEcon_Auto.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471557,
+          "persistentId": "",
+          "filename": "2SFV_AdvancedExergoEcon_Auto.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 97821,
+          "storageIdentifier": "surf://store:1955b22f5e2-bd4ec2a08116",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4f0d7ede53626c02c53895c985429ec9a45856ea"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_SGHP_hybrid_compressor1.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471533,
+          "persistentId": "",
+          "filename": "2SFV_SGHP_hybrid_compressor1.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 86996,
+          "storageIdentifier": "surf://store:1955b22f5b4-34e580f7fa14",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5fff0a34047cf5cf1b506664eb1749c5c794b9aa"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_SGHP_hybrid_compressor2.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471580,
+          "persistentId": "",
+          "filename": "2SFV_SGHP_hybrid_compressor2.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 86857,
+          "storageIdentifier": "surf://store:1955b22f5ba-101a54831fdf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3ef603c40b1578722fc514fb7e3c64717f72f698"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_SGHP_hybrid_Condensor.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471542,
+          "persistentId": "",
+          "filename": "2SFV_SGHP_hybrid_Condensor.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 86799,
+          "storageIdentifier": "surf://store:1955b22f5bf-2b7b2620bc61",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b1f9e3456b21d6622791eec892288299008efed5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_SGHP_Hybrid_evaporator.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471539,
+          "persistentId": "",
+          "filename": "2SFV_SGHP_Hybrid_evaporator.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 86922,
+          "storageIdentifier": "surf://store:1955b22f5c5-e368f70edd3b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0caa36ec592b729fbdac04f165f9bae60f5da469"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_SGHP_hybrid_expV1.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471520,
+          "persistentId": "",
+          "filename": "2SFV_SGHP_hybrid_expV1.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 86898,
+          "storageIdentifier": "surf://store:1955b22f5cb-a675de177a16",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "40eef625662f6ba4eeae66ff879748a6d03b1b48"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_SGHP_hybrid_expV2.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471579,
+          "persistentId": "",
+          "filename": "2SFV_SGHP_hybrid_expV2.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 85703,
+          "storageIdentifier": "surf://store:1955b22f5d0-c513875468dc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cedee9c89341a1ba7fe51c1acf1c1ad53b27b4b1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_SGHP_test.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471528,
+          "persistentId": "",
+          "filename": "2SFV_SGHP_test.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 86456,
+          "storageIdentifier": "surf://store:1955b22f5d6-42947c600745",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "232876af83972662d725f2f606b71f20602ad6df"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_SGHP_theoretical.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471534,
+          "persistentId": "",
+          "filename": "2SFV_SGHP_theoretical.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 86666,
+          "storageIdentifier": "surf://store:1955b22f5dc-cd76e498237c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ff509bb15af5f40ae72e74c3a3560a877b133719"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2SFV_SGHP.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/2sFV_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471553,
+          "persistentId": "",
+          "filename": "2SFV_SGHP.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 87504,
+          "storageIdentifier": "surf://store:1955b22f5ae-63b124f9f116",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "54ba9b2c92eaf91abf2b4d0062aa53e316250a2d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Advanced_exergy_comparison.xlsx",
+        "restricted": false,
+        "directoryLabel": "Results",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471518,
+          "persistentId": "",
+          "filename": "Advanced_exergy_comparison.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 111976,
+          "storageIdentifier": "surf://store:1955b227475-137e5a1bab96",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8f76d9a5cc95e28cca34c23776c589c2a3698d2a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "COL_AdvancedExergoEcon_Auto.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471541,
+          "persistentId": "",
+          "filename": "COL_AdvancedExergoEcon_Auto.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 111180,
+          "storageIdentifier": "surf://store:1955b22f741-89969e8d7ac3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "92d80ed504d903b06493ce355746929fa4506e96"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "COL_SGHP_Hyb_c1.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471526,
+          "persistentId": "",
+          "filename": "COL_SGHP_Hyb_c1.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 95858,
+          "storageIdentifier": "surf://store:1955b22f718-051dc33594e5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "534780978f558a6a97e7c57ed31d99e3dd91d27e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "COL_SGHP_Hyb_c2.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471565,
+          "persistentId": "",
+          "filename": "COL_SGHP_Hyb_c2.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 96230,
+          "storageIdentifier": "surf://store:1955b22f71f-ffc230503369",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dd441065e2e7224a67721362ed2ab46eda776589"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "COL_SGHP_Hyb_c3.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471578,
+          "persistentId": "",
+          "filename": "COL_SGHP_Hyb_c3.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 95835,
+          "storageIdentifier": "surf://store:1955b22f726-f5e0f32b41c9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bad04e0ae91d33624c88ba1dfdb9da1dceb1c34d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "COL_SGHP_Hyb_evap.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471559,
+          "persistentId": "",
+          "filename": "COL_SGHP_Hyb_evap.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 96003,
+          "storageIdentifier": "surf://store:1955b22f72d-5f385a4bebe3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dab390682547e99ebab1e315151ab30544a44fae"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "COL_SGHP_Hyb_exp.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471550,
+          "persistentId": "",
+          "filename": "COL_SGHP_Hyb_exp.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 95875,
+          "storageIdentifier": "surf://store:1955b22f734-b93f1e5f86a5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "15314967ab4dfefec3f34114c05b331e8cfd1a7c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "COL_SGHP_theoretical.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471570,
+          "persistentId": "",
+          "filename": "COL_SGHP_theoretical.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 94710,
+          "storageIdentifier": "surf://store:1955b22f73b-ea4b8a8b3d7a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c324da51b170f2c2f61b9f4a90eec49a32f2c522"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "COL_SGHP.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471560,
+          "persistentId": "",
+          "filename": "COL_SGHP.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 96135,
+          "storageIdentifier": "surf://store:1955b22f711-2e65b9414e3d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "902821f463f6b2748d95f35aa491c2ec1d014f55"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "COP_comparisons_complexConf.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Exergy_vs_Energy",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471532,
+          "persistentId": "",
+          "filename": "COP_comparisons_complexConf.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 102305,
+          "storageIdentifier": "surf://store:1955b22f7da-68366fd39540",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "18122cba74176f17374dfa15e1ac6462068559b2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Costfunction_HX2018.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Exergy_vs_Energy",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471531,
+          "persistentId": "",
+          "filename": "Costfunction_HX2018.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 26030,
+          "storageIdentifier": "surf://store:1955b22f7e1-79410e78bc33",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b26a53177f42ba5472cd2590b53b780b09581ddb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EJ_AdvancedExergoEcon_Auto.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/EJ_IHX_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471581,
+          "persistentId": "",
+          "filename": "EJ_AdvancedExergoEcon_Auto.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 62121,
+          "storageIdentifier": "surf://store:1955b22f62a-e61901483eca",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2256b634a7b2ccbb530289582ec2c4fddedd34b0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EJ_AdvancedExergoEcon_Auto.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/EJ_IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471535,
+          "persistentId": "",
+          "filename": "EJ_AdvancedExergoEcon_Auto.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 289751,
+          "storageIdentifier": "surf://store:1955b22f5f0-ee009e30388b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "18cff05ca1f39b9e4193327daa5c7d44ebd361b3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EJ_IHX_SGHP.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/EJ_IHX_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471522,
+          "persistentId": "",
+          "filename": "EJ_IHX_SGHP.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 208225,
+          "storageIdentifier": "surf://store:1955b22f631-cf605d83a111",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e562f4aa7dfcb4aaacb0299e377cf63e9bc8a4be"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EJ_IHX_SGHP.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/EJ_IHX_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471529,
+          "persistentId": "",
+          "filename": "EJ_IHX_SGHP.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 201321,
+          "storageIdentifier": "surf://store:1955b22f63a-0818ded4fd64",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0ac02cee6fe25361238f1c75522529edcbe7071a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EJ_SGHP_combinedV2.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/EJ_IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471577,
+          "persistentId": "",
+          "filename": "EJ_SGHP_combinedV2.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 400468,
+          "storageIdentifier": "surf://store:1955b22f60f-be7376899b81",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "09324e867e0eeab4f1f55f9344877ed19723ea80"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EJ_SGHP_combined.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/EJ_IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471554,
+          "persistentId": "",
+          "filename": "EJ_SGHP_combined.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 393443,
+          "storageIdentifier": "surf://store:1955b22f604-f6d504dd2606",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7003c87a61906449d4f4caa849b9775742c20956"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EJ_SGHP_test.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/EJ_IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471566,
+          "persistentId": "",
+          "filename": "EJ_SGHP_test.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 209012,
+          "storageIdentifier": "surf://store:1955b22f619-4c3737b7900a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "692aaecc7c750217cb72ed7b993830ce69d10dd5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EJ_SGHP_Theoretical.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/EJ_IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471525,
+          "persistentId": "",
+          "filename": "EJ_SGHP_Theoretical.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 216102,
+          "storageIdentifier": "surf://store:1955b22f622-e1ffa1c6fc48",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1f991e5d3be4880aed6037f23ef91bfb2ce6df2b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "EJ_SGHP.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/EJ_IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471545,
+          "persistentId": "",
+          "filename": "EJ_SGHP.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 210277,
+          "storageIdentifier": "surf://store:1955b22f5fa-a228409bb0ba",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8c97f1aa257976ac4346d2c3954e5c3bc4f08690"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Exergy_vs_energy.xlsx",
+        "restricted": false,
+        "directoryLabel": "Results",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471517,
+          "persistentId": "",
+          "filename": "Exergy_vs_energy.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 33307,
+          "storageIdentifier": "surf://store:1955b227480-6ea6c9da8042",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1a0d5197183ea9b69697bbf2958c6635d50a540e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "IHX_AdvancedExergoEcon_Auto_V2.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471552,
+          "persistentId": "",
+          "filename": "IHX_AdvancedExergoEcon_Auto_V2.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 312372,
+          "storageIdentifier": "surf://store:1955b22f645-b1743a9472eb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b7ef3c31aa9f6a239631cc20a70336be2a8b09e7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "IHX_AdvancedExergoEcon_Auto.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/IHX_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471523,
+          "persistentId": "",
+          "filename": "IHX_AdvancedExergoEcon_Auto.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 277698,
+          "storageIdentifier": "surf://store:1955b22f708-2341b5f4fc9d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "84f386ab092709f63392412f77ecdab9b0e351a1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "IHX_SGHP_hyb_compressor.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471521,
+          "persistentId": "",
+          "filename": "IHX_SGHP_hyb_compressor.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1965803,
+          "storageIdentifier": "surf://store:1955b22f66a-aee2a4d1d7c2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "664dda11b51d7659b39e0b8ae3ed398d730d8bf4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "IHX_SGHP_Hyb_cond.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471582,
+          "persistentId": "",
+          "filename": "IHX_SGHP_Hyb_cond.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1965927,
+          "storageIdentifier": "surf://store:1955b22f689-e987f8d4ab48",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9ebbba66d47c41f1cb3c1681dbb5e5c2d4ca654b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "IHX_SGHP_Hyb_evap.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471568,
+          "persistentId": "",
+          "filename": "IHX_SGHP_Hyb_evap.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1965917,
+          "storageIdentifier": "surf://store:1955b22f6a7-edd9fd96e861",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "352a849958be8b0b29f13fd61fc50e2500822362"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "IHX_SGHP_Hyb_exp.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471571,
+          "persistentId": "",
+          "filename": "IHX_SGHP_Hyb_exp.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1966031,
+          "storageIdentifier": "surf://store:1955b22f6c4-84d78cf2cd9e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3c789669856a270f08398d358d7f96b16648f38e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "IHX_SGHP_Hyb_IHX.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471536,
+          "persistentId": "",
+          "filename": "IHX_SGHP_Hyb_IHX.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1965818,
+          "storageIdentifier": "surf://store:1955b22f6dd-75d323604da5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c984d9ec3a4c864f5d42d8657087fa78df53fe46"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "IHX_SGHP_theoretical.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471583,
+          "persistentId": "",
+          "filename": "IHX_SGHP_theoretical.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1965823,
+          "storageIdentifier": "surf://store:1955b22f6f2-61d561c9ea8a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "71f40c6649b7dee6d2b9821122dba4a12dc6c008"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "IHX_SGHP.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/IHX_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471563,
+          "persistentId": "",
+          "filename": "IHX_SGHP.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1966572,
+          "storageIdentifier": "surf://store:1955b22f64f-9ab3695a20e1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "23e8d2a7aaaaed2e3db7f9908ce7118e8dd8c8fb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MVC_2stageINT_SV.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Exergy_vs_Energy",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471572,
+          "persistentId": "",
+          "filename": "MVC_2stageINT_SV.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 96065,
+          "storageIdentifier": "surf://store:1955b22f7fd-d32b61e68f14",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bf8ad0d89310b27b839988a14352139f6755a835"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MVC_2stageINT.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Exergy_vs_Energy",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471544,
+          "persistentId": "",
+          "filename": "MVC_2stageINT.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 93834,
+          "storageIdentifier": "surf://store:1955b22f7f6-5b1a58dbd3e4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "489329a1c7cfb416f54c75bf6c2b7a0edc0b08bc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MVC_2stage.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Exergy_vs_Energy",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471527,
+          "persistentId": "",
+          "filename": "MVC_2stage.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 88233,
+          "storageIdentifier": "surf://store:1955b22f7ef-c1f2ce808a69",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f94064e0a1cdfb7b5319127fa1777cb36440d3ea"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MVCHP_RP_referenceCase.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Exergy_vs_Energy",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471564,
+          "persistentId": "",
+          "filename": "MVCHP_RP_referenceCase.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 49731,
+          "storageIdentifier": "surf://store:1955b22f7e8-78342174a8c8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "23369920de7c1f3c4c4f8315e81ee22438114522"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MVC_IHX.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Exergy_vs_Energy",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471567,
+          "persistentId": "",
+          "filename": "MVC_IHX.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1942283,
+          "storageIdentifier": "surf://store:1955b22f803-4240774b6fb5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "703eff01a00b664f250b551e5fa16264a3c84307"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "OL_AdvancedExergoEcon_AutoV2.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471538,
+          "persistentId": "",
+          "filename": "OL_AdvancedExergoEcon_AutoV2.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 293741,
+          "storageIdentifier": "surf://store:1955b22f757-3dbc8cffa09f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0caca52c8f5e276c683dddff50c9794ff355e00b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "OL_AdvancedExergoEcon_Auto.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471573,
+          "persistentId": "",
+          "filename": "OL_AdvancedExergoEcon_Auto.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 308941,
+          "storageIdentifier": "surf://store:1955b22f748-04fa081c1033",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e1d089202a625aace4eb3608150bab9627a6f742"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "OL_SGHP.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/OL_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471530,
+          "persistentId": "",
+          "filename": "OL_SGHP.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 85421,
+          "storageIdentifier": "surf://store:1955b22f751-09ed92b9d2fc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "06a55971a4746dbd6e486bab1490084a7870333b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ReadMe_Exergy.odt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471584,
+          "persistentId": "",
+          "filename": "ReadMe_Exergy.odt",
+          "contentType": "application/vnd.oasis.opendocument.text",
+          "friendlyType": "application/vnd.oasis.opendocument.text",
+          "filesize": 11161,
+          "storageIdentifier": "surf://store:1955b23a989-7e91d3e94c47",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "24935868865e5afd07744fbbd9e93ce602bc65b2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ReadMe_Exergy.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471995,
+          "persistentId": "",
+          "filename": "ReadMe_Exergy.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 49022,
+          "storageIdentifier": "surf://store:195854905d9-c159e7960330",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4475d0106557fff5347827a65ab25e9901d6431a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-11",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_AdvancedExergoEcon_Auto_old.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471551,
+          "persistentId": "",
+          "filename": "SS_AdvancedExergoEcon_Auto_old.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 185489,
+          "storageIdentifier": "surf://store:1955b22f76e-348fe9e29dcc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c45fdb277b67acd06ca46f82ba72032858739927"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_AdvancedExergoEcon_AutoV3.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471561,
+          "persistentId": "",
+          "filename": "SS_AdvancedExergoEcon_AutoV3.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 328658,
+          "storageIdentifier": "surf://store:1955b22f7a1-e1e060821be1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4908fbfbc4dbeda1807a38ae912f26870366e647"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_AdvancedExergoEcon_Auto.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471524,
+          "persistentId": "",
+          "filename": "SS_AdvancedExergoEcon_Auto.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 319659,
+          "storageIdentifier": "surf://store:1955b22f796-569fc8d30dd0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dd45bbc43629a024c3e16b1b75559c3749507851"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_AdvancedExergoEcon_Auto.xlsm",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471519,
+          "persistentId": "",
+          "filename": "SS_AdvancedExergoEcon_Auto.xlsm",
+          "contentType": "application/vnd.ms-excel.sheet.macroenabled.12",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 230450,
+          "storageIdentifier": "surf://store:1955b22f766-f618c22e2de0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9e2b14ea11e879e12720f78e5df6ec0a6244b003"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_AdvancedExergoEcon.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471540,
+          "persistentId": "",
+          "filename": "SS_AdvancedExergoEcon.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 78382,
+          "storageIdentifier": "surf://store:1955b22f760-760542f67f3d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3661d5d938fd2eec98d31ad3bd8b76db14524255"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_AdvancedAnalysis.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471543,
+          "persistentId": "",
+          "filename": "SS_SGHP_AdvancedAnalysis.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 65512,
+          "storageIdentifier": "surf://store:1955b22f777-5d7b5a466a5f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8c96be0bf93000f0d1746711683e5dce2d4a212a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_hybrid_Compressor_error.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471558,
+          "persistentId": "",
+          "filename": "SS_SGHP_hybrid_Compressor_error.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 66778,
+          "storageIdentifier": "surf://store:1955b22f77d-f3a56aaca202",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9768a59a832ca6daa172a59a488f13c24070a333"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_hybrid_Compressor.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471556,
+          "persistentId": "",
+          "filename": "SS_SGHP_hybrid_Compressor.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 66640,
+          "storageIdentifier": "surf://store:1955b22f7b0-5d7d118b4bb2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8158147216a26c532e7c2a2d2772994861591df3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_hybrid_Cond.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471575,
+          "persistentId": "",
+          "filename": "SS_SGHP_hybrid_Cond.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 66800,
+          "storageIdentifier": "surf://store:1955b22f7b9-1e81a415dd3d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "166a060cf4f4a1c5477d68be89a941679dc17713"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_hybrid_Cond.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471562,
+          "persistentId": "",
+          "filename": "SS_SGHP_hybrid_Cond.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 66827,
+          "storageIdentifier": "surf://store:1955b22f783-dc52dd252f6d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "66f98a89e78c901a0e947130de1124f945fc9322"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_hybrid_Evap_dh34_0.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471555,
+          "persistentId": "",
+          "filename": "SS_SGHP_hybrid_Evap_dh34_0.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 66971,
+          "storageIdentifier": "surf://store:1955b22f7c7-b39c5e2e8e57",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9afd67c2b87ef4304f66845147fb1a2972abc56e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_hybrid_Evap.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471576,
+          "persistentId": "",
+          "filename": "SS_SGHP_hybrid_Evap.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 66762,
+          "storageIdentifier": "surf://store:1955b22f78a-538aea93d0ff",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2d1513b31b4fad7f4d435848af03f4074fcdd44b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_hybrid_Evap.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471546,
+          "persistentId": "",
+          "filename": "SS_SGHP_hybrid_Evap.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 66876,
+          "storageIdentifier": "surf://store:1955b22f7bf-32e1161a4ad8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "467ebcfbf3baee704a8555652d390d4e51b0d956"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_hybrid_Exp.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP/old",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471574,
+          "persistentId": "",
+          "filename": "SS_SGHP_hybrid_Exp.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 66722,
+          "storageIdentifier": "surf://store:1955b22f790-6fbeba44df3d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5e082cb44544ec3e5142028a150fa14f7bc162fa"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_hybrid_Exp.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471549,
+          "persistentId": "",
+          "filename": "SS_SGHP_hybrid_Exp.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 66786,
+          "storageIdentifier": "surf://store:1955b22f7cd-26afe3dcbe0b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a8bdee167425cc2424c6593e5de356f6530b1d7b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP_ideal_theoretical_cycle.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471537,
+          "persistentId": "",
+          "filename": "SS_SGHP_ideal_theoretical_cycle.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 66745,
+          "storageIdentifier": "surf://store:1955b22f7d3-eca619f0a184",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "338e59681af28a0d32da40be9c7f6e299f8002b2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SS_SGHP.xlsx",
+        "restricted": false,
+        "directoryLabel": "Models/Advanced_exergy_analysis/SS_SGHP",
+        "version": 1,
+        "datasetVersionId": 30307,
+        "dataFile": {
+          "id": 471569,
+          "persistentId": "",
+          "filename": "SS_SGHP.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 68220,
+          "storageIdentifier": "surf://store:1955b22f7aa-4188012cd5e8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6b632d9cc7a7af928b1584efe8256e5f151bf5d3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-03",
+          "publicationDate": "2025-03-11",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "de Raad, Brendon; van Lieshout, Marit; Stougie, Lydia; Ramirez, Andrea, 2025, \"Exergo-economics of industrial heat pumps performance through process modifications\", https://doi.org/10.34894/XJLFCF, DataverseNL, V1"
+  }
+}

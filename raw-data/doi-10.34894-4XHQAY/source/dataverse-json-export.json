@@ -1,0 +1,1343 @@
+{
+  "id": 574563,
+  "identifier": "4XHQAY",
+  "persistentUrl": "https://doi.org/10.34894/4XHQAY",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-12-31",
+  "storageIdentifier": "surf://10.34894/4XHQAY",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32438,
+    "datasetId": 574563,
+    "datasetPersistentId": "doi:10.34894/4XHQAY",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/4XHQAY",
+    "versionNumber": 2,
+    "internalVersionNumber": 35,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2025-12-31T14:49:42Z",
+    "releaseTime": "2025-12-31T14:49:42Z",
+    "createTime": "2025-12-31T14:49:17Z",
+    "publicationDate": "2025-12-31",
+    "citationDate": "2025-12-31",
+    "termsOfUse": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons-Licentie\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\" /></a><br />Dit werk valt onder een <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Naamsvermelding-NietCommercieel-GeenAfgeleideWerken 4.0 Internationaal-licentie</a>.",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Hearth and Population Censuses for the Duchy of Brabant (1374-1800)"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6394-260X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains a number of files containing hearth and population censuses for the Duchy of Brabant and Lordship of Mechelen, starting from 1374. The dataset is linked to the GIS dataset <a href=\"https://hdl.handle.net/10622/PGFYTM\" target=\"_blank\">Historical Atlas of the Low Countries (1350-1800)</a>.<br><br>The data was collected and digitised with the great help of Bastiaan van den Akker, who worked in 2018/19 as an intern at the <a href=\"https://iisg.amsterdam\" target=\"_blank\">International Institute of Social History</a> and, as part of the NWO-funded project '<a href=\"https://imaginedterritories.com\" target=\"_blank\">Imagining a Territory</a>' (led by Dr. Mario Damen), at the University of Amsterdam.<br><br>\nThe files in the folder \"summaries\" refer to data files prepared for further analysis, by disaggregating counts of combined areas using known ratios of other years, by interpolating missing values using nearest-neighbour-analysis of growth rates, and by creating a consistent time series by relating each figure to a predefined spatial part of the duchy which remains fixed.<br>The methodology behind these files is described in A.E. Oostindiër and R.J. Stapel, 'Demographic Shifts and the Politics of Taxation in the Making of Fifteenth-Century Brabant', in: M.J.M. Damen and K. Overlaet eds., <em>Constructing and Representing Territory in Late Medieval and Early Modern Europe</em> (Amsterdam: Amsterdam University Press), which is currently under review.<br><br>For users not familiar with creating spatial joins in GIS, we would like refer to <a href=\"https://hdl.handle.net/10622/UOKBYL\" target=\"_blank\">this related dataset</a>. It contains a number of specially prepared GIS layers for the Duchy of Brabant, that store some of the data available below."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-02-12"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "population estimate"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "hearth census"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "historical demography"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Brabant"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A.E. Oostindiër and R.J. Stapel, 'Demographic Shifts and the Politics of Taxation in the Making of Fifteenth-Century Brabant', in: M.J.M. Damen and K. Overlaet eds., <em>Constructing and Representing Territory in Late Medieval and Early Modern Europe</em> (Amsterdam: Amsterdam University Press 2022), 141-178."
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://library.oapen.org/bitstream/handle/20.500.12657/52143/9789048551804.pdf?sequence=1#page=142"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stapel, Rombert"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-02-12"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1374"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1800"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "J. Cuvelier, <em>Les dénombrements de foyers en Brabant (XIVe - XVIe siècle)</em> (Brussels: Kiessling & Imbreghts 1912)",
+              "S. Vrielinck, <em>De territoriale indeling van België (1795-1963). Bestuursgeografisch en statistisch repertorium van de gemeenten en de supracommunale eenheden (administratief en gerechtelijk): met de officiële uitslagen van de algemene volkstellingen</em> (Leuven: Universitaire Pers Leuven 2000).",
+              "J. Verbeemen, ‘De demografische evolutie van Mechelen (1370-1800)’, <em>Handelingen van de Koninklijke Kring voor Oudheidkunde, Letteren en Kunst van Mechelen</em> LVIII (1953) 135–179.",
+              "Centraal Bureau voor Statistiek and NIWI-KNAW, Population census of the Netherlands, 1795. General population in the Batavian Republic (Data Archiving and Networked Services 1998) <https://doi.org/10.17026/dans-zge-xbkf>",
+              "Maastricht, Regionaal Historsch Centrum Limburg, 03.01 Frans Archief, 1794-1814, inv.nrs. 1030a-1062g",
+              "P. Wasserfall, <em>Annuaire historique et statistique consacre au département de la Roer</em> (1799/1800)",
+              "J.A. Dorsch, <em>Statistique du département de la Roer</em> (Cologne: Oedenkoven & Thiriart 1804)",
+              "F.A. Cavenne, <em>Statistique du département de la Meuse-Inférieure</em> (Maastricht 1802)"
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vlaams-Brabant"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Waals-Brabant"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Brussel"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Antwerpen"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Netherlands"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Noord-Brabant"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/4XHQAY"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:ef1639bb-bd24-4ddc-9a63-071c8f74eaa6"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-8ed371ba-98fc-40fe-92b1-0f5186e9eaf4"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Adult population census (1374)",
+        "label": "1374 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1374",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574564,
+          "persistentId": "",
+          "filename": "1374 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1386,
+          "description": "Adult population census (1374)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1d79c-5ef96969ef82",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4d7d6f2e0784627ec5b0b38d1c319a58824bad6e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Adult population census (1374)",
+        "label": "1374.tsv",
+        "restricted": false,
+        "directoryLabel": "1374",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574565,
+          "persistentId": "",
+          "filename": "1374.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 164692,
+          "description": "Adult population census (1374)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1d9a9-01c6c015e5ef",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "576fb4d45742c15b1325c3f565cffdade73d373a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census 1437/1438",
+        "label": "1437-1438 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1437-1438",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574566,
+          "persistentId": "",
+          "filename": "1437-1438 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1206,
+          "description": "Hearth or house census 1437/1438",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1db50-aec14da61c83",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bd608b08f4e771c3af32268d832d1ea154d672ac"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census 1437/1438",
+        "label": "1437-1438.tsv",
+        "restricted": false,
+        "directoryLabel": "1437-1438",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574567,
+          "persistentId": "",
+          "filename": "1437-1438.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 96037,
+          "description": "Hearth or house census 1437/1438",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1dd1f-734e8899c816",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "78e7bd7a0965f3d2ed3d37a715d33941ca7a5f73"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1464)",
+        "label": "1464 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1464",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574568,
+          "persistentId": "",
+          "filename": "1464 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 827,
+          "description": "Hearth or house census (1464)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1df1d-d42b897687c8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "06cb8227b14c622cd0cec534e735dfe87ddd7c63"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1464)",
+        "label": "1464.tsv",
+        "restricted": false,
+        "directoryLabel": "1464",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574569,
+          "persistentId": "",
+          "filename": "1464.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 89164,
+          "description": "Hearth or house census (1464)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1e0f8-9d2516e56e3c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9f435ee41cb7246b0084084cb6e4be287e7b2a6a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1468)",
+        "label": "1468 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1468",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574570,
+          "persistentId": "",
+          "filename": "1468 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1218,
+          "description": "Hearth or house census (1468)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1e2be-a1abd2ba63b6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b935de2f95b6c038301f171274bc8067b1b53429"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1468)",
+        "label": "1468.tsv",
+        "restricted": false,
+        "directoryLabel": "1468",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574571,
+          "persistentId": "",
+          "filename": "1468.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 2291,
+          "description": "Hearth or house census (1468)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1e494-bacd393dfe87",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "65fc41fb6e31ec01cc0f766f5b35ae71525ba841"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1472)",
+        "label": "1472 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1472",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574572,
+          "persistentId": "",
+          "filename": "1472 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 566,
+          "description": "Hearth or house census (1472)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1e685-97b296a3a6e9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ca200c04b90d2f555883e724df718d2af746ffac"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1472)",
+        "label": "1472.tsv",
+        "restricted": false,
+        "directoryLabel": "1472",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574573,
+          "persistentId": "",
+          "filename": "1472.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 86314,
+          "description": "Hearth or house census (1472)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1e852-fbd2ccb75ffe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b1396be3ad5f9687acab076ec7c2a721dcaedb64"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1480)",
+        "label": "1480 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1480",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574574,
+          "persistentId": "",
+          "filename": "1480 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1201,
+          "description": "Hearth or house census (1480)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1ea15-fcab978ab5a0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7dc644b1b40b6de76c0926e3fe66cace889b1cc2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1480)",
+        "label": "1480.tsv",
+        "restricted": false,
+        "directoryLabel": "1480",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574575,
+          "persistentId": "",
+          "filename": "1480.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 98684,
+          "description": "Hearth or house census (1480)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1ebef-decbd598425b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a4bd27e4b956febec12ec0dbea8ad1de36a350b2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1492)",
+        "label": "1492 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1492",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574576,
+          "persistentId": "",
+          "filename": "1492 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 614,
+          "description": "Hearth or house census (1492)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1edb9-a175424ab707",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f99e87827b2b36d45ac9ba959383ea9d6792d6d8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1492)",
+        "label": "1492.tsv",
+        "restricted": false,
+        "directoryLabel": "1492",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574577,
+          "persistentId": "",
+          "filename": "1492.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 54646,
+          "description": "Hearth or house census (1492)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1ef79-220653009580",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8f67986ed711db60e2b1b7099eacfdde7eb852d1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1496)",
+        "label": "1496 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1496",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574578,
+          "persistentId": "",
+          "filename": "1496 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1600,
+          "description": "Hearth or house census (1496)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1f14d-4869da818dd3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2022ee6ad234f5dc0e9778b4cfd8122710d0383f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth or house census (1496)",
+        "label": "1496.tsv",
+        "restricted": false,
+        "directoryLabel": "1496",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574579,
+          "persistentId": "",
+          "filename": "1496.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 96838,
+          "description": "Hearth or house census (1496)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1f332-a8bd79653911",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a881dc0ede67222ad34517bed709b6cf8edbf702"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth and house count (1526)",
+        "label": "1526 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1526",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574580,
+          "persistentId": "",
+          "filename": "1526 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 3242,
+          "description": "Hearth and house count (1526)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1f4e2-08d631a2d7a5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f9199088d5389ce87c562940951c72601d481999"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth and house census (1526): detailed table for Brussels (town) and Leuven (town and quarter)",
+        "label": "1526_detailed codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1526",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574581,
+          "persistentId": "",
+          "filename": "1526_detailed codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 8344,
+          "description": "Hearth and house census (1526): detailed table for Brussels (town) and Leuven (town and quarter)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1f688-aca9a5335a44",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1542c1197d4c02d7b356e44da9f4f248ecb4f0f3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth and house census (1526): detailed table for Brussels (town) and Leuven (town and quarter)",
+        "label": "1526_detailed.tsv",
+        "restricted": false,
+        "directoryLabel": "1526",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574582,
+          "persistentId": "",
+          "filename": "1526_detailed.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 124787,
+          "description": "Hearth and house census (1526): detailed table for Brussels (town) and Leuven (town and quarter)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1f8bc-fe4e1863f44c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4fa09347647f114fa6f4075d0bdcd9fc6ebfec10"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Hearth and house count (1526)",
+        "label": "1526.tsv",
+        "restricted": false,
+        "directoryLabel": "1526",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574583,
+          "persistentId": "",
+          "filename": "1526.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 154760,
+          "description": "Hearth and house count (1526)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1fb06-e3083fbe3e4e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "33ba708895d5433e6078fc11bf8902cc8c994bac"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "House count (1544)",
+        "label": "1544 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1544",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574584,
+          "persistentId": "",
+          "filename": "1544 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 558,
+          "description": "House count (1544)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e1fd51-2d24454ece91",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0ec8bb40cf60a1ccccb93e6fd7356508440f2361"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "House count (1544)",
+        "label": "1544.tsv",
+        "restricted": false,
+        "directoryLabel": "1544",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574585,
+          "persistentId": "",
+          "filename": "1544.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 564,
+          "description": "House count (1544)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e1ff09-f660be89da40",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d45c88894ba5ccbb1c26c07bfb4a313677e67c5b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Population censuses (1795-1800)",
+        "label": "1795-1800 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1795-1800",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574586,
+          "persistentId": "",
+          "filename": "1795-1800 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1026,
+          "description": "Population censuses (1795-1800)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e200d3-fc51b50c51d6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2b8ba001548fc51cab252d12c1fbc379f1eb9fd8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Population censuses (1795-1800)",
+        "label": "1795-1800.tsv",
+        "restricted": false,
+        "directoryLabel": "1795-1800",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574587,
+          "persistentId": "",
+          "filename": "1795-1800.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 127127,
+          "description": "Population censuses (1795-1800)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e203f7-0ac80d6be490",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a735b34b8c22f47e1d16b417e478d7e9a88d0538"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Population censuses (1803-1818)",
+        "label": "1803-1818 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1803-1818",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574588,
+          "persistentId": "",
+          "filename": "1803-1818 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 794,
+          "description": "Population censuses (1803-1818)",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e205b4-1a3594fd6f3c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7ff734bac56666d8314ee997feb7bd21fe8f943e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Population censuses (1803-1818)",
+        "label": "1803-1818.tsv",
+        "restricted": false,
+        "directoryLabel": "1803-1818",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574589,
+          "persistentId": "",
+          "filename": "1803-1818.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1169,
+          "description": "Population censuses (1803-1818)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e20772-278a41bf1cec",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "14fd5d7087e47e4055329ac2a8b38d65476edc1f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Disaggregated counted units per area.",
+        "label": "Summary (disaggregated).tsv",
+        "restricted": false,
+        "directoryLabel": "summaries",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574590,
+          "persistentId": "",
+          "filename": "Summary (disaggregated).tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 50427,
+          "description": "Disaggregated counted units per area.",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e25e8d-882e22dcb117",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "75a33a22decd09145780da58ef4e42a8a23519cb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Disaggregated counted units per area, including interpolated missing values.",
+        "label": "Summary (interpolated, absolute).tsv",
+        "restricted": false,
+        "directoryLabel": "summaries",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574591,
+          "persistentId": "",
+          "filename": "Summary (interpolated, absolute).tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 91242,
+          "description": "Disaggregated counted units per area, including interpolated missing values.",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e260cc-f832db133872",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2acf1d96bc09bb6e37ecc37d3a00ed9f5455240e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Disaggregated counted units per area, including interpolated missing values, relative to a predefined part of the duchy, consistent through time. ",
+        "label": "Summary (interpolated, relative).tsv",
+        "restricted": false,
+        "directoryLabel": "summaries",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574592,
+          "persistentId": "",
+          "filename": "Summary (interpolated, relative).tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 191529,
+          "description": "Disaggregated counted units per area, including interpolated missing values, relative to a predefined part of the duchy, consistent through time. ",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e2636a-de2742248d59",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e9754ed32f95f4ec406e139accbcd82670b930aa"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Notes, describing the method of disaggregation.",
+        "label": "Summary_notes (disaggregated).tsv",
+        "restricted": false,
+        "directoryLabel": "summaries",
+        "version": 1,
+        "datasetVersionId": 32438,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574593,
+          "persistentId": "",
+          "filename": "Summary_notes (disaggregated).tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 88169,
+          "description": "Notes, describing the method of disaggregation.",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e2656e-5a441f08a684",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "26ea6186d506a709c73940cfcf65931e37073a9f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Stapel, Rombert, 2025, \"Hearth and Population Censuses for the Duchy of Brabant (1374-1800)\", https://doi.org/10.34894/4XHQAY, DataverseNL, V2"
+  }
+}

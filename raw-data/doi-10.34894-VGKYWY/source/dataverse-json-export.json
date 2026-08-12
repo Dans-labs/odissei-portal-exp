@@ -1,0 +1,528 @@
+{
+  "id": 6360,
+  "identifier": "VGKYWY",
+  "persistentUrl": "https://doi.org/10.34894/VGKYWY",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2017-05-15",
+  "storageIdentifier": "surf://10411/XMONBC",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 987,
+    "datasetId": 6360,
+    "datasetPersistentId": "doi:10.34894/VGKYWY",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10411/XMONBC",
+    "versionNumber": 2,
+    "internalVersionNumber": 2,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2017-12-08T15:24:27Z",
+    "releaseTime": "2017-12-08T15:24:27Z",
+    "createTime": "2017-12-08T15:22:56Z",
+    "alternativePersistentId": "hdl:10411/XMONBC",
+    "publicationDate": "2017-05-15",
+    "citationDate": "2017-05-15",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "termsOfAccess": "Please contact the corresponding author (Kamiel Spoelstra, Kamiel.Spoelstra@gmail.com) for data use",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Artificial light at night shifts daily activity patterns but not the internal clock in Parus major"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Spoelstra, Kamiel"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NIOO-KNAW"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-8614-4387"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Spoelstra, Kamiel"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NIOO-KNAW"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Please refer to scientific paper; in the dataset, the moments of onset of activity of diurnal birds is stored. The onset is calculated relative to the moments the bright daylights in the cages went on; for a ful reference, below each parameter is explained:\r\n\r\n#  gtID  =  bird\r\n#  lightInt  =  treatment\r\n#  treatment  =  treatment\r\n#  include  =  include\r\n#  StackOnsLD  =  moment onset calc by stacked actiivty in LD relative to lights on\r\n#  StackOffLD  =  moment offset calc by stacked actiivty in LD relative to lights on\r\n#  StackOnsLAN  =  moment onset calc by stacked actiivty in LAN relative to lights on\r\n#  StackOffLAN  =  moment offset calc by stacked actiivty in LAN relative to lights on\r\n#  diffStackOnsLDtoLAN  =  difference in stacked onsets with and without LAN    \r\n#  diffStackOffLDtoLAN  =  difference in stacked offset with and without LAN\r\n#  diffIndOnsLDtoLAN  =  difference in mean individual onsets with and without LAN\r\n#  diffIndOffLDtoLAN  =  difference in mean indvidual offset with and without LAN\r\n#  onsDphiLDtoDD  =  onset phase shift LD to DD control\r\n#  CoGDphiLDtoDD  =  cog phase shift LD to DD control\r\n#  offDphiLDtoDD  =  offset phase shift LD to DD control\r\n#  onsDphiLDLANtoDD  =  onset phase shift LD to DD with LAN\r\n#  CoGDphiLDLANtoDD  =  cog phase shift LD to DD with LAN\r\n#  offDphiLDLANtoDD  =  offset phase shift LD to DD with LAN\r\n#  onsDphiLANtoDD  =  copied\r\n#  CoGDphiLANtoDD  =  copied\r\n#  offDphiLANtoDD  =  copied\r\n#  diffOnsDphi  =  diff\r\n#  diffCoGDphi  =  diff\r\n#  diffOffDphi  =  diff\r\n#  diffLDtauLANtau  =  diff\r\n#  LDtau  =  LDtau\r\n#  LANtau  =  LANtau\r\n"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2017-05-15"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "entrainment"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "artificial light at night"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "light pollution"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "circadian period"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "circadian phase"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Spoelstra, Kamiel"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2017-05-15"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/VGKYWY"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:79fd90d1-4923-44be-b5a9-72837262ae6d"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-2d09cf73-000d-49d4-bf0c-22bbb2be8b9d"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Data contains two lines per individual; one with the moment of onset without light at night; one with onset of activity with light at night. The onset is indicated with 'onsDphiLDtoDD'",
+        "label": "data_great_tit_dphi_lan.txt",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 6361,
+          "persistentId": "",
+          "filename": "data_great_tit_dphi_lan.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1303,
+          "description": "Data contains two lines per individual; one with the moment of onset without light at night; one with onset of activity with light at night. The onset is indicated with 'onsDphiLDtoDD'",
+          "storageIdentifier": "surf://store:15c0c88d015-7d8d75dadd04",
+          "rootDataFileId": -1,
+          "md5": "eed68ce5033d85c6c85d95afa7946bbe",
+          "checksum": {
+            "type": "MD5",
+            "value": "eed68ce5033d85c6c85d95afa7946bbe"
+          },
+          "tabularData": false,
+          "creationDate": "2017-05-15",
+          "publicationDate": "2017-05-15",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "treatment parameters for each individual",
+        "label": "data_great_tit_treatment_tau.txt",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 6362,
+          "persistentId": "",
+          "filename": "data_great_tit_treatment_tau.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2353,
+          "description": "treatment parameters for each individual",
+          "storageIdentifier": "surf://store:15c0c88d152-b9d48c9fde2b",
+          "rootDataFileId": -1,
+          "md5": "98c5dac76bd18dc2da2bcb02b0ac3ace",
+          "checksum": {
+            "type": "MD5",
+            "value": "98c5dac76bd18dc2da2bcb02b0ac3ace"
+          },
+          "tabularData": false,
+          "creationDate": "2017-05-15",
+          "publicationDate": "2017-05-15",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "contains all activity data of all birds over the entire course of the experiment. Please refer to manuscript for the experimental protocol and different stages of experiment.",
+        "label": "entire_course_autumn_2015_chronofile.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 9579,
+          "persistentId": "",
+          "filename": "entire_course_autumn_2015_chronofile.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 8070688,
+          "description": "contains all activity data of all birds over the entire course of the experiment. Please refer to manuscript for the experimental protocol and different stages of experiment.",
+          "storageIdentifier": "surf://store:16036b66564-c91230f15fd5",
+          "rootDataFileId": -1,
+          "md5": "77701d74c0cf5e8d59dc094c5f29fdcc",
+          "checksum": {
+            "type": "MD5",
+            "value": "77701d74c0cf5e8d59dc094c5f29fdcc"
+          },
+          "tabularData": false,
+          "creationDate": "2017-12-08",
+          "publicationDate": "2017-12-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "R file with statistical models used in the analysis. For detailed information, please see manuscript",
+        "label": "GTphase.R",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 6363,
+          "persistentId": "",
+          "filename": "GTphase.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 7161,
+          "description": "R file with statistical models used in the analysis. For detailed information, please see manuscript",
+          "storageIdentifier": "surf://store:15c0c8ee20d-f213b81bbb46",
+          "rootDataFileId": -1,
+          "md5": "42e8450fa5b7d98636a3336034f42822",
+          "checksum": {
+            "type": "MD5",
+            "value": "42e8450fa5b7d98636a3336034f42822"
+          },
+          "tabularData": false,
+          "creationDate": "2017-05-15",
+          "publicationDate": "2017-05-15",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "sub selection of entrainment followed by constan darkness",
+        "label": "LD_DD_first course chronofile.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 9584,
+          "persistentId": "",
+          "filename": "LD_DD_first course chronofile.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2046408,
+          "description": "sub selection of entrainment followed by constan darkness",
+          "storageIdentifier": "surf://store:16036b66673-9fdc2046649e",
+          "rootDataFileId": -1,
+          "md5": "6b899d9d31f5a25e0e26d1a49c6143c0",
+          "checksum": {
+            "type": "MD5",
+            "value": "6b899d9d31f5a25e0e26d1a49c6143c0"
+          },
+          "tabularData": false,
+          "creationDate": "2017-12-08",
+          "publicationDate": "2017-12-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "sub selection of entrainment to LDim conditions (with Dim light at night), followed by constant darkness",
+        "label": "LDim_DD_chronofile.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 9580,
+          "persistentId": "",
+          "filename": "LDim_DD_chronofile.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2557608,
+          "description": "sub selection of entrainment to LDim conditions (with Dim light at night), followed by constant darkness",
+          "storageIdentifier": "surf://store:16036b669a8-4a8fac895d5e",
+          "rootDataFileId": -1,
+          "md5": "9062c26f2ce124e7c277743755dd9714",
+          "checksum": {
+            "type": "MD5",
+            "value": "9062c26f2ce124e7c277743755dd9714"
+          },
+          "tabularData": false,
+          "creationDate": "2017-12-08",
+          "publicationDate": "2017-12-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "sub selection of entrainment to LDim conditions (with Dim light at night), followed by artificial activity inserted from 11/4 onwards, to calculate the time difference between activity onset and lights-on using the Phase Shift calculation option in ChronoShop (please see manual how to do that)",
+        "label": "LDim_LIGHT_chronofile.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 9583,
+          "persistentId": "",
+          "filename": "LDim_LIGHT_chronofile.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 722767,
+          "description": "sub selection of entrainment to LDim conditions (with Dim light at night), followed by artificial activity inserted from 11/4 onwards, to calculate the time difference between activity onset and lights-on using the Phase Shift calculation option in ChronoShop (please see manual how to do that)",
+          "storageIdentifier": "surf://store:16036b66a6d-2d3757cb5c34",
+          "rootDataFileId": -1,
+          "md5": "b13d9b377334abeb0dddb91f47f8d99c",
+          "checksum": {
+            "type": "MD5",
+            "value": "b13d9b377334abeb0dddb91f47f8d99c"
+          },
+          "tabularData": false,
+          "creationDate": "2017-12-08",
+          "publicationDate": "2017-12-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "sub selection of entrainment, followed by missing data, followed by constant darkness. The LDim fase in between has been omitted",
+        "label": "LD_LDim-omitted_DD_chronofile.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 9581,
+          "persistentId": "",
+          "filename": "LD_LDim-omitted_DD_chronofile.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3826248,
+          "description": "sub selection of entrainment, followed by missing data, followed by constant darkness. The LDim fase in between has been omitted",
+          "storageIdentifier": "surf://store:16036b667c0-9d52646a30b3",
+          "rootDataFileId": -1,
+          "md5": "e8cc74e580ece7afa17ad4c645dce456",
+          "checksum": {
+            "type": "MD5",
+            "value": "e8cc74e580ece7afa17ad4c645dce456"
+          },
+          "tabularData": false,
+          "creationDate": "2017-12-08",
+          "publicationDate": "2017-12-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "sub selection of entrainment followed by artificial activity inserted from 10/22 onwards, to calculate the time difference between activity onset and lights-on using the Phase Shift calculation option in ChronoShop (please see manual how to do that)",
+        "label": "LD_LIGHT_chronofile.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 9585,
+          "persistentId": "",
+          "filename": "LD_LIGHT_chronofile.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 765247,
+          "description": "sub selection of entrainment followed by artificial activity inserted from 10/22 onwards, to calculate the time difference between activity onset and lights-on using the Phase Shift calculation option in ChronoShop (please see manual how to do that)",
+          "storageIdentifier": "surf://store:16036b66893-8b404f8486eb",
+          "rootDataFileId": -1,
+          "md5": "bee9d882909058b4c9a8b5f0975bb676",
+          "checksum": {
+            "type": "MD5",
+            "value": "bee9d882909058b4c9a8b5f0975bb676"
+          },
+          "tabularData": false,
+          "creationDate": "2017-12-08",
+          "publicationDate": "2017-12-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Contains a description of all files in this dataverse - please downloasd and read first",
+        "label": "_readme.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 9582,
+          "persistentId": "",
+          "filename": "_readme.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2375,
+          "description": "Contains a description of all files in this dataverse - please downloasd and read first",
+          "storageIdentifier": "surf://store:16036b6638f-63dbb6cf013d",
+          "rootDataFileId": -1,
+          "md5": "6084543b503e799873fd1a5ad21dd1e3",
+          "checksum": {
+            "type": "MD5",
+            "value": "6084543b503e799873fd1a5ad21dd1e3"
+          },
+          "tabularData": false,
+          "creationDate": "2017-12-08",
+          "publicationDate": "2017-12-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "this file contains the cage positions for the Mantel test used",
+        "label": "room8.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 987,
+        "dataFile": {
+          "id": 9578,
+          "persistentId": "",
+          "filename": "room8.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 266,
+          "description": "this file contains the cage positions for the Mantel test used",
+          "storageIdentifier": "surf://store:16036b66b49-c21ec3196c22",
+          "rootDataFileId": -1,
+          "md5": "19843f1baec79f98d5f456620b30f6bb",
+          "checksum": {
+            "type": "MD5",
+            "value": "19843f1baec79f98d5f456620b30f6bb"
+          },
+          "tabularData": false,
+          "creationDate": "2017-12-08",
+          "publicationDate": "2017-12-08",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Spoelstra, Kamiel, 2017, \"Replication Data for: Artificial light at night shifts daily activity patterns but not the internal clock in Parus major\", https://doi.org/10.34894/VGKYWY, DataverseNL, V2"
+  }
+}

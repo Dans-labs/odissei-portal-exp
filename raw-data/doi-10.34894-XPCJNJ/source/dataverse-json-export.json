@@ -1,0 +1,560 @@
+{
+  "id": 512251,
+  "identifier": "XPCJNJ",
+  "persistentUrl": "https://doi.org/10.34894/XPCJNJ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-21",
+  "storageIdentifier": "surf://10.34894/XPCJNJ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31439,
+    "datasetId": 512251,
+    "datasetPersistentId": "doi:10.34894/XPCJNJ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/XPCJNJ",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2021-12-21",
+    "lastUpdateTime": "2025-08-21T17:41:06Z",
+    "releaseTime": "2025-08-21T17:41:06Z",
+    "createTime": "2025-08-21T17:39:53Z",
+    "publicationDate": "2025-08-21",
+    "citationDate": "2025-08-21",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Datasets and code of the paper: 'A personal model of trumpery: Linguistic deception detection in a real-world high-stakes setting'"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.17179514"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Zee, Sophie"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Baillon, Aurelien"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-0169-9760"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Poppe, Ronald"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Havrileck, Alice"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Zee, Sophie"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus School of Economics <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<div><div><div><div><p><b>Paper abstract</b></p><p>Language use differs between truthful and deceptive statements, but not all differences are consistent across people and contexts, complicating the identification of deceit in individuals. By relying on fact-checked tweets, we show in three studies (Study 1: 469 tweets; Study 2: 484 tweets; Study 3: 24 models) how well personalized linguistic deception detection performs by developing the first deception model tailored to an individual: the 45th US president. First, we found substantial linguistic differences between factually correct and incorrect tweets. We developed a quantitative model and achieved 73% overall accuracy. Second, we tested out-of-sample prediction and achieved 74% overall accuracy. Third, we compared our personalized model to linguistic models previously reported in the literature. Our model outperformed existing models by 5pp, demonstrating the added value of personalized linguistic analysis in real-world settings. Our results indicate that factually incorrect tweets by the US president are not random mistakes of the sender.</p><p><br></p><p><b>Additional details</b></p><p>The paper is published in Psychological Science (DOI 10.1177/09567976211015941).</p><p>Datasets and R code are provided.</p><p>Explanation on how to use the datasets and R code are provided in the methods section of the paper and the supplementary materials. </p><p>Funded by: European Research Council Starting grant 638408 Bayesian Markets. For more details, see <a href=\"https://cordis.europa.eu/project/id/638408\" target=\"_blank\">https://https://cordis.europa.eu/project/id/638408</a></p><p>For a website with more background information on this paper, please see <a href=\"https://apersonalmodeloftrumpery.com/\" target=\"_blank\">https://https://apersonalmodeloftrumpery.com/</a></p></div></div></div></div>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Trump"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tweets"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Deception Detection"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Liwc"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Linguistic Analysis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fact-Check"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Personal Model"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Personality, Social And Criminal Psychology"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Applied Psychology"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Forensic Psychology"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Forensic Psychology"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Personality And Individual Differences"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Social Psychology"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Applied And Developmental Psychology Not Elsewhere Classified"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a five-file data package totaling 658.9 KB, containing files in .R and .xlsx formats.<p><p>If you use this dataset, please cite: van der Zee, Sophie; Baillon, Aurelien; Poppe, Ronald; Havrileck, Alice (2021). Datasets and code of the paper: 'A personal model of trumpery: Linguistic deception detection in a real-world high-stakes setting'. Erasmus University Rotterdam (EUR). Dataset. <a href=\"https://doi.org/10.25397/eur.17179514\" target=\"_blank\">https://doi.org/10.25397/eur.17179514</a><p>"
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "[Grant Label: European Research Council Starting grant 638408 Bayesian Markets; https://cordis.europa.eu/project/id/638408]"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-12-21"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van der Zee, Sophie"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-12-13"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://doi.org/10.1177/09567976211015941\" target=\"_blank\">https://doi.org/10.1177/09567976211015941</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/XPCJNJ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:20c01dc5-3ab8-496f-b174-19fabc64d629"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-2f33b326-eff7-40e7-a0f7-f05ac9bfb87b"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "trumpery_data_coded_tweets.xlsx",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.17179514",
+        "version": 1,
+        "datasetVersionId": 31439,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512252,
+          "persistentId": "",
+          "filename": "trumpery_data_coded_tweets.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 588901,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cdb73c43-705781407a03",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d01d859d9f0e7048773cd5f28d77b43322bad146"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "trumpery_data_deception_models.xlsx",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.17179514",
+        "version": 1,
+        "datasetVersionId": 31439,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512254,
+          "persistentId": "",
+          "filename": "trumpery_data_deception_models.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 13087,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cdb73e15-656d34d8bbfa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "01b71de7acbb05b86b54d2ede2441e90d429d96b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "trumpery_data_liwc_variables.xlsx",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.17179514",
+        "version": 1,
+        "datasetVersionId": 31439,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512256,
+          "persistentId": "",
+          "filename": "trumpery_data_liwc_variables.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 13236,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cdb73fda-e3548e771f16",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2e0b75cf354ca9d7fc12aac5208444d6bf2a637a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "trumpery_function_library.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.17179514",
+        "version": 1,
+        "datasetVersionId": 31439,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512255,
+          "persistentId": "",
+          "filename": "trumpery_function_library.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 20238,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cdb73efd-20a496467ca0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "df52fff174cedd687c1ada9dd0bb8534ac12a62f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "trumpery_main_code.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.17179514",
+        "version": 1,
+        "datasetVersionId": 31439,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512253,
+          "persistentId": "",
+          "filename": "trumpery_main_code.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 18747,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cdb73d2f-952abcb4b3f1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d1451f48cc273d501b492304fb2680b4dee08747"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "van der Zee, Sophie; Baillon, Aurelien; Poppe, Ronald; Havrileck, Alice, 2025, \"Datasets and code of the paper: 'A personal model of trumpery: Linguistic deception detection in a real-world high-stakes setting'\", https://doi.org/10.34894/XPCJNJ, DataverseNL, V1"
+  }
+}

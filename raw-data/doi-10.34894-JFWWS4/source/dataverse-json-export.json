@@ -1,0 +1,3521 @@
+{
+  "id": 37993,
+  "identifier": "JFWWS4",
+  "persistentUrl": "https://doi.org/10.34894/JFWWS4",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2020-10-06",
+  "storageIdentifier": "surf://10.34894/JFWWS4",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3110,
+    "datasetId": 37993,
+    "datasetPersistentId": "doi:10.34894/JFWWS4",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/JFWWS4",
+    "versionNumber": 1,
+    "internalVersionNumber": 12,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "productionDate": "2015-06-12",
+    "lastUpdateTime": "2020-10-06T15:19:04Z",
+    "releaseTime": "2020-10-06T15:19:04Z",
+    "createTime": "2020-10-06T13:52:04Z",
+    "publicationDate": "2020-10-06",
+    "citationDate": "2020-10-06",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "ENGAGE Biocrates GWA meta analyses - data"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pool, Renee"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-5579-0933"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pool, Renee"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "These files contain the summary statistics of the meta analyses performed in Draisma, H., Pool, R., Kobl, M. et al. Genome-wide association study identifies novel genetic variants contributing to variation in blood metabolite levels. Nat Commun 6, 7208 (2015) (https://doi.org/10.1038/ncomms8208)."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2015-03-10"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Draisma, H., Pool, R., Kobl, M. et al. Genome-wide association study identifies novel genetic variants contributing to variation in blood metabolite levels. Nat Commun 6, 7208 (2015) (https://doi.org/10.1038/ncomms8208)."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1038/ncomms8208"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1038/ncomms8208"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "In this directory you can find the meta-analyses outputs per metabolic trait, generated by METAL. Format: tab-delimited.\r\n\r\n\r\nLegend to column names:\r\n- MarkerName: Name (rsid) of marker;\r\n- Allele1: Allele 1;\r\n- Allele2: Allele 2;\r\n- Freq1: Frequency of allele 1;\r\n- FreqSE: Standard error of the above frequency;\r\n- MinFreq: Frequency minumum;\r\n- MaxFreq: Frequency maximum;\r\n- Effect: Effect size (beta);\r\n- StdErr: Standard error of effect size;\r\n- P-value: P value based on (Effect/StdErr)^2 statistic;\r\n- Direction: Direction of effect (+,- or ? denoting positive, negative or missing effect, respectively) [for cohort input order, c.f. file \"MACohortInputOrder.csv\"];\r\n- NTot: Total sample size for this marker;\r\n- HetISq: Heterogeneity I^2 parameter;\r\n- HetChiSq: Heterogeneity Chi^2 statistic;\r\n- HetDf: Heterogeneity degrees of freedom;\r\n- HetPVal: Heterogeneity P value, based on above Chi^2 statistic.\r\n\r\n\r\nNote(1):\r\nMeta-analyses were performed after pre-filtering on HWE P value > 1.0e-6, excluding results that strongly deviate from HWE.\r\n\r\n\r\nNote(2):\r\nThese files have been post meta-analysis filtered on the following criteria:\r\n- HetDF > 0: HetDf==0 means that only for only one cohort the meta-analysis has been performed, hence this is by definition not a meta-analysis result;\r\n- HetISq < 75: This filters out markers of high meta-analysis heterogeneity.\r\n\r\n\r\nNote(3):\r\nFile \"MACohortInputOrder.csv\" contains the meta-analysis cohort input order for each metabolite. Format: comma-separated."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pool, R"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "producerAbbreviation": {
+                  "typeName": "producerAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "VUA"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2015-06-12"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Amsterdam"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Pool, Renee"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-10-06"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/JFWWS4"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:ccfca49b-dfdf-4d8e-9534-563fc03bb037"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-a0caf4a9-3e2c-4b0d-bccf-eea102c39333"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "MACohortInputOrder.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 37994,
+          "persistentId": "",
+          "filename": "MACohortInputOrder.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5873,
+          "storageIdentifier": "surf://store:174fe48b19b-54ba616b5093",
+          "rootDataFileId": -1,
+          "md5": "c99b3cb84521452922a714615a0a8236",
+          "checksum": {
+            "type": "MD5",
+            "value": "c99b3cb84521452922a714615a0a8236"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Arg_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 37995,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Arg_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 58504391,
+          "storageIdentifier": "surf://store:174fe4af01c-bd25431c7a49",
+          "rootDataFileId": -1,
+          "md5": "5c0674ca95d12bdec557af89f05d2903",
+          "checksum": {
+            "type": "MD5",
+            "value": "5c0674ca95d12bdec557af89f05d2903"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38011,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61263387,
+          "storageIdentifier": "surf://store:174fe4caa67-8f0f2806db9a",
+          "rootDataFileId": -1,
+          "md5": "78bc758df80b17589926fa4e7e825f7c",
+          "checksum": {
+            "type": "MD5",
+            "value": "78bc758df80b17589926fa4e7e825f7c"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C10.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38017,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C10.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 59393727,
+          "storageIdentifier": "surf://store:174fe4f1402-d1dfebf0f1dd",
+          "rootDataFileId": -1,
+          "md5": "ed3edccedbf3c6e825cd703f713c3eca",
+          "checksum": {
+            "type": "MD5",
+            "value": "ed3edccedbf3c6e825cd703f713c3eca"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C10.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38003,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C10.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 58853942,
+          "storageIdentifier": "surf://store:174fe4f5ef6-5412342ebcc7",
+          "rootDataFileId": -1,
+          "md5": "f1eaacaef9d403b5c097766a9bc43b5d",
+          "checksum": {
+            "type": "MD5",
+            "value": "f1eaacaef9d403b5c097766a9bc43b5d"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C10_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 37999,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C10_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 42727199,
+          "storageIdentifier": "surf://store:174fe4f95f5-87543181bf1a",
+          "rootDataFileId": -1,
+          "md5": "7575ce36510fb8bbbfd685ec8e454091",
+          "checksum": {
+            "type": "MD5",
+            "value": "7575ce36510fb8bbbfd685ec8e454091"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C12.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38009,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C12.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61717568,
+          "storageIdentifier": "surf://store:174fe4fe467-8b6acb7467ed",
+          "rootDataFileId": -1,
+          "md5": "7258b16206ec45e94d5d159833178ddb",
+          "checksum": {
+            "type": "MD5",
+            "value": "7258b16206ec45e94d5d159833178ddb"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C14.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38001,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C14.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61613768,
+          "storageIdentifier": "surf://store:174fe506d77-d8b08e93db08",
+          "rootDataFileId": -1,
+          "md5": "92c8b77d7196995feb3e0948d2d0a1f7",
+          "checksum": {
+            "type": "MD5",
+            "value": "92c8b77d7196995feb3e0948d2d0a1f7"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C14.1.OH_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38015,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C14.1.OH_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 45783326,
+          "storageIdentifier": "surf://store:174fe501f1e-4c6377e0f97f",
+          "rootDataFileId": -1,
+          "md5": "468bdbef7301e0cfbeb154e82e332ad9",
+          "checksum": {
+            "type": "MD5",
+            "value": "468bdbef7301e0cfbeb154e82e332ad9"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C14.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 37998,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C14.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 59828155,
+          "storageIdentifier": "surf://store:174fe50b9b0-7580d2b4942e",
+          "rootDataFileId": -1,
+          "md5": "22e74ec8451e613fde2410600a4fd775",
+          "checksum": {
+            "type": "MD5",
+            "value": "22e74ec8451e613fde2410600a4fd775"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C18.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38016,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C18.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60090082,
+          "storageIdentifier": "surf://store:174fe51063f-bbff79fec652",
+          "rootDataFileId": -1,
+          "md5": "cf7cc6e18dc73f69a71b431f4ebd13ae",
+          "checksum": {
+            "type": "MD5",
+            "value": "cf7cc6e18dc73f69a71b431f4ebd13ae"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C18.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38007,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C18.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61802280,
+          "storageIdentifier": "surf://store:174fe5154f7-cc07855cc7cc",
+          "rootDataFileId": -1,
+          "md5": "d8afe68a4cba260f315495ce973186c1",
+          "checksum": {
+            "type": "MD5",
+            "value": "d8afe68a4cba260f315495ce973186c1"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38004,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 62038931,
+          "storageIdentifier": "surf://store:174fe4cfc3c-9f3698f0cbf6",
+          "rootDataFileId": -1,
+          "md5": "b550b2f6c7fbf0ec08d3fecf08d759b9",
+          "checksum": {
+            "type": "MD5",
+            "value": "b550b2f6c7fbf0ec08d3fecf08d759b9"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38013,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 42629698,
+          "storageIdentifier": "surf://store:174fe4d70e9-e5716def1fdd",
+          "rootDataFileId": -1,
+          "md5": "90aeb2f1bcd49d171187a735889ef89c",
+          "checksum": {
+            "type": "MD5",
+            "value": "90aeb2f1bcd49d171187a735889ef89c"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C3.OH_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38000,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C3.OH_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 43126415,
+          "storageIdentifier": "surf://store:174fe4d369c-686e7d4ef2e6",
+          "rootDataFileId": -1,
+          "md5": "fe67a9b927929261e0b857ab83179072",
+          "checksum": {
+            "type": "MD5",
+            "value": "fe67a9b927929261e0b857ab83179072"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C5.1.DC_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38002,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C5.1.DC_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 43443741,
+          "storageIdentifier": "surf://store:174fe4dac4f-cfa52a427d6e",
+          "rootDataFileId": -1,
+          "md5": "366f8b84f146d3824f8c3636bc5a1650",
+          "checksum": {
+            "type": "MD5",
+            "value": "366f8b84f146d3824f8c3636bc5a1650"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C7.DC_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 37996,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C7.DC_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 59493651,
+          "storageIdentifier": "surf://store:174fe4dfae5-3a1f48a3e37a",
+          "rootDataFileId": -1,
+          "md5": "855c7dce950b89daab0c407756e71643",
+          "checksum": {
+            "type": "MD5",
+            "value": "855c7dce950b89daab0c407756e71643"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C8.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38012,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C8.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 62411495,
+          "storageIdentifier": "surf://store:174fe4e4aa6-976c0f54fd7d",
+          "rootDataFileId": -1,
+          "md5": "2d6d1789c3353061f10f1d4a47618cc0",
+          "checksum": {
+            "type": "MD5",
+            "value": "2d6d1789c3353061f10f1d4a47618cc0"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C8_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 37997,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C8_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 42754909,
+          "storageIdentifier": "surf://store:174fe4e817c-264c923df449",
+          "rootDataFileId": -1,
+          "md5": "93d5c83f08b9f4928a559fe3a7a60d31",
+          "checksum": {
+            "type": "MD5",
+            "value": "93d5c83f08b9f4928a559fe3a7a60d31"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_C9_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38008,
+          "persistentId": "",
+          "filename": "MetaAnalysis_C9_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 56118402,
+          "storageIdentifier": "surf://store:174fe4ec883-1fad9bf46963",
+          "rootDataFileId": -1,
+          "md5": "fce2db6beb1509c20ca3900f8f45dfa8",
+          "checksum": {
+            "type": "MD5",
+            "value": "fce2db6beb1509c20ca3900f8f45dfa8"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Gln_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38005,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Gln_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61073878,
+          "storageIdentifier": "surf://store:174fe51a2cb-11391c7da450",
+          "rootDataFileId": -1,
+          "md5": "6d1dca0f121c3d68d85c26e7a3bbea61",
+          "checksum": {
+            "type": "MD5",
+            "value": "6d1dca0f121c3d68d85c26e7a3bbea61"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Gly_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38006,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Gly_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61446493,
+          "storageIdentifier": "surf://store:174fe51f0f5-a3b9a66943c4",
+          "rootDataFileId": -1,
+          "md5": "d135ddfdc82f01d845b3a7c9fedf4e04",
+          "checksum": {
+            "type": "MD5",
+            "value": "d135ddfdc82f01d845b3a7c9fedf4e04"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_H1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38014,
+          "persistentId": "",
+          "filename": "MetaAnalysis_H1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60973417,
+          "storageIdentifier": "surf://store:174fe523ea8-320a2ef4687f",
+          "rootDataFileId": -1,
+          "md5": "645e9958aed039467a3b17064f5b6dd5",
+          "checksum": {
+            "type": "MD5",
+            "value": "645e9958aed039467a3b17064f5b6dd5"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_His_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38010,
+          "persistentId": "",
+          "filename": "MetaAnalysis_His_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60803335,
+          "storageIdentifier": "surf://store:174fe528c32-ba6b5ebd3ff6",
+          "rootDataFileId": -1,
+          "md5": "5eb1d7d439649f3f1772e44f05ae75ea",
+          "checksum": {
+            "type": "MD5",
+            "value": "5eb1d7d439649f3f1772e44f05ae75ea"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_lysoPC.a.C16.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38028,
+          "persistentId": "",
+          "filename": "MetaAnalysis_lysoPC.a.C16.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61253212,
+          "storageIdentifier": "surf://store:174fe537b36-fcc66e16a47a",
+          "rootDataFileId": -1,
+          "md5": "d92a80b41d90acd0286933ddc41a0227",
+          "checksum": {
+            "type": "MD5",
+            "value": "d92a80b41d90acd0286933ddc41a0227"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_lysoPC.a.C16.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38026,
+          "persistentId": "",
+          "filename": "MetaAnalysis_lysoPC.a.C16.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61814577,
+          "storageIdentifier": "surf://store:174fe53c993-4cc24cb134b2",
+          "rootDataFileId": -1,
+          "md5": "2b23e68ebaace0d5df0ec38ae2cf2452",
+          "checksum": {
+            "type": "MD5",
+            "value": "2b23e68ebaace0d5df0ec38ae2cf2452"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_lysoPC.a.C17.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38018,
+          "persistentId": "",
+          "filename": "MetaAnalysis_lysoPC.a.C17.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61749582,
+          "storageIdentifier": "surf://store:174fe541813-e8e7b89dc3bf",
+          "rootDataFileId": -1,
+          "md5": "1a131766eea41c6748d2f9c625f8da59",
+          "checksum": {
+            "type": "MD5",
+            "value": "1a131766eea41c6748d2f9c625f8da59"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_lysoPC.a.C18.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38023,
+          "persistentId": "",
+          "filename": "MetaAnalysis_lysoPC.a.C18.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61472084,
+          "storageIdentifier": "surf://store:174fe54668c-71f206ded1f9",
+          "rootDataFileId": -1,
+          "md5": "5513bd5ccb50b8f31e147653e77b74da",
+          "checksum": {
+            "type": "MD5",
+            "value": "5513bd5ccb50b8f31e147653e77b74da"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_lysoPC.a.C18.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38020,
+          "persistentId": "",
+          "filename": "MetaAnalysis_lysoPC.a.C18.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61674718,
+          "storageIdentifier": "surf://store:174fe54b4ff-81337bfb0163",
+          "rootDataFileId": -1,
+          "md5": "744ab5cd8d0ecfa75eb536ea74d6c112",
+          "checksum": {
+            "type": "MD5",
+            "value": "744ab5cd8d0ecfa75eb536ea74d6c112"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_lysoPC.a.C18.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38022,
+          "persistentId": "",
+          "filename": "MetaAnalysis_lysoPC.a.C18.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61947300,
+          "storageIdentifier": "surf://store:174fe550490-aacc62347df6",
+          "rootDataFileId": -1,
+          "md5": "dbda3aee49f866eaf5ea922dd69f1032",
+          "checksum": {
+            "type": "MD5",
+            "value": "dbda3aee49f866eaf5ea922dd69f1032"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_lysoPC.a.C20.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38029,
+          "persistentId": "",
+          "filename": "MetaAnalysis_lysoPC.a.C20.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61729433,
+          "storageIdentifier": "surf://store:174fe555316-d3bf8b44c623",
+          "rootDataFileId": -1,
+          "md5": "34e82341795de58953bf062d58082977",
+          "checksum": {
+            "type": "MD5",
+            "value": "34e82341795de58953bf062d58082977"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_lysoPC.a.C20.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38027,
+          "persistentId": "",
+          "filename": "MetaAnalysis_lysoPC.a.C20.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61836711,
+          "storageIdentifier": "surf://store:174fe55a3b6-43879dc93c62",
+          "rootDataFileId": -1,
+          "md5": "ebbd2b4c15f65e5708444a4e1ff895e5",
+          "checksum": {
+            "type": "MD5",
+            "value": "ebbd2b4c15f65e5708444a4e1ff895e5"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_lysoPC.a.C28.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38024,
+          "persistentId": "",
+          "filename": "MetaAnalysis_lysoPC.a.C28.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60410233,
+          "storageIdentifier": "surf://store:174fe55f07e-217ec04f4899",
+          "rootDataFileId": -1,
+          "md5": "6b5c1a82f50189f56fcee5ae21cd54ce",
+          "checksum": {
+            "type": "MD5",
+            "value": "6b5c1a82f50189f56fcee5ae21cd54ce"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_lysoPC.a.C28.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38021,
+          "persistentId": "",
+          "filename": "MetaAnalysis_lysoPC.a.C28.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61731996,
+          "storageIdentifier": "surf://store:174fe563ec9-8cf73a1ea0a7",
+          "rootDataFileId": -1,
+          "md5": "93d0a6338f733e102fb96100c5f5790c",
+          "checksum": {
+            "type": "MD5",
+            "value": "93d0a6338f733e102fb96100c5f5790c"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Met_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38019,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Met_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61231113,
+          "storageIdentifier": "surf://store:174fe568c67-3ef31bb3bb8a",
+          "rootDataFileId": -1,
+          "md5": "238de85f5df417efc931607495abd156",
+          "checksum": {
+            "type": "MD5",
+            "value": "238de85f5df417efc931607495abd156"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Orn_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38025,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Orn_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61471746,
+          "storageIdentifier": "surf://store:174fe56da74-254907d93424",
+          "rootDataFileId": -1,
+          "md5": "eb30b91c0e34a4db31858ee59c08beff",
+          "checksum": {
+            "type": "MD5",
+            "value": "eb30b91c0e34a4db31858ee59c08beff"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C24.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38054,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C24.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 53931325,
+          "storageIdentifier": "surf://store:174fe57c34d-24a8204f4be2",
+          "rootDataFileId": -1,
+          "md5": "e84f80550a3785ca048dce284b7b30f3",
+          "checksum": {
+            "type": "MD5",
+            "value": "e84f80550a3785ca048dce284b7b30f3"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C28.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38057,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C28.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61496316,
+          "storageIdentifier": "surf://store:174fe58114d-297a6c9931b0",
+          "rootDataFileId": -1,
+          "md5": "87a23a35d90da32881360d1eb2bdbd80",
+          "checksum": {
+            "type": "MD5",
+            "value": "87a23a35d90da32881360d1eb2bdbd80"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C30.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38055,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C30.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61828170,
+          "storageIdentifier": "surf://store:174fe585fd3-b6dd197ea8c7",
+          "rootDataFileId": -1,
+          "md5": "e4cb615978286fcf6e5e1a816aa779de",
+          "checksum": {
+            "type": "MD5",
+            "value": "e4cb615978286fcf6e5e1a816aa779de"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C32.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38047,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C32.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61248324,
+          "storageIdentifier": "surf://store:174fe58ad86-d24a6cb72d8e",
+          "rootDataFileId": -1,
+          "md5": "e99e165c4f25aee97950d58ea2fa5b6c",
+          "checksum": {
+            "type": "MD5",
+            "value": "e99e165c4f25aee97950d58ea2fa5b6c"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C32.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38040,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C32.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 62389174,
+          "storageIdentifier": "surf://store:174fe58fcc2-be04c241b3ab",
+          "rootDataFileId": -1,
+          "md5": "2d00d05619320eb024c2f8d2525ffe61",
+          "checksum": {
+            "type": "MD5",
+            "value": "2d00d05619320eb024c2f8d2525ffe61"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C32.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38030,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C32.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 62295509,
+          "storageIdentifier": "surf://store:174fe594bcc-911ad99724c0",
+          "rootDataFileId": -1,
+          "md5": "33d2ac1730e20d50d838b4e2792de338",
+          "checksum": {
+            "type": "MD5",
+            "value": "33d2ac1730e20d50d838b4e2792de338"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C32.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38034,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C32.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61447103,
+          "storageIdentifier": "surf://store:174fe5999c3-801f6056e96a",
+          "rootDataFileId": -1,
+          "md5": "07e62163a23eaf2b7d19f78b8f9fe78a",
+          "checksum": {
+            "type": "MD5",
+            "value": "07e62163a23eaf2b7d19f78b8f9fe78a"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C34.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38036,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C34.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61318531,
+          "storageIdentifier": "surf://store:174fe59e7a4-0f8bd91b671f",
+          "rootDataFileId": -1,
+          "md5": "1b126a2c4e96a399fe6aa1a52bfc880b",
+          "checksum": {
+            "type": "MD5",
+            "value": "1b126a2c4e96a399fe6aa1a52bfc880b"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C34.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38063,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C34.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60995319,
+          "storageIdentifier": "surf://store:174fe5a3539-632bdf25a682",
+          "rootDataFileId": -1,
+          "md5": "921cf36994a88ea7a0f58b6ad1550e11",
+          "checksum": {
+            "type": "MD5",
+            "value": "921cf36994a88ea7a0f58b6ad1550e11"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C34.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38045,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C34.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61607479,
+          "storageIdentifier": "surf://store:174fe5a8385-e5763e4259ea",
+          "rootDataFileId": -1,
+          "md5": "89773501238f837594bb69bdbde5737d",
+          "checksum": {
+            "type": "MD5",
+            "value": "89773501238f837594bb69bdbde5737d"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C34.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38039,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C34.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61957913,
+          "storageIdentifier": "surf://store:174fe5ad20e-0bdc6ec2e5dc",
+          "rootDataFileId": -1,
+          "md5": "36d684e268a6f54199c7bbb6e28d87ff",
+          "checksum": {
+            "type": "MD5",
+            "value": "36d684e268a6f54199c7bbb6e28d87ff"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C36.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38052,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C36.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61854275,
+          "storageIdentifier": "surf://store:174fe5b20a9-79b14c5db301",
+          "rootDataFileId": -1,
+          "md5": "6c7b5293d895886b38400267c70fdd1a",
+          "checksum": {
+            "type": "MD5",
+            "value": "6c7b5293d895886b38400267c70fdd1a"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C36.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38038,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C36.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61474850,
+          "storageIdentifier": "surf://store:174fe5b6ec8-26b2a575d9c8",
+          "rootDataFileId": -1,
+          "md5": "1fa95142d657a53b2345796b4675216d",
+          "checksum": {
+            "type": "MD5",
+            "value": "1fa95142d657a53b2345796b4675216d"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C36.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38049,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C36.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61143014,
+          "storageIdentifier": "surf://store:174fe5bbca2-1fa250036487",
+          "rootDataFileId": -1,
+          "md5": "df16e2b2cd11f4e1f07ce125dafbd6f3",
+          "checksum": {
+            "type": "MD5",
+            "value": "df16e2b2cd11f4e1f07ce125dafbd6f3"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C36.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38064,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C36.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61296793,
+          "storageIdentifier": "surf://store:174fe5c0ac9-1750639d4233",
+          "rootDataFileId": -1,
+          "md5": "372bfe1689f691915c38813e2162db77",
+          "checksum": {
+            "type": "MD5",
+            "value": "372bfe1689f691915c38813e2162db77"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C36.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38041,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C36.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61405995,
+          "storageIdentifier": "surf://store:174fe5c5993-8549efcc5281",
+          "rootDataFileId": -1,
+          "md5": "de516a777f021b7df64dbe59317146b9",
+          "checksum": {
+            "type": "MD5",
+            "value": "de516a777f021b7df64dbe59317146b9"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C36.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38058,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C36.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 62358823,
+          "storageIdentifier": "surf://store:174fe5cab59-1b95fcb7950a",
+          "rootDataFileId": -1,
+          "md5": "1a5144979e4225304a6fdb0f4292ede6",
+          "checksum": {
+            "type": "MD5",
+            "value": "1a5144979e4225304a6fdb0f4292ede6"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C36.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38043,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C36.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 62101967,
+          "storageIdentifier": "surf://store:174fe5cfc6f-7e9ec5b420c5",
+          "rootDataFileId": -1,
+          "md5": "9a7e8614c7227782b45d78664d1e4679",
+          "checksum": {
+            "type": "MD5",
+            "value": "9a7e8614c7227782b45d78664d1e4679"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C38.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38037,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C38.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61660974,
+          "storageIdentifier": "surf://store:174fe5d4cff-713c872daabf",
+          "rootDataFileId": -1,
+          "md5": "95ae45f838f597c92e0a861ef060c468",
+          "checksum": {
+            "type": "MD5",
+            "value": "95ae45f838f597c92e0a861ef060c468"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C38.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38065,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C38.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 45171276,
+          "storageIdentifier": "surf://store:174fe5d87ac-8417b7a6c525",
+          "rootDataFileId": -1,
+          "md5": "4148ae8b8064045a971d88938c7fa348",
+          "checksum": {
+            "type": "MD5",
+            "value": "4148ae8b8064045a971d88938c7fa348"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C38.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38056,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C38.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61514779,
+          "storageIdentifier": "surf://store:174fe5dd698-f73153944806",
+          "rootDataFileId": -1,
+          "md5": "227f7e73661114e6b910ed1ceb822755",
+          "checksum": {
+            "type": "MD5",
+            "value": "227f7e73661114e6b910ed1ceb822755"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C38.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38046,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C38.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61566823,
+          "storageIdentifier": "surf://store:174fe5e2722-893603762a94",
+          "rootDataFileId": -1,
+          "md5": "9fbf1bddbf3393910e0d9bedf3de9306",
+          "checksum": {
+            "type": "MD5",
+            "value": "9fbf1bddbf3393910e0d9bedf3de9306"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C38.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38035,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C38.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61533016,
+          "storageIdentifier": "surf://store:174fe5e7599-1668153a40b7",
+          "rootDataFileId": -1,
+          "md5": "056048492b9f26e70f91969dd52c94dc",
+          "checksum": {
+            "type": "MD5",
+            "value": "056048492b9f26e70f91969dd52c94dc"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C38.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38062,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C38.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61890941,
+          "storageIdentifier": "surf://store:174fe5ec488-97c266acca31",
+          "rootDataFileId": -1,
+          "md5": "5b1269710d889e01313d52e2af2d1c51",
+          "checksum": {
+            "type": "MD5",
+            "value": "5b1269710d889e01313d52e2af2d1c51"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C40.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38053,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C40.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 58004142,
+          "storageIdentifier": "surf://store:174fe5f0efa-f648c59d92a0",
+          "rootDataFileId": -1,
+          "md5": "254e1dbda527b86b3b3be563b9cd52c1",
+          "checksum": {
+            "type": "MD5",
+            "value": "254e1dbda527b86b3b3be563b9cd52c1"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C40.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38050,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C40.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61775849,
+          "storageIdentifier": "surf://store:174fe5f6011-ff435a96451b",
+          "rootDataFileId": -1,
+          "md5": "31667497d96d5f8e532467cbf7b33f84",
+          "checksum": {
+            "type": "MD5",
+            "value": "31667497d96d5f8e532467cbf7b33f84"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C40.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38051,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C40.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61556951,
+          "storageIdentifier": "surf://store:174fe5faf5f-3561af7ba121",
+          "rootDataFileId": -1,
+          "md5": "3a13f0c0004e9d1fe4c64fa8988a5306",
+          "checksum": {
+            "type": "MD5",
+            "value": "3a13f0c0004e9d1fe4c64fa8988a5306"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C40.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38059,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C40.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61549450,
+          "storageIdentifier": "surf://store:174fe5ffef0-150a98f0970e",
+          "rootDataFileId": -1,
+          "md5": "5726a61e31cad9c742f7d9712303cb92",
+          "checksum": {
+            "type": "MD5",
+            "value": "5726a61e31cad9c742f7d9712303cb92"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C40.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38048,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C40.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61642054,
+          "storageIdentifier": "surf://store:174fe604db6-84d39c281379",
+          "rootDataFileId": -1,
+          "md5": "272b5bf3f145c1572211f089377529ae",
+          "checksum": {
+            "type": "MD5",
+            "value": "272b5bf3f145c1572211f089377529ae"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C40.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38060,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C40.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61971660,
+          "storageIdentifier": "surf://store:174fe609d02-f6497effdfb2",
+          "rootDataFileId": -1,
+          "md5": "d7df8fce8adcd1fd3e4b4525ed177a60",
+          "checksum": {
+            "type": "MD5",
+            "value": "d7df8fce8adcd1fd3e4b4525ed177a60"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C42.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38032,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C42.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61652139,
+          "storageIdentifier": "surf://store:174fe60ebae-79ccafdf9cc2",
+          "rootDataFileId": -1,
+          "md5": "9cea0a92c3c5690a204a1c53c7ed7c5d",
+          "checksum": {
+            "type": "MD5",
+            "value": "9cea0a92c3c5690a204a1c53c7ed7c5d"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C42.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38044,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C42.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61694799,
+          "storageIdentifier": "surf://store:174fe613aae-56d659100dc4",
+          "rootDataFileId": -1,
+          "md5": "c3cbb7286872a55b5b6ed34d87713f64",
+          "checksum": {
+            "type": "MD5",
+            "value": "c3cbb7286872a55b5b6ed34d87713f64"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C42.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38033,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C42.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61768719,
+          "storageIdentifier": "surf://store:174fe61894c-6d57e1840dd4",
+          "rootDataFileId": -1,
+          "md5": "cfbfebd206b840d0c9c79c1b3e5ea5b9",
+          "checksum": {
+            "type": "MD5",
+            "value": "cfbfebd206b840d0c9c79c1b3e5ea5b9"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C42.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38061,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C42.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61440777,
+          "storageIdentifier": "surf://store:174fe61d76f-438c8925c059",
+          "rootDataFileId": -1,
+          "md5": "7b272ff57de017256bf892ddd48e6639",
+          "checksum": {
+            "type": "MD5",
+            "value": "7b272ff57de017256bf892ddd48e6639"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C42.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38042,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C42.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61626388,
+          "storageIdentifier": "surf://store:174fe6225e4-256fe5798752",
+          "rootDataFileId": -1,
+          "md5": "433e82e321ab4b3d662d158f6aa30ae0",
+          "checksum": {
+            "type": "MD5",
+            "value": "433e82e321ab4b3d662d158f6aa30ae0"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.aa.C42.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38031,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.aa.C42.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 59839099,
+          "storageIdentifier": "surf://store:174fe6271c4-91a48ff32da3",
+          "rootDataFileId": -1,
+          "md5": "27fb5119eae35b730935b6c92538849c",
+          "checksum": {
+            "type": "MD5",
+            "value": "27fb5119eae35b730935b6c92538849c"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C30.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38066,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C30.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60175398,
+          "storageIdentifier": "surf://store:174fe65902c-112c26a3aac8",
+          "rootDataFileId": -1,
+          "md5": "2832e34f001ba96a98450cd85676dc91",
+          "checksum": {
+            "type": "MD5",
+            "value": "2832e34f001ba96a98450cd85676dc91"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C32.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38073,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C32.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61349919,
+          "storageIdentifier": "surf://store:174fe65e0ca-aabcfc6404ba",
+          "rootDataFileId": -1,
+          "md5": "e5e8f599dc32f2f0b5b5db584a82e657",
+          "checksum": {
+            "type": "MD5",
+            "value": "e5e8f599dc32f2f0b5b5db584a82e657"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C32.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38081,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C32.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61412537,
+          "storageIdentifier": "surf://store:174fe663139-25c7e4edbd3c",
+          "rootDataFileId": -1,
+          "md5": "5834d987ba551a0b6654ce4d03a383c1",
+          "checksum": {
+            "type": "MD5",
+            "value": "5834d987ba551a0b6654ce4d03a383c1"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C34.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38082,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C34.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61567316,
+          "storageIdentifier": "surf://store:174fe6681c7-434d41e69dc8",
+          "rootDataFileId": -1,
+          "md5": "07eb0f9913d0a25605f07675d19c7b45",
+          "checksum": {
+            "type": "MD5",
+            "value": "07eb0f9913d0a25605f07675d19c7b45"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C34.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38089,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C34.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61283195,
+          "storageIdentifier": "surf://store:174fe66d21f-c07804a6ebb7",
+          "rootDataFileId": -1,
+          "md5": "bdf829f09e4a54d993b9bcc2c801cabb",
+          "checksum": {
+            "type": "MD5",
+            "value": "bdf829f09e4a54d993b9bcc2c801cabb"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C34.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38068,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C34.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61544983,
+          "storageIdentifier": "surf://store:174fe6722c2-8dd341c9881b",
+          "rootDataFileId": -1,
+          "md5": "6ceb9c40fb701d25975ba6dca778a6ca",
+          "checksum": {
+            "type": "MD5",
+            "value": "6ceb9c40fb701d25975ba6dca778a6ca"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C34.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38099,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C34.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61776850,
+          "storageIdentifier": "surf://store:174fe6773a1-06046a0935db",
+          "rootDataFileId": -1,
+          "md5": "3a76a6c749df3e111480e9204b7cbbef",
+          "checksum": {
+            "type": "MD5",
+            "value": "3a76a6c749df3e111480e9204b7cbbef"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C36.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38091,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C36.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61730713,
+          "storageIdentifier": "surf://store:174fe67c4a2-18ee525413d8",
+          "rootDataFileId": -1,
+          "md5": "d858b3c9b98fca824009dd00ecd6975c",
+          "checksum": {
+            "type": "MD5",
+            "value": "d858b3c9b98fca824009dd00ecd6975c"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C36.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38098,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C36.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61526996,
+          "storageIdentifier": "surf://store:174fe68156b-fb0a73adf0b6",
+          "rootDataFileId": -1,
+          "md5": "1d07c187617fda21840e90a8e7132828",
+          "checksum": {
+            "type": "MD5",
+            "value": "1d07c187617fda21840e90a8e7132828"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C36.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38069,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C36.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61539918,
+          "storageIdentifier": "surf://store:174fe686648-4021e07e5b9c",
+          "rootDataFileId": -1,
+          "md5": "e4d260872b571239c977541dde6586da",
+          "checksum": {
+            "type": "MD5",
+            "value": "e4d260872b571239c977541dde6586da"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C36.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38088,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C36.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61456138,
+          "storageIdentifier": "surf://store:174fe68b734-3ff6b9709d6a",
+          "rootDataFileId": -1,
+          "md5": "6c0b5dc1cfeae90dc0cdea637d746125",
+          "checksum": {
+            "type": "MD5",
+            "value": "6c0b5dc1cfeae90dc0cdea637d746125"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C36.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38077,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C36.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61546712,
+          "storageIdentifier": "surf://store:174fe690853-89d501ef2054",
+          "rootDataFileId": -1,
+          "md5": "352835d9a0742f98850bcc413de1b804",
+          "checksum": {
+            "type": "MD5",
+            "value": "352835d9a0742f98850bcc413de1b804"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C36.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38090,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C36.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61599543,
+          "storageIdentifier": "surf://store:174fe6958f9-521e738746d4",
+          "rootDataFileId": -1,
+          "md5": "96dfff3d25e910c0155062f358d316f5",
+          "checksum": {
+            "type": "MD5",
+            "value": "96dfff3d25e910c0155062f358d316f5"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C38.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38074,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C38.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61776420,
+          "storageIdentifier": "surf://store:174fe69aa59-b86706207133",
+          "rootDataFileId": -1,
+          "md5": "4563e65ae8043aab16c4fa66059f764b",
+          "checksum": {
+            "type": "MD5",
+            "value": "4563e65ae8043aab16c4fa66059f764b"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C38.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38094,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C38.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61109643,
+          "storageIdentifier": "surf://store:174fe69fd3b-e1bc5bd6e30c",
+          "rootDataFileId": -1,
+          "md5": "7adb49367319be589b8c83472a078e01",
+          "checksum": {
+            "type": "MD5",
+            "value": "7adb49367319be589b8c83472a078e01"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C38.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38083,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C38.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61619465,
+          "storageIdentifier": "surf://store:174fe6a4f41-42b5e7666a02",
+          "rootDataFileId": -1,
+          "md5": "fc0791016023b6a4a9eb8c11415d5a39",
+          "checksum": {
+            "type": "MD5",
+            "value": "fc0791016023b6a4a9eb8c11415d5a39"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C38.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38067,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C38.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61473961,
+          "storageIdentifier": "surf://store:174fe6aa1d4-e9556b55cde2",
+          "rootDataFileId": -1,
+          "md5": "f179f1b7777bc3bf5bd29fa568760db7",
+          "checksum": {
+            "type": "MD5",
+            "value": "f179f1b7777bc3bf5bd29fa568760db7"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C38.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38093,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C38.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61248390,
+          "storageIdentifier": "surf://store:174fe6af1f3-e4b415df7b0b",
+          "rootDataFileId": -1,
+          "md5": "1402a2a67a812850b57cd66dcbba37cf",
+          "checksum": {
+            "type": "MD5",
+            "value": "1402a2a67a812850b57cd66dcbba37cf"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C38.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38080,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C38.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61327399,
+          "storageIdentifier": "surf://store:174fe6b401e-6d5262a5180e",
+          "rootDataFileId": -1,
+          "md5": "7ae071ec9412c28bc52d23983c1620ea",
+          "checksum": {
+            "type": "MD5",
+            "value": "7ae071ec9412c28bc52d23983c1620ea"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C38.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38087,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C38.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61592495,
+          "storageIdentifier": "surf://store:174fe6b8e9b-e8e1b11246ab",
+          "rootDataFileId": -1,
+          "md5": "7e3601c4d1c83c42fcf4ff843c2ea719",
+          "checksum": {
+            "type": "MD5",
+            "value": "7e3601c4d1c83c42fcf4ff843c2ea719"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C40.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38078,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C40.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61584553,
+          "storageIdentifier": "surf://store:174fe6bdccd-fc162869fc75",
+          "rootDataFileId": -1,
+          "md5": "2ebae67d611c6ac5846b4d8a1f0bc8a1",
+          "checksum": {
+            "type": "MD5",
+            "value": "2ebae67d611c6ac5846b4d8a1f0bc8a1"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C40.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38095,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C40.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61488011,
+          "storageIdentifier": "surf://store:174fe6c2b05-e3dffe15f7fc",
+          "rootDataFileId": -1,
+          "md5": "629a3dda2cafc5fe80739822fcebae24",
+          "checksum": {
+            "type": "MD5",
+            "value": "629a3dda2cafc5fe80739822fcebae24"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C40.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38097,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C40.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61429182,
+          "storageIdentifier": "surf://store:174fe6c7913-52fcdfce229f",
+          "rootDataFileId": -1,
+          "md5": "d17411dd18ba717b6bb6f25cd8c8001a",
+          "checksum": {
+            "type": "MD5",
+            "value": "d17411dd18ba717b6bb6f25cd8c8001a"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C40.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38085,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C40.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61328799,
+          "storageIdentifier": "surf://store:174fe6cc700-1fa924cbc554",
+          "rootDataFileId": -1,
+          "md5": "d09bd485ce0b63a5b45b8e0f01e9bad7",
+          "checksum": {
+            "type": "MD5",
+            "value": "d09bd485ce0b63a5b45b8e0f01e9bad7"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C40.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38076,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C40.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61324899,
+          "storageIdentifier": "surf://store:174fe6d1524-073a847b9f9e",
+          "rootDataFileId": -1,
+          "md5": "3290cbb6360b39cdd8f16c3ebb7dbe55",
+          "checksum": {
+            "type": "MD5",
+            "value": "3290cbb6360b39cdd8f16c3ebb7dbe55"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C40.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38079,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C40.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61539159,
+          "storageIdentifier": "surf://store:174fe6d6447-a86eef361933",
+          "rootDataFileId": -1,
+          "md5": "cc92d9c52d19ef5d01923684a36a960b",
+          "checksum": {
+            "type": "MD5",
+            "value": "cc92d9c52d19ef5d01923684a36a960b"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C42.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38070,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C42.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 59753473,
+          "storageIdentifier": "surf://store:174fe6db02c-54f37bafe1db",
+          "rootDataFileId": -1,
+          "md5": "bc7a03684bbe24867ebfb0968296adc2",
+          "checksum": {
+            "type": "MD5",
+            "value": "bc7a03684bbe24867ebfb0968296adc2"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C42.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38100,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C42.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61653372,
+          "storageIdentifier": "surf://store:174fe6dfebf-4b5ff299b409",
+          "rootDataFileId": -1,
+          "md5": "0425db4e3700a04f545142130e71f5b9",
+          "checksum": {
+            "type": "MD5",
+            "value": "0425db4e3700a04f545142130e71f5b9"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C42.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38071,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C42.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61538449,
+          "storageIdentifier": "surf://store:174fe6e4cf0-633c7a42c5e6",
+          "rootDataFileId": -1,
+          "md5": "e962dff4d59cae308f0d85a5454b2afc",
+          "checksum": {
+            "type": "MD5",
+            "value": "e962dff4d59cae308f0d85a5454b2afc"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C42.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38072,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C42.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61501980,
+          "storageIdentifier": "surf://store:174fe6e9b87-213ed931f0bb",
+          "rootDataFileId": -1,
+          "md5": "adaba25fde4fd6507be4b307f696ea8f",
+          "checksum": {
+            "type": "MD5",
+            "value": "adaba25fde4fd6507be4b307f696ea8f"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C42.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38101,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C42.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61453820,
+          "storageIdentifier": "surf://store:174fe6ee9be-0fc07c8619d9",
+          "rootDataFileId": -1,
+          "md5": "b5248a51760d84e5e1753b97dc1c1abf",
+          "checksum": {
+            "type": "MD5",
+            "value": "b5248a51760d84e5e1753b97dc1c1abf"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C42.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38086,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C42.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 59853291,
+          "storageIdentifier": "surf://store:174fe6f35dc-7d02ca5cb685",
+          "rootDataFileId": -1,
+          "md5": "47752b42c00b5a5110d2c40f2c428621",
+          "checksum": {
+            "type": "MD5",
+            "value": "47752b42c00b5a5110d2c40f2c428621"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C44.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38096,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C44.3_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61628636,
+          "storageIdentifier": "surf://store:174fe6f843c-adb23b71da73",
+          "rootDataFileId": -1,
+          "md5": "3a64a56bd939ff017309aa917f7d7572",
+          "checksum": {
+            "type": "MD5",
+            "value": "3a64a56bd939ff017309aa917f7d7572"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C44.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38084,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C44.4_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61447184,
+          "storageIdentifier": "surf://store:174fe6fd280-4b11a4e098d0",
+          "rootDataFileId": -1,
+          "md5": "c7763d7d163decc594c6876d4f914b6e",
+          "checksum": {
+            "type": "MD5",
+            "value": "c7763d7d163decc594c6876d4f914b6e"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C44.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38075,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C44.5_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61619830,
+          "storageIdentifier": "surf://store:174fe70210a-925c39603835",
+          "rootDataFileId": -1,
+          "md5": "dacb1d04fccd11a831c830b700e38a96",
+          "checksum": {
+            "type": "MD5",
+            "value": "dacb1d04fccd11a831c830b700e38a96"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_PC.ae.C44.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38092,
+          "persistentId": "",
+          "filename": "MetaAnalysis_PC.ae.C44.6_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61626586,
+          "storageIdentifier": "surf://store:174fe707090-8b8b9c2989ea",
+          "rootDataFileId": -1,
+          "md5": "5ac379694f2a5c751a846c5cdfb6ea40",
+          "checksum": {
+            "type": "MD5",
+            "value": "5ac379694f2a5c751a846c5cdfb6ea40"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Phe_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38111,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Phe_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60889623,
+          "storageIdentifier": "surf://store:174fe714730-912da0fae885",
+          "rootDataFileId": -1,
+          "md5": "101a283aef0ceb28c9cd1634d50fa714",
+          "checksum": {
+            "type": "MD5",
+            "value": "101a283aef0ceb28c9cd1634d50fa714"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Pro_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38102,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Pro_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61640252,
+          "storageIdentifier": "surf://store:174fe7196a1-2dbae230130c",
+          "rootDataFileId": -1,
+          "md5": "66909eaa833cd3b42bb4ef8eae17d2b5",
+          "checksum": {
+            "type": "MD5",
+            "value": "66909eaa833cd3b42bb4ef8eae17d2b5"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Ser_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38104,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Ser_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61276507,
+          "storageIdentifier": "surf://store:174fe71e4e0-b40b9114411a",
+          "rootDataFileId": -1,
+          "md5": "293f9e457134e6daae93d6a8e34381a5",
+          "checksum": {
+            "type": "MD5",
+            "value": "293f9e457134e6daae93d6a8e34381a5"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.C16.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38122,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.C16.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61024210,
+          "storageIdentifier": "surf://store:174fe7232c4-2d00665eca73",
+          "rootDataFileId": -1,
+          "md5": "716dda49d1bd0d8ae1083291a8a6fd39",
+          "checksum": {
+            "type": "MD5",
+            "value": "716dda49d1bd0d8ae1083291a8a6fd39"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.C16.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38105,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.C16.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61120205,
+          "storageIdentifier": "surf://store:174fe7280ab-7909714f3c1c",
+          "rootDataFileId": -1,
+          "md5": "6788ff56f040748f74cea83c563a2fe7",
+          "checksum": {
+            "type": "MD5",
+            "value": "6788ff56f040748f74cea83c563a2fe7"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.C18.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38118,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.C18.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61281966,
+          "storageIdentifier": "surf://store:174fe72d042-7433f75d5952",
+          "rootDataFileId": -1,
+          "md5": "3b93a2ac722b9ccd9af61fb2e580bab7",
+          "checksum": {
+            "type": "MD5",
+            "value": "3b93a2ac722b9ccd9af61fb2e580bab7"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.C18.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38119,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.C18.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61385642,
+          "storageIdentifier": "surf://store:174fe731ea6-d8db15faa0f9",
+          "rootDataFileId": -1,
+          "md5": "46186b1f95001f8bcea8e314b62be316",
+          "checksum": {
+            "type": "MD5",
+            "value": "46186b1f95001f8bcea8e314b62be316"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.C20.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38108,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.C20.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61914685,
+          "storageIdentifier": "surf://store:174fe736da9-25f640b31a5a",
+          "rootDataFileId": -1,
+          "md5": "e31521d843f962f18dc03be5b9af8b90",
+          "checksum": {
+            "type": "MD5",
+            "value": "e31521d843f962f18dc03be5b9af8b90"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.C24.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38109,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.C24.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61302359,
+          "storageIdentifier": "surf://store:174fe73bb22-7bc89a6a77dd",
+          "rootDataFileId": -1,
+          "md5": "a4644f31d9dfed255923bd592d411dc6",
+          "checksum": {
+            "type": "MD5",
+            "value": "a4644f31d9dfed255923bd592d411dc6"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.C24.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38120,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.C24.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61215336,
+          "storageIdentifier": "surf://store:174fe740898-b253142732b1",
+          "rootDataFileId": -1,
+          "md5": "ff98bf8a54159f38d41e0a253a6b9714",
+          "checksum": {
+            "type": "MD5",
+            "value": "ff98bf8a54159f38d41e0a253a6b9714"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.C26.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38112,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.C26.0_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60570671,
+          "storageIdentifier": "surf://store:174fe745528-ab73944624d3",
+          "rootDataFileId": -1,
+          "md5": "3589d692584679b4821d14ecb816a8eb",
+          "checksum": {
+            "type": "MD5",
+            "value": "3589d692584679b4821d14ecb816a8eb"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.C26.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38110,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.C26.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61880330,
+          "storageIdentifier": "surf://store:174fe74a3fe-5877bda19cf1",
+          "rootDataFileId": -1,
+          "md5": "f53d51f30e4096eafb36a065fa9df5fe",
+          "checksum": {
+            "type": "MD5",
+            "value": "f53d51f30e4096eafb36a065fa9df5fe"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.OH.C14.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38107,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.OH.C14.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 61561400,
+          "storageIdentifier": "surf://store:174fe74f231-6453688a8807",
+          "rootDataFileId": -1,
+          "md5": "55b7515f784a021436b5b0dd0abcdef3",
+          "checksum": {
+            "type": "MD5",
+            "value": "55b7515f784a021436b5b0dd0abcdef3"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.OH.C16.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38123,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.OH.C16.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60528470,
+          "storageIdentifier": "surf://store:174fe753f85-984922310c2e",
+          "rootDataFileId": -1,
+          "md5": "f8bcc42c4f86251317f32bff24368201",
+          "checksum": {
+            "type": "MD5",
+            "value": "f8bcc42c4f86251317f32bff24368201"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.OH.C22.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38106,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.OH.C22.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60355072,
+          "storageIdentifier": "surf://store:174fe758c2c-fb751a889992",
+          "rootDataFileId": -1,
+          "md5": "33adb740d9f84b4cb922768e1c0435e5",
+          "checksum": {
+            "type": "MD5",
+            "value": "33adb740d9f84b4cb922768e1c0435e5"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.OH.C22.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38121,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.OH.C22.2_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60420944,
+          "storageIdentifier": "surf://store:174fe75d89e-df819cda90fd",
+          "rootDataFileId": -1,
+          "md5": "b80fe4d98b8d7dcddacf28b60f804cf9",
+          "checksum": {
+            "type": "MD5",
+            "value": "b80fe4d98b8d7dcddacf28b60f804cf9"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_SM.OH.C24.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38117,
+          "persistentId": "",
+          "filename": "MetaAnalysis_SM.OH.C24.1_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60527708,
+          "storageIdentifier": "surf://store:174fe76251e-2b168464a927",
+          "rootDataFileId": -1,
+          "md5": "7f35887857d54e887eeb7d5fefd01f15",
+          "checksum": {
+            "type": "MD5",
+            "value": "7f35887857d54e887eeb7d5fefd01f15"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Thr_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38114,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Thr_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 58770259,
+          "storageIdentifier": "surf://store:174fe766efc-41de735a921f",
+          "rootDataFileId": -1,
+          "md5": "3df349988f163ec85c8ceb1b3bc8e9fa",
+          "checksum": {
+            "type": "MD5",
+            "value": "3df349988f163ec85c8ceb1b3bc8e9fa"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Trp_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38103,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Trp_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 57889607,
+          "storageIdentifier": "surf://store:174fe76b848-81ea14d75ad2",
+          "rootDataFileId": -1,
+          "md5": "b2c1b6adc65cd139ba498f569b5473ad",
+          "checksum": {
+            "type": "MD5",
+            "value": "b2c1b6adc65cd139ba498f569b5473ad"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Tyr_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38115,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Tyr_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60206649,
+          "storageIdentifier": "surf://store:174fe77045a-2a582df629e5",
+          "rootDataFileId": -1,
+          "md5": "fe5e8476f7f4a1ee8d4ba27ff1458b4f",
+          "checksum": {
+            "type": "MD5",
+            "value": "fe5e8476f7f4a1ee8d4ba27ff1458b4f"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_Val_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38113,
+          "persistentId": "",
+          "filename": "MetaAnalysis_Val_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60041953,
+          "storageIdentifier": "surf://store:174fe77507d-4eb19915bc5c",
+          "rootDataFileId": -1,
+          "md5": "212bbeafd39728169cacc6a3c876b6d4",
+          "checksum": {
+            "type": "MD5",
+            "value": "212bbeafd39728169cacc6a3c876b6d4"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MetaAnalysis_xLeu_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3110,
+        "dataFile": {
+          "id": 38116,
+          "persistentId": "",
+          "filename": "MetaAnalysis_xLeu_HetISqLt75_HetDfGt0_HWEPValGt1EMinus6.tsv.bz2",
+          "contentType": "application/x-bzip",
+          "friendlyType": "Bzip Archive",
+          "filesize": 60098431,
+          "storageIdentifier": "surf://store:174fe779c8c-ef9aa2b264f9",
+          "rootDataFileId": -1,
+          "md5": "d9578c772928eac23a1f492d9c4c0dab",
+          "checksum": {
+            "type": "MD5",
+            "value": "d9578c772928eac23a1f492d9c4c0dab"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-06",
+          "publicationDate": "2020-10-06",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Pool, Renee, 2020, \"ENGAGE Biocrates GWA meta analyses - data\", https://doi.org/10.34894/JFWWS4, DataverseNL, V1"
+  }
+}

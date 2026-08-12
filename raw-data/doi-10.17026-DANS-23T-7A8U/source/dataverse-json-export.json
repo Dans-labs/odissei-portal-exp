@@ -1,0 +1,525 @@
+{
+  "id": 15072,
+  "identifier": "dans-23t-7a8u",
+  "persistentUrl": "https://doi.org/10.17026/DANS-23T-7A8U",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2017-03-09",
+  "storageIdentifier": "surf://10.17026/dans-23t-7a8u",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 2706,
+    "datasetId": 15072,
+    "datasetPersistentId": "doi:10.17026/DANS-23T-7A8U",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-23t-7a8u",
+    "versionNumber": 1,
+    "internalVersionNumber": 18,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2020-06-05",
+    "productionDate": "2017-03-09",
+    "UNF": "UNF:6:2u3AnSMzmaN8+ybp1yzsIg==",
+    "lastUpdateTime": "2023-03-14T10:12:38Z",
+    "releaseTime": "2017-03-08T23:00:00Z",
+    "createTime": "2023-03-14T10:12:34Z",
+    "publicationDate": "2017-03-09",
+    "citationDate": "2017-03-09",
+    "license": {
+      "name": "DANS Licence",
+      "uri": "https://doi.org/10.17026/fp39-0x58",
+      "iconUri": ""
+    },
+    "termsOfAccess": "",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Predictive land value modelling in Guatemala City using a geo-statistical approach and Space Syntax"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:163275"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ANDRES Morales"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Faculty of Geo-information Science and Earth Observation (ITC), University of Twente"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-8494-1163"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "M Th  Koelen"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Faculty of Geo-Information Science and Earth Observation"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>The datasets were produced during the doctoral research titled \"A modelling framework to estimate the effects of future transport interventions on land values\". Specifically, the datasets were produced and prepared with the purpose of training a geostatistical model and construct a residential land value map for Guatemala City using a predictive approach. The file \"gc_log\" contains a set of spatial points representing parcel centroids of the observations that were used to train a regression-kriging model. A spatialized variable selection was implemented in order to retain only important variables. The \"grid_prediction.csv\" contains a set of spatial points representing the centroids of an hexagonal tessellation containing values for all the required predictors of land value. The \"research_code.R\" file contains the scripts developed to implement the spatial variable selection, train the regression-kriging model and construct the land value map.</p>"
+                }
+              },
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Date: 2020-05-29"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "land value; Guatemala City; Space Syntax; regression-kriging; geostatistics;"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2017-03-09"
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Faculty of Geo-information Science and Earth Observation (ITC), University of Twente"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-06-05"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-06-05"
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "MSc JA Morales (Jose Andres Morales)",
+              "MSc JA Morales (Jose Andres Morales)"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D65000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D65000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Planologie"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Urban and rural planning"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansCollection",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://vocabularies.dans.knaw.nl/collections/ssh/7e30e380-9e02-4b15-a0af-f35286c3ecec"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://vocabularies.dans.knaw.nl/collections/ssh/7e30e380-9e02-4b15-a0af-f35286c3ecec",
+                "vocabularyUri": "https://vocabularies.dans.knaw.nl/collections"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "is format of"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.6084/m9.figshare.11534121"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.6084/m9.figshare.11534121"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "is format of"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.6084/m9.figshare.11535090"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.6084/m9.figshare.11535090"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "is part of"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Morales, J. A., Stein, A., Flacke, J., & Zevenbergen, J. A. (2020). Predictive land value modelling in Guatemala City using a geostatistical approach and Space Syntax. International journal of geographical information science : IJGIS, 1-24. https://doi.org/10.1080/13658816.2020.1725014"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.tandfonline.com/doi/full/10.1080/13658816.2020.1725014"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "2008-2014"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageText",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Guatemala City"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/dans-23t-7a8u"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:887caa54-1a6d-4a5a-b5a6-27bb32df25a1"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-dz-zkc5"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 2706,
+        "dataFile": {
+          "id": 15074,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 19472,
+          "description": "",
+          "storageIdentifier": "surf://store:186df9b7d12-c31561c3d855",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d427e684c6be56218597abbd6ad93519483832fc"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2017-03-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "gc_log.tab",
+        "restricted": true,
+        "version": 3,
+        "datasetVersionId": 2706,
+        "dataFile": {
+          "id": 15076,
+          "persistentId": "",
+          "filename": "gc_log.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 614474,
+          "description": "",
+          "storageIdentifier": "surf://store:186df9b7ee3-baaf40dddc9e",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 607129,
+          "originalFileName": "gc_log.csv",
+          "UNF": "UNF:6:gzhRPaHpMLUilX280fwrMA==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3172e90dc21bbe792466ccfe26faa67b92580558"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2017-03-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "grid_prediction.tab",
+        "restricted": true,
+        "version": 3,
+        "datasetVersionId": 2706,
+        "dataFile": {
+          "id": 15077,
+          "persistentId": "",
+          "filename": "grid_prediction.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 1204586,
+          "description": "",
+          "storageIdentifier": "surf://store:186df9b8017-27df92d933e9",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 1209424,
+          "originalFileName": "grid_prediction.csv",
+          "UNF": "UNF:6:hwCbwPrNj33dSaaE3nzZbA==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "69fee589cf16629ecca326fe07f585bcf9911393"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2017-03-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "research_code.R",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 2706,
+        "dataFile": {
+          "id": 15075,
+          "persistentId": "",
+          "filename": "research_code.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1225144,
+          "description": "",
+          "storageIdentifier": "surf://store:186df9b7de5-c13c5e13ca33",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "37f62d3861bd8acc4380687271133d161e3c1037"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2017-03-09",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "ANDRES Morales, 2017, \"Predictive land value modelling in Guatemala City using a geo-statistical approach and Space Syntax\", https://doi.org/10.17026/DANS-23T-7A8U, DANS Data Station Social Sciences and Humanities, V1, UNF:6:2u3AnSMzmaN8+ybp1yzsIg== [fileUNF]"
+  }
+}

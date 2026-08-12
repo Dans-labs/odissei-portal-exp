@@ -1,0 +1,493 @@
+{
+  "id": 296923,
+  "identifier": "W4LIGP",
+  "persistentUrl": "https://doi.org/10.34894/W4LIGP",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-09-08",
+  "storageIdentifier": "surf://10.34894/W4LIGP",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25277,
+    "datasetId": 296923,
+    "datasetPersistentId": "doi:10.34894/W4LIGP",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/W4LIGP",
+    "versionNumber": 3,
+    "internalVersionNumber": 9,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-08-29T07:50:49Z",
+    "releaseTime": "2023-08-29T07:50:49Z",
+    "createTime": "2023-08-17T13:31:29Z",
+    "publicationDate": "2022-09-08",
+    "citationDate": "2022-09-08",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "termsOfAccess": "These data are available under request and for research purposes only.",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Data-Efficient Large Scale Place Recognition With Graded Similarity Supervision"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Generalized Contrastive Optimization of Siamese Networks for Place Recognition"
+            ]
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "https://arxiv.org/abs/2103.06638"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Leyva-Vallina, Maria"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-0415-7972"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Strisciuglio, Nicola"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Twente"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-7478-3509"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Petkov, Nicolai"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2163-8647"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nicola Strisciuglio"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Twente"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Visual place recognition (VPR) is a fundamental task of computer vision for visual localization. Existing methods are trained using image pairs that either depict the same place or not. Such a binary indication does not consider continuous relations of similarity between images of the same place taken from different positions, determined by the continuous nature of camera pose. The binary similarity induces a noisy supervision signal into the training of VPR methods, which stall in local minima and require expensive hard mining algorithms to guarantee convergence. Motivated by the fact that two images of the same place only partially share visual cues due to camera pose differences, we deploy an automatic re-annotation strategy to re-label VPR datasets. We compute graded similarity labels for image pairs based on available localization metadata. Furthermore, we propose a new Generalized Contrastive Loss (GCL) that uses graded similarity labels for training contrastive networks. We demonstrate that the use of the new labels and GCL allow to dispense from hard-pair mining, and to train image descriptors that perform better in VPR by nearest neighbor search, obtaining superior or comparable results than methods that require expensive hard-pair mining and re-ranking techniques."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "visual place recognition"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "siamese optimisation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "deep learning"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "metric learning"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "@InProceedings{Leyva-Vallina_2023_CVPR,\n    author    = {Leyva-Vallina, Mar{\\'\\i}a and Strisciuglio, Nicola and Petkov, Nicolai},\n    title     = {Data-Efficient Large Scale Place Recognition With Graded Similarity Supervision},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {23487-23496}\n}"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "arXiv"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2303.11739"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://arxiv.org/abs/2303.11739"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "@article{leyva2021generalized,\n  title={Generalized contrastive optimization of siamese networks for place recognition},\n  author={Leyva-Vallina, Mar{\\'\\i}a and Strisciuglio, Nicola and Petkov, Nicolai},\n  journal={arXiv preprint arXiv:2103.06638},\n  year={2021}\n}"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "arXiv"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2103.06638"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://arxiv.org/abs/2103.06638"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Silva Correia Alves, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-06-13"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/W4LIGP"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "3.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:5faa944d-a3e6-4403-baac-34d3ba611a3b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-945cd35f-6a06-477c-b69d-edf356d7bb93"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "7Scenes_gt.zip",
+        "restricted": false,
+        "directoryLabel": "7Scenes_gt",
+        "version": 1,
+        "datasetVersionId": 25277,
+        "dataFile": {
+          "id": 308954,
+          "persistentId": "",
+          "filename": "7Scenes_gt.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 204060023,
+          "storageIdentifier": "surf://store:1828d5b21a4-01bb341e2873",
+          "rootDataFileId": -1,
+          "md5": "03e1d9a389791c10327c0d3cbb505f47",
+          "checksum": {
+            "type": "MD5",
+            "value": "03e1d9a389791c10327c0d3cbb505f47"
+          },
+          "tabularData": false,
+          "creationDate": "2022-08-11",
+          "publicationDate": "2022-09-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Models.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25277,
+        "dataFile": {
+          "id": 299463,
+          "persistentId": "",
+          "filename": "Models.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 5092116334,
+          "storageIdentifier": "surf://store:1815d250704-09299c92497a",
+          "rootDataFileId": -1,
+          "md5": "1b5420649c66af95f0c4bb10ead03b9d",
+          "checksum": {
+            "type": "MD5",
+            "value": "1b5420649c66af95f0c4bb10ead03b9d"
+          },
+          "tabularData": false,
+          "creationDate": "2022-06-13",
+          "publicationDate": "2022-09-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MSLS_labels.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25277,
+        "dataFile": {
+          "id": 308949,
+          "persistentId": "",
+          "filename": "MSLS_labels.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 168079946,
+          "storageIdentifier": "surf://store:1828d5230e4-bbea06731501",
+          "rootDataFileId": -1,
+          "md5": "5a759fd26db3241ff409f561f02b9b16",
+          "checksum": {
+            "type": "MD5",
+            "value": "5a759fd26db3241ff409f561f02b9b16"
+          },
+          "tabularData": false,
+          "creationDate": "2022-08-11",
+          "publicationDate": "2022-09-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "password.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25277,
+        "dataFile": {
+          "id": 362129,
+          "persistentId": "",
+          "filename": "password.txt",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 37,
+          "storageIdentifier": "surf://store:1884a16b79f-fa7c4ce87cf0",
+          "rootDataFileId": -1,
+          "md5": "120eae1012f17662b861980f02a4e1a6",
+          "checksum": {
+            "type": "MD5",
+            "value": "120eae1012f17662b861980f02a4e1a6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-05-23",
+          "publicationDate": "2023-06-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "readme.md",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25277,
+        "dataFile": {
+          "id": 299467,
+          "persistentId": "",
+          "filename": "readme.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 5096,
+          "storageIdentifier": "surf://store:1815d610f1d-c09f426c2fd4",
+          "rootDataFileId": -1,
+          "md5": "c2d3d67bc271878d6a2f339d1b6421e2",
+          "checksum": {
+            "type": "MD5",
+            "value": "c2d3d67bc271878d6a2f339d1b6421e2"
+          },
+          "tabularData": false,
+          "creationDate": "2022-06-13",
+          "publicationDate": "2022-09-08",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "TB_Places_labels.zip",
+        "restricted": false,
+        "directoryLabel": "TB_Places_labels",
+        "version": 1,
+        "datasetVersionId": 25277,
+        "dataFile": {
+          "id": 308955,
+          "persistentId": "",
+          "filename": "TB_Places_labels.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 83120600,
+          "storageIdentifier": "surf://store:1828d7e9c86-326a149f451c",
+          "rootDataFileId": -1,
+          "md5": "7c6699df3998aab2c5acc42536736a9f",
+          "checksum": {
+            "type": "MD5",
+            "value": "7c6699df3998aab2c5acc42536736a9f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-08-11",
+          "publicationDate": "2022-09-08",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Leyva-Vallina, Maria; Strisciuglio, Nicola; Petkov, Nicolai, 2022, \"Data-Efficient Large Scale Place Recognition With Graded Similarity Supervision\", https://doi.org/10.34894/W4LIGP, DataverseNL, V3"
+  }
+}

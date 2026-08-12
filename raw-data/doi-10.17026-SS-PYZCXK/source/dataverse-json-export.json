@@ -1,0 +1,1472 @@
+{
+  "id": 240304,
+  "identifier": "SS/PYZCXK",
+  "persistentUrl": "https://doi.org/10.17026/SS/PYZCXK",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2024-11-18",
+  "storageIdentifier": "surf://10.17026/SS/PYZCXK",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 23808,
+    "datasetId": 240304,
+    "datasetPersistentId": "doi:10.17026/SS/PYZCXK",
+    "storageIdentifier": "surf://10.17026/SS/PYZCXK",
+    "versionNumber": 2,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2024-10-01",
+    "productionDate": "2024-10-01",
+    "lastUpdateTime": "2024-11-21T09:44:00Z",
+    "releaseTime": "2024-11-21T09:44:00Z",
+    "createTime": "2024-11-18T16:52:07Z",
+    "publicationDate": "2024-11-18",
+    "citationDate": "2024-11-18",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Interrelated Climate Change Adaptation Measures and Factors"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "S. Gil-Clavel"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University of Technology"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-4707-849X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "T. Filatova"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University of Technology"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-3546-6930"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gil-Clavel, Sofia"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University of Technology"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Filatova, Tatiana"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University of Technology"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Climate is changing. While worldwide societies experience climate-induced hazards, progress in climate change adaptation – both public and private – remains slow. Understanding who, when, and how pursues Climate Change Adaptation (CCA) is essential. Factors explaining adaptation by different actors (governments, communities, households, farmers, and individuals) may vary across countries and per type of adaptation (incremental vs. transformational). Worldwide rich qualitative research reveals factors influencing these different adaptation decisions. Thousands of articles report valuable insights, and the literature reporting mounting evidence constantly grows. To address this challenge, we use a novel approach to elicit patterns in decision factors for various actors and types of adaptation. Specifically, using natural language processing, thematic coding books, and network analysis, we consolidate empirical evidence fragmented across various textual sources. Here, we provide two exemplar datasets derived using this approach. Both databases provide systematic overviews of various adaptation factors associated (positively, negatively, or neutrally) with particular adaptation measures. The first dataset provides a systematic overview of factors associated with CCA to floods and sea-level rise by actor (see Dataset 1). The second set of data provides a systematic overview of factors associated with transformational vs. incremental adaptation by farmers (Dataset 2).\n\n<p>Both datasets rely on the textual information reported in peer-reviewed articles and derived using our algorithm Gil-Clavel & Filatova (2024). The coding book for adaptation factors per actor group is provided in Gil-Clavel et al. (2024), and the coding book for classifying CCA measures as transformational adaptation is described in Gil-Clavel et al. (2023). We go beyond the traditional automatic analysis of textual data focused on the word count and topic modeling. Instead, we strive to elicit meaningful associations between the type of adaptation and factors reported to influence those decisions. We do that based on the detailed code-books designed with domain experts and on the computational Natural Language Processing algorithms that elicit reported relationships and classify them as positive, negative, or neutral. </p>\n\n<p><b>Related work</b>:</p> \n<p>Gil-Clavel, Sofia, and Tatiana Filatova. “Using Natural Language Processing and Networks to Automate Structured Literature Reviews: An Application to Farmers Climate Change Adaptation.” arXiv, July 3, 2024. http://arxiv.org/abs/2306.09737. </p>\n<p>Gil-Clavel, Soﬁa, Thorid Wagenblast, Joos Akkerman, and Tatiana Filatova. “Patterns in Reported Adaptation Constraints: Insights from Peer-Reviewed Literature on Flood and Sea-Level Rise,” April 26, 2024. https://doi.org/10.31235/osf.io/3cqvn </p>\n<p>Gil-Clavel, Soﬁa, Thorid Wagenblast, and Tatiana Filatova. “Incremental and Transformational Climate Change Adaptation Factors in Agriculture Worldwide: A Natural Language Processing Comparative Analysis,” November 24, 2023. https://doi.org/10.31235/osf.io/3dp5e</p>\n<p>How to cite the datasets: Gil-Clavel, Sofia; Filatova, Tatiana, 2024, “Interrelated Climate Change Adaptation Measures and Factors”, https://doi.org/10.17026/SS/PYZCXK, DANS Data Station Social Sciences and Humanities </p>\n\n<p>Funding This work was supported by the Netherlands Organization for Scientific Research NWO VIDI grant number 191015.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Agricultural Sciences",
+              "Arts and Humanities",
+              "Computer and Information Science",
+              "Earth and Environmental Sciences",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Climate Change Adaptation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Climate Adaptation Measures"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Climate Adaptation Factors"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Adaptation Constraints"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Adaptation Drivers"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gil-Clavel, Sofia"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University of Technology"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://sofiag1l.github.io/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-10-01"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "TU Delft"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Curator"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gil-Clavel, Sofia"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Rights Holder"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gil-Clavel, Sofia"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Research Group"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Center for Social Complexity of Climate Change"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Hosting Institution"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University of Technology"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Researcher"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gil-Clavel, Sofia"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Project Leader"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Filatova, Tatiana"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Researcher"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Filatova, Tatiana"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Rights Holder"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Filatova, Tatiana"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Netherlands Organization for Scientific Research NWO VIDI"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "191015"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gil-Clavel, Sofia"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University of Technology"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://sofiag1l.github.io/"
+                }
+              },
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Filatova, Tatiana"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University of Technology"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.sc3.center/team/tatiana-filatova/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-10-01"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Gil-Clavel, Sofia"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-10-01"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1999-06-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-01-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-08-30"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-02-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Data frame"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Python"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3.11"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "R"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "4.3.3"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "The data frames were derived from peer-reviewed articles."
+            ]
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Gil-Clavel, Sofia",
+              "Filatova, Tatiana"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "No"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D60000",
+              "https://www.narcis.nl/classification/E15000",
+              "https://www.narcis.nl/classification/E10000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D60000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Social sciences"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Sociale wetenschappen"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/E15000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Environmental studies"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Milieustudies"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/E10000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Interdisciplinaire wetenschappen"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Interdisciplinary sciences"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "references"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Using Natural Language Processing and Networks to Automate Structured Literature Reviews: An Application to Farmers Climate Change Adaptation"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://arxiv.org/abs/2306.09737"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "references"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Incremental and Transformational Climate Change Adaptation Factors in Agriculture Worldwide: A Natural Language Processing Comparative Analysis"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://osf.io/preprints/socarxiv/3dp5e"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "references"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Patterns in Reported Adaptation Constraints: Insights from Peer-Reviewed Literature on Flood and Sea-Level Rise"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://osf.io/preprints/socarxiv/3cqvn"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansSocialSciences": {
+        "displayName": "Social Sciences and Humanities",
+        "name": "dansSocialSciences",
+        "fields": [
+          {
+            "typeName": "dansElsstClassification",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://elsst.cessda.eu/id/4/cf7d9c00-73ad-46f2-baa5-a083e6bb3f35",
+              "https://elsst.cessda.eu/id/4/c10707b2-5abe-4d7f-a398-7b3330ef3774",
+              "https://elsst.cessda.eu/id/4/d65aa791-5a12-4b0a-84ba-2784ffd45b31"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://elsst.cessda.eu/id/4/cf7d9c00-73ad-46f2-baa5-a083e6bb3f35",
+                "termName": [
+                  {
+                    "lang": "ro",
+                    "value": "SCHIMBARE CLIMATICĂ"
+                  },
+                  {
+                    "lang": "fr",
+                    "value": "CHANGEMENTS CLIMATIQUES"
+                  },
+                  {
+                    "lang": "sl",
+                    "value": "PODNEBNA SPREMEMBA"
+                  },
+                  {
+                    "lang": "de",
+                    "value": "KLIMAVERÄNDERUNGEN"
+                  },
+                  {
+                    "lang": "hu",
+                    "value": "ÉGHAJLATVÁLTOZÁS"
+                  },
+                  {
+                    "lang": "is",
+                    "value": "LOFTSLAGSBREYTINGAR"
+                  },
+                  {
+                    "lang": "sv",
+                    "value": "KLIMATFÖRÄNDRINGAR"
+                  },
+                  {
+                    "lang": "el",
+                    "value": "ΚΛΙΜΑΤΙΚΕΣ ΜΕΤΑΒΟΛΕΣ"
+                  },
+                  {
+                    "lang": "fi",
+                    "value": "ILMASTONMUUTOKSET"
+                  },
+                  {
+                    "lang": "lt",
+                    "value": "KLIMATO KAITA"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "CLIMATE CHANGE"
+                  },
+                  {
+                    "lang": "cs",
+                    "value": "ZMĚNA PODNEBÍ"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "KLIMAATVERANDERING"
+                  },
+                  {
+                    "lang": "no",
+                    "value": "KLIMAENDRINGER"
+                  },
+                  {
+                    "lang": "es",
+                    "value": "CAMBIO CLIMÁTICO"
+                  },
+                  {
+                    "lang": "da",
+                    "value": "KLIMAÆNDRING"
+                  }
+                ]
+              },
+              {
+                "@id": "https://elsst.cessda.eu/id/4/c10707b2-5abe-4d7f-a398-7b3330ef3774",
+                "termName": [
+                  {
+                    "lang": "el",
+                    "value": "ΑΓΡΟΤΕΣ"
+                  },
+                  {
+                    "lang": "cs",
+                    "value": "ZEMĚDĚLCI"
+                  },
+                  {
+                    "lang": "lt",
+                    "value": "ŪKININKAI"
+                  },
+                  {
+                    "lang": "fi",
+                    "value": "MAANVILJELIJÄT"
+                  },
+                  {
+                    "lang": "de",
+                    "value": "LANDWIRTE"
+                  },
+                  {
+                    "lang": "fr",
+                    "value": "AGRICULTEURS"
+                  },
+                  {
+                    "lang": "es",
+                    "value": "AGRICULTORES"
+                  },
+                  {
+                    "lang": "is",
+                    "value": "BÆNDUR"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "BOEREN"
+                  },
+                  {
+                    "lang": "no",
+                    "value": "BØNDER"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "FARMERS"
+                  },
+                  {
+                    "lang": "ro",
+                    "value": "FERMIERI, AGRICULTORI ȘI CRESCĂTORI DE ANIMALE"
+                  },
+                  {
+                    "lang": "hu",
+                    "value": "GAZDA"
+                  },
+                  {
+                    "lang": "sv",
+                    "value": "JORDBRUKARE"
+                  },
+                  {
+                    "lang": "sl",
+                    "value": "KMET"
+                  },
+                  {
+                    "lang": "da",
+                    "value": "LANDMAND"
+                  }
+                ]
+              },
+              {
+                "@id": "https://elsst.cessda.eu/id/4/d65aa791-5a12-4b0a-84ba-2784ffd45b31",
+                "termName": [
+                  {
+                    "lang": "el",
+                    "value": "ΠΛΗΜΜΥΡΕΣ"
+                  },
+                  {
+                    "lang": "de",
+                    "value": "ÜBERSCHWEMMUNGEN"
+                  },
+                  {
+                    "lang": "fi",
+                    "value": "TULVAT"
+                  },
+                  {
+                    "lang": "cs",
+                    "value": "POVODNĚ"
+                  },
+                  {
+                    "lang": "lt",
+                    "value": "POTVYNIAI"
+                  },
+                  {
+                    "lang": "sl",
+                    "value": "POPLAVA"
+                  },
+                  {
+                    "lang": "hu",
+                    "value": "ÁRVÍZ"
+                  },
+                  {
+                    "lang": "is",
+                    "value": "FLÓÐ"
+                  },
+                  {
+                    "lang": "no",
+                    "value": "FLOM"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "FLOODS"
+                  },
+                  {
+                    "lang": "fr",
+                    "value": "INONDATIONS"
+                  },
+                  {
+                    "lang": "es",
+                    "value": "INUNDACIONES"
+                  },
+                  {
+                    "lang": "ro",
+                    "value": "INUNDAȚII"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "OVERSTROMINGEN"
+                  },
+                  {
+                    "lang": "sv",
+                    "value": "ÖVERSVÄMNINGAR"
+                  },
+                  {
+                    "lang": "da",
+                    "value": "OVERSVØMMELSE"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "21st Century"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageControlled",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Argentina",
+              "Australia",
+              "Austria",
+              "Bahamas",
+              "Bangladesh",
+              "Belize",
+              "Bhutan",
+              "Bolivia, Plurinational State of",
+              "Botswana",
+              "Brazil",
+              "Burkina Faso",
+              "Cambodia",
+              "Cameroon",
+              "Canada",
+              "Chile",
+              "China",
+              "Colombia",
+              "Cuba",
+              "Dominican Republic",
+              "Egypt",
+              "Ethiopia",
+              "Fiji",
+              "Finland",
+              "France",
+              "Germany",
+              "Ghana",
+              "Greece",
+              "Guatemala",
+              "Guinea-Bissau",
+              "Guyana",
+              "India",
+              "Indonesia",
+              "Iran, Islamic Republic of",
+              "Ireland",
+              "Israel",
+              "Italy",
+              "Jamaica",
+              "Jordan",
+              "Kenya",
+              "Lao People's Democratic Republic",
+              "Lebanon",
+              "Malawi",
+              "Malaysia",
+              "Maldives",
+              "Mexico",
+              "Morocco",
+              "Mozambique",
+              "Myanmar",
+              "Nepal",
+              "Netherlands",
+              "New Zealand",
+              "Nicaragua",
+              "Nigeria",
+              "Norway",
+              "Pakistan",
+              "Peru",
+              "Philippines",
+              "Puerto Rico",
+              "Rwanda",
+              "Saudi Arabia",
+              "Senegal",
+              "Solomon Islands",
+              "South Africa",
+              "Spain",
+              "Sri Lanka",
+              "Sweden",
+              "Switzerland",
+              "Tanzania, United Republic of",
+              "Thailand",
+              "Timor-Leste",
+              "Trinidad and Tobago",
+              "Tunisia",
+              "Turkey",
+              "Uganda",
+              "Ukraine",
+              "United Kingdom",
+              "United States",
+              "Uruguay",
+              "Uzbekistan",
+              "Vanuatu",
+              "Viet Nam",
+              "Zambia",
+              "Zimbabwe"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/SS/PYZCXK"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:29b11012-434a-406b-9f3d-1d2452a5bc9c"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-d2ba31a2-8e8c-4802-b8be-4b2d62a054a0"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Script to transform the network (“1_FloodsSLR_NetworkData.csv”) into a database.",
+        "label": "1_FloodsSLR_DataHandling.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 23808,
+        "categories": [
+          "Code"
+        ],
+        "dataFile": {
+          "id": 240525,
+          "persistentId": "",
+          "filename": "1_FloodsSLR_DataHandling.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3293,
+          "description": "Script to transform the network (“1_FloodsSLR_NetworkData.csv”) into a database.",
+          "categories": [
+            "Code"
+          ],
+          "storageIdentifier": "surf://store:192dd0c0ee9-4e99cd50049f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2f72c63b6774ba1873db7e5cccb78cf852811855"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-30",
+          "publicationDate": "2024-11-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Results from using “1_FloodsSLR_DataHandling.R” script to transform the network (“1_FloodsSLR_NetworkData.csv”) into a database where all the network connections are considered as explained in Appendix A.",
+        "label": "1_FloodsSLR_DerivedData_A.csv",
+        "restricted": false,
+        "version": 5,
+        "datasetVersionId": 23808,
+        "categories": [
+          "Climate Change Adaptation",
+          "Data",
+          "Factors",
+          "Floods",
+          "Measures",
+          "Sea-Level Rise"
+        ],
+        "dataFile": {
+          "id": 240516,
+          "persistentId": "",
+          "filename": "1_FloodsSLR_DerivedData_A.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 47346,
+          "description": "Results from using “1_FloodsSLR_DataHandling.R” script to transform the network (“1_FloodsSLR_NetworkData.csv”) into a database where all the network connections are considered as explained in Appendix A.",
+          "categories": [
+            "Climate Change Adaptation",
+            "Data",
+            "Factors",
+            "Floods",
+            "Measures",
+            "Sea-Level Rise"
+          ],
+          "storageIdentifier": "surf://store:192dd0c0f2d-c9f506930de7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a58d73f003d1fba6bc2242832b3be2bf388d82be"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-30",
+          "publicationDate": "2024-11-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Results from using “1_FloodsSLR_DataHandling.R” script to transform the network (“1_FloodsSLR_NetworkData.csv”) into a database where only the connections between CCA measures and factors are considered as explained in Appendix A.",
+        "label": "1_FloodsSLR_DerivedData_B.csv",
+        "restricted": false,
+        "version": 5,
+        "datasetVersionId": 23808,
+        "categories": [
+          "Climate Change Adaptation",
+          "Data",
+          "Factors",
+          "Floods",
+          "Measures",
+          "Sea-Level Rise"
+        ],
+        "dataFile": {
+          "id": 240518,
+          "persistentId": "",
+          "filename": "1_FloodsSLR_DerivedData_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 51494,
+          "description": "Results from using “1_FloodsSLR_DataHandling.R” script to transform the network (“1_FloodsSLR_NetworkData.csv”) into a database where only the connections between CCA measures and factors are considered as explained in Appendix A.",
+          "categories": [
+            "Climate Change Adaptation",
+            "Data",
+            "Factors",
+            "Floods",
+            "Measures",
+            "Sea-Level Rise"
+          ],
+          "storageIdentifier": "surf://store:192dd0c0f61-80d8345d38fc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1c10fe38b6430d56e5562a693f2ebc9a7fe54c29"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-30",
+          "publicationDate": "2024-11-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This results from extracting the relations between Climate Change Adaptation measures and factors using our algorithm (Gil-Clavel & Filatova, 2024). More details in Figure A2, Appendix A, as explained in Gil-Clavel et al. (2024).",
+        "label": "1_FloodsSLR_NetworkData.csv",
+        "restricted": false,
+        "version": 5,
+        "datasetVersionId": 23808,
+        "categories": [
+          "Climate Change Adaptation",
+          "Data",
+          "Factors",
+          "Floods",
+          "Measures",
+          "Sea-Level Rise"
+        ],
+        "dataFile": {
+          "id": 240523,
+          "persistentId": "",
+          "filename": "1_FloodsSLR_NetworkData.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 379997,
+          "description": "This results from extracting the relations between Climate Change Adaptation measures and factors using our algorithm (Gil-Clavel & Filatova, 2024). More details in Figure A2, Appendix A, as explained in Gil-Clavel et al. (2024).",
+          "categories": [
+            "Climate Change Adaptation",
+            "Data",
+            "Factors",
+            "Floods",
+            "Measures",
+            "Sea-Level Rise"
+          ],
+          "storageIdentifier": "surf://store:192dd0c0fe3-52a70381d97a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c73c11d65d5746aa3aec3b65f59799730e60c0e7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-30",
+          "publicationDate": "2024-11-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This database provides the dictionary to map each Climate Change Adaptation measure into their type of adaptation (incremental vs. transformational) according to the literature.",
+        "label": "2_Farmers_AdaptationDictionary.csv",
+        "restricted": false,
+        "version": 5,
+        "datasetVersionId": 23808,
+        "categories": [
+          "Climate Change Adaptation",
+          "Data",
+          "Factors",
+          "Farmers",
+          "Measures"
+        ],
+        "dataFile": {
+          "id": 240524,
+          "persistentId": "",
+          "filename": "2_Farmers_AdaptationDictionary.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5465,
+          "description": "This database provides the dictionary to map each Climate Change Adaptation measure into their type of adaptation (incremental vs. transformational) according to the literature.",
+          "categories": [
+            "Climate Change Adaptation",
+            "Data",
+            "Factors",
+            "Farmers",
+            "Measures"
+          ],
+          "storageIdentifier": "surf://store:192dd0c30b6-a11a1481e0d1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b8f0eb8ec9e8ab9c99f1ae226f35d143be95f947"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-30",
+          "publicationDate": "2024-11-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Script to transform the network (“2_Farmers_NetworkData.csv”) into a database.",
+        "label": "2_Farmers_DataHandling.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 23808,
+        "categories": [
+          "Code"
+        ],
+        "dataFile": {
+          "id": 240520,
+          "persistentId": "",
+          "filename": "2_Farmers_DataHandling.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 4163,
+          "description": "Script to transform the network (“2_Farmers_NetworkData.csv”) into a database.",
+          "categories": [
+            "Code"
+          ],
+          "storageIdentifier": "surf://store:192dd0c311c-7d4ae0430839",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "14e40fbc2112747d7e70a933101cd70aec812841"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-30",
+          "publicationDate": "2024-11-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Results from using “2_Farmers_DataHandling.R” script to transform the network (“2_Farmers_NetworkData.csv”) into a database where all the network connections are considered as explained in Gil-Clavel et al. (2023).",
+        "label": "2_Farmers_DerivedData_A.csv",
+        "restricted": false,
+        "version": 5,
+        "datasetVersionId": 23808,
+        "categories": [
+          "Climate Change Adaptation",
+          "Data",
+          "Factors",
+          "Farmers",
+          "Measures"
+        ],
+        "dataFile": {
+          "id": 240519,
+          "persistentId": "",
+          "filename": "2_Farmers_DerivedData_A.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 171867,
+          "description": "Results from using “2_Farmers_DataHandling.R” script to transform the network (“2_Farmers_NetworkData.csv”) into a database where all the network connections are considered as explained in Gil-Clavel et al. (2023).",
+          "categories": [
+            "Climate Change Adaptation",
+            "Data",
+            "Factors",
+            "Farmers",
+            "Measures"
+          ],
+          "storageIdentifier": "surf://store:192dd0c31a3-560aef660a88",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a53027103ffc9c45416e88c01674840e40c4433a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-30",
+          "publicationDate": "2024-11-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Results from using “2_Farmers_DataHandling.R” script to transform the network (“2_Farmers_NetworkData.csv”) into a database where only the connections between Climate Change Adaptation measures and factors are considered as explained in Appendix A.",
+        "label": "2_Farmers_DerivedData_B.csv",
+        "restricted": false,
+        "version": 5,
+        "datasetVersionId": 23808,
+        "categories": [
+          "Climate Change Adaptation",
+          "Data",
+          "Factors",
+          "Farmers",
+          "Measures"
+        ],
+        "dataFile": {
+          "id": 240522,
+          "persistentId": "",
+          "filename": "2_Farmers_DerivedData_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 156881,
+          "description": "Results from using “2_Farmers_DataHandling.R” script to transform the network (“2_Farmers_NetworkData.csv”) into a database where only the connections between Climate Change Adaptation measures and factors are considered as explained in Appendix A.",
+          "categories": [
+            "Climate Change Adaptation",
+            "Data",
+            "Factors",
+            "Farmers",
+            "Measures"
+          ],
+          "storageIdentifier": "surf://store:192dd0c3206-b1fb4ff2272a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "73a09ad2c432b99ae664a0e1cc602fa4a4c894b4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-30",
+          "publicationDate": "2024-11-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This is the result from extracting the relations between Climate Change Adaptation measures and factors using our algorithm (Gil-Clavel & Filatova, 2024). More details in Figure A2, Appendix A, as explained in Gil-Clavel et al. (2023).",
+        "label": "2_Farmers_NetworkData.csv",
+        "restricted": false,
+        "version": 5,
+        "datasetVersionId": 23808,
+        "categories": [
+          "Climate Change Adaptation",
+          "Data",
+          "Factors",
+          "Farmers",
+          "Measures"
+        ],
+        "dataFile": {
+          "id": 240517,
+          "persistentId": "",
+          "filename": "2_Farmers_NetworkData.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1164644,
+          "description": "This is the result from extracting the relations between Climate Change Adaptation measures and factors using our algorithm (Gil-Clavel & Filatova, 2024). More details in Figure A2, Appendix A, as explained in Gil-Clavel et al. (2023).",
+          "categories": [
+            "Climate Change Adaptation",
+            "Data",
+            "Factors",
+            "Farmers",
+            "Measures"
+          ],
+          "storageIdentifier": "surf://store:192dd0c32d5-302419bf31e5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "aad0ddf6c871945b83558d1af69e039bb0425a56"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-30",
+          "publicationDate": "2024-11-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Description of the data in this repository and how it was derived.",
+        "label": "Interrelated_CCA_Measures_Factors_SC3.pdf",
+        "restricted": false,
+        "version": 5,
+        "datasetVersionId": 23808,
+        "categories": [
+          "Climate Change Adaptation",
+          "Data",
+          "Documentation",
+          "Factors",
+          "Measures"
+        ],
+        "dataFile": {
+          "id": 247703,
+          "persistentId": "",
+          "filename": "Interrelated_CCA_Measures_Factors_SC3.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1520773,
+          "description": "Description of the data in this repository and how it was derived.",
+          "categories": [
+            "Climate Change Adaptation",
+            "Data",
+            "Documentation",
+            "Factors",
+            "Measures"
+          ],
+          "storageIdentifier": "surf://store:19340526599-e25b04e442bf",
+          "rootDataFileId": 247694,
+          "previousDataFileId": 247694,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ff3948329441d62732e83bbbf87da1a2d8e85cde"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-18",
+          "publicationDate": "2024-11-21",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "S. Gil-Clavel; T. Filatova, 2024, \"Interrelated Climate Change Adaptation Measures and Factors\", https://doi.org/10.17026/SS/PYZCXK, DANS Data Station Social Sciences and Humanities, V2"
+  }
+}

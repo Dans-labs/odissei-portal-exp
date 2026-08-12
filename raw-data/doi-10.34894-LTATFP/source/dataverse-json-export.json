@@ -1,0 +1,1811 @@
+{
+  "id": 456898,
+  "identifier": "LTATFP",
+  "persistentUrl": "https://doi.org/10.34894/LTATFP",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-11-07",
+  "storageIdentifier": "surf://10.34894/LTATFP",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 29850,
+    "datasetId": 456898,
+    "datasetPersistentId": "doi:10.34894/LTATFP",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/LTATFP",
+    "versionNumber": 1,
+    "internalVersionNumber": 25,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2024-10-29",
+    "productionDate": "2024-10-29",
+    "lastUpdateTime": "2024-11-07T13:08:40Z",
+    "releaseTime": "2024-11-07T13:08:40Z",
+    "createTime": "2024-10-29T11:56:28Z",
+    "publicationDate": "2024-11-07",
+    "citationDate": "2024-11-07",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "termsOfAccess": "Requests for reuse of the data must be within the scope of the purposes of this study as described in the informed consent form: This study aims to assess the accuracy and precision of a developed eye tracker, including its ability to measure head orientation. The goal is to improve the system's range and user comfort.\n",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: GAZE AND VERGENCE MEASUREMENTS WITH STEREOSCOPIC EYE-TRACKER"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Validation of a stereoscopic eye-tracker"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pijpaert, Arthur"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "amsterdamumc.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pijpaert, Arthur"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Amsterdam UMC"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Rijn, René"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Amsterdam UMC"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dataset containing comprehensive eye-tracking data, including pupil and corneal coordinates, point of gaze (POG) in various units, axis angles and center of rotation locations."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-10-29"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Engineering",
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "eye tracking"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "pupil data"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "point of gaze"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "center of rotation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "glint data"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "vergence"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Amsterdam UMC"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Amsterdam UMC"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-10-29"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Amsterdam"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "TKI-LSH"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Amsterdam UMC"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-10-29"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Pijpaert, Arthur"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-10-29"
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-04-01"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-06-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              ".npz (NumPy Python binary file)"
+            ]
+          },
+          {
+            "typeName": "series",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "seriesName": {
+                  "typeName": "seriesName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "eye-tracking fixation metadata"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Python"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3.10.12"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/LTATFP"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:5468aae7-051c-48b0-8b4b-88ace34760d6"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-ba9aa130-2924-4337-9b60-d15cf140c6be"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "data_measurement_left.npz",
+        "restricted": true,
+        "directoryLabel": "s003/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456920,
+          "persistentId": "",
+          "filename": "data_measurement_left.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1208464,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8244973-42d578894e68",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b4ca845a6a243fe92896d9d37a4ca061f578752e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_left.npz",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456942,
+          "persistentId": "",
+          "filename": "data_measurement_left.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1219024,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826aa3b-63247057ddef",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ef0fefd70b78169438212664a7166f63016fb343"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_left.npz",
+        "restricted": true,
+        "directoryLabel": "s001/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456905,
+          "persistentId": "",
+          "filename": "data_measurement_left.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1229584,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d822b66f-3e19cfe74c3d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efd35cde4d8d1d1d37f1cf87898f940ece0a68a8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_left.npz",
+        "restricted": true,
+        "directoryLabel": "s006/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456930,
+          "persistentId": "",
+          "filename": "data_measurement_left.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1215184,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8266c16-7d2434815644",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e4de64f8c40a19c17164987c92fef87584da22bc"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_left.npz",
+        "restricted": true,
+        "directoryLabel": "s005/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456927,
+          "persistentId": "",
+          "filename": "data_measurement_left.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1238224,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8263553-4a6e5ca142a8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9f9a3b684bf0c34fac004549d97813dc24e3da0f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_left.npz",
+        "restricted": true,
+        "directoryLabel": "s004/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456924,
+          "persistentId": "",
+          "filename": "data_measurement_left.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1193584,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d825d413-d44556a1efee",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ea75ae6c78822fa4eef230124d26bbbbb80594d7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement.npz",
+        "restricted": true,
+        "directoryLabel": "s001/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456904,
+          "persistentId": "",
+          "filename": "data_measurement.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2192064,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d822b618-c1636ef80fee",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9873141d90ce62f954ec9f540d95ed4a7e44bff1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement.npz",
+        "restricted": true,
+        "directoryLabel": "s003/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456915,
+          "persistentId": "",
+          "filename": "data_measurement.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2149664,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8244917-001f2b4a0f24",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "155f713176c237326f89f8cee9eeb19d25b2688a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement.npz",
+        "restricted": true,
+        "directoryLabel": "s004/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456922,
+          "persistentId": "",
+          "filename": "data_measurement.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2161536,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d825d3c1-cc0b8b9d48b3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2f77e8f161db7c391bb048718ba56724da880ac3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement.npz",
+        "restricted": true,
+        "directoryLabel": "s005/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456926,
+          "persistentId": "",
+          "filename": "data_measurement.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2153480,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8263507-21716125431a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "293cbbe00709573376599880700caf333abe3907"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement.npz",
+        "restricted": true,
+        "directoryLabel": "s006/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456929,
+          "persistentId": "",
+          "filename": "data_measurement.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2139064,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8266bb7-2c6251659d6f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4d7e952f7ac2c146927fadb2af470fcd8fa76f5d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement.npz",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456934,
+          "persistentId": "",
+          "filename": "data_measurement.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2172984,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826a9ee-68bf88236f4b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d611b681d897c6fdabacb1e884b7a7637a11bd1a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_right.npz",
+        "restricted": true,
+        "directoryLabel": "s004/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456923,
+          "persistentId": "",
+          "filename": "data_measurement_right.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1220964,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d825d455-1f39fa935508",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6ae37fc4e7100edc248c6cf96dfe289a8c92156d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_right.npz",
+        "restricted": true,
+        "directoryLabel": "s005/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456925,
+          "persistentId": "",
+          "filename": "data_measurement_right.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1213284,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826359c-019a2124f883",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "616973746d27d8579de1c0f7e97407d24c3b67e9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_right.npz",
+        "restricted": true,
+        "directoryLabel": "s006/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456928,
+          "persistentId": "",
+          "filename": "data_measurement_right.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1230084,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8266c64-d433ff00dd3c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d7a3a8c973cbe800a4effd7911e08c9b601e6350"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_right.npz",
+        "restricted": true,
+        "directoryLabel": "s001/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456901,
+          "persistentId": "",
+          "filename": "data_measurement_right.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1238004,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d822b6af-41d42b288237",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b3f3b69f0610b71bb2cf30f98e06d52eae2f9943"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_right.npz",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456940,
+          "persistentId": "",
+          "filename": "data_measurement_right.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1235124,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826aa7d-92935dbcbe70",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "11570470ff29198f60c26af92c6dc1a48842fb54"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_measurement_right.npz",
+        "restricted": true,
+        "directoryLabel": "s003/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456921,
+          "persistentId": "",
+          "filename": "data_measurement_right.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1210644,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d82449be-1c728ae2cee9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "748d35ac613bf8dd940b7aea8557245d52fef762"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_1.npz",
+        "restricted": true,
+        "directoryLabel": "s001/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456903,
+          "persistentId": "",
+          "filename": "data_vergence_distance_1.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 565214,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d822b6eb-86b9ea6a04ce",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "33e37676383524f1f4d506f81abad03fe98360b1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_1.npz",
+        "restricted": true,
+        "directoryLabel": "s003/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456917,
+          "persistentId": "",
+          "filename": "data_vergence_distance_1.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 526934,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8244a03-99fe7c180789",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4875f4ea57460c4dd9f8e202cccb0fa26560a636"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_1.npz",
+        "restricted": true,
+        "directoryLabel": "s002/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456914,
+          "persistentId": "",
+          "filename": "data_vergence_distance_1.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 561694,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d823da5e-5e7f47fc2b7b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "25d6b148f94839e8209fa09bfac674a917f3047c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_1.npz",
+        "restricted": true,
+        "directoryLabel": "s008/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456946,
+          "persistentId": "",
+          "filename": "data_vergence_distance_1.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 563014,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8273c2c-12d8cf3effc1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cea7aecd8931392961951e2cfbc0b783133cf558"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_1.npz",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456931,
+          "persistentId": "",
+          "filename": "data_vergence_distance_1.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 549814,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826aab5-f141dd9a816b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "05f65b485790babb44bdb131eccf99d145ecab75"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_2.npz",
+        "restricted": true,
+        "directoryLabel": "s001/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456902,
+          "persistentId": "",
+          "filename": "data_vergence_distance_2.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 570494,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d822b723-24bccc3ef416",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f446ebd62010857e9e3bcbdd1b4e1ee7c8883c3d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_2.npz",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456937,
+          "persistentId": "",
+          "filename": "data_vergence_distance_2.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 586334,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826aae7-b6b1d4f1a720",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c0f34cdc0d9e467e43294cb5b14eb4fe69ebe617"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_2.npz",
+        "restricted": true,
+        "directoryLabel": "s002/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456911,
+          "persistentId": "",
+          "filename": "data_vergence_distance_2.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 566534,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d823da9d-538e6987a3cc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "75a9e507be53f51670c973706d6a008e576abf9e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_2.npz",
+        "restricted": true,
+        "directoryLabel": "s008/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456943,
+          "persistentId": "",
+          "filename": "data_vergence_distance_2.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 574014,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8273c73-d3c05a179443",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6d2a3f2e0c7b81b3931555c8bdec02ba11ae7eae"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_2.npz",
+        "restricted": true,
+        "directoryLabel": "s003/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456919,
+          "persistentId": "",
+          "filename": "data_vergence_distance_2.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 554654,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8244a41-a3b9e3b675a3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "81987f585b3176fc0267207d2196ff7277f6dae5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_3.npz",
+        "restricted": true,
+        "directoryLabel": "s008/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456944,
+          "persistentId": "",
+          "filename": "data_vergence_distance_3.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 581934,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8273cb4-596b4e16f725",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "303e9394b86231ad8ef1e96a2fad2e25d82561f4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_3.npz",
+        "restricted": true,
+        "directoryLabel": "s003/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456918,
+          "persistentId": "",
+          "filename": "data_vergence_distance_3.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 555974,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8244a7d-9db8de39fdaa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a41c955938fc90802f8439fa3075436bde5179d3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_3.npz",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456939,
+          "persistentId": "",
+          "filename": "data_vergence_distance_3.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 572254,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826ab21-10c4857c9d42",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8f4f52ae1b8ffc745391cd9d5de7ea2f296b7a1d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_3.npz",
+        "restricted": true,
+        "directoryLabel": "s001/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456900,
+          "persistentId": "",
+          "filename": "data_vergence_distance_3.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 576654,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d822b757-bc20b21accc7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "490dfa3d04664b6993e4f8d291f755a0f0fd160a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_distance_3.npz",
+        "restricted": true,
+        "directoryLabel": "s002/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456912,
+          "persistentId": "",
+          "filename": "data_vergence_distance_3.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 563894,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d823dad8-c61ad3713d98",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5e21a883f41ba3ef83ce34200ad2e1397b8f441d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_pupil.npz",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456941,
+          "persistentId": "",
+          "filename": "data_vergence_pupil.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 338614,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826ab52-31a1f93a5b29",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ae104be1ac57888373e36b6971a42e1db545c893"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_pupil.npz",
+        "restricted": true,
+        "directoryLabel": "s003/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456916,
+          "persistentId": "",
+          "filename": "data_vergence_pupil.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 343894,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8244ab6-0eef54df19b3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "42f34e66a2a8899a10769f5ff3539838b563b4b0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_pupil.npz",
+        "restricted": true,
+        "directoryLabel": "s008/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456945,
+          "persistentId": "",
+          "filename": "data_vergence_pupil.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 344774,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d8273ced-c95deb3c9e8d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a8593035386c3bccd319829ac655a5e73e3cf38e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_pupil.npz",
+        "restricted": true,
+        "directoryLabel": "s002/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456910,
+          "persistentId": "",
+          "filename": "data_vergence_pupil.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 322334,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d823db12-4c9043b65e2f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a390f88c55d769a71e41b6af0d75b05274517153"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "data_vergence_pupil.npz",
+        "restricted": true,
+        "directoryLabel": "s001/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456899,
+          "persistentId": "",
+          "filename": "data_vergence_pupil.npz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 333334,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d822b791-c530826b63c1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2f15c94bd6ead642a7674e1b0057e2b2f2c52746"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "E12. Informatiebrief incl. toestemmingsverklaring template.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 457901,
+          "persistentId": "",
+          "filename": "E12. Informatiebrief incl. toestemmingsverklaring template.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 210474,
+          "storageIdentifier": "surf://store:193056cd661-d145beda0fa7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e0e0f6c939329784ab082226550599c1a3c1a4ba"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-07",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "eye_tracking_fixation_metadata.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 457900,
+          "persistentId": "",
+          "filename": "eye_tracking_fixation_metadata.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 6716,
+          "storageIdentifier": "surf://store:193056c9f2a-ed401fb522fb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "abfe98f8783dcdbddd1bca78a51a4397238be5fe"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-07",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 457902,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1083,
+          "storageIdentifier": "surf://store:193056cd88e-38d429952100",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ed3c657275dc5cdae47470639ced9dc26b7c30d5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-07",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "VERGENCE_PUPIL_data_ccs.npy",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456933,
+          "persistentId": "",
+          "filename": "VERGENCE_PUPIL_data_ccs.npy",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 236287,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826ab84-d74f66ac45fa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2294d9218dd67bf6dd4d6224fb3c22e1189400a5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "VERGENCE_PUPIL_data_ccs.npy",
+        "restricted": true,
+        "directoryLabel": "s002/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456909,
+          "persistentId": "",
+          "filename": "VERGENCE_PUPIL_data_ccs.npy",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 224743,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d823db43-31b0d8ac4d99",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1e84e355733da4c0ac533e1258d2c2e524df2590"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "VERGENCE_PUPIL_data_gaze.npy",
+        "restricted": true,
+        "directoryLabel": "s002/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456913,
+          "persistentId": "",
+          "filename": "VERGENCE_PUPIL_data_gaze.npy",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 195815,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d823db79-e8fca75af4f2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9fb25356b2196f3adc2f3cc80c4f50a9cf9b1c40"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "VERGENCE_PUPIL_data_gaze.npy",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456935,
+          "persistentId": "",
+          "filename": "VERGENCE_PUPIL_data_gaze.npy",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 205879,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826abb5-1e9c3a1f69b7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "54a419decceca0ef195c2933c369c3e64a6f4b54"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "VERGENCE_PUPIL_data_gaze_per_stimulus.npy",
+        "restricted": true,
+        "directoryLabel": "s002/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456908,
+          "persistentId": "",
+          "filename": "VERGENCE_PUPIL_data_gaze_per_stimulus.npy",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 74954,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d823dbab-a9c377edf359",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9543188899798f02d7a1f64a1ae39a14c8e93a18"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "VERGENCE_PUPIL_data_gaze_per_stimulus.npy",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456936,
+          "persistentId": "",
+          "filename": "VERGENCE_PUPIL_data_gaze_per_stimulus.npy",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 53066,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826abe5-d2d32ba12f7a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6617e96a48173fea62bcd27fde99c10462117f68"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "VERGENCE_PUPIL_data_pupil_area.npy",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456932,
+          "persistentId": "",
+          "filename": "VERGENCE_PUPIL_data_pupil_area.npy",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 18561,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826ac11-add1c403a37d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "04c4fd57f616829d711382258af68a52e0c2fe50"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "VERGENCE_PUPIL_data_pupil_area.npy",
+        "restricted": true,
+        "directoryLabel": "s002/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456907,
+          "persistentId": "",
+          "filename": "VERGENCE_PUPIL_data_pupil_area.npy",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 17673,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d823dbda-711afbe91d85",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "af55b5c579bb83b883e2c8104a581d35e2907ed0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "VERGENCE_PUPIL_data_scs.npy",
+        "restricted": true,
+        "directoryLabel": "s007/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456938,
+          "persistentId": "",
+          "filename": "VERGENCE_PUPIL_data_scs.npy",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 72857,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d826ac47-787bf39dab86",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f815c3b2b4e02b8bb0738d9ffd133acf3c6900ab"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "VERGENCE_PUPIL_data_scs.npy",
+        "restricted": true,
+        "directoryLabel": "s002/analysis data",
+        "version": 2,
+        "datasetVersionId": 29850,
+        "dataFile": {
+          "id": 456906,
+          "persistentId": "",
+          "filename": "VERGENCE_PUPIL_data_scs.npy",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 69305,
+          "retention": {
+            "dateUnavailable": "2035-04-01"
+          },
+          "storageIdentifier": "surf://store:192d823dc15-59211227bc26",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c62467e84abad0a1de9f1a3338c283cba03d925d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-29",
+          "publicationDate": "2024-11-07",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Pijpaert, Arthur, 2024, \"Replication Data for: GAZE AND VERGENCE MEASUREMENTS WITH STEREOSCOPIC EYE-TRACKER\", https://doi.org/10.34894/LTATFP, DataverseNL, V1"
+  }
+}

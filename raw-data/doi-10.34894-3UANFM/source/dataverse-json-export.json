@@ -1,0 +1,959 @@
+{
+  "id": 570312,
+  "identifier": "3UANFM",
+  "persistentUrl": "https://doi.org/10.34894/3UANFM",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-12-02",
+  "storageIdentifier": "surf://10.34894/3UANFM",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32165,
+    "datasetId": 570312,
+    "datasetPersistentId": "doi:10.34894/3UANFM",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/3UANFM",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2010-09-01",
+    "productionDate": "2010-09-01",
+    "lastUpdateTime": "2025-12-02T15:48:35Z",
+    "releaseTime": "2025-12-02T15:48:35Z",
+    "createTime": "2025-12-02T15:48:33Z",
+    "publicationDate": "2025-12-02",
+    "citationDate": "2025-12-02",
+    "termsOfUse": "This dataset is made available without information on how it can be used. You should communicate with the Contact(s) specified before use.",
+    "termsOfAccess": "certifies, in respect of the dataset made available to him/her by the International Institute of Social History (hereinafter called: IISG) and the Historical Sample of the Population of the Netherlands (hereinafter called: HSN), that he or she:\n\n1\twill consult the data incorporated in the dataset solely for the purpose of scientific research or statistics, and that these data are required for specific research purposes or specific statistics;\n\n2\twill provide the HSN with the title and aim of the research (maximum 50 words) for each dataset provided by the HSN and each research subject that will be undertaken by the researcher;\n\n3\tagrees that he/she will be included in the license register of the HSN with each licensed dataset and each specific research;\n\n4\tagrees that he/she will keep the HSN informed about each new intended subject of research with each licensed dataset, so that the HSN is able to upkeep the license register;\n\n5\tagrees that the HSN will inform all involved researchers in case the same subject is investigated by more than one researcher or research group;\n\n6\tguarantees that he or she will strictly observe all the statutory regulations concerning the data contained in the dataset, including, in particular, the provisions contained in or based on General Data Protection Regulation (GDPR; Regulation EU 2016/679) as implemented by the Uitvoeringswet Algemene Verordening Gegevensbescherming (UAVG; Staatsblad 2018, 144);\n\n7\tis acquainted with HSN's privacy regulations and in using the dataset will strictly observe these regulations, in particular by warranting the anonymity of the data and guaranteeing that the results for which the data are used cannot be traced back to individual natural persons;\n\n8\twill not use the data in the dataset in order to search for additional information about individual persons, regardless of whether these persons are included in the dataset; except with written consent by the HSN;\n\n9\trecognizes that all the intellectual or industrial property rights in the  dataset, the software, the hardware or other (accompanying) materials remain with IISG and/or HSN or its licensors, and certifies that he or she will not reproduce or copy (parts of) the dataset, the software or other (accompanying) materials for other than internal use;\n\n10\tindemnifies IISG and HSN against all claims made by third parties, arising from violation by him or her of the statutory regulations concerning the data, including violation of the on General Data Protection Regulation (GDPR; Regulation EU 2016/679);\n\n11\tundertakes to keep secret the data in the dataset, not to divulge them to, put them at the disposal of or make them available for use by third parties, and to utilize them solely for the purpose for which IISG/HSN has provided them to him or her;\n\n12\twill not alter, add to or remove data in the dataset without the written consent of HSN’s Board;\n\n13\twill transfer all enrichment to the dataset like coding or linking results to the HSN as soon as possible;\n\n14\twill report to HSN all errors, inconsistencies or ambiguities found by him or her as soon as possible;\n\n15\tin case of publication of the results in any form (presentations, books, articles etc.) for which he or she has used the dataset in a direct or indirect way, he or she will credit the HSN according to the citation rules of the HSN which will be provided by the HSN in the documentation belonging to each specific dataset;\n\n16\tnotifying the HSN of all kind of publications (presentations, books, articles etc.) for which he or she has used the dataset and send a copy of each publication to HSN;\n\n17\twill pay to the IISG/HSN the amount of € nihil to compensate the costs of making the dataset available;\n",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Historical Sample of the Netherlands (HSN) Data Set Life Courses Release 2010.01"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Historical Sample of the Netherlands (HSN)"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IISG Data & Augmentation"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HSN release 2010.01 makes 37.137 life courses available for scientific research from the birth period 1850-1922.\n\nPlease <b>let us know</b> about your publications via ask @ iisg.nl and <b>cite the dataset</b> as:\n<br><br>\nHistorical Sample of the Netherlands (HSN). 2010. Data Set Life Courses (Release 2010.01). Retrieved from https://hdl.handle.net/10622/PCM0ZX<br><br> , and subsequent citations as: <br><br>HSN Data Set Life Courses Release 2010.01.\n<br><br>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2010"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2010-09-01"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2010-09-01"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Mandemakers, Kees"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-10-12"
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Netherlands"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicBoundingBox",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "westLongitude": {
+                  "typeName": "westLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3.3708631707774"
+                },
+                "eastLongitude": {
+                  "typeName": "eastLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "7.21097183227545"
+                },
+                "northLatitude": {
+                  "typeName": "northLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "53.465827133613"
+                },
+                "southLatitude": {
+                  "typeName": "southLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "50.7538821310873"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/3UANFM"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:0eafca94-0a9f-4dac-a3f8-50bb4295ad2c"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-82a862fa-2ab4-4295-9cd7-f70ed7bb615d"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "Bev347hw_nieuw_doc.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570313,
+          "persistentId": "",
+          "filename": "Bev347hw_nieuw_doc.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 64512,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfb7783e-f73cae48cd5c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "71ce5bfe479225465a6cd327d8c8256cb4631660"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Bev351PK_doc.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570314,
+          "persistentId": "",
+          "filename": "Bev351PK_doc.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 112128,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfb77951-f0eaf6770a69",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9c0cc40de3a83a1584a125f80ba3b51360bd75c0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Bev405bv_doc.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570315,
+          "persistentId": "",
+          "filename": "Bev405bv_doc.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 269824,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfb77a8c-20aac020f12f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e1939db98545114c14d49561a38ef8939f6c4bc9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Bev405bv_doc_ENG.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570316,
+          "persistentId": "",
+          "filename": "Bev405bv_doc_ENG.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 165376,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfb77bb6-fec7c9fe3b45",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1467f0fd30e32dbdee12fa6cf29ad580e705e3d5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "BEVADRES.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570317,
+          "persistentId": "",
+          "filename": "BEVADRES.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 168367664,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfb7ce42-55d8de821956",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "277d8129bad4e0f1fa10d6f33127a309fe0e825f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "BEVBRON.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570318,
+          "persistentId": "",
+          "filename": "BEVBRON.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 52307512,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfb7f020-4ad86355a3a0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1835739ca7a67349ffac132e01690b87d4ce94ab"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "BEVDYNAP.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570334,
+          "persistentId": "",
+          "filename": "BEVDYNAP.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3243245568,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbe5104-a2721a048667",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "374e598602d0c8e827bedf758583d82bbe0475f9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "BEVHUISH.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570335,
+          "persistentId": "",
+          "filename": "BEVHUISH.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7983998,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbecb63-cc7685874c31",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a0f2c79231d47e378f19a13d15a7ad5f03817a0d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "BEVOBS.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570336,
+          "persistentId": "",
+          "filename": "BEVOBS.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 69627453,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbeea57-eaf797f67e31",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9c5d4d9abce72158a9ce02b67c2eee1ceddd4d19"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "BEVOP.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570337,
+          "persistentId": "",
+          "filename": "BEVOP.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7175639,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbef172-e030e94f0099",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cb041f05a55fbdc1308ea3ce0aad3781a2f00401"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "BEVSTATP.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570338,
+          "persistentId": "",
+          "filename": "BEVSTATP.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 170150893,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf4359-297e0dd2973c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6f3a6b060d5bebac5f81748f54a163fb550e55fd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Building life courses.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570339,
+          "persistentId": "",
+          "filename": "Building life courses.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 2204869,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf4c69-88c4bb58ec03",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "69de2ca4bf000b7193580881d8a4d6de04f89601"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Documentatie HSN_locatiedatabase_2008_01_verkort.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570340,
+          "persistentId": "",
+          "filename": "Documentatie HSN_locatiedatabase_2008_01_verkort.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 74240,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf4f2e-dbae764a81b0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2c10a1d2e302115f45c5e17080b26ee84a0afde4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Documentation HSN_locationdatabase_2008_01_abridged version.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570341,
+          "persistentId": "",
+          "filename": "Documentation HSN_locationdatabase_2008_01_abridged version.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 62464,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf5084-6540845d046d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "191a2030b213b9517783a8c0f979d0a470d16791"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "General_documentation_HSN release 2010_01.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570342,
+          "persistentId": "",
+          "filename": "General_documentation_HSN release 2010_01.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 237172,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf5221-2f684b6082f8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6c50d44615e13ff4a7620252829865a6c8562ae6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HISCO_file_for_the_Netherlands_version__July_22,_2009.xls",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570343,
+          "persistentId": "",
+          "filename": "HISCO_file_for_the_Netherlands_version__July_22,_2009.xls",
+          "contentType": "application/vnd.ms-excel",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 6132224,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf570f-5061dca6b21e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "59402bf28c7fb11b4148f2c2b2f72c0e3edf158d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HSN_certificates_release_2010_01.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570344,
+          "persistentId": "",
+          "filename": "HSN_certificates_release_2010_01.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 42496,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf5911-807865b141ac",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b5a0b3b7323b0cabe3e29ed2b9503e32cde06b28"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HSN_Locatie_2008_01.mdb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570345,
+          "persistentId": "",
+          "filename": "HSN_Locatie_2008_01.mdb",
+          "contentType": "application/x-msaccess",
+          "friendlyType": "MS Access",
+          "filesize": 14172160,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf6310-d18c74482908",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eb233e24aeeee6d73f18a3d4977dde344d7e0c9c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HSN_status_RP_release_2010_01.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570346,
+          "persistentId": "",
+          "filename": "HSN_status_RP_release_2010_01.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 33792,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf6548-8d4e85959405",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9efeebf7d9fe3d558f88139c807e62989cc6466f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HSN_status_RP_release_2010_01.mdb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570347,
+          "persistentId": "",
+          "filename": "HSN_status_RP_release_2010_01.mdb",
+          "contentType": "application/x-msaccess",
+          "friendlyType": "MS Access",
+          "filesize": 4968448,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf6975-660774c2a8f0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bc634e308d2a9c08563f9c533f1f75195ea212eb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HUWAFKON.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570348,
+          "persistentId": "",
+          "filename": "HUWAFKON.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4398866,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf6d91-a196715a0ca8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "884436e261e6155aff14c816e79a4d869db71c41"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HUWAKTE.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570349,
+          "persistentId": "",
+          "filename": "HUWAKTE.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4285409,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf7218-2f73812e7029",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2b32a06d4df8f0d8c0059ea24c7d13b3f1be074d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "HUWPERS.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570350,
+          "persistentId": "",
+          "filename": "HUWPERS.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 46484765,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf8a3a-da0980fd9356",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1cd6c60b5e46944e5775d3191f24181f0fbc66c4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "PKADR.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570351,
+          "persistentId": "",
+          "filename": "PKADR.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 22036376,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbf9b79-23ebb36428cf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "665858fa2450c86783c4354adffe6092ad6efd65"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "PKBRON.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570352,
+          "persistentId": "",
+          "filename": "PKBRON.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4749948,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbfa109-1bd6a38a555c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "07f7755388806176a6136aceafc9ecd2e67d5bcc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "PKDYNAP.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570353,
+          "persistentId": "",
+          "filename": "PKDYNAP.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 80749832,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbfcb3e-15ad8ace324d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5fadd7a4008c5e5d4207adcb573f5f6e6d1d0c5c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "PKFAMVB.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570354,
+          "persistentId": "",
+          "filename": "PKFAMVB.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4719426,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbfd1ca-fb807be12747",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8eee8c26bf1839603be4c30a7e7a5637ee499b61"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "PKSTATP.DBF",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 32165,
+        "dataFile": {
+          "id": 570355,
+          "persistentId": "",
+          "filename": "PKSTATP.DBF",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 49539653,
+          "description": "",
+          "storageIdentifier": "surf://store:19adfbfe97b-c970ecba9c85",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b90313571b68b370236856cd181fed5981d1cbd2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-02",
+          "publicationDate": "2025-12-02",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Historical Sample of the Netherlands (HSN), 2025, \"Historical Sample of the Netherlands (HSN) Data Set Life Courses Release 2010.01\", https://doi.org/10.34894/3UANFM, DataverseNL, V1"
+  }
+}

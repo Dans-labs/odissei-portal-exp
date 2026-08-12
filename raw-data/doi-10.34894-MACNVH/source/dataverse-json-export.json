@@ -1,0 +1,1565 @@
+{
+  "id": 512674,
+  "identifier": "MACNVH",
+  "persistentUrl": "https://doi.org/10.34894/MACNVH",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-23",
+  "storageIdentifier": "surf://10.34894/MACNVH",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31469,
+    "datasetId": 512674,
+    "datasetPersistentId": "doi:10.34894/MACNVH",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/MACNVH",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2020-01-17",
+    "lastUpdateTime": "2025-08-23T11:28:16Z",
+    "releaseTime": "2025-08-23T11:28:16Z",
+    "createTime": "2025-08-22T06:40:29Z",
+    "publicationDate": "2025-08-23",
+    "citationDate": "2025-08-23",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Decoding fairness motivations - repository"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.11294645"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Speer, Sebastian"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Boksem, Maarten"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Speer, Sebastian"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rotterdam School of Management <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<div>Repository of Data, Scripts and Files </div><div><b><br></b></div><div><b>Neural Data:</b></div><div><br></div><div><u>Files:</u></div><div><br></div><div><i>Neural_data_D1.zip </i>- the neural data from study 1</div><div><i>Neural_data_D2.zip</i> - the neural data from study 2</div><div><i>ROIs.zip</i> - Regions of interest extracted from neurosynth masks (Cognitive Control & ToM)</div><div><i>Searchlight_ROIs.zip</i> - Regions of interest extracted from the Searchlight results</div><div><br></div><div>Neural data and regions of interest (ROI) used in the analyses. </div><div>Specifically, <i>Neural_data_D1.zip</i> & <i>Neural_data_D2.zip </i>contain t-statistics maps obtained from a single trial GLM for multivariate pattern analysis (see details below). </div><div>Further, onset files for the decisions phase of each trial are included. </div><div>In addition, Region of interests in the<i> ROI.zip</i> file are regions of interests obtained from neurosynth <a href=\"https://neurosynth.org/.\" target=\"_blank\">https://https://neurosynth.org/.</a> </div><div>The ROIs in the <i>Searchlight_ROIs.zip</i> were extracted from the Searlight results map. </div><div>These data and ROIs were used in following paper:</div><div>S.P.H. Speer & M.A.S. Boksem (2019). Decoding fairness motivations from multivariate brain activity patterns. In Social Cognitive and Affective Neuroscience . Oxford University Press</div><div><br></div><div><br></div><div><u>Processing of included data:</u></div><div><u><br></u></div><div> All fMRI data underwent the standard FSL (5.0) preprocessing pipeline. </div><div>Anatomical scans were reoriented to the FSL standard orientation and skull-stripped. </div><div>The functional data was motion corrected to the mean image using FSL’s MCFLIRT and coregistered to the anatomical scan and normalized to the standard MNI brain using boundary-based registration (FSL FLIRT & FNIRT).</div><div>Subsequently, Gaussian high-pass filtering with 100 seconds FWHM was applied.</div><div>To obtain neural activation patterns for multivariate analysis individual time series were modeled using a double γ hemodynamic response function in a single trial GLM design using FSL’s FEAT. </div><div>Specifically, one GLM fitted a hemodynamic response function (HRF) for each trial, following the Least-Squares all (LSA) approach (Mumford, Turner, Ashby, & Poldrack, 2012), </div><div>using the six seconds prior to the keypress in each trial, resulting in 48 (12 trials * 4 conditions) parameter estimates of sustained activations for each participant. </div><div>Specifically, there were 12 trials of UG and DG in the social condition (human opponent) and 12 trials of both games in the non-social condition (computer opponent).</div><div> The resulting β-values were converted to t-values (Misaki, Kim, Bandettini, & Kriegeskorte, 2010), resulting in a whole-brain pattern of t-values for each trial.</div><div><br></div><div><b>Scripts:</b><br></div><div><br></div><div><u>Files:</u></div><div><br></div><div><i>Analysis_for_Repo.ipynb</i> - All analysis conducted for the paper</div><div><i>nipype_init_new.py</i> - file to set up the environment</div><div><br></div><div><br></div><div>Scripts Used for fMRI analyses, including MVPA ROI classification and searchlight analyses reported in the following paper: </div><div>S.P.H. Speer & M.A.S. Boksem (2019). Decoding fairness motivations from multivariate brain activity patterns. In Social Cognitive and Affective Neuroscience . Oxford University Press</div><div>Specifically, the scripts used for classifcation analysis on neurosynth ROIs and the scripts for the searchlight are included. All analysis were conducted in Python 2.7.</div><div><br></div><div><b>Behavioral Data:</b><br></div><div><br></div><div><u>Files:</u> \t</div><div><br></div><div><i>DifffereceOffers.csv </i>- Offers made by participants in Study 1</div><div><i>Diffs_W.csv</i> - Offers made by participants in Study 2</div><div><br></div><div><i>Individual-differences-in-offers2.png</i> - Plot of individual differences as illustrated in the paper</div><div><i>Individual-differences-MeanOffers.png </i>- Individual differences in mean offers in both games as illustrated in the Appendix</div><div><i>SocialvsNonSocial2.png </i>- Difference in Offers between Selfish and strategic players when playing against humans and computers</div><div><br></div><div>Behavioral Data, specfically Ultimatum Game and Dictator Game Offers and Plots resulting from behavioral analysis reported in the following paper:</div><div><br></div><div>S.P.H. Speer & M.A.S. Boksem (2019). Decoding fairness motivations from multivariate brain activity patterns. In Social Cognitive and Affective Neuroscience . Oxford University Press</div><div><br></div><div><u>Participants: </u></div><div><u><br></u></div><div>The reported analyses are based on 31 participants from two separate studies. </div><div>The reason for running two studies was driven by funding issues. </div><div>We ran out of funding half-way through the data collection and once we obtained additional funding continued with the data collection. No significant differences in demographics were identified between samples. All participants were right-handed with normal or corrected to normal vision, </div><div>and no record of neurological or psychiatric diseases. The studies were approved by the university Ethics Committees and were conducted according to the Declaration of Helsinki.</div><div><br></div><div><u>Task: </u></div><div><u><br></u></div><div>Participants played a mixed Ultimatum/Dictator Game in the MRI scanner. </div><div>On 24 trials, participants received €20 and had to decide how to split the endowment between themselves and an opponent. </div><div>On each trial they were presented with a picture of the opponent before and during the decision process,</div><div> in order to ensure that participants knew they were playing against a different human player on each trial.</div><div> The pictures used in the study were obtained from the NimStim face database (Tottenham et al., 2009). </div><div>We selected faces which were categorized as neutral and most representative of our participant population in terms of age and ethnicity. </div><div>This was done to minimize the effect of the difference in faces on offers made in the games. </div><div>Further choosing a representative sample of pictures was intended to increase the credibility of our cover story that participants played against previous participants.</div><div> On half of the trials, the opponents were able to reject the offer, which would result in both the participant and opponent receiving nothing (UG). </div><div>On the other half of the trials the opponents were passive recipients and could not reject the offer (DG). </div><div>The critical difference between these conditions is that in the UG trials the participant can be punished for unfair offers whereas in the DG trials no punishment is possible.</div><div> In the non-social control condition (24 trials), participants played against a computer algorithm, allegedly programmed to mimic human behaviour. </div><div>Again, half of the trials in the control condition were UG trials and the other half DG trials. </div><div>Practice trials were implemented to in order to familiarize the participants with the task. </div><div>In addition, participants were told that they were playing against participants who had previously participated in the study. </div><div>As mentioned above, pictures of opponents were chosen with the aim of maximizing representativeness of the sample used in order to increase credibility of the story.</div><div>The trials started with a screen that presented a picture of the opponent and their power to reject the offer or not (UG or DG). </div><div>Subsequently, the response options appeared, 0 to 14 € in steps of two, and participants could indicate their choice.</div><div> Lastly, a wait screen appeared for eight seconds.</div><div><br></div><div><b>Output Neural Analysis:</b></div><div><br></div><div><u>Files: </u></div><div><br></div><div><i>BNS-Human-KP6s-Game-Combined-permtest-5000_0.05.nii.gz</i> - map obtained from Searchlight analysis</div><div><i>Corr_classAcc-Offer-*.jpg </i>- plots of correlation between classification accuracy and difference in offer for ROIs from Searchlight analysis</div><div><i>UFS_mask_Human_CogControl.jpg </i>- plots of correlation between classification accuracy and difference in offer for the whole cognitive control map from neurosynth (after feature selection)</div><div><i>UFS_mask_Human_CogControl.jpg</i> - plots of correlation between classification accuracy and difference in offer for the whole ToM map from neurosynth (after feature selection)</div><div><i>remaining *.jpg </i>- plots showing correlation between classification accuracy and difference in individual ROIs from ToM and cognitive control network</div><div><br></div><div>Plots and neural output files from analyses and results reported in the following paper:</div><div><br></div><div>S.P.H. Speer & M.A.S. Boksem (2019). Decoding fairness motivations from multivariate brain activity patterns. In Social Cognitive and Affective Neuroscience . Oxford University Press</div><div><br></div><div>Specifically the data contains the plots illustrating the relationship between classification accuracy on game type and difference in offers between games.</div><div>In addition, the searchlight map reported in the paper is added.</div><div><br></div>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Neuroimaging"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Neuroeconomics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Machine Learning"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Behavioral Neuroscience"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Behavioural Neuroscience"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p><p><p>If you use this dataset, please cite: Speer, Sebastian; Boksem, Maarten (2020). Decoding fairness motivations - repository. Erasmus University Rotterdam (EUR). Dataset. <a href=\"https://doi.org/10.25397/eur.11294645\" target=\"_blank\">https://doi.org/10.25397/eur.11294645</a><p>"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-01-17"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Speer, Sebastian"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2019-11-28"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/MACNVH"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d42f6492-3e8e-4375-bbfa-97ce2ed484d6"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-7c8eef68-88ed-4986-8b28-ab2412753918"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Analysis_for_Repo.ipynb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512713,
+          "persistentId": "",
+          "filename": "Analysis_for_Repo.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 701334,
+          "storageIdentifier": "surf://store:198d0865214-8edc222024d3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "68b9740f892e053622449a8ef772bbfb10dad47b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BNS-Human-KP6s-Game-Combined-permtest-5000_0.05.nii.gz",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512708,
+          "persistentId": "",
+          "filename": "BNS-Human-KP6s-Game-Combined-permtest-5000_0.05.nii.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 36820,
+          "storageIdentifier": "surf://store:198d0865247-2e9f48cbd38b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d09031dd10422e0ec353e51c5ce776974c94c15a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "CogControl_mask.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512717,
+          "persistentId": "",
+          "filename": "CogControl_mask.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 148685,
+          "storageIdentifier": "surf://store:198d086dfec-9168462483bc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7aeb22c05e34641fcb9e392c434fa451d84b2536"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Corr_ClassAcc-Offer_L_Angular-NEW.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512706,
+          "persistentId": "",
+          "filename": "Corr_ClassAcc-Offer_L_Angular-NEW.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 20237,
+          "storageIdentifier": "surf://store:198d0865273-d41c216863da",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "85d6d090fec3c296cc7166f234be4cb34bf7c52c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Corr_ClassAcc-Offer_L_IFG-NEW.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512679,
+          "persistentId": "",
+          "filename": "Corr_ClassAcc-Offer_L_IFG-NEW.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 19916,
+          "storageIdentifier": "surf://store:198d08652aa-adff5c536302",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "984d361223ba240e42d0eef452e52618851998cd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Corr_ClassAcc-Offer_L_MTG-NEW.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512703,
+          "persistentId": "",
+          "filename": "Corr_ClassAcc-Offer_L_MTG-NEW.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 19324,
+          "storageIdentifier": "surf://store:198d08652e2-9e2ea000dcc9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "681d73edf34cea2ac9183a02e454bb90da51362e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Corr_ClassAcc-Offer_PreSMA-NEW.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512683,
+          "persistentId": "",
+          "filename": "Corr_ClassAcc-Offer_PreSMA-NEW.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 22439,
+          "storageIdentifier": "surf://store:198d086531a-1dbc0b7d1e91",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bf14491b7c43b18053c7872e2245aea258aa4070"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Corr_ClassAcc-Offer_R_occipital-NEW.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512714,
+          "persistentId": "",
+          "filename": "Corr_ClassAcc-Offer_R_occipital-NEW.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 20044,
+          "storageIdentifier": "surf://store:198d0865352-c489a9f5a40d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1c467f9dcb3de7a3b798a7638841841a5001f6a4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Corr_ClassAcc-Offer_R_Premotor-NEW.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512691,
+          "persistentId": "",
+          "filename": "Corr_ClassAcc-Offer_R_Premotor-NEW.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 23491,
+          "storageIdentifier": "surf://store:198d086538e-174b094dac50",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4f40c033bf86014d7cb523656f4d9d345e4a7546"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Corr_ClassAcc-Offer_R_TPJ-NEW.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512701,
+          "persistentId": "",
+          "filename": "Corr_ClassAcc-Offer_R_TPJ-NEW.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 18085,
+          "storageIdentifier": "surf://store:198d08653c4-d690d9ed258b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4703021b54fc92415bbc21a196c2a37f1134ec94"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Corr_ClassAcc-Offer_vmPFC-NEW.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512686,
+          "persistentId": "",
+          "filename": "Corr_ClassAcc-Offer_vmPFC-NEW.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 18395,
+          "storageIdentifier": "surf://store:198d08653f9-92933c1204de",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4babcfc15d638cad4181cadde1b166e25e012ca2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "DifferenceOffers.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512694,
+          "persistentId": "",
+          "filename": "DifferenceOffers.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5347,
+          "storageIdentifier": "surf://store:198d0865433-362cbcdd7798",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fe10bb033d92966947b11957168e9caeeb995300"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Diffs_W.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512685,
+          "persistentId": "",
+          "filename": "Diffs_W.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1244,
+          "storageIdentifier": "surf://store:198d086545f-585e9538c204",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8d84da41629d1f05d73221f2fde8a024a657e837"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Individual-differences-in-offers2.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512705,
+          "persistentId": "",
+          "filename": "Individual-differences-in-offers2.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 10669,
+          "storageIdentifier": "surf://store:198d086548a-a751d62738c7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5e51202aa60da75de86ae353c31f91f34f844985"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Individual-differences-MeanOffers.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512676,
+          "persistentId": "",
+          "filename": "Individual-differences-MeanOffers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 17252,
+          "storageIdentifier": "surf://store:198d08654c6-aef45b756398",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ca59e3a6fd3ce71a144e2bebe22199a80f9d830c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "L_angular.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512727,
+          "persistentId": "",
+          "filename": "L_angular.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4871,
+          "storageIdentifier": "surf://store:198d086dff3-b7ba58316996",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ac8b2b717e449a6c36ddc9cdfe9a9fdb4be2cb60"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "L_Angular.nii.gz",
+        "restricted": false,
+        "directoryLabel": "Searchlight_ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512709,
+          "persistentId": "",
+          "filename": "L_Angular.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4159,
+          "storageIdentifier": "surf://store:198d08657e3-e0c7cf6873e8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c7866644e984d4602357ea959e2b029c5f80ec90"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "L_cereb.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512719,
+          "persistentId": "",
+          "filename": "L_cereb.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4330,
+          "storageIdentifier": "surf://store:198d086dff7-1dd86a8a3805",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5de85f7277a097ca189d8a8cbbc3b30d6b32ee22"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Left dlPFC.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512707,
+          "persistentId": "",
+          "filename": "Left dlPFC.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 29160,
+          "storageIdentifier": "surf://store:198d0865507-f34816623ef8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3bda92633bfe15ae572d701f7fdd65c50c862d28"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Left Temporal Pole.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512682,
+          "persistentId": "",
+          "filename": "Left Temporal Pole.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 28682,
+          "storageIdentifier": "surf://store:198d0865538-663293420b94",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f241e31df3a0850f41c404051687ea3b61f4dfde"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Left TPJ.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512681,
+          "persistentId": "",
+          "filename": "Left TPJ.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 28939,
+          "storageIdentifier": "surf://store:198d086556b-74a712e5fc65",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7dc05a0552a32c9a34fa5bebeab115364ec830cd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "L_IFG.nii.gz",
+        "restricted": false,
+        "directoryLabel": "Searchlight_ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512684,
+          "persistentId": "",
+          "filename": "L_IFG.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4135,
+          "storageIdentifier": "surf://store:198d08657f0-bae1d77f3abe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7c5f0b961045e025572bc31b36ca1d0335cca545"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "L_MTG.nii.gz",
+        "restricted": false,
+        "directoryLabel": "Searchlight_ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512680,
+          "persistentId": "",
+          "filename": "L_MTG.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4141,
+          "storageIdentifier": "surf://store:198d08657e8-9af687b79efd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1c4b7d795c6a90dd590f2dd664f9ed7e0182b80a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "L_temppole.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512720,
+          "persistentId": "",
+          "filename": "L_temppole.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 5555,
+          "storageIdentifier": "surf://store:198d086dffb-36c520e8f93a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2a06cc9ad1fb87e3c78766fd52332117925d3381"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MPFC.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512698,
+          "persistentId": "",
+          "filename": "MPFC.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 25256,
+          "storageIdentifier": "surf://store:198d08655a1-a67219981eb7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "62defd586e61e90ee3f776a551ac69f55199c485"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MPFC.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512724,
+          "persistentId": "",
+          "filename": "MPFC.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 5427,
+          "storageIdentifier": "surf://store:198d086e00e-a1daa53a1660",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8376a3a2a227e81da5aa1a4e67522978a5a2cd62"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "nipype_init_new.py",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512700,
+          "persistentId": "",
+          "filename": "nipype_init_new.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 1664,
+          "storageIdentifier": "surf://store:198d08655d9-061b99679486",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0140032368ed66a1848e038e89bd728420ed484d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "NoMotor_final.nii",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512718,
+          "persistentId": "",
+          "filename": "NoMotor_final.nii",
+          "contentType": "image/nii",
+          "friendlyType": "NIfTI Image",
+          "filesize": 3610868,
+          "storageIdentifier": "surf://store:198d086e020-07cc9b09d50c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9760bbf7af3beff0987653f118866452d0b587c5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "PCC.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512702,
+          "persistentId": "",
+          "filename": "PCC.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 27965,
+          "storageIdentifier": "surf://store:198d0865602-bcf35bd75bb1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "522cffb6be689c9721942e31bb312698c00c9b59"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Precuneus.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512704,
+          "persistentId": "",
+          "filename": "Precuneus.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 26553,
+          "storageIdentifier": "surf://store:198d086563c-6c8556775070",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f4a7ed30b65ecc73b45c541b1bdddc63df546e65"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "precuneus.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512716,
+          "persistentId": "",
+          "filename": "precuneus.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 5000,
+          "storageIdentifier": "surf://store:198d086e013-4b02930135ec",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8b3b2cbb2875b9f4d095c0c31c10d675eea97683"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "PreSMA.nii.gz",
+        "restricted": false,
+        "directoryLabel": "Searchlight_ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512692,
+          "persistentId": "",
+          "filename": "PreSMA.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4131,
+          "storageIdentifier": "surf://store:198d08657f4-c2ec4d1ac94a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2a2f07950b11de855c4754d591082382588c9f1d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "R_angular.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512721,
+          "persistentId": "",
+          "filename": "R_angular.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 5085,
+          "storageIdentifier": "surf://store:198d086e017-220a43da2a5f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "baa0930706f682a443c0b95a870ff229e5eb9644"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "R_cerebellum.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512722,
+          "persistentId": "",
+          "filename": "R_cerebellum.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4370,
+          "storageIdentifier": "surf://store:198d086e01b-94843c3f0bcf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "468173b62a60b35deba63c869d15d66a0f86f734"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Readme.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512697,
+          "persistentId": "",
+          "filename": "Readme.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 8619,
+          "storageIdentifier": "surf://store:198d0865673-5ed51f18002f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8c29249686892c4f04ddc7432c6d37637003d0e4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "R_IFG.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512725,
+          "persistentId": "",
+          "filename": "R_IFG.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4376,
+          "storageIdentifier": "surf://store:198d086e009-f8b5e351ac75",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "273977daf31d2824a6448dcd0088301c2b629871"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Right dlPFC.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512712,
+          "persistentId": "",
+          "filename": "Right dlPFC.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 29728,
+          "storageIdentifier": "surf://store:198d086569f-c6c5d918ef87",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "71f2dac07fe235d17d6e38ffe711823a01ce7cbb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Right IFG.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512710,
+          "persistentId": "",
+          "filename": "Right IFG.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 26297,
+          "storageIdentifier": "surf://store:198d08656d8-83cd9417fe8e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ebce55b3774c6780a7760d19d5a5f616fb685f91"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Right Insula.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512711,
+          "persistentId": "",
+          "filename": "Right Insula.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 28962,
+          "storageIdentifier": "surf://store:198d086570f-092462b0819e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2e2f2a374a9b04de01c6b9997cfd24bb41839cd1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Right Lateral PFC.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512678,
+          "persistentId": "",
+          "filename": "Right Lateral PFC.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 30656,
+          "storageIdentifier": "surf://store:198d0865744-836d73b8ab0b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1837782c9884dbcec43ccc87ea39f09de154d3a7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Right Temporal Pole.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512687,
+          "persistentId": "",
+          "filename": "Right Temporal Pole.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 28139,
+          "storageIdentifier": "surf://store:198d0865776-5df235ce5c64",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e5300698e1b72cddf6f7ec1db85b86d2f969b7f0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Right TPJ.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512677,
+          "persistentId": "",
+          "filename": "Right TPJ.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 27625,
+          "storageIdentifier": "surf://store:198d08657ae-169d7cf9566b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dffa1131e8f3530b5b10d585cdddc6ce7e57e903"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "R_occipital.nii.gz",
+        "restricted": false,
+        "directoryLabel": "Searchlight_ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512689,
+          "persistentId": "",
+          "filename": "R_occipital.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4126,
+          "storageIdentifier": "surf://store:198d08657ff-246cafd728c0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e29543096e829424ae40fdcee51a3ccb632e2c8a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "R_Premotor.nii.gz",
+        "restricted": false,
+        "directoryLabel": "Searchlight_ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512695,
+          "persistentId": "",
+          "filename": "R_Premotor.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 3697,
+          "storageIdentifier": "surf://store:198d08657fb-16225240104f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "34f82bb0052ee80e7f0e8ec0b05a2001516ffa6c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "R_temppole.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512715,
+          "persistentId": "",
+          "filename": "R_temppole.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 5173,
+          "storageIdentifier": "surf://store:198d086e000-9ce3a3c15092",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "17fcada696bfed5f2967661f13b34979c2e92fbc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "R_TPJ.nii.gz",
+        "restricted": false,
+        "directoryLabel": "Searchlight_ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512690,
+          "persistentId": "",
+          "filename": "R_TPJ.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4134,
+          "storageIdentifier": "surf://store:198d08657f8-92412ac004ac",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6dbd38bfbcb898b5c343141508c3d253db1a4cd8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "SocialvsNonSocial2.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512688,
+          "persistentId": "",
+          "filename": "SocialvsNonSocial2.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 13460,
+          "storageIdentifier": "surf://store:198d086583b-bd1dd4641ca2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "18404985a477fbdd853eb962ae7cbf14dc53a997"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ToM_mask.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512723,
+          "persistentId": "",
+          "filename": "ToM_mask.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 238481,
+          "storageIdentifier": "surf://store:198d086dfe4-63abbf825b46",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cebb8cf45db5fd3c68ac5d55e45dcb197312fe82"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "UFS_mask_Human_CogControl.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512696,
+          "persistentId": "",
+          "filename": "UFS_mask_Human_CogControl.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 29906,
+          "storageIdentifier": "surf://store:198d0865875-aba7cddf559a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9344b2018d4716b82dd55535caf5edbfe2731975"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "UFS_mask_Human_ToM.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512699,
+          "persistentId": "",
+          "filename": "UFS_mask_Human_ToM.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 28685,
+          "storageIdentifier": "surf://store:198d08658b2-a4bc24865169",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8e6c5f2db535f39117588f2237d78f5c10c027d3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "vmPFC.jpg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512675,
+          "persistentId": "",
+          "filename": "vmPFC.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 25521,
+          "storageIdentifier": "surf://store:198d08658ee-a0824a0357f2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "942a7621c7899f744c0048ab8ae2093e17e06aa1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "vmPFC.nii.gz",
+        "restricted": false,
+        "directoryLabel": "Searchlight_ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512693,
+          "persistentId": "",
+          "filename": "vmPFC.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4125,
+          "storageIdentifier": "surf://store:198d08657ec-233bf8743609",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "364e34b2ee8cba9409145e7355dd21d4a227db6f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "vmPFC.nii.gz",
+        "restricted": false,
+        "directoryLabel": "ROIs",
+        "version": 1,
+        "datasetVersionId": 31469,
+        "dataFile": {
+          "id": 512726,
+          "persistentId": "",
+          "filename": "vmPFC.nii.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4483,
+          "storageIdentifier": "surf://store:198d086e004-84ed041c1d5a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f63a63725fd47c9752bc2a93eb1f7e903440d3a5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-23",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Speer, Sebastian; Boksem, Maarten, 2025, \"Decoding fairness motivations - repository\", https://doi.org/10.34894/MACNVH, DataverseNL, V1"
+  }
+}

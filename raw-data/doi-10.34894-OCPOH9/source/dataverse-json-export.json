@@ -1,0 +1,1082 @@
+{
+  "id": 512632,
+  "identifier": "OCPOH9",
+  "persistentUrl": "https://doi.org/10.34894/OCPOH9",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-22",
+  "storageIdentifier": "surf://10.34894/OCPOH9",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31495,
+    "datasetId": 512632,
+    "datasetPersistentId": "doi:10.34894/OCPOH9",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/OCPOH9",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2024-12-13",
+    "lastUpdateTime": "2025-08-22T15:34:38Z",
+    "releaseTime": "2025-08-22T15:34:38Z",
+    "createTime": "2025-08-22T15:34:28Z",
+    "publicationDate": "2025-08-22",
+    "citationDate": "2025-08-22",
+    "termsOfUse": "In-Copyright – <a href=\"https://rightsstatements.org/page/InC/1.0/\" target=\"_blank\">https://rightsstatements.org/page/InC/1.0/</a>",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Disinformation for Hire"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.27868341"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stoop, Jan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-9718-4851"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cohn, Alain"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stoop, Jan"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus School of Economics <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p dir=\"ltr\">The replication material includes the do files and datasets to replicate the results in tables, figures and text of the main manuscript and the appendix. The code constructs the results from the field data and additional experiments we ran on Prolific and MTurk. The material contains 4 code files, all ending with “.do”. The code was last run using Stata (version 18.0) on MacOS. The replicator should expect the code to run under 5 minutes on a standard (2024) desktop machine.</p><p dir=\"ltr\"><b>Background</b> The spread of misinformation has been linked to increased social divisions and adverse health outcomes, but less is known about the production of disinformation, which is misinformation intended to mislead.</p><p dir=\"ltr\"><b>Method</b> The main data used in this paper has been collected by the authors using the Mturk interface (Field Experiment) or Qualtrics (Manipulation Check, Downstream Consequences, and Platform Interventions). It is available in the replication package. Our survey design and selection eligibility are included in the Supplementary Document in this depository.</p><p dir=\"ltr\"><b>Results</b> In a field experiment on MTurk (N=1,197), we found that while 70% of workers accepted a control job, 61% accepted a disinformation job requiring them to manipulate COVID-19 data. To quantify the trade-off between ethical and financial considerations in job acceptance, we introduced a lower-pay condition offering half the wage of the control job; 51% of workers accepted this job, suggesting that the ethical compromise in the disinformation task reduced the acceptance rate by about the same amount as a 25% wage reduction.</p><p dir=\"ltr\">A survey experiment with a nationally representative sample shows that viewing a disinformation graph from the field experiment negatively affected people’s beliefs and behavioral intentions related to the COVID-19 pandemic, including increased vaccine hesitancy.</p><p dir=\"ltr\"><b>Conclusion</b> Using a “wisdom-of-crowds” approach, we highlight how online labor markets can introduce features, such as increased worker accountability, to reduce the likelihood of workers engaging in the production of disinformation. Our findings emphasize the importance of addressing the supply side of disinformation in online labor markets to mitigate its harmful societal effects.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Disinformation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Field Experiment"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Online Labor Markets"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Unethical Work"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Behavioural Economics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a twenty-two-file data package totaling 9.2 MB, containing files in .txt, .pdf, .sav, .odt, .dta, .do, .csv and .ods formats.<p><p>If you use this dataset, please cite: Stoop, Jan; Cohn, Alain (2024). Disinformation for Hire. Erasmus University Rotterdam (EUR). Dataset. <a href=\"https://doi.org/10.25397/eur.27868341\" target=\"_blank\">https://doi.org/10.25397/eur.27868341</a><p>"
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "[Grant Label: Vidi grant VI.Vidi.195.061]"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-12-13"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stoop, Jan"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-11-20"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-01-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-01-01"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherGeographicCoverage": {
+                  "typeName": "otherGeographicCoverage",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The United States (50 States), the District of Columbia (D.C), and Puerto Rico"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "socialscience": {
+        "displayName": "Social Science and Humanities Metadata",
+        "name": "socialscience",
+        "fields": [
+          {
+            "typeName": "unitOfAnalysis",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Individual participant"
+            ]
+          },
+          {
+            "typeName": "universe",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Mturk Workers (Turkers): A large and diverse pool of workers \nProlific Workers: A curated pool of participants, with a stronger focus on quality and representation."
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/OCPOH9"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:470d757d-c04b-4523-8b5e-d91422336d65"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-6a1a628a-cd0a-484b-ab9b-02a3c81954a7"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "~$3_README-Metadata-Collection.ods",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512635,
+          "persistentId": "",
+          "filename": "~$3_README-Metadata-Collection.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 165,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d07127b3-a37beb66ae09",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c2c1cc9eaa6ca292ef53d6fccd5ec6af60186f1e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1_README.txt",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512633,
+          "persistentId": "",
+          "filename": "1_README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 181828,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0712606-b84719f52c0d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "47d07451e898368eec3aec3e4a2ec8358da071f8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "2_README.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512634,
+          "persistentId": "",
+          "filename": "2_README.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 129275,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d07126e1-95846335a1c4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "021e52d59bc364f46f41d6985042ce89b4a6a9db"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "3_README-Metadata-Collection.ods",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512637,
+          "persistentId": "",
+          "filename": "3_README-Metadata-Collection.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 39544,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0712ac8-7b52450c9699",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "97b4662c3cbcd5dc3220c7d882a41074b32c3dac"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "4_EEREV-D-24-00046_appendix.odt",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512636,
+          "persistentId": "",
+          "filename": "4_EEREV-D-24-00046_appendix.odt",
+          "contentType": "application/vnd.oasis.opendocument.text",
+          "friendlyType": "application/vnd.oasis.opendocument.text",
+          "filesize": 2423300,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d07128c2-6fbcdd44f3a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "85b330bf42d328c9e8877002af1ebcb5f5e52e4f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_CodeBook_DownstreamConsequences.ods",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/CodeBooks",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512650,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_CodeBook_DownstreamConsequences.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 7179,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d07142c6-c2d22b3c6307",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d62c0d29f9d24106ba777de76d98e448b4f76867"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_CodeBook_FieldExperiment.ods",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/CodeBooks",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512648,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_CodeBook_FieldExperiment.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 4648,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d071410b-c8a60192ddb4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8a121f54c7d8678586f7896c0c9a881075635e8c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_CodeBook_Manipulationcheck.ods",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/CodeBooks",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512647,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_CodeBook_Manipulationcheck.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 7171,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0714027-7d92af0be5de",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8fd0ddd4083e58d964f6dfdb8a9ae3d1420a9e30"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_CodeBook_PlatformIntervention.ods",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/CodeBooks",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512649,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_CodeBook_PlatformIntervention.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 6619,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d07141e2-5670d46c889f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2010619663867b922cb63a4f31d27cb87b29d771"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_Downstream_data.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/CSV_Datasets",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512642,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_Downstream_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 515149,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d07132a5-1e2470df67d1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4a9c27bf80b212899ca7ae93f7f5cbfb141bd8c9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_Downstream_data.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/Stata_Datasets",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512639,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_Downstream_data.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 591181,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0712ce8-f1e3bfbabfe8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "18dd7f891f1613b8e34d69ae2d96b99cc9324e1d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_Downstream_dofile.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/Do_Files",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512651,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_Downstream_dofile.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 15871,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d07143a1-7dc67e8a7bdf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d742f38d40dd1e8d69c5db3647ed063ed57053be"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_FieldExperiment_data.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/CSV_Datasets",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512645,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_FieldExperiment_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1087116,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0713878-46329af6b120",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "abcc5aaf52fc9297de075972856b8225f47796fc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_FieldExperiment_data.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/Stata_Datasets",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512641,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_FieldExperiment_data.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 1131296,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d071313c-06dee164f246",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d74e96a612ccd05864811fb43fee5d0800415408"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_FieldExperiment_dofile.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/Do_Files",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512652,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_FieldExperiment_dofile.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 22850,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0714493-d37764871a4a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "676768599454856ea749faacef3556c0da34f92f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_Manipulationcheck_data.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/CSV_Datasets",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512643,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_Manipulationcheck_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 336838,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0713693-b01f2201ad3e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1528a838901aafa55ab31fc4e466538270927148"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_Manipulationcheck_data.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/Stata_Datasets",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512640,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_Manipulationcheck_data.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 1682187,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d071301a-d11499fb539b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d79d40cd7a1ebf291620b05a6b5d6a020bb799cb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_Manipulationcheck_dofile.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/Do_Files",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512654,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_Manipulationcheck_dofile.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 11729,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0714d40-2618d891a917",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e5601a91cab11db550a7da4bbaf7e5f13a2f17a7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_PlatformIntervention_data.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/Stata_Datasets",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512638,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_PlatformIntervention_data.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 778090,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0712bd7-63b05cf6ee0d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "72b6440f8550df56f19746d359c57371235384fc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_PlatformIntervention_data.sav",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/CSV_Datasets",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512646,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_PlatformIntervention_data.sav",
+          "contentType": "application/x-spss-sav",
+          "friendlyType": "SPSS Binary",
+          "filesize": 472272,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0713991-ebc7cba96b5f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bba7d177f2f32c0432dc1f1c9291e2d8add537d4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_PlatformIntervention_dofile.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/Do_Files",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512653,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_PlatformIntervention_dofile.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 16220,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d0714594-1e3cd2742169",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d5bfa341c83a5f38b0fdcf3edd52727e9dab7037"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "EEREV-D-24-00046_Variable_Description.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.27868341/Disinformation_For_Hire.zip/CSV_Datasets",
+        "version": 1,
+        "datasetVersionId": 31495,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512644,
+          "persistentId": "",
+          "filename": "EEREV-D-24-00046_Variable_Description.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 65158,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198d071377f-f1ab994a593b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "aa51cafbbf5fba254297776110a4533323021326"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-22",
+          "publicationDate": "2025-08-22",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Stoop, Jan; Cohn, Alain, 2025, \"Disinformation for Hire\", https://doi.org/10.34894/OCPOH9, DataverseNL, V1"
+  }
+}

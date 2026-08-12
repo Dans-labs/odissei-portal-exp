@@ -1,0 +1,492 @@
+{
+  "id": 614503,
+  "identifier": "SKUZTC",
+  "persistentUrl": "https://doi.org/10.34894/SKUZTC",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-04-10",
+  "storageIdentifier": "surf://10.34894/SKUZTC",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34131,
+    "datasetId": 614503,
+    "datasetPersistentId": "doi:10.34894/SKUZTC",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/SKUZTC",
+    "versionNumber": 1,
+    "internalVersionNumber": 9,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-04-10T11:31:10Z",
+    "releaseTime": "2026-04-10T11:31:10Z",
+    "createTime": "2026-03-10T13:46:04Z",
+    "publicationDate": "2026-04-10",
+    "citationDate": "2026-04-10",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "One model may not fit all: Subgroup detection using model-based recursive partitioning"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fokkema, Marjolein"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/027bh9e22",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Leiden University",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-9252-8325"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Henninger, Mirka"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/02s6k3f65",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Basel",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-4676-2361"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Strobl, Carolin"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/02crff812",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-0952-3230"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Marjolein Fokkema"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Leiden University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mirka Henninger"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Basel University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Data Stewards Behavioral Sciences"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Leiden University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Model-based recursive partitioning (MOB; Zeileis et al., 2008) is a flexible framework for detecting subgroups of persons showing different effects in a wide range of parametric models. It provides a versatile tool for detecting and explaining heterogeneity in, for example, intervention studies. In this tutorial article, we introduce the general MOB framework. In two specific case studies, we illustrate how MOB-based methods can be used to detect and explain heterogeneity in two widely used frameworks in educational studies: (a) The generalized linear mixed model (GLMM) and (b) item response theory (IRT). In the first case study, we show how GLMM trees (Fokkema et al., 2018) can be used to detect subgroups with different parameters in mixed-effects models. We apply GLMM trees to longitudinal data from a study on the effects of the Head Start pre-school program to identify subgroups of families where children show comparatively larger or smaller gains in performance. In a second case study, we show how Rasch trees (Strobl et al., 2015) can be used to detect subgroups with different item parameters in IRT models (i.e. differential item functioning [DIF]). DIF should be investigated before using test  results for group comparisons. We show how a recently developed stopping criterion (Henninger et al., 2023) can be used to guide subgroup detection based on DIF effect sizes."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Decision Tree"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Differential effects"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rasch modeling"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mixed-effects models"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fokkema, M., Henninger, M., & Strobl, C. (2025). One model may not fit all: Subgroup detection using model-based recursive partitioning. Journal of School Psychology, 109, 101394. https://doi.org/10.1016/j.jsp.2024.101394"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1016/j.jsp.2024.101394"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.sciencedirect.com/science/article/pii/S0022440524001146"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The data were obtained from https://www.openicpsr.org/openicpsr/project/113563/, link also provided in this folder. This zipped folder contains the STATA data file data_Deming_2008_0217.dta and STATA script file Deming_2008_0217.do. The first author made minor changes to the latter to create Deming_2008_0217_MF.do, ran it on data_Deming_2008_0217.dta to obtain data_Deming_2008_0217_MF.dta, to which Data pre-processing Deming High-School example.R was applied to obtain HS_dat.Rda.  \n\n\nThe SPISA data was provided by the second author (Mirka Henninger) as the file dat_SPISA.Rda.\n\n\nBoth files were turned into comma separated files HeadStartData.csv and SpisaData.csv using R function write.csv."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Hoffmann, Franca; Mink, Jaap-Willem; Plomp, Willemijn"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-04-10"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/SKUZTC"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:88940196-59a0-4666-bba7-3ad36d9e723e"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-067ef3fb-69b5-4b35-8084-75b0d156f6a7"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "1. Publication.zip",
+        "restricted": false,
+        "directoryLabel": "PP Marjolein Fokkema",
+        "version": 1,
+        "datasetVersionId": 34131,
+        "dataFile": {
+          "id": 614508,
+          "persistentId": "",
+          "filename": "1. Publication.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 6239136,
+          "storageIdentifier": "surf://store:19cd805487a-417e1f6dea2d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "daae708f97a19ebeb623f184a4e8ce3f673379df"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-10",
+          "publicationDate": "2026-04-10",
+          "directoryLabel": "PP Marjolein Fokkema",
+          "lastUpdateTime": "2026-04-10T11:31:10Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2. Raw Data.zip",
+        "restricted": false,
+        "directoryLabel": "PP Marjolein Fokkema",
+        "version": 1,
+        "datasetVersionId": 34131,
+        "dataFile": {
+          "id": 614506,
+          "persistentId": "",
+          "filename": "2. Raw Data.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 60541,
+          "storageIdentifier": "surf://store:19cd80548b3-c313611847f4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "201d23ec342e4f162591065251c42954bbebfd2e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-10",
+          "publicationDate": "2026-04-10",
+          "directoryLabel": "PP Marjolein Fokkema",
+          "lastUpdateTime": "2026-04-10T11:31:10Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "3. Computer Code.zip",
+        "restricted": false,
+        "directoryLabel": "PP Marjolein Fokkema",
+        "version": 1,
+        "datasetVersionId": 34131,
+        "dataFile": {
+          "id": 614507,
+          "persistentId": "",
+          "filename": "3. Computer Code.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 2363,
+          "storageIdentifier": "surf://store:19cd80548bc-575c6102e972",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a86fb25331d7fdff1578f5284b2171621fd0e47b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-10",
+          "publicationDate": "2026-04-10",
+          "directoryLabel": "PP Marjolein Fokkema",
+          "lastUpdateTime": "2026-04-10T11:31:10Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "4. Data Pre-Processing.zip",
+        "restricted": false,
+        "directoryLabel": "PP Marjolein Fokkema",
+        "version": 1,
+        "datasetVersionId": 34131,
+        "dataFile": {
+          "id": 614504,
+          "persistentId": "",
+          "filename": "4. Data Pre-Processing.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 17065668,
+          "storageIdentifier": "surf://store:19cd80548c4-cfb8942df043",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "57b04a49ab173746dfeaea99ba280a7e36862993"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-10",
+          "publicationDate": "2026-04-10",
+          "directoryLabel": "PP Marjolein Fokkema",
+          "lastUpdateTime": "2026-04-10T11:31:10Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "5. README.txt",
+        "restricted": false,
+        "directoryLabel": "PP Marjolein Fokkema",
+        "version": 1,
+        "datasetVersionId": 34131,
+        "dataFile": {
+          "id": 614505,
+          "persistentId": "",
+          "filename": "5. README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1940,
+          "storageIdentifier": "surf://store:19cd805498e-61fb5986185c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2fdb48a104329d42d102b3db680266dc8f83aabf"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-10",
+          "publicationDate": "2026-04-10",
+          "directoryLabel": "PP Marjolein Fokkema",
+          "lastUpdateTime": "2026-04-10T11:31:10Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Fokkema, Marjolein; Henninger, Mirka; Strobl, Carolin, 2026, \"One model may not fit all: Subgroup detection using model-based recursive partitioning\", https://doi.org/10.34894/SKUZTC, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,5545 @@
+{
+  "id": 47766,
+  "identifier": "TJE0D0",
+  "persistentUrl": "https://doi.org/10.34894/TJE0D0",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-03-09",
+  "storageIdentifier": "surf://10.34894/TJE0D0",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3416,
+    "datasetId": 47766,
+    "datasetPersistentId": "doi:10.34894/TJE0D0",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/TJE0D0",
+    "versionNumber": 1,
+    "internalVersionNumber": 11,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-03-09T12:56:15Z",
+    "releaseTime": "2021-03-09T12:56:15Z",
+    "createTime": "2021-02-01T19:07:11Z",
+    "publicationDate": "2021-03-09",
+    "citationDate": "2021-03-09",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stock Values and Earnings Call Transcripts: a Sentiment Analysis Dataset"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Roozen, Dexter"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lelli, Francesco"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-1900-9171"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lelli, Francesco"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The dataset reports a collection of earnings call transcripts, the related stock prices, and the sector index In terms of volume, there is a total of 188 transcripts, 11970 stock prices, and 1196 sector index values. Furthermore, all of these data originated in the period 2016-2020 and are related to the NASDAQ stock market. \r\nFurthermore, the data collection was made possible by Yahoo Finance and Thomson Reuters Eikon. Specifically, Yahoo Finance enabled the search for stock values and Thomson Reuters Eikon provided the earnings call transcripts. \r\nLastly, the dataset can be used as a benchmark for the evaluation of several NLP techniques to understand their potential for financial applications. Moreover, it is also possible to expand the dataset by extending the period in which the data originated following a similar procedure.\r\n\r\nContact at Tilburg University: <a href=\"https://francescolelli.info/\"> Francesco Lelli <a>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-02-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Business and Management",
+              "Computer and Information Science",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NLP"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Financial data"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Earning calls"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dataset"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Roozen, D.; Lelli, F. Stock Values and Earnings Call Transcripts: a Dataset Suitable for Sentiment Analysis. Preprints 2021, 2021020424 (doi: 10.20944/preprints202102.0424.v1)."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.20944/preprints202102.0424.v1"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.preprints.org/manuscript/202102.0424/v1"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Detailed description of the dataset in the file associated to this release"
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Francesco Lelli"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://francescolelli.info/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Lelli, Francesco"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-02-01"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Miscellaneous data",
+              "xls data",
+              "Transcript data"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/TJE0D0"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:1e004f7a-5b7b-4789-b424-25f23360054e"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-dcee986c-a1a8-4038-8f04-a3ef55fd0175"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "2016-Apr-19-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47909,
+          "persistentId": "",
+          "filename": "2016-Apr-19-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 77087,
+          "storageIdentifier": "surf://store:1775efccefb-101fff62cae3",
+          "rootDataFileId": -1,
+          "md5": "1ec06151ee21aa1f56b5772b6ba225ae",
+          "checksum": {
+            "type": "MD5",
+            "value": "1ec06151ee21aa1f56b5772b6ba225ae"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Apr-20-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47780,
+          "persistentId": "",
+          "filename": "2016-Apr-20-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 74962,
+          "storageIdentifier": "surf://store:1775efccd8c-579515c130a2",
+          "rootDataFileId": -1,
+          "md5": "cf2cd7b08b5f94e19bf5895b0784b64f",
+          "checksum": {
+            "type": "MD5",
+            "value": "cf2cd7b08b5f94e19bf5895b0784b64f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Apr-21-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47828,
+          "persistentId": "",
+          "filename": "2016-Apr-21-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 74108,
+          "storageIdentifier": "surf://store:1775efccc96-862fb618263e",
+          "rootDataFileId": -1,
+          "md5": "089c9e5e4d2353163e83799871f8a0ce",
+          "checksum": {
+            "type": "MD5",
+            "value": "089c9e5e4d2353163e83799871f8a0ce"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Apr-21-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47821,
+          "persistentId": "",
+          "filename": "2016-Apr-21-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 71254,
+          "storageIdentifier": "surf://store:1775efcce7d-a894abaec559",
+          "rootDataFileId": -1,
+          "md5": "c159c181ac80a1edfaafe4c73ac4f355",
+          "checksum": {
+            "type": "MD5",
+            "value": "c159c181ac80a1edfaafe4c73ac4f355"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Apr-21-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47965,
+          "persistentId": "",
+          "filename": "2016-Apr-21-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 73435,
+          "storageIdentifier": "surf://store:1775efccf7e-a6b730a6af96",
+          "rootDataFileId": -1,
+          "md5": "203dd35dd15c58b79ef28f489d5e8e4e",
+          "checksum": {
+            "type": "MD5",
+            "value": "203dd35dd15c58b79ef28f489d5e8e4e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Apr-26-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47772,
+          "persistentId": "",
+          "filename": "2016-Apr-26-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65102,
+          "storageIdentifier": "surf://store:1775efccbfd-4ff6c46e07d0",
+          "rootDataFileId": -1,
+          "md5": "903de4d9bb4a23fe65cc00439b2b38fc",
+          "checksum": {
+            "type": "MD5",
+            "value": "903de4d9bb4a23fe65cc00439b2b38fc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Apr-28-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47871,
+          "persistentId": "",
+          "filename": "2016-Apr-28-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 58409,
+          "storageIdentifier": "surf://store:1775efccd13-96d103fb44d6",
+          "rootDataFileId": -1,
+          "md5": "51e781b5eb088cd6e6bb88f8dd16647f",
+          "checksum": {
+            "type": "MD5",
+            "value": "51e781b5eb088cd6e6bb88f8dd16647f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Aug-11-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47791,
+          "persistentId": "",
+          "filename": "2016-Aug-11-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 86406,
+          "storageIdentifier": "surf://store:1775efcd060-b04c77e7efd8",
+          "rootDataFileId": -1,
+          "md5": "94890d266b0392f4ed931a9a25f141b4",
+          "checksum": {
+            "type": "MD5",
+            "value": "94890d266b0392f4ed931a9a25f141b4"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Aug-17-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47817,
+          "persistentId": "",
+          "filename": "2016-Aug-17-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 59982,
+          "storageIdentifier": "surf://store:1775efcce05-03de96851a31",
+          "rootDataFileId": -1,
+          "md5": "d71e6236b1cdd99fbb70b1419aa6c304",
+          "checksum": {
+            "type": "MD5",
+            "value": "d71e6236b1cdd99fbb70b1419aa6c304"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Dec-21-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47875,
+          "persistentId": "",
+          "filename": "2016-Dec-21-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 82716,
+          "storageIdentifier": "surf://store:1775efccff8-5e9d768a12ce",
+          "rootDataFileId": -1,
+          "md5": "04e3c1f5e54aa0e496b4d3fadb15941f",
+          "checksum": {
+            "type": "MD5",
+            "value": "04e3c1f5e54aa0e496b4d3fadb15941f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Feb-01-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47943,
+          "persistentId": "",
+          "filename": "2016-Feb-01-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 69705,
+          "storageIdentifier": "surf://store:1775efcce83-8dc5456aaceb",
+          "rootDataFileId": -1,
+          "md5": "ad534862c2d072f34c4d1d6d1349e04e",
+          "checksum": {
+            "type": "MD5",
+            "value": "ad534862c2d072f34c4d1d6d1349e04e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Feb-10-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47930,
+          "persistentId": "",
+          "filename": "2016-Feb-10-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60676,
+          "storageIdentifier": "surf://store:1775efcce0b-8f20534b5cce",
+          "rootDataFileId": -1,
+          "md5": "34d01b785544e5e3e72efc89c9232f86",
+          "checksum": {
+            "type": "MD5",
+            "value": "34d01b785544e5e3e72efc89c9232f86"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Feb-17-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47937,
+          "persistentId": "",
+          "filename": "2016-Feb-17-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 81321,
+          "storageIdentifier": "surf://store:1775efcd066-ad86d1d1d1fe",
+          "rootDataFileId": -1,
+          "md5": "00f68ddbd18455d166c3187b2258d39b",
+          "checksum": {
+            "type": "MD5",
+            "value": "00f68ddbd18455d166c3187b2258d39b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jan-14-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47894,
+          "persistentId": "",
+          "filename": "2016-Jan-14-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 66492,
+          "storageIdentifier": "surf://store:1775efccf02-92342365363b",
+          "rootDataFileId": -1,
+          "md5": "dfab421527e6dfb8276430b1818b2e63",
+          "checksum": {
+            "type": "MD5",
+            "value": "dfab421527e6dfb8276430b1818b2e63"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jan-19-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47923,
+          "persistentId": "",
+          "filename": "2016-Jan-19-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68889,
+          "storageIdentifier": "surf://store:1775efccc9d-98bdec7fcb92",
+          "rootDataFileId": -1,
+          "md5": "0e61d8d3c073b876edc7bfbf3b6e7361",
+          "checksum": {
+            "type": "MD5",
+            "value": "0e61d8d3c073b876edc7bfbf3b6e7361"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jan-20-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47849,
+          "persistentId": "",
+          "filename": "2016-Jan-20-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 80646,
+          "storageIdentifier": "surf://store:1775efccd92-bb9cff825467",
+          "rootDataFileId": -1,
+          "md5": "58eb5b60794fdd6660119b3606724d7a",
+          "checksum": {
+            "type": "MD5",
+            "value": "58eb5b60794fdd6660119b3606724d7a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jan-26-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47890,
+          "persistentId": "",
+          "filename": "2016-Jan-26-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65538,
+          "storageIdentifier": "surf://store:1775efccc09-3334658dd53c",
+          "rootDataFileId": -1,
+          "md5": "811d4e1fb9aa340fb8c63d4a9e622e5f",
+          "checksum": {
+            "type": "MD5",
+            "value": "811d4e1fb9aa340fb8c63d4a9e622e5f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jan-28-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47919,
+          "persistentId": "",
+          "filename": "2016-Jan-28-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 63610,
+          "storageIdentifier": "surf://store:1775efccd1a-90045346f684",
+          "rootDataFileId": -1,
+          "md5": "e4ebae1e85246382494d21d0cf552106",
+          "checksum": {
+            "type": "MD5",
+            "value": "e4ebae1e85246382494d21d0cf552106"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jan-28-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47832,
+          "persistentId": "",
+          "filename": "2016-Jan-28-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 70490,
+          "storageIdentifier": "surf://store:1775efccf85-e27989733485",
+          "rootDataFileId": -1,
+          "md5": "8224f0e9b6fdab304fe84ef299f3d31d",
+          "checksum": {
+            "type": "MD5",
+            "value": "8224f0e9b6fdab304fe84ef299f3d31d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jul-19-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47960,
+          "persistentId": "",
+          "filename": "2016-Jul-19-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 73514,
+          "storageIdentifier": "surf://store:1775efccf8b-f9e3bd102d6e",
+          "rootDataFileId": -1,
+          "md5": "636ee1b831be78f7bc9619724a133ec8",
+          "checksum": {
+            "type": "MD5",
+            "value": "636ee1b831be78f7bc9619724a133ec8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jul-20-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47816,
+          "persistentId": "",
+          "filename": "2016-Jul-20-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64742,
+          "storageIdentifier": "surf://store:1775efccd98-27c4aa7184e1",
+          "rootDataFileId": -1,
+          "md5": "e5d6f4cb495d6f7275be976c011cffd9",
+          "checksum": {
+            "type": "MD5",
+            "value": "e5d6f4cb495d6f7275be976c011cffd9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jul-20-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47809,
+          "persistentId": "",
+          "filename": "2016-Jul-20-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 70291,
+          "storageIdentifier": "surf://store:1775efccf09-556b19407fcf",
+          "rootDataFileId": -1,
+          "md5": "3be9822bb26977c4cfb2fcefcc504a88",
+          "checksum": {
+            "type": "MD5",
+            "value": "3be9822bb26977c4cfb2fcefcc504a88"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jul-21-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47904,
+          "persistentId": "",
+          "filename": "2016-Jul-21-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68140,
+          "storageIdentifier": "surf://store:1775efccca4-b3839cead642",
+          "rootDataFileId": -1,
+          "md5": "547ca0a770225198098b3e57602a3c1a",
+          "checksum": {
+            "type": "MD5",
+            "value": "547ca0a770225198098b3e57602a3c1a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jul-26-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47903,
+          "persistentId": "",
+          "filename": "2016-Jul-26-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 59172,
+          "storageIdentifier": "surf://store:1775efccc12-f6df0fc9659a",
+          "rootDataFileId": -1,
+          "md5": "c4fa447be4e7dcd4b38f1bfbc238969b",
+          "checksum": {
+            "type": "MD5",
+            "value": "c4fa447be4e7dcd4b38f1bfbc238969b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jul-28-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47863,
+          "persistentId": "",
+          "filename": "2016-Jul-28-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 51920,
+          "storageIdentifier": "surf://store:1775efccd20-cd6ebd360e62",
+          "rootDataFileId": -1,
+          "md5": "5b8f41dc703b5224fcbd1a9fabae481e",
+          "checksum": {
+            "type": "MD5",
+            "value": "5b8f41dc703b5224fcbd1a9fabae481e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jul-28-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47866,
+          "persistentId": "",
+          "filename": "2016-Jul-28-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68918,
+          "storageIdentifier": "surf://store:1775efcce89-af3f64bcd7e8",
+          "rootDataFileId": -1,
+          "md5": "50e19478c9721c738b49b71e18f7efa6",
+          "checksum": {
+            "type": "MD5",
+            "value": "50e19478c9721c738b49b71e18f7efa6"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Jun-30-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47905,
+          "persistentId": "",
+          "filename": "2016-Jun-30-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 75674,
+          "storageIdentifier": "surf://store:1775efccffe-b173945b3523",
+          "rootDataFileId": -1,
+          "md5": "ed931a61cc1fa97d0485b42fb7d0cab0",
+          "checksum": {
+            "type": "MD5",
+            "value": "ed931a61cc1fa97d0485b42fb7d0cab0"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Mar-30-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47767,
+          "persistentId": "",
+          "filename": "2016-Mar-30-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 83466,
+          "storageIdentifier": "surf://store:1775efcd004-aa53a21fd9ea",
+          "rootDataFileId": -1,
+          "md5": "1c6307c187e3bade7e560c65723ef7b4",
+          "checksum": {
+            "type": "MD5",
+            "value": "1c6307c187e3bade7e560c65723ef7b4"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-May-12-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47874,
+          "persistentId": "",
+          "filename": "2016-May-12-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 69814,
+          "storageIdentifier": "surf://store:1775efcd06d-d663cf737b5b",
+          "rootDataFileId": -1,
+          "md5": "081ce565cc7666a9031bb8287cfd4d4d",
+          "checksum": {
+            "type": "MD5",
+            "value": "081ce565cc7666a9031bb8287cfd4d4d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-May-18-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47835,
+          "persistentId": "",
+          "filename": "2016-May-18-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65280,
+          "storageIdentifier": "surf://store:1775efcce11-ce61e5dafe91",
+          "rootDataFileId": -1,
+          "md5": "dd671116053dda9c20b00ffb14f96ea9",
+          "checksum": {
+            "type": "MD5",
+            "value": "dd671116053dda9c20b00ffb14f96ea9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Nov-10-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47839,
+          "persistentId": "",
+          "filename": "2016-Nov-10-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 63281,
+          "storageIdentifier": "surf://store:1775efcd072-ccdd915d867b",
+          "rootDataFileId": -1,
+          "md5": "383d28282792aef0a6059d736ae17781",
+          "checksum": {
+            "type": "MD5",
+            "value": "383d28282792aef0a6059d736ae17781"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Nov-16-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47850,
+          "persistentId": "",
+          "filename": "2016-Nov-16-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61074,
+          "storageIdentifier": "surf://store:1775efcce17-7d459e39f46a",
+          "rootDataFileId": -1,
+          "md5": "e7e9fd558c502131f425e53001a65118",
+          "checksum": {
+            "type": "MD5",
+            "value": "e7e9fd558c502131f425e53001a65118"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Oct-04-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47787,
+          "persistentId": "",
+          "filename": "2016-Oct-04-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 76227,
+          "storageIdentifier": "surf://store:1775efcd00b-adbe0d59ca53",
+          "rootDataFileId": -1,
+          "md5": "758eed911ac727e24020ca1044ca5904",
+          "checksum": {
+            "type": "MD5",
+            "value": "758eed911ac727e24020ca1044ca5904"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Oct-18-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47924,
+          "persistentId": "",
+          "filename": "2016-Oct-18-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 78098,
+          "storageIdentifier": "surf://store:1775efccf10-46da3b1df706",
+          "rootDataFileId": -1,
+          "md5": "11daebb4c445907d9dee49672326c44d",
+          "checksum": {
+            "type": "MD5",
+            "value": "11daebb4c445907d9dee49672326c44d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Oct-19-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47884,
+          "persistentId": "",
+          "filename": "2016-Oct-19-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 67286,
+          "storageIdentifier": "surf://store:1775efccd9e-48bb46ea5cf7",
+          "rootDataFileId": -1,
+          "md5": "b62dea5e791a28abd6148e251811e761",
+          "checksum": {
+            "type": "MD5",
+            "value": "b62dea5e791a28abd6148e251811e761"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Oct-20-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47800,
+          "persistentId": "",
+          "filename": "2016-Oct-20-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 55715,
+          "storageIdentifier": "surf://store:1775efcccac-411d407ad8e5",
+          "rootDataFileId": -1,
+          "md5": "4228014f32548e3be9fbd475fb2a75da",
+          "checksum": {
+            "type": "MD5",
+            "value": "4228014f32548e3be9fbd475fb2a75da"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Oct-20-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47823,
+          "persistentId": "",
+          "filename": "2016-Oct-20-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 70116,
+          "storageIdentifier": "surf://store:1775efccf91-dbb08ecd52df",
+          "rootDataFileId": -1,
+          "md5": "9a8946ebe9bf5589a54aae60ae1f0ab6",
+          "checksum": {
+            "type": "MD5",
+            "value": "9a8946ebe9bf5589a54aae60ae1f0ab6"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Oct-25-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47838,
+          "persistentId": "",
+          "filename": "2016-Oct-25-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62600,
+          "storageIdentifier": "surf://store:1775efccc19-6d0f495197f8",
+          "rootDataFileId": -1,
+          "md5": "09b4f39bdb4f68a94fa72cd446574007",
+          "checksum": {
+            "type": "MD5",
+            "value": "09b4f39bdb4f68a94fa72cd446574007"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Oct-27-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47901,
+          "persistentId": "",
+          "filename": "2016-Oct-27-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 43381,
+          "storageIdentifier": "surf://store:1775efccd26-14fb38e3becb",
+          "rootDataFileId": -1,
+          "md5": "562aa1a64e1156fcebfbd47b8290c0e9",
+          "checksum": {
+            "type": "MD5",
+            "value": "562aa1a64e1156fcebfbd47b8290c0e9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2016-Oct-27-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47798,
+          "persistentId": "",
+          "filename": "2016-Oct-27-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65384,
+          "storageIdentifier": "surf://store:1775efcce8f-c6786bdf6708",
+          "rootDataFileId": -1,
+          "md5": "f2e00aba0c4571aa0a2db57c734d83a7",
+          "checksum": {
+            "type": "MD5",
+            "value": "f2e00aba0c4571aa0a2db57c734d83a7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Apr-19-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47801,
+          "persistentId": "",
+          "filename": "2017-Apr-19-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 72955,
+          "storageIdentifier": "surf://store:1775efccda4-32a9dbcfb331",
+          "rootDataFileId": -1,
+          "md5": "636453cc98df540d793515845172d20f",
+          "checksum": {
+            "type": "MD5",
+            "value": "636453cc98df540d793515845172d20f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Apr-27-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47942,
+          "persistentId": "",
+          "filename": "2017-Apr-27-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 48140,
+          "storageIdentifier": "surf://store:1775efccd2c-23208eeee5e4",
+          "rootDataFileId": -1,
+          "md5": "b933206c8faef8f17afdfb2ba55bc6ef",
+          "checksum": {
+            "type": "MD5",
+            "value": "b933206c8faef8f17afdfb2ba55bc6ef"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Apr-27-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47922,
+          "persistentId": "",
+          "filename": "2017-Apr-27-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 69692,
+          "storageIdentifier": "surf://store:1775efcce95-c30a256307df",
+          "rootDataFileId": -1,
+          "md5": "49ef2150c732d49c617dafc026c2faae",
+          "checksum": {
+            "type": "MD5",
+            "value": "49ef2150c732d49c617dafc026c2faae"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Apr-27-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47804,
+          "persistentId": "",
+          "filename": "2017-Apr-27-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60250,
+          "storageIdentifier": "surf://store:1775efccf16-7850b8280534",
+          "rootDataFileId": -1,
+          "md5": "08bab73deddcbc47d86408c3d8d581af",
+          "checksum": {
+            "type": "MD5",
+            "value": "08bab73deddcbc47d86408c3d8d581af"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Apr-27-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47899,
+          "persistentId": "",
+          "filename": "2017-Apr-27-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 74035,
+          "storageIdentifier": "surf://store:1775efccf98-bf5d24fd2ea5",
+          "rootDataFileId": -1,
+          "md5": "59c5930dfaaaf12e4f364a9fdc0acf60",
+          "checksum": {
+            "type": "MD5",
+            "value": "59c5930dfaaaf12e4f364a9fdc0acf60"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Aug-01-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47776,
+          "persistentId": "",
+          "filename": "2017-Aug-01-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60858,
+          "storageIdentifier": "surf://store:1775efccc21-6178fe8cf5d9",
+          "rootDataFileId": -1,
+          "md5": "685f8b11352287f4d6e1c068d3d968d1",
+          "checksum": {
+            "type": "MD5",
+            "value": "685f8b11352287f4d6e1c068d3d968d1"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Aug-10-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47826,
+          "persistentId": "",
+          "filename": "2017-Aug-10-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 69108,
+          "storageIdentifier": "surf://store:1775efcd078-774668add713",
+          "rootDataFileId": -1,
+          "md5": "1d37adf1fe56f37a43eda6784cadf8e8",
+          "checksum": {
+            "type": "MD5",
+            "value": "1d37adf1fe56f37a43eda6784cadf8e8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Aug-16-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47864,
+          "persistentId": "",
+          "filename": "2017-Aug-16-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 73316,
+          "storageIdentifier": "surf://store:1775efcce1e-c9e19499ea3f",
+          "rootDataFileId": -1,
+          "md5": "ac01246974790bd03be24417a32a0ddf",
+          "checksum": {
+            "type": "MD5",
+            "value": "ac01246974790bd03be24417a32a0ddf"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Dec-19-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47949,
+          "persistentId": "",
+          "filename": "2017-Dec-19-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 69094,
+          "storageIdentifier": "surf://store:1775efcd011-1dfd4f049dc5",
+          "rootDataFileId": -1,
+          "md5": "c45c669b363f6b069e1c7b13469df441",
+          "checksum": {
+            "type": "MD5",
+            "value": "c45c669b363f6b069e1c7b13469df441"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Feb-02-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47887,
+          "persistentId": "",
+          "filename": "2017-Feb-02-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 45126,
+          "storageIdentifier": "surf://store:1775efccd32-9feda0a886fa",
+          "rootDataFileId": -1,
+          "md5": "6bbd0efb3ac2fceaad509dec05e2bd52",
+          "checksum": {
+            "type": "MD5",
+            "value": "6bbd0efb3ac2fceaad509dec05e2bd52"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Feb-09-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47954,
+          "persistentId": "",
+          "filename": "2017-Feb-09-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62169,
+          "storageIdentifier": "surf://store:1775efcd07e-eb6f04740ee7",
+          "rootDataFileId": -1,
+          "md5": "26a16bed83c1b45e22b75134c07c97b5",
+          "checksum": {
+            "type": "MD5",
+            "value": "26a16bed83c1b45e22b75134c07c97b5"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Feb-15-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47939,
+          "persistentId": "",
+          "filename": "2017-Feb-15-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 63766,
+          "storageIdentifier": "surf://store:1775efcce24-4da6eeef07de",
+          "rootDataFileId": -1,
+          "md5": "4adb608f395c7cc9b0434785754345f2",
+          "checksum": {
+            "type": "MD5",
+            "value": "4adb608f395c7cc9b0434785754345f2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jan-18-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47928,
+          "persistentId": "",
+          "filename": "2017-Jan-18-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 69516,
+          "storageIdentifier": "surf://store:1775efccdab-0c2008248619",
+          "rootDataFileId": -1,
+          "md5": "eeb94202737db67fe0931c6578f98173",
+          "checksum": {
+            "type": "MD5",
+            "value": "eeb94202737db67fe0931c6578f98173"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jan-26-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47824,
+          "persistentId": "",
+          "filename": "2017-Jan-26-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68343,
+          "storageIdentifier": "surf://store:1775efcce9b-8fe68e1b35ae",
+          "rootDataFileId": -1,
+          "md5": "5ec5a5ebbdc01f8664aa1bcaeac0462d",
+          "checksum": {
+            "type": "MD5",
+            "value": "5ec5a5ebbdc01f8664aa1bcaeac0462d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jan-26-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47961,
+          "persistentId": "",
+          "filename": "2017-Jan-26-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 74062,
+          "storageIdentifier": "surf://store:1775efccf1e-900c68f613b7",
+          "rootDataFileId": -1,
+          "md5": "404748d709c3f550aea7a2afc06d3fe5",
+          "checksum": {
+            "type": "MD5",
+            "value": "404748d709c3f550aea7a2afc06d3fe5"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jan-26-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47856,
+          "persistentId": "",
+          "filename": "2017-Jan-26-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 75606,
+          "storageIdentifier": "surf://store:1775efccf9e-ed47a1161439",
+          "rootDataFileId": -1,
+          "md5": "58f9f64e5f4abda9be20346a45881893",
+          "checksum": {
+            "type": "MD5",
+            "value": "58f9f64e5f4abda9be20346a45881893"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jan-31-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47895,
+          "persistentId": "",
+          "filename": "2017-Jan-31-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 58016,
+          "storageIdentifier": "surf://store:1775efccc2b-8e0084b84192",
+          "rootDataFileId": -1,
+          "md5": "4d91080761b2b1b3a56bff8983acbf4d",
+          "checksum": {
+            "type": "MD5",
+            "value": "4d91080761b2b1b3a56bff8983acbf4d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jan-31-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47876,
+          "persistentId": "",
+          "filename": "2017-Jan-31-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61593,
+          "storageIdentifier": "surf://store:1775efcccb3-4d938241ae07",
+          "rootDataFileId": -1,
+          "md5": "f724bcb536c65f0ae36afe3a7339573a",
+          "checksum": {
+            "type": "MD5",
+            "value": "f724bcb536c65f0ae36afe3a7339573a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jul-19-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47885,
+          "persistentId": "",
+          "filename": "2017-Jul-19-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 72528,
+          "storageIdentifier": "surf://store:1775efccdb0-cb134352e576",
+          "rootDataFileId": -1,
+          "md5": "f58130b08c043877eb540f8a72275450",
+          "checksum": {
+            "type": "MD5",
+            "value": "f58130b08c043877eb540f8a72275450"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jul-20-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47834,
+          "persistentId": "",
+          "filename": "2017-Jul-20-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 70780,
+          "storageIdentifier": "surf://store:1775efccfa5-07e6b910b37f",
+          "rootDataFileId": -1,
+          "md5": "d829e65db52e63b3d7754d9db8c42770",
+          "checksum": {
+            "type": "MD5",
+            "value": "d829e65db52e63b3d7754d9db8c42770"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jul-24-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47812,
+          "persistentId": "",
+          "filename": "2017-Jul-24-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64752,
+          "storageIdentifier": "surf://store:1775efccea1-77b35e994977",
+          "rootDataFileId": -1,
+          "md5": "e5d2655e742d73a4d558420d4e5de726",
+          "checksum": {
+            "type": "MD5",
+            "value": "e5d2655e742d73a4d558420d4e5de726"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jul-25-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47945,
+          "persistentId": "",
+          "filename": "2017-Jul-25-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68046,
+          "storageIdentifier": "surf://store:1775efcccba-bb8127fdd38b",
+          "rootDataFileId": -1,
+          "md5": "ea6fae67527a37b9daaefa6bc7e5421b",
+          "checksum": {
+            "type": "MD5",
+            "value": "ea6fae67527a37b9daaefa6bc7e5421b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jul-27-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47907,
+          "persistentId": "",
+          "filename": "2017-Jul-27-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 37429,
+          "storageIdentifier": "surf://store:1775efccd3a-8777970b8f0c",
+          "rootDataFileId": -1,
+          "md5": "d32ae15a824b4e39b4123c9bf4df98a7",
+          "checksum": {
+            "type": "MD5",
+            "value": "d32ae15a824b4e39b4123c9bf4df98a7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jul-27-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47795,
+          "persistentId": "",
+          "filename": "2017-Jul-27-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62646,
+          "storageIdentifier": "surf://store:1775efccf27-84a642571609",
+          "rootDataFileId": -1,
+          "md5": "5af11fb8edbff662d079669d8a1f85ab",
+          "checksum": {
+            "type": "MD5",
+            "value": "5af11fb8edbff662d079669d8a1f85ab"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Jun-29-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47840,
+          "persistentId": "",
+          "filename": "2017-Jun-29-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 73532,
+          "storageIdentifier": "surf://store:1775efcd018-e9cc8e10200b",
+          "rootDataFileId": -1,
+          "md5": "2a42e7bbf98d11bebe0fa596eafeff71",
+          "checksum": {
+            "type": "MD5",
+            "value": "2a42e7bbf98d11bebe0fa596eafeff71"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Mar-23-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47916,
+          "persistentId": "",
+          "filename": "2017-Mar-23-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 74174,
+          "storageIdentifier": "surf://store:1775efcd01f-cabb2556ceb0",
+          "rootDataFileId": -1,
+          "md5": "0ae95851a454f2caaf1d690027501685",
+          "checksum": {
+            "type": "MD5",
+            "value": "0ae95851a454f2caaf1d690027501685"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-May-01-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47893,
+          "persistentId": "",
+          "filename": "2017-May-01-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 67164,
+          "storageIdentifier": "surf://store:1775efcccc1-e786f2ab51da",
+          "rootDataFileId": -1,
+          "md5": "194baa49961fdd0f5d11d158eca33f79",
+          "checksum": {
+            "type": "MD5",
+            "value": "194baa49961fdd0f5d11d158eca33f79"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-May-02-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47811,
+          "persistentId": "",
+          "filename": "2017-May-02-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 58972,
+          "storageIdentifier": "surf://store:1775efccc32-6cbf486c626b",
+          "rootDataFileId": -1,
+          "md5": "4f50a8082af4d9c0732cd359302ae4a9",
+          "checksum": {
+            "type": "MD5",
+            "value": "4f50a8082af4d9c0732cd359302ae4a9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-May-09-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47880,
+          "persistentId": "",
+          "filename": "2017-May-09-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65563,
+          "storageIdentifier": "surf://store:1775efcd083-0568390acb93",
+          "rootDataFileId": -1,
+          "md5": "7c5de692d58fa16e391cc00f37a12781",
+          "checksum": {
+            "type": "MD5",
+            "value": "7c5de692d58fa16e391cc00f37a12781"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-May-17-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47779,
+          "persistentId": "",
+          "filename": "2017-May-17-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 63147,
+          "storageIdentifier": "surf://store:1775efcce2a-ee092b6b551e",
+          "rootDataFileId": -1,
+          "md5": "d920b60fa5630891c80b91bf728d8a2c",
+          "checksum": {
+            "type": "MD5",
+            "value": "d920b60fa5630891c80b91bf728d8a2c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Nov-02-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47830,
+          "persistentId": "",
+          "filename": "2017-Nov-02-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 52783,
+          "storageIdentifier": "surf://store:1775efccc3a-acb4ba9affc7",
+          "rootDataFileId": -1,
+          "md5": "27a866d134edf1e3a3e3dd5e58d661a9",
+          "checksum": {
+            "type": "MD5",
+            "value": "27a866d134edf1e3a3e3dd5e58d661a9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Nov-09-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47870,
+          "persistentId": "",
+          "filename": "2017-Nov-09-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62345,
+          "storageIdentifier": "surf://store:1775efcd089-ba868b55f45c",
+          "rootDataFileId": -1,
+          "md5": "460159b6842911098df48d3a98024c55",
+          "checksum": {
+            "type": "MD5",
+            "value": "460159b6842911098df48d3a98024c55"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Nov-15-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47842,
+          "persistentId": "",
+          "filename": "2017-Nov-15-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62220,
+          "storageIdentifier": "surf://store:1775efcce30-ea960b89884c",
+          "rootDataFileId": -1,
+          "md5": "329a33f9798f17cff20e6fe91b3612aa",
+          "checksum": {
+            "type": "MD5",
+            "value": "329a33f9798f17cff20e6fe91b3612aa"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Oct-18-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47775,
+          "persistentId": "",
+          "filename": "2017-Oct-18-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 72770,
+          "storageIdentifier": "surf://store:1775efccdb7-0f40d6a32fb5",
+          "rootDataFileId": -1,
+          "md5": "a456e45cc0ade88d1f3cd0b82935d8d3",
+          "checksum": {
+            "type": "MD5",
+            "value": "a456e45cc0ade88d1f3cd0b82935d8d3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Oct-24-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47918,
+          "persistentId": "",
+          "filename": "2017-Oct-24-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 66812,
+          "storageIdentifier": "surf://store:1775efcccc7-fd2a3db2dcbe",
+          "rootDataFileId": -1,
+          "md5": "42e94eaeb9ef0cc97e80ec8c1d45694c",
+          "checksum": {
+            "type": "MD5",
+            "value": "42e94eaeb9ef0cc97e80ec8c1d45694c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Oct-26-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47774,
+          "persistentId": "",
+          "filename": "2017-Oct-26-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 43275,
+          "storageIdentifier": "surf://store:1775efccd40-d301d885c980",
+          "rootDataFileId": -1,
+          "md5": "c02d2c02c8db9bdf581d4e3ecca7a574",
+          "checksum": {
+            "type": "MD5",
+            "value": "c02d2c02c8db9bdf581d4e3ecca7a574"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Oct-26-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47793,
+          "persistentId": "",
+          "filename": "2017-Oct-26-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64498,
+          "storageIdentifier": "surf://store:1775efccea8-cbe57a7bac86",
+          "rootDataFileId": -1,
+          "md5": "1ef8eb1780f06e7fb142101d0a501b17",
+          "checksum": {
+            "type": "MD5",
+            "value": "1ef8eb1780f06e7fb142101d0a501b17"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Oct-26-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47846,
+          "persistentId": "",
+          "filename": "2017-Oct-26-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64647,
+          "storageIdentifier": "surf://store:1775efccf2e-31e749b40767",
+          "rootDataFileId": -1,
+          "md5": "bfa592411555f5edf045569a7d1795d9",
+          "checksum": {
+            "type": "MD5",
+            "value": "bfa592411555f5edf045569a7d1795d9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Oct-26-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47944,
+          "persistentId": "",
+          "filename": "2017-Oct-26-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 70699,
+          "storageIdentifier": "surf://store:1775efccfab-9c89a97b1801",
+          "rootDataFileId": -1,
+          "md5": "a2129b17db3e05bae11b4b112e06f5e3",
+          "checksum": {
+            "type": "MD5",
+            "value": "a2129b17db3e05bae11b4b112e06f5e3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2017-Sep-26-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47806,
+          "persistentId": "",
+          "filename": "2017-Sep-26-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 67537,
+          "storageIdentifier": "surf://store:1775efcd025-1da6df012f97",
+          "rootDataFileId": -1,
+          "md5": "03896a52b893e2e3af4cd0a4bdc34d25",
+          "checksum": {
+            "type": "MD5",
+            "value": "03896a52b893e2e3af4cd0a4bdc34d25"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Apr-18-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47935,
+          "persistentId": "",
+          "filename": "2018-Apr-18-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 74732,
+          "storageIdentifier": "surf://store:1775efccdbd-d30143fe0013",
+          "rootDataFileId": -1,
+          "md5": "f0582ee5007f4dffc42aab5e2745b93f",
+          "checksum": {
+            "type": "MD5",
+            "value": "f0582ee5007f4dffc42aab5e2745b93f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Apr-23-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47857,
+          "persistentId": "",
+          "filename": "2018-Apr-23-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 66619,
+          "storageIdentifier": "surf://store:1775efcceb0-d26d040d647e",
+          "rootDataFileId": -1,
+          "md5": "defbe86687d74f8fecd198c9d0c50343",
+          "checksum": {
+            "type": "MD5",
+            "value": "defbe86687d74f8fecd198c9d0c50343"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Apr-25-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47915,
+          "persistentId": "",
+          "filename": "2018-Apr-25-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 71441,
+          "storageIdentifier": "surf://store:1775efccccd-a5ce83e18b69",
+          "rootDataFileId": -1,
+          "md5": "2f9bd70f13a8c892d0bcecf99216a2f0",
+          "checksum": {
+            "type": "MD5",
+            "value": "2f9bd70f13a8c892d0bcecf99216a2f0"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Apr-26-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47813,
+          "persistentId": "",
+          "filename": "2018-Apr-26-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 41635,
+          "storageIdentifier": "surf://store:1775efccd46-7e7f1eac0ee5",
+          "rootDataFileId": -1,
+          "md5": "e8c2b25bcba8a1a71678be7a2e9abfc8",
+          "checksum": {
+            "type": "MD5",
+            "value": "e8c2b25bcba8a1a71678be7a2e9abfc8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Apr-26-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47841,
+          "persistentId": "",
+          "filename": "2018-Apr-26-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61310,
+          "storageIdentifier": "surf://store:1775efccf36-433f8eff5a15",
+          "rootDataFileId": -1,
+          "md5": "da6f990ddc28fe02a6730fec580a80ca",
+          "checksum": {
+            "type": "MD5",
+            "value": "da6f990ddc28fe02a6730fec580a80ca"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Apr-26-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47950,
+          "persistentId": "",
+          "filename": "2018-Apr-26-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 73121,
+          "storageIdentifier": "surf://store:1775efccfb2-01e8cf0d6d18",
+          "rootDataFileId": -1,
+          "md5": "31454ee9c4710affed59f972e958d426",
+          "checksum": {
+            "type": "MD5",
+            "value": "31454ee9c4710affed59f972e958d426"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Aug-15-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47788,
+          "persistentId": "",
+          "filename": "2018-Aug-15-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64377,
+          "storageIdentifier": "surf://store:1775efcce36-70eff8e279f7",
+          "rootDataFileId": -1,
+          "md5": "2c4bf8a099581cc4bc992eff7bf92cbc",
+          "checksum": {
+            "type": "MD5",
+            "value": "2c4bf8a099581cc4bc992eff7bf92cbc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Aug-16-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47953,
+          "persistentId": "",
+          "filename": "2018-Aug-16-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64056,
+          "storageIdentifier": "surf://store:1775efcd08f-839900388a49",
+          "rootDataFileId": -1,
+          "md5": "84234effe02b00fcb9fecf626343d186",
+          "checksum": {
+            "type": "MD5",
+            "value": "84234effe02b00fcb9fecf626343d186"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Dec-18-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47784,
+          "persistentId": "",
+          "filename": "2018-Dec-18-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64807,
+          "storageIdentifier": "surf://store:1775efcd02b-0b292dd5d56d",
+          "rootDataFileId": -1,
+          "md5": "7b0d9390d73c0eac253f65dcc76bd35f",
+          "checksum": {
+            "type": "MD5",
+            "value": "7b0d9390d73c0eac253f65dcc76bd35f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Feb-01-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47844,
+          "persistentId": "",
+          "filename": "2018-Feb-01-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62678,
+          "storageIdentifier": "surf://store:1775efccc42-5016a701e318",
+          "rootDataFileId": -1,
+          "md5": "70ea99bf2cbea352022aab245132883e",
+          "checksum": {
+            "type": "MD5",
+            "value": "70ea99bf2cbea352022aab245132883e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Feb-01-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47908,
+          "persistentId": "",
+          "filename": "2018-Feb-01-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 42513,
+          "storageIdentifier": "surf://store:1775efccd4e-74c818da4be9",
+          "rootDataFileId": -1,
+          "md5": "aaf183f793f062f488960f561cc0c9a3",
+          "checksum": {
+            "type": "MD5",
+            "value": "aaf183f793f062f488960f561cc0c9a3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Feb-01-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47789,
+          "persistentId": "",
+          "filename": "2018-Feb-01-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 67940,
+          "storageIdentifier": "surf://store:1775efcceb7-f3bebf0cf2c3",
+          "rootDataFileId": -1,
+          "md5": "9287220f798a624d8f54aafe1a79f6c5",
+          "checksum": {
+            "type": "MD5",
+            "value": "9287220f798a624d8f54aafe1a79f6c5"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Feb-08-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47810,
+          "persistentId": "",
+          "filename": "2018-Feb-08-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65844,
+          "storageIdentifier": "surf://store:1775efcd095-e5570f8267fb",
+          "rootDataFileId": -1,
+          "md5": "d3f2d2c6c92384da854602409800009e",
+          "checksum": {
+            "type": "MD5",
+            "value": "d3f2d2c6c92384da854602409800009e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Feb-14-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47792,
+          "persistentId": "",
+          "filename": "2018-Feb-14-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64708,
+          "storageIdentifier": "surf://store:1775efcce3d-28afaa1ce03e",
+          "rootDataFileId": -1,
+          "md5": "81e65110340d63c8e0cc4605ce1d21e9",
+          "checksum": {
+            "type": "MD5",
+            "value": "81e65110340d63c8e0cc4605ce1d21e9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jan-17-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47820,
+          "persistentId": "",
+          "filename": "2018-Jan-17-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 73775,
+          "storageIdentifier": "surf://store:1775efccdc4-67a705eb0a24",
+          "rootDataFileId": -1,
+          "md5": "18bb354ce55e594ae84d719365f63412",
+          "checksum": {
+            "type": "MD5",
+            "value": "18bb354ce55e594ae84d719365f63412"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jan-25-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47877,
+          "persistentId": "",
+          "filename": "2018-Jan-25-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65396,
+          "storageIdentifier": "surf://store:1775efccf3d-148861f7e1b9",
+          "rootDataFileId": -1,
+          "md5": "51a0ec15a77f7fa260f675b4aa17e08a",
+          "checksum": {
+            "type": "MD5",
+            "value": "51a0ec15a77f7fa260f675b4aa17e08a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jan-30-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47958,
+          "persistentId": "",
+          "filename": "2018-Jan-30-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 69286,
+          "storageIdentifier": "surf://store:1775efcccd4-4554aea96be2",
+          "rootDataFileId": -1,
+          "md5": "5d0e4c7aef174d3f5a8895060f0e0b0b",
+          "checksum": {
+            "type": "MD5",
+            "value": "5d0e4c7aef174d3f5a8895060f0e0b0b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jan-31-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47962,
+          "persistentId": "",
+          "filename": "2018-Jan-31-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 67626,
+          "storageIdentifier": "surf://store:1775efccfb9-37bab46ad4c6",
+          "rootDataFileId": -1,
+          "md5": "ce95b330c73517a9e8ccdc43c60337f7",
+          "checksum": {
+            "type": "MD5",
+            "value": "ce95b330c73517a9e8ccdc43c60337f7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jul-18-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47799,
+          "persistentId": "",
+          "filename": "2018-Jul-18-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 73882,
+          "storageIdentifier": "surf://store:1775efccdcb-8a150e4ca3fc",
+          "rootDataFileId": -1,
+          "md5": "b4068ba91b98dd2d77635c7a6ee1c192",
+          "checksum": {
+            "type": "MD5",
+            "value": "b4068ba91b98dd2d77635c7a6ee1c192"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jul-19-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47910,
+          "persistentId": "",
+          "filename": "2018-Jul-19-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60996,
+          "storageIdentifier": "surf://store:1775efccfbf-a45a11f74e94",
+          "rootDataFileId": -1,
+          "md5": "15771160b1ef7d8d543b7d6c5b090336",
+          "checksum": {
+            "type": "MD5",
+            "value": "15771160b1ef7d8d543b7d6c5b090336"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jul-23-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47917,
+          "persistentId": "",
+          "filename": "2018-Jul-23-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 70806,
+          "storageIdentifier": "surf://store:1775efccebe-8549262a0b16",
+          "rootDataFileId": -1,
+          "md5": "de869cbea8bad31d8c38f2524b505970",
+          "checksum": {
+            "type": "MD5",
+            "value": "de869cbea8bad31d8c38f2524b505970"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jul-25-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47833,
+          "persistentId": "",
+          "filename": "2018-Jul-25-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 73854,
+          "storageIdentifier": "surf://store:1775efcccda-7493e0c4d168",
+          "rootDataFileId": -1,
+          "md5": "c98628d5176f8aeabe9772f6a4321380",
+          "checksum": {
+            "type": "MD5",
+            "value": "c98628d5176f8aeabe9772f6a4321380"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jul-26-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47888,
+          "persistentId": "",
+          "filename": "2018-Jul-26-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 40439,
+          "storageIdentifier": "surf://store:1775efccd53-80582cbb2117",
+          "rootDataFileId": -1,
+          "md5": "83296649508eb61921084b7ee40246a3",
+          "checksum": {
+            "type": "MD5",
+            "value": "83296649508eb61921084b7ee40246a3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jul-26-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47768,
+          "persistentId": "",
+          "filename": "2018-Jul-26-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60342,
+          "storageIdentifier": "surf://store:1775efccf44-663d6558095d",
+          "rootDataFileId": -1,
+          "md5": "bd85e1c169cccc1cab4a2ccd11b426b7",
+          "checksum": {
+            "type": "MD5",
+            "value": "bd85e1c169cccc1cab4a2ccd11b426b7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Jul-31-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47882,
+          "persistentId": "",
+          "filename": "2018-Jul-31-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 59633,
+          "storageIdentifier": "surf://store:1775efccc49-d8d3681e7d61",
+          "rootDataFileId": -1,
+          "md5": "6a3806e767123e88672c7ec522eab9fd",
+          "checksum": {
+            "type": "MD5",
+            "value": "6a3806e767123e88672c7ec522eab9fd"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Mar-22-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47931,
+          "persistentId": "",
+          "filename": "2018-Mar-22-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65727,
+          "storageIdentifier": "surf://store:1775efcd031-f72ae95b759f",
+          "rootDataFileId": -1,
+          "md5": "632ee4818f163d18864b2b840f2a822c",
+          "checksum": {
+            "type": "MD5",
+            "value": "632ee4818f163d18864b2b840f2a822c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-May-01-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47938,
+          "persistentId": "",
+          "filename": "2018-May-01-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 53732,
+          "storageIdentifier": "surf://store:1775efccc50-0d43bf12d06f",
+          "rootDataFileId": -1,
+          "md5": "cb1c433dde3840899d51dc67a5f66735",
+          "checksum": {
+            "type": "MD5",
+            "value": "cb1c433dde3840899d51dc67a5f66735"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-May-10-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47814,
+          "persistentId": "",
+          "filename": "2018-May-10-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 71421,
+          "storageIdentifier": "surf://store:1775efcd09b-8233ec67439f",
+          "rootDataFileId": -1,
+          "md5": "6093360b3b9c6de73f4de761d5631ca8",
+          "checksum": {
+            "type": "MD5",
+            "value": "6093360b3b9c6de73f4de761d5631ca8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-May-16-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47851,
+          "persistentId": "",
+          "filename": "2018-May-16-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61396,
+          "storageIdentifier": "surf://store:1775efcce43-466d5fb70df9",
+          "rootDataFileId": -1,
+          "md5": "3ebddc640731a0de04791012d167aa3f",
+          "checksum": {
+            "type": "MD5",
+            "value": "3ebddc640731a0de04791012d167aa3f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Nov-01-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47853,
+          "persistentId": "",
+          "filename": "2018-Nov-01-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 57886,
+          "storageIdentifier": "surf://store:1775efccc57-1239e9e22b97",
+          "rootDataFileId": -1,
+          "md5": "f2e77e861a1b5bcee9972e2edd817793",
+          "checksum": {
+            "type": "MD5",
+            "value": "f2e77e861a1b5bcee9972e2edd817793"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Nov-14-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47914,
+          "persistentId": "",
+          "filename": "2018-Nov-14-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 71067,
+          "storageIdentifier": "surf://store:1775efcce4a-78b6cdaf00df",
+          "rootDataFileId": -1,
+          "md5": "8b83cd6730513f3c49abb4fc453112d0",
+          "checksum": {
+            "type": "MD5",
+            "value": "8b83cd6730513f3c49abb4fc453112d0"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Nov-15-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47848,
+          "persistentId": "",
+          "filename": "2018-Nov-15-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68587,
+          "storageIdentifier": "surf://store:1775efcd0a1-e93575f8ded7",
+          "rootDataFileId": -1,
+          "md5": "f5839c3593c710f3442eb3b9cfb1ab8c",
+          "checksum": {
+            "type": "MD5",
+            "value": "f5839c3593c710f3442eb3b9cfb1ab8c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Oct-17-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47859,
+          "persistentId": "",
+          "filename": "2018-Oct-17-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 78693,
+          "storageIdentifier": "surf://store:1775efccdd1-e83bae3e0a68",
+          "rootDataFileId": -1,
+          "md5": "972ba5c57552a17d1caa44f712917eae",
+          "checksum": {
+            "type": "MD5",
+            "value": "972ba5c57552a17d1caa44f712917eae"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Oct-24-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47900,
+          "persistentId": "",
+          "filename": "2018-Oct-24-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 72021,
+          "storageIdentifier": "surf://store:1775efccce0-8af82117c394",
+          "rootDataFileId": -1,
+          "md5": "041e42cfa7a5a3de4da67555c2bc4743",
+          "checksum": {
+            "type": "MD5",
+            "value": "041e42cfa7a5a3de4da67555c2bc4743"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Oct-24-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47897,
+          "persistentId": "",
+          "filename": "2018-Oct-24-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62869,
+          "storageIdentifier": "surf://store:1775efccfc6-409ee22a8955",
+          "rootDataFileId": -1,
+          "md5": "20dea700b32ad3e63311c1e45ffbaeee",
+          "checksum": {
+            "type": "MD5",
+            "value": "20dea700b32ad3e63311c1e45ffbaeee"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Oct-25-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47808,
+          "persistentId": "",
+          "filename": "2018-Oct-25-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 41758,
+          "storageIdentifier": "surf://store:1775efccd59-5467c19492a6",
+          "rootDataFileId": -1,
+          "md5": "fb20de126e9e3ccd6de7d3a9082ec69b",
+          "checksum": {
+            "type": "MD5",
+            "value": "fb20de126e9e3ccd6de7d3a9082ec69b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Oct-25-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47940,
+          "persistentId": "",
+          "filename": "2018-Oct-25-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68387,
+          "storageIdentifier": "surf://store:1775efccec4-9a1c24bc9c31",
+          "rootDataFileId": -1,
+          "md5": "ce03dc931758d819ad2513cb79241d94",
+          "checksum": {
+            "type": "MD5",
+            "value": "ce03dc931758d819ad2513cb79241d94"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Oct-25-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47872,
+          "persistentId": "",
+          "filename": "2018-Oct-25-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 53543,
+          "storageIdentifier": "surf://store:1775efccf4b-ab33166f0ecb",
+          "rootDataFileId": -1,
+          "md5": "e42058f464177a7b22fc7e90af2ce5c8",
+          "checksum": {
+            "type": "MD5",
+            "value": "e42058f464177a7b22fc7e90af2ce5c8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2018-Sep-20-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47847,
+          "persistentId": "",
+          "filename": "2018-Sep-20-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 67906,
+          "storageIdentifier": "surf://store:1775efcd037-a820e870ca1b",
+          "rootDataFileId": -1,
+          "md5": "b63e943c4020410082c74227c2026a80",
+          "checksum": {
+            "type": "MD5",
+            "value": "b63e943c4020410082c74227c2026a80"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Apr-17-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47956,
+          "persistentId": "",
+          "filename": "2019-Apr-17-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 73634,
+          "storageIdentifier": "surf://store:1775efccdd8-d0a62dd5dfcc",
+          "rootDataFileId": -1,
+          "md5": "81aa5cffb1cf9fad78eea36c2a782ec8",
+          "checksum": {
+            "type": "MD5",
+            "value": "81aa5cffb1cf9fad78eea36c2a782ec8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Apr-24-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47773,
+          "persistentId": "",
+          "filename": "2019-Apr-24-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65733,
+          "storageIdentifier": "surf://store:1775efccfcc-4c4164c921d2",
+          "rootDataFileId": -1,
+          "md5": "f818dd303da6471d0e197d5e1fcc3ed1",
+          "checksum": {
+            "type": "MD5",
+            "value": "f818dd303da6471d0e197d5e1fcc3ed1"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Apr-25-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47790,
+          "persistentId": "",
+          "filename": "2019-Apr-25-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 45817,
+          "storageIdentifier": "surf://store:1775efccd5f-08b4017f9730",
+          "rootDataFileId": -1,
+          "md5": "1cbb71d72264fee6d7233a5da511b87c",
+          "checksum": {
+            "type": "MD5",
+            "value": "1cbb71d72264fee6d7233a5da511b87c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Apr-25-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47825,
+          "persistentId": "",
+          "filename": "2019-Apr-25-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 57223,
+          "storageIdentifier": "surf://store:1775efccf51-230d98962c8e",
+          "rootDataFileId": -1,
+          "md5": "3577147b86e9d41a95bdfc1de2512a2d",
+          "checksum": {
+            "type": "MD5",
+            "value": "3577147b86e9d41a95bdfc1de2512a2d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Apr-29-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47862,
+          "persistentId": "",
+          "filename": "2019-Apr-29-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62619,
+          "storageIdentifier": "surf://store:1775efcceca-bad61a4f02ad",
+          "rootDataFileId": -1,
+          "md5": "619a82282f5de5a6526871c68eb09336",
+          "checksum": {
+            "type": "MD5",
+            "value": "619a82282f5de5a6526871c68eb09336"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Apr-30-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47959,
+          "persistentId": "",
+          "filename": "2019-Apr-30-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60376,
+          "storageIdentifier": "surf://store:1775efccc5f-0178caea2974",
+          "rootDataFileId": -1,
+          "md5": "5d1183567ae600fac9d2496a791bd9f7",
+          "checksum": {
+            "type": "MD5",
+            "value": "5d1183567ae600fac9d2496a791bd9f7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Apr-30-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47796,
+          "persistentId": "",
+          "filename": "2019-Apr-30-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62521,
+          "storageIdentifier": "surf://store:1775efccce6-c5232db9ed67",
+          "rootDataFileId": -1,
+          "md5": "e99a19d9837a0d26110c508c6b62c430",
+          "checksum": {
+            "type": "MD5",
+            "value": "e99a19d9837a0d26110c508c6b62c430"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Aug-14-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47827,
+          "persistentId": "",
+          "filename": "2019-Aug-14-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62529,
+          "storageIdentifier": "surf://store:1775efcce50-ad0ffb69499f",
+          "rootDataFileId": -1,
+          "md5": "8f7b59ed047f71a5e561e4f9cc33338d",
+          "checksum": {
+            "type": "MD5",
+            "value": "8f7b59ed047f71a5e561e4f9cc33338d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Aug-15-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47797,
+          "persistentId": "",
+          "filename": "2019-Aug-15-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61306,
+          "storageIdentifier": "surf://store:1775efcd0a7-77b764339dce",
+          "rootDataFileId": -1,
+          "md5": "4cd88f226b6195f603f0340608b56e7b",
+          "checksum": {
+            "type": "MD5",
+            "value": "4cd88f226b6195f603f0340608b56e7b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Dec-18-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47860,
+          "persistentId": "",
+          "filename": "2019-Dec-18-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68179,
+          "storageIdentifier": "surf://store:1775efcd03d-ec934ffa2b9f",
+          "rootDataFileId": -1,
+          "md5": "a49e4d6957a28ab650c05348019604ac",
+          "checksum": {
+            "type": "MD5",
+            "value": "a49e4d6957a28ab650c05348019604ac"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Feb-04-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47873,
+          "persistentId": "",
+          "filename": "2019-Feb-04-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 69210,
+          "storageIdentifier": "surf://store:1775efcced1-f53eb846f593",
+          "rootDataFileId": -1,
+          "md5": "1f94a14dd7e074df5aa59aaaddd593aa",
+          "checksum": {
+            "type": "MD5",
+            "value": "1f94a14dd7e074df5aa59aaaddd593aa"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Feb-13-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47947,
+          "persistentId": "",
+          "filename": "2019-Feb-13-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 66143,
+          "storageIdentifier": "surf://store:1775efcce56-555c16383171",
+          "rootDataFileId": -1,
+          "md5": "0d5db36f860ce60ec4bb3ff3e21f905c",
+          "checksum": {
+            "type": "MD5",
+            "value": "0d5db36f860ce60ec4bb3ff3e21f905c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Feb-14-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47933,
+          "persistentId": "",
+          "filename": "2019-Feb-14-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 71700,
+          "storageIdentifier": "surf://store:1775efcd0ae-2a7f44034908",
+          "rootDataFileId": -1,
+          "md5": "a06f812cbdf16c30f3451fcb319957bf",
+          "checksum": {
+            "type": "MD5",
+            "value": "a06f812cbdf16c30f3451fcb319957bf"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jan-23-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47891,
+          "persistentId": "",
+          "filename": "2019-Jan-23-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 73253,
+          "storageIdentifier": "surf://store:1775efccdde-d4cd75a19e6e",
+          "rootDataFileId": -1,
+          "md5": "478d61b5956a34c704ec6af049767bbc",
+          "checksum": {
+            "type": "MD5",
+            "value": "478d61b5956a34c704ec6af049767bbc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jan-24-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47778,
+          "persistentId": "",
+          "filename": "2019-Jan-24-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60920,
+          "storageIdentifier": "surf://store:1775efccf58-b015efae0d7d",
+          "rootDataFileId": -1,
+          "md5": "b10133c354e236892e044e3648ed20df",
+          "checksum": {
+            "type": "MD5",
+            "value": "b10133c354e236892e044e3648ed20df"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jan-29-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47819,
+          "persistentId": "",
+          "filename": "2019-Jan-29-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60037,
+          "storageIdentifier": "surf://store:1775efccc69-1f6f21740b3c",
+          "rootDataFileId": -1,
+          "md5": "71b9982bde7e2d08ecd8025426e99e9c",
+          "checksum": {
+            "type": "MD5",
+            "value": "71b9982bde7e2d08ecd8025426e99e9c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jan-29-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47889,
+          "persistentId": "",
+          "filename": "2019-Jan-29-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 72974,
+          "storageIdentifier": "surf://store:1775efccced-5f9e5c103c59",
+          "rootDataFileId": -1,
+          "md5": "591d935a7873ee085cb85720a0628997",
+          "checksum": {
+            "type": "MD5",
+            "value": "591d935a7873ee085cb85720a0628997"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jan-30-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47771,
+          "persistentId": "",
+          "filename": "2019-Jan-30-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 66945,
+          "storageIdentifier": "surf://store:1775efccfd2-b17fb8342230",
+          "rootDataFileId": -1,
+          "md5": "11dfa8ff03fd6a15e825512bb56d47e4",
+          "checksum": {
+            "type": "MD5",
+            "value": "11dfa8ff03fd6a15e825512bb56d47e4"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jan-31-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47902,
+          "persistentId": "",
+          "filename": "2019-Jan-31-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 44335,
+          "storageIdentifier": "surf://store:1775efccd65-b79e66aed1dd",
+          "rootDataFileId": -1,
+          "md5": "fc8b0e3cddc11ccf298026c841a2a6f5",
+          "checksum": {
+            "type": "MD5",
+            "value": "fc8b0e3cddc11ccf298026c841a2a6f5"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jul-17-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47867,
+          "persistentId": "",
+          "filename": "2019-Jul-17-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 70659,
+          "storageIdentifier": "surf://store:1775efccde5-82761b4bd508",
+          "rootDataFileId": -1,
+          "md5": "1fa5ee7112f4fa6dcd40f9f8e66a137a",
+          "checksum": {
+            "type": "MD5",
+            "value": "1fa5ee7112f4fa6dcd40f9f8e66a137a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jul-18-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47805,
+          "persistentId": "",
+          "filename": "2019-Jul-18-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 63476,
+          "storageIdentifier": "surf://store:1775efccfd8-1d55bb6c85f4",
+          "rootDataFileId": -1,
+          "md5": "41a29071998914dc9e1af4332d57daff",
+          "checksum": {
+            "type": "MD5",
+            "value": "41a29071998914dc9e1af4332d57daff"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jul-25-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47868,
+          "persistentId": "",
+          "filename": "2019-Jul-25-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 44829,
+          "storageIdentifier": "surf://store:1775efccd6b-00ac8df8e3d6",
+          "rootDataFileId": -1,
+          "md5": "9a453d1b9ad60d0708cafa06ed3e063f",
+          "checksum": {
+            "type": "MD5",
+            "value": "9a453d1b9ad60d0708cafa06ed3e063f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jul-25-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47831,
+          "persistentId": "",
+          "filename": "2019-Jul-25-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64053,
+          "storageIdentifier": "surf://store:1775efcced8-f98db1fd47a1",
+          "rootDataFileId": -1,
+          "md5": "1901577733746ae478b0909a8ea3b84c",
+          "checksum": {
+            "type": "MD5",
+            "value": "1901577733746ae478b0909a8ea3b84c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jul-25-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47883,
+          "persistentId": "",
+          "filename": "2019-Jul-25-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60863,
+          "storageIdentifier": "surf://store:1775efccf5e-67280fb37907",
+          "rootDataFileId": -1,
+          "md5": "806611266afac98b1101d16471c79e4c",
+          "checksum": {
+            "type": "MD5",
+            "value": "806611266afac98b1101d16471c79e4c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jul-30-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47837,
+          "persistentId": "",
+          "filename": "2019-Jul-30-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65434,
+          "storageIdentifier": "surf://store:1775efccc71-c1fd40180e47",
+          "rootDataFileId": -1,
+          "md5": "687f27bb3e9340e8944f026f92d931a3",
+          "checksum": {
+            "type": "MD5",
+            "value": "687f27bb3e9340e8944f026f92d931a3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jul-30-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47913,
+          "persistentId": "",
+          "filename": "2019-Jul-30-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 70104,
+          "storageIdentifier": "surf://store:1775efcccf3-b4be1d783c14",
+          "rootDataFileId": -1,
+          "md5": "e771315fe59290595eb9e6623b65ab99",
+          "checksum": {
+            "type": "MD5",
+            "value": "e771315fe59290595eb9e6623b65ab99"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Jun-25-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47783,
+          "persistentId": "",
+          "filename": "2019-Jun-25-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68593,
+          "storageIdentifier": "surf://store:1775efcd043-80ae1045e8e2",
+          "rootDataFileId": -1,
+          "md5": "3f415533a72bb11bacc61b9bea659810",
+          "checksum": {
+            "type": "MD5",
+            "value": "3f415533a72bb11bacc61b9bea659810"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Mar-20-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47912,
+          "persistentId": "",
+          "filename": "2019-Mar-20-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 63555,
+          "storageIdentifier": "surf://store:1775efcd049-1e267bae5162",
+          "rootDataFileId": -1,
+          "md5": "d42cfe6aeb23b6d878dc0858e821b3bc",
+          "checksum": {
+            "type": "MD5",
+            "value": "d42cfe6aeb23b6d878dc0858e821b3bc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-May-15-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47803,
+          "persistentId": "",
+          "filename": "2019-May-15-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 69221,
+          "storageIdentifier": "surf://store:1775efcce5c-546ac617dd46",
+          "rootDataFileId": -1,
+          "md5": "52dc270963f050e06bf2233d25d5c66b",
+          "checksum": {
+            "type": "MD5",
+            "value": "52dc270963f050e06bf2233d25d5c66b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-May-16-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47836,
+          "persistentId": "",
+          "filename": "2019-May-16-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68500,
+          "storageIdentifier": "surf://store:1775efcd0b4-08955654a31a",
+          "rootDataFileId": -1,
+          "md5": "e089729680b6bfb7ee0c57064045b52c",
+          "checksum": {
+            "type": "MD5",
+            "value": "e089729680b6bfb7ee0c57064045b52c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Nov-13-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47920,
+          "persistentId": "",
+          "filename": "2019-Nov-13-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 54538,
+          "storageIdentifier": "surf://store:1775efcce62-cfa397209c64",
+          "rootDataFileId": -1,
+          "md5": "4ff551b517ff339fed297ae5bbd80712",
+          "checksum": {
+            "type": "MD5",
+            "value": "4ff551b517ff339fed297ae5bbd80712"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Nov-14-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47807,
+          "persistentId": "",
+          "filename": "2019-Nov-14-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61719,
+          "storageIdentifier": "surf://store:1775efcd0b9-4eaf3f941608",
+          "rootDataFileId": -1,
+          "md5": "38ba65eb600497b3647b98497d5231a3",
+          "checksum": {
+            "type": "MD5",
+            "value": "38ba65eb600497b3647b98497d5231a3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Oct-16-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47951,
+          "persistentId": "",
+          "filename": "2019-Oct-16-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 76549,
+          "storageIdentifier": "surf://store:1775efccdeb-6935e29c501a",
+          "rootDataFileId": -1,
+          "md5": "1e0d98dfc818a43a32759549398301b4",
+          "checksum": {
+            "type": "MD5",
+            "value": "1e0d98dfc818a43a32759549398301b4"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Oct-23-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47858,
+          "persistentId": "",
+          "filename": "2019-Oct-23-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 59372,
+          "storageIdentifier": "surf://store:1775efccfde-62ac757acebf",
+          "rootDataFileId": -1,
+          "md5": "23a71a06361e36752f1e340d0c21b3c4",
+          "checksum": {
+            "type": "MD5",
+            "value": "23a71a06361e36752f1e340d0c21b3c4"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Oct-24-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47926,
+          "persistentId": "",
+          "filename": "2019-Oct-24-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 39394,
+          "storageIdentifier": "surf://store:1775efccd71-7339f7daa326",
+          "rootDataFileId": -1,
+          "md5": "b5b94044414d352c5017a13c108df560",
+          "checksum": {
+            "type": "MD5",
+            "value": "b5b94044414d352c5017a13c108df560"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Oct-24-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47896,
+          "persistentId": "",
+          "filename": "2019-Oct-24-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61227,
+          "storageIdentifier": "surf://store:1775efccf64-3aa1cde819a9",
+          "rootDataFileId": -1,
+          "md5": "844bc915feec697cb964c654996b66bb",
+          "checksum": {
+            "type": "MD5",
+            "value": "844bc915feec697cb964c654996b66bb"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Oct-28-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47869,
+          "persistentId": "",
+          "filename": "2019-Oct-28-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61593,
+          "storageIdentifier": "surf://store:1775efccedf-70d216de4ef9",
+          "rootDataFileId": -1,
+          "md5": "b6cbc5680029278691e53913b0a8f1b2",
+          "checksum": {
+            "type": "MD5",
+            "value": "b6cbc5680029278691e53913b0a8f1b2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Oct-29-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47822,
+          "persistentId": "",
+          "filename": "2019-Oct-29-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68102,
+          "storageIdentifier": "surf://store:1775efcccf9-dfa004baabaa",
+          "rootDataFileId": -1,
+          "md5": "8d76fc8cecc23c2274e3e11aaef88f83",
+          "checksum": {
+            "type": "MD5",
+            "value": "8d76fc8cecc23c2274e3e11aaef88f83"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Oct-30-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47794,
+          "persistentId": "",
+          "filename": "2019-Oct-30-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64148,
+          "storageIdentifier": "surf://store:1775efccc79-923e9dd1e1d5",
+          "rootDataFileId": -1,
+          "md5": "c258f4f6efc73883622a50f2e87bb684",
+          "checksum": {
+            "type": "MD5",
+            "value": "c258f4f6efc73883622a50f2e87bb684"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2019-Sep-26-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47881,
+          "persistentId": "",
+          "filename": "2019-Sep-26-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 66225,
+          "storageIdentifier": "surf://store:1775efcd04e-589d785dff7d",
+          "rootDataFileId": -1,
+          "md5": "01fc056967bab6b09a855fca80c5a7df",
+          "checksum": {
+            "type": "MD5",
+            "value": "01fc056967bab6b09a855fca80c5a7df"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Apr-15-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47782,
+          "persistentId": "",
+          "filename": "2020-Apr-15-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 67247,
+          "storageIdentifier": "surf://store:1775efccdf2-02d0d6089b53",
+          "rootDataFileId": -1,
+          "md5": "6de1f493980c91faa6e4d3040a7ff936",
+          "checksum": {
+            "type": "MD5",
+            "value": "6de1f493980c91faa6e4d3040a7ff936"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Apr-23-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47802,
+          "persistentId": "",
+          "filename": "2020-Apr-23-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62663,
+          "storageIdentifier": "surf://store:1775efccf6b-41395642ff2f",
+          "rootDataFileId": -1,
+          "md5": "842aec56cd5d12ef285ade174f8e5065",
+          "checksum": {
+            "type": "MD5",
+            "value": "842aec56cd5d12ef285ade174f8e5065"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Apr-28-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47906,
+          "persistentId": "",
+          "filename": "2020-Apr-28-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 71982,
+          "storageIdentifier": "surf://store:1775efccd00-9a3a79511cac",
+          "rootDataFileId": -1,
+          "md5": "3af30b838d08e0fa5d6ff851ff5207b6",
+          "checksum": {
+            "type": "MD5",
+            "value": "3af30b838d08e0fa5d6ff851ff5207b6"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Apr-28-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47781,
+          "persistentId": "",
+          "filename": "2020-Apr-28-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68642,
+          "storageIdentifier": "surf://store:1775efccee7-3623cdbdcc16",
+          "rootDataFileId": -1,
+          "md5": "52e1ac74d94f39db1bb182cc4c6e77e5",
+          "checksum": {
+            "type": "MD5",
+            "value": "52e1ac74d94f39db1bb182cc4c6e77e5"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Apr-29-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47861,
+          "persistentId": "",
+          "filename": "2020-Apr-29-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68705,
+          "storageIdentifier": "surf://store:1775efccfe5-4d025dbec81d",
+          "rootDataFileId": -1,
+          "md5": "0a5c34bddcd9e7efa741124524788a52",
+          "checksum": {
+            "type": "MD5",
+            "value": "0a5c34bddcd9e7efa741124524788a52"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Apr-30-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47878,
+          "persistentId": "",
+          "filename": "2020-Apr-30-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61965,
+          "storageIdentifier": "surf://store:1775efccc80-4f4b191317d1",
+          "rootDataFileId": -1,
+          "md5": "94ff9ff5979143d83d5b707ac5103cb4",
+          "checksum": {
+            "type": "MD5",
+            "value": "94ff9ff5979143d83d5b707ac5103cb4"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Apr-30-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47769,
+          "persistentId": "",
+          "filename": "2020-Apr-30-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 45664,
+          "storageIdentifier": "surf://store:1775efccd78-b78214deb5fa",
+          "rootDataFileId": -1,
+          "md5": "e313a717df0374b346c37f777fe43b6d",
+          "checksum": {
+            "type": "MD5",
+            "value": "e313a717df0374b346c37f777fe43b6d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Aug-12-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47852,
+          "persistentId": "",
+          "filename": "2020-Aug-12-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64506,
+          "storageIdentifier": "surf://store:1775efcce68-3fa9f488f9bc",
+          "rootDataFileId": -1,
+          "md5": "c60e277f438ac1c383114aff9e585811",
+          "checksum": {
+            "type": "MD5",
+            "value": "c60e277f438ac1c383114aff9e585811"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Aug-19-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47948,
+          "persistentId": "",
+          "filename": "2020-Aug-19-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61005,
+          "storageIdentifier": "surf://store:1775efcd0bf-ac09c8e0048f",
+          "rootDataFileId": -1,
+          "md5": "69f9106602dd4aae50a9cf52aec9ba81",
+          "checksum": {
+            "type": "MD5",
+            "value": "69f9106602dd4aae50a9cf52aec9ba81"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Feb-03-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47952,
+          "persistentId": "",
+          "filename": "2020-Feb-03-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 65037,
+          "storageIdentifier": "surf://store:1775efcceed-0c288b0e787a",
+          "rootDataFileId": -1,
+          "md5": "d05bcfa0b5e364adc3f7fa6a5520d8ba",
+          "checksum": {
+            "type": "MD5",
+            "value": "d05bcfa0b5e364adc3f7fa6a5520d8ba"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Feb-12-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47927,
+          "persistentId": "",
+          "filename": "2020-Feb-12-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 61820,
+          "storageIdentifier": "surf://store:1775efcce70-f58107619ece",
+          "rootDataFileId": -1,
+          "md5": "239c92174c51ac50caad0ddd29eab616",
+          "checksum": {
+            "type": "MD5",
+            "value": "239c92174c51ac50caad0ddd29eab616"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Feb-13-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47829,
+          "persistentId": "",
+          "filename": "2020-Feb-13-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64762,
+          "storageIdentifier": "surf://store:1775efcd0c5-2684881db358",
+          "rootDataFileId": -1,
+          "md5": "7e0513a42149ace7b61dd1bb8a1ffb83",
+          "checksum": {
+            "type": "MD5",
+            "value": "7e0513a42149ace7b61dd1bb8a1ffb83"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jan-22-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47770,
+          "persistentId": "",
+          "filename": "2020-Jan-22-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 72204,
+          "storageIdentifier": "surf://store:1775efccdf9-63b5d843110d",
+          "rootDataFileId": -1,
+          "md5": "7e1014b52879eb51844b06d16e424d76",
+          "checksum": {
+            "type": "MD5",
+            "value": "7e1014b52879eb51844b06d16e424d76"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jan-23-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47911,
+          "persistentId": "",
+          "filename": "2020-Jan-23-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 62603,
+          "storageIdentifier": "surf://store:1775efccf71-621678924d3b",
+          "rootDataFileId": -1,
+          "md5": "0b965df8e318956408e2f20d6d680b1f",
+          "checksum": {
+            "type": "MD5",
+            "value": "0b965df8e318956408e2f20d6d680b1f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jan-28-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47855,
+          "persistentId": "",
+          "filename": "2020-Jan-28-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 59002,
+          "storageIdentifier": "surf://store:1775efccc87-4cdff915cabd",
+          "rootDataFileId": -1,
+          "md5": "b574c1c83a27c436cf1e93dd2b0034c2",
+          "checksum": {
+            "type": "MD5",
+            "value": "b574c1c83a27c436cf1e93dd2b0034c2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jan-28-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47921,
+          "persistentId": "",
+          "filename": "2020-Jan-28-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 71903,
+          "storageIdentifier": "surf://store:1775efccd06-6dc41ccb5f9e",
+          "rootDataFileId": -1,
+          "md5": "ceebc951af3f7e799f9aed6ce86703f6",
+          "checksum": {
+            "type": "MD5",
+            "value": "ceebc951af3f7e799f9aed6ce86703f6"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jan-29-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47957,
+          "persistentId": "",
+          "filename": "2020-Jan-29-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60550,
+          "storageIdentifier": "surf://store:1775efccfeb-24819988a39e",
+          "rootDataFileId": -1,
+          "md5": "6ac261b9d3b9dc7a0080cab46d489c53",
+          "checksum": {
+            "type": "MD5",
+            "value": "6ac261b9d3b9dc7a0080cab46d489c53"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jan-30-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47854,
+          "persistentId": "",
+          "filename": "2020-Jan-30-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 43034,
+          "storageIdentifier": "surf://store:1775efccd7e-1b5c0746347a",
+          "rootDataFileId": -1,
+          "md5": "1bb9ae02fd86e97a237650b053e0161e",
+          "checksum": {
+            "type": "MD5",
+            "value": "1bb9ae02fd86e97a237650b053e0161e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jul-15-ASML.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/ASML",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47785,
+          "persistentId": "",
+          "filename": "2020-Jul-15-ASML.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 69060,
+          "storageIdentifier": "surf://store:1775efccdff-261847d98155",
+          "rootDataFileId": -1,
+          "md5": "db34cfc3cff2aae5c7b907ce9b00140e",
+          "checksum": {
+            "type": "MD5",
+            "value": "db34cfc3cff2aae5c7b907ce9b00140e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jul-22-MSFT.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MSFT",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47886,
+          "persistentId": "",
+          "filename": "2020-Jul-22-MSFT.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64737,
+          "storageIdentifier": "surf://store:1775efccff2-9c3693f49e49",
+          "rootDataFileId": -1,
+          "md5": "89b66b6bb43189160d8294b8ac1c9e6e",
+          "checksum": {
+            "type": "MD5",
+            "value": "89b66b6bb43189160d8294b8ac1c9e6e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jul-23-INTC.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/INTC",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47955,
+          "persistentId": "",
+          "filename": "2020-Jul-23-INTC.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60797,
+          "storageIdentifier": "surf://store:1775efccf78-fafb459d6fa2",
+          "rootDataFileId": -1,
+          "md5": "2370aa4e5683865fad311de58d98addb",
+          "checksum": {
+            "type": "MD5",
+            "value": "2370aa4e5683865fad311de58d98addb"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jul-28-AMD.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMD",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47964,
+          "persistentId": "",
+          "filename": "2020-Jul-28-AMD.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68455,
+          "storageIdentifier": "surf://store:1775efccd0d-4489ba43de00",
+          "rootDataFileId": -1,
+          "md5": "d44d5835228b0f4e2eab85076235d990",
+          "checksum": {
+            "type": "MD5",
+            "value": "d44d5835228b0f4e2eab85076235d990"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jul-30-AAPL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AAPL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47865,
+          "persistentId": "",
+          "filename": "2020-Jul-30-AAPL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 64582,
+          "storageIdentifier": "surf://store:1775efccc8f-a7a1f23ecfa3",
+          "rootDataFileId": -1,
+          "md5": "acdf47bfa53144d3702180707591f588",
+          "checksum": {
+            "type": "MD5",
+            "value": "acdf47bfa53144d3702180707591f588"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jul-30-AMZN.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/AMZN",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47946,
+          "persistentId": "",
+          "filename": "2020-Jul-30-AMZN.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 46097,
+          "storageIdentifier": "surf://store:1775efccd85-0309905c1a1c",
+          "rootDataFileId": -1,
+          "md5": "074cb97bda112e347ecf8f78ecda9ef5",
+          "checksum": {
+            "type": "MD5",
+            "value": "074cb97bda112e347ecf8f78ecda9ef5"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jul-30-GOOGL.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/GOOGL",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47845,
+          "persistentId": "",
+          "filename": "2020-Jul-30-GOOGL.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 59405,
+          "storageIdentifier": "surf://store:1775efccef5-353a6d44aeab",
+          "rootDataFileId": -1,
+          "md5": "a02d925912d8b8b10a8c495eb3338863",
+          "checksum": {
+            "type": "MD5",
+            "value": "a02d925912d8b8b10a8c495eb3338863"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Jun-29-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47777,
+          "persistentId": "",
+          "filename": "2020-Jun-29-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68768,
+          "storageIdentifier": "surf://store:1775efcd054-068e5dd9a0cd",
+          "rootDataFileId": -1,
+          "md5": "b21a49769eba13d7925d287733ada27e",
+          "checksum": {
+            "type": "MD5",
+            "value": "b21a49769eba13d7925d287733ada27e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-Mar-25-MU.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/MU",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47929,
+          "persistentId": "",
+          "filename": "2020-Mar-25-MU.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 68239,
+          "storageIdentifier": "surf://store:1775efcd05a-0c2d69aeecc9",
+          "rootDataFileId": -1,
+          "md5": "e4ed9c5dc0e1ed7150d7f983b8ef5267",
+          "checksum": {
+            "type": "MD5",
+            "value": "e4ed9c5dc0e1ed7150d7f983b8ef5267"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-May-13-CSCO.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/CSCO",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47892,
+          "persistentId": "",
+          "filename": "2020-May-13-CSCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 66329,
+          "storageIdentifier": "surf://store:1775efcce77-796fdc5429c6",
+          "rootDataFileId": -1,
+          "md5": "d7562791cb31dff6d6bc74f15181fc29",
+          "checksum": {
+            "type": "MD5",
+            "value": "d7562791cb31dff6d6bc74f15181fc29"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2020-May-21-NVDA.txt",
+        "restricted": false,
+        "directoryLabel": "Transcripts/NVDA",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47815,
+          "persistentId": "",
+          "filename": "2020-May-21-NVDA.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 96840,
+          "storageIdentifier": "surf://store:1775efcd0cb-2740720d2e2a",
+          "rootDataFileId": -1,
+          "md5": "3a6ae42db729e84ac13bc27be30164a2",
+          "checksum": {
+            "type": "MD5",
+            "value": "3a6ae42db729e84ac13bc27be30164a2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AAPL.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47786,
+          "persistentId": "",
+          "filename": "AAPL.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 84780,
+          "storageIdentifier": "surf://store:1775efcd0d9-e3cd7e9c7c70",
+          "rootDataFileId": -1,
+          "md5": "d9d26bb41e6434b5a16765ff19fca67e",
+          "checksum": {
+            "type": "MD5",
+            "value": "d9d26bb41e6434b5a16765ff19fca67e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AMD.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47963,
+          "persistentId": "",
+          "filename": "AMD.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 82610,
+          "storageIdentifier": "surf://store:1775efcd0e0-2a554e32b59c",
+          "rootDataFileId": -1,
+          "md5": "213e4a0130edbd054ce0a01e626cf917",
+          "checksum": {
+            "type": "MD5",
+            "value": "213e4a0130edbd054ce0a01e626cf917"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AMZN.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47932,
+          "persistentId": "",
+          "filename": "AMZN.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 92396,
+          "storageIdentifier": "surf://store:1775efcd0e7-9f036d85c4f1",
+          "rootDataFileId": -1,
+          "md5": "90545ebf5c5fd2f1acdb54ce9853e68b",
+          "checksum": {
+            "type": "MD5",
+            "value": "90545ebf5c5fd2f1acdb54ce9853e68b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ASML.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47818,
+          "persistentId": "",
+          "filename": "ASML.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 86996,
+          "storageIdentifier": "surf://store:1775efcd0ee-f08c2527abdd",
+          "rootDataFileId": -1,
+          "md5": "7f548b05b17504282d1745c3f6d7310b",
+          "checksum": {
+            "type": "MD5",
+            "value": "7f548b05b17504282d1745c3f6d7310b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "CSCO.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47925,
+          "persistentId": "",
+          "filename": "CSCO.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 83749,
+          "storageIdentifier": "surf://store:1775efcd0f5-d5127da8c25d",
+          "rootDataFileId": -1,
+          "md5": "27c57134369f19e59f4068e6e7b2cf31",
+          "checksum": {
+            "type": "MD5",
+            "value": "27c57134369f19e59f4068e6e7b2cf31"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Initial description of the dataset ",
+        "label": "Data_Publication_Package.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 49719,
+          "persistentId": "",
+          "filename": "Data_Publication_Package.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 241665,
+          "description": "Initial description of the dataset ",
+          "storageIdentifier": "surf://store:17816f9e287-c8bd753edb85",
+          "rootDataFileId": -1,
+          "md5": "41d55dac02bbe4385dd31eee1083431f",
+          "checksum": {
+            "type": "MD5",
+            "value": "41d55dac02bbe4385dd31eee1083431f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-03-09",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "GOOGL.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47898,
+          "persistentId": "",
+          "filename": "GOOGL.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 92207,
+          "storageIdentifier": "surf://store:1775efcd0fc-d211ef97db0d",
+          "rootDataFileId": -1,
+          "md5": "9b6a2efe3c3d572cd8610b145cf128fd",
+          "checksum": {
+            "type": "MD5",
+            "value": "9b6a2efe3c3d572cd8610b145cf128fd"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "INTC.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47936,
+          "persistentId": "",
+          "filename": "INTC.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 83755,
+          "storageIdentifier": "surf://store:1775efcd103-1cb49dc5d2cf",
+          "rootDataFileId": -1,
+          "md5": "dbbbb11d6dc816296f50cd7ba0860744",
+          "checksum": {
+            "type": "MD5",
+            "value": "dbbbb11d6dc816296f50cd7ba0860744"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MSFT.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47934,
+          "persistentId": "",
+          "filename": "MSFT.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 86612,
+          "storageIdentifier": "surf://store:1775efcd10a-2eb2829da6e0",
+          "rootDataFileId": -1,
+          "md5": "dfddf4bf5a5462e84dff3b578003f88e",
+          "checksum": {
+            "type": "MD5",
+            "value": "dfddf4bf5a5462e84dff3b578003f88e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MU.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47879,
+          "persistentId": "",
+          "filename": "MU.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 83716,
+          "storageIdentifier": "surf://store:1775efcd111-9692af668157",
+          "rootDataFileId": -1,
+          "md5": "ff643c59926cdc43855d9f65c301c9c3",
+          "checksum": {
+            "type": "MD5",
+            "value": "ff643c59926cdc43855d9f65c301c9c3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "NASDAQ.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47941,
+          "persistentId": "",
+          "filename": "NASDAQ.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 98369,
+          "storageIdentifier": "surf://store:1775efcd118-90dc6add2ca5",
+          "rootDataFileId": -1,
+          "md5": "5d553b2f8d220b27632a58c557cd5b88",
+          "checksum": {
+            "type": "MD5",
+            "value": "5d553b2f8d220b27632a58c557cd5b88"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "NVDA.csv",
+        "restricted": false,
+        "directoryLabel": "Stock Values and Sector Index",
+        "version": 1,
+        "datasetVersionId": 3416,
+        "dataFile": {
+          "id": 47843,
+          "persistentId": "",
+          "filename": "NVDA.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 87977,
+          "storageIdentifier": "surf://store:1775efcd0d2-8e92b01b4057",
+          "rootDataFileId": -1,
+          "md5": "ef63652730d24984059325ebf2574ae7",
+          "checksum": {
+            "type": "MD5",
+            "value": "ef63652730d24984059325ebf2574ae7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-01",
+          "publicationDate": "2021-03-09",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Roozen, Dexter; Lelli, Francesco, 2021, \"Stock Values and Earnings Call Transcripts: a Sentiment Analysis Dataset\", https://doi.org/10.34894/TJE0D0, DataverseNL, V1"
+  }
+}

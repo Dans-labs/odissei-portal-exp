@@ -1,0 +1,817 @@
+{
+  "id": 352541,
+  "identifier": "OHCXVQ",
+  "persistentUrl": "https://doi.org/10.34894/OHCXVQ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-01-06",
+  "storageIdentifier": "surf://10.34894/OHCXVQ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24630,
+    "datasetId": 352541,
+    "datasetPersistentId": "doi:10.34894/OHCXVQ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/OHCXVQ",
+    "versionNumber": 2,
+    "internalVersionNumber": 4,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-01-06T09:34:42Z",
+    "releaseTime": "2023-01-06T09:34:42Z",
+    "createTime": "2023-01-06T09:34:36Z",
+    "publicationDate": "2023-01-06",
+    "citationDate": "2023-01-06",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "originalArchive": "The original data was provided by the Huygens Institute as a .csv file with the letter metadata of Belle van Zuylen's correspondence (the inventory is published here: https://charriere.huygens.knaw.nl/edition/), the .csv file had version of October 22, 2021.",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Belle van Zuylen dataset: Letter metadata with mappings to persons from the Catalogus Epistularum Neerlandicarum (CEN) curated by the SKILLNET project"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SKILLNET project"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Liliana Melgar"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dirk van Miert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains the files with the metadata of all the letters from the Belle van Zuylen (Isabelle de Charrière) edition (https://charriere.huygens.knaw.nl/, received as a .csv file from the Huygens Institute) plus the combined letter metadata with the CEN (the first and second degree network of van Zuylen's correspondents). It also includes screenshots of the network visualizations created with the program Gephi, used in a presentation about this woman by researcher Dirk van Miert."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023-01-06"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "letters (correspondence)"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Getty"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.getty.edu/research/tools/vocabularies/aat/index.html"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "correspondence"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q1784733"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Isabelle de Charrière"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q123386"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Miert, D., & Melgar Estrada, L. (2021). From a siloed correspondence to a beautiful research source: Belle and the Big-data Beast. Belle de Zuylen/Isabelle de Charrière’s correspondence online. From hand-written letters to an on-line Time Machine, Utrecht. https://charriere.huygens.knaw.nl/het-project/presentaties-van-de-brieven-drie-symposia/symposium-2021/"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://charriere.huygens.knaw.nl/het-project/presentaties-van-de-brieven-drie-symposia/symposium-2021/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The dataset has two major versions: the first one corresponds to the data as it was processed for the event in 2021 (the presentation above uses that data). The second version includes the updated mappings to the CEN dataset (https://doi.org/10.34894/G8XQI0) as it was delivered in 2023 (last version at the end of the SKILLNET project)."
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Project Leader"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dirk van Miert"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Melgar Estrada, Liliana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-01-06"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/OHCXVQ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:fe2f5d2f-5aa2-4514-b04b-e1ba9388b9e1"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-bc7c5a8e-2c00-4961-b159-4a7742de0489"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "belle_CEN_firstDegreeOnly_20211122.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352545,
+          "persistentId": "",
+          "filename": "belle_CEN_firstDegreeOnly_20211122.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 831,
+          "storageIdentifier": "surf://store:185865b9458-76ac96e5c465",
+          "rootDataFileId": -1,
+          "md5": "d8371b06cfcb52a4bbabaed99eab1017",
+          "checksum": {
+            "type": "MD5",
+            "value": "d8371b06cfcb52a4bbabaed99eab1017"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_CEN_firstDegreeOnly_EDGES_20211122.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/cen1stDegreeOnly",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352553,
+          "persistentId": "",
+          "filename": "belle_CEN_firstDegreeOnly_EDGES_20211122.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 153,
+          "storageIdentifier": "surf://store:185865b94b5-3080ce95ae42",
+          "rootDataFileId": -1,
+          "md5": "815697edd4f2db9bc895542b1cc8a187",
+          "checksum": {
+            "type": "MD5",
+            "value": "815697edd4f2db9bc895542b1cc8a187"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_CEN_firstDegreeOnly_NODES_20211122.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/cen1stDegreeOnly",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352546,
+          "persistentId": "",
+          "filename": "belle_CEN_firstDegreeOnly_NODES_20211122.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 376,
+          "storageIdentifier": "surf://store:185865b94bf-d2360cd08586",
+          "rootDataFileId": -1,
+          "md5": "826bd6c98de0e829bcde663b0ee2f48a",
+          "checksum": {
+            "type": "MD5",
+            "value": "826bd6c98de0e829bcde663b0ee2f48a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_CEN_firstDegreeOnly_vizNetworkGephi.png",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/cen1stDegreeOnly",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352550,
+          "persistentId": "",
+          "filename": "belle_CEN_firstDegreeOnly_vizNetworkGephi.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 80968,
+          "storageIdentifier": "surf://store:185865b94ae-7a461a7f964d",
+          "rootDataFileId": -1,
+          "md5": "478f7240c257b7a080071e522dd3185b",
+          "checksum": {
+            "type": "MD5",
+            "value": "478f7240c257b7a080071e522dd3185b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_CEN_firstPlusSecondDegreeFromMappedNames_20211122.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352552,
+          "persistentId": "",
+          "filename": "belle_CEN_firstPlusSecondDegreeFromMappedNames_20211122.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 28152,
+          "storageIdentifier": "surf://store:185865b9446-c4ede9153565",
+          "rootDataFileId": -1,
+          "md5": "1d2983ad5a7e061b12389bc170d46679",
+          "checksum": {
+            "type": "MD5",
+            "value": "1d2983ad5a7e061b12389bc170d46679"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_combinedCENandExternal_networkViz_20211122.pdf",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/combinedCENandExternal",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352544,
+          "persistentId": "",
+          "filename": "belle_combinedCENandExternal_networkViz_20211122.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 54196,
+          "storageIdentifier": "surf://store:185865b947b-4419215521c4",
+          "rootDataFileId": -1,
+          "md5": "8cb941e63134d36c66875d5fae27dee3",
+          "checksum": {
+            "type": "MD5",
+            "value": "8cb941e63134d36c66875d5fae27dee3"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_combinedExternalAndCEN_EDGES_20211122.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/combinedCENandExternal",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352556,
+          "persistentId": "",
+          "filename": "belle_combinedExternalAndCEN_EDGES_20211122.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 6795,
+          "storageIdentifier": "surf://store:185865b947f-9c7fd32e32d2",
+          "rootDataFileId": -1,
+          "md5": "b4f818ff1c1f2e85925a87c047c38905",
+          "checksum": {
+            "type": "MD5",
+            "value": "b4f818ff1c1f2e85925a87c047c38905"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_combinedExternalAndCEN_Letters_20211122-100100.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352558,
+          "persistentId": "",
+          "filename": "belle_combinedExternalAndCEN_Letters_20211122-100100.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 356859,
+          "storageIdentifier": "surf://store:185865b944f-424f86fde64a",
+          "rootDataFileId": -1,
+          "md5": "e20109061a3be08865f6cf3e6a1d2df6",
+          "checksum": {
+            "type": "MD5",
+            "value": "e20109061a3be08865f6cf3e6a1d2df6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_combinedExternalAndCEN_LettersPerPerson_20211122.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352559,
+          "persistentId": "",
+          "filename": "belle_combinedExternalAndCEN_LettersPerPerson_20211122.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 594832,
+          "storageIdentifier": "surf://store:185865b9461-367e3d3de99a",
+          "rootDataFileId": -1,
+          "md5": "b18805ff0545242a000a2b195628cae0",
+          "checksum": {
+            "type": "MD5",
+            "value": "b18805ff0545242a000a2b195628cae0"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_combinedExternalAndCEN_NODES_20211122.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/combinedCENandExternal",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352549,
+          "persistentId": "",
+          "filename": "belle_combinedExternalAndCEN_NODES_20211122.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11826,
+          "storageIdentifier": "surf://store:185865b946c-8e59da11b13f",
+          "rootDataFileId": -1,
+          "md5": "b17fc65d569db503837ed6ac59c18203",
+          "checksum": {
+            "type": "MD5",
+            "value": "b17fc65d569db503837ed6ac59c18203"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_combinedExternalAndCEN_OverlappingPersons_20211122.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352551,
+          "persistentId": "",
+          "filename": "belle_combinedExternalAndCEN_OverlappingPersons_20211122.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1444,
+          "storageIdentifier": "surf://store:185865b9430-6f9561963bc4",
+          "rootDataFileId": -1,
+          "md5": "8d699126109e05a420d93b73bd1dc272",
+          "checksum": {
+            "type": "MD5",
+            "value": "8d699126109e05a420d93b73bd1dc272"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_External_firstDegreeOnly_EDGES_20211122.csv.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/belleExternalHuygens",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352548,
+          "persistentId": "",
+          "filename": "belle_External_firstDegreeOnly_EDGES_20211122.csv.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 4534,
+          "storageIdentifier": "surf://store:185865b949b-3102b5fdabc1",
+          "rootDataFileId": -1,
+          "md5": "d6ff3aa41e37654d6f7e136bf915b7fd",
+          "checksum": {
+            "type": "MD5",
+            "value": "d6ff3aa41e37654d6f7e136bf915b7fd"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_External_firstDegreeOnly_NODES_20211122.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/belleExternalHuygens",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352557,
+          "persistentId": "",
+          "filename": "belle_External_firstDegreeOnly_NODES_20211122.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 8997,
+          "storageIdentifier": "surf://store:185865b94a7-e1f64a820f74",
+          "rootDataFileId": -1,
+          "md5": "a4cc0c1a35db90c0346fc7799b7ab748",
+          "checksum": {
+            "type": "MD5",
+            "value": "a4cc0c1a35db90c0346fc7799b7ab748"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_externalHuygens_networkViz_opt1_GEPHI_20211122.png",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/belleExternalHuygens",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352542,
+          "persistentId": "",
+          "filename": "belle_externalHuygens_networkViz_opt1_GEPHI_20211122.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 295470,
+          "storageIdentifier": "surf://store:185865b9495-ba73e0b252ba",
+          "rootDataFileId": -1,
+          "md5": "ce94c17f83c0a41ca687e2bffa665051",
+          "checksum": {
+            "type": "MD5",
+            "value": "ce94c17f83c0a41ca687e2bffa665051"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belle_externalHuygens_networkViz_opt2_GEPHI_20211122.png",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/belleExternalHuygens",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352547,
+          "persistentId": "",
+          "filename": "belle_externalHuygens_networkViz_opt2_GEPHI_20211122.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 334797,
+          "storageIdentifier": "surf://store:185865b948a-72e5ce3d6663",
+          "rootDataFileId": -1,
+          "md5": "27c9d837755a6d89017994640e4654f2",
+          "checksum": {
+            "type": "MD5",
+            "value": "27c9d837755a6d89017994640e4654f2"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "belleExternal_letters_20211102_ORIGINAL.csv",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352560,
+          "persistentId": "",
+          "filename": "belleExternal_letters_20211102_ORIGINAL.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 713358,
+          "storageIdentifier": "surf://store:185865b943a-8f0ed46ccab1",
+          "rootDataFileId": -1,
+          "md5": "35691391376a7f95b7b6d7b76eb87a97",
+          "checksum": {
+            "type": "MD5",
+            "value": "35691391376a7f95b7b6d7b76eb87a97"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Each row represents a letter in the Belle van Zuylen edition (https://charriere.huygens.knaw.nl/edition/). The original metadata originates from a .csv export given by the Huygens Institute on October 22, 2021. Because the letters didn't have an Id in that file, we created one letter Id (starting with \"letBelle_\" followed by the consecutive letter number from the .csv file). The file here contains the mappings to the CEN (https://doi.org/10.34894/G8XQI0) letters (the Id starts with skL in those cases), plus the mappings to the CEN persons (the Id starts with skp in those cases).",
+        "label": "belleVanZuylen-allPersons_allCorrespondences_and_mappings_to_CEN_persons_and_letters.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352561,
+          "persistentId": "",
+          "filename": "belleVanZuylen-allPersons_allCorrespondences_and_mappings_to_CEN_persons_and_letters.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 545367,
+          "description": "Each row represents a letter in the Belle van Zuylen edition (https://charriere.huygens.knaw.nl/edition/). The original metadata originates from a .csv export given by the Huygens Institute on October 22, 2021. Because the letters didn't have an Id in that file, we created one letter Id (starting with \"letBelle_\" followed by the consecutive letter number from the .csv file). The file here contains the mappings to the CEN (https://doi.org/10.34894/G8XQI0) letters (the Id starts with skL in those cases), plus the mappings to the CEN persons (the Id starts with skp in those cases).",
+          "storageIdentifier": "surf://store:1858667542e-1720f6bec4ce",
+          "rootDataFileId": -1,
+          "md5": "c759346ee32da3d931d8a676ab79eeec",
+          "checksum": {
+            "type": "MD5",
+            "value": "c759346ee32da3d931d8a676ab79eeec"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "BelleVanZuylen_CEN_1stDegreeOnly_20211118.gephi",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/cen1stDegreeOnly",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352554,
+          "persistentId": "",
+          "filename": "BelleVanZuylen_CEN_1stDegreeOnly_20211118.gephi",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 154014,
+          "storageIdentifier": "surf://store:185865b94ba-fac219dd5809",
+          "rootDataFileId": -1,
+          "md5": "e90757694b231f225d329442db150d87",
+          "checksum": {
+            "type": "MD5",
+            "value": "e90757694b231f225d329442db150d87"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "BelleVanZuylen_combinedCENandHuygens_GEPHI_20211122.gephi",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/combinedCENandExternal",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352555,
+          "persistentId": "",
+          "filename": "BelleVanZuylen_combinedCENandHuygens_GEPHI_20211122.gephi",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 73035,
+          "storageIdentifier": "surf://store:185865b9474-aa7e8a78fe2d",
+          "rootDataFileId": -1,
+          "md5": "5db7dbd75673014f9e8df038af8689ba",
+          "checksum": {
+            "type": "MD5",
+            "value": "5db7dbd75673014f9e8df038af8689ba"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "BelleVanZuylen_ExternalHuygens_GEPHI_20211122.gephi",
+        "restricted": false,
+        "directoryLabel": "delivered_20211122/gephi/belleExternalHuygens",
+        "version": 1,
+        "datasetVersionId": 24630,
+        "dataFile": {
+          "id": 352543,
+          "persistentId": "",
+          "filename": "BelleVanZuylen_ExternalHuygens_GEPHI_20211122.gephi",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 65126,
+          "storageIdentifier": "surf://store:185865b94a2-694cc4775752",
+          "rootDataFileId": -1,
+          "md5": "63a0ab75d9132d001eac9a2876624f88",
+          "checksum": {
+            "type": "MD5",
+            "value": "63a0ab75d9132d001eac9a2876624f88"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "SKILLNET project, 2023, \"Belle van Zuylen dataset: Letter metadata with mappings to persons from the Catalogus Epistularum Neerlandicarum (CEN) curated by the SKILLNET project\", https://doi.org/10.34894/OHCXVQ, DataverseNL, V2"
+  }
+}

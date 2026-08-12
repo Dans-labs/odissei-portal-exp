@@ -3,7 +3,7 @@ Runs the portal without Dataverse. Data flattener for harvested data. Uses Types
 
 ## Flatten data
 ```bash
-python3 flatten_datasets.py ./data ./flattened_output
+python3 flatten_datasets.py ./raw-data ./flattened_output
 ```
 
 ## Setup Typesense

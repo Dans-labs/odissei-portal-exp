@@ -1,0 +1,1203 @@
+{
+  "id": 555929,
+  "identifier": "IDHH59",
+  "persistentUrl": "https://doi.org/10.34894/IDHH59",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-11-21",
+  "storageIdentifier": "surf://10.34894/IDHH59",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34046,
+    "datasetId": 555929,
+    "datasetPersistentId": "doi:10.34894/IDHH59",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/IDHH59",
+    "versionNumber": 2,
+    "internalVersionNumber": 15,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "productionDate": "2025-11-21",
+    "lastUpdateTime": "2026-02-26T13:46:27Z",
+    "releaseTime": "2026-02-26T13:46:27Z",
+    "createTime": "2026-02-17T12:10:10Z",
+    "publicationDate": "2025-11-21",
+    "citationDate": "2025-11-21",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Data from: A connectivity threshold between grass patches amplifies coastal dune formation"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Berghuis, Paul"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/04pp8hn57",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Utrecht University",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0009-0006-2943-498X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Berghuis, Paul"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Data from: A connectivity threshold between grass patches amplifies coastal dune formation\n<br><br>\nHere, we report on our work that shows that dune-building grasses can form functional clusters of interacting patches that strongly amplify engineering capacity. By analyzing a decade of morphological development in an establishing coastal dune system, we discovered that dune height is primarily driven by the initial density of neighboring patches, rather than individual patch size. We identified an S-shaped relationship consistent with a spatial percolation threshold: increasing local patch density triggers an abrupt shift from isolated sand-trapping patches to functionally connected clusters that enhance dune growth. \n<br><br>\nData:\n<br><br>\nThis dataset includes the patch polygons derived from orthorectified aerial imagery (locations and geometries) and a Source Data file containing the data underlying all main-text figures (e.g., including patch elevation over time). Links to the publicly available aerial imagery used for patch delineation are provided below. All elevation values used in the analysis are included in the source data file, see for further info the Readme_Data.pdf.\n<br><br>\nCode:\n<br><br>\nMain code to is provided in a series of .R files, see for further info the Readme.pdf.\n<br><br>\nLinks: \n<br>\nAerial Imagery: www.beeldmateriaal.nl \n<br>\nLow resolution elevation data: www.nationaalgeoregister.nl\n<br><br>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-11-03"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "grass patches"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "coastal dune formation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "morphological development"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "orthorectified aerial imagery"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "patch polygons"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "shapefile"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "R studio"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "IsSupplementTo"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Berghuis P.M.J., et al, 2025, A connectivity threshold between grass patches amplifies coastal dune formation, Submitted"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Berghuis, Paul"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University, NIOZ"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-11-21"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Utrecht, Netherlands"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Supervisor"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rietkerk, Max"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Supervisor"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Heide, Tjisse"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NWO"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UUNIOZ_Builders on the beach 4543.1"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Berghuis, Paul"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-11-03"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2013-01-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-01-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023-09-01"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-12-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "R"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "v2024.04.2"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Netherlands"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/IDHH59"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:8aef6f47-5ed2-4a2f-bf26-b26361a606c0"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-dee703eb-00e7-4ea0-8048-33787671ec49"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "10_HillCurveFitting.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 2,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 611440,
+          "persistentId": "",
+          "filename": "10_HillCurveFitting.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2324,
+          "storageIdentifier": "surf://store:19c7673a2a4-52a17ad380a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fd2105e60e97e240da3005b0faaee9feee29b598"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-19",
+          "publicationDate": "2026-02-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "1_Packages.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565147,
+          "persistentId": "",
+          "filename": "1_Packages.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 114,
+          "storageIdentifier": "surf://store:19aa1eb6c94-2ed27c9458ca",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "39778ef45e24914023a5e909385bb817118f6e44"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2_Libraries.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565137,
+          "persistentId": "",
+          "filename": "2_Libraries.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 176,
+          "storageIdentifier": "surf://store:19aa1eb6cd6-1cb7c93a90b4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f095b57626549648cf58bb13952385269e716741"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "3_ClipPatchPolygons.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565139,
+          "persistentId": "",
+          "filename": "3_ClipPatchPolygons.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1245,
+          "storageIdentifier": "surf://store:19aa1eb6d0b-010e3edf0646",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efebbf040a7c0d82d47e9461e79f1ffa3189eabd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "4_PolygonsToPoints.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565142,
+          "persistentId": "",
+          "filename": "4_PolygonsToPoints.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1169,
+          "storageIdentifier": "surf://store:19aa1eb6d45-b7dadb653e70",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4ea76d16b7a6e987d5a6a666e2fe490af33af1c2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "5_AddElevation.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565143,
+          "persistentId": "",
+          "filename": "5_AddElevation.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1112,
+          "storageIdentifier": "surf://store:19aa1eb6d7a-7e0d6029734b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "64d7dd920619dbd24a226c80f4e34bdf36436a70"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "6_AddLocalNeighborhoods.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565145,
+          "persistentId": "",
+          "filename": "6_AddLocalNeighborhoods.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1028,
+          "storageIdentifier": "surf://store:19aa1eb6db8-29288835feb0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "91f4b2e2dbc043a2264e7a309e6f380916951839"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "7_LocalNeighborhoodProperties.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565141,
+          "persistentId": "",
+          "filename": "7_LocalNeighborhoodProperties.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1732,
+          "storageIdentifier": "surf://store:19aa1eb6e00-39bae244c7a4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "96ca45665f012354cb456c9198f0b222a728b6bf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "8_LocalNeighborhoodPropertiesMultipleYears.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565140,
+          "persistentId": "",
+          "filename": "8_LocalNeighborhoodPropertiesMultipleYears.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2479,
+          "storageIdentifier": "surf://store:19aa1eb6e5f-4b1965d7765c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b92044816aced3dc43369c320127fd5b88b67862"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "9_CreateDataframe.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565146,
+          "persistentId": "",
+          "filename": "9_CreateDataframe.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1818,
+          "storageIdentifier": "surf://store:19aa1eb6eea-594f5fc7d1de",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0e33b4f5761ab5006aea830104f1db81161bd137"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Boundary_study_area.cpg",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Boundary study area",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555936,
+          "persistentId": "",
+          "filename": "Boundary_study_area.cpg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 5,
+          "storageIdentifier": "surf://store:19a4a8a2db1-8ea84a3716f1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "663b90c899fa25a111067be0c22ffc64dcf581c2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Boundary_study_area.dbf",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Boundary study area",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555935,
+          "persistentId": "",
+          "filename": "Boundary_study_area.dbf",
+          "contentType": "application/dbf",
+          "friendlyType": "dBASE Table for ESRI Shapefile",
+          "filesize": 77,
+          "storageIdentifier": "surf://store:19a4a8a2de5-e3c8f7327161",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e8aab190df39f5bfe8cc7238b82950a249a9a913"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Boundary_study_area.prj",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Boundary study area",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555934,
+          "persistentId": "",
+          "filename": "Boundary_study_area.prj",
+          "contentType": "application/prj",
+          "friendlyType": "ESRI Shapefile",
+          "filesize": 427,
+          "storageIdentifier": "surf://store:19a4a8a2e13-61e630c0cf99",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a7b4457262e2935c06a3ffe2a6b04c4b97a46052"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Boundary_study_area.qmd",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Boundary study area",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555933,
+          "persistentId": "",
+          "filename": "Boundary_study_area.qmd",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 1038,
+          "storageIdentifier": "surf://store:19a4a8a2e48-fa85b58c990d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "88e239cf491586a3f008465f913eb2c2f557bcef"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Boundary_study_area.shp",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Boundary study area",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555932,
+          "persistentId": "",
+          "filename": "Boundary_study_area.shp",
+          "contentType": "application/shp",
+          "friendlyType": "Shape",
+          "filesize": 988,
+          "storageIdentifier": "surf://store:19a4a8a2e7e-9d26788cba68",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "747df7111f58340f7681ff34467413169507c2dc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Boundary_study_area.shx",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Boundary study area",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555931,
+          "persistentId": "",
+          "filename": "Boundary_study_area.shx",
+          "contentType": "application/shx",
+          "friendlyType": "Shape",
+          "filesize": 108,
+          "storageIdentifier": "surf://store:19a4a8a2eb6-4af563aa34e4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "030df4479244630c6c4bff6a0bab1e562602225d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Overview.R",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565144,
+          "persistentId": "",
+          "filename": "Overview.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1445,
+          "storageIdentifier": "surf://store:19aa1eb6fa5-df7829b7a02c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "985852858ebb16315532eecc0aa14c2f1fb469cc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Patches_2013.dbf",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Patches 2013",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555945,
+          "persistentId": "",
+          "filename": "Patches_2013.dbf",
+          "contentType": "application/dbf",
+          "friendlyType": "dBASE Table for ESRI Shapefile",
+          "filesize": 429193,
+          "storageIdentifier": "surf://store:19a4a914f54-28c1296a2451",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d8c4ee0b680b16b3442699c48887482342678f69"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Patches_2013.prj",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Patches 2013",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555941,
+          "persistentId": "",
+          "filename": "Patches_2013.prj",
+          "contentType": "application/prj",
+          "friendlyType": "ESRI Shapefile",
+          "filesize": 145,
+          "storageIdentifier": "surf://store:19a4a914f8d-645cd98e8ad1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "86813d76269ab91b40ed3e67a86745bd933124e0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Patches_2013.shp",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Patches 2013",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555940,
+          "persistentId": "",
+          "filename": "Patches_2013.shp",
+          "contentType": "application/shp",
+          "friendlyType": "Shape",
+          "filesize": 787916,
+          "storageIdentifier": "surf://store:19a4a915002-aac046edfff0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "aa8a90ee8e0783f48f6f4f10710702f721d7d3db"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Patches_2013.shx",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Patches 2013",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555937,
+          "persistentId": "",
+          "filename": "Patches_2013.shx",
+          "contentType": "application/shx",
+          "friendlyType": "Shape",
+          "filesize": 35484,
+          "storageIdentifier": "surf://store:19a4a91503f-0c0c228be973",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "05dd01f3220e27ff03900459da9677c9f5db0355"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Patches_2017.dbf",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Patches 2017",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555938,
+          "persistentId": "",
+          "filename": "Patches_2017.dbf",
+          "contentType": "application/dbf",
+          "friendlyType": "dBASE Table for ESRI Shapefile",
+          "filesize": 288446,
+          "storageIdentifier": "surf://store:19a4a915083-68662daf3acd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3afd49a3d521a645689aee4355eaed2ba9e4e6f5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Patches_2017.shp",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Patches 2017",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555944,
+          "persistentId": "",
+          "filename": "Patches_2017.shp",
+          "contentType": "application/shp",
+          "friendlyType": "Shape",
+          "filesize": 631632,
+          "storageIdentifier": "surf://store:19a4a915117-75527270fac0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c7f06810694e5734604aa2462a5e77bd0e3672d1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Patches_2017.shx",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Patches 2017",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555942,
+          "persistentId": "",
+          "filename": "Patches_2017.shx",
+          "contentType": "application/shx",
+          "friendlyType": "Shape",
+          "filesize": 23876,
+          "storageIdentifier": "surf://store:19a4a91514d-a035b28bf5d2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9a798aa4c71c1268fbfa64957e4951b736f85075"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Patches_2021.dbf",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Patches 2021",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555943,
+          "persistentId": "",
+          "filename": "Patches_2021.dbf",
+          "contentType": "application/dbf",
+          "friendlyType": "dBASE Table for ESRI Shapefile",
+          "filesize": 320456,
+          "storageIdentifier": "surf://store:19a4a915195-14c6ce8043a0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "280bcd39f6452ea4264dce538a9970d715333422"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Patches_2021.shp",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Patches 2021",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555946,
+          "persistentId": "",
+          "filename": "Patches_2021.shp",
+          "contentType": "application/shp",
+          "friendlyType": "Shape",
+          "filesize": 842764,
+          "storageIdentifier": "surf://store:19a4a91523b-06019d1d1fa9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fb4e2ee4c56e2ce2f0be2e06ba7f99081ce7678b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Patches_2021.shx",
+        "restricted": false,
+        "directoryLabel": "Patch_data/Patches 2021",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 555939,
+          "persistentId": "",
+          "filename": "Patches_2021.shx",
+          "contentType": "application/shx",
+          "friendlyType": "Shape",
+          "filesize": 26516,
+          "storageIdentifier": "surf://store:19a4a91526f-135e62e2cafe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f8c003fb4b420798bc30fc3e467f2afdaf00093d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-03",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Readme_Data.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565251,
+          "persistentId": "",
+          "filename": "Readme_Data.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 122673,
+          "storageIdentifier": "surf://store:19aa60c674b-5e6d3ef821b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "900f13cf676aa3a6f18f894be8e591ebcafac48d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-21",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Readme.pdf",
+        "restricted": false,
+        "directoryLabel": "Code",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565148,
+          "persistentId": "",
+          "filename": "Readme.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 167756,
+          "storageIdentifier": "surf://store:19aa1f605da-35e944d021ba",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "df83da97ca9e27763dcf1ad374938e72b8c8542b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Source_data_file.xlsx",
+        "restricted": false,
+        "directoryLabel": "Source data",
+        "version": 1,
+        "datasetVersionId": 34046,
+        "dataFile": {
+          "id": 565149,
+          "persistentId": "",
+          "filename": "Source_data_file.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 33447128,
+          "storageIdentifier": "surf://store:19aa20a58f1-841e00380058",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "34777ff5c1453705e14ce40c95f79bc7909cfe1f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-21",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Berghuis, Paul, 2025, \"Data from: A connectivity threshold between grass patches amplifies coastal dune formation\", https://doi.org/10.34894/IDHH59, DataverseNL, V2"
+  }
+}

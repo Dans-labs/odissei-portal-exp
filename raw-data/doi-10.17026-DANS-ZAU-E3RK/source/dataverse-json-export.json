@@ -1,0 +1,951 @@
+{
+  "id": 240006,
+  "identifier": "dans-zau-e3rk",
+  "persistentUrl": "https://doi.org/10.17026/DANS-ZAU-E3RK",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2023-05-16",
+  "storageIdentifier": "surf://10.17026/dans-zau-e3rk",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24652,
+    "datasetId": 240006,
+    "datasetPersistentId": "doi:10.17026/DANS-ZAU-E3RK",
+    "storageIdentifier": "surf://10.17026/dans-zau-e3rk",
+    "versionNumber": 4,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2023-05-12",
+    "productionDate": "2023-05-11",
+    "lastUpdateTime": "2025-03-12T13:03:07Z",
+    "releaseTime": "2025-03-12T13:03:07Z",
+    "createTime": "2025-03-04T20:21:17Z",
+    "publicationDate": "2023-05-16",
+    "citationDate": "2023-05-16",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    "termsOfAccess": "N/a",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "A collection of FAIR Dutch Freedom of Information Act documents"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:285408"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "M. Marx"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Informatics Institute"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-3255-3729"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maarten  Marx"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UvA"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>This dataset contains a set of documents released through the Dutch FOIA legislation (Woo), collected from over a thousand suppliers, and provided with a rich set of metadata. The main portion of the dataset is in the 'dataset' zip folder, which contains all passively released documents that were collected. The dataset also contains actively released files, a relatively new category, these are stored in the 'EXTRA-actively-released'  folder. Finally, the dataset contains several examples notebooks in the 'notebooks' folder, including detailed information on the dataset sources, how to load the dataset, and how to retrieve the linke PDF files.</p>\n\n<b> Usage Notes</b>\n<p>By default, the files in the dataset are shown in a flat list structure, with is nice if you only want to download just a few files, but a bit problematic if you want to see the complete structure of the folder. You can change this by changes to the 'Tree' file structure in the overview.</p>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-03-12"
+                }
+              },
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Date Submitted: 2023-05-12, updated 2025-03-12"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-03-12"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Law",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FAIR Dutch Freedom"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "documents"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Freedom of Information requests (Wob en Woo verzoeken, besluiten en vrijgegeven documenten)"
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-05-11"
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Curator"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MAARTEN marx (Informatics Institute)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-05-12"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-05-12"
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Various, all indicated in the dataset."
+            ]
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Dr Maarten Marx (Informatics Institute)"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D40000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D40000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Recht en bestuur"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Law and Public Administration"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Woogle website"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://woogle.wooverheid.nl/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansSocialSciences": {
+        "displayName": "Social Sciences and Humanities",
+        "name": "dansSocialSciences",
+        "fields": [
+          {
+            "typeName": "dansElsstClassification",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://elsst.cessda.eu/id/4/c7c96590-75e6-4b58-8261-9ef4ca0436ca",
+              "https://elsst.cessda.eu/id/4/432fa206-bb45-433f-a502-8e374ac16ff7"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://elsst.cessda.eu/id/4/c7c96590-75e6-4b58-8261-9ef4ca0436ca",
+                "termName": [
+                  {
+                    "lang": "el",
+                    "value": "ΝΟΜΟΣ"
+                  },
+                  {
+                    "lang": "lt",
+                    "value": "TEISĖ"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "RECHT"
+                  },
+                  {
+                    "lang": "es",
+                    "value": "DERECHO"
+                  },
+                  {
+                    "lang": "ro",
+                    "value": "DREPT (LEGISLAȚIE)"
+                  },
+                  {
+                    "lang": "fr",
+                    "value": "DROIT"
+                  },
+                  {
+                    "lang": "hu",
+                    "value": "JOG"
+                  },
+                  {
+                    "lang": "sv",
+                    "value": "JURIDIK"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "LAW"
+                  },
+                  {
+                    "lang": "is",
+                    "value": "LÖG"
+                  },
+                  {
+                    "lang": "da",
+                    "value": "LOV"
+                  },
+                  {
+                    "lang": "no",
+                    "value": "LOV"
+                  },
+                  {
+                    "lang": "fi",
+                    "value": "OIKEUDENALAT"
+                  },
+                  {
+                    "lang": "cs",
+                    "value": "PRÁVO"
+                  },
+                  {
+                    "lang": "sl",
+                    "value": "PRAVO"
+                  },
+                  {
+                    "lang": "de",
+                    "value": "RECHT"
+                  }
+                ]
+              },
+              {
+                "@id": "https://elsst.cessda.eu/id/4/432fa206-bb45-433f-a502-8e374ac16ff7",
+                "termName": [
+                  {
+                    "lang": "el",
+                    "value": "ΔΗΜΟΣΙΑ ΔΙΟΙΚΗΣΗ"
+                  },
+                  {
+                    "lang": "lt",
+                    "value": "VIEŠASIS ADMINISTRAVIMAS"
+                  },
+                  {
+                    "lang": "cs",
+                    "value": "VEŘEJNÁ SPRÁVA"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "PUBLIC ADMINISTRATION"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "OVERHEIDSADMINISTRATIE"
+                  },
+                  {
+                    "lang": "is",
+                    "value": "OPINBER STJÓRNSÝSLA"
+                  },
+                  {
+                    "lang": "sv",
+                    "value": "OFFENTLIG FÖRVALTNING"
+                  },
+                  {
+                    "lang": "es",
+                    "value": "ADMINISTRACIÓN PÚBLICA"
+                  },
+                  {
+                    "lang": "ro",
+                    "value": "ADMINISTRAȚIE PUBLICĂ"
+                  },
+                  {
+                    "lang": "fr",
+                    "value": "ADMINISTRATION PUBLIQUE"
+                  },
+                  {
+                    "lang": "sl",
+                    "value": "JAVNA UPRAVA"
+                  },
+                  {
+                    "lang": "fi",
+                    "value": "JULKINEN HALLINTO"
+                  },
+                  {
+                    "lang": "hu",
+                    "value": "KÖZIGAZGATÁS"
+                  },
+                  {
+                    "lang": "de",
+                    "value": "ÖFFENTLICHE VERWALTUNG"
+                  },
+                  {
+                    "lang": "no",
+                    "value": "OFFENTLIG ADMINISTRASJON"
+                  },
+                  {
+                    "lang": "da",
+                    "value": "OFFENTLIG ADMINISTRATION"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/dans-zau-e3rk"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "4.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:b1d3e060-2279-49a8-a69f-0be5a52bd23c"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-bg-lqgs"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "actively_released.md",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614461,
+          "persistentId": "",
+          "filename": "actively_released.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 2112,
+          "storageIdentifier": "surf://store:1958a56f95a-b9f333a94a30",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9ad13e0bcb142a5878c5ddc4ffe281cefaf51515"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DatasetCollection.ipynb",
+        "restricted": false,
+        "directoryLabel": "dataset/notebooks",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614472,
+          "persistentId": "",
+          "filename": "DatasetCollection.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 7037,
+          "storageIdentifier": "surf://store:1958a5033bc-8c6341ee4f45",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "968d2171f734849527a7deb4f86bedff05de3be7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DownloadWooglePDFs.ipynb",
+        "restricted": false,
+        "directoryLabel": "dataset/notebooks",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614464,
+          "persistentId": "",
+          "filename": "DownloadWooglePDFs.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 4501,
+          "storageIdentifier": "surf://store:1958a5033a4-92b0e48adfa5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9ff6fbcd484cca21e95c9de052a07ee9e5ba7f56"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext_1b-n.csv.gz",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614452,
+          "persistentId": "",
+          "filename": "woo_bodytext_1b-n.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 253,
+          "storageIdentifier": "surf://store:1958a567515-183fca919c13",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3e2ac3b28eec513ed58f24f7487b8fb3d6d38184"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext_1b-t.csv.gz",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614477,
+          "persistentId": "",
+          "filename": "woo_bodytext_1b-t.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 253,
+          "storageIdentifier": "surf://store:1958a567519-6594d55fc1d3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6d8b955689b83c4856b72c41d22e610e7b73e42d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext_2b.csv.gz",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614471,
+          "persistentId": "",
+          "filename": "woo_bodytext_2b.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 569415288,
+          "storageIdentifier": "surf://store:1958a56751c-595fa25535eb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9b08cf5a84a7b1904426a563e524134b0753c466"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext_2c.csv.gz",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614466,
+          "persistentId": "",
+          "filename": "woo_bodytext_2c.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 120636922,
+          "storageIdentifier": "surf://store:1958a56f961-1d827ea4d101",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "45f50115bc59ca75b8b551227050a3ac7d6011cd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext_2d.csv.gz",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614476,
+          "persistentId": "",
+          "filename": "woo_bodytext_2d.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 1957245,
+          "storageIdentifier": "surf://store:1958a5674fe-d9224c920cfd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6240c23010348d1da8a622b5cad9ec87b7e1fa53"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext_2e-b.csv.gz",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614473,
+          "persistentId": "",
+          "filename": "woo_bodytext_2e-b.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 35952502,
+          "storageIdentifier": "surf://store:1958a56ff1f-029fa31446da",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13946437744882d9621311287df5354a4eff57c2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext_2e.csv.gz",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614458,
+          "persistentId": "",
+          "filename": "woo_bodytext_2e.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 118518720,
+          "storageIdentifier": "surf://store:1958a56f3bc-93bcdeeffca4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "296a096d8e0c2bcaa31da6c7ca664050612f6e2c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext_2f.csv.gz",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614460,
+          "persistentId": "",
+          "filename": "woo_bodytext_2f.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 6305535,
+          "storageIdentifier": "surf://store:1958a5633f5-883e0c2161cc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "67d50ecc1b562395c01173882399d5a4e8531e17"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext_2j.csv.gz",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614474,
+          "persistentId": "",
+          "filename": "woo_bodytext_2j.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 1490975287,
+          "storageIdentifier": "surf://store:1958a563444-022c59f00a90",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "556478a785c5a2825fe8897a859b784b3dbe9fe4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext_2k.csv.gz",
+        "restricted": false,
+        "directoryLabel": "EXTRA-actively-released-files",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614469,
+          "persistentId": "",
+          "filename": "woo_bodytext_2k.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 2133642854,
+          "storageIdentifier": "surf://store:1958a568fe2-560808b33b21",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dd28860736a39355811332ec7e386b4bf4b88f2a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_bodytext.csv.gz",
+        "restricted": false,
+        "directoryLabel": "dataset",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614453,
+          "persistentId": "",
+          "filename": "woo_bodytext.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 1392264356,
+          "storageIdentifier": "surf://store:1958a4faf3b-393fd51a3e96",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6be4749b2b7a8822ef10663fa64f0e1430777eb5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_documents.csv.gz",
+        "restricted": false,
+        "directoryLabel": "dataset",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614459,
+          "persistentId": "",
+          "filename": "woo_documents.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 130182728,
+          "storageIdentifier": "surf://store:1958a4faa25-88b1d12c3d58",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "69ca4a46cb77f0b59d728b5dbd072148007268b4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "woo_dossiers.csv.gz",
+        "restricted": false,
+        "directoryLabel": "dataset",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614467,
+          "persistentId": "",
+          "filename": "woo_dossiers.csv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 285960274,
+          "storageIdentifier": "surf://store:1958a4fdfde-01a97ee859b9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "57cd383c460d3e84a1302e855746fa05acc8a5dd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Woogledataset.ipynb",
+        "restricted": false,
+        "directoryLabel": "dataset/notebooks",
+        "version": 1,
+        "datasetVersionId": 24652,
+        "dataFile": {
+          "id": 614454,
+          "persistentId": "",
+          "filename": "Woogledataset.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 759589,
+          "storageIdentifier": "surf://store:1958a5033ad-e3c142754603",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "19fb8acf9431a20b746f1144b8097a7efc8a65c4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-03-12",
+          "publicationDate": "2025-03-12",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "M. Marx, 2023, \"A collection of FAIR Dutch Freedom of Information Act documents\", https://doi.org/10.17026/DANS-ZAU-E3RK, DANS Data Station Social Sciences and Humanities, V4"
+  }
+}

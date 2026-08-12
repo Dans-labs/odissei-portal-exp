@@ -1,0 +1,242 @@
+{
+  "id": 478531,
+  "identifier": "UNMMSD",
+  "persistentUrl": "https://doi.org/10.34894/UNMMSD",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-04-10",
+  "storageIdentifier": "surf://10.34894/UNMMSD",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30474,
+    "datasetId": 478531,
+    "datasetPersistentId": "doi:10.34894/UNMMSD",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/UNMMSD",
+    "versionNumber": 1,
+    "internalVersionNumber": 8,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-04-10T09:15:28Z",
+    "releaseTime": "2025-04-10T09:15:28Z",
+    "createTime": "2025-04-10T08:58:40Z",
+    "publicationDate": "2025-04-10",
+    "citationDate": "2025-04-10",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Study 3: The influence of the pretest effect on posttest scores in a bronchoscopy simulation setting"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Eveline Gerretsen - PhD Project data for study 3"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Eveline Gerretsen"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2353-0381"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Shedata"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<B>Short description of the study</B><BR><BR>\n\nThe study setup involved a pretest session where participants underwent a brief introduction to bronchoscopy and simulator equipment handling. This was followed by a pretest consisting of two tasks on a flexible bronchoscopy simulator: non-anatomical (basic scope manipulation) and anatomical (lung anatomy and bronchial segments). A short break was scheduled between the tasks to prevent muscle fatigue, during which participants received basic background anatomy information. Following the pretest, a break of 4-6 hours was scheduled before the posttest session, where participants repeated the two simulator tasks.<BR><BR>\n\nIn the non-anatomical environment task, participants navigated the bronchoscope tip through a digital maze following a blue ball. In the anatomical environment task, participants navigated to and entered airway segments sequentially. <BR><BR>\n\nOutcome measures included navigational skill scores between the two tests, assessed through simulator metrics for the non-anatomical task and procedure time, number of correctly entered segments, and overall scores on a bronchoscopy assessment tool for the anatomical task.<BR><BR>\n\nInstruments used: simulator metrics obtained from the “Essential Bronchoscopy” module of the GI-BRONCH Mentor flexible bronchoscopy simulator (Surgical Science, Sweden) were used as outcome measures for the non-anatomical environment task. A basic bronchoscopy assessment tool was employed (see Supplemental Digital Content 3 of the study) for assessment of the anatomical environment task. <BR><BR>\n\n<B>Short description of the data file</B><BR><BR>\n\nThe “240312 full dataset prepost study.sav” file contains the whole dataset, with participant age, sex and all outcome measures. <BR><BR>\n\nOverview of parameters in the .sav file:<BR>\nAge: age in years<BR>\nSex: 0 = male, 1 = female<BR><BR>\n\nNon-anatomical environment task variables:<BR>\nLumen_pre & lumen_post: % of time at mid-lumen in the pretest and posttest<BR>\nN_wall_pre & N_wall_post: the number of wall contacts in the pretest and posttest<BR>\nTime_task1_pre & Time_task1_post: pretest and posttest total time<BR>\nScope_wall_pre & Scope_wall_post: % of time with scope-wall contact in the pretest and posttest<BR>\nWallcontact_min_pre & Wallcontact_min_post: the number of wall contacts per minute in the pretest and posttest<BR><BR>\n\n\nAnatomical environment task variables. Note: for all assessment tool parameters, higher scores in the .sav file indicate a better performance. For instance: For parameter 1 “Scope introduction” a score of 1 in SPSS means 3 or more tries, a score of 2 in SPSS equals 2 tries, a score of 3 in SPSS equals 1 try. For parameter 6, Hand-wrist movements, a score of 1 in SPSS means “Wrong position of hand and fingers during the procedure with too much tension” and a score of 5 means “Right position of hand and fingers during the procedure with a relaxed posture”.<BR><BR>\n\nIntroduction_pre & introduction_post: Assessment tool parameter 1 score in pretest and posttest (scope introduction). Range 1 – 3.<BR>\nRL_reach_pre & RL_reach_post: Assessment tool parameter 2 score in pretest and posttest (entered segments in right lung). Range 1 – 3. <BR>\nLL_reach_pre & LL_reach_post: Assessment tool parameter 3 score in pretest and posttest (entered segments in left lung). Range 1 – 3. <BR>\nIntra_move_pre & Intra_move_post: Assessment tool parameter 4 score in pretest and posttest (intra-bronchial scope movement overall). Range 1 – 5.<BR>\nScope_handl_pre & Scope_handl_post: Assessment tool parameter 5 score in pretest and posttest (scope handling). Range 1 – 5.<BR>\nHand_wrist_pre & Hand_wrist_post: Assessment tool parameter 6 score in pretest and posttest (hand-wrist movements). Range 1 – 5. <BR>\nTime_task_3_pre & Time_task_3_post: Assessment tool parameter 7 score in pretest and posttest (procedure time in seconds).<BR>\nOverall_pre & Overall_post: overall scores on the assessment tool in the pretest and posttest. Range 1- 5.<BR><BR>\n\nOther parameters of the anatomical environment task (not from assessment tool):<BR>\nMissed_segments_R_pre & Missed_segments_R_post: number of missed segments in the right lung in pretest and posttest. Range 0 – 10.<BR>\nMissed_segments_L_pre & Missed_segments_L-post: number of missed segments in the left lung in pretest and posttest. Range 0 – 8.<BR><BR>\n\nLog[name variable]: logarithmic transformation of parameters to check for normality of some parameters of which there was a differing normality in the pretest and posttest. <BR><BR>\n\nCorrectly_enter_pre & Correctly_enter_post = total number of correctly entered segments in the pretest and posttest. Range 0 – 18.<BR>\nCorrectly_enter_R_pre & Corretly_enter_R_post = total number of correctly entered segments of the right lung in the pretest and posttest. Range 0 – 10.<BR>\nCorrectly_enter_L_pre & Correctly_enter_L_post = total number of correctly entered segments of the left lung in the pretest and posttest. Range 0 – 8.<BR><BR>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-09-04"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "bronchoscopy, simulation, testing, assessment"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "not yet applicable"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Shedata"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-04-09"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/UNMMSD"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:1ec708c6-4dba-4ba5-8f80-f401afc79075"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-48117a0a-f83a-4338-bb82-b7b38660b4be"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "240312 full dataset prepost study.sav",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 30474,
+        "dataFile": {
+          "id": 478532,
+          "persistentId": "",
+          "filename": "240312 full dataset prepost study.sav",
+          "contentType": "application/x-spss-sav",
+          "friendlyType": "SPSS Binary",
+          "filesize": 8920,
+          "storageIdentifier": "surf://store:1961eec16b2-41bba2478147",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "107a7c4320e8f75ad1c21a25a4ab0ba73163352c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-04-10",
+          "publicationDate": "2025-04-10",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Eveline Gerretsen, 2025, \"Study 3: The influence of the pretest effect on posttest scores in a bronchoscopy simulation setting\", https://doi.org/10.34894/UNMMSD, DataverseNL, V1"
+  }
+}

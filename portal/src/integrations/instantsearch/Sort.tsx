@@ -8,6 +8,8 @@ export function SortBy() {
       { value: "datasets", label: m.sortByRelevance() },
       { value: "datasets/sort/title:asc", label: m.sortByTitleAsc() },
       { value: "datasets/sort/title:desc", label: m.sortByTitleDesc() },
+      { value: "datasets/sort/date_of_deposit_timestamp:asc", label: m.sortByDateOfDepositAsc() },
+      { value: "datasets/sort/date_of_deposit_timestamp:desc", label: m.sortByDateOfDepositDesc() },
     ],
   });
 

@@ -15,12 +15,12 @@ export function Checkbox({
   value?: string;
 }) {
   return (
-    <label className="flex cursor-pointer items-center gap-2 text-sm text-gray-900">
+    <label className="flex cursor-pointer items-center gap-2 text-sm">
       <BaseCheckbox.Root
         {...(checked ? { checked } : {})}
         {...(onCheckedChange ? { onCheckedChange } : {})}
         value={value}
-        className="flex h-4 w-4 items-center justify-center rounded border border-gray-300 bg-white transition-colors data-checked:bg-cyan-600"
+        className="flex shrink-0 h-4 w-4 items-center justify-center rounded border border-gray-300 bg-white dark:bg-gray-700 dark:border-gray-600 transition-colors data-checked:bg-cyan-600"
       >
         <BaseCheckbox.Indicator>
           <CheckIcon className="size-3 text-white" />
@@ -30,7 +30,9 @@ export function Checkbox({
       <span>
         {label}{" "}
         {count && (
-          <span className="bg-gray-100 text-gray-400 text-xs rounded-md px-1 py-0.5">{count}</span>
+          <span className="bg-gray-100 text-gray-400 dark:bg-gray-700 dark:text-gray-400 text-xs rounded-md px-1 py-0.5">
+            {count}
+          </span>
         )}
       </span>
     </label>

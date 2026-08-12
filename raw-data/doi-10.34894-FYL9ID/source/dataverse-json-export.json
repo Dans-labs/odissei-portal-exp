@@ -1,0 +1,307 @@
+{
+  "id": 353294,
+  "identifier": "FYL9ID",
+  "persistentUrl": "https://doi.org/10.34894/FYL9ID",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-08-14",
+  "storageIdentifier": "surf://10.34894/FYL9ID",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24654,
+    "datasetId": 353294,
+    "datasetPersistentId": "doi:10.34894/FYL9ID",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/FYL9ID",
+    "versionNumber": 1,
+    "internalVersionNumber": 19,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-08-14T13:09:40Z",
+    "releaseTime": "2023-08-14T13:09:40Z",
+    "createTime": "2023-01-10T10:35:25Z",
+    "publicationDate": "2023-08-14",
+    "citationDate": "2023-08-14",
+    "license": {
+      "name": "CC-BY-NC-4.0",
+      "uri": "http://creativecommons.org/licenses/by-nc/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
+    },
+    "termsOfAccess": "By downloading or otherwise accessing the materials, the downloader represents his/her acceptance of the Terms of Use.",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Spatial distributions of white matter hyperintensities on brain MRI: a pooled analysis of individual patient data from 11 memory clinic cohorts"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Coenen, Mirthe"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-7901-8232"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kuijf, Hugo"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6997-9059"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "data management"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Coenen, Mirthe"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Data to replicate our work on the spatial distribution of white matter hyperintensities on brain MRI. \n\n<p>This dataset contains two files:\n<dl>\n<dt>metavcimap_memory_clinic_n3525_mni_space.nii.gz</dt><dd>WMH probability map, showing the spatial distribution of WMH in 3525 patients from 11 memory clinic cohorts. This file can be opened with a medical image viewer that supports the NIfTI data format.</dd>\n<dt>wmh_atypical_patterns_model.sav</dt><dd>A scikit-learn Local Outlier Factor model trained on the 3525 patients in novelty-mode. This model can be used to process your own data, with the code provided on GitHub. This file can be opened using the Python library skops (<a href=\"https://skops.readthedocs.io/\">https://skops.readthedocs.io/</a>). </dd></p>\n\nSupporting code is available on GitHub: <a href=\"https://github.com/Meta-VCI-Map/WMH_distribution_memory_clinic\">https://github.com/Meta-VCI-Map/WMH_distribution_memory_clinic</a>, as a Jupyter Notebook: <a href=\"https://github.com/Meta-VCI-Map/WMH_distribution_memory_clinic/blob/main/WMH_atypical_patterns.ipynb\">https://github.com/Meta-VCI-Map/WMH_distribution_memory_clinic/blob/main/WMH_atypical_patterns.ipynb</a>."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Spatial distributions of white matter hyperintensities on brain MRI: a pooled analysis of individual patient data from 11 memory clinic cohorts (submitted)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Kuijf, Hugo"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-01-10"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/FYL9ID"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:48f1705f-2872-45a2-aeae-b9ef16387e73"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-d4518e94-d991-4166-986c-7674700182fd"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "WMH probability map, showing the spatial distribution of WMH in 3525 patients from 11 memory clinic cohorts. This file can be opened with a medical image viewer that supports the NIfTI data format.",
+        "label": "metavcimap_memory_clinic_n3525_mni_space.nii.gz",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 24654,
+        "dataFile": {
+          "id": 354013,
+          "persistentId": "",
+          "filename": "metavcimap_memory_clinic_n3525_mni_space.nii.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 1117471,
+          "description": "WMH probability map, showing the spatial distribution of WMH in 3525 patients from 11 memory clinic cohorts. This file can be opened with a medical image viewer that supports the NIfTI data format.",
+          "storageIdentifier": "surf://store:185e4574ef7-998ad08363e5",
+          "rootDataFileId": -1,
+          "md5": "c2e424e1dc5bb62735a0af9742202720",
+          "checksum": {
+            "type": "MD5",
+            "value": "c2e424e1dc5bb62735a0af9742202720"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-24",
+          "publicationDate": "2023-08-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24654,
+        "dataFile": {
+          "id": 380744,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1859,
+          "storageIdentifier": "surf://store:189e4e5acea-72ef27fa12bd",
+          "rootDataFileId": -1,
+          "md5": "095b75b128a334d447dcb23d9c44ac3d",
+          "checksum": {
+            "type": "MD5",
+            "value": "095b75b128a334d447dcb23d9c44ac3d"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-08-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "A scikit-learn Local Outlier Factor model trained on the 3525 patients in novelty-mode. This model can be used to process your own data, with the code provided on GitHub. This file can be opened using the Python library skops (https://skops.readthedocs.io/).",
+        "label": "wmh_atypical_patterns_model.sav",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 24654,
+        "dataFile": {
+          "id": 354014,
+          "persistentId": "",
+          "filename": "wmh_atypical_patterns_model.sav",
+          "contentType": "application/x-spss-sav",
+          "friendlyType": "SPSS Binary",
+          "filesize": 2260395960,
+          "description": "A scikit-learn Local Outlier Factor model trained on the 3525 patients in novelty-mode. This model can be used to process your own data, with the code provided on GitHub. This file can be opened using the Python library skops (https://skops.readthedocs.io/).",
+          "storageIdentifier": "surf://store:185e45722f8-6cb9084494cd",
+          "rootDataFileId": -1,
+          "md5": "15d2ddf31a1dcf07fa0a4bc6b9d9e924",
+          "checksum": {
+            "type": "MD5",
+            "value": "15d2ddf31a1dcf07fa0a4bc6b9d9e924"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-24",
+          "publicationDate": "2023-08-14",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Coenen, Mirthe; Kuijf, Hugo, 2023, \"Replication Data for: Spatial distributions of white matter hyperintensities on brain MRI: a pooled analysis of individual patient data from 11 memory clinic cohorts\", https://doi.org/10.34894/FYL9ID, DataverseNL, V1"
+  }
+}

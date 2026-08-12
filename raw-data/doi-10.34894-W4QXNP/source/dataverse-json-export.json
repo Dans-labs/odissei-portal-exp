@@ -1,0 +1,370 @@
+{
+  "id": 511926,
+  "identifier": "W4QXNP",
+  "persistentUrl": "https://doi.org/10.34894/W4QXNP",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-21",
+  "storageIdentifier": "surf://10.34894/W4QXNP",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31421,
+    "datasetId": 511926,
+    "datasetPersistentId": "doi:10.34894/W4QXNP",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/W4QXNP",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2022-08-10",
+    "lastUpdateTime": "2025-08-21T14:56:51Z",
+    "releaseTime": "2025-08-21T14:56:51Z",
+    "createTime": "2025-08-21T14:56:05Z",
+    "publicationDate": "2025-08-21",
+    "citationDate": "2025-08-21",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Bias in expert product reviews"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.20462598"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Ours, Jan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-0144-9956"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vollaard, Ben"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/04b8v1s79",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Tilburg University",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-6045-5934"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Ours, Jan"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus School of Economics <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>The STATA-dataset is used in the article \"Bias in expert product reviews\". There is also a STATA-do file. In combination this recreates all tables in the article. The files are self-explanatory. </p>\n<p><br></p>\n<p>Article abstract: Many expert reviews of products such as cars, books, movies and restaurants are non-blind. Whether such reviews can be taken at face value is questionable, but hard evidence on the presence of reviewer bias is rare. This holds particularly true for conflicts of interest that are thought to be common in non-blind product reviews but are not readily observable: ad hoc relationships between reviewers and producers. We present a textbook case of a long-running expert product review in the food service industry for which we know the reviewer’s conflict of interest: being affiliated to one particular producer. As is typical, only insiders were aware of the possible source of bias in the review. The review resembles other non-blind tests of product quality. We find evidence of a sizable bias in the reviewers’ ratings. Our findings suggest that reviewers’ ad hoc relationships with producers, often dismissed as ‘coming with the job’, can be very harmful.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Consumer Test"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Expert Reviewers"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bias"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Industry Economics And Industrial Organisation"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Applied Economics Not Elsewhere Classified"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a two-file data package totaling 302.8 KB, containing files in .dta and .do formats.<p><p>If you use this dataset, please cite: van Ours, Jan; Vollaard, Ben (2022). Bias in expert product reviews. Erasmus University Rotterdam (EUR). Dataset. <a href=\"https://doi.org/10.25397/eur.20462598\" target=\"_blank\">https://doi.org/10.25397/eur.20462598</a><p>"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-08-10"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van Ours, Jan"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-08-10"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://doi.org/10.1016/j.jebo.2022.08.002\" target=\"_blank\">https://doi.org/10.1016/j.jebo.2022.08.002</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/W4QXNP"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:8db4baa9-7d34-45bd-9de3-ea0dd94396bc"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-dc7ce0cd-47c6-4e15-8f81-2cad5d077f8f"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "Herring-Data-JEBO-2022.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.20462598",
+        "version": 1,
+        "datasetVersionId": 31421,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511927,
+          "persistentId": "",
+          "filename": "Herring-Data-JEBO-2022.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 296645,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd2142c2-adc864277f31",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "abdc62228bd7a3353dee2541c6736ee24227ef91"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Herring-JEBO-2022.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.20462598",
+        "version": 1,
+        "datasetVersionId": 31421,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511928,
+          "persistentId": "",
+          "filename": "Herring-JEBO-2022.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 5184,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd2143a7-13b6a6b0e6cd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f6f79720843ae1f5f2af4771b878e4561a0a14a2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "van Ours, Jan; Vollaard, Ben, 2025, \"Bias in expert product reviews\", https://doi.org/10.34894/W4QXNP, DataverseNL, V1"
+  }
+}

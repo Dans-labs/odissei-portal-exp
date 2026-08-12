@@ -1,0 +1,2448 @@
+{
+  "id": 228351,
+  "identifier": "dans-xar-hqvg",
+  "persistentUrl": "https://doi.org/10.17026/DANS-XAR-HQVG",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2015-12-31",
+  "storageIdentifier": "surf://10.17026/dans-xar-hqvg",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 35188,
+    "datasetId": 228351,
+    "datasetPersistentId": "doi:10.17026/DANS-XAR-HQVG",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-xar-hqvg",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2017-09-30",
+    "productionDate": "2015-12-31",
+    "lastUpdateTime": "2026-07-20T04:24:54Z",
+    "releaseTime": "2026-07-20T04:24:54Z",
+    "createTime": "2026-07-20T04:24:43Z",
+    "publicationDate": "2015-12-31",
+    "citationDate": "2015-12-31",
+    "versionNote": "The Python package langdetect was used to semi-automatically identify the languages used in the metadata. Human curators verified and corrected the results. If you notice any inaccuracies, please contact DANS.",
+    "license": {
+      "name": "DANS Licence",
+      "uri": "https://doi.org/10.17026/fp39-0x58",
+      "iconUri": ""
+    },
+    "termsOfAccess": "",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "KBK-1M - Koninklijke Bibliotheek Kranten – 1 Miljoen"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:73749"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "M. Kleppe"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "National Library of the Netherlands (KB)"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "DAI"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "info:eu-repo/dai/nl/344563359"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "D. Elliott"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "W.J. Faber"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "National Library of the Netherlands (KB)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "K.B.  Data"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Koninklijke Bibliotheek"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>The KBK-1M Dataset (‘Koninklijke Bibliotheek Kranten – 1 Miljoen’) is a collection of 1,603,396 images and accompanying captions of the period 1922 – 1994. We extracted the images from digitised newspapers that are stored in the National Library (KB) Newspaper Archive and that are publicly accessible via www.delpher.nl . Via Delpher visitors can search and browse through several collections including Dutch newspapers. One way to narrow down retrieved results is by clicking on facets. One of these is ‘illustraties met onderschrift’ (illustrations with caption) that contain photographs (black & white and colour), comic strips, political cartoons and weather-forecasts. This KBK-1M dataset contains these illustrations with captions of all newspapers in the period 1922-1994 which were on Delpher when we crawled the illustrations, in August 2015.</p><p>Creation of the datase</p><p>In the newspaper archive of the KB, each issue is stored as a set of scanned pages with one JPEG per newspaper page. Each page is associated with a set of metadata files which describe the locations of each image, caption and article on that page. During the digitisation process of the newspapers, these locations were manually annotated by trained workers. The article and caption texts are available through automatic OCR-processed output. We took these data as starting point when we built the harvester to create the KBK-1M dataset. The data harvester was built using the Python programming language which prepared and extracted the images and captions using KB-internal RESTful APIs. We transformed the raw source material into the dataset that contains JPEG files for the images and JSON files for the metadata.</p><p>All relevant metadata for each image is stored in a JSON file. In order to create this file, we serialised the caption (“caption”), the title of the newspaper issue (“paper_title”), the page (“page”), the date of publication (“date”), and the identifiers of the content and text blocks (“content_block & text_block” and “content_block”) as stored in the original repository metadata document. Each newspaper issue is stored with a unique identifier linking an image caption pair (“content_block_url” & “jp2_url”) directly back to the newspaper issue ID (“alto_url”) from the Newspaper Archive. Finally, we created a unique filename for each JPEG/JSON file (“image_name”)</p><p>Set-up of the dataset</p><p>This KBK-1M dataset consists of a collection of zipfiles that correspond with each year. In each zipfile three types of files are available:</p><p>- JPEG files that contain the actual image. Each image has a unique filename. In the case of the example image above it is ‘1951/DDD:ddd:010474896:mpeg21/p001-P1_CB00003.jpg. The OCR is provided on article level, that all have classifications. The articles that we harvested for the KBK-1M dataset all have classification 'Illustratie met onderschrift’ (‘Image with caption'). Since the images are stored on page-level, each image in this set is a subset of a newspaper page.</p><p>- JSON files that contain all information about the image as listed above in listing 1.</p><p>- CSV files containing the following information for each year:<br>alto_url; content_block_url; jp2_url; image_name; caption; content_block; date; text_block; page; paper_title<br>Each CSV file can be used as an index-file of all photos of that particular year.</p><p>Access<br>To obtain this dataset, request for access through Easy. Your request will be forward to a representative of the KB. He or she will contact you and can provide you access to the dataset for scientific or scholarly purposes only after a contract has been signed. Please note this process can take a couple of working days before access can formally be granted.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "photographs"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "comic strips"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "political cartoons"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "weather-forecasts"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "captions"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "newspapers"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "chessplays"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2015-12-31"
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "National Library of the Netherlands (KB)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2017-09-30"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2017-08-21"
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "The images in this dataset are derived from digitised newspapers that are stored in the National Library (KB) Newspaper Archive and that are publicly accessible via www.delpher.nl  via the facet ‘illustraties met onderschrift’ (illustrations with caption) that contain photographs (black & white and colour), comic strips, political cartoons and weather-forecasts."
+            ]
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "National Library of the Netherlands"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D30000",
+              "https://www.narcis.nl/classification/D35000",
+              "https://www.narcis.nl/classification/D35100",
+              "https://www.narcis.nl/classification/D35400",
+              "https://www.narcis.nl/classification/D16000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D30000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Geesteswetenschappen"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Humanities"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D35000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Arts and culture"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Kunst- en cultuurwetenschappen"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D35100",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Kunstgeschiedenis en architectuurgeschiedenis"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "History of arts and architecture"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D35400",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Media sciences"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Mediawetenschappen"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D16000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Computer science"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Informatica"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kleppe, M., Desmond, E. (2016). 1 Million Dutch Newspaper Images available for researchers: The KBK-1M Dataset. In Digital Humanities 2016: Conference Abstracts. Jagiellonian University & Pedagogical University, Kraków, pp. 824-825"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dh2016.adho.org/abstracts/193"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Elliott, D., Kleppe, M. (2016) 1 Million Captioned Dutch Newspaper Images. In Nicoletta Calzolari et al, Proceedings of Language Resources and Evaluation Conference (LREC '16), Portorož, Slovenia"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.lrec-conf.org/proceedings/lrec2016/summaries/448.html"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "1922-1994"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/DANS-XAR-HQVG"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:71dfbe24-db66-4476-900e-29945b931f2d"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-ryiq-j5"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "1922.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228356,
+          "persistentId": "",
+          "filename": "1922.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 4737700,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aaf2a-f6bbd613a2c6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "85230bf43f75a1aa77e7eb5339a9f2cb9d257cc3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1923.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228362,
+          "persistentId": "",
+          "filename": "1923.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 4908364,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ab5ce-f1acc6cbc50c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6234a0c9ed87e361a7d6eab6b7fbff83c35fcabb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1924.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228370,
+          "persistentId": "",
+          "filename": "1924.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 14924902,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423abf3b-5791f32427aa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e8fa9fd6af3e3abb1998c6269bb524d800580320"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1925.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228382,
+          "persistentId": "",
+          "filename": "1925.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 17511530,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423acfc5-9b97a66ed80d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6f30f4d97765c0b71b2514dcaf7bcf67691ad601"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1926.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228385,
+          "persistentId": "",
+          "filename": "1926.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 22082049,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ad3c0-c0309b04afbb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a3cab9bd87621ad8e12f6fd69839b9794958bef3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1927.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228394,
+          "persistentId": "",
+          "filename": "1927.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 21541309,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ae0f5-7ae9c7b3287b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "62b78b6e01d188bb85476cc80df681bc2efc0634"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1928.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228405,
+          "persistentId": "",
+          "filename": "1928.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 28344585,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423af036-cd51ceea5f31",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b1875d6212f403c5e14a30aeac484ebeabaca603"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1929.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228416,
+          "persistentId": "",
+          "filename": "1929.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 30231567,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423b00b5-b731abfa7c41",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bf019793749e820299768bde67d43c99b6c1ef94"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1930.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228355,
+          "persistentId": "",
+          "filename": "1930.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 32099350,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aadc2-b0df4b84b5ca",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e8d30c1271e130f257cf154279413ed239e93301"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1931.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228381,
+          "persistentId": "",
+          "filename": "1931.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 26701839,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ace3e-52d362525da5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3c1bf6611b6a04edb61f5523a12379b6af4e7ffb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1932.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228373,
+          "persistentId": "",
+          "filename": "1932.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 27563846,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ac2e7-b1131f294c8b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0c98afb94bb2f04870f2809c06cc04989e11974f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1933.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228411,
+          "persistentId": "",
+          "filename": "1933.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 29998328,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423af983-4518654f8167",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "88d0bcfd695c5d4962029444d3b884d10be18dca"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1934.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228420,
+          "persistentId": "",
+          "filename": "1934.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 27365469,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423b0879-ee0a8cb7ace1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "71542be9d80469c8cf2085dc31ea3a696a060d59"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1935.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228392,
+          "persistentId": "",
+          "filename": "1935.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 24580840,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423adddc-80e87df96cc0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a70bc5367115d76a3eb19e51301efc302e0f840c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1936.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228397,
+          "persistentId": "",
+          "filename": "1936.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 24623560,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ae51f-f8618c1fac09",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "db7f7c70c8d64e0a8923f0a232c57b2d60b7c744"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1937.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228374,
+          "persistentId": "",
+          "filename": "1937.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 29597652,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ac4ba-07dbbb224ab2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0e776f49847afdb4a4688b29c31b195164aa4357"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1938.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228376,
+          "persistentId": "",
+          "filename": "1938.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 31915395,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ac7a3-19507c7f7e3a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c5c072a6314ddd1f358558561f903bb88ae2c6fb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1939.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228386,
+          "persistentId": "",
+          "filename": "1939.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 32819463,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ad579-19213a495bac",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3f0192fe7744a976ccc8af043113f25c6ecfa923"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1940.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228417,
+          "persistentId": "",
+          "filename": "1940.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 55589889,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423b031b-ccdc6d5059e4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "482b81f179421969a6274baeff684abf7f872185"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1941.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228407,
+          "persistentId": "",
+          "filename": "1941.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 41367073,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423af360-06f94b81b3f9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "07dc26c5040296ed8eb9427cefb3eb15b48144fe"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1942.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228399,
+          "persistentId": "",
+          "filename": "1942.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 34875004,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ae837-889d77ca6941",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4f81bec0ed1ffe16be3ab2e356a3af4a249fc4b4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1943.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228389,
+          "persistentId": "",
+          "filename": "1943.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 16418581,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ad9ed-0fc3e5c2c322",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7c663b4f3703516389718b641aec8e2925bdb48a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1945.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228404,
+          "persistentId": "",
+          "filename": "1945.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1583939,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aeed8-66a70db522c5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "017e73cf7ef2cb7921a290b7d2f3aa0ae6f68a0c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1946.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228412,
+          "persistentId": "",
+          "filename": "1946.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3391601,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423afb09-9770b119545d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efed9bc305e5f23a0797b300ed3d30cab9fe7f52"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1947.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228419,
+          "persistentId": "",
+          "filename": "1947.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5671211,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423b0703-6968387f5f72",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4f192d43a9a67ca005b5375775d8eef651de6d36"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1948.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228353,
+          "persistentId": "",
+          "filename": "1948.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5919188,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aab20-42c9ac52d4e1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d62022ffbb850855fddfb566a793b6691d8f4bb1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1949.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228364,
+          "persistentId": "",
+          "filename": "1949.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 9545662,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ab81b-dc365b13a89e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2e5f8054d0c3688bce4c63eb2abc5507a6d46b2d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1950.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228401,
+          "persistentId": "",
+          "filename": "1950.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11014900,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aeb34-547a4c2497ca",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b7521b18e38399e6bd6f1ff6b909098b4346d601"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1951.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228395,
+          "persistentId": "",
+          "filename": "1951.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11641016,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ae285-f3369649330e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "093960a76e41c83a1886f17eb40e54402ad7e8d5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1952.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228421,
+          "persistentId": "",
+          "filename": "1952.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13462138,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423b0a46-175dc69bc3ce",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "187922d5cadcf56abb7dfefaff3505855b886b96"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1953.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228415,
+          "persistentId": "",
+          "filename": "1953.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 12905875,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aff0b-eddc2bc72f0c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0b2395ff39c3f350e20597a369336e8ca8d76f89"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1954.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228369,
+          "persistentId": "",
+          "filename": "1954.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13983457,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423abe07-965ee87d8586",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13affacfcf570f2574aca77935e4e2dfd02de53b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1955.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228378,
+          "persistentId": "",
+          "filename": "1955.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 12689310,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aca74-c7c696214cc7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ac2be1a4f92cd348046f2e5f8046cf8d022143e3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1956.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228387,
+          "persistentId": "",
+          "filename": "1956.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 14557579,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ad73c-63cde740edf0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a032d8525d5f0fad83bccb52ba65ef9c4e56b6ae"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1957.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228357,
+          "persistentId": "",
+          "filename": "1957.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13959474,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ab01b-72b30ebe7b76",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "42c808d5b4bfc9a567263dde27afdc19b17a5c84"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1958.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228366,
+          "persistentId": "",
+          "filename": "1958.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13625462,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aba72-6c180a44ff2c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ee4fb8bd192d5ca5d92d820e815f1cb6c85a38f3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1959.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228408,
+          "persistentId": "",
+          "filename": "1959.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 12931298,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423af568-5cb69fa76c0a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a3542e29e8ba463f39e84f9ac930250de0aa2ccc"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1960.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228393,
+          "persistentId": "",
+          "filename": "1960.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13303627,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423adf68-599b107199a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83b0606e9aab50c2bccfd2cc831d68a05223978e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1961.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228379,
+          "persistentId": "",
+          "filename": "1961.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 10679015,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423acba6-46f7155c3785",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "66d6b9e536e41c9a239a0acccafb4b83166d49d7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1962.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228372,
+          "persistentId": "",
+          "filename": "1962.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11560779,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ac16c-0ca20b076b20",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13cbfb6237103a90b8bd889b844a8db98b4d64be"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1963.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228365,
+          "persistentId": "",
+          "filename": "1963.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11917395,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ab93b-9b77cc43375e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c81f9829dd870f47ad24cfc9500342954ef5d3ad"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1964.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228358,
+          "persistentId": "",
+          "filename": "1964.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 15176047,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ab18d-512052a17d6e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13f09699e40cb8b3a10a2003d18a98b9848d692b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1965.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228423,
+          "persistentId": "",
+          "filename": "1965.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13572133,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423b0d35-cbf8de935d7f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1774dd938197881d0f788ff5e54e4bbcefaaeda8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1966.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228361,
+          "persistentId": "",
+          "filename": "1966.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 14986476,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ab4ce-f9ad8ff86b91",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5f8eda47ff7d61273b8c922b7de86abd4d7fd8f0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1968.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228377,
+          "persistentId": "",
+          "filename": "1968.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 14765944,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ac94a-e94abb0f071d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cd7c95636fe5cf8688f463137fa50fbefff19fb5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1969.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228388,
+          "persistentId": "",
+          "filename": "1969.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 15234985,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ad8a0-94204d2337de",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "614d987c1da4486d498e06ac69acd95afbc47bba"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1970.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228414,
+          "persistentId": "",
+          "filename": "1970.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 17048155,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423afd90-9464d03c31fc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "858d46d3dd1278663e991ab33271621866bdf733"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1971.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228367,
+          "persistentId": "",
+          "filename": "1971.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 16117435,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423abb95-1e6a02af9f74",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b425da3778d608e2ce4a2c2fac2db5e89c1f3eb1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1972.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228363,
+          "persistentId": "",
+          "filename": "1972.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 15174057,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ab6b1-fa474ce85d55",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5a15a6694b2dda12504577fc15db85880b2523d1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1973.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228354,
+          "persistentId": "",
+          "filename": "1973.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 15862884,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aac0d-b8150d4aace0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1379a99df20e293bbfc86fb2fefaf0fb95a74238"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1974.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228384,
+          "persistentId": "",
+          "filename": "1974.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 15507093,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ad256-615bd75757f7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c5420cf6d96b1b212aaa60ad175491d0d95d9234"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1975.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228375,
+          "persistentId": "",
+          "filename": "1975.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 14571327,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ac644-f9e442d5d173",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "996591dc47b3cbbde74452c5d5936223a311765c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1976.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228403,
+          "persistentId": "",
+          "filename": "1976.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13656000,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aedba-d1519a2550d7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5b4d26794c6e2cfe777b5d67aeab0746f671b2ee"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1977.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228418,
+          "persistentId": "",
+          "filename": "1977.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 12582478,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423b059c-4924fd144f08",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6f6ae8aea8256a41f7e568f6977112da2c4d06da"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1978.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228390,
+          "persistentId": "",
+          "filename": "1978.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 12673094,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423adb2b-9bf561307287",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8875ba5b11106e49085ff6e64ffe1f341aee1198"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1979.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228400,
+          "persistentId": "",
+          "filename": "1979.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 12012537,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ae9f5-51c659bb6f06",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b5480068deb4cf2ecd0cba340c97d3cf80e20445"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1980.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228368,
+          "persistentId": "",
+          "filename": "1980.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11865072,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423abcf0-bef6e8af2109",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "91fd2e3500429749c7a0b47441b4c2abcfe498e6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1981.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228360,
+          "persistentId": "",
+          "filename": "1981.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11653065,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ab3a5-80d83fe88848",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e8fe1d512e2580ec00421f52809059fdc33c86a3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1982.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228422,
+          "persistentId": "",
+          "filename": "1982.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11079135,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423b0bc9-db1e0c6cc899",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c85feb00cb7e320aab81352f339049e7f9b190f5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1983.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228413,
+          "persistentId": "",
+          "filename": "1983.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11606571,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423afc34-a701682caad8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0553c94da840530e5cdc5187043d881aa73bfda7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1984.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228409,
+          "persistentId": "",
+          "filename": "1984.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13065457,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423af6c8-2f551c7513ca",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "10ad3b1833dd41db213cbfaa9e2e35dc323da971"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1985.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228398,
+          "persistentId": "",
+          "filename": "1985.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11785692,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ae6b9-e136c7b057ce",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bc15f48e5b5a0d247341937c0c76847ccb43b21d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1986.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228391,
+          "persistentId": "",
+          "filename": "1986.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11469650,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423adc78-bb7503f36683",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "28147c862486ff877fa52eab71d10cfa88d578f6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1987.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228383,
+          "persistentId": "",
+          "filename": "1987.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 10355798,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ad12b-efc440455c53",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c12cb4fd34740f472c683d5486da0eb3e2f19f17"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1988.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228402,
+          "persistentId": "",
+          "filename": "1988.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 8391010,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aec95-11ca5473ecdb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bc21e6edea6efecdf3049a6c4399411b0a2a4cc3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1989.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228410,
+          "persistentId": "",
+          "filename": "1989.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 8780945,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423af813-87d297559130",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7fd82cc15e60317b9d140eab101631da7bc3dae4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1990.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228359,
+          "persistentId": "",
+          "filename": "1990.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 8835928,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ab2a7-edaee3bb5d15",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1c03d35829325480246288cbc83fc4df498de7c4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1991.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228380,
+          "persistentId": "",
+          "filename": "1991.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 7728541,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423acce4-f49a4715c524",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "489ba426ec981257e627aba3d407b11fa0fd77cd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1992.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228371,
+          "persistentId": "",
+          "filename": "1992.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 7436282,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ac04b-73a09fb15cc6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "aaadcb6d1781c5d3bf2ca95f74c5e051cbe10887"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1993.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228406,
+          "persistentId": "",
+          "filename": "1993.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 7197648,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423af1d0-5f6fbb447c6b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cb7d24a0bfdfb175eb2cf6164fcd3b136adcebe9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1994.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228396,
+          "persistentId": "",
+          "filename": "1994.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 7605920,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423ae3ae-75a7e9599857",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "866b6db1c6f621ee736db1db89581dc99d3bde36"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 35188,
+        "dataFile": {
+          "id": 228352,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 52741,
+          "description": "",
+          "storageIdentifier": "surf://store:18e423aaa8b-79e08a160b7c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7dec05023bd31514cff2deda7b94cf389af7a362"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-15",
+          "publicationDate": "2015-12-31",
+          "lastUpdateTime": "2026-07-20T04:24:54Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "M. Kleppe; D. Elliott; W.J. Faber, 2015, \"KBK-1M - Koninklijke Bibliotheek Kranten – 1 Miljoen\", https://doi.org/10.17026/DANS-XAR-HQVG, DANS Data Station Social Sciences and Humanities, V1"
+  }
+}

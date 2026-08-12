@@ -1,0 +1,578 @@
+{
+  "id": 378471,
+  "identifier": "EOHS8J",
+  "persistentUrl": "https://doi.org/10.34894/EOHS8J",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-05-21",
+  "storageIdentifier": "surf://10.34894/EOHS8J",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25245,
+    "datasetId": 378471,
+    "datasetPersistentId": "doi:10.34894/EOHS8J",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/EOHS8J",
+    "versionNumber": 1,
+    "internalVersionNumber": 28,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-05-21T10:30:43Z",
+    "releaseTime": "2024-05-21T10:30:43Z",
+    "createTime": "2023-07-31T12:30:48Z",
+    "publicationDate": "2024-05-21",
+    "citationDate": "2024-05-21",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Coevolution of larval signalling and worker response can trigger developmental caste determination in social insects"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lagos-Oviedo, Juan J."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Institute for Evolutionary Life Sciences, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-4799-3487"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pen, Ido"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Institute for Evolutionary Life Sciences, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2512-378X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kreider, Jan J."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Institute for Evolutionary Life Sciences, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-3389-5344"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pen, Ido"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Institute for Evolutionary Life Sciences, University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This data repository includes C++ simulation code, simulation results and R data analysis scripts for the manuscript “Coevolution of larval signalling and worker response can trigger developmental caste determination in social insects”.\nC++ code can be found in folder “code”. Analyses and figures can be reproduced by running the R-script in folder “data_analysis”. In order to run the R-script the directories need to be set correctly to the data folders (“Developmental_length”, “Foraging_shape”, “Mutation_rate”, “Number_matings”, “Resources_reproduction”, “Signalling_cost”, “Egg_size”, “Detailed_output)."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-02-05"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Worker polymorphism"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "social insects"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "caste determination"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "division of labour"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "task specialisation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "larval signalling"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lagos-Oviedo JJ, Pen I, Kreider JJ (2024). Coevolution of larval signalling and worker response can trigger developmental caste determination in social insects. Proceedings of the Royal Society B.,"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1098/rspb.2024.0538"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1098/rspb.2024.0538"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Bakker, J."
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-07-31"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/EOHS8J"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:25bdc27b-cbfa-433f-9140-74e5434b78a3"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-2e77aba2-9fbf-40ba-b05c-c59b3a802ac2"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "C++ code",
+        "label": "code.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25245,
+        "dataFile": {
+          "id": 402714,
+          "persistentId": "",
+          "filename": "code.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 16700,
+          "description": "C++ code",
+          "storageIdentifier": "surf://store:18d7996126d-35f0b684d2a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cf6dc3a0d36349172afeb0f451bc8031ad9fb4b4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-05",
+          "publicationDate": "2024-05-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "R-script for data analysis",
+        "label": "data_analysis.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25245,
+        "dataFile": {
+          "id": 402715,
+          "persistentId": "",
+          "filename": "data_analysis.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 5682,
+          "description": "R-script for data analysis",
+          "storageIdentifier": "surf://store:18d79977ad3-61b4ad8f1d10",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d0eac0afb8d3f1000c052257ded3035105cecec9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-05",
+          "publicationDate": "2024-05-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Simulation data",
+        "label": "Detailed_output.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25245,
+        "dataFile": {
+          "id": 402724,
+          "persistentId": "",
+          "filename": "Detailed_output.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 215186550,
+          "description": "Simulation data",
+          "storageIdentifier": "surf://store:18d79a5fdbb-65fe9343460f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b63095e692a64aec516af57b078bb0c0557f3cbb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-05",
+          "publicationDate": "2024-05-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Simulation data",
+        "label": "Development_length.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25245,
+        "dataFile": {
+          "id": 402717,
+          "persistentId": "",
+          "filename": "Development_length.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 146285341,
+          "description": "Simulation data",
+          "storageIdentifier": "surf://store:18d799f8f1f-3e590f398ee6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13651d20d4af7e08609f9591716d48f10b84bc5c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-05",
+          "publicationDate": "2024-05-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Simulation data",
+        "label": "Egg_size.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25245,
+        "dataFile": {
+          "id": 402718,
+          "persistentId": "",
+          "filename": "Egg_size.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 150972151,
+          "description": "Simulation data",
+          "storageIdentifier": "surf://store:18d79a02487-e43419244f42",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "daa252ce2c6c65aa487bad95f76efb95caafba00"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-05",
+          "publicationDate": "2024-05-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Simulation data",
+        "label": "Foraging_shape.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25245,
+        "dataFile": {
+          "id": 402719,
+          "persistentId": "",
+          "filename": "Foraging_shape.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 205942221,
+          "description": "Simulation data",
+          "storageIdentifier": "surf://store:18d79a15ab8-b3e6f0c79de5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "265c7d50ffdae5ce038f9654979d5a131c045483"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-05",
+          "publicationDate": "2024-05-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Simulation data",
+        "label": "Mutation_rate.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25245,
+        "dataFile": {
+          "id": 402720,
+          "persistentId": "",
+          "filename": "Mutation_rate.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 298630586,
+          "description": "Simulation data",
+          "storageIdentifier": "surf://store:18d79a2367a-da6b32b33538",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ec05051a824d933d28a3d5bfad432e77f97f7eaa"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-05",
+          "publicationDate": "2024-05-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Simulation data",
+        "label": "Number_matings.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25245,
+        "dataFile": {
+          "id": 402721,
+          "persistentId": "",
+          "filename": "Number_matings.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 383679981,
+          "description": "Simulation data",
+          "storageIdentifier": "surf://store:18d79a34b0b-507d7bb70aa7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4dd541e5e2ce0eb91c1d470adb10db2a6bda5338"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-05",
+          "publicationDate": "2024-05-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Simulation data",
+        "label": "Resources_reproduction.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25245,
+        "dataFile": {
+          "id": 402722,
+          "persistentId": "",
+          "filename": "Resources_reproduction.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 273974733,
+          "description": "Simulation data",
+          "storageIdentifier": "surf://store:18d79a4549a-7afdb3559263",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8c84e140e855ed10d3d12f103d4bc697cc0866bd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-05",
+          "publicationDate": "2024-05-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Simulation data",
+        "label": "Signalling_cost.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25245,
+        "dataFile": {
+          "id": 402723,
+          "persistentId": "",
+          "filename": "Signalling_cost.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 184647055,
+          "description": "Simulation data",
+          "storageIdentifier": "surf://store:18d79a5354b-7cb53438e07c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6a29e295d047bcdab7a26a2712559cdc61f839e8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-05",
+          "publicationDate": "2024-05-21",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Lagos-Oviedo, Juan J.; Pen, Ido; Kreider, Jan J., 2024, \"Replication Data for: Coevolution of larval signalling and worker response can trigger developmental caste determination in social insects\", https://doi.org/10.34894/EOHS8J, DataverseNL, V1"
+  }
+}

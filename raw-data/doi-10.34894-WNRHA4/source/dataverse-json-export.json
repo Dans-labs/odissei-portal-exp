@@ -1,0 +1,514 @@
+{
+  "id": 463234,
+  "identifier": "WNRHA4",
+  "persistentUrl": "https://doi.org/10.34894/WNRHA4",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-12-19",
+  "storageIdentifier": "surf://10.34894/WNRHA4",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30003,
+    "datasetId": 463234,
+    "datasetPersistentId": "doi:10.34894/WNRHA4",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/WNRHA4",
+    "versionNumber": 1,
+    "internalVersionNumber": 15,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2024-12-18",
+    "productionDate": "2024-09-09",
+    "lastUpdateTime": "2024-12-19T15:35:05Z",
+    "releaseTime": "2024-12-19T15:35:05Z",
+    "createTime": "2024-12-18T08:48:54Z",
+    "publicationDate": "2024-12-19",
+    "citationDate": "2024-12-19",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Developing Large Language Models for Quantum Chemistry Simulation Input Generation"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "GitLab Repository"
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "https://git.lwp.rug.nl/pollice-research-group/ORCAInputFileSynthesis"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pollice, Robert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-8836-6266"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jacobs, Pieter Floris"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This repository encompasses all code used to run the experiments described in the study titled \"Developing Large Language Models for Quantum Chemistry Simulation Input Generation\". In addition to the code for our system architecture, we include the datasets described in the study, which can be used for further research. The repository also contains some generally helpful classes.\nTo reproduce the results from our study, refer to the Scripts folder, where we explain the scripts used to run our experiments and gather data. For more insight into the classes used and how to implement them in your own research, refer to the Classes folder. We for instance show how to easily use our rule-based system to generate different calculations. Additionally, you can inspect and extract the various datasets we used from the Data folder, where all available datasets are explained. The Orca Output folder stores all output files gathered from running ORCA calculations.\nOne important note is that to use the code in this repository, you should configure your own OpenAI API key in your system path. Moreover, to use RAG, one should scrape the ORCA input library with our provided script and add the ORCA manual to the Documents/Regular folder. We do not publish this here as we are not the writers."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-12-18"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Chemistry",
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Computational Chemistry"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Large Language Models"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Quantum Chemistry"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Chemistry"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Machine Learning"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "P. F. Jacobs, R. Pollice* ChemRxiv 2024."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.26434/chemrxiv-2024-9g2w2"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.26434/chemrxiv-2024-9g2w2"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pollice, Robert"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-09-09"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Groningen, The Netherlands"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Researcher"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jacobs, Pieter Floris"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Supervisor"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pollice, Robert"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL network"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS"
+                },
+                "distributorAbbreviation": {
+                  "typeName": "distributorAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DVNL"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://dataverse.nl/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-12-18"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Silva Correia Alves, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-12-18"
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023-12-14"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-09-09"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Python code, ORCA input files, User prompts"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/WNRHA4"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:8ea31015-3ae5-4d30-b836-e6b325a6504b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-e150bd5e-ef14-4791-bbb8-f7622756fee3"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Master branch of the GitLab repository minus the ORCA Documentation.",
+        "label": "ORCAInputFileSynthesis-master.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30003,
+        "dataFile": {
+          "id": 463262,
+          "persistentId": "",
+          "filename": "ORCAInputFileSynthesis-master.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1886040,
+          "description": "Master branch of the GitLab repository minus the ORCA Documentation.",
+          "storageIdentifier": "surf://store:193d957bf37-3d5ffea488b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a04adf2fe2caacd8e9e132973398501cd2e032d9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.MD",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30003,
+        "dataFile": {
+          "id": 463451,
+          "persistentId": "",
+          "filename": "README.MD",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1612,
+          "storageIdentifier": "surf://store:193df7d8a45-41786c1246a3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f97327ac3c0375315c193a78d0a7f69111e72586"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-19",
+          "publicationDate": "2024-12-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "requirements.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30003,
+        "dataFile": {
+          "id": 463450,
+          "persistentId": "",
+          "filename": "requirements.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 265,
+          "storageIdentifier": "surf://store:193df7a7e9a-6ab677db42e6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "814285470044ceb9c8b4dc4244e3ebf2b827c3f4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-19",
+          "publicationDate": "2024-12-19",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Pollice, Robert; Jacobs, Pieter Floris, 2024, \"Developing Large Language Models for Quantum Chemistry Simulation Input Generation\", https://doi.org/10.34894/WNRHA4, DataverseNL, V1"
+  }
+}

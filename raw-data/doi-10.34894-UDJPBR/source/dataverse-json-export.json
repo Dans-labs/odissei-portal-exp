@@ -1,0 +1,568 @@
+{
+  "id": 466811,
+  "identifier": "UDJPBR",
+  "persistentUrl": "https://doi.org/10.34894/UDJPBR",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-01-24",
+  "storageIdentifier": "surf://10.34894/UDJPBR",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30103,
+    "datasetId": 466811,
+    "datasetPersistentId": "doi:10.34894/UDJPBR",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/UDJPBR",
+    "versionNumber": 1,
+    "internalVersionNumber": 20,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "productionDate": "2016",
+    "lastUpdateTime": "2025-01-24T13:28:02Z",
+    "releaseTime": "2025-01-24T13:28:02Z",
+    "createTime": "2025-01-21T11:54:53Z",
+    "publicationDate": "2025-01-24",
+    "citationDate": "2025-01-24",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "De Hunebedden van Nederland: integrale geodataset"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Van Giffen 2.0"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Een nieuwe atlas van de Nederlandse Hunebedden"
+            ]
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "https://hunebeddeninfo.nl/"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Seubers, Jorn"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/012p63287",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Groningen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-0140-466X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "In 2016-2017 zijn alle hunebedden van Nederland door het Groninger Instituut voor Archeologie opnieuw in kaart gebracht als 3D modellen (op basis van fotogrammetrie) met georeferentie (DGPS). Hieruit is een complete dataset met geografische informatie verkregen van elk van de 54 nog bestaande Nederlandse hunebedden (excl. Delfzijl). Van elk hunebed is een digital elevation model en orthofoto (loodrecht bovenaanzicht) beschikbaar in zeer hoge resolutie (DEM van 30 tot 100 MP, luchtfoto tot 400 MP) in coördinaten van het rijksdriehoeksstelsel (RD New - ESPG: 28992). Ook is van elk hunebed een gecorrigeerde positie (punt) en een digitale lijntekening (dissolved polyline) gemaakt in navolging van het werk van Van Giffen en zijn team in 1918. De dataset bevat tevens een QGIS file waarin de data is verzameld.<br><br>\n<br>\nVier ZIP-files in deze dataset bevatten:<br>\n<br>\n- Basisdata.zip (folder) - vectordata, punt, lijn en polygoon, waaronder een tabel met puntlocaties van alle hunebedden en basis metadata. Lijntekeningen van alle hunebedstenen op basis van bovenaanzicht 2017. Hondsrug en Rolderrug polygoon.\n(root file) VanGiffen2.qgz - hulpmiddel waarin naar de andere files en folders verwezen wordt vanuit een QGIS project.<br>\n<br>\n- Ortho.zip (folder) - alle gegenereerde luchtfoto's op basis van low altitude aerial photography en verwerkt tot 3D model in (Metashape) Agisoft Photoscan. Hieruit geëxporteerd naar GeoTiff in 2 mm pixelresolutie. Hunebed D01 t/m D54 en G01.<br>\n<br>\n- DEM.zip en DEM.z01 (folder) - 2 files - alle gegenereerde digital elevation models op basis van low altitude aerial photography en verwerkt tot 3D model in (Metashape) Agisoft Photoscan. Hieruit geëxporteerd naar GeoTiff in 2 mm pixelresolutie. Hunebed D01 t/m D54 en G01.<br>\n<br>\n- 3D_assets.zip (folder OBJ) - alle 3D modellen in OBJ format geëxporteerd uit (Metashape) Agisoft Photoscan"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "hunebedden"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "digital elevation model"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "orthofoto"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Megaliths"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Remco Bronkhorst, Jorn Seubers, WAB van der Sanden, \"Van Giffen 2.0: naar een nieuwe atlas van de Nederlandse hunebedden\", Nieuwe Drentse Volksalmanak 2019, pp. 111-152."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "url"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://research.rug.nl/nl/publications/van-giffen-20-naar-een-nieuwe-atlas-van-de-nederlandse-hunebedden"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "De Hunebedden van Nederland 3D modellen (op Sketchfab)"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://sketchfab.com/gia/collections/de-hunebedden-in-nederland-1f55a248b23a4abcb71cc67fc1357f46"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Seubers, J."
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Groningen en Drenthe"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Manager"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bronkhorst, Remco"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL Network"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS"
+                },
+                "distributorAbbreviation": {
+                  "typeName": "distributorAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DVNL"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://dataverse.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Elsenga, Christina"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-01-21"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Geospatial data"
+            ]
+          },
+          {
+            "typeName": "series",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "seriesInformation": {
+                  "typeName": "seriesInformation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Apart from the 3D models all data is imagery prepared for a Geographical Information System in coordinate system RD New (ESPG: 28992). The dataset has been tested in QGIS and ESRO ArcGIS suites."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Agisoft Photoscan"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Photography, photogrammetry"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/UDJPBR"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:f8ba22f6-2a59-4c45-934a-8ff4763c98b3"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-d5686e95-b3a1-4590-a1e9-79e2e6a48cdf"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "3D models of all Dutch hunebedden in OBJ file format. Resolution of ca. 10k polygons.",
+        "label": "3D_Assets.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30103,
+        "dataFile": {
+          "id": 467257,
+          "persistentId": "",
+          "filename": "3D_Assets.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 938194112,
+          "description": "3D models of all Dutch hunebedden in OBJ file format. Resolution of ca. 10k polygons.",
+          "storageIdentifier": "surf://store:194982c0fc5-27de442b3609",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f41bd896971a78347903a92755522be228dfd67b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-01-24",
+          "publicationDate": "2025-01-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Base files vector data, point, lines and polygons including QGIS project.",
+        "label": "Basisdata.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30103,
+        "dataFile": {
+          "id": 466935,
+          "persistentId": "",
+          "filename": "Basisdata.zip",
+          "contentType": "application/zipped-shapefile",
+          "friendlyType": "Shapefile as ZIP Archive",
+          "filesize": 22251928,
+          "description": "Base files vector data, point, lines and polygons including QGIS project.",
+          "storageIdentifier": "surf://store:194929e0c2a-bd4026ae879a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fd11b2046d225471b25365bc9a3d26a2968fe713"
+          },
+          "tabularData": false,
+          "creationDate": "2025-01-23",
+          "publicationDate": "2025-01-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Second part of Digital Elevation Models files up to 100 Megapixel resolution",
+        "label": "DEM.z01",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30103,
+        "dataFile": {
+          "id": 466933,
+          "persistentId": "",
+          "filename": "DEM.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4698669056,
+          "description": "Second part of Digital Elevation Models files up to 100 Megapixel resolution",
+          "storageIdentifier": "surf://store:1949275bccb-b4da487b801c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "809a8b62da9d5a72dce1456e94840710a07de24b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-01-23",
+          "publicationDate": "2025-01-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "First part of georeferenced Digital Elevation Models files up to 100 Megapixel resolution.",
+        "label": "DEM.zip",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 30103,
+        "dataFile": {
+          "id": 466932,
+          "persistentId": "",
+          "filename": "DEM.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 4630243598,
+          "description": "First part of georeferenced Digital Elevation Models files up to 100 Megapixel resolution.",
+          "storageIdentifier": "surf://store:194926e22d1-51585abe64e7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "de708642d79d944e607d41876bbd2e6c69bc2626"
+          },
+          "tabularData": false,
+          "creationDate": "2025-01-23",
+          "publicationDate": "2025-01-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "ZIP file with all georeferenced orthophoto's (aerial) up to 400 Megapixel resolution.",
+        "label": "Ortho.zip",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 30103,
+        "dataFile": {
+          "id": 466934,
+          "persistentId": "",
+          "filename": "Ortho.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 3811136839,
+          "description": "ZIP file with all georeferenced orthophoto's (aerial) up to 400 Megapixel resolution.",
+          "storageIdentifier": "surf://store:1949287debb-e9e4a8066cb7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a086ccee9e14604b058d8f4d9a8681bd7866d399"
+          },
+          "tabularData": false,
+          "creationDate": "2025-01-23",
+          "publicationDate": "2025-01-24",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Seubers, Jorn, 2025, \"De Hunebedden van Nederland: integrale geodataset\", https://doi.org/10.34894/UDJPBR, DataverseNL, V1"
+  }
+}

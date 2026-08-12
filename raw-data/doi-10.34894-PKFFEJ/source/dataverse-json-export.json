@@ -1,0 +1,483 @@
+{
+  "id": 485498,
+  "identifier": "PKFFEJ",
+  "persistentUrl": "https://doi.org/10.34894/PKFFEJ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-06-10",
+  "storageIdentifier": "surf://10.34894/PKFFEJ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30655,
+    "datasetId": 485498,
+    "datasetPersistentId": "doi:10.34894/PKFFEJ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/PKFFEJ",
+    "versionNumber": 1,
+    "internalVersionNumber": 12,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-06-10T14:08:58Z",
+    "releaseTime": "2025-06-10T14:08:58Z",
+    "createTime": "2025-05-28T19:39:01Z",
+    "publicationDate": "2025-06-10",
+    "citationDate": "2025-06-10",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "A compact triaxial active vibration isolator for cryogenic suspended interferometry"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kranzhoff, Luise"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0003-3533-2059"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kranzhoff, Luise"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UB Dataverse support"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "These are the datasets and Matlab scripts used to produce to the figures in the paper \"A compact triaxial active vibration isolator for cryogenic suspended interferometry\" submitted to Classical Quantum Gravity."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Astronomy and Astrophysics",
+              "Engineering",
+              "Physics"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Kranzhoff, Luise"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-05-28"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/PKFFEJ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:57b1bee8-39d3-4813-8f40-fcd93c334856"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-8ae07945-9180-472d-93bb-a1c3e5e862e4"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Spectra (um/rt(Hz)) when motion along all three CAVI axes is actively suppressed. Columns: frequency (Hz), X_ax1, X_ax2, X_ax3, X_B1, X_B2, X_B3, X_x, X_y, X_z",
+        "label": "2025-02-21_specErr_ctrAll.txt",
+        "restricted": false,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485508,
+          "persistentId": "",
+          "filename": "2025-02-21_specErr_ctrAll.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 8192250,
+          "description": "Spectra (um/rt(Hz)) when motion along all three CAVI axes is actively suppressed. Columns: frequency (Hz), X_ax1, X_ax2, X_ax3, X_B1, X_B2, X_B3, X_x, X_y, X_z",
+          "storageIdentifier": "surf://store:197183ed0fb-86833b95a330",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "59125b0c683e33db3d9982aa994854f88d12b915"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Spectra (um/rt(Hz)) in the passive state. Columns: frequency (Hz), X_ax1, X_ax2, X_ax3, X_B1, X_B2, X_B3, X_x, X_y, X_z",
+        "label": "2025-02-21_specErr_free.txt",
+        "restricted": false,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485507,
+          "persistentId": "",
+          "filename": "2025-02-21_specErr_free.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 8192250,
+          "description": "Spectra (um/rt(Hz)) in the passive state. Columns: frequency (Hz), X_ax1, X_ax2, X_ax3, X_B1, X_B2, X_B3, X_x, X_y, X_z",
+          "storageIdentifier": "surf://store:197183f1472-ebcadc2616c7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8504809a018edbc3eda5f7327b22cc3f061d646b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Passive spectra remeasured. Columns: frequency (Hz), X_ax1, X_ax2, X_ax3, X_B1, X_B2, X_B3,",
+        "label": "2025-03-06_spectra.txt",
+        "restricted": false,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485509,
+          "persistentId": "",
+          "filename": "2025-03-06_spectra.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 8192250,
+          "description": "Passive spectra remeasured. Columns: frequency (Hz), X_ax1, X_ax2, X_ax3, X_B1, X_B2, X_B3,",
+          "storageIdentifier": "surf://store:197183f548e-47790f5a9fd0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fa7e20132d872a7d631f184b9f807982503b521c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Matlab script used to produce figure 3 showing plant and open-loop transfer functions.",
+        "label": "CFIpaper_OLTF.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485503,
+          "persistentId": "",
+          "filename": "CFIpaper_OLTF.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 8515,
+          "description": "Matlab script used to produce figure 3 showing plant and open-loop transfer functions.",
+          "storageIdentifier": "surf://store:197183ffeda-409dffc0b531",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d9cee1c975d25953b3939ba0bed7d5f8cf024672"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Matlab script used to produce figure 4 showing motion spectra.",
+        "label": "CFIpaper_spectra.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485510,
+          "persistentId": "",
+          "filename": "CFIpaper_spectra.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 5638,
+          "description": "Matlab script used to produce figure 4 showing motion spectra.",
+          "storageIdentifier": "surf://store:1971868b852-6e8affb2d587",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76728cb06e67b4cbf51d2a2e1db6e8e05a4c021e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Open-loop transfer function for AX1. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+        "label": "oltf_ax1.txt",
+        "restricted": false,
+        "directoryLabel": "data/OLTF combined data",
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485504,
+          "persistentId": "",
+          "filename": "oltf_ax1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3326362,
+          "description": "Open-loop transfer function for AX1. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+          "storageIdentifier": "surf://store:197183f7117-a7cd3d90b458",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "45da1ac6ba062fe58f2c77cd1a2e2349e09bc078"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Open-loop transfer function for AX2. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+        "label": "oltf_ax2.txt",
+        "restricted": false,
+        "directoryLabel": "data/OLTF combined data",
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485506,
+          "persistentId": "",
+          "filename": "oltf_ax2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3327712,
+          "description": "Open-loop transfer function for AX2. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+          "storageIdentifier": "surf://store:197183f9206-23abbcab3686",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7b21e6e1e2029c8b11148692487ee0b8aad926d9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Open-loop transfer function for AX3. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+        "label": "oltf_ax3.txt",
+        "restricted": false,
+        "directoryLabel": "data/OLTF combined data",
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485505,
+          "persistentId": "",
+          "filename": "oltf_ax3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3328273,
+          "description": "Open-loop transfer function for AX3. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+          "storageIdentifier": "surf://store:197183fb05e-66966c7b6093",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "57095daeb4a1997a55bcdc7b3655fd7e367d52d8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Plant transfer function for AX1. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+        "label": "plant_ax1_Act1.txt",
+        "restricted": false,
+        "directoryLabel": "data/Plant combined data",
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485500,
+          "persistentId": "",
+          "filename": "plant_ax1_Act1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3331452,
+          "description": "Plant transfer function for AX1. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+          "storageIdentifier": "surf://store:197183fca3d-543bcc1bdef5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "52928a38704e075cb3dba06ad02e1b9ce79e32fa"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Plant transfer function for AX2. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+        "label": "plant_ax2_Act2.txt",
+        "restricted": false,
+        "directoryLabel": "data/Plant combined data",
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485499,
+          "persistentId": "",
+          "filename": "plant_ax2_Act2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3330129,
+          "description": "Plant transfer function for AX2. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+          "storageIdentifier": "surf://store:197183fe29d-03c912c297e0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "97cda6833de35a2a0c28d1f19fb66d5258371a60"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Plant transfer function for AX3. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+        "label": "plant_ax3_Act3.txt",
+        "restricted": false,
+        "directoryLabel": "data/Plant combined data",
+        "version": 1,
+        "datasetVersionId": 30655,
+        "dataFile": {
+          "id": 485501,
+          "persistentId": "",
+          "filename": "plant_ax3_Act3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3329474,
+          "description": "Plant transfer function for AX3. Columns: frequency (Hz), magnitude (m/V), phase (rad), coherence (-)",
+          "storageIdentifier": "surf://store:197183ffe04-b46252a9b939",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ccf6c52343316ebe7b128606b1cba20f9209f774"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-28",
+          "publicationDate": "2025-06-10",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Kranzhoff, Luise, 2025, \"A compact triaxial active vibration isolator for cryogenic suspended interferometry\", https://doi.org/10.34894/PKFFEJ, DataverseNL, V1"
+  }
+}

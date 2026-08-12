@@ -1,0 +1,1934 @@
+{
+  "id": 463292,
+  "identifier": "AAY4AN",
+  "persistentUrl": "https://doi.org/10.34894/AAY4AN",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-12-20",
+  "storageIdentifier": "surf://10.34894/AAY4AN",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30010,
+    "datasetId": 463292,
+    "datasetPersistentId": "doi:10.34894/AAY4AN",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/AAY4AN",
+    "versionNumber": 1,
+    "internalVersionNumber": 14,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-12-20T09:09:20Z",
+    "releaseTime": "2024-12-20T09:09:20Z",
+    "createTime": "2024-12-18T12:24:51Z",
+    "publicationDate": "2024-12-20",
+    "citationDate": "2024-12-20",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Code for A Structural Microsimulation Model for Demand-Side Cost-Sharing in Healthcare"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Boone, Jan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/04b8v1s79",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Tilburg University",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-0958-2444"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Remmerswaal, Minke"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/04b8v1s79",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Tilburg University",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Boone, Jan"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "We model health expenditure distributions for age-gender categories. The analysis is based on individual level expenditure data that is not freely available and hence which we cannot publish. But the data is accessible to researchers via Vektis (https://www.vektis.nl/).\n<br><br>\nThis repository contains the latest version of the paper, the code we use in the analysis and the files with the posterior samples of our Bayesian analysis."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Business and Management"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Moral hazard"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Out-of-pocket"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Shifted deductible"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Co-insurance"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bayesian mixture model"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Microsimulation model"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Boone, J., & Remmerswaal, M. (2024). A structural microsimulation model for demand-side cost-sharing in healthcare. Journal of Health Economics, 97, Article 102900."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "doi.org/10.1016/j.jhealeco.2024.102900"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.jhealeco.2024.102900"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Wijnhoven, Kars"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-12-18"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Miscellaneous data"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/AAY4AN"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:c4a05f62-efa9-45b1-b43a-62a06a04d01d"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-ea4f6594-a527-42e5-ba00-bf4c1f8d3811"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "analysis.html",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463323,
+          "persistentId": "",
+          "filename": "analysis.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 228883,
+          "storageIdentifier": "surf://store:193d9c52979-d0e490cbce25",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "beb4f2a263945ed9cb51263da0f3fda297259ca0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "analysis.org",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463328,
+          "persistentId": "",
+          "filename": "analysis.org",
+          "contentType": "application/vnd.lotus-organizer",
+          "friendlyType": "application/vnd.lotus-organizer",
+          "filesize": 80303,
+          "storageIdentifier": "surf://store:193d9c52c06-1bb9cd0282b2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5235b41f018085202a954b9ac9837d4b5822250c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "at_the_margin.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463375,
+          "persistentId": "",
+          "filename": "at_the_margin.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 135774,
+          "storageIdentifier": "surf://store:193d9c52cab-6f9e32ab0ebb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f65100bcb264a582147296637d6d8b0babf5ff01"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "bibliography_thesis.bib",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463340,
+          "persistentId": "",
+          "filename": "bibliography_thesis.bib",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 71010,
+          "storageIdentifier": "surf://store:193d9c5296d-5c3a77b7990f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7ac4b2ad7a4251984615b6be309b9df5da7ffdc0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ComparisonFnormal.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463382,
+          "persistentId": "",
+          "filename": "ComparisonFnormal.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 25697,
+          "storageIdentifier": "surf://store:193d9c52c23-ad35e022fe11",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b586871cdb6db75ab8e717184925e2f168be0992"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Comparison_lessinfo3.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463303,
+          "persistentId": "",
+          "filename": "Comparison_lessinfo3.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 26956,
+          "storageIdentifier": "surf://store:193d9c52c33-3c5e68ed67bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "09456a1414cc1d554332842953765df0ecbab7ca"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ComparisonPCGmixedinHealthy.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463368,
+          "persistentId": "",
+          "filename": "ComparisonPCGmixedinHealthy.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 25641,
+          "storageIdentifier": "surf://store:193d9c52c28-6576628a3372",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4ee4b3efde51eddf532fae49e7852c3c6296fee1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ComparisonQuality.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463299,
+          "persistentId": "",
+          "filename": "ComparisonQuality.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 62353,
+          "storageIdentifier": "surf://store:193d9c52c2e-bcb2e57fd037",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c886bd609983430b8c94e63ff5bb6fd8d89c7ef9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DeductibleCoinsurancePCGmixedinHealthy.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463302,
+          "persistentId": "",
+          "filename": "DeductibleCoinsurancePCGmixedinHealthy.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 26755,
+          "storageIdentifier": "surf://store:193d9c52c39-7fdc569fe2f8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "de70373b1aaabf37bd20e6cd6931fbc83c724c66"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DeductibleCoinsuranceShiftF_normal.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463376,
+          "persistentId": "",
+          "filename": "DeductibleCoinsuranceShiftF_normal.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 24236,
+          "storageIdentifier": "surf://store:193d9c52c3e-fb4fbd8babdf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f49b0860e10d2d56b3bd841c21bb460db8fd508d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DistributionExpenditure.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463364,
+          "persistentId": "",
+          "filename": "DistributionExpenditure.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 42453,
+          "storageIdentifier": "surf://store:193d9c52c45-093ef5c37d0d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9ae3ca2e8044591b56415735e8ce3f583cbb65ab"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "distributionF20and70F.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463314,
+          "persistentId": "",
+          "filename": "distributionF20and70F.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 84995,
+          "storageIdentifier": "surf://store:193d9c52cb2-b70d2238d20a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "12ec798aa777d09fd6424f690b0d63a1045fbe9b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "distributionFandFnormal_female.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463371,
+          "persistentId": "",
+          "filename": "distributionFandFnormal_female.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 48937,
+          "storageIdentifier": "surf://store:193d9c52cb8-d6d9f1780ede",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "164f4c179201570ec5d2e8985557dbf6c8e8287b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DistributionsX.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463333,
+          "persistentId": "",
+          "filename": "DistributionsX.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 21771,
+          "storageIdentifier": "surf://store:193d9c52c4a-b8995684efa6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "52deec86022738fcccfca42bddedf8bb22564047"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ELBO_healthy_Female.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463305,
+          "persistentId": "",
+          "filename": "ELBO_healthy_Female.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 24840,
+          "storageIdentifier": "surf://store:193d9c52c50-975cb7eeef46",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0e5b747694dc923b617710767b08e6504354381b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ELBO_healthy_Male.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463319,
+          "persistentId": "",
+          "filename": "ELBO_healthy_Male.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29980,
+          "storageIdentifier": "surf://store:193d9c52c55-c75a4626951c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3c4a1d8c13b1c2d019f883fbf5497780429ec18a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "estimation_EOOP.py",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463312,
+          "persistentId": "",
+          "filename": "estimation_EOOP.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 12005,
+          "storageIdentifier": "surf://store:193d9c52c16-d44edab69077",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b368619095716ddc25c47e5a1342ca4abe514482"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "estimation_F_normal.py",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463351,
+          "persistentId": "",
+          "filename": "estimation_F_normal.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 11750,
+          "storageIdentifier": "surf://store:193d9c52c1c-200b7845f5f8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d549b9a079c728c51895f23c6a4928fa376d241c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "estimation.py",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463296,
+          "persistentId": "",
+          "filename": "estimation.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 13463,
+          "storageIdentifier": "surf://store:193d9c52c0f-5ddab361e230",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4c05289c3936327080087b8d2cb76d724ce05ef2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": ".gitattributes",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463369,
+          "persistentId": "",
+          "filename": ".gitattributes",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 41,
+          "storageIdentifier": "surf://store:193d9c5293b-8f3f137d1710",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d0bc5b1333455c8b4ebac7ab5ced818ee0060a03"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": ".gitignore",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463356,
+          "persistentId": "",
+          "filename": ".gitignore",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1000,
+          "storageIdentifier": "surf://store:193d9c5293f-7664de9ed39b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c102f415610ba5e6bd0179b035c46e2ff52346f8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "histogramdkg1.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463349,
+          "persistentId": "",
+          "filename": "histogramdkg1.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 25582,
+          "storageIdentifier": "surf://store:193d9c52cbd-923ce2cbd4d8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cc91104f4e26aaa1e54af8d1306a17a9474e8e5a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "index.html",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463400,
+          "persistentId": "",
+          "filename": "index.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 9364,
+          "storageIdentifier": "surf://store:193d9c89935-57da2dea4bac",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efc766ca32e311f9807af1cb9a5a214d0f4d6dd9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "index.org",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463358,
+          "persistentId": "",
+          "filename": "index.org",
+          "contentType": "application/vnd.lotus-organizer",
+          "friendlyType": "application/vnd.lotus-organizer",
+          "filesize": 108,
+          "storageIdentifier": "surf://store:193d9c899b6-315dbc0fc53c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "73a6a5b996c11caa01ecb28be4df34e3a4a0753d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "LogExpenditureAcrossAge_healthy_Female.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463353,
+          "persistentId": "",
+          "filename": "LogExpenditureAcrossAge_healthy_Female.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 77688,
+          "storageIdentifier": "surf://store:193d9c52c5c-e41176dabc71",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3c825c8040af3ee13093e0e8c47b46d94b52fe69"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "LogExpenditureAcrossAge_healthy_Male.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463347,
+          "persistentId": "",
+          "filename": "LogExpenditureAcrossAge_healthy_Male.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 81751,
+          "storageIdentifier": "surf://store:193d9c52c62-89024f3ed016",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "62752fac64127edb404f505b44ec34bb5d5008b4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Mean_LogExpenditure_Age_healthy_Female.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463387,
+          "persistentId": "",
+          "filename": "Mean_LogExpenditure_Age_healthy_Female.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 231225,
+          "storageIdentifier": "surf://store:193d9c52c68-b05afd19566c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7336a19a64438b6ab0d3a64547288da53142dd71"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Mean_LogExpenditure_Age_healthy_Male.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463295,
+          "persistentId": "",
+          "filename": "Mean_LogExpenditure_Age_healthy_Male.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 220474,
+          "storageIdentifier": "surf://store:193d9c52c70-9a82a8f21910",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b2807cd05ea6e5f34ece7791364f91762e31b770"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "optimalShiftStep.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463397,
+          "persistentId": "",
+          "filename": "optimalShiftStep.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 106409,
+          "storageIdentifier": "surf://store:193d9c52cc3-ebbf95053d67",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3bcef781ef8a149f6a8734eee837b4c383c0d501"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "outcomesCoinsuranceShifts.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463381,
+          "persistentId": "",
+          "filename": "outcomesCoinsuranceShifts.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 64461,
+          "storageIdentifier": "surf://store:193d9c52cc9-c30f4125dc64",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "463c56634530250ce8ff0daf040484524c0fd069"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "outcomes_EOOP_Female.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463377,
+          "persistentId": "",
+          "filename": "outcomes_EOOP_Female.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 530021289,
+          "storageIdentifier": "surf://store:193d9c52e06-b46f236e33ae",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "28deac85e6cfaa5e7e93200e51e7653fb366d77b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "outcomes_EOOP_Male.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463307,
+          "persistentId": "",
+          "filename": "outcomes_EOOP_Male.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 530021289,
+          "storageIdentifier": "surf://store:193d9c5459e-dfb47699787b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "283f651978befea4bdeca6396c05be59de3ba7cb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "outcomes_F_normal_Female.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463367,
+          "persistentId": "",
+          "filename": "outcomes_F_normal_Female.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 515301283,
+          "storageIdentifier": "surf://store:193d9c55c4e-c09df08f0d2d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5825ac91e086856ef630207ba27a437d0a79bbd7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "outcomes_F_normal_Male.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463386,
+          "persistentId": "",
+          "filename": "outcomes_F_normal_Male.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 515301283,
+          "storageIdentifier": "surf://store:193d9c5729d-32a86718b09e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eaac47d276e146bd4c47c1a35a92fed5d3a8fb2b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "outcomes_healthy_Female.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463398,
+          "persistentId": "",
+          "filename": "outcomes_healthy_Female.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 515301283,
+          "storageIdentifier": "surf://store:193d9c58909-c00be5df4ab8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "edc0fbf18a9f2f7e9493abd4d3926420c8c0b0b8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "outcomes_healthy_Male.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463383,
+          "persistentId": "",
+          "filename": "outcomes_healthy_Male.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 515301283,
+          "storageIdentifier": "surf://store:193d9c59eb2-08354486b9cb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eaced66fbb5696fadc92d2e872a9038b60b2f554"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "outcomes_pcg_Female.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463399,
+          "persistentId": "",
+          "filename": "outcomes_pcg_Female.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 515301283,
+          "storageIdentifier": "surf://store:193d9c5b4d0-5b561c0e0992",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e0a8882c0cf6cb2849535b8734b5b32ff19bcc8a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "outcomes_pcg_Male.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463327,
+          "persistentId": "",
+          "filename": "outcomes_pcg_Male.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 515301283,
+          "storageIdentifier": "surf://store:193d9c5cb31-9b5231d0a0e2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0d9f18dd69a3821dedc4066fa141774b9555fc15"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Posterior_400_vs_no_shift_cumulative.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463334,
+          "persistentId": "",
+          "filename": "Posterior_400_vs_no_shift_cumulative.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 62998,
+          "storageIdentifier": "surf://store:193d9c52c78-3ffaf8e8a6e5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4142a94115f62662929df47fac4efa1a03d409cb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "posterior_healthy_Female.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_posterior",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463298,
+          "persistentId": "",
+          "filename": "posterior_healthy_Female.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 1396545875,
+          "storageIdentifier": "surf://store:193d9c8486c-588b78762ffd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c13883bf2b74ad2a281ce75e8492caead546adcd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "posterior_healthy_Male.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_posterior",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463337,
+          "persistentId": "",
+          "filename": "posterior_healthy_Male.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 1394640578,
+          "storageIdentifier": "surf://store:193d9c8708b-f93ace032aeb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76c117840e08aebba7a16432eeff60fd08352b41"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Posterior_nu_healthy_Female.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463339,
+          "persistentId": "",
+          "filename": "Posterior_nu_healthy_Female.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 40877,
+          "storageIdentifier": "surf://store:193d9c52c82-4d753e363bed",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "823365000f0e8698f5fa028294f3eb624568cff6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Posterior_nu_healthy_Male.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463350,
+          "persistentId": "",
+          "filename": "Posterior_nu_healthy_Male.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 35209,
+          "storageIdentifier": "surf://store:193d9c52c88-a8305bbb6ccd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "74e4d5db8d54131ebfadcd68175b10e3b08865a0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "PredictedPositiveExpenditureAcrossAge_2008_healthy_Female.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463335,
+          "persistentId": "",
+          "filename": "PredictedPositiveExpenditureAcrossAge_2008_healthy_Female.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 93331,
+          "storageIdentifier": "surf://store:193d9c52c91-07b9c089a9ba",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dac943a2d3b04276d31309183ce63f88f3eb9ca4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "PredictedPositiveExpenditureAcrossAge_2008_healthy_Male.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463361,
+          "persistentId": "",
+          "filename": "PredictedPositiveExpenditureAcrossAge_2008_healthy_Male.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 98558,
+          "storageIdentifier": "surf://store:193d9c52c97-481f6a4b262e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "47a9b683d2e53fccd18c47eb098441c7ea845152"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README.md",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463385,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 455,
+          "storageIdentifier": "surf://store:193d9c52945-5b212d90d506",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "67b715e27b50e75da4d0bc638f419d412f6922ae"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "shiftedD.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463324,
+          "persistentId": "",
+          "filename": "shiftedD.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29926,
+          "storageIdentifier": "surf://store:193d9c52cd0-8b304e1a86cf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "43bb036e164f305f5a5f823782daa965df762f12"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulation_EOOP.py",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463310,
+          "persistentId": "",
+          "filename": "simulation_EOOP.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 4166,
+          "storageIdentifier": "surf://store:193d9c89924-04d56a275dae",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "734006a1f11dda5d2c31b6da2149f23eb396c5e5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulation_F_normal.py",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463325,
+          "persistentId": "",
+          "filename": "simulation_F_normal.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 4092,
+          "storageIdentifier": "surf://store:193d9c8992d-86ec327a0636",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8962436471268605ca0c17a3c17849cac52ccf57"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Simulation_Model.el",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/.auctex-auto",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463331,
+          "persistentId": "",
+          "filename": "Simulation_Model.el",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3233,
+          "storageIdentifier": "surf://store:193d9c52933-1e94c151e6c0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b50008bc41e89e9e13e4d318a2623d04d72a791f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Simulation_Model.pdf",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463336,
+          "persistentId": "",
+          "filename": "Simulation_Model.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 2076893,
+          "storageIdentifier": "surf://store:193d9c52949-d485f351bc7a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b028945402d43ab531c3213330c00614dce83804"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Simulation_Model.tex",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463380,
+          "persistentId": "",
+          "filename": "Simulation_Model.tex",
+          "contentType": "application/x-tex",
+          "friendlyType": "LaTeX",
+          "filesize": 142718,
+          "storageIdentifier": "surf://store:193d9c52965-2a8e67a5278f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c69ed598bb5323b75f417304344374fcccdea78e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulation.py",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463366,
+          "persistentId": "",
+          "filename": "simulation.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 4090,
+          "storageIdentifier": "surf://store:193d9c8991a-afab05880357",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "88f4f6d6e1c07f2d88f96036442d1cf02e8abb3a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulations_EOOP.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463344,
+          "persistentId": "",
+          "filename": "simulations_EOOP.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 2885139237,
+          "storageIdentifier": "surf://store:193d9c5e11d-ca29922311a2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9a24b6b82d9fd85ff2d13c3f5359aae060e47c9e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulations_F_normal.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463332,
+          "persistentId": "",
+          "filename": "simulations_F_normal.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 2885139237,
+          "storageIdentifier": "surf://store:193d9c62d16-77d029189057",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a526277535c7dea3b8d118f6d64cb688efde32de"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulations_healthy.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463388,
+          "persistentId": "",
+          "filename": "simulations_healthy.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 2885139237,
+          "storageIdentifier": "surf://store:193d9c67a0e-2f2ff2587581",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3156b90a44edae1d9b8f5548f97a704907b89be8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulations_healthy_quality_0.0.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463330,
+          "persistentId": "",
+          "filename": "simulations_healthy_quality_0.0.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 2885139237,
+          "storageIdentifier": "surf://store:193d9c6c73a-71c0315c03c7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "49f601ce6fa7cd9c22d0d597cc4bb9f5fdf1092c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulations_healthy_quality_0.1.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463355,
+          "persistentId": "",
+          "filename": "simulations_healthy_quality_0.1.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 2885139237,
+          "storageIdentifier": "surf://store:193d9c71568-fd4736f93050",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "42142cd7af2cd51f4b543aba6913fcdb9d883b37"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulations_healthy_quality_0.2.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463300,
+          "persistentId": "",
+          "filename": "simulations_healthy_quality_0.2.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 2885139237,
+          "storageIdentifier": "surf://store:193d9c76278-a53910283693",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ee0f752f9a0bbddf158891ad9fa1fbd619099df6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulations_healthy_quality_0.3.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463316,
+          "persistentId": "",
+          "filename": "simulations_healthy_quality_0.3.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 2885139237,
+          "storageIdentifier": "surf://store:193d9c7af8b-2c1ac0a8eb94",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a7fb3fc713f97133c54990bb1ae915dbaf2ff568"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "simulations_pcg.nc",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/samples_outcomes",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463338,
+          "persistentId": "",
+          "filename": "simulations_pcg.nc",
+          "contentType": "application/netcdf",
+          "friendlyType": "Network Common Data Form",
+          "filesize": 2885139237,
+          "storageIdentifier": "surf://store:193d9c7fcea-a394adddbe01",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d44feddd391f6fecb3cf321ec1e252e3535024a4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Std_LogExpenditure_Age_healthy_Female.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463362,
+          "persistentId": "",
+          "filename": "Std_LogExpenditure_Age_healthy_Female.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 158040,
+          "storageIdentifier": "surf://store:193d9c52c9d-e4d841507a04",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3cda07ee78f5ba17f1fb7c55dd248aebbc05b793"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Std_LogExpenditure_Age_healthy_Male.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463315,
+          "persistentId": "",
+          "filename": "Std_LogExpenditure_Age_healthy_Male.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 139815,
+          "storageIdentifier": "surf://store:193d9c52ca5-abe638e428a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fdecb6f46220ca6d2231c5407567ff9181f91155"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "summary_figure_intro.png",
+        "restricted": false,
+        "directoryLabel": "micro_simulation_model-main/code/figures",
+        "version": 1,
+        "datasetVersionId": 30010,
+        "dataFile": {
+          "id": 463308,
+          "persistentId": "",
+          "filename": "summary_figure_intro.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 98536,
+          "storageIdentifier": "surf://store:193d9c52cd6-2af8d866d8eb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "814f12d401b9999a995c9280dfba55569b1217ad"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-18",
+          "publicationDate": "2024-12-20",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Boone, Jan; Remmerswaal, Minke, 2024, \"Code for A Structural Microsimulation Model for Demand-Side Cost-Sharing in Healthcare\", https://doi.org/10.34894/AAY4AN, DataverseNL, V1"
+  }
+}

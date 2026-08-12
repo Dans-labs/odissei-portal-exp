@@ -1,0 +1,880 @@
+{
+  "id": 617375,
+  "identifier": "SS/KVY6BA",
+  "persistentUrl": "https://doi.org/10.17026/SS/KVY6BA",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2025-11-10",
+  "storageIdentifier": "surf://10.17026/SS/KVY6BA",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 28500,
+    "datasetId": 617375,
+    "datasetPersistentId": "doi:10.17026/SS/KVY6BA",
+    "storageIdentifier": "surf://10.17026/SS/KVY6BA",
+    "versionNumber": 2,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2025",
+    "lastUpdateTime": "2025-11-13T13:57:57Z",
+    "releaseTime": "2025-11-13T13:57:57Z",
+    "createTime": "2025-11-13T12:02:49Z",
+    "publicationDate": "2025-11-10",
+    "citationDate": "2025-11-10",
+    "license": {
+      "name": "DANS Licence",
+      "uri": "https://doi.org/10.17026/fp39-0x58",
+      "iconUri": ""
+    },
+    "termsOfAccess": "I expect a motivation on what the data is to be used for, so I can evaluate whether access to the non-anonymized data is necessary for this research project. ",
+    "originalArchive": "National Academic Research and Collaborations Information System (NARCIS)",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Dutch Doctoral Database (D3)"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A. M. Mulders"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University Nijmegen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0002-2879-6672"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "B. Hofstra"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/016xsfp80",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Radboud University Nijmegen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-9052-956X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "J. Tolsma"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/016xsfp80",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Radboud University Nijmegen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-9052-956X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mulders, Anne Maaike"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University Nijmegen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The Dutch Doctoral Database (D3) is a database of researchers who obtained a PhD in the Netherlands between 1990 and 2021, and their publications. These data primarily haul from the (now discontinued) Netherlands Academic Research and Collaborations Information System (NARCIS), which was the primary metadata portal for researchers and their work in the Netherlands. These data are enriched with information extracted from other online research archives. At the scholar-level, variables such as receipt of an NWO Veni, Vidi, and Vici grant are added, as well as promotions to associate and full professor. At the publications level, we attached field classifications to determine scholars' disciplinary orientation. The open-access files are anonymized. To cross-link this dataset with alternative datasources, identifiers such as names or DOIs may be needed. For this purpose, we can also grant access to the non-anonymized dataset, under the condition that this request is motivated with a specific research proposal."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Scientists"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Science careers"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Netherlands"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "PhD"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Research publications"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mulders, Anne Maaike"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University Nijmegen"
+                }
+              },
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hofstra, Bas"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University Nijmegen"
+                }
+              },
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tolsma, Jochem"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University Nijmegen; Rijksuniversiteit Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mulders, Anne Maaike"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University Nijmegen"
+                }
+              },
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hofstra, Bas"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University Nijmegen"
+                }
+              },
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tolsma, Jochem"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University Nijmegen; Rijksuniversiteit Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Mulders, Anne Maaike"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-10-31"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Bibliometric data"
+            ]
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Radboud University Nijmegen"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Yes"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D10000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D10000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Science and technology"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Natuurwetenschappen en techniek"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          }
+        ]
+      },
+      "dansSocialSciences": {
+        "displayName": "Social Sciences and Humanities",
+        "name": "dansSocialSciences",
+        "fields": [
+          {
+            "typeName": "dansAATClassification",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "http://vocab.getty.edu/aat/300025576"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "http://vocab.getty.edu/aat/300025576",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "onderzoekers"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "researchers"
+                  }
+                ],
+                "vocabularyName": {
+                  "lang": "en",
+                  "value": "The Art and Architecture Thesaurus Concepts"
+                },
+                "vocabularyUri": "http://vocabularies.dans.knaw.nl/aatconcepts"
+              }
+            ]
+          },
+          {
+            "typeName": "dansElsstClassification",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://elsst.cessda.eu/id/4/1f8f2cf0-7d57-4a64-82f5-b4dada9a6141",
+              "https://elsst.cessda.eu/id/4/b69c7934-422e-4bd7-be4f-4faf04401970"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://elsst.cessda.eu/id/4/1f8f2cf0-7d57-4a64-82f5-b4dada9a6141",
+                "termName": [
+                  {
+                    "lang": "el",
+                    "value": "ΕΠΙΣΤΗΜΟΝΕΣ"
+                  },
+                  {
+                    "lang": "sl",
+                    "value": "ZNANSTVENIK"
+                  },
+                  {
+                    "lang": "de",
+                    "value": "WISSENSCHAFTLER"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "WETENSCHAPPERS"
+                  },
+                  {
+                    "lang": "no",
+                    "value": "VITENSKAPSFOLK"
+                  },
+                  {
+                    "lang": "is",
+                    "value": "VÍSINDAFÓLK"
+                  },
+                  {
+                    "lang": "es",
+                    "value": "CIENTÍFICOS"
+                  },
+                  {
+                    "lang": "lt",
+                    "value": "MOKSLININKAI"
+                  },
+                  {
+                    "lang": "ro",
+                    "value": "OAMENI DE ȘTIINȚĂ"
+                  },
+                  {
+                    "lang": "fr",
+                    "value": "SCIENTIFIQUES"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "SCIENTISTS"
+                  },
+                  {
+                    "lang": "fi",
+                    "value": "TIEDEMIEHET"
+                  },
+                  {
+                    "lang": "hu",
+                    "value": "TUDÓS"
+                  },
+                  {
+                    "lang": "cs",
+                    "value": "VĚDEČTÍ PRACOVNÍCI"
+                  },
+                  {
+                    "lang": "sv",
+                    "value": "VETENSKAPSMÄN"
+                  },
+                  {
+                    "lang": "da",
+                    "value": "VIDENSKABSMAND"
+                  }
+                ],
+                "vocabularyName": "ELSST Thesaurus Version 4",
+                "vocabularyUri": "https://elsst.cessda.eu/id/"
+              },
+              {
+                "@id": "https://elsst.cessda.eu/id/4/b69c7934-422e-4bd7-be4f-4faf04401970",
+                "termName": [
+                  {
+                    "lang": "hu",
+                    "value": "KUTATÁS"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "RESEARCH"
+                  },
+                  {
+                    "lang": "es",
+                    "value": "INVESTIGACIÓN"
+                  },
+                  {
+                    "lang": "fi",
+                    "value": "TUTKIMUS"
+                  },
+                  {
+                    "lang": "sv",
+                    "value": "FORSKNING"
+                  },
+                  {
+                    "lang": "no",
+                    "value": "FORSKNING"
+                  },
+                  {
+                    "lang": "da",
+                    "value": "FORSKNING"
+                  },
+                  {
+                    "lang": "ro",
+                    "value": "CERCETARE"
+                  },
+                  {
+                    "lang": "sl",
+                    "value": "RAZISKAVA"
+                  },
+                  {
+                    "lang": "is",
+                    "value": "RANNSÓKNIR"
+                  },
+                  {
+                    "lang": "fr",
+                    "value": "RECHERCHE"
+                  },
+                  {
+                    "lang": "cs",
+                    "value": "VÝZKUM"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "ONDERZOEK"
+                  },
+                  {
+                    "lang": "lt",
+                    "value": "TYRIMAI"
+                  },
+                  {
+                    "lang": "de",
+                    "value": "FORSCHUNG"
+                  },
+                  {
+                    "lang": "el",
+                    "value": "ΕΡΕΥΝΑ"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "1990-2021"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageControlled",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Netherlands"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/SS/KVY6BA"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:21a859c0-a3df-4788-97cb-19ed85afb1d5"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-9c83bfac-54ed-4408-9dda-9083dfa5290f"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "This file contains a set of publications (N=813,314) authored by our PhDs, with information such as title, author list, publication year, publication type, journal, associated (sub)field, and several identifier variables that can be used to link these publications to other repositories (doi, NBN, ISBN).",
+        "label": "allpublications.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 28500,
+        "dataFile": {
+          "id": 617383,
+          "persistentId": "",
+          "filename": "allpublications.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1811747500,
+          "description": "This file contains a set of publications (N=813,314) authored by our PhDs, with information such as title, author list, publication year, publication type, journal, associated (sub)field, and several identifier variables that can be used to link these publications to other repositories (doi, NBN, ISBN).",
+          "storageIdentifier": "surf://store:19a398d4409-5d62d98a6581",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6314e3bc84ca5c18847d4c1a96b72435fc03e876"
+          },
+          "tabularData": false,
+          "creationDate": "2025-10-31",
+          "publicationDate": "2025-11-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file summarizes the number of journal article publications per National Research Council field for our set of PhDs. The data is structured in the person-year format, meaning there is one row per scholar & year combination.",
+        "label": "articles_summary_field.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28500,
+        "dataFile": {
+          "id": 617382,
+          "persistentId": "",
+          "filename": "articles_summary_field.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 9060274,
+          "description": "This file summarizes the number of journal article publications per National Research Council field for our set of PhDs. The data is structured in the person-year format, meaning there is one row per scholar & year combination.",
+          "storageIdentifier": "surf://store:19a39843fde-1c5b24e0b224",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "732c556f6b2e7c624182142a09d072471a0fd360"
+          },
+          "tabularData": false,
+          "creationDate": "2025-10-31",
+          "publicationDate": "2025-11-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file summarizes the number of journal article publications per National Research Council subfield for our set of PhDs. The data is structured in the person-year format, meaning there is one row per scholar & year combination.",
+        "label": "articles_summary_subfield.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28500,
+        "dataFile": {
+          "id": 617386,
+          "persistentId": "",
+          "filename": "articles_summary_subfield.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 31321245,
+          "description": "This file summarizes the number of journal article publications per National Research Council subfield for our set of PhDs. The data is structured in the person-year format, meaning there is one row per scholar & year combination.",
+          "storageIdentifier": "surf://store:19a39846059-a8f3c7f35579",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fc1acd49619e77bc53b485d7ff7b8c8fd755e69b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-10-31",
+          "publicationDate": "2025-11-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Conditions specifying access to restricted data files",
+        "label": "DANS Data Access Protocol.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28500,
+        "dataFile": {
+          "id": 617389,
+          "persistentId": "",
+          "filename": "DANS Data Access Protocol.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 35988,
+          "description": "Conditions specifying access to restricted data files",
+          "storageIdentifier": "surf://store:19a399230b1-f0e203cb7e2e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8d7c7a019ef19a2d25cce1d35bbe01febc08236c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-10-31",
+          "publicationDate": "2025-11-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file contains anonymised information about our set of PhDs (i.e. PhD year & university, main field, gender, minority/majority ethnic background), and further contains information related to professor appointments, Veni grants and characteristics of the PhD supervision team.",
+        "label": "phd_metadf_anonymised.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28500,
+        "dataFile": {
+          "id": 617519,
+          "persistentId": "",
+          "filename": "phd_metadf_anonymised.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 9159838,
+          "description": "This file contains anonymised information about our set of PhDs (i.e. PhD year & university, main field, gender, minority/majority ethnic background), and further contains information related to professor appointments, Veni grants and characteristics of the PhD supervision team.",
+          "storageIdentifier": "surf://store:19a7d3aa3bc-5a762217b50b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "54a407a9414a0811516edcd31d3eff4f919a664a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-13",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file contains all identifying information about our set of PhDs (i.e. dissertation title, full name, supervisors' names, dissertation summary, birth place), NWO Vidi and Vici grants, deanships, and all ID variables which can be used to link the PhDs to all other datasets. ",
+        "label": "phd_metadf_id.csv",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 28500,
+        "dataFile": {
+          "id": 617515,
+          "persistentId": "",
+          "filename": "phd_metadf_id.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 172700995,
+          "description": "This file contains all identifying information about our set of PhDs (i.e. dissertation title, full name, supervisors' names, dissertation summary, birth place), NWO Vidi and Vici grants, deanships, and all ID variables which can be used to link the PhDs to all other datasets. ",
+          "storageIdentifier": "surf://store:19a7d3956fa-b47cfeb943e1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "33456bc3ab6538f7571d16cedd2536ec81c05033"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-13",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file summarizes the number of publications per publication type for our set of PhDs. This file is structured in the person-year format, meaning there is one row per scholar-year combination. ",
+        "label": "publications_summary_n.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28500,
+        "dataFile": {
+          "id": 617387,
+          "persistentId": "",
+          "filename": "publications_summary_n.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13971595,
+          "description": "This file summarizes the number of publications per publication type for our set of PhDs. This file is structured in the person-year format, meaning there is one row per scholar-year combination. ",
+          "storageIdentifier": "surf://store:19a39854329-cb8a9bd0b30c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "44fed678c4812d9a47323e29a5de2561a0e0f376"
+          },
+          "tabularData": false,
+          "creationDate": "2025-10-31",
+          "publicationDate": "2025-11-10",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This readme contains additional information on the source of the D3, the included files, and details on the included variables per data file of the D3. ",
+        "label": "README Dutch Doctoral Database (D3).txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28500,
+        "dataFile": {
+          "id": 617518,
+          "persistentId": "",
+          "filename": "README Dutch Doctoral Database (D3).txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 12382,
+          "description": "This readme contains additional information on the source of the D3, the included files, and details on the included variables per data file of the D3. ",
+          "storageIdentifier": "surf://store:19a7d3ad76c-3d78666f4dd7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1e8e11cfbb2cdabe87a0354e9f7480389b9283b1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-13",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "A. M. Mulders; B. Hofstra; J. Tolsma, 2025, \"Dutch Doctoral Database (D3)\", https://doi.org/10.17026/SS/KVY6BA, DANS Data Station Social Sciences and Humanities, V2"
+  }
+}

@@ -1,0 +1,689 @@
+{
+  "id": 571649,
+  "identifier": "TZ2CWD",
+  "persistentUrl": "https://doi.org/10.34894/TZ2CWD",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-12-16",
+  "storageIdentifier": "surf://10.34894/TZ2CWD",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32261,
+    "datasetId": 571649,
+    "datasetPersistentId": "doi:10.34894/TZ2CWD",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/TZ2CWD",
+    "versionNumber": 2,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 2,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2025-12-16T10:31:50Z",
+    "releaseTime": "2025-12-16T10:31:50Z",
+    "createTime": "2025-12-16T10:31:49Z",
+    "publicationDate": "2025-12-16",
+    "citationDate": "2025-12-16",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Georeferenced regional maps associated with Jacob van Deventer, 1536-1546"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Gegeorefereerde gewestkaarten geassocieerd met Jacob van Deventer, 1536-1546"
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6394-260X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This collection contains georeferenced raster images (in GeoTIFF format) of the 'Gewestkaarten' (Regional maps) associated with Jacob van Deventer.<br><br>\n\nThe georeferencing has been accomplished by linking hundreds of locality-pointers in the maps to the respective church towers. Using these pointers, the maps were distorted using Thin Plate Spline (Transformation method) / Nearest Neighbour (Resampling method). <br>Some regional maps, like the map of the County of Zeeland and surroundings, are so well executed that this method works really well without distorting the raster image too much. The map of the Duchy of Brabant (the oldest 'Gewestkaart' by Jacob van Deventer), is much less precise (with substantial intraregional differences). Only around half of the Brabant localities could be used as pointers in georeferencing in order to keep the distortion at an acceptable level.<br><br>\n\nThe maps included in the dataset are:\n<ul>\n<li>Jacob Bos, <em>Flandriae recens exactaque descriptio</em> (Rome: Michaelis Tramezini 1555). Based (partly?) on measurements by Jacob van Deventer and a map by Gerard Mercator, originally published around 1540. <a href=\"http://hdl.handle.net/10934/RM0001.COLLECT.445560\" target=\"_blank\">Amsterdam, Rijksmuseum, RP-P-BI-2756</a>.\n</li>\n<li>Jacob Bos, <em>Hollandiae Batavorum veteris insulae et locorum adiacentium exacta descriptio</em> (Rome: Michaelis Tramezini 1556). Based on a map by Jacob van Deventer, originally published in 1542. <a href=\"https://noord-hollandsarchief.nl/beelden/beeldbank/detail/fde20806-fb8e-11df-9e4d-523bc2e286e2/media/4b95fccc-dfc9-1698-8ca6-059ada4fe64c\" target=\"_blank\">Haarlem, Noord-Hollands Archief, NL-HlmNHA_560_000399_G</a>.\n</li>\n<li>Jacob Bos, <em>Brabantia Belgarum provinciae recens exactaque descriptio</em> (Rome: Michaelis Tramezini 1558). Based on a map by Jacob van Deventer, originally published in 1536. <a href=\"http://hdl.handle.net/10934/RM0001.COLLECT.443122\" target=\"_blank\">Amsterdam, Rijksmuseum, RP-P-BI-2758</a>. A different edition, similar to the lost Breslau edition of 1558 (link <a href=\"https://proxy.archieven.nl/0/09CB567F59F94CED82171CDF4ABABFBC\" target=\"_blank\">1</a>, <a href=\"https://proxy.archieven.nl/0/2E462566244A4A018FC69F79B99FA89D\" target=\"_blank\">2</a>, <a href=\"https://proxy.archieven.nl/0/F1D860F86B384424B82BA9985C6DE940\" target=\"_blank\">3</a>, <a href=\"https://proxy.archieven.nl/0/0749377CB1724F6BA1DF62DE856C34C1\" target=\"_blank\">4</a>), can be found in the <a href=\"https://uurl.kbr.be/1044397\" target=\"_blank\">Brussels Royal Library</a> (circa 1556).\n</li>\n<li>Jacob Bos, <em>Gelriae, Cliviae, Iuliae, nec non aliarum regionum adiacentium nova descriptio</em> (Rome: Michaelis Tramezini 1558). Based on a map by Jacob van Deventer, originally published in 1543 (?). <a href=\"http://hdl.handle.net/10934/RM0001.COLLECT.443121\" target=\"_blank\">Amsterdam, Rijksmuseum, RP-P-BI-2757</a>.\n</li>\n<li>Jacob Bos, <em>Frisiae antiovissimae trans Rhenum provinc. et adiacentium regionum nova et exacta descriptio</em> (Rome: Michaelis Tramezini 1558). Based on a map by Jacob van Deventer, originally published in 1545. <a href=\"http://hdl.handle.net/10934/RM0001.COLLECT.443120\" target=\"_blank\">Amsterdam, Rijksmuseum, RP-P-BI-2759</a>.\n</li>\n<li>Jacob van Deventer, <em>Zelandia</em> (Antwerp: Gulielmus Sylvius 1560). Originally published in 1545 (or 1546?). <a href=\"https://proxy.archieven.nl/126/8C5D72372A9D5829E0530D0610AC42FE\" target=\"_blank\">Brielle, Streekarchief Voorne-Putten, 620 Collectie Topografische Kaarten, G058 ('TA_ALG_208 Kaart van Zeeland anno 1560. Komt voor een groot deel overeen met een kaart uit 1546 van Jacob van Deventer')</a>.</li>\n</ul>\nThe dataset includes both the georeferenced maps in GeoTIFF and the QGIS Ground Control Points-files which can be applied to the original images. The original raster images can be downloaded (CC0) from the respective links above."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Brabant"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zeeland"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jacob van Deventer"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gelre"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Holland"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Friesland"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch",
+              "Latin"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stapel, Rombert"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-08-30"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1536"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1546"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "QGIS"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3.14"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Netherlands"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicBoundingBox",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "westLongitude": {
+                  "typeName": "westLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3.3708631707774"
+                },
+                "eastLongitude": {
+                  "typeName": "eastLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "7.21097183227545"
+                },
+                "northLatitude": {
+                  "typeName": "northLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "53.465827133613"
+                },
+                "southLatitude": {
+                  "typeName": "southLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "50.7538821310873"
+                }
+              },
+              {
+                "westLongitude": {
+                  "typeName": "westLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2.54166317000534"
+                },
+                "eastLongitude": {
+                  "typeName": "eastLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "6.39820017359699"
+                },
+                "northLatitude": {
+                  "typeName": "northLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "51.5012451317834"
+                },
+                "southLatitude": {
+                  "typeName": "southLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "49.5088821299278"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/TZ2CWD"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.2"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:86ea6541-130b-4788-bd6d-2125c565f484"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-271c4119-06fe-4839-9be9-b90086e690e2"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Jacob Bos, Brabantia Belgarum provinciae recens exactaque descriptio (Rome 1558)",
+        "label": "Brabant 1558_georeferenced.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571650,
+          "persistentId": "",
+          "filename": "Brabant 1558_georeferenced.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 57285614,
+          "description": "Jacob Bos, Brabantia Belgarum provinciae recens exactaque descriptio (Rome 1558)",
+          "storageIdentifier": "surf://store:19b2690f5da-555cf825e6e0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "20ce72abeb81396be3aa095602713f250caec0a9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Ground Control Points file",
+        "label": "Brabant 1558.tif.points",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571651,
+          "persistentId": "",
+          "filename": "Brabant 1558.tif.points",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 56233,
+          "description": "QGIS Ground Control Points file",
+          "storageIdentifier": "surf://store:19b26910040-a98ff6832971",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9f3ccb683cbe5da55146ab6f07a5453537ba3bd2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Jacob Bos, Flandriae recens exactaque descriptio (Rome 1555)\n",
+        "label": "Flanders 1555_georeferenced.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571677,
+          "persistentId": "",
+          "filename": "Flanders 1555_georeferenced.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 40555883,
+          "description": "Jacob Bos, Flandriae recens exactaque descriptio (Rome 1555)\n",
+          "storageIdentifier": "surf://store:19b26b71020-af2984f228a7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "74116700578b9a7aee2d8c9c4dd2e5b553926f03"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Ground Control Points file",
+        "label": "Flanders 1555.tif.points",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571678,
+          "persistentId": "",
+          "filename": "Flanders 1555.tif.points",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 8577,
+          "description": "QGIS Ground Control Points file",
+          "storageIdentifier": "surf://store:19b26b712fc-a0f719aa7fb3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "98fbe25a4a5729604fd84b54ce8752a5ceb7f31a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Jacob Bos, Frisiae antiovissimae trans Rhenum provinc. et adiacentium regionum nova et exacta descriptio (Rome 1558)",
+        "label": "Frisia 1558_georeferenced.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571679,
+          "persistentId": "",
+          "filename": "Frisia 1558_georeferenced.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 49023948,
+          "description": "Jacob Bos, Frisiae antiovissimae trans Rhenum provinc. et adiacentium regionum nova et exacta descriptio (Rome 1558)",
+          "storageIdentifier": "surf://store:19b26b71690-065b07908017",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "df87816866a541bcaa38bbc29737cba9a7c0061c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Ground Control Points file",
+        "label": "Frisia 1558.tif.points",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571680,
+          "persistentId": "",
+          "filename": "Frisia 1558.tif.points",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 11249,
+          "description": "QGIS Ground Control Points file",
+          "storageIdentifier": "surf://store:19b26b719a0-36350a3d2637",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e5265fbd7d37d09107b26e03ce4ff728a7623de1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Jacob Bos, Gelriae, Cliviae, Iuliae, nec non aliarum regionum adiacentium nova descriptio (Rome 1558)",
+        "label": "Guelders 1558_georeferenced.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571681,
+          "persistentId": "",
+          "filename": "Guelders 1558_georeferenced.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 49235648,
+          "description": "Jacob Bos, Gelriae, Cliviae, Iuliae, nec non aliarum regionum adiacentium nova descriptio (Rome 1558)",
+          "storageIdentifier": "surf://store:19b26b71cfa-3c01f0789d0f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "14586c88bfabeb1f92deb6853ae5e700200d211b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Ground Control Points file",
+        "label": "Guelders 1558.tif.points",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571682,
+          "persistentId": "",
+          "filename": "Guelders 1558.tif.points",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 27493,
+          "description": "QGIS Ground Control Points file",
+          "storageIdentifier": "surf://store:19b26b71fd5-366612858282",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fb5c6fb95c5196d0a7a463fffa0b06d329535c0f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Jacob Bos, Hollandiae Batavorum veteris insulae et locorum adiacentium exacta descriptio (Rome 1556)",
+        "label": "Holland 1556_georeferenced.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571683,
+          "persistentId": "",
+          "filename": "Holland 1556_georeferenced.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 66703045,
+          "description": "Jacob Bos, Hollandiae Batavorum veteris insulae et locorum adiacentium exacta descriptio (Rome 1556)",
+          "storageIdentifier": "surf://store:19b26b72435-5d1505577bd1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "09712b89f5d486852400c59463fef6e96d61e888"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Ground Control Points file",
+        "label": "Holland 1556.tif.points",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571684,
+          "persistentId": "",
+          "filename": "Holland 1556.tif.points",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 59759,
+          "description": "QGIS Ground Control Points file",
+          "storageIdentifier": "surf://store:19b26b727f6-60827115153a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5a83d4d9ae001ebf3dd0746fe991950e7a46b5f7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Jacob van Deventer, Zelandia (Antwerp 1560)",
+        "label": "Zeeland 1560_georeferenced.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571652,
+          "persistentId": "",
+          "filename": "Zeeland 1560_georeferenced.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 178344933,
+          "description": "Jacob van Deventer, Zelandia (Antwerp 1560)",
+          "storageIdentifier": "surf://store:19b26910ac1-5d04f435f11d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2f745417a9182dcee002803487351a930f36f9d0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Ground Control Points file",
+        "label": "Zeeland 1560.tif.points",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32261,
+        "dataFile": {
+          "id": 571653,
+          "persistentId": "",
+          "filename": "Zeeland 1560.tif.points",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 74546,
+          "description": "QGIS Ground Control Points file",
+          "storageIdentifier": "surf://store:19b269112ad-1095f88ae3e6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fea05221cc9071de8912157593723e9daa1c15bd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-16",
+          "publicationDate": "2025-12-16",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Stapel, Rombert, 2025, \"Georeferenced regional maps associated with Jacob van Deventer, 1536-1546\", https://doi.org/10.34894/TZ2CWD, DataverseNL, V2"
+  }
+}

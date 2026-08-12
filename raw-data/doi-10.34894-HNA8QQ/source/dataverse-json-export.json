@@ -1,0 +1,757 @@
+{
+  "id": 309867,
+  "identifier": "HNA8QQ",
+  "persistentUrl": "https://doi.org/10.34894/HNA8QQ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-04-18",
+  "storageIdentifier": "surf://10.34894/HNA8QQ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31906,
+    "datasetId": 309867,
+    "datasetPersistentId": "doi:10.34894/HNA8QQ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/HNA8QQ",
+    "versionNumber": 2,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-11-06T09:13:10Z",
+    "releaseTime": "2025-11-06T09:13:10Z",
+    "createTime": "2025-11-06T09:12:33Z",
+    "publicationDate": "2024-04-18",
+    "citationDate": "2024-04-18",
+    "termsOfUse": "Requests for access to the restricted files will only be considered for researchers affiliated with universities or independent, non-commercial research institutes. The open files are available under the CC BY 4.0 license. ",
+    "termsOfAccess": "The data contains sensitive information about the subjects and is therefore restricted from openly sharing it. Requests for access will only be considered for researchers affiliated with universities or independent, non-commercial research institutes. In addition, a Data Transfer Agreement, stating among others that the data will not be shared with persons who are not collaborators on the project the data will be used for, must be signed. ",
+    "contactForAccess": "See point of contact information. ",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Data and R code for \"How Do Psychological and Physiological Performance Determinants Interact Within Individual Athletes? An Analytical Network Approach\""
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Niklas D. Neumann"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2062-1958"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nico W. Van Yperen"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0003-2116-8841"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Carolin R. Arens"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jur J. Brauers"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-1717-4977"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Koen A.M.P. Lemmink"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCG, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-7403-8082"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ando C. Emerencia"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Laurentius A. Meerhoff"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Leiden University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0003-4386-0919"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wouter G.P. Frencken"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCG, University of Groningen & Football club Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Michel S. Brink"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCG, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-0730-1979"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ruud J.R. Den Hartigh"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-0094-8307"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ruud J.R. Den Hartigh"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Niklas D. Neumann"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This environment contains the data and the R code for the purpose of replication, reanalysis, new analysis, and reinterpretation of the study results.\n\nThe data sets \"DataPlayer1\" and \"DataPlayer2\" consist of psychological and physiological time series across one football season of two individual professional youth players. More detailed information about what kind of data we collected and how can be retrieved from the article."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences",
+              "Social Sciences",
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Soccer Performance"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Time Series Analysis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EMA"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ecological momentary assessment"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ESM"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Experience Sampling Method"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Personalized Approach"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Multidisciplinary"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dynamic Systems"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Within-Subject Dynamics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dynamic Modeling"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Networks"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nonlinearity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nonstationarity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sports Psychology"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sports Sciences"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Neumann, N. D., Van Yperen, N. W., Arens, C. R., Brauers, J., Lemmink, K. A., Emerencia, A. C., … Hartigh, R. d. (2023, June 15). How Do Psychological and Physiological Performance Determinants Interact Within Individual Athletes? An Analytical Network Approach. https://doi.org/10.31234/osf.io/ytxv5"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "arXiv"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://psyarxiv.com/ytxv5"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NWO"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "546003004"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Silva Correia Alves, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-09-14"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Experience Sampling Method; Ecological Momentary Assesment",
+              "Longitudinal data",
+              "Self-report single-item questions",
+              "Sensor data"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/HNA8QQ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:9979cc23-d34a-41fd-9b5d-d8d4c26385e1"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-f89d507d-e52e-45bc-aa87-8655607c88da"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "The R code to run the analysis for player 1",
+        "label": "Code_Player 1.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31906,
+        "dataFile": {
+          "id": 374682,
+          "persistentId": "",
+          "filename": "Code_Player 1.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 10502,
+          "description": "The R code to run the analysis for player 1",
+          "storageIdentifier": "surf://store:189015c0c0b-f92f352aeed4",
+          "rootDataFileId": -1,
+          "md5": "3de937ea1497e27e78f7d7ea1ad10b53",
+          "checksum": {
+            "type": "MD5",
+            "value": "3de937ea1497e27e78f7d7ea1ad10b53"
+          },
+          "tabularData": false,
+          "creationDate": "2023-06-28",
+          "publicationDate": "2024-04-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "The R code to run the analysis for player 2",
+        "label": "Code_Player 2.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31906,
+        "dataFile": {
+          "id": 374683,
+          "persistentId": "",
+          "filename": "Code_Player 2.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 11072,
+          "description": "The R code to run the analysis for player 2",
+          "storageIdentifier": "surf://store:189015c49d2-3a0d52683e88",
+          "rootDataFileId": -1,
+          "md5": "48fc2efa7156b6d80a312a0d77f52b73",
+          "checksum": {
+            "type": "MD5",
+            "value": "48fc2efa7156b6d80a312a0d77f52b73"
+          },
+          "tabularData": false,
+          "creationDate": "2023-06-28",
+          "publicationDate": "2024-04-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "The R code to randomly select 2 players from the original data set",
+        "label": "Code_Selection of 2 Players.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31906,
+        "dataFile": {
+          "id": 374684,
+          "persistentId": "",
+          "filename": "Code_Selection of 2 Players.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 4873,
+          "description": "The R code to randomly select 2 players from the original data set",
+          "storageIdentifier": "surf://store:189015ca9c5-f6b082f5cfd8",
+          "rootDataFileId": -1,
+          "md5": "32a5209505cbe338afd6d9990f392b49",
+          "checksum": {
+            "type": "MD5",
+            "value": "32a5209505cbe338afd6d9990f392b49"
+          },
+          "tabularData": false,
+          "creationDate": "2023-06-28",
+          "publicationDate": "2024-04-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "The data set of player 1.",
+        "label": "DataPlayer1.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 31906,
+        "dataFile": {
+          "id": 314584,
+          "persistentId": "",
+          "filename": "DataPlayer1.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 10053,
+          "description": "The data set of player 1.",
+          "storageIdentifier": "surf://store:183eb5317ee-65d101f145b9",
+          "rootDataFileId": -1,
+          "md5": "a24b85d0ab7f4cedbeccc7d18f365dd3",
+          "checksum": {
+            "type": "MD5",
+            "value": "a24b85d0ab7f4cedbeccc7d18f365dd3"
+          },
+          "tabularData": false,
+          "creationDate": "2022-10-18",
+          "publicationDate": "2024-04-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "The data set of player 2",
+        "label": "DataPlayer2.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 31906,
+        "dataFile": {
+          "id": 314583,
+          "persistentId": "",
+          "filename": "DataPlayer2.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 10396,
+          "description": "The data set of player 2",
+          "storageIdentifier": "surf://store:183eb53186a-72f13dbbd293",
+          "rootDataFileId": -1,
+          "md5": "479e7804ef58cb2bbda043510112c34a",
+          "checksum": {
+            "type": "MD5",
+            "value": "479e7804ef58cb2bbda043510112c34a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-10-18",
+          "publicationDate": "2024-04-18",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This is a synthetic data set, that is, it is based on the real data of Player 1 with the same means and standard deviations but not the exact same values per variable. This data set should be used by parties who are only interested in how the method works and not in the data per se.",
+        "label": "SyntheticDataPlayer1.csv",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 31906,
+        "dataFile": {
+          "id": 425530,
+          "persistentId": "",
+          "filename": "SyntheticDataPlayer1.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 6185,
+          "description": "This is a synthetic data set, that is, it is based on the real data of Player 1 with the same means and standard deviations but not the exact same values per variable. This data set should be used by parties who are only interested in how the method works and not in the data per se.",
+          "storageIdentifier": "surf://store:19010a3051d-b6178e57a94b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ef668eb28aa24bcab720704f3a9fa51851b4d25f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-06-13",
+          "publicationDate": "2024-06-13",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Niklas D. Neumann; Nico W. Van Yperen; Carolin R. Arens; Jur J. Brauers; Koen A.M.P. Lemmink; Ando C. Emerencia; Laurentius A. Meerhoff; Wouter G.P. Frencken; Michel S. Brink; Ruud J.R. Den Hartigh, 2024, \"Data and R code for \"How Do Psychological and Physiological Performance Determinants Interact Within Individual Athletes? An Analytical Network Approach\"\", https://doi.org/10.34894/HNA8QQ, DataverseNL, V2"
+  }
+}

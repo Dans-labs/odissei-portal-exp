@@ -1,0 +1,1142 @@
+{
+  "id": 638106,
+  "identifier": "BTKFHV",
+  "persistentUrl": "https://doi.org/10.34894/BTKFHV",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-05-07",
+  "storageIdentifier": "surf://10.34894/BTKFHV",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34651,
+    "datasetId": 638106,
+    "datasetPersistentId": "doi:10.34894/BTKFHV",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/BTKFHV",
+    "versionNumber": 15,
+    "internalVersionNumber": 18,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2026-01-01",
+    "lastUpdateTime": "2026-05-12T14:48:04Z",
+    "releaseTime": "2026-05-12T14:48:04Z",
+    "createTime": "2026-05-12T14:47:40Z",
+    "publicationDate": "2026-05-07",
+    "citationDate": "2026-05-07",
+    "license": {
+      "name": "CC-BY-SA-4.0",
+      "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Historical Atlas of the Low Countries (1350–1800)"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "A GIS Dataset of Locality-Level Boundaries"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Historische Atlas van de Nederlanden (1350–1800)"
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6394-260X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<strong>Please cite the accompanying open-access paper if you wish to use the dataset:</strong> R.J. Stapel, ‘Historical Atlas of the Low Countries. A GIS Dataset of Locality-Level Boundaries (1350–1800)’, <em>Research Data Journal for the Humanities and Social Sciences</em>, 8.1 (2023), 1–33 <a href=\"https://doi.org/10.1163/24523666-bja10033\">https://doi.org/10.1163/24523666-bja10033</a>. <strong>Include a version number when referring to the dataset if you can.</strong><br><br>\n\nOne hundred years have passed since the first volume of the <em>Geschiedkundige Atlas van Nederland</em> [Historical Atlas of the Netherlands] was published under the supervision of Anton Beekman et al. In total, it comprised 30 descriptive volumes and countless maps of the Netherlands and its colonies, from Roman times to the nineteenth century. With the advent of the computer, techniques for creating and analysing maps have developed rapidly and are increasingly attracting the interest of humanities scholars. Unlike printed maps, digital GIS maps allow the user to easily combine and analyse different maps or layers of information. Although this has led to many interesting projects in the spatial humanities, for the Netherlands most notably the <a href=\"http://www.hisgis.nl\" target=\"_blank\">HISGIS.nl project</a>, which aims to create a national atlas of buildings and parcels using early cadastral maps, the maps by Beekman et al. remained the main source for historical boundaries in the Netherlands well into the twenty-first century.<br><br>\n\nThis digital GIS dataset contains historical boundaries of cities, parishes, heerlijkheden, and other meaningful entities in the medieval and early modern Low Countries. Its production involves the selection of sources, including historical maps, the drawing of digital maps, and the creation of a data model for the maps and related historical statistics. The main reason for creating these maps is the desire to be able to link socio-economic developments to specific geographical contexts. The map creates the conditions to define historical statistics geographically much more precisely than before. The current focus of the project is to link the maps to all available late medieval surveys that provide information on the number of hearths and other demographic statistics in different parts of the Low Countries. These surveys are also a crucial element in the methodology for creating and refining the <em>Historical Atlas of the Low Countries</em> (HALC) database.<br><br>\n\nAs of version 8.0, <strong>the dataset covers the entire Low Countries</strong> from the Waddenzee to the river Somme and from Luxembourg to East Frisia. It comprises more than <strong>over 17.000 spatial features</strong>, constructed from hundreds of digital, written, and cartographic sources. Only the neighbouring territories of Jülich, Cologne, and Münster to the east, and Bar to the south are still under development. The current dataset focuses on the cross-section 1500, the first of four planned cross-sections (the others are 1350, 1650, and 1800). However, the dataset is designed so that virtually any historical statistic from the fourteenth to early nineteenth centuries that can be spatially linked to administrative units, religious or secular, can be linked to the 1500 cross section. Note that some of the unique identifiers (SHORT_ID) may change between versions of the dataset due to the addition of suffixes. These suffixes are constructed in such a way that the identifiers remain backward compatible (as explained <a href=\"https://doi.org/10.1145/3615887.3627756\" target=\"_blank\">here</a>). The updated identifiers can be retrieved with a few simple procedures.\n\n<br><br><em>For users who are not necessarily interested in village-level GIS boundaries, but who need simplified (time-stamped) boundaries of territories in the Low Countries (Middle Ages - present), such a scholarly resource is available for public use <a href=\"http://hdl.handle.net/10622/HPIC74\">here</a> (please use standard citation standards). This geodataset can be seen live in action <a href=\"https://socialhistory.org/en/projects/coinproduction/search/\" target=\"_blank\">here</a>.</em>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-01-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "historical GIS"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "spatial humanities"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Low Countries"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Brabant"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mechelen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Flanders"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Artois"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tournaisis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cambrésis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vermandois"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ponthieu"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Boulonnais"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Eu"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hainaut"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Liège"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Namur"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Luxembourg"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bouillon"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Chiny"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stavelot-Malmédy"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Limburg"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Valkenburg"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hertogenrade"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Therouanne"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dalhem"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cleves"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Guelders"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Thorn"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Horn"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zeeland"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Holland"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Friesland"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jülich"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Aachen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Münster"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "East-Frisia"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vianen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Buren"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Culemborg"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Megen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ravenstein"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Overijssel"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Drenthe"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Calais"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Köln"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bar"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "R.J. Stapel, ‘Historical Atlas of the Low Countries. A GIS Dataset of Locality-Level Boundaries (1350–1800)’, <em>Research Data Journal for the Humanities and Social Sciences</em>, 8.1 (2023), 1–33"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1163/24523666-bja10033"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://researchdatajournal.org/article/view/23075"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch",
+              "English",
+              "French",
+              "German"
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-01-01"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stapel, Rombert"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-01-01"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1350-01-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1800-12-31"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2017-01-01"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-01-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "shapefiles",
+              "geopackage",
+              "codebook"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "QGIS"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3.42.1"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Netherlands"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "France"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Germany"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Luxembourg"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicUnit",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "heerlijkheid",
+              "lordship",
+              "city",
+              "village",
+              "parish"
+            ]
+          },
+          {
+            "typeName": "geographicBoundingBox",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "westLongitude": {
+                  "typeName": "westLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "-1"
+                },
+                "eastLongitude": {
+                  "typeName": "eastLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "8"
+                },
+                "northLatitude": {
+                  "typeName": "northLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "54"
+                },
+                "southLatitude": {
+                  "typeName": "southLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "48"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/BTKFHV"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "15.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:9aba587a-2cae-40cb-8245-cf4bae03577d"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-c8fe8302-ab25-4861-b7e8-6a6cd776c639"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Polygon layer of the HALC dataset for the cross-section 1500",
+        "label": "HALC 1500.gpkg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639014,
+          "persistentId": "",
+          "filename": "HALC 1500.gpkg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 58929152,
+          "description": "Polygon layer of the HALC dataset for the cross-section 1500",
+          "storageIdentifier": "surf://store:19e1ca86a9e-a03314cecb8d",
+          "rootDataFileId": 638974,
+          "previousDataFileId": 639006,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "33da3c0222f9a94f3539ad0f780c6b899ab09a97"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Style file",
+        "label": "HALC 1500.qml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639015,
+          "persistentId": "",
+          "filename": "HALC 1500.qml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 439961,
+          "description": "QGIS Style file",
+          "storageIdentifier": "surf://store:19e1ca86d63-e471597489c9",
+          "rootDataFileId": 638975,
+          "previousDataFileId": 639007,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c8c4588e7a193b490c514b80eb14ccc749074c4e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Codebook for the HALC dataset",
+        "label": "HALC Codebook.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639016,
+          "persistentId": "",
+          "filename": "HALC Codebook.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 73669,
+          "description": "Codebook for the HALC dataset",
+          "storageIdentifier": "surf://store:19e1ca86e6f-b4cb11632979",
+          "rootDataFileId": 638976,
+          "previousDataFileId": 639008,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3ff58e73740970b2af8e54767c1ccb9c7c239aa7"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Point/gazetteer layer of the HALC dataset",
+        "label": "HALC Localities.gpkg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639017,
+          "persistentId": "",
+          "filename": "HALC Localities.gpkg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7352320,
+          "description": "Point/gazetteer layer of the HALC dataset",
+          "storageIdentifier": "surf://store:19e1ca872bf-ea6b87109489",
+          "rootDataFileId": 638977,
+          "previousDataFileId": 639009,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0a414551cb0e624c7c753745f4ff725381fe7d1e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Style file",
+        "label": "HALC Localities.qml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639018,
+          "persistentId": "",
+          "filename": "HALC Localities.qml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 91891,
+          "description": "QGIS Style file",
+          "storageIdentifier": "surf://store:19e1ca8746d-6a4585931648",
+          "rootDataFileId": 638978,
+          "previousDataFileId": 638978,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5bfdae76cbe5ce30ab50e3b368bea9882d1eaaf1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Polygon layer of the HALC dataset (unidentified localities)",
+        "label": "HALC Unidentified.gpkg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639019,
+          "persistentId": "",
+          "filename": "HALC Unidentified.gpkg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1122304,
+          "description": "Polygon layer of the HALC dataset (unidentified localities)",
+          "storageIdentifier": "surf://store:19e1ca87632-c32b6dcf89ed",
+          "rootDataFileId": 638979,
+          "previousDataFileId": 639010,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "70864fcd9661b5b8c27ddca0f412666bbe5a418b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Point/gazetteer layer of the HALC dataset (unidentified localities)",
+        "label": "HALC Unidentified - Localities.gpkg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639020,
+          "persistentId": "",
+          "filename": "HALC Unidentified - Localities.gpkg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2887680,
+          "description": "Point/gazetteer layer of the HALC dataset (unidentified localities)",
+          "storageIdentifier": "surf://store:19e1ca8796e-1cd7c37d9f34",
+          "rootDataFileId": 638980,
+          "previousDataFileId": 639011,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dcd23af238167b708c5647dfc42e4a2b57027e3f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Style file",
+        "label": "HALC Unidentified - Localities.qml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639021,
+          "persistentId": "",
+          "filename": "HALC Unidentified - Localities.qml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 91891,
+          "description": "QGIS Style file",
+          "storageIdentifier": "surf://store:19e1ca87aa5-c5e55c9ef6da",
+          "rootDataFileId": 638981,
+          "previousDataFileId": 638981,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5bfdae76cbe5ce30ab50e3b368bea9882d1eaaf1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Style file",
+        "label": "HALC Unidentified.qml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639022,
+          "persistentId": "",
+          "filename": "HALC Unidentified.qml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 439961,
+          "description": "QGIS Style file",
+          "storageIdentifier": "surf://store:19e1ca87c05-e7d41f7d7c04",
+          "rootDataFileId": 638982,
+          "previousDataFileId": 638982,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c8c4588e7a193b490c514b80eb14ccc749074c4e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS project file. Use this file to start a new QGIS project with the complete dataset. Make sure you download all the HALC files and save them in the same folder as the QGIS project file.",
+        "label": "Historical Atlas of the Low Countries.qgz",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639023,
+          "persistentId": "",
+          "filename": "Historical Atlas of the Low Countries.qgz",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 94202,
+          "description": "QGIS project file. Use this file to start a new QGIS project with the complete dataset. Make sure you download all the HALC files and save them in the same folder as the QGIS project file.",
+          "storageIdentifier": "surf://store:19e1ca87d02-e24e37edd486",
+          "rootDataFileId": 638983,
+          "previousDataFileId": 639002,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1dfc3bc6ce5df5b203b2692f0a4b545f5d42949b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Polygon layer of the HALC dataset representing landscape features for the cross-section 1500",
+        "label": "Landscape 1500.gpkg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639024,
+          "persistentId": "",
+          "filename": "Landscape 1500.gpkg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 9252864,
+          "description": "Polygon layer of the HALC dataset representing landscape features for the cross-section 1500",
+          "storageIdentifier": "surf://store:19e1ca8818e-fc9baab128ce",
+          "rootDataFileId": 638984,
+          "previousDataFileId": 639012,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ad5923b98e627eed5c8663790b9b3f71ff45f98b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "QGIS Style file",
+        "label": "Landscape 1500.qml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34651,
+        "dataFile": {
+          "id": 639013,
+          "persistentId": "",
+          "filename": "Landscape 1500.qml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 54777,
+          "description": "QGIS Style file",
+          "storageIdentifier": "surf://store:19e1ca808d3-b9f0f4c44680",
+          "rootDataFileId": 638985,
+          "previousDataFileId": 638985,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5043d8ccccb71546bc87c63412ab16f271b28d2f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-12",
+          "publicationDate": "2026-05-12",
+          "lastUpdateTime": "2026-05-12T14:48:04Z",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Stapel, Rombert, 2026, \"Historical Atlas of the Low Countries (1350–1800)\", https://doi.org/10.34894/BTKFHV, DataverseNL, V15"
+  }
+}

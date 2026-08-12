@@ -3,21 +3,8 @@ import { m } from "#/paraglide/messages";
 import { Button } from "@base-ui/react/button";
 import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/solid";
 import { Select } from "#/components/Select";
-
-const buttonClass = `
-  h-9
-  min-w-9
-  rounded-xl
-  text-sm
-  transition
-  hover:bg-zinc-100
-  disabled:opacity-30
-  cursor-pointer
-  disabled:cursor-not-allowed
-  flex
-  items-center
-  justify-center
-`;
+import { cn } from "#/utils/cn";
+import { card, button, paginationButton, gradient } from "#/utils/surfaces";
 
 export function Pagination() {
   const { pages, currentRefinement, refine, isFirstPage, isLastPage } = usePagination();
@@ -29,33 +16,12 @@ export function Pagination() {
     refine(page);
   };
   return (
-    <div
-      className="
-        mt-10
-        flex
-        justify-center
-        flex-wrap
-        gap-4
-        "
-    >
-      <div
-        className="
-          flex
-          items-center
-          gap-1
-          rounded-2xl
-          border
-          border-zinc-200
-          bg-white
-          py-1
-          px-4
-          shadow-sm
-          "
-      >
+    <div className="mt-10 flex justify-center flex-wrap gap-4">
+      <div className={cn(card, "flex py-2")}>
         <Button
           disabled={isFirstPage}
           onClick={() => onPageChange(currentRefinement - 1)}
-          className={`${buttonClass} disabled:opacity-30`}
+          className={cn(button, paginationButton)}
         >
           <ArrowLeftIcon className="size-4" />
         </Button>
@@ -63,7 +29,7 @@ export function Pagination() {
           <Button
             key={page}
             onClick={() => onPageChange(page)}
-            className={`${buttonClass} ${page === currentRefinement ? "bg-cyan-600! text-white" : ""}`}
+            className={cn(button, paginationButton, page === currentRefinement ? gradient : "")}
           >
             {page + 1}
           </Button>
@@ -71,7 +37,7 @@ export function Pagination() {
         <Button
           disabled={isLastPage}
           onClick={() => onPageChange(currentRefinement + 1)}
-          className={`${buttonClass} disabled:opacity-30`}
+          className={cn(button, paginationButton)}
         >
           <ArrowRightIcon className="size-4" />
         </Button>

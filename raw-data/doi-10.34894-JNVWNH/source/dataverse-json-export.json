@@ -1,0 +1,536 @@
+{
+  "id": 26905,
+  "identifier": "JNVWNH",
+  "persistentUrl": "https://doi.org/10.34894/JNVWNH",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-05-26",
+  "storageIdentifier": "surf://10.34894/JNVWNH",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 10052,
+    "datasetId": 26905,
+    "datasetPersistentId": "doi:10.34894/JNVWNH",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/JNVWNH",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-12-01T13:48:44Z",
+    "releaseTime": "2021-12-01T13:48:44Z",
+    "createTime": "2021-12-01T09:25:09Z",
+    "publicationDate": "2021-05-26",
+    "citationDate": "2021-05-26",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Analysis Scripts for 'Balancing Bias and Burden in Personal Network Studies'"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stadel, M."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6827-7602"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stulp, G"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-0173-5554"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Research Data Office"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "In the study 'Balancing Bias and Burden in Personal Network Studies' we use a sample of 701 Dutch women and their personal networks of 25 alters to investigate two strategies reducing respondent burden in personal network data collections: (1) eliciting fewer alters and (2) selecting a random subsample from the original set of elicited alters for full assessment. We present the amount of bias in structural and compositional network characteristics connected to applying these strategies as well as the potential study time gain for every possible network size (2 to 24 alters) as a proxy for respondent burden reduction. Our results can aid researchers designing a personal network study to balance respondent burden and bias in estimates for a range of compositional and structural network characteristics.\n\nThis folder contains the analysis scripts for the analyses presented in the paper. This includes: \n1) data preparation (R Markdown), \n2) emulations and error calculation for dropping alters completely (R-Markdown), \n3) emulations and error calculations for randomly picking a subsample of all generated alters (R-Scripts), \n4) summarizing errors and plotting them for randomly picking a subsample of all generated alters (R-Markdown), and\n5) the accompanying shiny app (R-Script).\n6) a figure on how the scripts relate to each other"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-01-20"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "personal networks"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "network delineation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "respondent burden"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "parameter bias"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stadel, M., & Stulp, G. (2022). Balancing bias and burden in personal network studies. Social Networks, 70, 16-24. https://doi.org/10.1016/j.socnet.2021.10.007"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.socnet.2021.10.007"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Elsenga, Christina"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-06-16"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/JNVWNH"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:6e6abf0a-5ad0-4ee6-b5ad-42ffa331963e"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-cc963b48-bdb3-482b-ab08-930f63121927"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Figure displaying how all scripts relate to each other.",
+        "label": "BalancingBias&Burden_Scripts.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 10052,
+        "dataFile": {
+          "id": 47554,
+          "persistentId": "",
+          "filename": "BalancingBias&Burden_Scripts.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29651,
+          "description": "Figure displaying how all scripts relate to each other.",
+          "storageIdentifier": "surf://store:1771fbc140b-ebb1b00a5556",
+          "rootDataFileId": -1,
+          "md5": "28c759cb3fd937a0de754d04d110e25a",
+          "checksum": {
+            "type": "MD5",
+            "value": "28c759cb3fd937a0de754d04d110e25a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-20",
+          "publicationDate": "2021-05-26",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Data_Preparation.html",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 10052,
+        "dataFile": {
+          "id": 47557,
+          "persistentId": "",
+          "filename": "Data_Preparation.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 1254713,
+          "storageIdentifier": "surf://store:1771fb93113-bea6091c97b9",
+          "rootDataFileId": -1,
+          "md5": "fd879a856c3e23120eb2d6559da3146f",
+          "checksum": {
+            "type": "MD5",
+            "value": "fd879a856c3e23120eb2d6559da3146f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-20",
+          "publicationDate": "2021-05-26",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Script to clean data, calculate study time gains and all network measures.",
+        "label": "Data_Preparation.Rmd",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 10052,
+        "dataFile": {
+          "id": 47556,
+          "persistentId": "",
+          "filename": "Data_Preparation.Rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 41902,
+          "description": "Script to clean data, calculate study time gains and all network measures.",
+          "storageIdentifier": "surf://store:1771fb92de6-604e0eea91ba",
+          "rootDataFileId": -1,
+          "md5": "91f1ee85a7a70d5fdbb2925be66564bc",
+          "checksum": {
+            "type": "MD5",
+            "value": "91f1ee85a7a70d5fdbb2925be66564bc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-20",
+          "publicationDate": "2021-05-26",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Dropping_Alters.html",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 10052,
+        "dataFile": {
+          "id": 47566,
+          "persistentId": "",
+          "filename": "Dropping_Alters.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 1344090,
+          "storageIdentifier": "surf://store:1772abc60b6-649cf9583e1e",
+          "rootDataFileId": -1,
+          "md5": "013792c4f611481b435cac863163ef65",
+          "checksum": {
+            "type": "MD5",
+            "value": "013792c4f611481b435cac863163ef65"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-22",
+          "publicationDate": "2021-05-26",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Emulations, error calculations when dropping alters.",
+        "label": "Dropping_Alters.Rmd",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 10052,
+        "dataFile": {
+          "id": 47567,
+          "persistentId": "",
+          "filename": "Dropping_Alters.Rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 63487,
+          "description": "Emulations, error calculations when dropping alters.",
+          "storageIdentifier": "surf://store:1772abc61a7-3304d1afb9cb",
+          "rootDataFileId": -1,
+          "md5": "ddb792c9be93364a9b0f3d623a062723",
+          "checksum": {
+            "type": "MD5",
+            "value": "ddb792c9be93364a9b0f3d623a062723"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-22",
+          "publicationDate": "2021-05-26",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Error calculations for the MGRI strategy. Was run on the Peregrine HP Cluster due to high computation time.",
+        "label": "Random_Sampling_Errors.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 10052,
+        "dataFile": {
+          "id": 47547,
+          "persistentId": "",
+          "filename": "Random_Sampling_Errors.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 6398,
+          "description": "Error calculations for the MGRI strategy. Was run on the Peregrine HP Cluster due to high computation time.",
+          "storageIdentifier": "surf://store:1771f67a465-eec4df211d59",
+          "rootDataFileId": -1,
+          "md5": "f2a4aeb3e8b15d5a1135e0d3e51394fc",
+          "checksum": {
+            "type": "MD5",
+            "value": "f2a4aeb3e8b15d5a1135e0d3e51394fc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-20",
+          "publicationDate": "2021-05-26",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Emulations of randomly sampling from all generated alters (also termed MGRI). Was run on the Peregrine HP Cluster due to high computation time.",
+        "label": "Random_Sampling.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 10052,
+        "dataFile": {
+          "id": 47548,
+          "persistentId": "",
+          "filename": "Random_Sampling.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 10676,
+          "description": "Emulations of randomly sampling from all generated alters (also termed MGRI). Was run on the Peregrine HP Cluster due to high computation time.",
+          "storageIdentifier": "surf://store:1771f6799f3-7ba652f1ef37",
+          "rootDataFileId": -1,
+          "md5": "451fe68c1458a4f3e9f799fa1352b762",
+          "checksum": {
+            "type": "MD5",
+            "value": "451fe68c1458a4f3e9f799fa1352b762"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-20",
+          "publicationDate": "2021-05-26",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Calculations of RMSE and bias connected to MGRI.",
+        "label": "Random Sampling_RMSE&Bias.Rmd",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 10052,
+        "dataFile": {
+          "id": 47553,
+          "persistentId": "",
+          "filename": "Random Sampling_RMSE&Bias.Rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 20470,
+          "description": "Calculations of RMSE and bias connected to MGRI.",
+          "storageIdentifier": "surf://store:1771f67be2e-efd74855452a",
+          "rootDataFileId": -1,
+          "md5": "25a04c87b1a7bd8650c52899d510acce",
+          "checksum": {
+            "type": "MD5",
+            "value": "25a04c87b1a7bd8650c52899d510acce"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-20",
+          "publicationDate": "2021-05-26",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "The file with which emulations/error calculations were run on the Peregrine HP cluster",
+        "label": "run_sim.sh",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 10052,
+        "dataFile": {
+          "id": 43844,
+          "persistentId": "",
+          "filename": "run_sim.sh",
+          "contentType": "text/x-sh",
+          "friendlyType": "Shell Script",
+          "filesize": 148,
+          "description": "The file with which emulations/error calculations were run on the Peregrine HP cluster",
+          "storageIdentifier": "surf://store:176158045ec-b196bc75c84f",
+          "rootDataFileId": -1,
+          "md5": "589a855e9a42077d168a6745a46a3e24",
+          "checksum": {
+            "type": "MD5",
+            "value": "589a855e9a42077d168a6745a46a3e24"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-29",
+          "publicationDate": "2021-05-26",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Code that generates the shiny app https://socialsciencemethods.shinyapps.io/BalancingBiasAndBurden/",
+        "label": "ShinyApp.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 10052,
+        "dataFile": {
+          "id": 47559,
+          "persistentId": "",
+          "filename": "ShinyApp.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 11732,
+          "description": "Code that generates the shiny app https://socialsciencemethods.shinyapps.io/BalancingBiasAndBurden/",
+          "storageIdentifier": "surf://store:17724f8e1a1-3db180366bf5",
+          "rootDataFileId": -1,
+          "md5": "7fe4d2a6a36235f801ca486440e5906e",
+          "checksum": {
+            "type": "MD5",
+            "value": "7fe4d2a6a36235f801ca486440e5906e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-21",
+          "publicationDate": "2021-05-26",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Stadel, M.; Stulp, G, 2021, \"Analysis Scripts for 'Balancing Bias and Burden in Personal Network Studies'\", https://doi.org/10.34894/JNVWNH, DataverseNL, V1"
+  }
+}

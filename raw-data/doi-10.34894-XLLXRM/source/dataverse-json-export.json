@@ -1,0 +1,681 @@
+{
+  "id": 635725,
+  "identifier": "XLLXRM",
+  "persistentUrl": "https://doi.org/10.34894/XLLXRM",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-05-04",
+  "storageIdentifier": "surf://10.34894/XLLXRM",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34393,
+    "datasetId": 635725,
+    "datasetPersistentId": "doi:10.34894/XLLXRM",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/XLLXRM",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2026-04-30",
+    "productionDate": "2026-04-30",
+    "lastUpdateTime": "2026-05-04T07:43:03Z",
+    "releaseTime": "2026-05-04T07:43:03Z",
+    "createTime": "2026-04-30T09:42:37Z",
+    "publicationDate": "2026-05-04",
+    "citationDate": "2026-05-04",
+    "license": {
+      "name": "CC-BY-SA-4.0",
+      "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Early Modern Portuguese HTR Model for Loghi Software"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Warner, Bethany"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/05dq4pp56",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0009-3138-7758"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Warner, Bethany"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "iisg.knaw.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This repository contains an early modern Portuguese HTR model created at the IISH, designed for use in Loghi, an open-source HTR tool created at the Dutch Academy of Arts and Sciences Humanities Cluster (KNAW HuC). The model is designed to work primarily on early modern Portuguese material.\n\nThe repository contains the model along with a data envelope with information about the HTR model and the training pipeline, documenting the ground truth material used to train the model and the training parameters."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-04-30"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "handwritten text recognition"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Loghi"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Portuguese"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "early modern"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HTR model"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "handwritten text recognition model"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English",
+              "Portuguese"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Warner, Bethany"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-04-30"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "International Institute of Social History"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Project Leader"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ribeiro da Silva, Filipa"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Project Leader"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Van Rossum, Matthias"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Curator"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fernandez Graziano, Dario"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Research Group"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "TraPrIng Project"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dutch Research Council (NWO), The Global Business of Slave Trade (Open Competition M SSH 2022)"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "406.22.FHR.024"
+                }
+              },
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dutch Research Council (NWO), Resisting Enslavement (VIDI grant)"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "211.234"
+                }
+              },
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "European Research Council (ERC), Voices of Resistance (Consolidator grant)"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "101125333 (GlobSlav)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Warner, Bethany"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-04-30"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Konings, Pascal"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-04-30"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1500-01-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1800-12-31"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-01-05"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-04-30"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "HTR model"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Loghi"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2.1.8"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "relatedDatasets",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "TraPrIng Portuguese Handwriting 16th - 18th Century"
+            ]
+          },
+          {
+            "typeName": "otherReferences",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://zenodo.org/records/13986218"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/XLLXRM"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:5faf7e2e-c462-4fcb-bd79-f070392e05e6"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-c4b9fc96-8514-4a00-9e9a-3c2ce65b3ca6"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Character list",
+        "label": "charlist.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34393,
+        "categories": [
+          "Code"
+        ],
+        "dataFile": {
+          "id": 635726,
+          "persistentId": "",
+          "filename": "charlist.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 931,
+          "description": "Character list",
+          "categories": [
+            "Code"
+          ],
+          "storageIdentifier": "surf://store:19dddbff908-1f7f5e01c339",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "04efd11861091b1ecd80022451adc6b3b8e70fb9"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-30",
+          "publicationDate": "2026-05-04",
+          "lastUpdateTime": "2026-05-04T07:43:03Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Configuration file for the HTR model",
+        "label": "config.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34393,
+        "categories": [
+          "Code"
+        ],
+        "dataFile": {
+          "id": 635727,
+          "persistentId": "",
+          "filename": "config.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 50507,
+          "description": "Configuration file for the HTR model",
+          "categories": [
+            "Code"
+          ],
+          "storageIdentifier": "surf://store:19dddbff9c7-40bb922fc08e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c829221195c244d112ac3a047dd4a0e24df09524"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-30",
+          "publicationDate": "2026-05-04",
+          "lastUpdateTime": "2026-05-04T07:43:03Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Documentation",
+        "label": "Data Envelope Portuguese Model.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34393,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 635728,
+          "persistentId": "",
+          "filename": "Data Envelope Portuguese Model.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 164533,
+          "description": "Documentation",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19dddc43548-0d969ba5158d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "93ce635d17696dcbb9ccc1237c524089c0017659"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-30",
+          "publicationDate": "2026-05-04",
+          "lastUpdateTime": "2026-05-04T07:43:03Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Loghi HTR model",
+        "label": "model.keras",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34393,
+        "categories": [
+          "Code"
+        ],
+        "dataFile": {
+          "id": 635729,
+          "persistentId": "",
+          "filename": "model.keras",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 134468137,
+          "description": "Loghi HTR model",
+          "categories": [
+            "Code"
+          ],
+          "storageIdentifier": "surf://store:19dddc00390-aa26c22998df",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d63480d5c9155b89afa3b8c939895ad383e478ad"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-30",
+          "publicationDate": "2026-05-04",
+          "lastUpdateTime": "2026-05-04T07:43:03Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "List of tokens",
+        "label": "tokenizer.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34393,
+        "categories": [
+          "Code"
+        ],
+        "dataFile": {
+          "id": 635730,
+          "persistentId": "",
+          "filename": "tokenizer.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 7658,
+          "description": "List of tokens",
+          "categories": [
+            "Code"
+          ],
+          "storageIdentifier": "surf://store:19dddc004a4-229e87079686",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "059ffcee78ab33bf9784d4b7383f96f6401c4e7c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-30",
+          "publicationDate": "2026-05-04",
+          "lastUpdateTime": "2026-05-04T07:43:03Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Warner, Bethany, 2026, \"Early Modern Portuguese HTR Model for Loghi Software\", https://doi.org/10.34894/XLLXRM, DataverseNL, V1"
+  }
+}

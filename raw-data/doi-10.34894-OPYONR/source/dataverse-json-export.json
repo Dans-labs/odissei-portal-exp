@@ -1,0 +1,1772 @@
+{
+  "id": 505736,
+  "identifier": "OPYONR",
+  "persistentUrl": "https://doi.org/10.34894/OPYONR",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-19",
+  "storageIdentifier": "surf://10.34894/OPYONR",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31304,
+    "datasetId": 505736,
+    "datasetPersistentId": "doi:10.34894/OPYONR",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/OPYONR",
+    "versionNumber": 1,
+    "internalVersionNumber": 54,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2022-12-05",
+    "lastUpdateTime": "2025-08-19T06:33:18Z",
+    "releaseTime": "2025-08-19T06:33:18Z",
+    "createTime": "2025-08-19T06:31:09Z",
+    "publicationDate": "2025-08-19",
+    "citationDate": "2025-08-19",
+    "termsOfUse": "MIT – <a href=\"license_uri\" target=\"_blank\">license_uri</a>",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Reproducibility package (software and synthetic data) for \"Attention Trajectories Capture Utility Accumulation and Predict Brand Choice\""
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Martinovici, Ana"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Martinovici, Ana"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rotterdam School of Management <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Abstract of the associated paper:</p>\n<p><br></p>\n<p>Trajectories of attention capture the accumulation of brand utility during complex decision-making tasks. Thus, attention trajectories, as reflected in eye movements, predict the final brand choice of 85% of consumers before they implement it. Even when observing eye movements in only the first quarter of the decision process, attention already predicts brand choice much better (45%) than chance levels (20%). This superior prediction performance is due to a “double attention lift” for the chosen brand. Thus, the chosen brand receives progressively more attention towards the moment of choice, and more of this attention is devoted to integrating information about the brand rather than to comparing it with other options. In contrast, the currently owned brand grabs attention early in the task, and its attention gain persists for brand-loyal and shifts for brand-switching consumers. A new attention-and-choice model used in tandem with the Bayesian K-fold Cross-Validation methodology on eye-tracking data from 325 representative consumers uncovered these attention trajectory effects. The findings contribute to closing important knowledge gaps in the attention and choice literature and have implications for marketing research and managerial practice. </p>\n<p><br></p>\n<p>Brief description of the reproducibility package:</p>\n<p><br></p>\n<p>This package includes code needed to reproduce numerical results presented in the paper starting from a synthetic dataset. In addition, it provides an example of how to structure code for a complex project, and how to improve the likelihood of numerical reproducibility by using Make. The readme file provides links to additional information about Make and describes what the user needs to do in order to execute the code. </p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Numerical Reproducibility"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Attention"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Other Economics Not Elsewhere Classified"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a forty-seven-file data package totaling 4.0 MB, containing files in , .txt, .Rmd, .RData, .pdf, .csv, .Rproj, .stan, .rds, .R, .html and .md formats.<p><p>If you use this dataset, please cite: Martinovici, Ana (2022). Reproducibility package (software and synthetic data) for \"Attention Trajectories Capture Utility Accumulation and Predict Brand Choice\". Erasmus University Rotterdam (EUR). Software. <a href=\"https://doi.org/10.25397/eur.21603288\" target=\"_blank\">https://doi.org/10.25397/eur.21603288</a><p>"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-12-05"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Martinovici, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-11-22"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://github.com/anamartinovici/attention_and_choice\" target=\"_blank\">https://github.com/anamartinovici/attention_and_choice</a>",
+              "<a href=\"https://doi.org/10.1177/00222437221141052\" target=\"_blank\">https://doi.org/10.1177/00222437221141052</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/OPYONR"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:229e9e74-4d61-47ab-9b85-6e3b40e9b07c"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-7b61559d-7934-430b-b815-bce71169ce0c"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "all_Make_steps.txt",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505740,
+          "persistentId": "",
+          "filename": "all_Make_steps.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 9319,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1065fdb-8f11ec22968f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5ecf6e3caebd2a23958d37e643e1a0f77d34043a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "attention_and_choice.Rproj",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505741,
+          "persistentId": "",
+          "filename": "attention_and_choice.Rproj",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 234,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10660a8-02c9db3c1670",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "72ce3bb9650a32543a1cda6c360146f3e4920d57"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "do_figures.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505749,
+          "persistentId": "",
+          "filename": "do_figures.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 20572,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1066b9a-4bc92455f700",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "50cfad0bc1d44c776086d6b0ac81e944f64c1243"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "do_tables.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505750,
+          "persistentId": "",
+          "filename": "do_tables.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 9995,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1066c64-55ff72387e0a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7423d4d388c78281dc5f8e44504095e82487792f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "est_att_aux.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505753,
+          "persistentId": "",
+          "filename": "est_att_aux.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 14398,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1067218-d2c6a1eba7f0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a3981c314148d9e579cf77bf6432b82d3f869674"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "est_att.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505751,
+          "persistentId": "",
+          "filename": "est_att.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2277,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1066d2a-12bdee1e3912",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4f83b2a01410a7b0a006517b8496a254dba29041"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "est_att.stan",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505752,
+          "persistentId": "",
+          "filename": "est_att.stan",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 10748,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1066e01-c5f97052c68f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "79ecf3dbeda21b03dd9780bb5efcdad1f4c0d082"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "est_choice_aux.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505756,
+          "persistentId": "",
+          "filename": "est_choice_aux.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 12539,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1067496-abf827210f30",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "09d70b8b0dae31557f996345d1df0254f31d1963"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "est_choice.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505754,
+          "persistentId": "",
+          "filename": "est_choice.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3058,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10672da-6cff0368cf97",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b66ba990084dc30554d31703115aed1680903540"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "est_choice.stan",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505755,
+          "persistentId": "",
+          "filename": "est_choice.stan",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 689,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10673bd-c1c9da2df4d8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bc2f94712aeb846d83a57180a5d13f67baa9f142"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "extract_betadraws_att.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505757,
+          "persistentId": "",
+          "filename": "extract_betadraws_att.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3516,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c106756e-c27553161aa5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "da36029da40a8e56db411ced4cbb04afe5042a3e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "extract_thetadraws_j0.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505758,
+          "persistentId": "",
+          "filename": "extract_thetadraws_j0.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1862,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1067ab9-c62f8e7f72b0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c17bf917bac7e859a3e72f1bafb6c016494465b2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "extract_thetadraws_ji.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505759,
+          "persistentId": "",
+          "filename": "extract_thetadraws_ji.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3073,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1067b94-e1cfe264a221",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "053a2fbce118cca0b0cff8a827fb58376111a7dc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Figure_W10.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505770,
+          "persistentId": "",
+          "filename": "Figure_W10.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 4800,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1068bc1-3769bb96bc5b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1ab9334f0d8f6b468a170379b4ef8ad75d32b47f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Figure_W11.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505771,
+          "persistentId": "",
+          "filename": "Figure_W11.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 6685,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1068cab-fdd6ac3f7875",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "38d6260f41a689e42e071ecd5882ab3d4d313199"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Figure_W12_part1.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505772,
+          "persistentId": "",
+          "filename": "Figure_W12_part1.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 4630,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1068d8d-323a705d91f2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "89920aa304764ec1d2508b79de2c1d19c45822bb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Figure_W12_part2.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505773,
+          "persistentId": "",
+          "filename": "Figure_W12_part2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 4611,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10695c1-d0f1e3593b2d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8ef2762d4c2585e5b0506b60a67e3245b4bc1b29"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Figure_W13_part1.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505774,
+          "persistentId": "",
+          "filename": "Figure_W13_part1.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 52122,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10696b4-56b23e645234",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "df644cda2656b9944c15fd3b97d48c74af137201"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Figure_W13_part2.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505775,
+          "persistentId": "",
+          "filename": "Figure_W13_part2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 51542,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10697b6-ee8a6d3dcd17",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1c8d8c8d9a5b04dda5fcb0a236d5ffc2e8978504"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Figure_W1.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505769,
+          "persistentId": "",
+          "filename": "Figure_W1.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 14361,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1068adc-5a35abf14ac5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "58c66194e81e997edd3448c874d3538995b5e9d4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Figure_W2.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505776,
+          "persistentId": "",
+          "filename": "Figure_W2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 25729,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10698a5-a70b28bdd2aa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "69d23a314f720f5751d96c9e444be573d27fef53"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": ".gitignore",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505737,
+          "persistentId": "",
+          "filename": ".gitignore",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 87,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1065d8d-61ab6653fc2c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ff44a278209f8d81eb68a9e408958842d722ad87"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Kfold_pred_att_theta_jigkq.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505744,
+          "persistentId": "",
+          "filename": "Kfold_pred_att_theta_jigkq.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 9110,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10664aa-18aa12981797",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7300eb9a0643724b05775c25314fe168d8f33c1b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Kfold_pred_choice_aux.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505746,
+          "persistentId": "",
+          "filename": "Kfold_pred_choice_aux.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 11984,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1066621-c5dc7f366f8b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13d7525b1e6174926ed692a43389088a86abcffe"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Kfold_pred_choice.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505745,
+          "persistentId": "",
+          "filename": "Kfold_pred_choice.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1907,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c106655f-74a2df65137c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "98aba0d4e36ea5e8fc75ad871be0dc3ef69435c3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Kfold_pred_utility.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505747,
+          "persistentId": "",
+          "filename": "Kfold_pred_utility.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2994,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10666eb-cc82c0122a28",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efdf2e0d26a2bb95c25bf79a6c95f5c6f756d36d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Kfold_split_procdata.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505748,
+          "persistentId": "",
+          "filename": "Kfold_split_procdata.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1406,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10667bc-d1a73fe05bd7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "04e49ed9e5174d1b5bdbf38aad99fd223a879842"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "LICENSE",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505738,
+          "persistentId": "",
+          "filename": "LICENSE",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 1072,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1065e40-8c99eee4577d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3a3a5c2c813935804099b0a422b1a58608738d4d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "makefile",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505742,
+          "persistentId": "",
+          "filename": "makefile",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 7087,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10661b2-1ce8d45b48e5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1f1fb37b1b98f115398248919209562a71c24580"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ORIG_summaries_figureF1_part1.RData",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/data",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505763,
+          "persistentId": "",
+          "filename": "ORIG_summaries_figureF1_part1.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 388,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1067ef1-0e2daac5af09",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "adb7ebe4c6f81755d952555fa25204a31ee27755"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ORIG_summaries_figureF1_part2.RData",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/data",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505764,
+          "persistentId": "",
+          "filename": "ORIG_summaries_figureF1_part2.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 740,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1067fc7-e21c1752d602",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5b02ff31f93b906d496720a3a70fe4e8c3c1e246"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ORIG_summary_figureF2_part1.RData",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/data",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505765,
+          "persistentId": "",
+          "filename": "ORIG_summary_figureF2_part1.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 346,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1068730-6301b9187ae8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4fa12bd7337495cf713bc37d1a01374df4d109b9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ORIG_summary_figureF2_part2.RData",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/data",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505766,
+          "persistentId": "",
+          "filename": "ORIG_summary_figureF2_part2.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 346,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c106880e-177cac66decd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f9d100e85de5ed3b487e6a4a83177bb4d1298ecf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "procdata_description.txt",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/data",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505768,
+          "persistentId": "",
+          "filename": "procdata_description.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2675,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10689f3-a89f60a97a88",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0a9ceafb87c218993b338f780e5cd6ca9cc7c003"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "README.md",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505739,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 2969,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1065f18-a79ef4db70c1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "25f8ef8d83213f0f0d6ea0dbcd9267bbdf7849d4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "render_rmd.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505760,
+          "persistentId": "",
+          "filename": "render_rmd.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 210,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1067c6c-01ddb8c23bab",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cf878cad8ecc7cacd7032308a328bafebe0c6634"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "SNTH_procdata.RData",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/data",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505767,
+          "persistentId": "",
+          "filename": "SNTH_procdata.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 43527,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1068905-beff8e3273e9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "506db5d3225791bf384ca154b61de2b92eeca224"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "stan_test.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/test_setup",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505781,
+          "persistentId": "",
+          "filename": "stan_test.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 185,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c106a650-59efcb68aba8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bad4b4d67a97276d64b75c28208b235fe7739b16"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "stan_test.rds",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/test_setup",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505782,
+          "persistentId": "",
+          "filename": "stan_test.rds",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 2434939,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c106a77d-47be4c7f0215",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "85f5c36fee3304878daff89e8a059d23ff701c70"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "stan_test.stan",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/test_setup",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505783,
+          "persistentId": "",
+          "filename": "stan_test.stan",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 10744,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c106a8d2-5bd48e4bc760",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8f4c700ec2cfd55a9ad404a9cbb6b490e9359fe4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "tables_and_figures_aux.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505762,
+          "persistentId": "",
+          "filename": "tables_and_figures_aux.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 8163,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1067e1f-7f4bffe2adb1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "952bb4d5724bd8855ba03b853241746494bed946"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "tables_and_figures.html",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505743,
+          "persistentId": "",
+          "filename": "tables_and_figures.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 1183649,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c10662d4-1a69634138b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7bd5db0c6919e4642c5dc78df30051a9122ca0bc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "tables_and_figures.Rmd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/analysis",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505761,
+          "persistentId": "",
+          "filename": "tables_and_figures.Rmd",
+          "contentType": "text/x-r-notebook",
+          "friendlyType": "R Notebook",
+          "filesize": 2981,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1067d41-fb4a637e50b3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "252cda2c5a79438b0842baf71597556387b8c8c6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Table_W16_simulated_data.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505777,
+          "persistentId": "",
+          "filename": "Table_W16_simulated_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1824,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1069997-8f6bb17a1270",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "35c945f1633a4cf4c53e2dadd93a2c9402f4e4c9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Table_W16_simulated_data_note.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505778,
+          "persistentId": "",
+          "filename": "Table_W16_simulated_data_note.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 329,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1069a93-749d508b4e2e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a7a08208fcf0ba78bb3c25af1bcd64185eec4380"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Table_W17_simulated_data.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505779,
+          "persistentId": "",
+          "filename": "Table_W17_simulated_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 474,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1069b9a-968eacd8ae8d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cdcbf0a802b6a86d7ef8eaef149f05124c9b7d99"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Table_W18_simulated_data.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.21603288/attention_and_choice-1.0.zip/attention_and_choice-1.0/output/current_results",
+        "version": 1,
+        "datasetVersionId": 31304,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 505780,
+          "persistentId": "",
+          "filename": "Table_W18_simulated_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1504,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c1069c90-5ff4ba352280",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f5e796d644b44c4fe9236c13ba4a7890609e1ced"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Martinovici, Ana, 2025, \"Reproducibility package (software and synthetic data) for \"Attention Trajectories Capture Utility Accumulation and Predict Brand Choice\"\", https://doi.org/10.34894/OPYONR, DataverseNL, V1"
+  }
+}

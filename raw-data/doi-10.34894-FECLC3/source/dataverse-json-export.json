@@ -1,0 +1,636 @@
+{
+  "id": 383784,
+  "identifier": "FECLC3",
+  "persistentUrl": "https://doi.org/10.34894/FECLC3",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-10-24",
+  "storageIdentifier": "surf://10.34894/FECLC3",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25469,
+    "datasetId": 383784,
+    "datasetPersistentId": "doi:10.34894/FECLC3",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/FECLC3",
+    "versionNumber": 1,
+    "internalVersionNumber": 21,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-10-24T12:03:31Z",
+    "releaseTime": "2023-10-24T12:03:31Z",
+    "createTime": "2023-10-23T14:57:08Z",
+    "publicationDate": "2023-10-24",
+    "citationDate": "2023-10-24",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Human Movement Prediction is Shared Human-Robot Workspaces"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dik, Casper"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Emmanouilidis, Christos"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-4335-6915"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Duqueroie, Bertrand"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "THALES Six"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Robots and humans increasingly coexist in shared spaces. Manufacturing workspaces pose additional requirements as fleets of mobile vehicles are deployed alongside workers to jointly or independently perform activities. Breaking the clear separating zones provisioned in the past for automated guided vehicles and humans, safety and legal concerns must be addressed to make shared industrial workspaces both safe and productive. This creates a need for research in socially-aware robot navigation to target also such deployments. To allow for safer and more efficient manufacturing operations in shared workspaces, it is important for robot fleet planning to anticipate human movement. The research related to the datasets here aims to explore and evaluate the extent to which a graph-based neural network approach can be applicable to predicting human occupancy in such workspaces based on past observations. The approach applies a spatiotemporal graph neural network that uses graph convolution and gated recurrent units, and an attention mechanism to capture the spatial and temporal dependencies in the data. Addition of learnable edge weights, a feature exclusive to graph neural networks, enhances the predictive capabilities of the model. Adding workspace – specific embeddings to graph nodes has also been explored, bringing modest performance improvements. The original dataset has been produced by THALES Six as part of the Horizon 2020 EU project STAR (<a href=\"https://star-ai.eu/\">star-ai.eu</a>), grant ID 956573."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Business and Management",
+              "Computer and Information Science",
+              "Engineering"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Socially-aware robots"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Human-robot co-existence"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Human-aware AI-enabled systems"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Human movement prediction"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Horizon 2020"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "956573"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Emmanouilidis, Christos"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-10-23"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/FECLC3"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:9378e57e-359b-4846-ba3a-a0075264caec"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-6432d2dc-2cdf-48fa-b9f5-253a6f3d34a8"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "data_loader.cpython-310.pyc",
+        "restricted": false,
+        "directoryLabel": "data preparation/__pycache__",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383792,
+          "persistentId": "",
+          "filename": "data_loader.cpython-310.pyc",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3128,
+          "storageIdentifier": "surf://store:18b5d2f1c6d-98cb8829cdf1",
+          "rootDataFileId": -1,
+          "md5": "71fe8bc6e8f15df5efe34ac5eff9f986",
+          "checksum": {
+            "type": "MD5",
+            "value": "71fe8bc6e8f15df5efe34ac5eff9f986"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Python code for data loading",
+        "label": "data_loader.py",
+        "restricted": false,
+        "directoryLabel": "data preparation",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383791,
+          "persistentId": "",
+          "filename": "data_loader.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 3379,
+          "description": "Python code for data loading",
+          "storageIdentifier": "surf://store:18b5d2f1c56-7651c55d8579",
+          "rootDataFileId": -1,
+          "md5": "f1f2209f12332edfe0120c60182d30ac",
+          "checksum": {
+            "type": "MD5",
+            "value": "f1f2209f12332edfe0120c60182d30ac"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Raw data in text-based heatmap format. Each data record corresponds to a snapshot of occupancy grid at a certain instance in time. The collection is a time sequence of occupancy data. Each cell in a grid can be occupied by one or more persons, an obstacle (wall), a production machine, or a 'time-out' entity (in this case a vending / coffee machine). ",
+        "label": "data.zip",
+        "restricted": false,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383786,
+          "persistentId": "",
+          "filename": "data.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 7908049,
+          "description": "Raw data in text-based heatmap format. Each data record corresponds to a snapshot of occupancy grid at a certain instance in time. The collection is a time sequence of occupancy data. Each cell in a grid can be occupied by one or more persons, an obstacle (wall), a production machine, or a 'time-out' entity (in this case a vending / coffee machine). ",
+          "storageIdentifier": "surf://store:18b5d2be260-66167273f295",
+          "rootDataFileId": -1,
+          "md5": "5948ca76101d4df378ef17911b3032e0",
+          "checksum": {
+            "type": "MD5",
+            "value": "5948ca76101d4df378ef17911b3032e0"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Example usage of simulation data",
+        "label": "example_input_files.zip",
+        "restricted": false,
+        "directoryLabel": "example",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383794,
+          "persistentId": "",
+          "filename": "example_input_files.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 93033271,
+          "description": "Example usage of simulation data",
+          "storageIdentifier": "surf://store:18b5d32ebda-182152384f43",
+          "rootDataFileId": -1,
+          "md5": "0e74b01f7d41828e739f7c63a24366d7",
+          "checksum": {
+            "type": "MD5",
+            "value": "0e74b01f7d41828e739f7c63a24366d7"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Compiled Python code for improve performance in data preparation",
+        "label": "generate_input_matrices.cpython-310.pyc",
+        "restricted": false,
+        "directoryLabel": "data preparation/__pycache__",
+        "version": 2,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383788,
+          "persistentId": "",
+          "filename": "generate_input_matrices.cpython-310.pyc",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3221,
+          "description": "Compiled Python code for improve performance in data preparation",
+          "storageIdentifier": "surf://store:18b5d2f1c72-440d16105722",
+          "rootDataFileId": -1,
+          "md5": "6fb8710d2e427991238d973aeb89b241",
+          "checksum": {
+            "type": "MD5",
+            "value": "6fb8710d2e427991238d973aeb89b241"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Python code for generating input data",
+        "label": "generate_input_matrices.py",
+        "restricted": false,
+        "directoryLabel": "data preparation",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383793,
+          "persistentId": "",
+          "filename": "generate_input_matrices.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 4027,
+          "description": "Python code for generating input data",
+          "storageIdentifier": "surf://store:18b5d2f1c5c-00ee92e826cb",
+          "rootDataFileId": -1,
+          "md5": "a3957d961281042e092e74f583fecee2",
+          "checksum": {
+            "type": "MD5",
+            "value": "a3957d961281042e092e74f583fecee2"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Python code for data preparation / pre-processing",
+        "label": "main_dataprep.py",
+        "restricted": false,
+        "directoryLabel": "data preparation",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383789,
+          "persistentId": "",
+          "filename": "main_dataprep.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 1584,
+          "description": "Python code for data preparation / pre-processing",
+          "storageIdentifier": "surf://store:18b5d2f1c62-2a3e87e803bf",
+          "rootDataFileId": -1,
+          "md5": "12d1d2b08046b308dc07a4308ab4a9a4",
+          "checksum": {
+            "type": "MD5",
+            "value": "12d1d2b08046b308dc07a4308ab4a9a4"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Example code for model training",
+        "label": "model_training_and_evaluation.ipynb",
+        "restricted": false,
+        "directoryLabel": "model_training",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383795,
+          "persistentId": "",
+          "filename": "model_training_and_evaluation.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 198374,
+          "description": "Example code for model training",
+          "storageIdentifier": "surf://store:18b5d33e961-7228b6e2a296",
+          "rootDataFileId": -1,
+          "md5": "c185f97f73ed549ba5e6d95d97ba3513",
+          "checksum": {
+            "type": "MD5",
+            "value": "c185f97f73ed549ba5e6d95d97ba3513"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Example Python code for trained model predictions",
+        "label": "predictions from pretrained model.py",
+        "restricted": false,
+        "directoryLabel": "example_predictions",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383797,
+          "persistentId": "",
+          "filename": "predictions from pretrained model.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 18286,
+          "description": "Example Python code for trained model predictions",
+          "storageIdentifier": "surf://store:18b5d35ca21-5c6664147d72",
+          "rootDataFileId": -1,
+          "md5": "2f01973569b85aeba36611d7954c1ebf",
+          "checksum": {
+            "type": "MD5",
+            "value": "2f01973569b85aeba36611d7954c1ebf"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Jupyter notebook with documentation for trained model predictions",
+        "label": "predictions from pretrained model(with explanations).ipynb",
+        "restricted": false,
+        "directoryLabel": "example_predictions",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383798,
+          "persistentId": "",
+          "filename": "predictions from pretrained model(with explanations).ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 29690,
+          "description": "Jupyter notebook with documentation for trained model predictions",
+          "storageIdentifier": "surf://store:18b5d35c9d9-68380d3232d0",
+          "rootDataFileId": -1,
+          "md5": "40a0f9cd985a8f0605b3ef3bbe6386e8",
+          "checksum": {
+            "type": "MD5",
+            "value": "40a0f9cd985a8f0605b3ef3bbe6386e8"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Compiled Python code for improve performance in graph reduction",
+        "label": "reduce_graph.cpython-310.pyc",
+        "restricted": false,
+        "directoryLabel": "data preparation/__pycache__",
+        "version": 2,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383787,
+          "persistentId": "",
+          "filename": "reduce_graph.cpython-310.pyc",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 966,
+          "description": "Compiled Python code for improve performance in graph reduction",
+          "storageIdentifier": "surf://store:18b5d2f1c77-5af95bfda96b",
+          "rootDataFileId": -1,
+          "md5": "6f9d2e89ec01587d7fdefcd913ea7c7a",
+          "checksum": {
+            "type": "MD5",
+            "value": "6f9d2e89ec01587d7fdefcd913ea7c7a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Graph size reduction (retains nodes for grid cells who are visited during movement)",
+        "label": "reduce_graph.py",
+        "restricted": false,
+        "directoryLabel": "data preparation",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383790,
+          "persistentId": "",
+          "filename": "reduce_graph.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 1045,
+          "description": "Graph size reduction (retains nodes for grid cells who are visited during movement)",
+          "storageIdentifier": "surf://store:18b5d2f1c68-7a2f1c8fe93d",
+          "rootDataFileId": -1,
+          "md5": "6e17552694020cb4c22b0a604f474dd7",
+          "checksum": {
+            "type": "MD5",
+            "value": "6e17552694020cb4c22b0a604f474dd7"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Example workspace",
+        "label": "simu2.png",
+        "restricted": false,
+        "directoryLabel": "model_training",
+        "version": 1,
+        "datasetVersionId": 25469,
+        "dataFile": {
+          "id": 383796,
+          "persistentId": "",
+          "filename": "simu2.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 24744,
+          "description": "Example workspace",
+          "storageIdentifier": "surf://store:18b5d33e95a-52c03cabba96",
+          "rootDataFileId": -1,
+          "md5": "f158c2b859889e690235b7fc4552d7bf",
+          "checksum": {
+            "type": "MD5",
+            "value": "f158c2b859889e690235b7fc4552d7bf"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-23",
+          "publicationDate": "2023-10-24",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Dik, Casper; Emmanouilidis, Christos; Duqueroie, Bertrand, 2023, \"Human Movement Prediction is Shared Human-Robot Workspaces\", https://doi.org/10.34894/FECLC3, DataverseNL, V1"
+  }
+}

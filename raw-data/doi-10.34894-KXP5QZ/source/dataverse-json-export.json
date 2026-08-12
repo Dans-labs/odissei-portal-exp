@@ -1,0 +1,680 @@
+{
+  "id": 353302,
+  "identifier": "KXP5QZ",
+  "persistentUrl": "https://doi.org/10.34894/KXP5QZ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-02-16",
+  "storageIdentifier": "surf://10.34894/KXP5QZ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24655,
+    "datasetId": 353302,
+    "datasetPersistentId": "doi:10.34894/KXP5QZ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/KXP5QZ",
+    "versionNumber": 1,
+    "internalVersionNumber": 16,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-02-16T12:58:57Z",
+    "releaseTime": "2023-02-16T12:58:57Z",
+    "createTime": "2023-01-10T13:23:03Z",
+    "publicationDate": "2023-02-16",
+    "citationDate": "2023-02-16",
+    "license": {
+      "name": "CC-BY-NC-4.0",
+      "uri": "http://creativecommons.org/licenses/by-nc/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
+    },
+    "termsOfAccess": "The data contains sensitive information about the subjects and is therefore restricted from openly sharing it. Requests can only be made by researchers affiliated with universities or independent, non-commercial research institutes. In addition, a confidentiality agreement, stating that the data will not be shared with persons who are not collaborators on the project the data is used for, must be signed. \n\nContact: R.J.R. Den Hartigh (j.r.den.hartigh@rug.nl) or the Department Developmental Psychology (department secretary: Erica Spronk, e.spronk@rug.nl). ",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Data and R code for \"Nonergodicity in Load and Recovery: Group Results Do Not Generalize to Individuals\""
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Niklas D. Neumann"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2062-1958"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nico W. Van Yperen"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0003-2116-8841"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jur J. Brauers"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-1717-4977"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wouter G.P. Frencken"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCG, University of Groningen & Football club Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Michel S. Brink"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCG, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-0730-1979"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Koen A.M.P. Lemmink"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCG, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-7403-8082"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Laurentius A. Meerhoff"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Leiden University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0003-4386-0919"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ruud J.R. Den Hartigh"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-0094-8307"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ruud J.R. Den Hartigh"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Niklas D. Neumann"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This environment contains the data and the R code for the purpose of replication, reanalysis, new analysis, and reinterpretation of the study results.\n\nThe data set \"Data\" consists of time series across one football season of 84 professional youth players. More detailed information about what kind of data we collected and how can be retrieved from the article."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences",
+              "Social Sciences",
+              "Other"
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Soccer Performance"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ergodicity"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Time Series Analysis"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dynamical Systems"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Football"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Soccer"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Within-Person Dynamics"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Intraindividual variability"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Monitoring"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Resilience"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Load and Recovery"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Generalizability"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Standard Deviation"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rmcorr"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Individual-level analysis"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Process"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cattell Data Box"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fluctuations"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Neumann, N. D., Van Yperen, N. W., Brauers, J. J., Frencken, W., Brink, M. S., Lemmink, K. A. M. P., Meerhoff, L. A., & Den Hartigh, R. J. R. (2021). Nonergodicity in Load and Recovery: Group Results Do Not Generalize to Individuals. International Journal of Sports Physiology and Performance, 17(3), 391–399. https://doi.org/10.1123/ijspp.2021-0126"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1123/ijspp.2021-0126"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.humankinetics.com/view/journals/ijspp/17/3/article-p391.xml"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NWO"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "546003004"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Silva Correia Alves, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-01-10"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Experience Sampling Method; Ecological Momentary Assesment",
+              "Longitudinal data",
+              "Self-report single-item questions",
+              "Sensor data",
+              "Continous data",
+              "Categorical data"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/KXP5QZ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:4b207b42-18b3-4a48-85fd-0392995bdef5"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-fb465c21-c8d9-4d80-8890-2cfa612a093b"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "The data set.",
+        "label": "Data.csv",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 24655,
+        "dataFile": {
+          "id": 353314,
+          "persistentId": "",
+          "filename": "Data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2098024,
+          "description": "The data set.",
+          "storageIdentifier": "surf://store:185a06eea30-3a6a000fa3ee",
+          "rootDataFileId": -1,
+          "md5": "857ee26c82400da8aab8205b75fce98c",
+          "checksum": {
+            "type": "MD5",
+            "value": "857ee26c82400da8aab8205b75fce98c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-11",
+          "publicationDate": "2023-02-16",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "The R code to run the analysis on the large data set (see article for more information).",
+        "label": "R code for large data set.Rmd",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 24655,
+        "dataFile": {
+          "id": 353315,
+          "persistentId": "",
+          "filename": "R code for large data set.Rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 23387,
+          "description": "The R code to run the analysis on the large data set (see article for more information).",
+          "storageIdentifier": "surf://store:185a06ef5d4-b328683e13a1",
+          "rootDataFileId": -1,
+          "md5": "a07703ca8d54157b86c369b7f772c859",
+          "checksum": {
+            "type": "MD5",
+            "value": "a07703ca8d54157b86c369b7f772c859"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-11",
+          "publicationDate": "2023-02-16",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "The R code to run the analysis on the symmetrical subset (see article for more information).",
+        "label": "R code for symmetrical subset.Rmd",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 24655,
+        "dataFile": {
+          "id": 353316,
+          "persistentId": "",
+          "filename": "R code for symmetrical subset.Rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 17903,
+          "description": "The R code to run the analysis on the symmetrical subset (see article for more information).",
+          "storageIdentifier": "surf://store:185a06ef95e-7559c69de264",
+          "rootDataFileId": -1,
+          "md5": "ab2069c474f735ae7289a2e3ce1e0f2d",
+          "checksum": {
+            "type": "MD5",
+            "value": "ab2069c474f735ae7289a2e3ce1e0f2d"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-11",
+          "publicationDate": "2023-02-16",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Niklas D. Neumann; Nico W. Van Yperen; Jur J. Brauers; Wouter G.P. Frencken; Michel S. Brink; Koen A.M.P. Lemmink; Laurentius A. Meerhoff; Ruud J.R. Den Hartigh, 2023, \"Data and R code for \"Nonergodicity in Load and Recovery: Group Results Do Not Generalize to Individuals\"\", https://doi.org/10.34894/KXP5QZ, DataverseNL, V1"
+  }
+}

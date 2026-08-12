@@ -1,0 +1,518 @@
+{
+  "id": 427171,
+  "identifier": "SCEZSB",
+  "persistentUrl": "https://doi.org/10.34894/SCEZSB",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-07-05",
+  "storageIdentifier": "surf://10.34894/SCEZSB",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 28832,
+    "datasetId": 427171,
+    "datasetPersistentId": "doi:10.34894/SCEZSB",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/SCEZSB",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-07-05T11:02:43Z",
+    "releaseTime": "2024-07-05T11:02:43Z",
+    "createTime": "2024-07-04T07:59:49Z",
+    "publicationDate": "2024-07-05",
+    "citationDate": "2024-07-05",
+    "termsOfUse": "The standard Data Sharing Agreement (DSA) of the UMC Utrecht must be signed without adjustments. This DSA is in compliance with Dutch law. No costs are involved.",
+    "confidentialityDeclaration": "No confidentiality declaration needed under the condition that Terms of Use are met.",
+    "specialPermissions": "To obtain access to the data, a <a href=\"https://www.umcutrecht.nl/en/data-request-form-umc-utrecht\">request form</a> has to be completed. Only if your request is approved, in addition to a completed request form, a Data Sharing Agreement (DSA) in line with GDPR regulations and/or a Research Collaboration Agreement (RCA) should be signed before data is shared. Only data requests in line with the Terms of Use will be taken into consideration.",
+    "restrictions": "Read <a href=\"https://www.umcutrecht.nl/en/research-data-umc-utrecht\">here</a>  for more information about the data request proces and the Data Sharing Agreement. The Data Sharing Agreement is signed by both parties.",
+    "citationRequirements": "Read <a href=\"https://www.umcutrecht.nl/en/research-data-umc-utrecht\">here</a>  for more information about the data request proces and the Data Sharing Agreement. The Data Sharing Agreement is signed by both parties.",
+    "conditions": "To access and use the dataset please read the Terms of Use and the Terms of Access for Restricted Files.",
+    "disclaimer": "Read <a href=\"https://www.umcutrecht.nl/en/research-data-umc-utrecht\">here</a>  for more information about the data request proces and the Data Sharing Agreement. The Data Sharing Agreement is signed by both parties.",
+    "termsOfAccess": "By downloading or otherwise accessing the materials, the downloader represents his/her acceptance of the Terms of Use. ",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: The BCG-Corona randomized placebo-controlled trial in Dutch healthcare workers"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Janneke H.H.M. van de Wijgert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0003-2728-4560"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Marc J.M. Bonten"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Julius Center for Health Sciences and Primary Care"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Janneke H.H.M. van de Wijgert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This record includes meta-data from the BCG-Corona trial, a double-blind, placebo-controlled randomized trial comparing BCG to placebo vaccination to prevent unplanned absenteeism and COVID-19-related endpoints in healthcare workers in nine Dutch hospitals. Healthcare workers were randomized to BCG or placebo vaccination (1:1) in March and April 2020 and followed for one year. They reported daily symptoms, SARS-CoV-2 test results, and healthcare seeking behavior via a smartphone application, and donated blood for SARS-CoV-2 serology at two timepoints. BCG vaccination did not reduce unplanned absenteeism, SARS-CoV-2 infections, or SARS-CoV-2 infection duration or severity. Nasopharyngeal rest materials after SARS-CoV-2 testing were stored in two of the nine hospitals and used for 16S microbiome sequencing and viral panel testing. Those results are pending."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "BCG"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "COVID-19"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Healthcare workers"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Randomized controlled trial"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ten Doesschate T, van der Vaart TW, Debisarun PA, et al. Bacillus Calmette-Guérin vaccine to reduce healthcare worker absenteeism in COVID-19 pandemic, a randomized controlled trial. Clin Microbiol Infect Off Publ Eur Soc Clin Microbiol Infect Dis. 2022;28(9):1278-1285. doi:10.1016/j.cmi.2022.04.009"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "doi:10.1016/j.cmi.2022.04.009"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.cmi.2022.04.009"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Claus J, ten Doesschate T, Gumbs C, et al. BCG vaccination of health care workers does not reduce SARS-CoV-2 infections nor infection severity or duration: a randomized placebo-controlled trial. mBio. 2023;0(0):e00356-23. doi:10.1128/mbio.00356-23"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "doi:10.1128/mbio.00356-23"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1128/mbio.00356-23"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Claus J, ten Doesschate T, Taks E, et al. Determinants of systemic SARS-CoV-2-specific antibody responses to infection and to vaccination: a secondary analysis of randomised controlled trial data. Vaccines. 2024;12(6):691. doi:10.3390/vaccines12060691"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "doi:10.3390/vaccines12060691"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.3390/vaccines12060691"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ZonMw"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10430012010026"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Claus, Juana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-07-04"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Clinical data"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/SCEZSB"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:cbecdf0b-0295-4954-833b-ffaa1929fd62"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-a165fa77-3ba0-4f86-a3be-be0d85c59009"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "ICF",
+        "label": "200405 BCG-C PIF & ICF v3_0 UMCU.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28832,
+        "dataFile": {
+          "id": 427174,
+          "persistentId": "",
+          "filename": "200405 BCG-C PIF & ICF v3_0 UMCU.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 273941,
+          "description": "ICF",
+          "storageIdentifier": "surf://store:1907cbdafa2-aa3ba7629bdf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4481d0d9678b1afb7ede19446dd305986d430c7a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-07-04",
+          "publicationDate": "2024-07-05",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "ICF",
+        "label": "200424 BCG-C PIF & ICF M3 Sampling Addendum v2.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28832,
+        "dataFile": {
+          "id": 427172,
+          "persistentId": "",
+          "filename": "200424 BCG-C PIF & ICF M3 Sampling Addendum v2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 876286,
+          "description": "ICF",
+          "storageIdentifier": "surf://store:1907cbda2ed-16bd11ca2d54",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9e5dc91c1739e911e9efb98e09844b153f080f01"
+          },
+          "tabularData": false,
+          "creationDate": "2024-07-04",
+          "publicationDate": "2024-07-05",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "ICF",
+        "label": "210414 BCG-C PIF & ICF Vingerprik v2.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28832,
+        "dataFile": {
+          "id": 427173,
+          "persistentId": "",
+          "filename": "210414 BCG-C PIF & ICF Vingerprik v2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 344715,
+          "description": "ICF",
+          "storageIdentifier": "surf://store:1907cbd80ec-b2f25829dd75",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b3b06815c9ec82c370f72b6c314381802607b127"
+          },
+          "tabularData": false,
+          "creationDate": "2024-07-04",
+          "publicationDate": "2024-07-05",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Codebook",
+        "label": "240705 BCG-C Variables List.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28832,
+        "dataFile": {
+          "id": 427232,
+          "persistentId": "",
+          "filename": "240705 BCG-C Variables List.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 22742,
+          "description": "Codebook",
+          "storageIdentifier": "surf://store:190826e9211-5a50ea90d377",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "782db8a5b15cdb92f3408664b3e45df25a8bd332"
+          },
+          "tabularData": false,
+          "creationDate": "2024-07-05",
+          "publicationDate": "2024-07-05",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Study protocol",
+        "label": "BCG-Corona Protocol v5 200716.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28832,
+        "dataFile": {
+          "id": 427175,
+          "persistentId": "",
+          "filename": "BCG-Corona Protocol v5 200716.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 667006,
+          "description": "Study protocol",
+          "storageIdentifier": "surf://store:1907cbd6a97-60be64e6ca55",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "73365c3c0bbd2cc6f2b6f7c69f7b2aef23503b19"
+          },
+          "tabularData": false,
+          "creationDate": "2024-07-04",
+          "publicationDate": "2024-07-05",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28832,
+        "dataFile": {
+          "id": 427231,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1454,
+          "storageIdentifier": "surf://store:190826e7229-d11391e3f68b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "63447d8ff877386a5f3f9d8559e5edeffc167e2a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-07-05",
+          "publicationDate": "2024-07-05",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Janneke H.H.M. van de Wijgert; Marc J.M. Bonten, 2024, \"Replication Data for: The BCG-Corona randomized placebo-controlled trial in Dutch healthcare workers\", https://doi.org/10.34894/SCEZSB, DataverseNL, V1"
+  }
+}

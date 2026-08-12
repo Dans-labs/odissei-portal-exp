@@ -1,0 +1,1166 @@
+{
+  "id": 38148,
+  "identifier": "2WZ0S9",
+  "persistentUrl": "https://doi.org/10.34894/2WZ0S9",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-03-17",
+  "storageIdentifier": "surf://10.34894/2WZ0S9",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24610,
+    "datasetId": 38148,
+    "datasetPersistentId": "doi:10.34894/2WZ0S9",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/2WZ0S9",
+    "versionNumber": 3,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 2,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-01-02T11:20:45Z",
+    "releaseTime": "2023-01-02T11:20:45Z",
+    "createTime": "2023-01-02T09:29:28Z",
+    "publicationDate": "2021-03-17",
+    "citationDate": "2021-03-17",
+    "termsOfUse": "Creative Commons Attribution 4.0 International (CC-BY 4.0) - Licence URL: https://creativecommons.org/licenses/by/4.0/ - \r\n\r\nYou are free to: \r\nShare — copy and redistribute the material in any medium or format, \r\nAdapt — remix, transform, and build upon the material for any purpose, even commercially.",
+    "restrictions": "You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.",
+    "citationRequirements": "You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.",
+    "disclaimer": "You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.\r\n\r\nNo warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.",
+    "termsOfAccess": "The student report associated with the production of this dataset is embargoed for a set period of time decided by the Board of Examiners. The report itself is licenced as CC-BY 4.0 International.",
+    "dataAccessPlace": "Examencommissie Gèowetenschappen, Universiteit Utrecht, Utrecht, NL",
+    "availabilityStatus": "Embargoed until March 2023",
+    "contactForAccess": "Examencommissie GEO, t.a.v. Ingrid Beekman, Onderwijscoördinator |\r\nPrincetonlaan 4, ESL Kamer 0.06, 3584 CB  UTRECHT, Nederland |\r\nexamencommissie.geo@uu.nl - +31 30 253 5010",
+    "sizeOfCollection": "1 x Student Report (PDF, 54 A4 and 2 A3 printed pages, including references and cover matter)",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Open-source Dynamic Evolving Levee Environment (openDELvE)"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "openDELvE"
+            ]
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "http://www.opendelve.eu"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "O'Dell, J."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-3953-8150"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "O'Dell, Joey"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Collated data from disparate sources including vector, raster, and published reports and maps to produce a global delta protection measures database.\n\nThe dataset includes three layers and a table.\n<ul>\n<li>Polygon layer containing leveed areas (Leveed Areas) imported from vector data or drawn from suitably georeferencing raster/published data</li> \n<li>Polygon layer containg boundary area for research focus (Delta Polygons), as created by Edmonds et. al. (2020, <a href=\"http://doi.org/10.1038/s41467-020-18531-4\">doi:10.1038/s41467-020-18531-4</a>)</li>\n<li> Line layer containing levee, defence, or similar features imported from vector data or drawn from suitably georeferencing raster/published data (Levee Lines).</li>\n<li>Table recording methodology and decision making process (Delta Index) for each delta polygon, as well as reasons for excluding data, country code, and processing/review fields.</li>\n</ul>\n\nMetadata for the dataset in its entirety and the individual layers is additionally published and confirms to the INSPIRE standard. The dataset is structure so that each metadata file is within the respective file when downloaded as a zipped archive.\n\nIn line with an agreed change, the dataset is now attributed to the student only, and the paper, which contains further work using the data can be found at <a href=\"https://doi.org/10.5194/nhess-2021-291\">doi:10.5194/nhess-2021-291</a>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-06-30"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Earth sciences"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "LCSH"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://id.loc.gov/authorities/subjects/sh85040468"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Flood damage prevention"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "LCSH"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://id.loc.gov/authorities/subjects/sh85049155"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Flood dams and reservoirs"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "LCSH"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://id.loc.gov/authorities/subjects/sh85049156"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Levees"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "LCSH"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://id.loc.gov/authorities/subjects/sh85076313"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hydrology"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "LCSH"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://id.loc.gov/authorities/subjects/sh85063458"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "O'Dell, J., Nienhuis, J. H., Cox, J. R., Edmonds, D. A., and Scussolini, P.: A global database of flood-protection levees on river deltas (openDELvE), EGU General Assembly 2021, online, 19–30 Apr 2021, EGU21-13180, 2021."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.5194/egusphere-egu21-13180"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.5194/egusphere-egu21-13180"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nienhuis, J. H., Cox, J. R., O'Dell, J.,  Edmonds, D. A., and Scussolini, P.: A global open-source database of flood-protection levees on river deltas (openDELvE), Nat. Hazards Earth Syst. Sci., https://doi.org/10.5194/nhess-22-4087-2022, 22, 4087-4101, 2022."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.5194/nhess-22-4087-2022"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://nhess.copernicus.org/articles/22/4087/2022/nhess-22-4087-2022.html"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Universiteit Utrecht"
+                },
+                "producerAbbreviation": {
+                  "typeName": "producerAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UU"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.uu.nl"
+                },
+                "producerLogoURL": {
+                  "typeName": "producerLogoURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.uu.nl/sites/default/files/cm_hs_avatar_corporate.png"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Universiteit Utrecht, Utrecht, Netherlands"
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ESRI ArcGIS Online"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.opendelve.eu"
+                },
+                "distributorLogoURL": {
+                  "typeName": "distributorLogoURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.esri.com/content/dam/esrisites/en-us/common/icons/product-logos/ArcGISOnline.png"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "O'Dell, Joey"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-11-15"
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-07-20"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-05-09"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "geospatial data",
+              "index"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ESRI ArcGIS Pro"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2.6.2"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ESRI ArcGIS Pro"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2.7.1"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "relatedDatasets",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Edmonds, D.A., Caldwell, R.L., Brondizio, E.S. et al. Coastal flooding will disproportionately impact people on river deltas. Nature Communications 11, 4741 (2020). https://doi.org/10.1038/s41467-020-18531-4",
+              "Nienhuis, J.H., Ashton, A.D., Edmonds, D.A. et al. Global-scale human impact on delta morphology has led to net land area gain. Nature 577, 514–518 (2020). https://doi.org/10.1038/s41586-019-1905-9"
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Please see delta index and attributes LITREF, URL and DOI in the Delta Polygons and Leveed Area layers"
+            ]
+          },
+          {
+            "typeName": "characteristicOfSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Source material is primarily published (scientific) litereature.\nJusitification and inclusion of non-scientific data is performed at an individual level and is recorded in the Delta Index.\nAssessment of source quality is defined as per the Data Quality attribute on each feature, which can be further investigated in the accompanying report."
+          },
+          {
+            "typeName": "accessToSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Original sources are fully documented and available within the index dataset and the shapefile attributes as human readable (APA 7th) and machine-readable (DOI)"
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicUnit",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "global"
+            ]
+          },
+          {
+            "typeName": "geographicBoundingBox",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "westLongitude": {
+                  "typeName": "westLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "-180"
+                },
+                "eastLongitude": {
+                  "typeName": "eastLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "180"
+                },
+                "northLatitude": {
+                  "typeName": "northLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "90"
+                },
+                "southLatitude": {
+                  "typeName": "southLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "-90"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/2WZ0S9"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "3.2"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:bd125b12-1831-457c-a2e1-4d623e0750b8"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-c0607e63-ca02-486b-994c-efc615f319c6"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Changelog and versioning history",
+        "label": "changelog.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 296634,
+          "persistentId": "",
+          "filename": "changelog.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1535,
+          "description": "Changelog and versioning history",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:180a8538a0d-8fc7a50b442f",
+          "rootDataFileId": 91124,
+          "previousDataFileId": 91124,
+          "md5": "c9a95e9facbe6cdb021c4e30d69efbde",
+          "checksum": {
+            "type": "MD5",
+            "value": "c9a95e9facbe6cdb021c4e30d69efbde"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-09",
+          "publicationDate": "2022-05-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Index dataset describing methodology, decision making processes, and secondary attributes for the Delta Polygons (linked by PolygonID)",
+        "label": "DeltaIndex.csv",
+        "restricted": false,
+        "directoryLabel": "DeltaIndex",
+        "version": 4,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Data",
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 296636,
+          "persistentId": "",
+          "filename": "DeltaIndex.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 850272,
+          "description": "Index dataset describing methodology, decision making processes, and secondary attributes for the Delta Polygons (linked by PolygonID)",
+          "categories": [
+            "Data",
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:180a855a752-004654822eb2",
+          "rootDataFileId": 38840,
+          "previousDataFileId": 93222,
+          "md5": "639df615f7bb44d5cc0dd9799f684d22",
+          "checksum": {
+            "type": "MD5",
+            "value": "639df615f7bb44d5cc0dd9799f684d22"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-09",
+          "publicationDate": "2022-05-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Delta Polygons layer as a Zipped KML (KMZ)",
+        "label": "DeltaPolygons_KML.kmz",
+        "restricted": false,
+        "directoryLabel": "DeltaPolygons",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 296638,
+          "persistentId": "",
+          "filename": "DeltaPolygons_KML.kmz",
+          "contentType": "application/vnd.google-earth.kmz",
+          "friendlyType": "Google Earth Archive",
+          "filesize": 316552,
+          "description": "Delta Polygons layer as a Zipped KML (KMZ)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:180a85cdbaf-a2c52247c32b",
+          "rootDataFileId": 38837,
+          "previousDataFileId": 38837,
+          "md5": "1367e10dd689cdf1cb4c325f03c984da",
+          "checksum": {
+            "type": "MD5",
+            "value": "1367e10dd689cdf1cb4c325f03c984da"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-09",
+          "publicationDate": "2022-05-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Delta Polygons layer as a Zipped ESRI Shapefile",
+        "label": "Delta_Polygons.zip",
+        "restricted": false,
+        "directoryLabel": "DeltaPolygons",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 296639,
+          "persistentId": "",
+          "filename": "Delta_Polygons.zip",
+          "contentType": "application/zipped-shapefile",
+          "friendlyType": "Shapefile as ZIP Archive",
+          "filesize": 240538,
+          "description": "Delta Polygons layer as a Zipped ESRI Shapefile",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:180a85d195d-2893b9aa3152",
+          "rootDataFileId": 38836,
+          "previousDataFileId": 38836,
+          "md5": "b74dc808dc04940ea514360ac0392558",
+          "checksum": {
+            "type": "MD5",
+            "value": "b74dc808dc04940ea514360ac0392558"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-09",
+          "publicationDate": "2022-05-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "ArcGIS Pro Toolbox containing geoprocessing model for importing and processing leveed areas.",
+        "label": "GeoprocessingToolbox.tbx",
+        "restricted": false,
+        "directoryLabel": "Geoprocessing",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Code"
+        ],
+        "dataFile": {
+          "id": 38848,
+          "persistentId": "",
+          "filename": "GeoprocessingToolbox.tbx",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 890368,
+          "description": "ArcGIS Pro Toolbox containing geoprocessing model for importing and processing leveed areas.",
+          "categories": [
+            "Code"
+          ],
+          "storageIdentifier": "surf://store:175408fd2d8-4af957d8164c",
+          "rootDataFileId": -1,
+          "md5": "1eead11a794e51a972665cf286e47881",
+          "checksum": {
+            "type": "MD5",
+            "value": "1eead11a794e51a972665cf286e47881"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-19",
+          "publicationDate": "2021-03-17",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pyhton export of geoprocessing model used to import and process leveed area features",
+        "label": "ImportandClipDPM.py",
+        "restricted": false,
+        "directoryLabel": "Geoprocessing",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Code"
+        ],
+        "dataFile": {
+          "id": 38847,
+          "persistentId": "",
+          "filename": "ImportandClipDPM.py",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 10873,
+          "description": "Pyhton export of geoprocessing model used to import and process leveed area features",
+          "categories": [
+            "Code"
+          ],
+          "storageIdentifier": "surf://store:175408f4034-e412770be7b7",
+          "rootDataFileId": -1,
+          "md5": "1f835696cb5348656f4ded3d243f8c50",
+          "checksum": {
+            "type": "MD5",
+            "value": "1f835696cb5348656f4ded3d243f8c50"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-19",
+          "publicationDate": "2021-03-17",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Leveed Area dataset as a zipped KML file",
+        "label": "LeveedArea_KML.kmz",
+        "restricted": false,
+        "directoryLabel": "LeveedArea",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 296640,
+          "persistentId": "",
+          "filename": "LeveedArea_KML.kmz",
+          "contentType": "application/vnd.google-earth.kmz",
+          "friendlyType": "Google Earth Archive",
+          "filesize": 13831374,
+          "description": "Leveed Area dataset as a zipped KML file",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:180a85d88f4-6740953f94ab",
+          "rootDataFileId": 93220,
+          "previousDataFileId": 93220,
+          "md5": "f1b3da6157d3264e489dd89a0e694d7e",
+          "checksum": {
+            "type": "MD5",
+            "value": "f1b3da6157d3264e489dd89a0e694d7e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-09",
+          "publicationDate": "2022-05-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Leveed Area layer saved as zipped ESRI Shapefile",
+        "label": "LeveedArea_SHP.zip",
+        "restricted": false,
+        "directoryLabel": "LeveedArea",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 296641,
+          "persistentId": "",
+          "filename": "LeveedArea_SHP.zip",
+          "contentType": "application/zipped-shapefile",
+          "friendlyType": "Shapefile as ZIP Archive",
+          "filesize": 11141265,
+          "description": "Leveed Area layer saved as zipped ESRI Shapefile",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:180a85ddfc0-9190fc2da35e",
+          "rootDataFileId": 38839,
+          "previousDataFileId": 93221,
+          "md5": "335a1e8eb965a197a218f472c5d762f0",
+          "checksum": {
+            "type": "MD5",
+            "value": "335a1e8eb965a197a218f472c5d762f0"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-09",
+          "publicationDate": "2022-05-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Levee Lines layer as a Zipped KML (KMZ)",
+        "label": "LeveeLines_KML.kmz",
+        "restricted": false,
+        "directoryLabel": "LeveeLines",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 296643,
+          "persistentId": "",
+          "filename": "LeveeLines_KML.kmz",
+          "contentType": "application/vnd.google-earth.kmz",
+          "friendlyType": "Google Earth Archive",
+          "filesize": 13789371,
+          "description": "Levee Lines layer as a Zipped KML (KMZ)",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:180a8638788-471403adb434",
+          "rootDataFileId": 40221,
+          "previousDataFileId": 40221,
+          "md5": "88c69547145b09e8860c8eabc0700c4a",
+          "checksum": {
+            "type": "MD5",
+            "value": "88c69547145b09e8860c8eabc0700c4a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-09",
+          "publicationDate": "2022-05-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Levee Lines layer as a zipped ESRI shapefile",
+        "label": "LeveeLines.zip",
+        "restricted": false,
+        "directoryLabel": "LeveeLines",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 296642,
+          "persistentId": "",
+          "filename": "LeveeLines.zip",
+          "contentType": "application/zipped-shapefile",
+          "friendlyType": "Shapefile as ZIP Archive",
+          "filesize": 14074835,
+          "description": "Levee Lines layer as a zipped ESRI shapefile",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:180a8622976-ef93080628f2",
+          "rootDataFileId": 40222,
+          "previousDataFileId": 40222,
+          "md5": "8475a586d9776d9d7b2b03c6624a5a1a",
+          "checksum": {
+            "type": "MD5",
+            "value": "8475a586d9776d9d7b2b03c6624a5a1a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-09",
+          "publicationDate": "2022-05-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "XML Metadata file in INSPIRE format for Delta Index",
+        "label": "Metadata_DeltaIndex.xml",
+        "restricted": false,
+        "directoryLabel": "DeltaIndex",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Metadata"
+        ],
+        "dataFile": {
+          "id": 40216,
+          "persistentId": "",
+          "filename": "Metadata_DeltaIndex.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 13464,
+          "description": "XML Metadata file in INSPIRE format for Delta Index",
+          "categories": [
+            "Metadata"
+          ],
+          "storageIdentifier": "surf://store:175cd0220ee-f6a742effaf4",
+          "rootDataFileId": -1,
+          "md5": "3d70b3dfb7dad12819a6785f452ff18e",
+          "checksum": {
+            "type": "MD5",
+            "value": "3d70b3dfb7dad12819a6785f452ff18e"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-15",
+          "publicationDate": "2021-03-17",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "XML Metadata file in INSPIRE format for Delta Polygons",
+        "label": "Metadata_DeltaPolygons.xml",
+        "restricted": false,
+        "directoryLabel": "DeltaPolygons",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Metadata"
+        ],
+        "dataFile": {
+          "id": 40217,
+          "persistentId": "",
+          "filename": "Metadata_DeltaPolygons.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 15935,
+          "description": "XML Metadata file in INSPIRE format for Delta Polygons",
+          "categories": [
+            "Metadata"
+          ],
+          "storageIdentifier": "surf://store:175cd022184-107764bc6778",
+          "rootDataFileId": -1,
+          "md5": "a18ff8eb37f6a008c818e09bcb6929d1",
+          "checksum": {
+            "type": "MD5",
+            "value": "a18ff8eb37f6a008c818e09bcb6929d1"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-15",
+          "publicationDate": "2021-03-17",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "XML Metadata file in INSPIRE format for Leveed Area",
+        "label": "Metadata_LeveedArea.xml",
+        "restricted": false,
+        "directoryLabel": "LeveedArea",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Metadata"
+        ],
+        "dataFile": {
+          "id": 91116,
+          "persistentId": "",
+          "filename": "Metadata_LeveedArea.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 52543,
+          "description": "XML Metadata file in INSPIRE format for Leveed Area",
+          "categories": [
+            "Metadata"
+          ],
+          "storageIdentifier": "surf://store:17896c6719e-90f4e5f299fc",
+          "rootDataFileId": 40220,
+          "previousDataFileId": 40220,
+          "md5": "69158f3db64c6a7f1e5fd11641c7062f",
+          "checksum": {
+            "type": "MD5",
+            "value": "69158f3db64c6a7f1e5fd11641c7062f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-03",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "XML Metadata file in INSPIRE format for Levee Lines",
+        "label": "Metadata_LeveeLines.xml",
+        "restricted": false,
+        "directoryLabel": "LeveeLines",
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Metadata"
+        ],
+        "dataFile": {
+          "id": 40219,
+          "persistentId": "",
+          "filename": "Metadata_LeveeLines.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 52084,
+          "description": "XML Metadata file in INSPIRE format for Levee Lines",
+          "categories": [
+            "Metadata"
+          ],
+          "storageIdentifier": "surf://store:175cd022207-4750a1c6933d",
+          "rootDataFileId": -1,
+          "md5": "cdf1ebcf1e3c0cf7bbfd9413ceb59f40",
+          "checksum": {
+            "type": "MD5",
+            "value": "cdf1ebcf1e3c0cf7bbfd9413ceb59f40"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-15",
+          "publicationDate": "2021-03-17",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Metadata for the entire dataset in INSPIRE format",
+        "label": "Metadata.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Metadata"
+        ],
+        "dataFile": {
+          "id": 296637,
+          "persistentId": "",
+          "filename": "Metadata.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 50963,
+          "description": "Metadata for the entire dataset in INSPIRE format",
+          "categories": [
+            "Metadata"
+          ],
+          "storageIdentifier": "surf://store:180a85a503e-efda13c7cf28",
+          "rootDataFileId": 93219,
+          "previousDataFileId": 93219,
+          "md5": "21b3915ea60677a280c0125eb3295c34",
+          "checksum": {
+            "type": "MD5",
+            "value": "21b3915ea60677a280c0125eb3295c34"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-09",
+          "publicationDate": "2022-05-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "README file written in Markdown",
+        "label": "README.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 296632,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6572,
+          "description": "README file written in Markdown",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:180a8529d4b-e4f48f035ab6",
+          "rootDataFileId": 49839,
+          "previousDataFileId": 49839,
+          "md5": "62265b54c58823badb61e88d2b60aece",
+          "checksum": {
+            "type": "MD5",
+            "value": "62265b54c58823badb61e88d2b60aece"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-09",
+          "publicationDate": "2022-05-09",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Student report accompanying this project",
+        "label": "Report.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24610,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 40224,
+          "persistentId": "",
+          "filename": "Report.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 4770199,
+          "description": "Student report accompanying this project",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:175cd362a2d-43c38d4deef7",
+          "rootDataFileId": -1,
+          "md5": "c54d3b7e333d13e8fbba790215746852",
+          "checksum": {
+            "type": "MD5",
+            "value": "c54d3b7e333d13e8fbba790215746852"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-15",
+          "publicationDate": "2021-03-17",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "O'Dell, J., 2021, \"Open-source Dynamic Evolving Levee Environment (openDELvE)\", https://doi.org/10.34894/2WZ0S9, DataverseNL, V3"
+  }
+}

@@ -1,0 +1,2449 @@
+{
+  "id": 511855,
+  "identifier": "PXKESE",
+  "persistentUrl": "https://doi.org/10.34894/PXKESE",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-21",
+  "storageIdentifier": "surf://10.34894/PXKESE",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31418,
+    "datasetId": 511855,
+    "datasetPersistentId": "doi:10.34894/PXKESE",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/PXKESE",
+    "versionNumber": 1,
+    "internalVersionNumber": 70,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2022-03-02",
+    "lastUpdateTime": "2025-08-21T14:54:02Z",
+    "releaseTime": "2025-08-21T14:54:02Z",
+    "createTime": "2025-08-21T14:52:08Z",
+    "publicationDate": "2025-08-21",
+    "citationDate": "2025-08-21",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Do People Want To Be Informed_stata"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.19236495"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stoop, Jan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-9718-4851"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Espinosa, Romain"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stoop, Jan"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus School of Economics <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>This repository contains the data and scripts to reproduce Espinosa & Stoop, Experimental Economics, 2021: Do people really want to be informed?</p><p>The project contains folders wit data, Stata codes (do-files), and R scripts.</p><p>DoFiles:</p><ol><li>[ABD] Results: computes the estimates shown in the paper for Diet treatment<ul><li>Table C1: column 1</li><li>Table C2: column 1</li><li>Table C3: columns 1 & 2</li></ul></li><li>[Alcohol] Results: computes the estimates shown in the paper for Alcohol treatment<ul><li>Table C1: column 2</li><li>Table C2: column 2</li><li>Table C3: columns 3 & 4</li></ul></li><li>[Immigration] Results: computes the estimates shown in the paper for Immigration treatment<ul><li>Table C1: column 3</li><li>Table C2: column 3</li><li>Table C3: columns 5 & 6</li></ul></li><li>[InfoABD] Results: computes the estimates shown in the paper for Immigration treatment<ul><li>Table C1: column 4</li></ul></li><li>[InfoAlcohol] Results: computes the estimates shown in the paper for Immigration treatment<ul><li>Table C1: column 5</li></ul></li><li>[InfoImmigration] Results: computes the estimates shown in the paper for Immigration treatment<ul><li>Table C1: column 6</li></ul></li><li>[DiD] InfoImpact: difference-in-difference estimation<ul><li>Table 5</li></ul></li><li>[HeavyDrinkers] Results: Impact of incentives on heavy drinkers<ul><li>Robustness check #6</li></ul></li><li>[Impact] Results: regression of the information campaigns' impact<ul><li>Table 6</li></ul></li><li>[Placebo] Results: Look at incentive effect in placebo treatment<ul><li>Robustness check #2</li></ul></li><li>[Pilot] Results: Look at the order effect in the pilot<ul><li>Robustness check #5</li></ul></li></ol><p>R Scripts:</p><ol><li>MLE on full sample: computes the estimates of Table 4 (columns: 1-3-5)</li><li>Robustness checks MLE.<ul><li>Robustness check #4 (focusing on the three first questions)</li><li>Robustness check #3 (omitting one question each time)</li><li>Table 8</li></ul></li><li>Bootstrap Process: bootstraps the MLEs</li><li>Analyze Bootstrap Results: Analyze the results of the bootstrap process<ul><li>Table 4: columns 2-4-6</li><li>Table C5</li></ul></li></ol>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Data Analysis Parameters"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Laboratory Experiments"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cognitive Dissonance"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Veganism"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Experimental Economics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Experimental Economics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a sixty-five-file data package totaling 19.7 MB, containing files in .xlsx, .md, .R, .csv, .dta and .do formats.<p><p>If you use this dataset, please cite: Stoop, Jan; Espinosa, Romain (2022). Do People Want To Be Informed_stata. Erasmus University Rotterdam (EUR). Dataset. <a href=\"https://doi.org/10.25397/eur.19236495\" target=\"_blank\">https://doi.org/10.25397/eur.19236495</a><p>"
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "[Grant Label: Veni grant 016.155.026, and Vidi grant 195.061]"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-03-02"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stoop, Jan"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-02-25"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://doi.org/10.1007/s10683-020-09692-6\" target=\"_blank\">https://doi.org/10.1007/s10683-020-09692-6</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/PXKESE"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:0864d18d-8818-4882-8109-75d69c590bf9"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-47c10742-3e51-4361-9afc-47f7bce07ab5"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "[ABD] Results.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511869,
+          "persistentId": "",
+          "filename": "[ABD] Results.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 3167,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1db676-a991a817a1b9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0b4a9ec6cf24c0ac83cf32db82c75f1790a395dc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Additional_Data_HeavyDrinkers.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511857,
+          "persistentId": "",
+          "filename": "Additional_Data_HeavyDrinkers.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 93541,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1da7ef-63541de2f886",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d958da49c3440aa34885f2af7bf54636b80b8168"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[Alcohol] Results.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511870,
+          "persistentId": "",
+          "filename": "[Alcohol] Results.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 3243,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1db764-17e2b1845f7b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4cefed6a2d13e9d22c27c9bf4dd84af8f67253c6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Analyze Bootstrap Results.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/R Scripts",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511881,
+          "persistentId": "",
+          "filename": "Analyze Bootstrap Results.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 9809,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dcc25-0bd4eb0e6489",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5d5f9adbd6f6d82486a8a2681f78e53beca968fd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Bootstrap Process.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/R Scripts",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511882,
+          "persistentId": "",
+          "filename": "Bootstrap Process.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 5148,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dcd1f-bdb1032af8a7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "539ea28eb9f8e7f9fdb965a13eda0fd971d9ce87"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Data_ABD.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511858,
+          "persistentId": "",
+          "filename": "Data_ABD.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 1092389,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1da8ee-dd7417d08b69",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a6cdc001c4910b426c45358623dcd326a4a5ec5f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Data_Alcohol.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511859,
+          "persistentId": "",
+          "filename": "Data_Alcohol.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 1280842,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1daa19-a305bdd4c4f8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "21f483c002ee0112f9d0e351ceb1ba98361bddff"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Data_DiD.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511860,
+          "persistentId": "",
+          "filename": "Data_DiD.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 76963,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dab25-98463818a0c2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d213b4bc9d184f61ac269d7539006ab75729201b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD_AnimalWelfare.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511886,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD_AnimalWelfare.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dd62b-a6403fde880e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b7d7f73366b0c2c550e398e76d661a668b063aeb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511885,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dd005-c5d9fa17515f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4ba6a8a9cde993eb9cba68e808f549b760a602e4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD_Environment.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511887,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD_Environment.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dd736-36c8c6e66a81",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4de43cc3e589a1f32e730256e2de66579a29c0c5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD_Health.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511888,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD_Health.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dd821-902b7846ef72",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5e984d3bcf3c3694af09438491a52c5e5df94d05"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD_HeavyMeatEatersOnly.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511889,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD_HeavyMeatEatersOnly.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 12437,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dd907-bdc36c524c3e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f5e4cea93b6de278b1e0c61a07c7f38c57cf4d15"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD_WithoutCarcin.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511891,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD_WithoutCarcin.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1ddaef-b5d7ffcea93b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "65e735bb19a03c714217af8516fad4ba3d399385"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD_WithoutCO2.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511890,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD_WithoutCO2.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dda00-b1398492ccaa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e0983c9f617be4945eea54ad7164d2b2f21c789c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD_WithoutEgg.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511892,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD_WithoutEgg.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1ddbe3-a7c2bc44cc5a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5084e4da74f8f9574d9cdbc1b681d9d0f0fd6c5b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD_WithoutHealth.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511893,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD_WithoutHealth.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1de4e4-909dd88b917f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3a41b034f2c4e5ba39d6ff9962e012637ceedb50"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD_WithoutMilk.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511894,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD_WithoutMilk.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1de5ef-f90d546dae22",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "21be91e7a745a92d44908787262bf2dbf91a2460"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ABD_WithoutSoy.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511895,
+          "persistentId": "",
+          "filename": "dataForMLE_ABD_WithoutSoy.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1de741-1f01c97308d8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "53240e71cd33ab4ad306fd7a4bf0c8574bf93e04"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Alcohol.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511896,
+          "persistentId": "",
+          "filename": "dataForMLE_Alcohol.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 24312,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1de85a-058f7006db0a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "21c6ee3703406e1906f94484e03a2e2e88f0a70c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Alcohol_heavyDrinkers.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511903,
+          "persistentId": "",
+          "filename": "dataForMLE_Alcohol_heavyDrinkers.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 3694,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1df79a-656683cfcb5d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8da4a012ef367fb2b2a1039a95d8bca93767a841"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Alcohol_WithoutAge.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511897,
+          "persistentId": "",
+          "filename": "dataForMLE_Alcohol_WithoutAge.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1de98f-f5949ecda16a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "418c990664c11c10de5539f73b62de56c185e93e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Alcohol_WithoutCarcin.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511898,
+          "persistentId": "",
+          "filename": "dataForMLE_Alcohol_WithoutCarcin.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1deace-0c2ecb23855e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e2564d1c8b71c8336aeab9c4c08250563a5ee4f8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Alcohol_WithoutDepend.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511899,
+          "persistentId": "",
+          "filename": "dataForMLE_Alcohol_WithoutDepend.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1debd5-d1a3b450b212",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dfa4eb898d91ff28c1c23c3ce42912d6c3078bd0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Alcohol_WithoutEarn.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511900,
+          "persistentId": "",
+          "filename": "dataForMLE_Alcohol_WithoutEarn.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1ded00-d2950bb81431",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8829152ae79c97ee865180d09ceeadfff6d66c82"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Alcohol_WithoutHeart.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511901,
+          "persistentId": "",
+          "filename": "dataForMLE_Alcohol_WithoutHeart.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1df583-c45b52b474d4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3068710bbeb724d5aa4041e7d16593a73f6b5d73"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Alcohol_WithoutTraffic.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511902,
+          "persistentId": "",
+          "filename": "dataForMLE_Alcohol_WithoutTraffic.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1df68b-5652d0bb0062",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f2033549e48563c214fc60225ec271fe22551ac2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Alochol_ThreeFirstQuestions.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511904,
+          "persistentId": "",
+          "filename": "dataForMLE_Alochol_ThreeFirstQuestions.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1df89a-7f7456339013",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "97af12fe0e959b76a4f7469dada298e4c369da05"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Immigration.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511905,
+          "persistentId": "",
+          "filename": "dataForMLE_Immigration.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1df99b-9efdeb14617b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4b5c2b33ccfd518d6223a3c1006ff62ece50536e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Immigration_ExtremeRightOnly.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511906,
+          "persistentId": "",
+          "filename": "dataForMLE_Immigration_ExtremeRightOnly.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 4181,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dfa91-ad7158b9c785",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b699eefa767284d9b7806d45d4fffcc973227bc4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Immigration_ThreeFirstQuestions.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511907,
+          "persistentId": "",
+          "filename": "dataForMLE_Immigration_ThreeFirstQuestions.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dfbad-dcdd578476f8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "da96e17d36e0448ed4ab518744c488489ef5b67b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Immigration_WithoutAsylum.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511908,
+          "persistentId": "",
+          "filename": "dataForMLE_Immigration_WithoutAsylum.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dfccf-6799fc7f514d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "df65ce599248a203d380e01935e6ea3fb8d90b22"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Immigration_WithoutBaby.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511909,
+          "persistentId": "",
+          "filename": "dataForMLE_Immigration_WithoutBaby.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dfdde-6ab4335c6e1d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "867768edb40f896efa2eb2e12987e1b88896c966"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Immigration_WithoutConstruct.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511910,
+          "persistentId": "",
+          "filename": "dataForMLE_Immigration_WithoutConstruct.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e088c-5bd7e73dc99e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "59bb88d829d644449804701f719ea94c871236dd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Immigration_WithoutJob.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511911,
+          "persistentId": "",
+          "filename": "dataForMLE_Immigration_WithoutJob.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e09bb-5836be98ea46",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "35a69054510f68fc91be7679c3d9791c5eba5d67"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Immigration_WithoutMoney.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511913,
+          "persistentId": "",
+          "filename": "dataForMLE_Immigration_WithoutMoney.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e0ad3-789ca4af2b9c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "96f886863f0a84e8c732d25f823cbacfbaf84073"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_Immigration_WithoutVisa.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511914,
+          "persistentId": "",
+          "filename": "dataForMLE_Immigration_WithoutVisa.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e0c36-2b135e2f4249",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "10bf3660d36e2ad23b6806efb98a02d445b1634d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "dataForMLE_ThreeFirstQuestions.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511915,
+          "persistentId": "",
+          "filename": "dataForMLE_ThreeFirstQuestions.dta",
+          "contentType": "application/x-stata",
+          "friendlyType": "Stata Binary",
+          "filesize": 22253,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e0d6c-154d733ecd41",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3293ff85ab37d3628f4af89bc7bcc7760807eb22"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Data_forResponseTime.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511865,
+          "persistentId": "",
+          "filename": "Data_forResponseTime.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 242195,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1db16a-1c22eb4d8d7a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5890a44251e6d2824a32f9284cff7f1c1427679d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Data_Immigration.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511861,
+          "persistentId": "",
+          "filename": "Data_Immigration.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 1694818,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dac38-9d5a48609748",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "886409f535760923d3f0861fcdafa6672db33d3e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Data_InfoABD.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511862,
+          "persistentId": "",
+          "filename": "Data_InfoABD.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 161767,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dad98-89e0438058af",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b7fc76a57a2f0d71bf3e69d2507e6c1f3c78e90f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Data_InfoAlcohol.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511863,
+          "persistentId": "",
+          "filename": "Data_InfoAlcohol.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 163830,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dae7d-f90065ef9a97",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4cb8630823d3bf8985c7dfc38a54da09cb859c6d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Data_InfoImmigration.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511864,
+          "persistentId": "",
+          "filename": "Data_InfoImmigration.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 160753,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1db090-cf1cac94df3e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "92b7fd3f95e43ea07fd4c20b2b78257c9f7889ab"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[DiD] InfoImpact.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511871,
+          "persistentId": "",
+          "filename": "[DiD] InfoImpact.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 225,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dba81-8de6f577dd1d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a33d1018b6d9e91120756045a639d8749f6a1b9b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[HeavyDrinkers] Results.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511872,
+          "persistentId": "",
+          "filename": "[HeavyDrinkers] Results.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 105,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dbba1-f7cbc46929f0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6f39bd697d712ce3882c61c7442088e044b5f61c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[Immigration] Results.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511873,
+          "persistentId": "",
+          "filename": "[Immigration] Results.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 3196,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dbc78-1fa91ab71d45",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "75ca92ff89fb4cdc3ec0d11c5138595361706864"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[Impact] Results.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511874,
+          "persistentId": "",
+          "filename": "[Impact] Results.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 762,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dbd5d-569609cef148",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bb47311cd0963be6dd08485b3293702cabd6955e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[InfoABD] Results.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511875,
+          "persistentId": "",
+          "filename": "[InfoABD] Results.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1757,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dc1d4-334023861058",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "975939c4e3b32497302ef40f3f544dd87ada2e69"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[InfoAlcohol] Results.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511876,
+          "persistentId": "",
+          "filename": "[InfoAlcohol] Results.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1736,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dc2c1-1bde7296e41a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2bc02b2428412dc5ba7e1ebdb4255dcbb559ebb9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[InfoImmigration] Results.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511877,
+          "persistentId": "",
+          "filename": "[InfoImmigration] Results.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1777,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dc39c-e0159ef6b864",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b252f5852a0b90fbdc2e7e28c4ba3b4c055ae32f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "MLE on all Sample.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/R Scripts",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511883,
+          "persistentId": "",
+          "filename": "MLE on all Sample.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 4809,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dce13-6c87cecd29a9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5847c1f4d030ec4cf19f4c212770592446b78ad5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Pilot_ABD.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511866,
+          "persistentId": "",
+          "filename": "Pilot_ABD.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 82005,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1db249-c9131f94a656",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "30d2292c347bf2b62ffd035678c723a8dfe9f24e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[Pilot] Results.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511878,
+          "persistentId": "",
+          "filename": "[Pilot] Results.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 244,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dc479-5cda1357d4f0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "12279c8472efd88cb3491e52259b13b356a51ebf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Placebo_Data.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511867,
+          "persistentId": "",
+          "filename": "Placebo_Data.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 103990,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1db4c7-1a79be0d78b7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f796b7890bc293dccaec4673c408a3026a10c67f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[Placebo] Results.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511879,
+          "persistentId": "",
+          "filename": "[Placebo] Results.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 220,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dc584-45120769414d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c55f0d01374a5585f6fbf405c3dfaf22166aa57f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "README.md",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511856,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 1897,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1da717-448bd998f890",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8bf32a7dade71527eb9bcdd6f2c10848a17b9e25"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Regression impact.xlsx",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/Data",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511868,
+          "persistentId": "",
+          "filename": "Regression impact.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 40801,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1db5a3-548b8c9b4b55",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5a537d4d398d62a246729f852f7819db6c6b5b03"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "resultsBootstrapABD_10000.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR/BootstrapResults",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511916,
+          "persistentId": "",
+          "filename": "resultsBootstrapABD_10000.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2521313,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e0ec5-2eb84b9edcfb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c216fa24c924002e2b2f1f662eacaae8f3726bd1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "resultsBootstrapAlcohol_10000.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR/BootstrapResults",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511917,
+          "persistentId": "",
+          "filename": "resultsBootstrapAlcohol_10000.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2285140,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e114e-d96e0bebcd48",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "61db8234ee858d2100a446e359f74efc8aa5b58f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "resultsBootstrapextremeRight_10000.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR/BootstrapResults",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511919,
+          "persistentId": "",
+          "filename": "resultsBootstrapextremeRight_10000.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2392515,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e208f-94c0e2285e9a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "911a27501165b47c47d782f3838d6b97f1864edc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "resultsBootstrapheavyDrinkers_10000.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR/BootstrapResults",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511920,
+          "persistentId": "",
+          "filename": "resultsBootstrapheavyDrinkers_10000.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2397179,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e226a-890bcb8a5e35",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f5acb3f680b00310585ce64f82fbf37761b888d2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "resultsBootstrapheavyMeatEaters_10000.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR/BootstrapResults",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511921,
+          "persistentId": "",
+          "filename": "resultsBootstrapheavyMeatEaters_10000.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2509321,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e242f-a81842f4fc2d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d1074a974a06a647bae3dfbf67d7b3537f4904fa"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "resultsBootstrapImmigration_10000.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/dataForR/BootstrapResults",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511918,
+          "persistentId": "",
+          "filename": "resultsBootstrapImmigration_10000.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2366202,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1e1304-cb6558ce5b98",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b57157a3c143f0f26b2639bd6b36d64130f01643"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Robustness checks MLE.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/R Scripts",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511884,
+          "persistentId": "",
+          "filename": "Robustness checks MLE.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 5920,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dcf12-25df44ea482a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fcb07de091879b108a21e4259809303e25091f21"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "[Robust] Response Time.do",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19236495/DoPeopleWantToBeInformed-main.zip/DoPeopleWantToBeInformed-main/DoFiles",
+        "version": 1,
+        "datasetVersionId": 31418,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 511880,
+          "persistentId": "",
+          "filename": "[Robust] Response Time.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 393,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cd1dcb17-c85de00dbd5a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3a35a73429791a70287060e101e080b7693b3ade"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Stoop, Jan; Espinosa, Romain, 2025, \"Do People Want To Be Informed_stata\", https://doi.org/10.34894/PXKESE, DataverseNL, V1"
+  }
+}

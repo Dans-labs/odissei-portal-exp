@@ -1,0 +1,344 @@
+{
+  "id": 600292,
+  "identifier": "AEVPCL",
+  "persistentUrl": "https://doi.org/10.34894/AEVPCL",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-01-26",
+  "storageIdentifier": "surf://10.34894/AEVPCL",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 33752,
+    "datasetId": 600292,
+    "datasetPersistentId": "doi:10.34894/AEVPCL",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/AEVPCL",
+    "versionNumber": 3,
+    "internalVersionNumber": 8,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-01-26T11:14:27Z",
+    "releaseTime": "2026-01-26T11:14:27Z",
+    "createTime": "2026-01-26T11:14:24Z",
+    "publicationDate": "2026-01-26",
+    "citationDate": "2026-01-26",
+    "license": {
+      "name": "CC-BY-SA-4.0",
+      "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Lippe brick-makers database: sample with geodata"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lucassen, Jan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0009-0009-6065-3947"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lourens, Piet"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Zijdeman, Richard"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<!DOCTYPE html>\n<html>\n<head>\n</head>\n<body>\nThis dataset is part of the <a href=\"https://datasets.iisg.amsterdam/dataverse/lippe\">Lippe brickmakers project</a>.\n<br>\n<br>\nThis is a small sample taken from the Lippe brickmakers database (<a href=\"https://hdl.handle.net/10622/ZKS9BA\">https://hdl.handle.net/10622/ZKS9BA</a>). \n<br>\n<br>\nThis sample was selected with the purpose to experiment with enriching place names with geo-data and transform them to linked open data. \n<br>\n<br>\nThe sample was chosen using the column \"signatur\", since we assumed that there will be a coherent way to interpret the results if we would use this column, since the archival documents within that arrangement were tied to a specific year. We randomly chose the first signature: 4698 (ARCH03497.1).\n<br>\n<br>\nFor the entries in this part of the database, we ran a reconciliation process of the \"Wohin\" (\"where to\") column using the <a href=\"https://whgazetteer.org/\">World Historical Gazetteer</a>.\n<br>\n<br>\nThe resulting data is trustworthy since the reconciliation process was done between the data expert and  the main researcher (Jan Lucassen). It resulted in 18 unique place names of which 11 matched to an existing place.\n<br>\n<br>\nWe can then observe, for this sample, where the Lippe brick makers went to work in the year 1802.\n<br>\n<br>\nMore information about the Lippische Ziegler project can be found in the <a href=\"https://datasets.iisg.amsterdam/dataverse/lippe\">Lippe brickmakers project dataverse</a>. The linked data version can be used for exploring and querying the data in this <a href=\"https://druid.datalegend.net/IISG/-/stories/ziegler\">\"data story\"</a> via the linked data publication platform.\n<br>\n<br>\n</body>\n</html>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-03-20"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "brickmaker"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q66132353"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ziegler"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HISCO"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://historyofwork.iisg.nl/detail_hiswi.php?know_id=10419&lang="
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lippe"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q6230"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Melgar-Estrada, Liliana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-03-20"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/AEVPCL"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "3.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:bd65c296-5109-45ff-bda6-40f122f3196b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-ec88de5f-515c-4840-b48f-ee8d805328e8"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "This file contains the same data as the file \"lippe_brickmakers_database_with_geodata_sample.tab\" but converted to triples in nt (N-triples) format.",
+        "label": "lippe_brickmakers_database_with_geodata_sample_as_lod.nt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33752,
+        "dataFile": {
+          "id": 600295,
+          "persistentId": "",
+          "filename": "lippe_brickmakers_database_with_geodata_sample_as_lod.nt",
+          "contentType": "application/n-triples",
+          "friendlyType": "application/n-triples",
+          "filesize": 7017,
+          "description": "This file contains the same data as the file \"lippe_brickmakers_database_with_geodata_sample.tab\" but converted to triples in nt (N-triples) format.",
+          "storageIdentifier": "surf://store:19bfa0315fb-4661bce5f537",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e47e7f88e4cf8c576ef63add71ddc117f19c13b4"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-26",
+          "publicationDate": "2026-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Sample taken from the file \"lippe-brickmakers-database\" (https://datasets.iisg.amsterdam/file.xhtml?fileId=14419&version=5.2) enriched with geodata. 107 rows, 40 columns.",
+        "label": "lippe_brickmakers_database_with_geodata_sample.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33752,
+        "dataFile": {
+          "id": 600296,
+          "persistentId": "",
+          "filename": "lippe_brickmakers_database_with_geodata_sample.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 43809,
+          "description": "Sample taken from the file \"lippe-brickmakers-database\" (https://datasets.iisg.amsterdam/file.xhtml?fileId=14419&version=5.2) enriched with geodata. 107 rows, 40 columns.",
+          "storageIdentifier": "surf://store:19bfa03172b-f036497ef50e",
+          "rootDataFileId": 600293,
+          "previousDataFileId": 600294,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7e5f444b99e55195e68c8ee397e90d6a10cc87fb"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-26",
+          "publicationDate": "2026-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Python script that transforms the csv file to .nt triples.",
+        "label": "lippe_csv_to_lod_geo.py",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33752,
+        "categories": [
+          "Code"
+        ],
+        "dataFile": {
+          "id": 600297,
+          "persistentId": "",
+          "filename": "lippe_csv_to_lod_geo.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 6063,
+          "description": "Python script that transforms the csv file to .nt triples.",
+          "categories": [
+            "Code"
+          ],
+          "storageIdentifier": "surf://store:19bfa031840-bc3c92beecb2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2af535dd08eba111ec3872adf3884e0491d11d33"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-26",
+          "publicationDate": "2026-01-26",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Lucassen, Jan; Lourens, Piet, 2026, \"Lippe brick-makers database: sample with geodata\", https://doi.org/10.34894/AEVPCL, DataverseNL, V3"
+  }
+}

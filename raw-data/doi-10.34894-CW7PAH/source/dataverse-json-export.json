@@ -1,0 +1,369 @@
+{
+  "id": 110483,
+  "identifier": "CW7PAH",
+  "persistentUrl": "https://doi.org/10.34894/CW7PAH",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-08-27",
+  "storageIdentifier": "surf://10.34894/CW7PAH",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3860,
+    "datasetId": 110483,
+    "datasetPersistentId": "doi:10.34894/CW7PAH",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/CW7PAH",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2021-08-25",
+    "productionDate": "2021-01-20",
+    "lastUpdateTime": "2021-08-27T10:34:43Z",
+    "releaseTime": "2021-08-27T10:34:43Z",
+    "createTime": "2021-08-19T13:33:34Z",
+    "publicationDate": "2021-08-27",
+    "citationDate": "2021-08-27",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "More than a million Android Apps with Two Privacy Scores"
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "https://cutt.ly/1WrIgXW"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mohsen, Fadi"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-3876-5781"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Center"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This data set contains meta data about more than a million third-party Android application that were collected from the Google Play store between 2017 and 2019. Two privacy scores were calculated for each application based on: permission requests, broadcast receivers, and user's privacy preferences. The scores also depend on other applications in the app's category. The scores were calculated based on two published formulas. The first fomulas was proposed by Mohsel et al. and published in TrustCom '18, \"Countering intrusiveness using new security-centric ranking algorithm built on top of elasticsearch\". The second formula was published in SPSM '16 Taylor, and Martinovic, \"SecuRank: Starving Permission-Hungry Apps Using Contextual Permission Analysis\"s"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Mathematical Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Android, third-party, privacy, score"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fadi Mohsen, Hamed Abed Alhaq, and Halil Bisgin. \"Security-Centric Ranking Algorithm and Two Privacy Scores To Mitigate Intrusive Apps\". Journal of Concurrency and Computation: Practice and Experience. Accepted on July 29, 2021."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1002/cpe.6571"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "In addition to the two privacy scores, the meta data for each app is also given. For example, the genre, the description, the number of downloads."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-01-20"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-08-25"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Mohsen, Fadi"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-08-19"
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2017-04-01"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2019-06-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "meta data for Third-party Android mobile applications"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/CW7PAH"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:0944a289-412b-4776-aaf0-2e39d52fa161"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-2a439541-51e8-4675-9d99-c68b333c34de"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "A google colab sheet that is given to help with exploring the data set. First, create a new folder on your Google drive, name it \"google-app-ranking\". Add this sheet to the folder. Create a sub-folder, name it: \"dataset\". Then, run the code cells inside the sheet one at a time.",
+        "label": "ReadDatasetTwoScores.ipynb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3860,
+        "dataFile": {
+          "id": 111458,
+          "persistentId": "",
+          "filename": "ReadDatasetTwoScores.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 12069,
+          "description": "A google colab sheet that is given to help with exploring the data set. First, create a new folder on your Google drive, name it \"google-app-ranking\". Add this sheet to the folder. Create a sub-folder, name it: \"dataset\". Then, run the code cells inside the sheet one at a time.",
+          "storageIdentifier": "surf://store:17b7cb7c155-219ea1ea821f",
+          "rootDataFileId": -1,
+          "md5": "b60e979ac9a28d344031c5db38077b6e",
+          "checksum": {
+            "type": "MD5",
+            "value": "b60e979ac9a28d344031c5db38077b6e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-08-25",
+          "publicationDate": "2021-08-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "The python version of the above Google colab sheet. ",
+        "label": "readdatasettwoscores.py",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3860,
+        "dataFile": {
+          "id": 111459,
+          "persistentId": "",
+          "filename": "readdatasettwoscores.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 425,
+          "description": "The python version of the above Google colab sheet. ",
+          "storageIdentifier": "surf://store:17b7cb7c1cb-35982e563230",
+          "rootDataFileId": -1,
+          "md5": "d5971156b777bb0f71d6f145d92f2010",
+          "checksum": {
+            "type": "MD5",
+            "value": "d5971156b777bb0f71d6f145d92f2010"
+          },
+          "tabularData": false,
+          "creationDate": "2021-08-25",
+          "publicationDate": "2021-08-27",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "This file contains the meta data about all apps and the two privacy scores: \"permission_2\" column is for the privacy score of Mohsen et al. and \"litscore\" is for the privacy score of Taylor and Martinovic.",
+        "label": "twoscorescontextual.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3860,
+        "dataFile": {
+          "id": 111460,
+          "persistentId": "",
+          "filename": "twoscorescontextual.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 449655596,
+          "description": "This file contains the meta data about all apps and the two privacy scores: \"permission_2\" column is for the privacy score of Mohsen et al. and \"litscore\" is for the privacy score of Taylor and Martinovic.",
+          "storageIdentifier": "surf://store:17b7cb7b8b7-8c995decea3d",
+          "rootDataFileId": -1,
+          "md5": "9f4c016b22187f61c7a2a411f1885f24",
+          "checksum": {
+            "type": "MD5",
+            "value": "9f4c016b22187f61c7a2a411f1885f24"
+          },
+          "tabularData": false,
+          "creationDate": "2021-08-25",
+          "publicationDate": "2021-08-27",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Mohsen, Fadi, 2021, \"More than a million Android Apps with Two Privacy Scores\", https://doi.org/10.34894/CW7PAH, DataverseNL, V1"
+  }
+}

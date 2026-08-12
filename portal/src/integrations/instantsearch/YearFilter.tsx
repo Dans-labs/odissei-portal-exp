@@ -1,6 +1,8 @@
 import { useMemo, useRef } from "react";
 import { useRefinementList } from "react-instantsearch";
 import { m } from "#/paraglide/messages";
+import { cn } from "#/utils/cn";
+import { gradient } from "#/utils/surfaces";
 
 const YEARLY_VIEW_THRESHOLD = 40; // spans wider than this collapse into decades
 
@@ -96,12 +98,13 @@ export function YearFilter({ attribute = "publication_year" }: { attribute?: str
               className="group relative h-full flex-1 cursor-pointer disabled:cursor-default"
             >
               <span
-                className={`
-                  absolute inset-x-0 bottom-0 rounded-t-[2px]
-                  transition-colors
-                  ${bucket.selected ? "bg-cyan-500" : "bg-zinc-200 group-hover:bg-zinc-300"}
-                  ${bucket.count === 0 ? "opacity-30" : ""}
-                `}
+                className={cn(
+                  `absolute inset-x-0 bottom-0 rounded-t-xs transition-colors`,
+                  bucket.selected
+                    ? gradient
+                    : "bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600",
+                  bucket.count === 0 ? "opacity-30" : "",
+                )}
                 style={{ height: `${heightPct}%` }}
               />
             </button>
@@ -109,7 +112,7 @@ export function YearFilter({ attribute = "publication_year" }: { attribute?: str
         })}
       </div>
 
-      <div className="mt-1.5 flex justify-between text-xs font-medium text-zinc-400">
+      <div className="mt-1.5 flex justify-between text-xs font-medium">
         <span>
           {buckets[0]?.year}
           {useDecades ? "s" : ""}
@@ -127,8 +130,8 @@ export function YearFilter({ attribute = "publication_year" }: { attribute?: str
               onClick={() => refine(String(y.year))}
               className="
                 inline-flex items-center gap-1 rounded-full
-                bg-cyan-50 px-2 py-0.5 text-xs font-medium text-cyan-700
-                transition hover:bg-cyan-100 cursor-pointer
+                bg-cyan-50 text-cyan-700 dark:bg-cyan-950 dark:text-cyan-500 px-2 py-0.5 text-xs font-medium 
+                transition hover:bg-cyan-100 dark:hover:bg-cyan-800 cursor-pointer
               "
             >
               {y.year}
@@ -138,7 +141,7 @@ export function YearFilter({ attribute = "publication_year" }: { attribute?: str
         </div>
       )}
 
-      <p className="mt-2 text-[11px] text-zinc-400">{m.yearFilterHint()}</p>
+      <p className="mt-2 text-[11px] text-gray-400">{m.yearFilterHint()}</p>
     </div>
   );
 }

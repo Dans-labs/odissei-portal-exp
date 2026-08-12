@@ -3,6 +3,8 @@
 // - Router example: https://github.com/TanStack/router/tree/main/examples/react/i18n-paraglide#switching-locale
 import { getLocale, locales, setLocale, type Locale } from "#/paraglide/runtime";
 import { m } from "#/paraglide/messages";
+import { cn } from "#/utils/cn";
+import { card } from "#/utils/surfaces";
 
 function NLFlag({ className }: { className?: string }) {
   return (
@@ -39,7 +41,7 @@ function GBFlag({ className }: { className?: string }) {
 function LocaleBadge({ locale, className }: { locale: string; className?: string }) {
   return (
     <span
-      className={`flex items-center justify-center rounded-full bg-zinc-200 text-[0.6rem] font-bold text-zinc-600 ${className ?? ""}`}
+      className={`flex items-center justify-center rounded-full bg-gray-200 text-[0.6rem] font-bold text-gray-600 ${className ?? ""}`}
       aria-hidden="true"
     >
       {locale.slice(0, 2).toUpperCase()}
@@ -59,11 +61,11 @@ export default function ParaglideLocaleSwitcher({ compact = false }: { compact?:
   return (
     <div className="inline-flex items-center gap-2 text-inherit" aria-label={m.languageLabel()}>
       <div
-        className={`
-          inline-flex items-center gap-0.5
-          rounded-full border border-zinc-200/80 bg-white/80 backdrop-blur
-          shadow-sm ${compact ? "p-0.5" : "p-1"}
-        `}
+        className={cn(
+          card,
+          `inline-flex items-center gap-0.5
+          ${compact ? "p-0.5" : "p-1"}`,
+        )}
         role="group"
       >
         {locales.map((locale) => {
@@ -88,7 +90,7 @@ export default function ParaglideLocaleSwitcher({ compact = false }: { compact?:
                 ${
                   isActive
                     ? "bg-linear-to-r from-cyan-500 to-blue-600 text-white shadow-sm"
-                    : "text-zinc-500 hover:text-zinc-900"
+                    : "text-gray-500 hover:text-gray-900"
                 }
               `}
             >

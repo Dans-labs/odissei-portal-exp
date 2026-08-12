@@ -1,0 +1,4335 @@
+{
+  "id": 556767,
+  "identifier": "QHCU7W",
+  "persistentUrl": "https://doi.org/10.34894/QHCU7W",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-11-26",
+  "storageIdentifier": "surf://10.34894/QHCU7W",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31928,
+    "datasetId": 556767,
+    "datasetPersistentId": "doi:10.34894/QHCU7W",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/QHCU7W",
+    "versionNumber": 1,
+    "internalVersionNumber": 18,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-11-26T13:56:55Z",
+    "releaseTime": "2025-11-26T13:56:55Z",
+    "createTime": "2025-11-12T12:06:00Z",
+    "publicationDate": "2025-11-26",
+    "citationDate": "2025-11-26",
+    "license": {
+      "name": "CC-BY-NC-4.0",
+      "uri": "http://creativecommons.org/licenses/by-nc/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
+    },
+    "termsOfAccess": "<p> Access to the restricted files is granted only under the conditions below. </p>\n<p><b> By requesting access, users confirm that they have read and agreed to these conditions.</b></p>\n<p>• Access requests should be submitted with proof of affiliation to a research or educational institution (e.g., the request is submitted with the user's institutional email address). These requests may be approved directly. Other requests will be reviewed on a case-by-case basis, i.e., they will on first instance be rejected and the user will be contacted for further information. </p>\n<p> • The data must be used exclusively for non-commercial academic research or innovation purposes.</p>\n<p> • Any form of unethical, harmful, or exploitative use of the data (including but not limited to inappropriate redistribution, misuse outside scholarly contexts, or any attempt at re-identification) is strictly prohibited. </p>\n<p> • The data must not be shared with others. Access is granted for individual use only.</p>\n<p> • Users agree to take full responsibility for protecting the dignity and rights of the individuals represented in the data.</p>\n<p> • Use of the data must comply with relevant data protection laws and institutional ethical guidelines.</p>\n",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Data and code for the paper: Prefrontal cortex responses to conflicting information, Biro and Collin"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Collin, Silvy"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/04b8v1s79",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Tilburg University",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-9257-8664"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "TiU Dataverse Admins"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Collin, Silvy"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>This is the code and data from the article: Prefrontal Cortex Responses to Conflicting Information. Human brain mapping. (See also the related publication field).</p>\n\n<p>/processed_fnirs: \n\nper_ch_avg_d2.csv is the pre-processed fNIRS data separately for control and for switch trials. per_ch_avg_d2_file2.csv is the pre-processed fNIRS data when split across schema-consistent, schema-violating and schema-updating conditions. per_ch_avg_d1.csv is the pre-processed day 1 fNIRS data.</p>\n\n<p>/code:\n\nfNIRS_Statistics.R has the code for all models and all plots.</p>\n\n<p>/code/preprocessingCode:\n\nContains the Jupyter notebooks used to preprocess the fNIRS data of day 1 and day 2 using the MNE package in Python. It uses functions_d1.py and functions_d2.py. </p>\n\n<p>/raw_fnirs:\n\nRaw fnirs output (data) from g.tec.</p>\n\n<p>/eprime_data:\n\nData output from eprime, used to determine the stimulus order for each participant (which was randomized across participants).</p>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-11-12"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences",
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "fNIRS"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "episodic memory"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "schema"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "violating information"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "IsSupplementTo"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bíró, P., & Collin, S. H. P. (2025). Prefrontal Cortex Responses to Conflicting Information. Human brain mapping, 46(17), e70418."
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1002/hbm.70418"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Collin, Silvy"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-11-12"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "fNIRS data",
+              "behavioral data"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/QHCU7W"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:4e808163-7f7a-4982-948b-3efe6eaf98ed"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-780af98e-1f44-4ea6-9995-6c520b20f9b6"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Episodic_memory_experiment_day1_subject01.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556800,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject01.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184438,
+          "storageIdentifier": "surf://store:19a77bd7b4d-185953cde9c5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2796b10656168122e2b0b2d4df1fd4ced37c6c7c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject02.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556854,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject02.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184446,
+          "storageIdentifier": "surf://store:19a77bd7b10-bd4789bd7c0e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "50906403f4c7c562c61a48e17e3e6b794df40102"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject03.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556879,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject03.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184352,
+          "storageIdentifier": "surf://store:19a77bd7b18-40c4e38d9655",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ab3d4bd761856de36275b5db20bbd0a53609360a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject04.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556915,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject04.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184444,
+          "storageIdentifier": "surf://store:19a77bd7a7c-4118e34f9084",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4a64ff9e459a4c1eb7b32b8b0b239e2552f98d72"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject05.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556819,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject05.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184446,
+          "storageIdentifier": "surf://store:19a77bd7a94-c48ab35b3387",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "aecfe094d5b35fd3543da03425accf4e48c908fc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject06.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556912,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject06.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184446,
+          "storageIdentifier": "surf://store:19a77bd7ad5-4b24923876b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d6f3f27345afcd74c6ccc8e94613307b1fa39818"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject07.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556786,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject07.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184354,
+          "storageIdentifier": "surf://store:19a77bd7acd-c715246a0992",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "19c238415e84016c56c20ae0ed4b34280fd11152"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject08.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556801,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject08.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184450,
+          "storageIdentifier": "surf://store:19a77bd7a27-7cb73e400d3b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "56566566d10f239ec77756e817a78b68c56a49bb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject09.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556815,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject09.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184444,
+          "storageIdentifier": "surf://store:19a77bd7a2e-04a6a91b4097",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "383777269c1d733fe19615c4a2897aef7ac5446d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject10.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556904,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject10.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184448,
+          "storageIdentifier": "surf://store:19a77bd7a84-062e31eca06b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1b6c6b3dc543a8558b8c49b29d48519c909954a1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject11.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556872,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject11.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184362,
+          "storageIdentifier": "surf://store:19a77bd7a8c-5d691138db6f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "17a781ddc70f0f5dbd5573476d0da9aa32661b67"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject12.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556833,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject12.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184438,
+          "storageIdentifier": "surf://store:19a77bd7add-6c278c7bac1e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "045dd193785882604700c2d89560bb164edc4bae"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject13.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556817,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject13.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184440,
+          "storageIdentifier": "surf://store:19a77bd7ac4-f535d4541ec4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5924644c79cd2770b4354890a1a31861a7c3cb47"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject14.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556921,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject14.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184448,
+          "storageIdentifier": "surf://store:19a77bd7b6d-628a6bc9f775",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bce6d5b713a594f3aad3bbd02241f5b6b9ec2adc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject15.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556789,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject15.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184368,
+          "storageIdentifier": "surf://store:19a77bd7b55-5c6e62b9f83c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "971e51b1ee6ace8c208a41e4aca3889656e0f085"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject16.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556835,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject16.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184448,
+          "storageIdentifier": "surf://store:19a77bd7b08-267e23868eab",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a2514a66b42d0c06a225089dcdb6e656a103606f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject17.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556782,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject17.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184444,
+          "storageIdentifier": "surf://store:19a77bd7b20-2325858f0e3d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e5746b7bcd4ff0055c010f584fa2beb8af20ee0d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject18.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556853,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject18.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184444,
+          "storageIdentifier": "surf://store:19a77bd7951-c056e287ce38",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "75fcb66c7d61e2a36742415b13cf5892acba4e3b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject19.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556788,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject19.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184440,
+          "storageIdentifier": "surf://store:19a77bd7920-8ae185160c1d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e5df0ef42fc10afef4e938ae912eb86a739cac5a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject20.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556881,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject20.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184446,
+          "storageIdentifier": "surf://store:19a77bd7a16-81a7c2a24d80",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a75a6d05d2b226976fe1dc5d8182be9dced1d8c0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject21.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556925,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject21.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184358,
+          "storageIdentifier": "surf://store:19a77bd7a3e-27748d551309",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "97eb4b9a50601069906275520992d46ed28fb883"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject22.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556923,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject22.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184436,
+          "storageIdentifier": "surf://store:19a77bd79dc-0f8a8d9cd44e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "56707f551dc3af943f20c8697272696156f8465d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject23.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556924,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject23.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184436,
+          "storageIdentifier": "surf://store:19a77bd79d2-0d5e597016f3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "85fb1c3c38d2b313a1de37ad21985445e37c07d7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject24.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556834,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject24.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184358,
+          "storageIdentifier": "surf://store:19a77bd7948-77e2408d74fd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ae7249994e819dede6ac48fc4d37df354a73c9ce"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject25.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556845,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject25.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184438,
+          "storageIdentifier": "surf://store:19a77bd792b-e0ddc0679084",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "de8269ad119b1c121a0b54d970d864f924174950"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject26.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556828,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject26.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184436,
+          "storageIdentifier": "surf://store:19a77bd798d-ee316b8c027b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1b4ab6bfa6018416d0e3a81aafc61f4174475ca9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject27.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556846,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject27.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184366,
+          "storageIdentifier": "surf://store:19a77bd7995-6313bdda975d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fc0af4ef086ac9e4a4bb206199dbf3b29b514217"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject28.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556855,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject28.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184444,
+          "storageIdentifier": "surf://store:19a77bd7b65-72788608a4de",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9a5e0dc33b2af671537c30ecf74ea635f6023c09"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject29.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556917,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject29.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184450,
+          "storageIdentifier": "surf://store:19a77bd7b5d-9eb7eaa1e11f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2eaca45d6c04d46518633fe0d22af9389a9882a3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject30.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556774,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject30.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184362,
+          "storageIdentifier": "surf://store:19a77bd793f-7e55e8b7f980",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2942704a7ee4b51180018923eea5f7bc40fe90e0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject31.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556865,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject31.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184442,
+          "storageIdentifier": "surf://store:19a77bd7935-49acceee4e5d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13ed8377b7fd594b66d074d8b5c688f3a21a109c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject32.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556911,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject32.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184436,
+          "storageIdentifier": "surf://store:19a77bd7984-1976acd2d216",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4a4d3679f47abc8664d311b39288a23fdf5e928d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject33.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556867,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject33.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184446,
+          "storageIdentifier": "surf://store:19a77bd799e-2b92cecc9758",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f75c4ab07886c32574c22548537c1ff1dd2371ff"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject34.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556795,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject34.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184366,
+          "storageIdentifier": "surf://store:19a77bd7a1f-88eb3d934c8c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "244f5d4395482d02eb5f7ca803f5433292c87829"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject35.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556918,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject35.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184442,
+          "storageIdentifier": "surf://store:19a77bd7a36-2be9a2ac99b3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bac90e024728a3437ecb5484793fff9c80f731eb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject36.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556873,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject36.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184440,
+          "storageIdentifier": "surf://store:19a77bd79e4-7f3fca18c078",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "09b16f1a44445c2f7d455f956703822858c9062a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject37.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556887,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject37.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184448,
+          "storageIdentifier": "surf://store:19a77bd79c9-44f490819ef8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ef122c51302d6cec48a4962ff7224ad67af02d2c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day1_subject38.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556827,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day1_subject38.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 184362,
+          "storageIdentifier": "surf://store:19a77bd7a74-54f6d4e45bc7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2c952a3baf500207781e877f0ded8ebcea261cf0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject00.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556869,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject00.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165692,
+          "storageIdentifier": "surf://store:19a77bd7aa5-d656bee267c2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4e03c78adb0d962bd1d77a79e58c18ab12d622d4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject01.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556871,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject01.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165616,
+          "storageIdentifier": "surf://store:19a77bd7a64-10a709a02069",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8ddde98516b3e8a48c70f4e7170839f097260bd4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject02.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556891,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject02.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165694,
+          "storageIdentifier": "surf://store:19a77bd7abc-84cc89fb20f0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "662c5c2f464fd5faa537a5ddfbd6108888817bdd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject03.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556875,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject03.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165696,
+          "storageIdentifier": "surf://store:19a77bd7ae7-8a4b7a75a873",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "45f155bb6d54d1d4dbf82cb7c5426d3b075e1e5b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject04.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556837,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject04.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165694,
+          "storageIdentifier": "surf://store:19a77bd7b36-0b442028a2a2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2b4eb9551c3d05df2a5db8ef57033e3f9e1d3e06"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject05.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556922,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject05.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165698,
+          "storageIdentifier": "surf://store:19a77bd7b75-607e9806570a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "69d95c696f3dbf51d23a5d4afaf0cd539bcd17d3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject06.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556823,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject06.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165694,
+          "storageIdentifier": "surf://store:19a77bd7b27-6e45e2390ae7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b4bff430ca374f40e72f703ede0001d74c8d2d48"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject07.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556797,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject07.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165612,
+          "storageIdentifier": "surf://store:19a77bd7aff-9c868743ec92",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d594584b5cc105020a40c19020197c317b070a5d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject08.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556899,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject08.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165700,
+          "storageIdentifier": "surf://store:19a77bd7905-205b3e1b809f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d6390c1d37982691963edf2426c07fd566a24ef7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject09.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556861,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject09.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165698,
+          "storageIdentifier": "surf://store:19a77bd796b-160d5f82ab19",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "146d621ff856760db0dfa18986e8f45e4ba8b1e1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject10.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556772,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject10.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 159506,
+          "storageIdentifier": "surf://store:19a77bd7b3e-3e116a2c6cc2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "96f746e9c7a2ffcb3b344d75fc744acfe566169a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject12.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556893,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject12.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165694,
+          "storageIdentifier": "surf://store:19a77bd7b2f-facf3a89cdcc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d54d7d5407977a9f4025dad5329e1ae577e92866"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject13.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556779,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject13.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165698,
+          "storageIdentifier": "surf://store:19a77bd7af7-fbfd5afc0fdf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "776a43db50dd5477f9825549cc3e3d2e99175b87"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject14.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556852,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject14.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165606,
+          "storageIdentifier": "surf://store:19a77bd7a9d-d57c713667b1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1e4a67e4c022231f5ca206fb20e8eaae06ffac45"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject15.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556810,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject15.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165696,
+          "storageIdentifier": "surf://store:19a77bd7a6c-00ed7a0a5524",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "73ce15b1a947223b7004530ae238d336100bd4ce"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject16.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556781,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject16.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165692,
+          "storageIdentifier": "surf://store:19a77bd7ab4-f65218be03c0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "97115bada92d538fc9d1f9a868458e0387915c32"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject17.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556919,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject17.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165696,
+          "storageIdentifier": "surf://store:19a77bd7aef-01b775b0737e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8234315e3e6c43fe9f3729c8ef28c1a8f7e0b3b3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject18.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556839,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject18.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165696,
+          "storageIdentifier": "surf://store:19a77bd7a46-a3052ee90cf3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7f971e911caa2369fa9906d047a05f3f7ccee6db"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject19.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556844,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject19.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165614,
+          "storageIdentifier": "surf://store:19a77bd7a0e-374a4e4a9139",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a7311ba5f0d1178bf8b83d04992a5f7657cb394a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject20.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556783,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject20.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165692,
+          "storageIdentifier": "surf://store:19a77bd790e-868b2925724d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "411b2d03d1f08743a071144cf5f2f54423fd2eee"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject21.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556798,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject21.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165690,
+          "storageIdentifier": "surf://store:19a77bd7962-b6485e7474fc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b33fe484a88bb77c7a395b9a74c8ed4a3eae3bff"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject22.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556770,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject22.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165688,
+          "storageIdentifier": "surf://store:19a77bd79a6-9b07bfefaa1d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2496a1a4b63d78485a59f1acd91bc665b85b3692"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject23.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556870,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject23.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165696,
+          "storageIdentifier": "surf://store:19a77bd797c-1e58d5ce30d5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "40280191c447cee2f6e1175b2e40299ab6e838aa"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject24.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556928,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject24.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165614,
+          "storageIdentifier": "surf://store:19a77bd7a55-8a43ff474aa0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e2bf8a313b4b8425d4d0205331d1e5f74ddf3062"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject25.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556907,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject25.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165690,
+          "storageIdentifier": "surf://store:19a77bd79fd-a3cff4535a63",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c38101ef7e8509ad44a14fe8ea2cf6e9093d74e2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject26.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556862,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject26.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165688,
+          "storageIdentifier": "surf://store:19a77bd79c1-ace2611824a2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "35575d76a858793490bdcb0e6768b3026b359b8a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject27.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556864,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject27.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165610,
+          "storageIdentifier": "surf://store:19a77bd79ed-3735e9d8342d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "46c136fa32733b626cfb09e5c0461a930d5f99e2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject28.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556791,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject28.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165692,
+          "storageIdentifier": "surf://store:19a77bd7aac-f3ba9d8a6bef",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f76186396a5f4fe71277ab53757e75ceba64cca4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject29.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556914,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject29.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165696,
+          "storageIdentifier": "surf://store:19a77bd7a5d-ff55e6b0e9c7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3432d51f649b9b5b1451f591a68d1200eb8449bc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject30.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556903,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject30.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165606,
+          "storageIdentifier": "surf://store:19a77bd7a4e-d8d2de677adf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f6ebceb2725016c99c12fbf2c5b4fc46ca4c4c15"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject31.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556856,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject31.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165690,
+          "storageIdentifier": "surf://store:19a77bd7a06-8e6a38c058f8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1517b1d2ebeef24ef134a70373fe7b32233bb768"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject32.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556902,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject32.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165684,
+          "storageIdentifier": "surf://store:19a77bd79b9-eee8b73e1312",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3f976929503897f144d9029922b481b1e0ddc392"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject33.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556851,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject33.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165686,
+          "storageIdentifier": "surf://store:19a77bd79f5-f296369fb83b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ad3ad109c6b2b951489ea863dd97453ba0bd001f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject34.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556905,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject34.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165618,
+          "storageIdentifier": "surf://store:19a77bd7917-089f7fa39e98",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5596bed2a1ed0b3e07f686e1fa286c02fe5cb0a1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject35.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556778,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject35.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165692,
+          "storageIdentifier": "surf://store:19a77bd795a-8e7d1ff6d6c7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8d1454fcba1b2899a934e0bdfdc0395a64e09417"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject36.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556895,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject36.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165700,
+          "storageIdentifier": "surf://store:19a77bd79af-c490b6bc3554",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c22703f4222e4c5eeb8198db0e2bae004cad884d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject37.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556814,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject37.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165692,
+          "storageIdentifier": "surf://store:19a77bd7973-a39f0eaa5cc0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6d85d6a609201e2ed7d720d3ce0792b372f3cdb4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Episodic_memory_experiment_day2_subject38.txt",
+        "restricted": false,
+        "directoryLabel": "dataverse/eprime_data",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556849,
+          "persistentId": "",
+          "filename": "Episodic_memory_experiment_day2_subject38.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 165614,
+          "storageIdentifier": "surf://store:19a77bd7b46-848b77ea02d2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "73bbe92d7c14268009f578e32b0bc76ec7e02043"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "fNIRS_preprocessing_d1.ipynb",
+        "restricted": false,
+        "directoryLabel": "dataverse/code/preprocessingCode",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556882,
+          "persistentId": "",
+          "filename": "fNIRS_preprocessing_d1.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 1026711,
+          "storageIdentifier": "surf://store:19a77c04969-e134519fb439",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6de0daabef544652d3496e94674467cfb244b885"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "fNIRS_preprocessing_d2.ipynb",
+        "restricted": false,
+        "directoryLabel": "dataverse/code/preprocessingCode",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556877,
+          "persistentId": "",
+          "filename": "fNIRS_preprocessing_d2.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 1210584,
+          "storageIdentifier": "surf://store:19a77c04936-b2a45423eda0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b11a6e6653ed101bdd2bd4bee0f113defe21b098"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "fNIRS_Statistics.R",
+        "restricted": false,
+        "directoryLabel": "dataverse/code",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556794,
+          "persistentId": "",
+          "filename": "fNIRS_Statistics.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 53918,
+          "storageIdentifier": "surf://store:19a77bd7b8d-7a226d4660a2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cd389ec256fa92712856b7a75f52932da8ef5dbd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "functions_d1.py",
+        "restricted": false,
+        "directoryLabel": "dataverse/code",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556824,
+          "persistentId": "",
+          "filename": "functions_d1.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 29798,
+          "storageIdentifier": "surf://store:19a77bd7b7d-75ff12c93cb5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7503edf63c19f20b8f686f9c39ea9b28c1c70338"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "functions_d2.py",
+        "restricted": false,
+        "directoryLabel": "dataverse/code",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556885,
+          "persistentId": "",
+          "filename": "functions_d2.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 52805,
+          "storageIdentifier": "surf://store:19a77bd7b85-8c79fdc70a53",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "58bcbb45c9d730f18af13cee36c5beb671a970ec"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject01.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556878,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject01.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 250946848,
+          "storageIdentifier": "surf://store:19a77bfecca-31f940ada471",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b600126b06c78e58139bbea1cda2ee40fda9ad77"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject02.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556820,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject02.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 240963400,
+          "storageIdentifier": "surf://store:19a77bfa98d-0190df4aa11e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3449580b5bc1b3d32bfaed1bbe18cdb3b82925e0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject03.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556906,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject03.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236847952,
+          "storageIdentifier": "surf://store:19a77bfd93f-bde5fb049d6d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "27ed73d2a9bd5cbe28e5b413cab32f76bcd824a2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject04.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556768,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject04.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236391552,
+          "storageIdentifier": "surf://store:19a77befba7-2079ce276585",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0a4a606d92762d23e3eadad4f8932e5a47444b32"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject05.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556866,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject05.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236000352,
+          "storageIdentifier": "surf://store:19a77bf4955-baede72c52e3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9314ae4efb35ea368ec1f7baab867f0d8fecfdef"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject06.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556894,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject06.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 243769616,
+          "storageIdentifier": "surf://store:19a77bf8c42-5cd099cc26ac",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0f1d9620612f65a30334208576eb3ad1885a3211"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject07.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556808,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject07.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236782752,
+          "storageIdentifier": "surf://store:19a77bf5c54-d585aaef7eb2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6e7031f755e3d3e2e783ae81731e8b2cae53e3a6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject08.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556913,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject08.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 240637400,
+          "storageIdentifier": "surf://store:19a77be9396-0ea0bc2c3722",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e367777010c94184b8c6d700621b598a4149f7dd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject09.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556822,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject09.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 245073616,
+          "storageIdentifier": "surf://store:19a77bed487-5d66faa103fa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c162ca1b1ca81e8370b34f333ca1da4a0260fe4d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject10.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556892,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject10.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236717552,
+          "storageIdentifier": "surf://store:19a77bf051c-f2c915e9a7fb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8ac32fc715c7ac087c7db57246857a5b9076b96d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject11.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556793,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject11.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 244617216,
+          "storageIdentifier": "surf://store:19a77bf3f97-7f27e112ee71",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "78f865cd696ecb40076cd70a9f50630557118ebc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject12.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556777,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject12.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 239594200,
+          "storageIdentifier": "surf://store:19a77bf9608-b0d789d8dc7f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8fc6e2fea570b4279e732d29982401800343f839"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject13.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556830,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject13.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 237043552,
+          "storageIdentifier": "surf://store:19a77bf52da-42a5750a8a73",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8ee7d1357f9fe1187a650fe345e2be96d4030c9d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject14.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556775,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject14.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 235804752,
+          "storageIdentifier": "surf://store:19a77c03fad-12656085634e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1608b6336aea49858155d3cad8325aa1a1add832"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject15.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556792,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject15.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236913152,
+          "storageIdentifier": "surf://store:19a77bff6ee-69df47483ba9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f678a974a1570dc083faf8908f654fb4d6bd9153"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject16.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556840,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject16.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 235217952,
+          "storageIdentifier": "surf://store:19a77bf9fe8-fad27605f1d5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5043ab436a1494bde23fcb253e20317bfab6c2fd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject17.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556926,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject17.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 242400416,
+          "storageIdentifier": "surf://store:19a77bfe27e-3d8aef1a79c5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7e0f16756ac662e5ff1a80ead85f63429cb297ee"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject18.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556806,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject18.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 241159000,
+          "storageIdentifier": "surf://store:19a77bde128-cf38c60d4293",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "aee3361f600ddba18bf7f06aff65a9631687c260"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject19.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556780,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject19.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 237499952,
+          "storageIdentifier": "surf://store:19a77bd7bba-8e9993fd3af2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f57b420fb292c3e2c19df05811788644ea60be2a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject20.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556910,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject20.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 235674352,
+          "storageIdentifier": "surf://store:19a77be80ae-2c222cdd83df",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "69ed039288c20b21978dae7a222eef3d00d70b38"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject21.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556811,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject21.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 253557464,
+          "storageIdentifier": "surf://store:19a77bee7e6-9cb780ced9e3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9625bd2e15c17c62f52849ef1f425b10503eb646"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject22.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556784,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject22.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 239594200,
+          "storageIdentifier": "surf://store:19a77be6d02-7723d92b899a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "049de16c67b2549b260e2f37e6acfc73cb3db10e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject23.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556874,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject23.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 237695552,
+          "storageIdentifier": "surf://store:19a77be3d78-cf77940df267",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "82af5cd838aae18cc69a188b9288b4c04ec07754"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject24.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556841,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject24.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 238616200,
+          "storageIdentifier": "surf://store:19a77bdd89a-8f953efdedec",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7b9be9ba8a3ae87da9bdb5f3f4c191838fc1a0c0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject25.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556888,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject25.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 239529000,
+          "storageIdentifier": "surf://store:19a77bd8562-e3ca4d01dc40",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "91c99319234c22c833b63fbe60d3b422909b8fe1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject26.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556900,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject26.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236587152,
+          "storageIdentifier": "surf://store:19a77bdf3e3-4deded8d0154",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5bbf84568640c89f1801d64c7d1b49733151600a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject27.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556850,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject27.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 237695552,
+          "storageIdentifier": "surf://store:19a77be2174-b31d0c760742",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e5924d2606d49bf4364d9e509134029d847426f4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject28.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556880,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject28.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 237108752,
+          "storageIdentifier": "surf://store:19a77c03607-acf655e38d03",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ab4c3da223f0e8ed32f63c6c337d09bf0bbfcd58"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject29.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556858,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject29.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 245269216,
+          "storageIdentifier": "surf://store:19a77c00049-802b66888e48",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ec244d92e35e873e88d9e62d0a3765e53247eac5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject30.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556842,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject30.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 240115800,
+          "storageIdentifier": "surf://store:19a77bdcefd-9a79cb9facc3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "876dd338a9141d1368faa822d00bc44f1f0e82a7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject31.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556825,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject31.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236456752,
+          "storageIdentifier": "surf://store:19a77bd8eba-ba50c207c3a3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7d88615da4e3450eb6006a12208cdcc9fcf21cf7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject32.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556832,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject32.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 244356416,
+          "storageIdentifier": "surf://store:19a77bdea5a-46e5b3a3c826",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dee616c56b1befde8923dc066cba2690e34c7e44"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject33.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556847,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject33.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236456752,
+          "storageIdentifier": "surf://store:19a77be2af6-8eae61a9b082",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4d8de477b326152feda6c989cdb93401c88324dd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject34.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556769,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject34.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236000352,
+          "storageIdentifier": "surf://store:19a77be8a4c-bb083e15d554",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0a5d015d2001809101175d14ab50e9c078420fe7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject35.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556886,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject35.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236195952,
+          "storageIdentifier": "surf://store:19a77bede32-5f40d1bc5f34",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "157ee8ff5cb12f635bd7fa9a09b51aa48add1917"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject36.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556896,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject36.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 245989032,
+          "storageIdentifier": "surf://store:19a77be76cc-922291ad9605",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "90ef13c85f1a3dc3259dbcb368b89bc209978ade"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject37.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556796,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject37.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 224582504,
+          "storageIdentifier": "surf://store:19a77be3453-9c13e1b7d980",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6a5e5292d75f9a61a49b08916817018992fd84fe"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day1_subject38.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556909,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day1_subject38.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 244878016,
+          "storageIdentifier": "surf://store:19a77bef1ef-721b1b6e93c9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5d33a75e1d16e73fbb37db7dfd416e9a220b08e5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject01.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556785,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject01.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 241876200,
+          "storageIdentifier": "surf://store:19a77bf1811-6d8233015ed0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2bafa1ed4848705cf131546e52cffbfb98fed55e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject02.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556838,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject02.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 256035064,
+          "storageIdentifier": "surf://store:19a77bf6f2d-db8e402973fc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3eae091c703c4d00d24b87c4c587e80007371403"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject03.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556884,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject03.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 256361064,
+          "storageIdentifier": "surf://store:19a77bf7956-f0c8520a1974",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "84b35f5d1c29ce58c03a85caf9907e9b3273b992"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject04.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556876,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject04.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234628536,
+          "storageIdentifier": "surf://store:19a77c009e6-f20594f46884",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "411cc9c72f4e1f194044b8fbcad23e0816da5e26"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject05.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556807,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject05.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 241941400,
+          "storageIdentifier": "surf://store:19a77c02c39-0c112b76eaf2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c451af2ae98fcc425c4bae76b9e1d24c801a3e45"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject06.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556826,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject06.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 247097432,
+          "storageIdentifier": "surf://store:19a77bfc512-0fff1e1fa254",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bfd16c35cac1b7484e88ca85743008f9f5784eb2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject07.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556803,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject07.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234628536,
+          "storageIdentifier": "surf://store:19a77bfbd2e-c1c2fe0097f1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "651232308e66c2e4eab5e683d051f7b837180c00"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject08.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556863,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject08.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 235869952,
+          "storageIdentifier": "surf://store:19a77bd97ed-550e51d44f07",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "40c01f5a871d8b134c5da9c275682e29baa887eb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject09.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556809,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject09.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234826752,
+          "storageIdentifier": "surf://store:19a77bdc5be-f37c02cc9a32",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "da82fe85dc10cd14fbc174c11492b25cfef6be49"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject10.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556890,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject10.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 214990256,
+          "storageIdentifier": "surf://store:19a77c01320-5386f81747b9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d51626987b799bfb6db03f6c0bf5375761c50b45"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject11.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556812,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject11.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 229996720,
+          "storageIdentifier": "surf://store:19a77c0256d-990752900f5e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4bc248e5bd61ed8b6706cb42346710a2d6f7e21b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject12.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556889,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject12.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 243639216,
+          "storageIdentifier": "surf://store:19a77bfcf16-9eba4b358107",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bbebe4e9c4fb566a49c9a248adbd3dfccfabc66e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject13.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556908,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject13.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234237336,
+          "storageIdentifier": "surf://store:19a77bfb345-7de46da57005",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "19cf4ddefabc94eba106b55c5264b9406a25f2aa"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject14.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556773,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject14.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 244747616,
+          "storageIdentifier": "surf://store:19a77bf2c4a-546d3691bd2f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d67d9cb90dcb3c26ebb3d50fb45a6085dc1c86a2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject15.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556857,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject15.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 243248016,
+          "storageIdentifier": "surf://store:19a77bf220a-b18ea421f62c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b961cc5a5ed3311a366fd6594d644107fbff9b7f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject16.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556799,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject16.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 235543952,
+          "storageIdentifier": "surf://store:19a77bf65ad-dd57fb92ba0d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e9f5ddbf842ff64e1c5eb3604d23807e5bd7d66b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject17.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556898,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject17.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 235739552,
+          "storageIdentifier": "surf://store:19a77bf830c-53e676866ed4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e35e7979cecfb39e4065c34df9aafb0fe288ca53"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject18.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556836,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject18.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234826752,
+          "storageIdentifier": "surf://store:19a77beb883-e0a546cd8edd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "309f76e6b890549c4bc4d7f85d4496ee1655c965"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject19.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556818,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject19.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236000352,
+          "storageIdentifier": "surf://store:19a77beaef8-413e1bd7a3cf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a0ee63b152b1b7b6068010c59021d6e77fd6a8cb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject20.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556787,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject20.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234498136,
+          "storageIdentifier": "surf://store:19a77bda132-086dfeaf9399",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d42fcb36ed71f7a50c8542a2057560e90c6ed238"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject21.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556805,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject21.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 233063736,
+          "storageIdentifier": "surf://store:19a77bdbce2-81f1dfc0f632",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6ea493498bf827471b9a8117bcf2acdb93e56ffb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject22.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556829,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject22.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234498136,
+          "storageIdentifier": "surf://store:19a77be0f2a-bc65f030d09e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8cbe77e80bf1cc7d6c57a40f061e4cc1e6abd960"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject23.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556901,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject23.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234237336,
+          "storageIdentifier": "surf://store:19a77be0607-f3b56ae4cf5b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b6591add332760f4dd62dc7b0f88cda84759b242"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject24.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556816,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject24.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 235674352,
+          "storageIdentifier": "surf://store:19a77becb21-fba1bf4847a1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3408690abfc9c0debddc229ff1077364bc0a7a79"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject25.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556920,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject25.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236847952,
+          "storageIdentifier": "surf://store:19a77be9c67-55aa17d0ce39",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b4fe276eef1f6b5e885e47c5106ccd3c598c088c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject26.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556821,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject26.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234563336,
+          "storageIdentifier": "surf://store:19a77be5073-25b84e1449f4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f5c55b339c97968a2dbf3259c623f567d1293ffc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject27.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556860,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject27.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234891952,
+          "storageIdentifier": "surf://store:19a77be5a0a-2f170ffa7489",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "125b704b96b6b039b0e939630e2b9aa779b5f33b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject28.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556848,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject28.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 234826752,
+          "storageIdentifier": "surf://store:19a77bf3608-39ea40632430",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fd928d80db164991c57a0f7a9d4c452ee7ae16ee"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject29.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556927,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject29.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236456752,
+          "storageIdentifier": "surf://store:19a77bf0ec5-022ea888f745",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a00133bc5fd267f803713c8e8e9403b85f6ea106"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject30.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556771,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject30.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 236913152,
+          "storageIdentifier": "surf://store:19a77bec1d5-ec45f1594755",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cba7b05b442fd01795e3f62276bcdf9254e2d253"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject31.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556859,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject31.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 261060696,
+          "storageIdentifier": "surf://store:19a77bea4bd-3bee9b589496",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ca292c9cc7a52dfed14a508999d6d9612ef5ac04"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject32.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556843,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject32.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 248988232,
+          "storageIdentifier": "surf://store:19a77be46ac-81478a26633b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f7e9fd9529a319aea8f26fee4ab5b6324f7689b0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject33.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556883,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject33.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 244095616,
+          "storageIdentifier": "surf://store:19a77be6396-d5b28436d14c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "256fca62e47931195f648bc05f7faad0bf0f4bfd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject34.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556916,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject34.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 235413552,
+          "storageIdentifier": "surf://store:19a77bdaa95-3caab31a1cb5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4b86ee69f5b608a81bd866122cdf59e340c5a138"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject35.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556804,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject35.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 235283152,
+          "storageIdentifier": "surf://store:19a77bdb3c8-46cdcb80ee21",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "98026f8ad5ac7f969525b4f46c441c63039e8497"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject36.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556868,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject36.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 241159000,
+          "storageIdentifier": "surf://store:19a77be1853-6030bda8d9ff",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4d918de458adaa56ffa505baf3b73f859d50564d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject37.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556831,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject37.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 227910320,
+          "storageIdentifier": "surf://store:19a77bdfd38-ae8a107b9b7d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e17d12640c250c4b4d203db9de5e024ee52ee9cb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "gNautilus_fNIRS_day2_subject38.mat",
+        "restricted": true,
+        "directoryLabel": "dataverse/raw_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556802,
+          "persistentId": "",
+          "filename": "gNautilus_fNIRS_day2_subject38.mat",
+          "contentType": "application/x-hdf5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 245204016,
+          "storageIdentifier": "surf://store:19a77c01ba1-35639ada3fed",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a373de38928840cfd4a2bac114a7d3a4614ce741"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "preprocessed fnirs data day 1",
+        "label": "per_ch_avg_d1.csv",
+        "restricted": true,
+        "directoryLabel": "dataverse/processed_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556897,
+          "persistentId": "",
+          "filename": "per_ch_avg_d1.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 206147,
+          "description": "preprocessed fnirs data day 1",
+          "storageIdentifier": "surf://store:19a77bd7ba2-141313b59a72",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f367779ed20ee7f834216e61d1794973d71be5ed"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "preprocessed fnirs data day 2",
+        "label": "per_ch_avg_d2.csv",
+        "restricted": true,
+        "directoryLabel": "dataverse/processed_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556776,
+          "persistentId": "",
+          "filename": "per_ch_avg_d2.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 317505,
+          "description": "preprocessed fnirs data day 2",
+          "storageIdentifier": "surf://store:19a77bd7b96-1f19622318d6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "91b653a4caf4390b561103fea13186c7e0dbba68"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "preprocessed fnirs data day 2",
+        "label": "per_ch_avg_d2_file2.csv",
+        "restricted": true,
+        "directoryLabel": "dataverse/processed_fnirs",
+        "version": 1,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 556813,
+          "persistentId": "",
+          "filename": "per_ch_avg_d2_file2.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 411616,
+          "description": "preprocessed fnirs data day 2",
+          "storageIdentifier": "surf://store:19a77bd7bad-f80ef5009fb1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9976ae88d167aebb44fdd2be1302d82c40dd75dc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-12",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "readme.pdf",
+        "restricted": false,
+        "directoryLabel": "dataverse",
+        "version": 2,
+        "datasetVersionId": 31928,
+        "dataFile": {
+          "id": 565682,
+          "persistentId": "",
+          "filename": "readme.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 65180,
+          "storageIdentifier": "surf://store:19ac001a3ec-e86db91acb98",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1dacd5e1a35e451c2c51b55ab36a990f02303c65"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-26",
+          "publicationDate": "2025-11-26",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Collin, Silvy, 2025, \"Data and code for the paper: Prefrontal cortex responses to conflicting information, Biro and Collin\", https://doi.org/10.34894/QHCU7W, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": 358419,
+  "identifier": "8WZ6EG",
+  "persistentUrl": "https://doi.org/10.34894/8WZ6EG",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-05-23",
+  "storageIdentifier": "surf://10.34894/8WZ6EG",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24850,
+    "datasetId": 358419,
+    "datasetPersistentId": "doi:10.34894/8WZ6EG",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/8WZ6EG",
+    "versionNumber": 1,
+    "internalVersionNumber": 9,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-05-23T11:24:22Z",
+    "releaseTime": "2023-05-23T11:24:22Z",
+    "createTime": "2023-03-20T11:33:12Z",
+    "publicationDate": "2023-05-23",
+    "citationDate": "2023-05-23",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Alkmaar Parking Occupancy Rate per Neighborhood from Aerial Images"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stopic, Renato"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SPINlab, Department of Spatial Economics, Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dias, Eduardo"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SPINlab, Department of Spatial Economics, Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stopic, Renato"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SPINlab, Department of Spatial Economics, Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Geopackage containing the neighborhoods in Alkmaar and the occupancy rate of parking spots in each. The occupancy rate and the total number of parked cars is available for each neighborhood for 2019, 2020, 2021, 2022."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "This research was supported by the NWO-funded Urban Mobility Observatory (UMO) project that aims to collect, store and share traffic, transport and mobility related data. We also gratefully acknowledge the municipality of Alkmaar and data science Alkmaar for additional financial support and access to their parking spot data."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stopic, Renato"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-03-20"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/8WZ6EG"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:e460a5cb-d011-4af4-95d8-41e9fcfd3662"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-4ce5ab5e-8307-4469-8038-cba8a39610da"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "occupancy_buurt.gpkg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24850,
+        "dataFile": {
+          "id": 358420,
+          "persistentId": "",
+          "filename": "occupancy_buurt.gpkg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 163840,
+          "storageIdentifier": "surf://store:186fecb3ca2-bd2e76136756",
+          "rootDataFileId": -1,
+          "md5": "68409a8eac34bf70e4f8f983dfda1cda",
+          "checksum": {
+            "type": "MD5",
+            "value": "68409a8eac34bf70e4f8f983dfda1cda"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-20",
+          "publicationDate": "2023-05-23",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Stopic, Renato; Dias, Eduardo, 2023, \"Alkmaar Parking Occupancy Rate per Neighborhood from Aerial Images\", https://doi.org/10.34894/8WZ6EG, DataverseNL, V1"
+  }
+}

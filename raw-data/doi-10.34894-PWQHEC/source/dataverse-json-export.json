@@ -1,0 +1,762 @@
+{
+  "id": 322716,
+  "identifier": "PWQHEC",
+  "persistentUrl": "https://doi.org/10.34894/PWQHEC",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-12-20",
+  "storageIdentifier": "surf://10.34894/PWQHEC",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24537,
+    "datasetId": 322716,
+    "datasetPersistentId": "doi:10.34894/PWQHEC",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/PWQHEC",
+    "versionNumber": 1,
+    "internalVersionNumber": 23,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2022-12-20T10:47:05Z",
+    "releaseTime": "2022-12-20T10:47:05Z",
+    "createTime": "2022-12-05T12:16:19Z",
+    "publicationDate": "2022-12-20",
+    "citationDate": "2022-12-20",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "R codes for maximal interaction two-mode clustering by means of REMAXINT or E-ReMI"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ahmed, Z."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cassese, A."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-5830-4136"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Van Breukelen, G."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-0949-0272"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schepers, J."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-6511-7651"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schepers, Jan"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Datamanagement FPN"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This page includes R codes for studying two-way interaction in two-mode data by means of REMAXINT or E-ReMI, as described in Ahmed et al. (submitted). E-ReMI: Extended maximal interaction two-mode clustering."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Mathematical Sciences",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "two-mode data"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "two-mode clustering"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "two-way interaction"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "REMAXINT"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "E-ReMI"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "software"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Schlangen-Peters, Lisette"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-12-05"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "R code for generating two-mode data with interaction and R code for analyzing two-mode data to study row by column interaction"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/PWQHEC"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:faef2b90-06d4-42d4-b139-f727d726a550"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-de5dc281-6ffe-427f-a094-a55c3aa2501e"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Data_Gen_Function.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data generation",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326500,
+          "persistentId": "",
+          "filename": "Data_Gen_Function.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 4078,
+          "storageIdentifier": "surf://store:1852ebc7746-1a099f5ecedd",
+          "rootDataFileId": -1,
+          "md5": "ee9ff601e70acfc8d5cbc4d69c5ede55",
+          "checksum": {
+            "type": "MD5",
+            "value": "ee9ff601e70acfc8d5cbc4d69c5ede55"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "EREMI.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326499,
+          "persistentId": "",
+          "filename": "EREMI.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 6058,
+          "storageIdentifier": "surf://store:1852ebc7618-cd20274ed524",
+          "rootDataFileId": -1,
+          "md5": "8a9bfb05ff1057eccd7e4ccbea67081b",
+          "checksum": {
+            "type": "MD5",
+            "value": "8a9bfb05ff1057eccd7e4ccbea67081b"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "LL_EREMI.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326505,
+          "persistentId": "",
+          "filename": "LL_EREMI.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 321,
+          "storageIdentifier": "surf://store:1852ebc761f-94f556da2f0e",
+          "rootDataFileId": -1,
+          "md5": "7c8c8610e4159bf875d8fc2e331fe78d",
+          "checksum": {
+            "type": "MD5",
+            "value": "7c8c8610e4159bf875d8fc2e331fe78d"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "LL_REMAXINT.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326509,
+          "persistentId": "",
+          "filename": "LL_REMAXINT.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 325,
+          "storageIdentifier": "surf://store:1852ebc7624-dabbc2b89661",
+          "rootDataFileId": -1,
+          "md5": "c1d03c69466ca5edfa9e224e90849271",
+          "checksum": {
+            "type": "MD5",
+            "value": "c1d03c69466ca5edfa9e224e90849271"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Log_LR_Test_Statistic.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326496,
+          "persistentId": "",
+          "filename": "Log_LR_Test_Statistic.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 384,
+          "storageIdentifier": "surf://store:1852ebc7629-a4f0df5e07ee",
+          "rootDataFileId": -1,
+          "md5": "84f64597cc5bccf9f560d94a23cc24ee",
+          "checksum": {
+            "type": "MD5",
+            "value": "84f64597cc5bccf9f560d94a23cc24ee"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "RandomPartition.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data generation",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326503,
+          "persistentId": "",
+          "filename": "RandomPartition.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 503,
+          "storageIdentifier": "surf://store:1852ebc774e-9e17b7c821f2",
+          "rootDataFileId": -1,
+          "md5": "720bd460616ac6640e3779e4ad514a9e",
+          "checksum": {
+            "type": "MD5",
+            "value": "720bd460616ac6640e3779e4ad514a9e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "RandomPartition.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326494,
+          "persistentId": "",
+          "filename": "RandomPartition.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 503,
+          "storageIdentifier": "surf://store:1852ebc762d-074a1d5aa76b",
+          "rootDataFileId": -1,
+          "md5": "720bd460616ac6640e3779e4ad514a9e",
+          "checksum": {
+            "type": "MD5",
+            "value": "720bd460616ac6640e3779e4ad514a9e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README.pdf",
+        "restricted": false,
+        "directoryLabel": "R codes for data generation",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326501,
+          "persistentId": "",
+          "filename": "README.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 521973,
+          "storageIdentifier": "surf://store:1852ebc775a-0dee7d981e7b",
+          "rootDataFileId": -1,
+          "md5": "3d02e034ae167f6dd3a8913157520c62",
+          "checksum": {
+            "type": "MD5",
+            "value": "3d02e034ae167f6dd3a8913157520c62"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README.pdf",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326502,
+          "persistentId": "",
+          "filename": "README.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 532290,
+          "storageIdentifier": "surf://store:1852ebc7639-dbf4442d1f73",
+          "rootDataFileId": -1,
+          "md5": "eac229d2d80b01669f12dcaf1bb75603",
+          "checksum": {
+            "type": "MD5",
+            "value": "eac229d2d80b01669f12dcaf1bb75603"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "REMAXINT.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326495,
+          "persistentId": "",
+          "filename": "REMAXINT.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 5323,
+          "storageIdentifier": "surf://store:1852ebc7640-369fd031732c",
+          "rootDataFileId": -1,
+          "md5": "5b295c470400a86db359a89db0616239",
+          "checksum": {
+            "type": "MD5",
+            "value": "5b295c470400a86db359a89db0616239"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Test_EREMI.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326507,
+          "persistentId": "",
+          "filename": "Test_EREMI.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2359,
+          "storageIdentifier": "surf://store:1852ebc764a-96622502b918",
+          "rootDataFileId": -1,
+          "md5": "59ede6ad884d25bf6dde1e5691887d2f",
+          "checksum": {
+            "type": "MD5",
+            "value": "59ede6ad884d25bf6dde1e5691887d2f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Unequal_Randompartition.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data generation",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326498,
+          "persistentId": "",
+          "filename": "Unequal_Randompartition.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 660,
+          "storageIdentifier": "surf://store:1852ebc7760-772aa5872d96",
+          "rootDataFileId": -1,
+          "md5": "c19edaf89bf016bbca179737ab861106",
+          "checksum": {
+            "type": "MD5",
+            "value": "c19edaf89bf016bbca179737ab861106"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Unequal_Randompartition.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326497,
+          "persistentId": "",
+          "filename": "Unequal_Randompartition.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 660,
+          "storageIdentifier": "surf://store:1852ebc7653-5905054bab1b",
+          "rootDataFileId": -1,
+          "md5": "c19edaf89bf016bbca179737ab861106",
+          "checksum": {
+            "type": "MD5",
+            "value": "c19edaf89bf016bbca179737ab861106"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Update_column_clusters.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326506,
+          "persistentId": "",
+          "filename": "Update_column_clusters.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1736,
+          "storageIdentifier": "surf://store:1852ebc765c-b73d8ec29b11",
+          "rootDataFileId": -1,
+          "md5": "9d6358a5631f6a7ff2521ba15e6fa6fb",
+          "checksum": {
+            "type": "MD5",
+            "value": "9d6358a5631f6a7ff2521ba15e6fa6fb"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Update_G_Omega.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326504,
+          "persistentId": "",
+          "filename": "Update_G_Omega.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 495,
+          "storageIdentifier": "surf://store:1852ebc7666-ee23469ca327",
+          "rootDataFileId": -1,
+          "md5": "8f1f9b1a94780f08ec9ed451b831e17d",
+          "checksum": {
+            "type": "MD5",
+            "value": "8f1f9b1a94780f08ec9ed451b831e17d"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Update_row_clusters_EREMI.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326493,
+          "persistentId": "",
+          "filename": "Update_row_clusters_EREMI.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3273,
+          "storageIdentifier": "surf://store:1852ebc766c-c6b7630eb69f",
+          "rootDataFileId": -1,
+          "md5": "f63d65f1900057ebd3e7b9e5f96dd1e1",
+          "checksum": {
+            "type": "MD5",
+            "value": "f63d65f1900057ebd3e7b9e5f96dd1e1"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Update_row_clusters_REMAXINT.R",
+        "restricted": false,
+        "directoryLabel": "R codes for data analysis",
+        "version": 3,
+        "datasetVersionId": 24537,
+        "dataFile": {
+          "id": 326508,
+          "persistentId": "",
+          "filename": "Update_row_clusters_REMAXINT.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3247,
+          "storageIdentifier": "surf://store:1852ebc7673-e9afe918785d",
+          "rootDataFileId": -1,
+          "md5": "9fa51000ec2b463a677f2e1d47716a54",
+          "checksum": {
+            "type": "MD5",
+            "value": "9fa51000ec2b463a677f2e1d47716a54"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-20",
+          "publicationDate": "2022-12-20",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Ahmed, Z.; Cassese, A.; Van Breukelen, G.; Schepers, J., 2022, \"R codes for maximal interaction two-mode clustering by means of REMAXINT or E-ReMI\", https://doi.org/10.34894/PWQHEC, DataverseNL, V1"
+  }
+}

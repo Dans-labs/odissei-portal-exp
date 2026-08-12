@@ -1,0 +1,678 @@
+{
+  "id": 615586,
+  "identifier": "2LO2RE",
+  "persistentUrl": "https://doi.org/10.34894/2LO2RE",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-04-07",
+  "storageIdentifier": "surf://10.34894/2LO2RE",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34253,
+    "datasetId": 615586,
+    "datasetPersistentId": "doi:10.34894/2LO2RE",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/2LO2RE",
+    "versionNumber": 1,
+    "internalVersionNumber": 13,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "productionDate": "2026-03-31",
+    "lastUpdateTime": "2026-04-07T12:24:18Z",
+    "releaseTime": "2026-04-07T12:24:18Z",
+    "createTime": "2026-03-31T13:48:30Z",
+    "publicationDate": "2026-04-07",
+    "citationDate": "2026-04-07",
+    "license": {
+      "name": "CC-BY-NC-4.0",
+      "uri": "http://creativecommons.org/licenses/by-nc/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-nc/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Do-Files for the paper \"Anything but hard discount: Storevorousness and the social stratification of grocery shopping venues in Italy (2014–2022)\""
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oncini, Filippo"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0001-6123-4917"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oncini, Filippo"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This replication package contains the Stata do-files used to produce all results and figures reported in the paper. The analysis draws on the Italian Household Budget Survey (HBS) conducted by ISTAT, covering the years 2014–2022."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-03-31"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "IsSupplementTo"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oncini, F. (2026). Anything but hard discount: Storevorousness and the social stratification of grocery shopping venues in Italy, 2014–2022. Journal of Consumer Culture, in press"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The package comprises the following do-files:\n\nDependent_variables_FINAL.do — construction of binary store-visit indicators and aggregate purchase measures across seven venue types\nControl_variables_FINAL.do — preparation of sociodemographic and socioeconomic control variables\nDescriptives_FINAL.do — summary statistics for all key variables\nDescriptives_over_time_FINAL.do and Summary_table_descriptives_over_time_FINAL.do — time-trend descriptives and tabulation (2014–2022)\nHistograms_FINAL.do — distribution plots of venue-specific purchase counts\nCountfit_for_nbreg_FINAL.do — overdispersion diagnostics to justify negative binomial estimation\nModel_1__total__FINAL.do — OLS regression of total store voracity on household characteristics, with marginal means by income decile and education\nModel_2__HHI__FINAL.do — zero-one-inflated beta (ZOIB) regression of the Herfindahl–Hirschman Index of shopping concentration\nModel_3__logit_and_nbreg__FINAL.do — two-part models (logit + negative binomial) for each of the seven store types, with combined margin plots\nPoisson_margins_FINAL.do — alternative Poisson-based margins for robustness\nModel_4_Margins_per_food_item_Q5-Q1_FINAL.do — Q5–Q1 margin differences by food product and store type\nHeatmap_Google_Colab_Script.txt — link to the Python/Google Colab script used to produce the food-item × store-type heatmap\n\nAll do-files are self-documented with inline annotation. File paths in the scripts refer to the authors' local environment and must be updated to match the replicator's directory structure."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-03-31"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Maastricht"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Curator"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Filippo Oncini"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HORIZON EUROPE European Research Council"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "101163222"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Oncini, Filippo"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-03-31"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2014"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Microdata"
+            ]
+          },
+          {
+            "typeName": "series",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "seriesName": {
+                  "typeName": "seriesName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Household budget survey by ISTAT"
+                },
+                "seriesInformation": {
+                  "typeName": "seriesInformation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "See more information here (in Italian): https://www.istat.it/informazioni-sulla-rilevazione/spese/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "STATA"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "18"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "relatedDatasets",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "The microdata can be requested via the ISTAT website. For more information visit: https://www.istat.it/informazioni-sulla-rilevazione/spese/"
+            ]
+          },
+          {
+            "typeName": "accessToSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The underlying microdata are not included in this package, as access is restricted to authorised researchers via ISTAT. Information on how to apply for access is available at https://www.istat.it/informazioni-sulla-rilevazione/spese/"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/2LO2RE"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:906b20b3-4bf6-40a5-84aa-4e9705a0586a"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-24dd237e-412b-4cea-b7b6-62ecf3cdc910"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Prepares the sociodemographic and socioeconomic covariates used across all models, including household size, age group, sex, marital status, employment status, self-production, education, equivalised expenditure decile, macro-region, municipality size, absolute poverty status, and car ownership.",
+        "label": "Control variables_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615594,
+          "persistentId": "",
+          "filename": "Control variables_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 8241,
+          "description": "Prepares the sociodemographic and socioeconomic covariates used across all models, including household size, age group, sex, marital status, employment status, self-production, education, equivalised expenditure decile, macro-region, municipality size, absolute poverty status, and car ownership.",
+          "storageIdentifier": "surf://store:19d44223da7-5368add56ca4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1605162cfd339e6a6ab4514b2a8d280e7f062777"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Runs overdispersion diagnostics by comparing mean and variance of venue-specific purchase counts, and fits competing count models (Poisson, negative binomial, zero-inflated variants) to justify the two-part modelling strategy.",
+        "label": "Countfit for nbreg_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615590,
+          "persistentId": "",
+          "filename": "Countfit for nbreg_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 3338,
+          "description": "Runs overdispersion diagnostics by comparing mean and variance of venue-specific purchase counts, and fits competing count models (Poisson, negative binomial, zero-inflated variants) to justify the two-part modelling strategy.",
+          "storageIdentifier": "surf://store:19d44223433-7769f3ec74e8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "22d627165feff73fd8099219c80bc90bf3ae84ba"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Constructs the main outcome variables: binary indicators of whether each household purchased groceries at each of seven venue types (traditional store, street market, hard discount, hypermarket, supermarket/grocery, farm/producer outlet, international/ethnic store) and an aggregate count of product–venue purchases used as the storevorousness index.",
+        "label": "Dependent variables_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615589,
+          "persistentId": "",
+          "filename": "Dependent variables_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 25545,
+          "description": "Constructs the main outcome variables: binary indicators of whether each household purchased groceries at each of seven venue types (traditional store, street market, hard discount, hypermarket, supermarket/grocery, farm/producer outlet, international/ethnic store) and an aggregate count of product–venue purchases used as the storevorousness index.",
+          "storageIdentifier": "surf://store:19d44223522-1c5f671d288e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "044b46873803a638f1f76d9e048882b7a295e26a"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Produces summary statistics (frequencies and means) for all key variables, as well as conditional summaries of purchase counts by venue type among purchasing households.",
+        "label": "Descriptives_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615596,
+          "persistentId": "",
+          "filename": "Descriptives_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1197,
+          "description": "Produces summary statistics (frequencies and means) for all key variables, as well as conditional summaries of purchase counts by venue type among purchasing households.",
+          "storageIdentifier": "surf://store:19d44223697-9b9e3a8ea1ea",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "69626699d3d2abc8fa4906ad03dc52c37aa3ab0b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Generates figures illustrating trends in store-type uptake and purchase intensity across the 2014–2022 survey waves, used to contextualise the panel of cross-sections.",
+        "label": "Descriptives over time_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615593,
+          "persistentId": "",
+          "filename": "Descriptives over time_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 7565,
+          "description": "Generates figures illustrating trends in store-type uptake and purchase intensity across the 2014–2022 survey waves, used to contextualise the panel of cross-sections.",
+          "storageIdentifier": "surf://store:19d442235de-9a32925d31dc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dad28c170bcd7b8d43ac51a915fc24aefd98da75"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Generates distribution plots of conditional purchase counts for each venue type (among households that shopped there), used to motivate the choice of negative binomial over Poisson estimation.",
+        "label": "Histograms_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615598,
+          "persistentId": "",
+          "filename": "Histograms_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 2007,
+          "description": "Generates distribution plots of conditional purchase counts for each venue type (among households that shopped there), used to motivate the choice of negative binomial over Poisson estimation.",
+          "storageIdentifier": "surf://store:19d4422382b-e97b826fb593",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c4c3c5026c55f22c916dc2eac922176ef1d0879d"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Estimates an OLS regression of the aggregate storevorousness index on all covariates with robust standard errors, and computes adjusted predictions (marginal means) by expenditure decile and education level, producing the key stratification figures in the paper.",
+        "label": "Model 1 (total)_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615591,
+          "persistentId": "",
+          "filename": "Model 1 (total)_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 6978,
+          "description": "Estimates an OLS regression of the aggregate storevorousness index on all covariates with robust standard errors, and computes adjusted predictions (marginal means) by expenditure decile and education level, producing the key stratification figures in the paper.",
+          "storageIdentifier": "surf://store:19d442238fc-9f82495b9279",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efbca0e73da3f4f3fe341533bc59c5c8b3b2ffe7"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Estimates a zero-one-inflated beta (ZOIB) regression of the Herfindahl–Hirschman Index of shopping concentration, modelling simultaneously the probability of exclusive reliance on a single venue type, the probability of maximally dispersed shopping, and the continuous concentration score in between.",
+        "label": "Model 2 (HHI)_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615588,
+          "persistentId": "",
+          "filename": "Model 2 (HHI)_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 3408,
+          "description": "Estimates a zero-one-inflated beta (ZOIB) regression of the Herfindahl–Hirschman Index of shopping concentration, modelling simultaneously the probability of exclusive reliance on a single venue type, the probability of maximally dispersed shopping, and the continuous concentration score in between.",
+          "storageIdentifier": "surf://store:19d442239c9-a5a1f4cb755c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "db172d62e1819f3b2d01f0fb0c24ac42231bf8a1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Runs venue-specific two-part models: a logit for the probability of visiting each store type and a negative binomial for purchase frequency conditional on visiting, then computes and combines income-gradient margin plots across all seven venues.",
+        "label": "Model 3 (logit and nbreg)_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615597,
+          "persistentId": "",
+          "filename": "Model 3 (logit and nbreg)_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 9075,
+          "description": "Runs venue-specific two-part models: a logit for the probability of visiting each store type and a negative binomial for purchase frequency conditional on visiting, then computes and combines income-gradient margin plots across all seven venues.",
+          "storageIdentifier": "surf://store:19d44223a94-163a1ca794a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "38bb1537498a8f3667e9babba5fc4f4a41215c14"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Computes Q5–Q1 marginal differences (top vs. bottom expenditure decile) in purchase probabilities for each combination of food product (20 items) and store type (7 venues), producing the data underlying the heatmap figure.",
+        "label": "Model 4 Margins per food item_Q5-Q1_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615587,
+          "persistentId": "",
+          "filename": "Model 4 Margins per food item_Q5-Q1_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 6788,
+          "description": "Computes Q5–Q1 marginal differences (top vs. bottom expenditure decile) in purchase probabilities for each combination of food product (20 items) and store type (7 venues), producing the data underlying the heatmap figure.",
+          "storageIdentifier": "surf://store:19d44223b58-a48167c61e44",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2837ea5fbdd0bbeb7277f9ecfe3e5f2d712b2ae7"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Replicates the margin plots from Model 3 using Poisson rather than negative binomial regression, serving as a robustness check for the conditional frequency estimates.",
+        "label": "Poisson margins_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615592,
+          "persistentId": "",
+          "filename": "Poisson margins_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 8355,
+          "description": "Replicates the margin plots from Model 3 using Poisson rather than negative binomial regression, serving as a robustness check for the conditional frequency estimates.",
+          "storageIdentifier": "surf://store:19d44223c25-30de88d69a1d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c3eb94fe722038a3ae0325d18466d711a779c6a9"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Produces a structured summary table of annual shares and averages by store type and year, used as a reference for the descriptive section of the paper.",
+        "label": "Summary table descriptives over time_FINAL.do",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34253,
+        "dataFile": {
+          "id": 615595,
+          "persistentId": "",
+          "filename": "Summary table descriptives over time_FINAL.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 2190,
+          "description": "Produces a structured summary table of annual shares and averages by store type and year, used as a reference for the descriptive section of the paper.",
+          "storageIdentifier": "surf://store:19d44223ce7-df21bcf08c1f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2be36dfaad025c6b1fb9919cfd8f0be37188ee72"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T12:24:18Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Oncini, Filippo, 2026, \"Replication Do-Files for the paper \"Anything but hard discount: Storevorousness and the social stratification of grocery shopping venues in Italy (2014–2022)\"\", https://doi.org/10.34894/2LO2RE, DataverseNL, V1"
+  }
+}

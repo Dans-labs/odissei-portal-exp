@@ -1,0 +1,275 @@
+{
+  "id": 554446,
+  "identifier": "YSXMVV",
+  "persistentUrl": "https://doi.org/10.34894/YSXMVV",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-10-16",
+  "storageIdentifier": "surf://10.34894/YSXMVV",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31951,
+    "datasetId": 554446,
+    "datasetPersistentId": "doi:10.34894/YSXMVV",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/YSXMVV",
+    "versionNumber": 2,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-11-20T09:56:56Z",
+    "releaseTime": "2025-11-20T09:56:56Z",
+    "createTime": "2025-11-20T09:56:45Z",
+    "publicationDate": "2025-10-16",
+    "citationDate": "2025-10-16",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: External validation of machine learning hyperparameters for systematic review screening prioritization"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Teijema, Jelle Jasper"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "uu.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-9282-4311"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Teijema, Jelle Jasper"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "uu.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This repository contains all materials for the External validation of machine learning hyperparameters for systematic review screening prioritization\n\nThis study evaluates model configurations for accelerating the screening phase of systematic reviews, focusing on the validation of hyperparameters in a newly optimized active learning framework. Forty-five curated datasets containing 202,177 scientific studies, of which 1.5\\% were included in systematic reviews, were used to assess model performance and sensitivity thresholds. Simulations were conducted using three model configurations, applying time-to-event analysis to track recall progress over screening effort.\n\nResults show that the lightweight \\texttt{elas\\_u4} model provides great performance while requiring significantly less computational power than \\texttt{elas\\_h3}. In most cases, screening either one-fourth of the total records or observing a consecutive streak of 10\\% irrelevant records is already sufficient to identify 95\\% of records. However, the relationship between screening fraction and irrelevant streaks suggests that combined metrics could further reduce screening effort without compromising recall."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-10-13"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Teijema, Jelle"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-10-13"
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ASReview"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2.0"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/YSXMVV"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:c0690488-72f9-46c5-83da-f22e4b4caef6"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-9c321382-d80f-4298-81dc-26a275344f7b"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "A collection of dataset metrics",
+        "label": "description.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31951,
+        "dataFile": {
+          "id": 554454,
+          "persistentId": "",
+          "filename": "description.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2909,
+          "description": "A collection of dataset metrics",
+          "storageIdentifier": "surf://store:199e312b730-2918fa03f4de",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ccd6faa1e574dbcb489bd75abecab1fb6a8bc3d6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-10-14",
+          "publicationDate": "2025-10-16",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "A collection of dataset metrics",
+        "label": "description.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31951,
+        "dataFile": {
+          "id": 554453,
+          "persistentId": "",
+          "filename": "description.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 11303,
+          "description": "A collection of dataset metrics",
+          "storageIdentifier": "surf://store:199e312b78f-8b583609b85c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f2c1540e526e7506ab437cf647482594ec1144b3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-10-14",
+          "publicationDate": "2025-10-16",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "simulation_studies.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31951,
+        "dataFile": {
+          "id": 555331,
+          "persistentId": "",
+          "filename": "simulation_studies.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 3448506846,
+          "storageIdentifier": "surf://store:19a1181af1d-bd3d578673ed",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ec47e54e5c64ba8ea331eed55dc6422f242d7e48"
+          },
+          "tabularData": false,
+          "creationDate": "2025-10-23",
+          "publicationDate": "2025-11-20",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Teijema, Jelle Jasper, 2025, \"Replication Data for: External validation of machine learning hyperparameters for systematic review screening prioritization\", https://doi.org/10.34894/YSXMVV, DataverseNL, V2"
+  }
+}

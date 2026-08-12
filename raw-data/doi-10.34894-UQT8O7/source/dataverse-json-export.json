@@ -1,0 +1,315 @@
+{
+  "id": 565110,
+  "identifier": "UQT8O7",
+  "persistentUrl": "https://doi.org/10.34894/UQT8O7",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-11-20",
+  "storageIdentifier": "surf://10.34894/UQT8O7",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31978,
+    "datasetId": 565110,
+    "datasetPersistentId": "doi:10.34894/UQT8O7",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/UQT8O7",
+    "versionNumber": 4,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-11-20T11:16:57Z",
+    "releaseTime": "2025-11-20T11:16:57Z",
+    "createTime": "2025-11-20T11:16:56Z",
+    "publicationDate": "2025-11-20",
+    "citationDate": "2025-11-20",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Swedish Occupational Titles from CEDAR"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Edvinsson, Sören"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CEDAR"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-7439-002X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Westberg, Annika"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CEDAR"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-9384-1874"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Westberg, Annika"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CEDAR"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This file contains Swedish Occupational Titles as encountered by the CEDAR project, that were coded into HISCO (see notes and  http://www.cedar.umu.se/english/?languageId=1). The occupations originate from documents from c 1700 – c 1950 for Skellefteå region and C 1700-1900 for Sundsvall, Linköping, Northern Inland, and C 1900-1950 for Umeå region. The overarching Swedish regions are thus Skellefteå, Umeå, Northern Inland, Linköping, Sundsvall."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Agricultural Sciences",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "CEDAR made revisions on the old HISCO during last year. As you know, it can be difficult to give only one title to some occupations as there can be multiple options. We have decided to create two HISCO-tables; one where we have decided on an occupation if there is more than one option. For example; the Swedish occupation ADJUNKT can either be a school teacher or a minister. We decided on one of these that we think is more correct than the other instead of giving an option in the simple table. The other table is a complex one where an occupation can have more than one HISCO. The case of ADJUNKT will get two HISCO's and it's up to the users to decide which one they want to use. This work is left to be done, though. While working on that project, we will also create the STATUS, PRODUCT and RELATION codes. I've also added a few comments to your list below.\n \nI attached a text file that contains occupations as standardized titles and their HISCO code."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Zijdeman, Richard"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-03-22"
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Sweden"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicBoundingBox",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "westLongitude": {
+                  "typeName": "westLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "11.1133361779882"
+                },
+                "eastLongitude": {
+                  "typeName": "eastLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "24.1670091901454"
+                },
+                "northLatitude": {
+                  "typeName": "northLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "69.06030014813651"
+                },
+                "southLatitude": {
+                  "typeName": "southLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "55.3391641353577"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/UQT8O7"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "4.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:33329570-16ae-4796-a4d1-40c453ce9a6c"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-e7e2c609-43e8-4ceb-b3cf-33c6533dfcf0"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Swedish occupational titles from CEDAR",
+        "label": "CEDAR HISCO.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31978,
+        "dataFile": {
+          "id": 565111,
+          "persistentId": "",
+          "filename": "CEDAR HISCO.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 94698,
+          "description": "Swedish occupational titles from CEDAR",
+          "storageIdentifier": "surf://store:19aa0fb067a-cf49fe6c4513",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1d6b0ea6b7e861de65d019dcde1d8bd11622109f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Updated file ('bokhandelsdr{ng' -> 'bokhandelsdräng') and in UTF-8 format",
+        "label": "se_CEDAR_HISCO.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31978,
+        "dataFile": {
+          "id": 565112,
+          "persistentId": "",
+          "filename": "se_CEDAR_HISCO.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 97697,
+          "description": "Updated file ('bokhandelsdr{ng' -> 'bokhandelsdräng') and in UTF-8 format",
+          "storageIdentifier": "surf://store:19aa0fb1590-415e860dbd55",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5344d5ff9c229f6acc01dfbfdb886df9653c902c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-20",
+          "publicationDate": "2025-11-20",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Edvinsson, Sören; Westberg, Annika, 2025, \"Swedish Occupational Titles from CEDAR\", https://doi.org/10.34894/UQT8O7, DataverseNL, V4"
+  }
+}

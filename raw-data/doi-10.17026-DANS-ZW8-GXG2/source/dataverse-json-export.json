@@ -1,0 +1,734 @@
+{
+  "id": 179353,
+  "identifier": "dans-zw8-gxg2",
+  "persistentUrl": "https://doi.org/10.17026/DANS-ZW8-GXG2",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2016-08-01",
+  "storageIdentifier": "surf://10.17026/dans-zw8-gxg2",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 33623,
+    "datasetId": 179353,
+    "datasetPersistentId": "doi:10.17026/DANS-ZW8-GXG2",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-zw8-gxg2",
+    "versionNumber": 2,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2016-08-01",
+    "productionDate": "2016-08-01",
+    "UNF": "UNF:6:8U0M1/cMg9GqRhGiQzrcTQ==",
+    "lastUpdateTime": "2026-07-19T23:54:07Z",
+    "releaseTime": "2026-07-19T23:54:07Z",
+    "createTime": "2026-07-19T23:53:57Z",
+    "publicationDate": "2016-08-01",
+    "citationDate": "2016-08-01",
+    "versionNote": "The Python package langdetect was used to semi-automatically identify the languages used in the metadata. Human curators verified and corrected the results. If you notice any inaccuracies, please contact DANS.",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "termsOfAccess": "N/a",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "VAA study 2014 municipal council elections The Netherlands (data file)"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:67583"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "J. Kleinnijenhuis"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "DAI"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "info:eu-repo/dai/nl/074927329"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A.M.J. van Hoof"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Elections for the municipal council were held in 380 Dutch municipalities on March 5th 2014. These are the rows of the data matrix. In 133 of them at lest one Vote Advice Application (VAA) was used.  Three different sets of variables appear in the columns of the data-matrix. First,  whether a VAA was used, and if so, which one(s) out of the six VAAs. Next, the dataset includes for each of the 964 parties that offered candidates in at least one municipality the number of votes and the number of seats in the municipal council for the municipal elections that were held in 2014 and in 2010 (four variables per party). In addition to basic aggregate features of municipal voting (number of eligible voters, turnout, number of invalid votes) calculated aggregate features such as volatility (net shift of votes / seats in 2014 as compared to 2010) and fragmentation (effective number of different parties) are included. For each of the municipalities basic socio-demographic statistics from the Dutch Central Bureau of Statistics (CBS) are included (population size, crime, dominant age category, average income and ethnic fragmentation (the latter is a composite based on detailed CBS data on the number of inhabitants from different ethnicities)). Furthermore composite muicipal characteristics were added based on a factor analysis of measured indicators (scores on socio-economic rich-poor dimension and on cultural dimension (rural-monocultural versus urban-multicultural). The data set was set up to study whether VAAs are helpful to countervaill the trends toward lower turnout, higher volatility and further fragmentation.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Voting Advice Applications (VAAs)"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "party preferences"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "party switching"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "volatility"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "fragmentation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dutch municipal council elections"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The SAV format of the datafile '2014 municipal council elections VAA study The Netherlands.sav' was provided by the depositor. DANS added the DTA and POR formats of this file for preservation and accessibility purposes. The DOCX format of the file 'Descriptive Statistics created variabels in 2014 Municipal council elections VAA study The Netherlands' was provided by the depositor. DANS added the PDF format of this file. The XLSX format of the file 'Readme' was provided by the depositor. DANS added the CSV format of this file."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch",
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-08-01"
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A.P.M. Krouwel (Vrije Universiteit Amsterdam)"
+                }
+              },
+              {
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A.M.J. van Hoof (Vrije Universiteit Amsterdam)"
+                }
+              },
+              {
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "J. van de Pol (University of Amsterdam)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-08-01"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-12-13"
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "VAA suppliers\nCBS (www.statline.cbs.nl)"
+            ]
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Unknown"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D66000",
+              "https://www.narcis.nl/classification/D42100",
+              "https://www.narcis.nl/classification/D42200"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D66000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Communicatiewetenschap"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Communication sciences"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D42100",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Politicologie"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Political science"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D42200",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Social and public administration"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Bestuurskunde"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jan Kleinnijenhuis, Jasper van de Pol, Anita van Hoof & André Krouwel (2016): VAA as sources of volatility and fragmentation: self-selection effects and genuine effects, Journal of Elections, Public Opinion and Parties, DOI: 10.1080/17457289.2016.1268143"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.1080/17457289.2016.1268143"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "2014"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageText",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Nederland"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/DANS-ZW8-GXG2"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d9285394-acc2-459a-8bad-8e8772d2f878"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-qyqg-d5"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "2014 municipal council elections VAA study The Netherlands-1.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33623,
+        "dataFile": {
+          "id": 179397,
+          "persistentId": "",
+          "filename": "2014 municipal council elections VAA study The Netherlands-1.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 1686143,
+          "description": "",
+          "storageIdentifier": "surf://store:186ebbe2741-ccaf31b90232",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 2139940,
+          "originalFileName": "2014 municipal council elections VAA study The Netherlands.sav",
+          "UNF": "UNF:6:srLEXCO/mOSOc8cN38C7gg==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cde4a2322456bea75c982b94a69a58119948a7f6"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-08-01",
+          "lastUpdateTime": "2026-07-19T23:54:07Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "2014 municipal council elections VAA study The Netherlands.por",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33623,
+        "dataFile": {
+          "id": 179405,
+          "persistentId": "",
+          "filename": "2014 municipal council elections VAA study The Netherlands.por",
+          "contentType": "application/x-spss-por",
+          "friendlyType": "SPSS Portable",
+          "filesize": 3296480,
+          "description": "",
+          "storageIdentifier": "surf://store:186ebbe2dcf-102c3d2764eb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c442229d7a300ec057271d00c9e3c17d8336b01a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-08-01",
+          "lastUpdateTime": "2026-07-19T23:54:07Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "2014 municipal council elections VAA study The Netherlands.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33623,
+        "dataFile": {
+          "id": 179407,
+          "persistentId": "",
+          "filename": "2014 municipal council elections VAA study The Netherlands.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 1691362,
+          "description": "",
+          "storageIdentifier": "surf://store:186ebbe2f48-6b181244b9f4",
+          "originalFileFormat": "application/x-stata-13",
+          "originalFormatLabel": "Stata 13 Binary",
+          "originalFileSize": 3011035,
+          "originalFileName": "2014 municipal council elections VAA study The Netherlands.dta",
+          "UNF": "UNF:6:A/uhkApokDl1zrmPSexG9w==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1d904a5b05abb1643afd82ffd60e4c0d9ef2c32d"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-08-01",
+          "lastUpdateTime": "2026-07-19T23:54:07Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Descriptive Statistics created variabels in 2014 Municipal council elections VAA study The Netherlands.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33623,
+        "dataFile": {
+          "id": 179402,
+          "persistentId": "",
+          "filename": "Descriptive Statistics created variabels in 2014 Municipal council elections VAA study The Netherlands.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 32107,
+          "description": "",
+          "storageIdentifier": "surf://store:186ebbe2b0c-f53dd014ca33",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5d803bd2160591ba3eb104939be24955414f48ec"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-08-01",
+          "lastUpdateTime": "2026-07-19T23:54:07Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Descriptive Statistics created variabels in 2014 Municipal council elections VAA study The Netherlands.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33623,
+        "dataFile": {
+          "id": 179399,
+          "persistentId": "",
+          "filename": "Descriptive Statistics created variabels in 2014 Municipal council elections VAA study The Netherlands.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 226629,
+          "description": "",
+          "storageIdentifier": "surf://store:186ebbe2880-59181eb2315b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7c3ef6934a50e98b3dfa89056b12d12965c45408"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-08-01",
+          "lastUpdateTime": "2026-07-19T23:54:07Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33623,
+        "dataFile": {
+          "id": 179393,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 28049,
+          "description": "",
+          "storageIdentifier": "surf://store:186ebbe2343-ad489b19749f",
+          "rootDataFileId": 179356,
+          "previousDataFileId": 179356,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2293b663d2622feb3c944137ea39c36f0e2d5129"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-08-01",
+          "lastUpdateTime": "2026-07-19T23:54:07Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Examples Data Analysis VAAs Municipal Elections Netherlands 2014.sps",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33623,
+        "dataFile": {
+          "id": 179404,
+          "persistentId": "",
+          "filename": "Examples Data Analysis VAAs Municipal Elections Netherlands 2014.sps",
+          "contentType": "application/x-spss-syntax",
+          "friendlyType": "SPSS Syntax",
+          "filesize": 7029,
+          "description": "",
+          "storageIdentifier": "surf://store:186ebbe2c54-efc1edace785",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "338f17e40063c51e2d397280aeae19e313886c15"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-08-01",
+          "lastUpdateTime": "2026-07-19T23:54:07Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Kleinnijenhuis et al -VAAs as sources of volatility and fragmentation.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33623,
+        "dataFile": {
+          "id": 179396,
+          "persistentId": "",
+          "filename": "Kleinnijenhuis et al -VAAs as sources of volatility and fragmentation.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 3148497,
+          "description": "",
+          "storageIdentifier": "surf://store:186ebbe25d9-75440de6c80e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "16329cdcdd3d02bdb4abcf023c77d48448e4bf56"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-08-01",
+          "lastUpdateTime": "2026-07-19T23:54:07Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Readme.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33623,
+        "dataFile": {
+          "id": 179409,
+          "persistentId": "",
+          "filename": "Readme.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2356,
+          "description": "",
+          "storageIdentifier": "surf://store:186ebbe30c2-7aac98ced102",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fef6dcb5b8efda50670d84ab2e9aac4e14b5fd5b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-08-01",
+          "lastUpdateTime": "2026-07-19T23:54:07Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Readme.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33623,
+        "dataFile": {
+          "id": 179400,
+          "persistentId": "",
+          "filename": "Readme.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 9386,
+          "description": "",
+          "storageIdentifier": "surf://store:186ebbe29ce-b209d5ecc8bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "434739976e6466db5f12fd4e62941d78a370ac00"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-08-01",
+          "lastUpdateTime": "2026-07-19T23:54:07Z",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "J. Kleinnijenhuis, 2016, \"VAA study 2014 municipal council elections The Netherlands (data file)\", https://doi.org/10.17026/DANS-ZW8-GXG2, DANS Data Station Social Sciences and Humanities, V2, UNF:6:8U0M1/cMg9GqRhGiQzrcTQ== [fileUNF]"
+  }
+}

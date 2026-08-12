@@ -1,0 +1,590 @@
+{
+  "id": 402942,
+  "identifier": "QJDFDY",
+  "persistentUrl": "https://doi.org/10.34894/QJDFDY",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-02-06",
+  "storageIdentifier": "surf://10.34894/QJDFDY",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25914,
+    "datasetId": 402942,
+    "datasetPersistentId": "doi:10.34894/QJDFDY",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/QJDFDY",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2020-02-07",
+    "productionDate": "2021-06-01",
+    "lastUpdateTime": "2024-02-06T17:13:50Z",
+    "releaseTime": "2024-02-06T17:13:50Z",
+    "createTime": "2024-02-06T17:10:41Z",
+    "publicationDate": "2024-02-06",
+    "citationDate": "2024-02-06",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Expert opinion and model of natural pest control in agricultural landscapes"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "rating of the land use ability to support natural pest control and simple R model"
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Chopin, Pierre"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "vu.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Chopin, Pierre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "vu.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The survey asks expert How they would estimate the capacity different land use (herbaceous semi-natural habitat, forest edge, forest core) to support the abundance of the following insect groups in the landscape: ‘complete generalists’\n‘specialized predators’, ‘parasitoids’. The score is provided on a scale from 0 (no relevant capacity) to 10 (very high relevance). For each opinion, experts provided a level of confidence: 1 'I don’t feel confident with my score', 2 'I feel fairly confident with my score” and 3: 'I feel confident with my score'.\n\nIn the same way experts were asked to rate a baseline scenario of agricultural fields defined as as a conventionally managed average field (with an average field size of 3-7 ha, fertilization and pesticide application compared to the region of interest) of medium crop diversity with three functional groups over 4 years (e.g., cereal, oilseed crop, root crop). Then experts were asked how much a single change from one practices to an alternative one (e.g., conventional to organic) would affect the score they provided\n\n- 50 to - 100% = considerably worse\n-20 to -50%= notably better\n-1 to -20% = slightly worse\n0 = no change\n+1 to 20% = slightly better\n+20 to 50%= notably better\n+ 50 to 100%= considerably better\n+100 to 200% = extremely better\n\nFinally experts were asked about the distance at which landscape change affect the abundance of the three group of natural enemies.\n\n\nThe score for each practices are derived by mixed effect model and provided in the file Code_Habitats.csv. This file is used in the R model provided here to calculate natural pest control using the weighted moving window describe in Riggi et al., 2024 Ecological Indicators.\n\nNPC_Model_Riggi.R is the code of the model\nFields_AOI.shp represent an example of fields with agricultural land use information\nCadasterEnv_AOI.tif is the land use map\nCADASTERENV_Label_to_change_input.csv allows the reclassification of land use into forest edge, core and herbaceous areas\nCode_Habitats-1.csv contrains the values associated to each support of land use for natural pest control."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-02-06"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Agricultural Sciences",
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ecosystem services"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Expert-based model of the potential for natural pest control with landscape and field scale drivers in intensively managed cereal-dominated agricultural landscapes\nRiggi, L.A.G., Aguilera, G., Chopin, P. Ecological Indicators"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.ecolind.2024.111684"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-06-01"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Sweden"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Collector"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Peitz Charlotte"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SLU (Swedish University of Agricultural Sciences) Cropping system plateform"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-02-07"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Chopin, Pierre"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-02-06"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-06-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-06-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-04-01"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-06-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Expert opinion in the form of Likert scale from 0-10"
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Sweden"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/QJDFDY"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:cbd42ff7-6dba-45e9-881e-cbebcc62d63b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-0fbd0273-a5a0-43f5-bb12-057611b26403"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "CadasterEnv_AOI.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25914,
+        "dataFile": {
+          "id": 402943,
+          "persistentId": "",
+          "filename": "CadasterEnv_AOI.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 95792,
+          "storageIdentifier": "surf://store:18d7f543ec3-4cdcb577b530",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "58daef5ef073d6e083b01a6a128dd0d41b09851e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-06",
+          "publicationDate": "2024-02-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "CadasterEnv_AOI.tif.aux.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25914,
+        "dataFile": {
+          "id": 402951,
+          "persistentId": "",
+          "filename": "CadasterEnv_AOI.tif.aux.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 7725,
+          "storageIdentifier": "surf://store:18d7f5440af-87d784db1b0c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c5cd3997a8e6de96b688d8653dd14734523ed359"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-06",
+          "publicationDate": "2024-02-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "CADASTERENV_Label_to_change_input.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25914,
+        "dataFile": {
+          "id": 402949,
+          "persistentId": "",
+          "filename": "CADASTERENV_Label_to_change_input.csv",
+          "contentType": "text/comma-separated-values",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 10378,
+          "storageIdentifier": "surf://store:18d7f544156-b26688d25bd7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d73aec6d54f0b757ddbbfd7ae5d86c8f27d9c6d3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-06",
+          "publicationDate": "2024-02-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Code_Habitats-1.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25914,
+        "dataFile": {
+          "id": 402952,
+          "persistentId": "",
+          "filename": "Code_Habitats-1.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1023,
+          "storageIdentifier": "surf://store:18d7f5ecb59-6d9afaefcece",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "229fb6a64e8785f7887a7da097e3cb8a24c1fe8d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-06",
+          "publicationDate": "2024-02-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Data_Survey_NaturalPestControl.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25914,
+        "dataFile": {
+          "id": 402944,
+          "persistentId": "",
+          "filename": "Data_Survey_NaturalPestControl.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 22512,
+          "storageIdentifier": "surf://store:18d7f506355-0a77bf81b136",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "609e7c45d1481be9065e68d54e118dab8e8b889a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-06",
+          "publicationDate": "2024-02-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fields_AOI.dbf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25914,
+        "dataFile": {
+          "id": 402946,
+          "persistentId": "",
+          "filename": "Fields_AOI.dbf",
+          "contentType": "application/dbf",
+          "friendlyType": "dBASE Table for ESRI Shapefile",
+          "filesize": 729884,
+          "storageIdentifier": "surf://store:18d7f5442cb-7f33bd2827a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e7210e9e5623416b8a3d2f1dd9f333db98ec561d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-06",
+          "publicationDate": "2024-02-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fields_AOI.prj",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25914,
+        "dataFile": {
+          "id": 402947,
+          "persistentId": "",
+          "filename": "Fields_AOI.prj",
+          "contentType": "application/prj",
+          "friendlyType": "ESRI Shapefile",
+          "filesize": 391,
+          "storageIdentifier": "surf://store:18d7f544395-17b1acb955c6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "11ec20bb395e363c0ae21213bc330f3369562c61"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-06",
+          "publicationDate": "2024-02-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fields_AOI.shp",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25914,
+        "dataFile": {
+          "id": 402945,
+          "persistentId": "",
+          "filename": "Fields_AOI.shp",
+          "contentType": "application/shp",
+          "friendlyType": "Shape",
+          "filesize": 719020,
+          "storageIdentifier": "surf://store:18d7f544456-fed04b35ecfa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "96c2c3559d5da6df6b8d6abf7145c0481945894e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-06",
+          "publicationDate": "2024-02-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fields_AOI.shx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25914,
+        "dataFile": {
+          "id": 402948,
+          "persistentId": "",
+          "filename": "Fields_AOI.shx",
+          "contentType": "application/shx",
+          "friendlyType": "Shape",
+          "filesize": 12844,
+          "storageIdentifier": "surf://store:18d7f54450c-7690ed720b17",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7b3a8223470f784a01548b49851b165d1e8bbd1a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-06",
+          "publicationDate": "2024-02-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "NPC_Model_Riggi.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25914,
+        "dataFile": {
+          "id": 402950,
+          "persistentId": "",
+          "filename": "NPC_Model_Riggi.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 18020,
+          "storageIdentifier": "surf://store:18d7f543da4-42b0974735b8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a3ca055900641eb4e2162b2da46d083cff9fa670"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-06",
+          "publicationDate": "2024-02-06",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Chopin, Pierre, 2024, \"Expert opinion and model of natural pest control in agricultural landscapes\", https://doi.org/10.34894/QJDFDY, DataverseNL, V1"
+  }
+}

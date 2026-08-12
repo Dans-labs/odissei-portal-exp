@@ -1,0 +1,979 @@
+{
+  "id": 352642,
+  "identifier": "LBINBF",
+  "persistentUrl": "https://doi.org/10.34894/LBINBF",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-01-07",
+  "storageIdentifier": "surf://10.34894/LBINBF",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24644,
+    "datasetId": 352642,
+    "datasetPersistentId": "doi:10.34894/LBINBF",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/LBINBF",
+    "versionNumber": 1,
+    "internalVersionNumber": 21,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-01-07T07:11:20Z",
+    "releaseTime": "2023-01-07T07:11:20Z",
+    "createTime": "2023-01-07T06:32:21Z",
+    "publicationDate": "2023-01-07",
+    "citationDate": "2023-01-07",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Antoni van Leeuwenhoek and Johannes Swammerdam: Letter metadata for their second-degree networks combining the CEN and the Epistolarium"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SKILLNET project"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Liliana Melgar"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dirk van Miert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains the files with the metadata of the letters sent and received by Antoni van Leeuwenhoek (1632-1673) and Johannes Swammerdam (1637-1680) up to their second-degree networks. It combines data from two sources: the Catalogus Epistularum Neerlandicarum (CEN) and the Epistolarium (https://ckcc.huygens.knaw.nl/epistolarium/). We first captured their first-degree correspondences in both datasets, and then the correspondents of these correspondents. We ran mappings between the persons in both datasets and combined them.\n<br>\nThis dataset contains all merged files and, nodes + edges files necessary for network analyzes. It also includes screenshots of the network visualizations created with the program Gephi, used in a presentation by researcher Dirk van Miert on October 2021.\n<br>\n<br>\n<b>WARNING</b>: The dataset was created with the version of the CEN data of October 2021. Some of the person Ids may have changed in the latest version of the CEN cleaned by SKILLNET (https://doi.org/10.34894/G8XQI0), however, this version contains updated mapped Ids to the Epistolarium dataset (https://doi.org/10.34894/SVJDYA), which would make it possible to regenerate these datasets again if needed. It is recommended to use the \"tree\" view of the files."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023-01-06"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "letters (correspondence)"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Getty"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.getty.edu/research/tools/vocabularies/aat/index.html"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "correspondence"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q1784733"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Antoni van Leeuwenhoek"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q43522"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jan Swammerdam"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q336794"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Miert, D. (2021, October 11). Visualizing the Unknown and the Republic of Letters. Visualizing the Unknown. Scientific Observation, Representation and Communication in 17th-century Science and Society, Rijksmuseum Boerhaave in Leiden. https://rijksmuseumboerhaave.nl/visualising-unknown-livestream/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Project Leader"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dirk van Miert"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Melgar Estrada, Liliana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-01-07"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/LBINBF"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:1caccfd8-3ef0-4ffb-9009-a8c077541418"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-94fe20e2-8d3c-431d-8a5f-8205a284209f"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "CENandEpistolariumMergedLetters_Slice_Antonie van Leeuwenhoek_20210929-112217.csv",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 352689,
+          "persistentId": "",
+          "filename": "CENandEpistolariumMergedLetters_Slice_Antonie van Leeuwenhoek_20210929-112217.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3146586,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:1858b09e273-b6123af9925c",
+          "rootDataFileId": -1,
+          "md5": "d99f7070624be2d58afb2b880674b6bc",
+          "checksum": {
+            "type": "MD5",
+            "value": "d99f7070624be2d58afb2b880674b6bc"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "CENandEpistolariumMergedLetters_Slice_Jan Swammerdam_20210929-112021.csv",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 352681,
+          "persistentId": "",
+          "filename": "CENandEpistolariumMergedLetters_Slice_Jan Swammerdam_20210929-112021.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 119638,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:1858b09e261-bdc32e0b9479",
+          "rootDataFileId": -1,
+          "md5": "0de09fc32454ea86e7309977315c2b08",
+          "checksum": {
+            "type": "MD5",
+            "value": "0de09fc32454ea86e7309977315c2b08"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "This excel file gives the counts of letters/records per first and second degree correspondent of these two persons in the merged dataset.",
+        "label": "CENandEpistolariumMerged_vanLeeuwenhoekAndSwammerdam_NetworkData_20210929.xls",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined",
+        "version": 2,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352676,
+          "persistentId": "",
+          "filename": "CENandEpistolariumMerged_vanLeeuwenhoekAndSwammerdam_NetworkData_20210929.xls",
+          "contentType": "application/vnd.ms-excel",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 1689600,
+          "description": "This excel file gives the counts of letters/records per first and second degree correspondent of these two persons in the merged dataset.",
+          "storageIdentifier": "surf://store:1858b09e28f-8aafb3fc0144",
+          "rootDataFileId": -1,
+          "md5": "45dc5ee5669bf2b3c361b0440f0388db",
+          "checksum": {
+            "type": "MD5",
+            "value": "45dc5ee5669bf2b3c361b0440f0388db"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "This is the file with the edges that was imported to Gephi.",
+        "label": "edges.csv",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_project",
+        "version": 2,
+        "datasetVersionId": 24644,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 352669,
+          "persistentId": "",
+          "filename": "edges.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 271174,
+          "description": "This is the file with the edges that was imported to Gephi.",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:1858b09e2b0-42cb7d3ae898",
+          "rootDataFileId": -1,
+          "md5": "6ecdbd8fd156053bdec892c5866dd132",
+          "checksum": {
+            "type": "MD5",
+            "value": "6ecdbd8fd156053bdec892c5866dd132"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "This is a gephi project file, it can only be opened with the tool Gephi (https://gephi.org/).",
+        "label": "LeeuwenhoekCENEpistolarium20210930.gephi",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_project",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352674,
+          "persistentId": "",
+          "filename": "LeeuwenhoekCENEpistolarium20210930.gephi",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 263620,
+          "description": "This is a gephi project file, it can only be opened with the tool Gephi (https://gephi.org/).",
+          "storageIdentifier": "surf://store:1858b09e2bb-d959f7b19e42",
+          "rootDataFileId": -1,
+          "md5": "d70f5cd86a1e78169bcbf2cf0d4be512",
+          "checksum": {
+            "type": "MD5",
+            "value": "d70f5cd86a1e78169bcbf2cf0d4be512"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "This file contains network statistics generated by the Gephi tool.",
+        "label": "leeuwenhoekCENEpistolariumNetworkStats_gephi_20210930-csv.xls",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_project",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 352675,
+          "persistentId": "",
+          "filename": "leeuwenhoekCENEpistolariumNetworkStats_gephi_20210930-csv.xls",
+          "contentType": "application/vnd.ms-excel",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 428032,
+          "description": "This file contains network statistics generated by the Gephi tool.",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:1858b09e2a8-9eef7f5a286c",
+          "rootDataFileId": -1,
+          "md5": "de8818ea1fadd14d7b36c65da32a2932",
+          "checksum": {
+            "type": "MD5",
+            "value": "de8818ea1fadd14d7b36c65da32a2932"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "leeuwenhoekSwammerdamMergedLettersCENEpistol_20210929.csv",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/dataImportedToNodegoat",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 352667,
+          "persistentId": "",
+          "filename": "leeuwenhoekSwammerdamMergedLettersCENEpistol_20210929.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3061820,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:1858b09e4f5-3f95033ce066",
+          "rootDataFileId": -1,
+          "md5": "1cbb53ac701d98843cddd0001b7870c6",
+          "checksum": {
+            "type": "MD5",
+            "value": "1cbb53ac701d98843cddd0001b7870c6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "leeuwenhoekSwammerdamUniquePersons_20210929.csv",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/dataImportedToNodegoat",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 352682,
+          "persistentId": "",
+          "filename": "leeuwenhoekSwammerdamUniquePersons_20210929.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 80591,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:1858b09e50c-2db245f0b969",
+          "rootDataFileId": -1,
+          "md5": "0c846814a5c19d362555b5c9c295c15b",
+          "checksum": {
+            "type": "MD5",
+            "value": "0c846814a5c19d362555b5c9c295c15b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "This is the file with the nodes that was imported to Gephi.",
+        "label": "nodes.csv",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_project",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 352690,
+          "persistentId": "",
+          "filename": "nodes.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 80580,
+          "description": "This is the file with the nodes that was imported to Gephi.",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:1858b09e29d-69f731263081",
+          "rootDataFileId": -1,
+          "md5": "233eba25361c781dc1983c01719a661a",
+          "checksum": {
+            "type": "MD5",
+            "value": "233eba25361c781dc1983c01719a661a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-09-29 at 15.12.10.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352688,
+          "persistentId": "",
+          "filename": "Screenshot 2021-09-29 at 15.12.10.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1502626,
+          "storageIdentifier": "surf://store:1858b09e386-6811906ce186",
+          "rootDataFileId": -1,
+          "md5": "bcbacd3369dc2ec531c595aa6be98381",
+          "checksum": {
+            "type": "MD5",
+            "value": "bcbacd3369dc2ec531c595aa6be98381"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-09-29 at 15.12.13.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352680,
+          "persistentId": "",
+          "filename": "Screenshot 2021-09-29 at 15.12.13.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1503196,
+          "storageIdentifier": "surf://store:1858b09e343-7151825a9cbd",
+          "rootDataFileId": -1,
+          "md5": "445ff3a254a681285ac001ccccd64a10",
+          "checksum": {
+            "type": "MD5",
+            "value": "445ff3a254a681285ac001ccccd64a10"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-09-29 at 15.20.25.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352671,
+          "persistentId": "",
+          "filename": "Screenshot 2021-09-29 at 15.20.25.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1504617,
+          "storageIdentifier": "surf://store:1858b09e41b-6c7fbec73583",
+          "rootDataFileId": -1,
+          "md5": "4f2a7ac0cb0e17aa13987f482c36bc3d",
+          "checksum": {
+            "type": "MD5",
+            "value": "4f2a7ac0cb0e17aa13987f482c36bc3d"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-09-29 at 15.25.10.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352668,
+          "persistentId": "",
+          "filename": "Screenshot 2021-09-29 at 15.25.10.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1363469,
+          "storageIdentifier": "surf://store:1858b09e458-2250040ee874",
+          "rootDataFileId": -1,
+          "md5": "e5d59fdf14b3abb5e12948683c44da04",
+          "checksum": {
+            "type": "MD5",
+            "value": "e5d59fdf14b3abb5e12948683c44da04"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-09-29 at 15.41.25.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352683,
+          "persistentId": "",
+          "filename": "Screenshot 2021-09-29 at 15.41.25.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 2866942,
+          "storageIdentifier": "surf://store:1858b09e48d-4476c294e492",
+          "rootDataFileId": -1,
+          "md5": "526b8a4351f573aceaf5c471c15d6fb7",
+          "checksum": {
+            "type": "MD5",
+            "value": "526b8a4351f573aceaf5c471c15d6fb7"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-09-30 at 16.03.48.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352686,
+          "persistentId": "",
+          "filename": "Screenshot 2021-09-30 at 16.03.48.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 508493,
+          "storageIdentifier": "surf://store:1858b09e399-82e6672e217d",
+          "rootDataFileId": -1,
+          "md5": "0dd4eaadedff41e61ffd58ff196bb56d",
+          "checksum": {
+            "type": "MD5",
+            "value": "0dd4eaadedff41e61ffd58ff196bb56d"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-09-30 at 17.20.24.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352679,
+          "persistentId": "",
+          "filename": "Screenshot 2021-09-30 at 17.20.24.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1725967,
+          "storageIdentifier": "surf://store:1858b09e31c-f13e820d7dc9",
+          "rootDataFileId": -1,
+          "md5": "60238afe1e4bfa00ee891dedf8f2b9c2",
+          "checksum": {
+            "type": "MD5",
+            "value": "60238afe1e4bfa00ee891dedf8f2b9c2"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-09-30 at 17.22.28.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352685,
+          "persistentId": "",
+          "filename": "Screenshot 2021-09-30 at 17.22.28.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1768556,
+          "storageIdentifier": "surf://store:1858b09e3b8-34efa700aaca",
+          "rootDataFileId": -1,
+          "md5": "48ea8104e126ee1b8f2a25572aaf2b33",
+          "checksum": {
+            "type": "MD5",
+            "value": "48ea8104e126ee1b8f2a25572aaf2b33"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-09-30 at 17.25.57.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352684,
+          "persistentId": "",
+          "filename": "Screenshot 2021-09-30 at 17.25.57.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 2025617,
+          "storageIdentifier": "surf://store:1858b09e3f8-61b1b0e68966",
+          "rootDataFileId": -1,
+          "md5": "1f81447839e329d31b05a54ea985a134",
+          "checksum": {
+            "type": "MD5",
+            "value": "1f81447839e329d31b05a54ea985a134"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-09-30 at 17.26.29.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352687,
+          "persistentId": "",
+          "filename": "Screenshot 2021-09-30 at 17.26.29.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1654342,
+          "storageIdentifier": "surf://store:1858b09e4de-d228f08c909d",
+          "rootDataFileId": -1,
+          "md5": "04b6af155827685495d11652c41cb5bc",
+          "checksum": {
+            "type": "MD5",
+            "value": "04b6af155827685495d11652c41cb5bc"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-10-01 at 07.14.08.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352672,
+          "persistentId": "",
+          "filename": "Screenshot 2021-10-01 at 07.14.08.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1344904,
+          "storageIdentifier": "surf://store:1858b09e43a-c3eae2ad5335",
+          "rootDataFileId": -1,
+          "md5": "ca14a4f8b77972123c2e33dd9c79d65e",
+          "checksum": {
+            "type": "MD5",
+            "value": "ca14a4f8b77972123c2e33dd9c79d65e"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-10-01 at 07.15.22.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352678,
+          "persistentId": "",
+          "filename": "Screenshot 2021-10-01 at 07.15.22.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1639826,
+          "storageIdentifier": "surf://store:1858b09e366-afeff1fa350f",
+          "rootDataFileId": -1,
+          "md5": "1581adda33a9a632fe328a695b0c5293",
+          "checksum": {
+            "type": "MD5",
+            "value": "1581adda33a9a632fe328a695b0c5293"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-10-01 at 07.18.27.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352670,
+          "persistentId": "",
+          "filename": "Screenshot 2021-10-01 at 07.18.27.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1010890,
+          "storageIdentifier": "surf://store:1858b09e3d3-c0cc6894b50b",
+          "rootDataFileId": -1,
+          "md5": "28b7424cc1795539c3348b2dca40a107",
+          "checksum": {
+            "type": "MD5",
+            "value": "28b7424cc1795539c3348b2dca40a107"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-10-01 at 07.18.36.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352677,
+          "persistentId": "",
+          "filename": "Screenshot 2021-10-01 at 07.18.36.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1643162,
+          "storageIdentifier": "surf://store:1858b09e4b9-ea949b8750da",
+          "rootDataFileId": -1,
+          "md5": "04243fa26f31c050873b3ee0d573844b",
+          "checksum": {
+            "type": "MD5",
+            "value": "04243fa26f31c050873b3ee0d573844b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Screenshot 2021-10-01 at 16.13.00.png",
+        "restricted": false,
+        "directoryLabel": "Swammerdam_Leeuwenhoek_combined/gephi_network_screenshots",
+        "version": 1,
+        "datasetVersionId": 24644,
+        "dataFile": {
+          "id": 352673,
+          "persistentId": "",
+          "filename": "Screenshot 2021-10-01 at 16.13.00.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 3621242,
+          "storageIdentifier": "surf://store:1858b09e2ed-531899997960",
+          "rootDataFileId": -1,
+          "md5": "65d35f2543c6a4569235af7be507ab53",
+          "checksum": {
+            "type": "MD5",
+            "value": "65d35f2543c6a4569235af7be507ab53"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-07",
+          "publicationDate": "2023-01-07",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "SKILLNET project, 2023, \"Antoni van Leeuwenhoek and Johannes Swammerdam: Letter metadata for their second-degree networks combining the CEN and the Epistolarium\", https://doi.org/10.34894/LBINBF, DataverseNL, V1"
+  }
+}

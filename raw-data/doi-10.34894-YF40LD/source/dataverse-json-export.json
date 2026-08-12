@@ -1,0 +1,4324 @@
+{
+  "id": 512467,
+  "identifier": "YF40LD",
+  "persistentUrl": "https://doi.org/10.34894/YF40LD",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-21",
+  "storageIdentifier": "surf://10.34894/YF40LD",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31455,
+    "datasetId": 512467,
+    "datasetPersistentId": "doi:10.34894/YF40LD",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/YF40LD",
+    "versionNumber": 1,
+    "internalVersionNumber": 129,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2021-10-15",
+    "lastUpdateTime": "2025-08-21T20:30:16Z",
+    "releaseTime": "2025-08-21T20:30:16Z",
+    "createTime": "2025-08-21T20:24:05Z",
+    "publicationDate": "2025-08-21",
+    "citationDate": "2025-08-21",
+    "termsOfUse": "GPL-3.0+ – <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\" target=\"_blank\">https://www.gnu.org/licenses/gpl-3.0.html</a>",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "robustHD: An R package for robust regression with high-dimensional data"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.16802596"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Alfons, Andreas"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-2513-3788"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Alfons, Andreas"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus School of Economics <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Robust methods for high-dimensional data, in particular linear model selection techniques based on least angle regression and sparse regression.<div><br></div><div>This is version 0.7.1 corresponding to the publication in the Journal of Open Source Software.</div>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "High-Dimensional Data"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Regression"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Robust Statistics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Variable Selection"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Statistics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Statistics Not Elsewhere Classified"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a one hundred and twenty-two-file data package totaling 3.6 MB, containing files in , .pdf, .c, .R, .Rmd, .md, .Rd, .bib, .win, .cpp, .svg, .RData, .Rproj and .h formats.<p><p>If you use this dataset, please cite: Alfons, Andreas (2021). robustHD: An R package for robust regression with high-dimensional data. Erasmus University Rotterdam (EUR). Software. <a href=\"https://doi.org/10.25397/eur.16802596\" target=\"_blank\">https://doi.org/10.25397/eur.16802596</a><p>"
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "[Funder Name: Dutch Research Council; Grant Label: Robust analysis of (big) rating-scale data in the social sciences; Grant URL: https://app.dimensions.ai/details/grant/grant.9462293]"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "[Grant Code: VI.Vidi.195.141]"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-10-15"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Alfons, Andreas"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-10-13"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://github.com/aalfons/robustHD\" target=\"_blank\">https://github.com/aalfons/robustHD</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/YF40LD"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:47776f5d-ab10-4bb4-aa63-b70425a02ad4"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-0c24942a-909d-441e-9322-48fd00523f3b"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "accessors.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512478,
+          "persistentId": "",
+          "filename": "accessors.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 7075,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4ef7d0-bfcf72ac38fd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0ab81b929c3f6b45f6ca17f358ec6e0e7ce5d692"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "AIC.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512477,
+          "persistentId": "",
+          "filename": "AIC.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 5647,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4ef6fc-b4baa67ce46c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f85c675763e99e09dfefbb0c98217d45227b16e3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "AIC.seqModel.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512537,
+          "persistentId": "",
+          "filename": "AIC.seqModel.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3866,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f73cc-1aacf07fea54",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a52a4d5a20e4a3830d592401d92f6ff28ce073cd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "coefPlot.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512540,
+          "persistentId": "",
+          "filename": "coefPlot.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4459,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f7763-834c53960926",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ff9cd92373fe4c8f06456a171d24d8c4235821fe"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "coef.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512479,
+          "persistentId": "",
+          "filename": "coef.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 4490,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4efa06-28a8bbb9f4a5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6e26f6ad547df7edfd08e92175b37ab44be01d48"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "coef.seqModel.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512539,
+          "persistentId": "",
+          "filename": "coef.seqModel.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4119,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f7622-85ecd372e9b1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7efb83f3399209a69897202c04525a48bb29714d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "corHuber.cpp",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512569,
+          "persistentId": "",
+          "filename": "corHuber.cpp",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 7441,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fbc6e-442f28cebff5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e65a368ab42616842a31aa855c6e7c92510c6b1f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "corHuber.h",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512570,
+          "persistentId": "",
+          "filename": "corHuber.h",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 718,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fbdd2-6258e9a40d52",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8f7a51429054ff9905ba5d7901763a3e4d56c9d2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "corHuber.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512480,
+          "persistentId": "",
+          "filename": "corHuber.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 5969,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4efafa-950a3faaf970",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9d89eb736ef374e39a6de1f7213491695d2ef843"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "corHuber.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512541,
+          "persistentId": "",
+          "filename": "corHuber.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3935,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f789d-2492575a29d6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "64becce5545241c176b131c1569480b67a99fc00"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "critPlot.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512542,
+          "persistentId": "",
+          "filename": "critPlot.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4201,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f79e2-8c812c7063f5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9dbfcf44ad75982463eadf86953c65d68d5211d8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "DESCRIPTION",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512470,
+          "persistentId": "",
+          "filename": "DESCRIPTION",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 829,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4eef3a-b4cf4b738099",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6b3716195f98cf33fd2d0ec26a20df9ad2a625f0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "diagnosticPlot.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512543,
+          "persistentId": "",
+          "filename": "diagnosticPlot.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7435,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f7b12-3402376ead56",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1a6a4794f9914bb0a2e84db46876b4343036dd9c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-AIC.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512510,
+          "persistentId": "",
+          "filename": "example-AIC.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1049,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f353c-291423637865",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "34276fcc6be2373c523f17cb19e3725efe3d0dcf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-coefPlot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512512,
+          "persistentId": "",
+          "filename": "example-coefPlot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1050,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f374b-5c91eca1c6f0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bd7c5d5bbe95abc233a257e01837b3abb8f051cb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-coef.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512511,
+          "persistentId": "",
+          "filename": "example-coef.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1242,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f3651-aa4977e0013b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6fd2b1bfcbdacb68df9ce9df021f255a59427ad1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-critPlot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512513,
+          "persistentId": "",
+          "filename": "example-critPlot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1050,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f385e-cea182c8f070",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0ac101b3ae9670dd94660be68710e99c85c98fbe"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-diagnosticPlot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512514,
+          "persistentId": "",
+          "filename": "example-diagnosticPlot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1000,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f3974-144eadd01f41",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "101398c3230c623c25c4c3f595520fe2bad0665f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-fitted.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512515,
+          "persistentId": "",
+          "filename": "example-fitted.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1190,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f3a9c-858e037e74f8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "104096d0ffb434c133721965b4fc08baf1a7c197"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-fortify.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512516,
+          "persistentId": "",
+          "filename": "example-fortify.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1031,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f4427-c035800a05a9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "86f8ba0a3a1e7b0219da1f0fa2709397c64b39a0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-lambda0.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512517,
+          "persistentId": "",
+          "filename": "example-lambda0.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 820,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f453d-9df6603cfdce",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "00bd42c91011c46155f3a0a038e9e66bc94ee66d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-perry.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512518,
+          "persistentId": "",
+          "filename": "example-perry.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 967,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f465f-4a3ff6b564c0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ffad78694305225aa8ee0030d14e5af0c7271514"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-plot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512519,
+          "persistentId": "",
+          "filename": "example-plot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1189,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f477d-2a75172e949f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "27b8a8ae600fcd500e65e656f4142ba12f861bf6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-predict.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512520,
+          "persistentId": "",
+          "filename": "example-predict.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1234,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f489f-b33260b013c8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6b1f0004437644635ab42c576b8ff99f54838860"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-residuals.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512521,
+          "persistentId": "",
+          "filename": "example-residuals.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1200,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f49ae-b382d4e58393",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3edb2aefe976eb0d5a8a2600bc75a0ff89b2093b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-rgrplars.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512522,
+          "persistentId": "",
+          "filename": "example-rgrplars.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 318,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f4ac7-e164d949a387",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a324342a34a1e9b541d199d738d82572b4100b93"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example_rgrplars.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/paper",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512529,
+          "persistentId": "",
+          "filename": "example_rgrplars.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1417,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f5de1-846f5c99a7af",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b8c618b2b2c81a6595d0822f6dfe201f73b4d282"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-rlars.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512523,
+          "persistentId": "",
+          "filename": "example-rlars.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 766,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f4bf7-42aaa0cc4e6a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "89923ff2f6cdf25b8d5489fc98eb36573e1c989a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-setupCoefPlot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512524,
+          "persistentId": "",
+          "filename": "example-setupCoefPlot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1186,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f4d1c-6f31d45b1df7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "92c58c06a1dd1f7382ab5b0c4847d710a18a1635"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-setupCritPlot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512525,
+          "persistentId": "",
+          "filename": "example-setupCritPlot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1186,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f594b-90eaf52339df",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "04f0f6d7dac9f7e831cd074d480e6e207839689e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-setupDiagnosticPlot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512526,
+          "persistentId": "",
+          "filename": "example-setupDiagnosticPlot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1154,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f5a60-fa903c3dd6f7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3fff5a5420f895a62b90e63f722513c4e2d6025a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-sparseLTS.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512527,
+          "persistentId": "",
+          "filename": "example-sparseLTS.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 960,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f5b82-45e3934f03bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e3267a69b0e4485faf50e52c034f5b7dd21cf056"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example_sparseLTS.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/paper",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512530,
+          "persistentId": "",
+          "filename": "example_sparseLTS.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1317,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f5f1e-788d84d9a552",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "245e24b3df4b6d1f75345e14791b85b6bce39e39"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "example-weights.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/examples",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512528,
+          "persistentId": "",
+          "filename": "example-weights.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1033,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f5cb2-329c2ebbec3c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fbd178042828afef4c9662f49443c99e7183d29b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastGrplars.cpp",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512571,
+          "persistentId": "",
+          "filename": "fastGrplars.cpp",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 10614,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fd27a-424867e8b955",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "28a0682f85070bb2984189c9430d98d6807ea7c5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastGrplars.h",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512572,
+          "persistentId": "",
+          "filename": "fastGrplars.h",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 414,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fd3d2-67278d5c325a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f94dc9574bf25c36326568104a83608f912462f9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastLars.cpp",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512573,
+          "persistentId": "",
+          "filename": "fastLars.cpp",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 7949,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fd53c-646b6b35106e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f95824691f1b27e177131816e06e69fdf74a4ff9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastLars.h",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512574,
+          "persistentId": "",
+          "filename": "fastLars.h",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 455,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fd6ad-d329c8bd3e25",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e31221e097a26ed7660ed93a7cb0ec650aa8ec52"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastLasso.cpp",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512575,
+          "persistentId": "",
+          "filename": "fastLasso.cpp",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 19338,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fd822-66d128d6f36b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a0b0ccbff1906d71234b7062e006c35b41b24774"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastLasso.h",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512576,
+          "persistentId": "",
+          "filename": "fastLasso.h",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 882,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fd9b7-5d65168efa6e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "63658e127e7743e257f77244be77a93b4b019b6c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastLasso.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512481,
+          "persistentId": "",
+          "filename": "fastLasso.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1716,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4efbd1-7e653d12a723",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ddb0e3a4397711de6ba37109efaf181c214300c4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastRlars.cpp",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512577,
+          "persistentId": "",
+          "filename": "fastRlars.cpp",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 6062,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fdb58-49b11a14616e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e9044bdaac821b9dce3d3ec4cad4625c71eec941"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastRlars.h",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512578,
+          "persistentId": "",
+          "filename": "fastRlars.h",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 449,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fdccb-e1eb2e8a546b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c0485b15196d9788598b41f099272502603b799f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastSparseLTS.cpp",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512579,
+          "persistentId": "",
+          "filename": "fastSparseLTS.cpp",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 14188,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fde86-d527cd30a50e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6d3f809c4d9b955735dcba310875766347b9256f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fastSparseLTS.h",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512580,
+          "persistentId": "",
+          "filename": "fastSparseLTS.h",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 919,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fdff8-52dca74be61e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7f2634f28dd1981f168fae6254aaee20e35ff26b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "figure_rgrplars-1.svg",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/paper",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512531,
+          "persistentId": "",
+          "filename": "figure_rgrplars-1.svg",
+          "contentType": "image/svg+xml",
+          "friendlyType": "SVG Image",
+          "filesize": 89649,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f6080-dfcc84765549",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "146ead455d97e61d35b2f05082edb4b0db269668"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "figure_rgrplars.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/paper",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512532,
+          "persistentId": "",
+          "filename": "figure_rgrplars.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 28911,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f61ce-53ecfd2c6cf0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c357e4da251dc4a1f347ebd627a668506927518b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "figure_sparseLTS-1.svg",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/paper",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512533,
+          "persistentId": "",
+          "filename": "figure_sparseLTS-1.svg",
+          "contentType": "image/svg+xml",
+          "friendlyType": "SVG Image",
+          "filesize": 20962,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f632c-4ea58748fa7c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2bdd20a745aaa7f2d6ac76a9f80b248a28a9bfe3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "figure_sparseLTS.pdf",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/paper",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512534,
+          "persistentId": "",
+          "filename": "figure_sparseLTS.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 10063,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f6458-7c0df8c2abd9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c4f211bfa75124702017332a2f0fc54a8e248000"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fitted.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512482,
+          "persistentId": "",
+          "filename": "fitted.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3783,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4eff57-d319bb403b29",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "413e6df71f5bbd9a8050cca929aaa3269c1d380e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fitted.seqModel.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512544,
+          "persistentId": "",
+          "filename": "fitted.seqModel.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3936,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f7c47-df0d4b7a14e2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d7be25339349b2d51034ca1e2094dd637de0019e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "getScale.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512545,
+          "persistentId": "",
+          "filename": "getScale.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2488,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f7d79-9efdc0b2243a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ed69ec220e519024ee9877dda516fc882d98d748"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": ".gitignore",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512469,
+          "persistentId": "",
+          "filename": ".gitignore",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 90,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4eee6c-7bb7d9902002",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cb030348ba9d3545020b7003840751d8db3aaa82"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "grouplars.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512483,
+          "persistentId": "",
+          "filename": "grouplars.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 13349,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f0034-6977572eba5d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a32d2bc837b928f7948cf477483b283e7011709f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "grplars.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512484,
+          "persistentId": "",
+          "filename": "grplars.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 16603,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f017f-b022bfe5635c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "84a85e8457116e961071ae05e3f29f331483955f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "grplars.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512546,
+          "persistentId": "",
+          "filename": "grplars.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 10239,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f8d0f-db52c8156147",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "63d1892f5a0959fea218b4ed3f380c563563f6f7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "initialSubsets.cpp",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512581,
+          "persistentId": "",
+          "filename": "initialSubsets.cpp",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 2290,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fe173-c765906765df",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76943c40de6e7378143745ae1e6fae23214aa0b7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "initialSubsets.h",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512582,
+          "persistentId": "",
+          "filename": "initialSubsets.h",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 442,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fe2e7-c7170dc8a83d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dbc53676b9bd9d30c7f816db02708165296a5ebf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "initialSubsets.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512485,
+          "persistentId": "",
+          "filename": "initialSubsets.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2101,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f0597-415d0b5c3558",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b93c4b92ec30651d1d95859f62f6e5a35302f983"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "lambda0.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512486,
+          "persistentId": "",
+          "filename": "lambda0.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 4887,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f0674-c216c7cc4d67",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a1f3ef698f1dc5fabf6a71ad4643abb69890e202"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "lambda0.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512547,
+          "persistentId": "",
+          "filename": "lambda0.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4171,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f8e78-08f29e557f2d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b5a4529eccb70b4637a6653e35b47cd66a91590b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "LICENSE",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512471,
+          "persistentId": "",
+          "filename": "LICENSE",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 35149,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4ef017-8404b99fd884",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "31a3d460bb3c7d98845187c716a30db81c44b615"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Makevars",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512567,
+          "persistentId": "",
+          "filename": "Makevars",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 331,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fb9c0-c1fb4254dec2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1be9275504291e1718e93674968c531bf1ff3a87"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Makevars.win",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512568,
+          "persistentId": "",
+          "filename": "Makevars.win",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 425,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fbb10-c260e89e8d81",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "451d99c497e81d09a9c72e407644b27893e66bd7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "NAMESPACE",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512472,
+          "persistentId": "",
+          "filename": "NAMESPACE",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 3451,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4ef131-6f5d74d5e337",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1c7706acc2cd4d3470e663fa6c2cf6cf76df0063"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "nci60.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512548,
+          "persistentId": "",
+          "filename": "nci60.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1839,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f8fcc-d585f765018f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9461c149426480df78f9ff65fddc2e97cc63e955"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "nci60.RData",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/data",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512509,
+          "persistentId": "",
+          "filename": "nci60.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 2373447,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f33ca-e0abd8e47677",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c9c21622d287d333479c59d4ca438fe0bf5c56f0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "NEWS",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512473,
+          "persistentId": "",
+          "filename": "NEWS",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 5584,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4ef1fc-727a75aab47d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "091f1c49d434d18e2d43f4632d8e1a226461cc51"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "paper.bib",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/paper",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512535,
+          "persistentId": "",
+          "filename": "paper.bib",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4997,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f7186-2ec893df33f1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b0022fc2f3c583662401f633cf9997497deaa5e7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "paper.md",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/inst/doc/paper",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512536,
+          "persistentId": "",
+          "filename": "paper.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 9825,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f72ac-16bff21270b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "74930f10865f4326376e0ebea27bc2da404439b5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "partialOrder.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512549,
+          "persistentId": "",
+          "filename": "partialOrder.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1031,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f911e-cd36f35799c6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0d27bd8d6cb2f481246dfb9e791eb1c95a18e297"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "perry.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512487,
+          "persistentId": "",
+          "filename": "perry.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 7349,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f075f-2aa1a5a7550f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "32892d6925c179088d5d90aa36855d42f0c05d0a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "perry.seqModel.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512550,
+          "persistentId": "",
+          "filename": "perry.seqModel.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 5542,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f925d-d6c5c980bf66",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7b5acd6a8a20371ddfb8e86a16046349a834debf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "plot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512488,
+          "persistentId": "",
+          "filename": "plot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 33584,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f0844-8e5e1dcbdf5b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "24afe664fcccc4dc4dc205dec872476d897ac92d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "plot.seqModel.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512551,
+          "persistentId": "",
+          "filename": "plot.seqModel.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3323,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f939f-262fd5f7d713",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "369e683cb926de58c91cf3b96b798a080eefbdc2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "predict.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512489,
+          "persistentId": "",
+          "filename": "predict.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 9157,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f092b-bbd3334f95e0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "226667e7dd2dc6bd9d019620d92e8e9d32cd248f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "predict.seqModel.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512552,
+          "persistentId": "",
+          "filename": "predict.seqModel.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4821,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f94ff-36d58102c7df",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e3931b5f53ddb632089a28124e3b6a4faba2d7ed"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "print.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512490,
+          "persistentId": "",
+          "filename": "print.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 5190,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f0db3-3272489f5c1e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "61934b03031ba1d24713a5d07d798e67fde38c9b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": ".Rbuildignore",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512468,
+          "persistentId": "",
+          "filename": ".Rbuildignore",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 72,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4eeda7-eea62d66de6b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "49e146a5fae2095fd4a506b1511512c41a98d17d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "README.md",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512475,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 12873,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4ef41c-4b2fbff206b6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8970a20ba1adf3eb103b8016daa74e8fea015afc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "README.Rmd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512474,
+          "persistentId": "",
+          "filename": "README.Rmd",
+          "contentType": "text/x-r-notebook",
+          "friendlyType": "R Notebook",
+          "filesize": 12028,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4ef349-2cabf2c76fb0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "689705fc79a0947bf61650d93962c886e1ea76f4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "regFun.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512491,
+          "persistentId": "",
+          "filename": "regFun.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1812,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f0e9c-6635f62660b4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9a5781a1b2b53087f31f3d1e8934a243204f727d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "residuals.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512492,
+          "persistentId": "",
+          "filename": "residuals.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 6818,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f0f8f-8569d63e70ce",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0c0f185559657d67225ba50e34c5b8f524d7362d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "residuals.seqModel.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512553,
+          "persistentId": "",
+          "filename": "residuals.seqModel.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4109,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f9642-7247a2f1991a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "51eb40d33dc97c81e7e91a8c979879dd735a1812"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "rlars.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512493,
+          "persistentId": "",
+          "filename": "rlars.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 16143,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f106c-6ac3f6d7461d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6d7de3c74d29732608bbd63eb61470d552cfb07f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "rlars.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512554,
+          "persistentId": "",
+          "filename": "rlars.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 9676,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f9794-20c3ab0e0a04",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d292556657ccb5a7fc5c79de4d0efef94699984a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "robustHD-deprecated.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512494,
+          "persistentId": "",
+          "filename": "robustHD-deprecated.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 26489,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f1158-a2cb306bb124",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a58add2251c6582272659d61e2ef3e8984efaa97"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "robustHD-deprecated.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512555,
+          "persistentId": "",
+          "filename": "robustHD-deprecated.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 5569,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f98e8-8cb9b2ce00a7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7b0a19a7eb93a9160d217eb6468d87c24339996a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "robustHD_init.c",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512583,
+          "persistentId": "",
+          "filename": "robustHD_init.c",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 1963,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fe463-018ae01d0bcd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7a002f4e23771c43070331959a97b265a56c2abe"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "robustHD-package.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512556,
+          "persistentId": "",
+          "filename": "robustHD-package.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 351,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f9a3f-1d8060a7189a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "455337286c3f81ec96e0a3f3e09ad4de1a896d17"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "robustHD.Rproj",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512476,
+          "persistentId": "",
+          "filename": "robustHD.Rproj",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 415,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4ef62e-5597b10c1941",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4e855543d0f03c75becad3cdd4ae74a5db62c66d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "seqModel.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512495,
+          "persistentId": "",
+          "filename": "seqModel.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 4015,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f17a8-7e7829a4c4d3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9736ebf851fa1c247787b80fe5f67f48da3bae83"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "setupCoefPlot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512496,
+          "persistentId": "",
+          "filename": "setupCoefPlot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 11452,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f18af-2567c80a95e8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2705bf5c9318dcfea18c42fe2b9c387fcf904ac8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "setupCoefPlot.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512557,
+          "persistentId": "",
+          "filename": "setupCoefPlot.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 5985,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f9b85-ae0708aec2cf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0a9ec2d2420dee7ad28fc9cacec92a2473208bff"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "setupCritPlot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512497,
+          "persistentId": "",
+          "filename": "setupCritPlot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 9341,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f19af-0a472c36d380",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f67fa531af0843046c3947e54d38650dd7e9ad2d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "setupCritPlot.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512558,
+          "persistentId": "",
+          "filename": "setupCritPlot.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 5605,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fad6d-4aa5e5c9bcc2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7fb1638a4ed6a89e9dab0efe90528b1b1d2598fb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "setupDiagnosticPlot.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512498,
+          "persistentId": "",
+          "filename": "setupDiagnosticPlot.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 18427,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f1aba-fbd486a56cdd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83e69eee6d965c4613ed2004ae70e083da94e9eb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "setupDiagnosticPlot.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512559,
+          "persistentId": "",
+          "filename": "setupDiagnosticPlot.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 5750,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4faebd-ae2d961744ba",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b08e95ede7ed994105e5da365df6696aeed0e111"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "sparseLTS.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512499,
+          "persistentId": "",
+          "filename": "sparseLTS.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 27175,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f1bc7-edcf97e75e6d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bd2de80f1a825a87518a87c703082592e7db7fda"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "sparseLTS.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512560,
+          "persistentId": "",
+          "filename": "sparseLTS.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 13691,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fb00d-d07e168708b9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "10e250d41f935eec0b47eed2a03b91b7be9bd4fd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "standardize.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512500,
+          "persistentId": "",
+          "filename": "standardize.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 5018,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f1cbb-1f6d92b03a06",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d74616374cf56af21076aad382b4dafe7f01120c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "standardize.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512561,
+          "persistentId": "",
+          "filename": "standardize.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2177,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fb170-e388e7cba465",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "80aff091f28279aaf0a3f38ca5e11e3043af5657"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "test-fastLasso-highdim.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/tests/testthat",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512587,
+          "persistentId": "",
+          "filename": "test-fastLasso-highdim.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1551,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce5000b4-287ba37b29a0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efd86a51ea88e60c084f84612f50f79640a5d0b9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "test-fastLasso-multiple.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/tests/testthat",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512588,
+          "persistentId": "",
+          "filename": "test-fastLasso-multiple.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1912,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce500238-43bcdfb7729f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4998a80c729c2f93c142b18426218ffd44c179ca"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "test-fastLasso-simple.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/tests/testthat",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512589,
+          "persistentId": "",
+          "filename": "test-fastLasso-simple.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1768,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce5003cd-0daa93ddfaf4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7e8329cd196ad7f84179835ee51e158d63e52a91"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "test.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512501,
+          "persistentId": "",
+          "filename": "test.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1189,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f240b-bd5737aabcb2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6790dfa454e96e65d62f6427fdfee1505e2d1b92"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "testthat.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/tests",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512586,
+          "persistentId": "",
+          "filename": "testthat.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 126,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fff2e-b2b892ee0c35",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fa69e5e96383dea10714bfe4d93028fc6fd35f1c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "TopGear.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512538,
+          "persistentId": "",
+          "filename": "TopGear.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3716,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f74f8-cd3f69389c46",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "25460bcd1d82103c51a98702e5f1ee5e2cc65ff2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "TopGear.RData",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/data",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512508,
+          "persistentId": "",
+          "filename": "TopGear.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 17734,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f328e-bd2dc2f5a9f1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f3a9df5058619dd8cffb9c368521a8e53f3ccf08"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "tsBlocks.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512502,
+          "persistentId": "",
+          "filename": "tsBlocks.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2947,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f2514-82d9e755ed59",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7694dafd3f44db378e452721131673af3168fe6d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "tsBlocks.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512562,
+          "persistentId": "",
+          "filename": "tsBlocks.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1324,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fb2d2-15c9a239675e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "df5b6a4ce69b8794a3b07fb5588cb79d632407b5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "tslarsP.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512504,
+          "persistentId": "",
+          "filename": "tslarsP.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 14130,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f26fa-f931b575baf9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "35613d0c7872e2985306e515e99a08aabf2c4c37"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "tslarsP.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512564,
+          "persistentId": "",
+          "filename": "tslarsP.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 8904,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fb59e-f70892934dc0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13e97c205bef55431f1f15410e371fd750f39542"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "tslars.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512503,
+          "persistentId": "",
+          "filename": "tslars.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 14007,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f2606-a865d44d35ae",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "01db5e529bafc459a6d07a7ef302746209f33a89"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "tslars.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512563,
+          "persistentId": "",
+          "filename": "tslars.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7205,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fb42e-0b9dcfbacf92",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1a3b828c0392c8ee942f868a3334e917a16b2249"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "utils.cpp",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512584,
+          "persistentId": "",
+          "filename": "utils.cpp",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 3916,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fe5df-dc9ca1d42d7a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d919ca74fe6222976d756e91fd153081eaa5bad0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "utils.h",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/src",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512585,
+          "persistentId": "",
+          "filename": "utils.h",
+          "contentType": "text/x-c",
+          "friendlyType": "C++ Source",
+          "filesize": 625,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4ffd9c-3c5d40593b4b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1d938d330a02d5fe3d596a6d4c151daab88cb424"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "utils.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512505,
+          "persistentId": "",
+          "filename": "utils.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 7936,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f2804-ddc000dbde4d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "52b762a3c5eec93e8b83f205df665a834394b2dd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "weights.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512506,
+          "persistentId": "",
+          "filename": "weights.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2357,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f2903-018cb59662d9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6055264ef2c7d898b26e342cfefddba433b36459"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "weights.sparseLTS.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512565,
+          "persistentId": "",
+          "filename": "weights.sparseLTS.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2987,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fb6f0-e8df9d46b8a7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ab669eb4f2949c59cf3d797167d0f8177469e352"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "winsorize.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/R",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512507,
+          "persistentId": "",
+          "filename": "winsorize.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 7707,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4f2a38-135987f17468",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dad81c5535b4c01708a36cd05e88549aadacad7b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "winsorize.Rd",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.16802596/robustHD.zip/aalfons-robustHD-2ed070c/man",
+        "version": 1,
+        "datasetVersionId": 31455,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512566,
+          "persistentId": "",
+          "filename": "winsorize.Rd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4162,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198ce4fb84d-408eb4950822",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f4b6fb5fdbb0d3e2b43c9e245d13b3a62cb6aafb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Alfons, Andreas, 2025, \"robustHD: An R package for robust regression with high-dimensional data\", https://doi.org/10.34894/YF40LD, DataverseNL, V1"
+  }
+}

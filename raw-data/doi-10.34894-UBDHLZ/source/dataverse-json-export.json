@@ -1,0 +1,1330 @@
+{
+  "id": 485961,
+  "identifier": "UBDHLZ",
+  "persistentUrl": "https://doi.org/10.34894/UBDHLZ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-09-01",
+  "storageIdentifier": "surf://10.34894/UBDHLZ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30684,
+    "datasetId": 485961,
+    "datasetPersistentId": "doi:10.34894/UBDHLZ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/UBDHLZ",
+    "versionNumber": 1,
+    "internalVersionNumber": 21,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "productionDate": "2024",
+    "lastUpdateTime": "2025-09-01T15:33:05Z",
+    "releaseTime": "2025-09-01T15:33:05Z",
+    "createTime": "2025-06-10T15:51:58Z",
+    "publicationDate": "2025-09-01",
+    "citationDate": "2025-09-01",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Sitting Behaviors from Healthy Population Dataset"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Raw data of sitting postures from pressure mats and bioradar"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ong, Linda"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-2923-6370"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Raw data of sitting postures from 38 participants are collected from pressure mat with grid size of 16x16 and from bioradar. Raw data is collected for 5 working days in office environment. Pressure mat is placed on the top of the office chair and bioradar is placed on the side of the table. Ground truth labelling of sitting posture is manually annotated from video recording (Kinect v1.8). Kinects are placed on the side of the table and under the table. The ground truth labelling included both upper and lower body parts. The description of posture labelling can be found further in the attached document. At the moment, only labelling from pressure mat data is openly available. The labelling from Bioradar data will follow.\n\nThe sitting posture labelling and the raw data from pressure mat and bioradar is structured per participant. These data is stored in .csv format. Preprocess pressure mat folder consists of merged pressure mat data and the labelling by their timestamp. Preprocess labelling folder consists of pressure mat labelling that have been integrated into one file for single day."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Engineering",
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Biomedical Engineering"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "L. Ong, M. Cao, G. J. Verkerke, C. J. C. Lamoth and E. Wilhelm, \"Unobtrusive machine learning based leg position detection during seated office work,\" 2024 IEEE International Symposium on Medical Measurements and Applications (MeMeA), Eindhoven, Netherlands, 2024, pp. 1-6, doi: 10.1109/MeMeA60663.2024.10596924."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "isbn"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "9798350307993"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ieeexplore.ieee.org/document/10596924"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Groningen, the Netherlands"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Supervisor"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wilhelm, Elisabeth"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Elsenga, Christina"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-06-10"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Quantitative data from pressure mat and bioradar"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/UBDHLZ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:4f978ab6-2acd-4ee7-a91c-7ec2e5b255b3"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-1b3f9aeb-6c90-4db6-8844-14b9bd6ebf12"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Labelling procedure for upper and lower body during sitting. The sitting posture classification is represented with a specific letter.",
+        "label": "SB_A1_Labeling Procedure v3-1.pdf",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 499487,
+          "persistentId": "",
+          "filename": "SB_A1_Labeling Procedure v3-1.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 19080,
+          "description": "Labelling procedure for upper and lower body during sitting. The sitting posture classification is represented with a specific letter.",
+          "storageIdentifier": "surf://store:198a2bda455-f14d6829f6fd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "877ad5040650b36ffe1621dafc74a6954044310e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-13",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Demographic data including biological sex, age, height, weight and BMI",
+        "label": "SB_A2_Personal Info List_DemographicData_OpenSource-1.csv",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 499486,
+          "persistentId": "",
+          "filename": "SB_A2_Personal Info List_DemographicData_OpenSource-1.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1621,
+          "description": "Demographic data including biological sex, age, height, weight and BMI",
+          "storageIdentifier": "surf://store:198a2bda5e2-5556e8da609c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "064c7c840830db2dac2b8fea904ab41b9056098f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-13",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Files: Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_C175D80.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513110,
+          "persistentId": "",
+          "filename": "SB_C175D80.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1557877995,
+          "description": "Files: Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e62df5c7-740ac8d46dfa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0c7d4797d7068a2edf3128473cd3ad51cb362c2d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-26",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Files: Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_C477R62.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513108,
+          "persistentId": "",
+          "filename": "SB_C477R62.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1027802490,
+          "description": "Files: Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e6322f70-6a74ffcd850c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b5a981c2b717541b29101ffd67a65ea390e1ba3c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-26",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Files: Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_DB19U21.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513109,
+          "persistentId": "",
+          "filename": "SB_DB19U21.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1747479749,
+          "description": "Files: Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e6389a76-f804a07152ef",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3181d97d7572b14a34578c5b2320ec3b5bde9fd8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-26",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Files: Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_E232G67.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513107,
+          "persistentId": "",
+          "filename": "SB_E232G67.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 2423700207,
+          "description": "Files: Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e6414d37-23536cab2575",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9333957dd77d0a0c52669cdc3abed6a56d859c6f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-26",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Files: Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_E881S47.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513111,
+          "persistentId": "",
+          "filename": "SB_E881S47.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1856533142,
+          "description": "Files: Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e64810ec-f1b577ea3d25",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f0cc3fd7136f060dd2465e3e28b645ade3aff6d7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-26",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_F850A28.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513153,
+          "persistentId": "",
+          "filename": "SB_F850A28.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1598426987,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e6fb75ec-7ee7ec3600ab",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "139dc21e5a6f4d1e2d6e155eb6c8c13a016f4d03"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-26",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_G414F42.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513151,
+          "persistentId": "",
+          "filename": "SB_G414F42.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1330019763,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e7006294-798dfc1f5420",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "05a5c232259242696b35be967ed0ccfacef6c40c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-26",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_I100B30.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513152,
+          "persistentId": "",
+          "filename": "SB_I100B30.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1878248607,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e70891e5-652442f76d97",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "684f4ee2e5cd8f37f514ce39353d59f1408b3f22"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-26",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_I224R89.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513191,
+          "persistentId": "",
+          "filename": "SB_I224R89.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1481665902,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e78bf724-74d88c20cba1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8f1f3fa45f776653a37b098f80a3a14c6ad6f3a7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-26",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_I667L95.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513190,
+          "persistentId": "",
+          "filename": "SB_I667L95.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2298007639,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e794adfd-48630b51c5bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "882d146f1c9c4f082c74562c1e7a4d2d287f7f5f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-26",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_J670M63.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513194,
+          "persistentId": "",
+          "filename": "SB_J670M63.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2187055101,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e79f0f0e-9272980f4ab7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f93399706e0ea81416234381b93001fa70bc6c41"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-27",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_K672A66.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513195,
+          "persistentId": "",
+          "filename": "SB_K672A66.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1458781223,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e7a469db-96672eb8bd45",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e6986406f28b06acf52b5a463dff6d464e4cae7a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-27",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_K814J51.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513193,
+          "persistentId": "",
+          "filename": "SB_K814J51.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1227321688,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e7a8f2a0-81247072a63e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0d3fec3333ae1527ae16ffd30d677baa73147286"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-27",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_K849U27.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 513192,
+          "persistentId": "",
+          "filename": "SB_K849U27.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1617507873,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198e7aedee3-9a6a7885a66c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e06bb5952122b2fe0e4de4699024c93bf600b4da"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-27",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_L291M95.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516940,
+          "persistentId": "",
+          "filename": "SB_L291M95.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1679301063,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f0071fea-6ddce1319726",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8c57fd0ff084c8172613bf2a994a0839e0395e07"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_L323N79.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516935,
+          "persistentId": "",
+          "filename": "SB_L323N79.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1934278430,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f00e0df2-3722245d620b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a073b55faded801b7d0621a48e95f9842556cf2c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_L626I82.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516937,
+          "persistentId": "",
+          "filename": "SB_L626I82.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1374270790,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f0133caf-efd2fd94c166",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3754181615b23028049ba33685d096fa901b79ad"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_M738P99.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516939,
+          "persistentId": "",
+          "filename": "SB_M738P99.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1216247412,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f01798a2-b14aaad9aabb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bded2df38f588b888d919b357eb2f8fefa0fc5f6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_M900F88.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516938,
+          "persistentId": "",
+          "filename": "SB_M900F88.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1110788796,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f01ba3cb-91755f8e6ce1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "506011ac755a3d1b4e266c3c5f1f8a39052de874"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_N318V20.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516936,
+          "persistentId": "",
+          "filename": "SB_N318V20.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1590183117,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f0217d6e-1b6b77be8913",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "de1cd43e59d7a8b329c9726afc023c00cc92237e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_N416M91.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516947,
+          "persistentId": "",
+          "filename": "SB_N416M91.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1378439211,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f02e68f2-6a9e6a408692",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0094cedf4e6ad409756df5bbf19e2f4d2e4d5dba"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_N973K45.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516946,
+          "persistentId": "",
+          "filename": "SB_N973K45.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2286875802,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f0369372-296c1e5d9ba1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5aea0d5204fc6a4e00cd986bf99afc80b397ca0c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_O274J71.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516944,
+          "persistentId": "",
+          "filename": "SB_O274J71.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1807295911,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f03d6550-851e9bfb21af",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efc062e3265e80ada90a2154ec7ed18193436cfc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_O709F26.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516943,
+          "persistentId": "",
+          "filename": "SB_O709F26.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1867908195,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f044bba9-c69d5e933fea",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ba10a016899a4c3edc84e46b9a17f4f0e4b87cf9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_P243A44.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516945,
+          "persistentId": "",
+          "filename": "SB_P243A44.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1142982057,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f048e1e2-527f6dd1f27a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "011736b0b0437abf702822815e72c8c5c8092630"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat labelling, Bioradar",
+        "label": "SB_Q598M15.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516959,
+          "persistentId": "",
+          "filename": "SB_Q598M15.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1663250659,
+          "description": "Pressure Mat, Pressure Mat labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f1aabba3-8e1ac4c960d8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5218327c8831f2ffbe2ce6295a4e469890a9ed74"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat labelling, Bioradar",
+        "label": "SB_Q731K54.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516957,
+          "persistentId": "",
+          "filename": "SB_Q731K54.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1718898282,
+          "description": "Pressure Mat, Pressure Mat labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f1b14a2e-0ac7fc07d1b1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eb4d9f8febe0ffac5929683c821a087bba2f3236"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_R160292.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516953,
+          "persistentId": "",
+          "filename": "SB_R160292.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1526003965,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f126c0ce-e0b030096743",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bdbc686e9f669b773a58580d1d2c585bd7d82627"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_R376I25.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516948,
+          "persistentId": "",
+          "filename": "SB_R376I25.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1570445679,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f0985f61-a0f020b0ba71",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2117509340c52872eb3c3d44f255a3fca7933dbd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_R806H59.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516950,
+          "persistentId": "",
+          "filename": "SB_R806H59.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1063815799,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f09c3852-20d2c39f5bb0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fbf1a982fe65e3f414af92b0f854affdb3d74e28"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_R876A77.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516949,
+          "persistentId": "",
+          "filename": "SB_R876A77.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1349729666,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f0a6172e-108634a982b4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1dda44862d207cc9b84c77d61298b36fd5ee4a3a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_S697Q37.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516952,
+          "persistentId": "",
+          "filename": "SB_S697Q37.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1914381140,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f12d988c-c854def3730b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "46fb6d95e3be37361d695de6d144a4a1f3e63cad"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_U617C59.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516955,
+          "persistentId": "",
+          "filename": "SB_U617C59.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1535062861,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f1332d3e-8a18b4c49abe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6cdd1e57cba54985a5ce8dd74a1fb5c3d4571631"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_V918E33.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516954,
+          "persistentId": "",
+          "filename": "SB_V918E33.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1339962593,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f138078f-6f3584c31a00",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76bc48b869746b0a946007b9e8dcbbe9c43303cc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+        "label": "SB_W422X49.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516951,
+          "persistentId": "",
+          "filename": "SB_W422X49.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1416418463,
+          "description": "Pressure Mat, Pressure Mat Labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f13d19da-2737e7d692aa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f301ab05022230950bf50ccabcb1e9e4f10a01da"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat labelling, Bioradar",
+        "label": "SB_W448H68.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516960,
+          "persistentId": "",
+          "filename": "SB_W448H68.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1126293266,
+          "description": "Pressure Mat, Pressure Mat labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f1b591a8-1663dcaab3e5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a64428104363b662aef2c1afcd97351e7b644cf9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat labelling, Bioradar",
+        "label": "SB_W723Q63.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516956,
+          "persistentId": "",
+          "filename": "SB_W723Q63.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1983954089,
+          "description": "Pressure Mat, Pressure Mat labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f1bd2c14-9ba41ef9c51c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e5b99723c4868e22599f4148bcec077eaeaf5d76"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Pressure Mat, Pressure Mat labelling, Bioradar",
+        "label": "SB_X810D68.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30684,
+        "dataFile": {
+          "id": 516958,
+          "persistentId": "",
+          "filename": "SB_X810D68.zip",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1650101568,
+          "description": "Pressure Mat, Pressure Mat labelling, Bioradar",
+          "storageIdentifier": "surf://store:198f1c36ec9-85a1a3f602f3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0dee387d0a483e190bb0fdbc3597e662d9d6711d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-28",
+          "publicationDate": "2025-09-01",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Ong, Linda, 2025, \"Sitting Behaviors from Healthy Population Dataset\", https://doi.org/10.34894/UBDHLZ, DataverseNL, V1"
+  }
+}

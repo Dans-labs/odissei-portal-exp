@@ -1,0 +1,476 @@
+{
+  "id": 621430,
+  "identifier": "SS/P1D4EV",
+  "persistentUrl": "https://doi.org/10.17026/SS/P1D4EV",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2026-05-08",
+  "storageIdentifier": "surf://10.17026/SS/P1D4EV",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 28843,
+    "datasetId": 621430,
+    "datasetPersistentId": "doi:10.17026/SS/P1D4EV",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/SS/P1D4EV",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "productionDate": "2026-03-08",
+    "lastUpdateTime": "2026-05-08T15:31:39Z",
+    "releaseTime": "2026-05-08T15:31:39Z",
+    "createTime": "2026-04-01T13:49:15Z",
+    "publicationDate": "2026-05-08",
+    "citationDate": "2026-05-08",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://licensebuttons.net/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Workflow for YouTube Comment Data Acquisation"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "T. Xu"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/04dkp9463",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Amsterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Xu, Ting"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>This dataset accompanies a research project that conducts a corpus‑assisted critical discourse analysis of YouTube comments posted on the Cinema Therapy channel, specifically within the playlist “Coping with Coronavirus Quarantine.” The comments were retrieved using the researcher‑oriented YouTube Data Tool (YouTube Data API v3) and subsequently cleaned and filtered in Python, supplemented by manual verification.\n</p><p>\nTo comply with GDPR and institutional data protection guidelines, the final output does not include any original comment text from the year 2020. YouTube comments frequently contain personal narratives or identifiable contextual details, which makes them unsuitable for public release. Instead, the supporting materials include two Python scripts and a README file documenting the data collection, cleaning, and processing workflow.\n</p><p>\n\nThe purpose of the project is to examine how commenters position themselves within platform‑mediated therapeutic cultures by analyzing their linguistic patterns, critical discourses, and emotional expressions. In doing so, the project contributes to a more nuanced understanding of social‑media therapy audiences—one that recognizes them as interpretive, agentic participants in networked publics rather than uniformly passive, credulous, or happiness‑seeking consumers.</p>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-04-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "social media, corpus analysis, critical discourse, therapy cultures"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>\nThe comment data used in this study was collected from publicly accessible YouTube content for academic research purposes. The processing is carried out under the legitimate interest of scientific research and in accordance with the University’s data protection guidelines.\n</p><p>\n\nA manual verification step removed 10 comments that were non‑English, irrelevant to the research topic, or not readable as a language. No raw comments or identifiable information are published. Only coding schemes and the processing pipeline are made publicly available.\n</p><p>\n\nThe Python scripts and README file describing the data collection and cleaning procedures are openly accessible on GitHub (@Little-learning-station). A privacy review was conducted internally to ensure GDPR‑aligned data minimisation and ethical handling of social‑media data.</p>"
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-03-08"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Amsterdam, Netherlands"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Xu, Ting"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-04-01"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "machine-readable text"
+            ]
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Ting Xu"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "No"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D30100",
+              "https://www.narcis.nl/classification/D66000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D30100",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Digital humanities"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Digital humanities"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D66000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Communicatiewetenschap"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Communication sciences"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          }
+        ]
+      },
+      "dansSocialSciences": {
+        "displayName": "Social Sciences and Humanities",
+        "name": "dansSocialSciences",
+        "fields": [
+          {
+            "typeName": "dansAATClassification",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "http://vocab.getty.edu/aat/300312269"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "http://vocab.getty.edu/aat/300312269",
+                "termName": {
+                  "lang": "en",
+                  "value": "social media"
+                },
+                "vocabularyName": {
+                  "lang": "en",
+                  "value": "The Art and Architecture Thesaurus Concepts"
+                },
+                "vocabularyUri": "http://vocabularies.dans.knaw.nl/aatconcepts"
+              }
+            ]
+          },
+          {
+            "typeName": "dansElsstClassification",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://elsst.cessda.eu/id/6/3857a9b6-8279-401d-89c9-ff2df2260d7d"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://elsst.cessda.eu/id/6/3857a9b6-8279-401d-89c9-ff2df2260d7d",
+                "termName": [
+                  {
+                    "lang": "is",
+                    "value": "SAMFÉLAGSMIÐLAR"
+                  },
+                  {
+                    "lang": "fr",
+                    "value": "MÉDIAS SOCIAUX"
+                  },
+                  {
+                    "lang": "el",
+                    "value": "ΜΕΣΑ ΚΟΙΝΩΝΙΚΗΣ ΔΙΚΤΥΩΣΗΣ"
+                  },
+                  {
+                    "lang": "no",
+                    "value": "SOSIALE MEDIER"
+                  },
+                  {
+                    "lang": "fi",
+                    "value": "SOSIAALINEN MEDIA"
+                  },
+                  {
+                    "lang": "cs",
+                    "value": "SOCIÁLNÍ MÉDIA"
+                  },
+                  {
+                    "lang": "sl",
+                    "value": "DRUŽBENI MEDIJI"
+                  },
+                  {
+                    "lang": "hu",
+                    "value": "KÖZÖSSÉGI MÉDIA"
+                  },
+                  {
+                    "lang": "es",
+                    "value": "MEDIOS SOCIALES"
+                  },
+                  {
+                    "lang": "de",
+                    "value": "SOCIAL MEDIA"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "SOCIAL MEDIA"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "SOCIAL MEDIA"
+                  },
+                  {
+                    "lang": "ro",
+                    "value": "SOCIAL MEDIA"
+                  },
+                  {
+                    "lang": "sv",
+                    "value": "SOCIALA MEDIER"
+                  },
+                  {
+                    "lang": "lt",
+                    "value": "SOCIALINĖS MEDIJOS"
+                  }
+                ],
+                "vocabularyName": "ELSST Thesaurus Version 6",
+                "vocabularyUri": "https://elsst.cessda.eu/id/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansFrequencyOfDataCollection",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Only one point at a time"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/SS/P1D4EV"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:2e8fbfcf-b428-4876-858c-89f8efecf5ef"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-7bf4a20a-2ee1-4719-92ab-faa2dbd06349"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Cleaning and Keep English Comments.py",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28843,
+        "dataFile": {
+          "id": 621431,
+          "persistentId": "",
+          "filename": "Cleaning and Keep English Comments.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 10736,
+          "storageIdentifier": "surf://store:19d494db46c-869c4f6f70c0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "34282a55b5d87d19c310d5ba88700270c448908f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-01",
+          "publicationDate": "2026-05-08",
+          "lastUpdateTime": "2026-05-08T15:31:39Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Get YouTube comments from multiple videos.py",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28843,
+        "dataFile": {
+          "id": 621433,
+          "persistentId": "",
+          "filename": "Get YouTube comments from multiple videos.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 6410,
+          "storageIdentifier": "surf://store:19d494dbd95-ac663719b543",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b6a68fb59e92fcb296b76384803a73421f4873d0"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-01",
+          "publicationDate": "2026-05-08",
+          "lastUpdateTime": "2026-05-08T15:31:39Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.md",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 28843,
+        "dataFile": {
+          "id": 621432,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 3144,
+          "storageIdentifier": "surf://store:19d494da79b-8e634199735c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5bf7866ea84348a48f0e20941459b8fd8a2e1890"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-01",
+          "publicationDate": "2026-05-08",
+          "lastUpdateTime": "2026-05-08T15:31:39Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "T. Xu, 2026, \"Workflow for YouTube Comment Data Acquisation\", https://doi.org/10.17026/SS/P1D4EV, DANS Data Station Social Sciences and Humanities, V1"
+  }
+}

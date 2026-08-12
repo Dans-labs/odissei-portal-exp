@@ -5,6 +5,8 @@ import { m } from "#/paraglide/messages";
 import { CalendarIcon, ArrowTopRightOnSquareIcon } from "@heroicons/react/24/solid";
 import { SourceBadge, LicenseBadge, FileCountBadge } from "#/components/Badges";
 import { formatDate } from "#/utils/formatters";
+import { cn } from "#/utils/cn";
+import { card } from "#/utils/surfaces";
 
 type DatasetHit = {
   id: string;
@@ -25,10 +27,8 @@ export function Hits() {
 
   return (
     <div>
-      <div className="flex justify-end items-center gap-4 mb-4">
-        <p className="text-right text-sm text-gray-500">
-          {m.resultCount({ count: results?.nbHits ?? 0 })}
-        </p>
+      <div className="flex justify-end items-center gap-4 mb-4 text-sm text-gray-500">
+        {m.resultCount({ count: results?.nbHits ?? 0 })}
         <SortBy />
       </div>
       <div className="space-y-4">
@@ -44,22 +44,9 @@ function ResultCard({ hit }: { hit: DatasetHit }) {
   const formattedDate = formatDate(hit.date_of_deposit);
 
   return (
-    <article
-      className="
-        group
-        relative
-        rounded-3xl
-        border border-zinc-200
-        bg-white
-        p-6
-        transition-all
-        hover:-translate-y-0.5
-        hover:border-zinc-300
-        hover:shadow-lg
-      "
-    >
+    <article className={cn("hover:-translate-y-0.5 hover:shadow-lg", card)}>
       <div className="flex items-start justify-between gap-4">
-        <h3 className="text-lg font-semibold tracking-tight text-zinc-950">
+        <h3 className="text-lg font-semibold tracking-tight">
           <Link
             to="/view/$"
             params={{ _splat: hit.id }}
@@ -85,20 +72,18 @@ function ResultCard({ hit }: { hit: DatasetHit }) {
         <SourceBadge source={hit.data_source} />
         {hit.license && <LicenseBadge license={hit.license} />}
         {formattedDate && (
-          <span className="inline-flex items-center gap-1 text-xs text-zinc-400">
+          <span className="inline-flex items-center gap-1 text-xs text-gray-400">
             <CalendarIcon className="size-4" />
             {formattedDate}
           </span>
         )}
       </div>
 
-      {hit.description && (
-        <p className="mt-4 line-clamp-3 text-sm leading-6 text-zinc-600">{hit.description}</p>
-      )}
+      {hit.description && <p className="mt-4 line-clamp-3 text-sm">{hit.description}</p>}
 
       <div className="mt-5 flex flex-wrap items-center justify-between gap-3">
         {hit.authors?.length ? (
-          <p className="text-xs text-zinc-400">{hit.authors.join(", ")}</p>
+          <p className="text-xs text-gray-400">{hit.authors.join(", ")}</p>
         ) : (
           <span />
         )}
@@ -113,8 +98,8 @@ function ResultCard({ hit }: { hit: DatasetHit }) {
               inline-flex items-center gap-1
               rounded-full
               px-1
-              text-xs font-medium text-zinc-500
-              underline decoration-zinc-300 underline-offset-2
+              text-xs font-medium text-gray-500
+              underline decoration-gray-500 underline-offset-2
               transition
               hover:text-cyan-600 hover:decoration-cyan-400
               focus-visible:outline-none

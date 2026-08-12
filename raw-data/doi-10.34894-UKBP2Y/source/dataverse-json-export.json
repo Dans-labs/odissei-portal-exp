@@ -1,0 +1,404 @@
+{
+  "id": 508575,
+  "identifier": "UKBP2Y",
+  "persistentUrl": "https://doi.org/10.34894/UKBP2Y",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-19",
+  "storageIdentifier": "surf://10.34894/UKBP2Y",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31348,
+    "datasetId": 508575,
+    "datasetPersistentId": "doi:10.34894/UKBP2Y",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/UKBP2Y",
+    "versionNumber": 1,
+    "internalVersionNumber": 8,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2022-04-04",
+    "lastUpdateTime": "2025-08-19T19:43:40Z",
+    "releaseTime": "2025-08-19T19:43:40Z",
+    "createTime": "2025-08-19T19:40:54Z",
+    "publicationDate": "2025-08-19",
+    "citationDate": "2025-08-19",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "A Recipe for Success? Sustaining Creativity Among First-Time Creative Producers -- Dataset Used for Study 3"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.19403378"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Deichmann, Dirk Deichman"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-4382-5849"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Baer, Markus"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Deichmann, Dirk"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rotterdam School of Management <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<div><div>Abstract</div><div><p>Sustaining creativity is difficult. We identify the conditions that determine repeat production of novelty among first-time producers, and the psychological mechanism transmitting their effects. Our theoretical model highlights that the novelty of a first production can lower the probability of creating a second production, particularly when the first production is bestowed with an award or recognition. This effect occurs primarily because individuals who win an award for a prior novel production experience a greater threat to their creative identity when anticipating having to produce follow-up novel work. We test our theoretical model in three studies: an archival study of first-time cookbook authors in the United Kingdom and two experiments. Our results provide some support for our theoretical model—award-winning producers of novel cookbooks (or ideas for them) are less likely to follow-up their initial production with a second one, largely because of the potential erosion to a person’s creative identity that doing so may cause. Our findings highlight the intricacies of sustaining creativity over time and offer insights into why some producers abandon their creative efforts.</p></div></div><div><br></div><div>Description</div><div>The same dataset in two different formats and a file with the commands to run the code in Stata.<br></div><div><div>Variables included:</div><div><br></div><div><div>second_novel_idea </div><div>0 = Participants who chose to exploit their work by developing an idea for a sequel or for a marketing campaign for the first cookbook they had written</div><div>1 = Participants who chose to develop another idea for a second, new cookbook theme</div><div><br></div><div>novel</div><div>0 = Participants in the conventional condition</div><div>1 = Participants in the novel condition</div><div><br></div><div>award</div><div>0 = Participants in the no award condition</div><div>1 = Participants in the award condition</div><div><br></div><div>creative_identity_threat</div><div>Average of seven different items measuring a participant's creative identity threat (on a scale ranging from 1 (strongly disagree) to 7 (strongly agree))</div><div><br></div><div>creative_identity</div><div>Average of five different items (based on Farmer et al., 2003) measuring a participant's creative identity (on a scale ranging from 1 (strongly disagree) to 7 (strongly agree))</div><div><br></div><div>declining_creativity_beliefs </div><div>Average of three different itmes (Lucas and Nordgren, 2020) measuring a participant's declining creativity beliefs (on a scale ranging from 1 (strongly disagree) to 7 (strongly agree))</div><div><br></div><div>exploitation_inclinations </div><div>Average of four different itmes (based on Mom et al., 2009) measuring a participant's exploitation inclinations (on a scale ranging from 1 (strongly disagree) to 7 (strongly agree))</div><div><br></div><div>female</div><div>0 = Male participant</div><div>1 = Female participant</div><div><br></div><div>age</div><div>Age of the participant at the time that the experiment was conducted</div></div></div>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Novelty"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Repeat Creativity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Creative Identity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Award"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cultural Product"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Innovation And Technology Management"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Technology Management"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Innovation Management"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a three-file data package totaling 36.5 KB, containing files in .csv, .dta and .txt formats.<p><p>If you use this dataset, please cite: Deichmann, Dirk; Baer, Markus (2022). A Recipe for Success? Sustaining Creativity Among First-Time Creative Producers -- Dataset Used for Study 3. Erasmus University Rotterdam (EUR). Dataset. <a href=\"https://doi.org/10.25397/eur.19403378\" target=\"_blank\">https://doi.org/10.25397/eur.19403378</a><p>"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-04-04"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Deichmann, Dirk"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-03-23"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://doi.org/10.1037/apl0001019\" target=\"_blank\">https://doi.org/10.1037/apl0001019</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/UKBP2Y"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:adf99e70-949f-49c4-872a-592688d34f82"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-1f0c9dd8-efb8-410c-96b1-8f771396175f"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "Study 3 - Commands to run code.txt",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19403378",
+        "version": 1,
+        "datasetVersionId": 31348,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 508578,
+          "persistentId": "",
+          "filename": "Study 3 - Commands to run code.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 771,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c3d94dae-ee878012b850",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4e4b0f81df67a019cbd085c794e6a44df05ce87f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Study 3 - Data.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19403378",
+        "version": 1,
+        "datasetVersionId": 31348,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 508577,
+          "persistentId": "",
+          "filename": "Study 3 - Data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 10702,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c3d94cf2-39af4ee86adc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "00e5e7c238d0f9bc748936959dbb1644fd5c2f4c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Study 3 - Data.dta",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19403378",
+        "version": 1,
+        "datasetVersionId": 31348,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 508576,
+          "persistentId": "",
+          "filename": "Study 3 - Data.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 13602,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c3d94c2d-43a1363d0023",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "37fc136de945ef85af83b1f76d153050f083d65e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Deichmann, Dirk Deichman; Baer, Markus, 2025, \"A Recipe for Success? Sustaining Creativity Among First-Time Creative Producers -- Dataset Used for Study 3\", https://doi.org/10.34894/UKBP2Y, DataverseNL, V1"
+  }
+}

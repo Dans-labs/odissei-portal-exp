@@ -1,0 +1,1012 @@
+{
+  "id": 140922,
+  "identifier": "QR1VFZ",
+  "persistentUrl": "https://doi.org/10.34894/QR1VFZ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-09-24",
+  "storageIdentifier": "surf://10.34894/QR1VFZ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 19513,
+    "datasetId": 140922,
+    "datasetPersistentId": "doi:10.34894/QR1VFZ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/QR1VFZ",
+    "versionNumber": 2,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "productionDate": "2021-09-07",
+    "lastUpdateTime": "2022-04-19T12:48:45Z",
+    "releaseTime": "2022-04-19T12:48:45Z",
+    "createTime": "2022-04-07T14:05:37Z",
+    "publicationDate": "2021-09-24",
+    "citationDate": "2021-09-24",
+    "termsOfUse": "The standard Data Sharing Agreement (DSA) of the UMC Utrecht must be signed without adjustments. This DSA is in compliance with Dutch law. No costs are involved.",
+    "confidentialityDeclaration": "no",
+    "specialPermissions": "To obtain access to the data a <a href=\"https://www.umcutrecht.nl/en/data-request-form-umc-utrecht\">request form</a> has to be completed. In addition to a completed request form, a  Data Sharing Agreement (DSA) in line with GDPR regulations and/or a Research Collaboration Agreement (RCA) should be signed before data is shared. Only data requests in line with the Terms of Use will be taken into consideration.",
+    "restrictions": "See Data Sharing Agreement ",
+    "citationRequirements": "See Data Sharing Agreement ",
+    "conditions": "To access and use the dataset please read the Terms of Use and the Terms of Access",
+    "disclaimer": "See Data Sharing Agreement ",
+    "termsOfAccess": "The data is not available for download directly via DataverseNL. Data is available on request by completing the <a href=\"https://www.umcutrecht.nl/en/data-request-form-umc-utrecht\">request form</a>. Only data requests in line with the Terms of Use will be taken into consideration.  In addition to a completed request form, the Data Sharing Agreement (DSA) in line with GDPR regulations and/or the Research Collaboration Agreement (RCA)   should be signed before data is shared. If a data request is approved, the data will be delivered in a safe and secure manner. By signing the DSA and/or RCA and accessing the Materials, the recipient represents his/her acceptance of the Terms of Use. ",
+    "availabilityStatus": "The data is not available for download directly via DataverseNL but is available on request if the request is compliant with the Terms of Access.",
+    "contactForAccess": "Please fill out the <a href=\"https://www.umcutrecht.nl/en/data-request-form-umc-utrecht\">request form</a>.",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Dataset for \"A serum protein network predicts the need for systemic immunomodulatory therapy in autoimmune uveitis\""
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "SOMAscan analysis of serum of noninfectious uveitis patients and controls"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kuiper, Jonas"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "umcutrecht.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-5370-6395"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kuiper, Jonas J.W."
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "umcutrecht.nl"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Datamanagement for division"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "umcutrecht.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains *SOMAscan* targeted proteomics (1305 protein analytes) of serum of 54 patients with non-infectious uveitis (<i>HLA-B27+ anterior uveitis</i>, <i>idiopathic intermediate uveitis</i>, <i>HLA-A29+ Birdshot chorioretinopathy</i>, and 26 sex/age matched healthy controls without ocular inflammatory disease. The raw data files (<i>adat</i> files with relative fluorescent units for 1305 DNA aptamers for 80 samples), metadata, supplemental table 1-3,  and R scripts (markdowns) as presented in: <br></br><i>Kuiper et al. 2021 \"A serum protein network predicts the early need for systemic immunomodulatory therapy in non-infectious uveitis\"</i> <dl>see preprint on <a href=\"https://medrxiv.org/cgi/content/short/2021.09.22.21263286v1\"><i>MedRxiv</i></a>\n<br></br></dl>\nThis dataset contains: <br></br>\n<dl>\n\n<dt>Supplemental Table 1-3</dt>\n<ul><li><dd><a href=\"https://dataverse.nl/api/access/datafile/269069\">Supplemental table 1-3.xml </a> <sup> xml file </sup></dd></li>\n</ul>\n\n<dt>Raw SOMAscan data</dt>\n<ul><li><dd><a href=\"https://dataverse.nl/api/access/datafile/140933\">MED-17-274.hybNorm.plateScale.medNorm.calibrate.20180425.adat</a> <sup> adat file </sup></dd></li>\n<li><dd><a href=\"https://dataverse.nl/api/access/datafile/140940\">SOMAscan Quality Statement</a><sup> PDF file </sup></dd></li></ul>\n\n<dt>R scripts with <i>step-by-step</i> analyses </dt> \n<ul><li><dd> \"Figure_1.rmd\" (see also <a href=\"https://dataverse.nl/api/access/datafile/141035\">\"Figure_1.html\"</a>)</dd></li>\n<li><dd>\"Figure_2.rmd\" (see also <a href=\"https://dataverse.nl/api/access/datafile/141031\">\"Figure_2.html\"</a>)</dd></li>\n<li><dd>\"Figure_3.rmd\" (see also <a href=\"https://dataverse.nl/api/access/datafile/141032\">\"Figure_3.html\"</a>)</dd></li></ul>\n<dt>Metadata used in the R scripts (above)</dt> \n<ul><li><dd>This includes <a href=\"https://dataverse.nl/file.xhtml?fileId=140934&version=DRAFT\">data</i> </a> generated by <a href=\"https://www.nature.com/articles/ni.3693\"><i> Rieckmann et al., Nat Immunol. 2018</i> </a></li>\n<li><dd>This includes <a href=\"https://dataverse.nl/file.xhtml?fileId=140935&version=DRAFT\">data</i> </a> generated by <a href=\"https://www.science.org/doi/full/10.1126/science.aaq1327\"><i> Emilsson et al., Science 2018</i> </a></li>\n<li><dd>This includes <a href=\"https://dataverse.nl/file.xhtml?fileId=140928&version=DRAFT\">data</i> </a> generated by <a href=\"https://academic.oup.com/nar/article/46/D1/D661/4612963\"><i> Selenter et al., Nucleic Acids Res. 2018 </i> </a></li>\n</dl>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-09-07"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Uveitis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SOMAscan"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Neutrophil"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This work has been published as a preprint on medrxiv:"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "url"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://medrxiv.org/cgi/content/short/2021.09.22.21263286v1"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Objective biomarkers that can predict a severe disease course of autoimmune uveitis are lacking, and warranted for early identification of high-risk patients to improve visual outcome. The need for non-steroid immunomodulatory therapy (IMT) to control autoimmune uveitis is indicative of a more severe disease course. We used aptamer-based proteomics and a bioinformatic pipeline to uncover the serum protein network of 52 treatment-free patients and 26 healthy controls, and validation cohorts of 114 and 67 patients. Network-based analyses identified a highly co-expressed serum signature (n=85 proteins) whose concentration was consistently low in controls, but varied between cases. Patients that were positive for the signature at baseline showed a significantly increased risk for IMT during follow-up, independent of anatomical location of disease. In an independent cohort (n=114), we established robust risk categories and confirmed that patients with high levels of the signature at diagnosis had a significantly increased risk to start IMT during follow-up. Finally, we further validated the predictive association of the signature in a third cohort of 67 treatment-naive North-American patients. A serum protein signature was highly predictive for IMT in human autoimmune uveitis and may serve as an objective blood biomarker to aid in clinical-decision making."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jonas Kuiper"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University Medical Center Utrecht"
+                },
+                "producerAbbreviation": {
+                  "typeName": "producerAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCU"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.umcutrecht.nl/en/research/researchers/kuiper-jonas-jjw"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-09-07"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Utrecht, The Netherlands"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "AstraZeneca"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCU-MED"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Kuiper, Jonas"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-09-07"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2011-01-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-09-07"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Somalogic 1.3K array data of serum",
+              "Neutrophil blood count (c_b_neu) generated by CELL-DYN Sapphire System",
+              "Neutrophil blood count generated by Sysmex XN-3000 automated haematology analyser"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "R studio"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "R version 4.0.3 (2020-10-10)"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/QR1VFZ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:39613000-1b02-45e0-a7b3-c34e23c3ebe0"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-5b5a71aa-4e17-4445-ae95-bbaa2308bd6b"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "This is a excel table with the protein copy numbers of primary human immune cells extracted from supplemental data of the manuscript by Rieckmann et al. (PMID: 28263321).  This data is used for analysis in \"Figure_2.rmd\".",
+        "label": "41590_2017_BFni3693_MOESM13_ESM.xlsx",
+        "restricted": false,
+        "directoryLabel": "Figure_2",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140934,
+          "persistentId": "",
+          "filename": "41590_2017_BFni3693_MOESM13_ESM.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 11194522,
+          "description": "This is a excel table with the protein copy numbers of primary human immune cells extracted from supplemental data of the manuscript by Rieckmann et al. (PMID: 28263321).  This data is used for analysis in \"Figure_2.rmd\".",
+          "storageIdentifier": "surf://store:17bc0679ed5-bf1ba0ec152a",
+          "rootDataFileId": -1,
+          "md5": "51e2573526cbea3876d45041a5b484aa",
+          "checksum": {
+            "type": "MD5",
+            "value": "51e2573526cbea3876d45041a5b484aa"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This is the supplemental data from  Emilsson et al., (PMID: 30072576). Table S7 is used in the analysis detailed in \"Figure_2.rmd\".  ",
+        "label": "aaq1327_Excel_tables.xlsx",
+        "restricted": false,
+        "directoryLabel": "Figure_2",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140935,
+          "persistentId": "",
+          "filename": "aaq1327_Excel_tables.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 4772314,
+          "description": "This is the supplemental data from  Emilsson et al., (PMID: 30072576). Table S7 is used in the analysis detailed in \"Figure_2.rmd\".  ",
+          "storageIdentifier": "surf://store:17bc0679752-49932da0f8f3",
+          "rootDataFileId": -1,
+          "md5": "9e2980bdc5d8123d00cfb41dba95b1c9",
+          "checksum": {
+            "type": "MD5",
+            "value": "9e2980bdc5d8123d00cfb41dba95b1c9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This data file contains the details required for survival analysis of cohort 1. In this file the age, sex, and use of noncorticosteroid immunosuppresive therapy (IMT) are outlined for each of the 54 patients of cohort 1. This file can be used for data analysis as outlined in \"Figure_2.rmd\". This data contains potentially identifiable information and is restricted. Please contact the author for further information.  ",
+        "label": "clinical_data_cohort_1.xlsx",
+        "restricted": true,
+        "directoryLabel": "Figure_2",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140938,
+          "persistentId": "",
+          "filename": "clinical_data_cohort_1.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12636,
+          "description": "This data file contains the details required for survival analysis of cohort 1. In this file the age, sex, and use of noncorticosteroid immunosuppresive therapy (IMT) are outlined for each of the 54 patients of cohort 1. This file can be used for data analysis as outlined in \"Figure_2.rmd\". This data contains potentially identifiable information and is restricted. Please contact the author for further information.  ",
+          "storageIdentifier": "surf://store:17bc067a7dc-f3559953ecbe",
+          "rootDataFileId": -1,
+          "md5": "9430dfdf49604f0e1c565c3eea4cac10",
+          "checksum": {
+            "type": "MD5",
+            "value": "9430dfdf49604f0e1c565c3eea4cac10"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file contains metadata for cohort 2 of 111 patients. Data; Sex, age, anatomical location of uveitis, neutrophil blood count, IMT status and follow-up time. This file is used in the analysis outlined in \"Figure_3.rmd\". This data contains potentially identifiable information and is restricted. Please contact the author for further information.  ",
+        "label": "cohort2_demogr_neutro.xlsx",
+        "restricted": true,
+        "directoryLabel": "Figure_3",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140937,
+          "persistentId": "",
+          "filename": "cohort2_demogr_neutro.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 17115,
+          "description": "This file contains metadata for cohort 2 of 111 patients. Data; Sex, age, anatomical location of uveitis, neutrophil blood count, IMT status and follow-up time. This file is used in the analysis outlined in \"Figure_3.rmd\". This data contains potentially identifiable information and is restricted. Please contact the author for further information.  ",
+          "storageIdentifier": "surf://store:17bc067a681-38d395cfe882",
+          "rootDataFileId": -1,
+          "md5": "fb8689304f383e594a678b5e5d6c4a3f",
+          "checksum": {
+            "type": "MD5",
+            "value": "fb8689304f383e594a678b5e5d6c4a3f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file contains metadata for cohort 3 of 67 patients. Data; Sex, age, anatomical location of uveitis, neutrophil blood count, IMT status and follow-up time. This file is used in the analysis outlined in \"Figure_3.rmd\". This data contains potentially identifiable information and is restricted. Please contact the author for further information.  ",
+        "label": "cohort3_demogr_neutro .txt",
+        "restricted": true,
+        "directoryLabel": "Figure_3",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140924,
+          "persistentId": "",
+          "filename": "cohort3_demogr_neutro .txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 4721,
+          "description": "This file contains metadata for cohort 3 of 67 patients. Data; Sex, age, anatomical location of uveitis, neutrophil blood count, IMT status and follow-up time. This file is used in the analysis outlined in \"Figure_3.rmd\". This data contains potentially identifiable information and is restricted. Please contact the author for further information.  ",
+          "storageIdentifier": "surf://store:17bc067a533-da5e96db045e",
+          "rootDataFileId": -1,
+          "md5": "91eba816b3a986bbf776fd9b8927fdb0",
+          "checksum": {
+            "type": "MD5",
+            "value": "91eba816b3a986bbf776fd9b8927fdb0"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "A .RData object that contains the SOMAscan 1.3K data for 78 samples and 936 aptamers after QC. This datafile is generated in the analysis outlined in \"Figure_1.rmd\" and is used for the analysis outlined in \"Figure_1.rmd\".",
+        "label": "dataQC.RData",
+        "restricted": false,
+        "directoryLabel": "Figure_2",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140941,
+          "persistentId": "",
+          "filename": "dataQC.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 469582,
+          "description": "A .RData object that contains the SOMAscan 1.3K data for 78 samples and 936 aptamers after QC. This datafile is generated in the analysis outlined in \"Figure_1.rmd\" and is used for the analysis outlined in \"Figure_1.rmd\".",
+          "storageIdentifier": "surf://store:17bc067bc66-59fa7f758c51",
+          "rootDataFileId": -1,
+          "md5": "91d87e4b878c09f0b276d14e503db2d2",
+          "checksum": {
+            "type": "MD5",
+            "value": "91d87e4b878c09f0b276d14e503db2d2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": ".html of the R notebook describing all analysis conducted for the data underlying Figure 1 of the manuscript. ",
+        "label": "Figure_1.html",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 141035,
+          "persistentId": "",
+          "filename": "Figure_1.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 2007121,
+          "description": ".html of the R notebook describing all analysis conducted for the data underlying Figure 1 of the manuscript. ",
+          "storageIdentifier": "surf://store:17bcef7855d-f05fa289e131",
+          "rootDataFileId": -1,
+          "md5": "e7306e6778a7f0f7667c530f7d42d760",
+          "checksum": {
+            "type": "MD5",
+            "value": "e7306e6778a7f0f7667c530f7d42d760"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-10",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "R notebook describing all analysis conducted for the data underlying Figure 1 of the manuscript. ",
+        "label": "Figure_1.rmd",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 141034,
+          "persistentId": "",
+          "filename": "Figure_1.rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 20325,
+          "description": "R notebook describing all analysis conducted for the data underlying Figure 1 of the manuscript. ",
+          "storageIdentifier": "surf://store:17bcef788af-6b6d94f79543",
+          "rootDataFileId": -1,
+          "md5": "a2df55bbf38bcc232eb95820ca38c82e",
+          "checksum": {
+            "type": "MD5",
+            "value": "a2df55bbf38bcc232eb95820ca38c82e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-10",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": ".html of the R notebook describing all analysis conducted for the data underlying Figure 2 and Figure 3A-B of the manuscript. ",
+        "label": "Figure_2.html",
+        "restricted": false,
+        "directoryLabel": "Figure_2",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 141031,
+          "persistentId": "",
+          "filename": "Figure_2.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 2808639,
+          "description": ".html of the R notebook describing all analysis conducted for the data underlying Figure 2 and Figure 3A-B of the manuscript. ",
+          "storageIdentifier": "surf://store:17bcef782a9-16a247498a11",
+          "rootDataFileId": -1,
+          "md5": "cebe9f7f95b6c7c32887c048289ed46d",
+          "checksum": {
+            "type": "MD5",
+            "value": "cebe9f7f95b6c7c32887c048289ed46d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-10",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": ".RData (image) of all analysis conducted for the data underlying Figure 2 of the manuscript. This file complements \"Figure_2.rmd\". This data contains potentially identifiable information and is restricted. Please contact the author for further information.  ",
+        "label": "Figure_2.RData",
+        "restricted": true,
+        "directoryLabel": "Figure_2",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140927,
+          "persistentId": "",
+          "filename": "Figure_2.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 28681500,
+          "description": ".RData (image) of all analysis conducted for the data underlying Figure 2 of the manuscript. This file complements \"Figure_2.rmd\". This data contains potentially identifiable information and is restricted. Please contact the author for further information.  ",
+          "storageIdentifier": "surf://store:17bc067ba46-61f1cec4af51",
+          "rootDataFileId": -1,
+          "md5": "407c41a5cfdac46145921b9faf042b89",
+          "checksum": {
+            "type": "MD5",
+            "value": "407c41a5cfdac46145921b9faf042b89"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "R notebook describing all analysis conducted for the data underlying Figure 2 and Figure 3A-B of the manuscript. ",
+        "label": "Figure_2.rmd",
+        "restricted": false,
+        "directoryLabel": "Figure_2",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 141033,
+          "persistentId": "",
+          "filename": "Figure_2.rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 25688,
+          "description": "R notebook describing all analysis conducted for the data underlying Figure 2 and Figure 3A-B of the manuscript. ",
+          "storageIdentifier": "surf://store:17bcef789c7-d56bb094527c",
+          "rootDataFileId": -1,
+          "md5": "390028163c5b233d6b56f57e907e9cbb",
+          "checksum": {
+            "type": "MD5",
+            "value": "390028163c5b233d6b56f57e907e9cbb"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-10",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": ".html of the R notebook describing all analysis conducted for the data underlying Figure 3C-F of the manuscript. ",
+        "label": "Figure_3.html",
+        "restricted": false,
+        "directoryLabel": "Figure_3",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 141032,
+          "persistentId": "",
+          "filename": "Figure_3.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 2134338,
+          "description": ".html of the R notebook describing all analysis conducted for the data underlying Figure 3C-F of the manuscript. ",
+          "storageIdentifier": "surf://store:17bcef7881a-4d3e04319dc0",
+          "rootDataFileId": -1,
+          "md5": "37d72117c48b54683f81b1f2c941a387",
+          "checksum": {
+            "type": "MD5",
+            "value": "37d72117c48b54683f81b1f2c941a387"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-10",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": ".RData image of all analysis as outlined in \"Figure_3.rmd\" and \"Figure_3.html\". This data contains potentially identifiable information and is restricted. Please contact the author for further information.  ",
+        "label": "Figure_3.RData",
+        "restricted": true,
+        "directoryLabel": "Figure_3",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140942,
+          "persistentId": "",
+          "filename": "Figure_3.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 399425,
+          "description": ".RData image of all analysis as outlined in \"Figure_3.rmd\" and \"Figure_3.html\". This data contains potentially identifiable information and is restricted. Please contact the author for further information.  ",
+          "storageIdentifier": "surf://store:17bc067a281-cb2ffe5795df",
+          "rootDataFileId": -1,
+          "md5": "563465229bf4635d31cdf6823ef8c671",
+          "checksum": {
+            "type": "MD5",
+            "value": "563465229bf4635d31cdf6823ef8c671"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "R notebook describing all analysis conducted for the data underlying Figure 3C-F of the manuscript. ",
+        "label": "Figure_3.rmd",
+        "restricted": false,
+        "directoryLabel": "Figure_3",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 141036,
+          "persistentId": "",
+          "filename": "Figure_3.rmd",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 12987,
+          "description": "R notebook describing all analysis conducted for the data underlying Figure 3C-F of the manuscript. ",
+          "storageIdentifier": "surf://store:17bcef7893a-a4bb7a56dea8",
+          "rootDataFileId": -1,
+          "md5": "f68e8fb53b4362340a41826950fba653",
+          "checksum": {
+            "type": "MD5",
+            "value": "f68e8fb53b4362340a41826950fba653"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-10",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Wikipathways reference data set used for the pathway enrichment analysis as described in \"Figure_1.rmd\" and \"Figure_1.html\". ",
+        "label": "gmt_wp_Homo_sapiens.gmt",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140928,
+          "persistentId": "",
+          "filename": "gmt_wp_Homo_sapiens.gmt",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 418353,
+          "description": "Wikipathways reference data set used for the pathway enrichment analysis as described in \"Figure_1.rmd\" and \"Figure_1.html\". ",
+          "storageIdentifier": "surf://store:17bc06793dc-8bcc31f38b88",
+          "rootDataFileId": -1,
+          "md5": "fe0b064f8a5cd6ece4f5887039a8bcea",
+          "checksum": {
+            "type": "MD5",
+            "value": "fe0b064f8a5cd6ece4f5887039a8bcea"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": " SomaScan dataset after hybridization control normalization, median signal normalization are presented in adat format, used in the analysis outlined in \"Figure_1.rmd\" and detailed in \"Figure_1.html\". ",
+        "label": "MED-17-274.hybNorm.plateScale.medNorm.calibrate.20180425.adat",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140933,
+          "persistentId": "",
+          "filename": "MED-17-274.hybNorm.plateScale.medNorm.calibrate.20180425.adat",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1132847,
+          "description": " SomaScan dataset after hybridization control normalization, median signal normalization are presented in adat format, used in the analysis outlined in \"Figure_1.rmd\" and detailed in \"Figure_1.html\". ",
+          "storageIdentifier": "surf://store:17bc06837aa-42d524e17e49",
+          "rootDataFileId": -1,
+          "md5": "118283811cc17dd7c4507dd275ee7053",
+          "checksum": {
+            "type": "MD5",
+            "value": "118283811cc17dd7c4507dd275ee7053"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "SOMAscan Quality Statement for the analysis of serum of cohort 1",
+        "label": "MED-17-274_SQS_20180425.pdf",
+        "restricted": false,
+        "directoryLabel": "Data",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140940,
+          "persistentId": "",
+          "filename": "MED-17-274_SQS_20180425.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 70934,
+          "description": "SOMAscan Quality Statement for the analysis of serum of cohort 1",
+          "storageIdentifier": "surf://store:17bc0683466-37a21af8d695",
+          "rootDataFileId": -1,
+          "md5": "6a4741b4b7ff2f2d9c33380a406019db",
+          "checksum": {
+            "type": "MD5",
+            "value": "6a4741b4b7ff2f2d9c33380a406019db"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This .RData object is the image of all data analysis conducted for Figure 1 of the manuscript. This file complement the analysis described in \"Figure_1.rmd\" and \"Figure_1.html\". ",
+        "label": "Med.Norm.QC.RData",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140925,
+          "persistentId": "",
+          "filename": "Med.Norm.QC.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 12742022,
+          "description": "This .RData object is the image of all data analysis conducted for Figure 1 of the manuscript. This file complement the analysis described in \"Figure_1.rmd\" and \"Figure_1.html\". ",
+          "storageIdentifier": "surf://store:17bc067c419-ef91a6204087",
+          "rootDataFileId": -1,
+          "md5": "f29e57b34cad3f0d7006829160e0df31",
+          "checksum": {
+            "type": "MD5",
+            "value": "f29e57b34cad3f0d7006829160e0df31"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This .RData object contains the q-values calculated with the q-value package for p-values from differential expression analysis as outlined in \"Figure_1.rmd\" and \"Figure_1.html\". This file is used in the analysis as outlined in \"Figure_2.rmd\" and \"Figure_2.html\". ",
+        "label": "qobj.RData",
+        "restricted": false,
+        "directoryLabel": "Figure_2",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140936,
+          "persistentId": "",
+          "filename": "qobj.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 25412,
+          "description": "This .RData object contains the q-values calculated with the q-value package for p-values from differential expression analysis as outlined in \"Figure_1.rmd\" and \"Figure_1.html\". This file is used in the analysis as outlined in \"Figure_2.rmd\" and \"Figure_2.html\". ",
+          "storageIdentifier": "surf://store:17bc067c5a0-00975c0da761",
+          "rootDataFileId": -1,
+          "md5": "d909e088c34ba2d1a6159700643a89de",
+          "checksum": {
+            "type": "MD5",
+            "value": "d909e088c34ba2d1a6159700643a89de"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "mean [min-max] relative fluorescent units (RFU) for 938 aptamers (with >200 RFU for all disease groups) for anterior uveitis (AU), intermediate uveitis (IU), birdshot uveitis (BU), and controls (HC). This data file is generated in analysis outlined in \"Figure_1.rmd\", detailed in \"Figure_1.html\". and used to generate a table in the analysis of \"Figure_2.rmd\" / \"Figure_2.html\".  ",
+        "label": "Raw_Soma_exp.RData",
+        "restricted": false,
+        "directoryLabel": "Figure_2",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140939,
+          "persistentId": "",
+          "filename": "Raw_Soma_exp.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 58316,
+          "description": "mean [min-max] relative fluorescent units (RFU) for 938 aptamers (with >200 RFU for all disease groups) for anterior uveitis (AU), intermediate uveitis (IU), birdshot uveitis (BU), and controls (HC). This data file is generated in analysis outlined in \"Figure_1.rmd\", detailed in \"Figure_1.html\". and used to generate a table in the analysis of \"Figure_2.rmd\" / \"Figure_2.html\".  ",
+          "storageIdentifier": "surf://store:17bc067c6eb-935826758233",
+          "rootDataFileId": -1,
+          "md5": "f350b596c716d2f47818ffff8e29507b",
+          "checksum": {
+            "type": "MD5",
+            "value": "f350b596c716d2f47818ffff8e29507b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "File containing the sex and age of samples from cohort 1. These can be used in the analysis of \"Figure_1.rmd\". ",
+        "label": "sex_age_cohort.txt",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 140929,
+          "persistentId": "",
+          "filename": "sex_age_cohort.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1264,
+          "description": "File containing the sex and age of samples from cohort 1. These can be used in the analysis of \"Figure_1.rmd\". ",
+          "storageIdentifier": "surf://store:17bc067924a-105d4b6774a9",
+          "rootDataFileId": -1,
+          "md5": "5ed46a10d30fd9be40a92da3d158d244",
+          "checksum": {
+            "type": "MD5",
+            "value": "5ed46a10d30fd9be40a92da3d158d244"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-07",
+          "publicationDate": "2021-09-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Supplemental Table 1-3 supporting the preprint and published work by Kuiper et al. ",
+        "label": "Supp-Table.xlsx",
+        "restricted": false,
+        "directoryLabel": "Data",
+        "version": 1,
+        "datasetVersionId": 19513,
+        "dataFile": {
+          "id": 269069,
+          "persistentId": "",
+          "filename": "Supp-Table.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 450846,
+          "description": "Supplemental Table 1-3 supporting the preprint and published work by Kuiper et al. ",
+          "storageIdentifier": "surf://store:1800457bba2-b3941e0b9d3a",
+          "rootDataFileId": -1,
+          "md5": "4446ca210d9bf796c3489d321ebca9fa",
+          "checksum": {
+            "type": "MD5",
+            "value": "4446ca210d9bf796c3489d321ebca9fa"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-07",
+          "publicationDate": "2022-04-19",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Kuiper, Jonas, 2021, \"Dataset for \"A serum protein network predicts the need for systemic immunomodulatory therapy in autoimmune uveitis\"\", https://doi.org/10.34894/QR1VFZ, DataverseNL, V2"
+  }
+}

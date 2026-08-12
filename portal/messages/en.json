@@ -25,7 +25,16 @@
   ],
   "requestAccess": "Request access",
   "noFiles": "No files",
-  "fileCountDetails": "{count} file | {count} files",
+  "fileCountDetails": [
+    {
+      "declarations": ["input count", "local countPlural = count: plural"],
+      "selectors": ["countPlural"],
+      "match": {
+        "countPlural=one": "{count} file",
+        "countPlural=other": "{count} files"
+      }
+    }
+  ],
   "fileAccess": "File access",
   "personalDataPresent": "Personal data present",
   "languages": "Languages",
@@ -64,5 +73,14 @@
   "sortByOldest": "Oldest first",
   "sortByTitleAsc": "Title (A-Z)",
   "sortByTitleDesc": "Title (Z-A)",
-  "yearFilterHint": "Click to toggle a year · Shift-click to select a range"
+  "sortByDateOfDepositAsc": "Date of deposit (oldest first)",
+  "sortByDateOfDepositDesc": "Date of deposit (newest first)",
+  "yearFilterHint": "Click to toggle a year · Shift-click to select a range",
+  "filter": "Filter",
+  "loadingLonger": "Loading takes longer than expected...",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeSwitcherButton": "Switch theme to: {theme}",
+  "themeSwitcherButtonGroup": "Theme switcher, current theme: {theme}"
 }

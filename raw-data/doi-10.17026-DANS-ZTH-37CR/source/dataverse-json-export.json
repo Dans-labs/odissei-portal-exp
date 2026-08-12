@@ -1,0 +1,605 @@
+{
+  "id": 173801,
+  "identifier": "dans-zth-37cr",
+  "persistentUrl": "https://doi.org/10.17026/DANS-ZTH-37CR",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2015-06-30",
+  "storageIdentifier": "surf://10.17026/dans-zth-37cr",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 23777,
+    "datasetId": 173801,
+    "datasetPersistentId": "doi:10.17026/DANS-ZTH-37CR",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-zth-37cr",
+    "versionNumber": 2,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2015-06-07",
+    "productionDate": "2015-06-07",
+    "UNF": "UNF:6:iT50ZiDnbghWPhug7tWd5w==",
+    "lastUpdateTime": "2024-11-07T17:30:09Z",
+    "releaseTime": "2024-11-07T17:30:09Z",
+    "createTime": "2024-11-07T17:26:56Z",
+    "publicationDate": "2015-06-30",
+    "citationDate": "2015-06-30",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "termsOfAccess": "N/a",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Broad-Band Visually Evoked Potentials: Re(con)volution in Brain-Computer Interfacing."
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:61472"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "P.W.M. Desain"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Donders Institute for Brain, Cognition and Behaviour, Radboud University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "DAI"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "info:eu-repo/dai/nl/071868402"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "J. Thielen"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Donders Institute for Brain, Cognition and Behaviour, Radboud University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "J  Thielen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Brain-Computer Interfaces (BCIs) allow users to control devices and communicate by using brain activity only. Visual stimulation with pseudo-random bitsequences evokes specific Broad-Band Visually Evoked Potentials (BBVEPs) that can be reliably used in BCI for high-speed communication in speller applications. In this study, we report a novel paradigm for a BBVEP-based BCI that utilizes a generative framework to predict responses to broad-band stimulation sequences.</p><p>In this study we designed a BBVEP-based BCI using modulated Gold codes to mark cells in a visual speller BCI. We defined a linear generative model that decomposes full responses into overlapping single-flash responses. These single-flash responses are used to predict responses to novel stimulation sequences, which in turn serve as templates for classification. In an online experiment, 12 participants tested a 6x6 matrix speller BCI. These predicted responses are proven to be well-suited as templates for a BBVEP-based BCI, thereby enabling communication and control by brain activity only.</p>"
+                }
+              },
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Note, these files contain processed data, used to create the figures as shown in the related article. The actual (raw) EEG data, recorded from human participants is available upon request (jordy.thielen@gmail.com, or info@donders.ru.nl).</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Brain Computer Interface"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Visual Matrix Speller"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Broad Band Visually Evoked Potentials"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Reconvolution"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Electroencephalography"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "PlosOne"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2015-06-07"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2015-06-07"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2015-06-07"
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Unknown"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D50000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D50000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Gedragswetenschappen en onderwijskunde"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Behavioural and educational sciences"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Thielen J, van den Broek P, Farquhar J, Desain P (2015) Broad-Band Visually Evoked Potentials: Re(con)volution in Brain-Computer Interfacing. PLoS ONE 10(7): e0133797. doi:10.1371/journal.pone.0133797"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dx.doi.org/10.1371/journal.pone.0133797"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Youtube video: Noisetag Brain Computer Interface"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.youtube.com/watch?v=GwhSmORZEOI"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/dans-zth-37cr"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:ec8a5402-6910-4bef-b390-29e356e64770"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-yz6p-1q"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "copy_spelling_performances.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 23777,
+        "dataFile": {
+          "id": 173804,
+          "persistentId": "",
+          "filename": "copy_spelling_performances.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 709,
+          "description": "",
+          "storageIdentifier": "surf://store:186eb7a621b-c18fa0bf96c7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "20c686838150e52c6d594f5a6348ca4442af7a2d"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2015-06-30",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Documentation_Code_book.pdf",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 23777,
+        "dataFile": {
+          "id": 173841,
+          "persistentId": "",
+          "filename": "Documentation_Code_book.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 110751,
+          "description": "",
+          "storageIdentifier": "surf://store:186eb7aba64-e8eb046488ce",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2ca91e1fa88dc68df9cc3aff567a13ef6904b9ff"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2015-06-30",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 23777,
+        "dataFile": {
+          "id": 173839,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 18266,
+          "description": "",
+          "storageIdentifier": "surf://store:186eb7ab6a3-1f733aeb2704",
+          "rootDataFileId": 173803,
+          "previousDataFileId": 173803,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b0e905e8e4bd0f14b5f3f098c198bdf3bc4db344"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2015-06-30",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "free_spelling_performances.tab",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 23777,
+        "dataFile": {
+          "id": 173806,
+          "persistentId": "",
+          "filename": "free_spelling_performances.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 307,
+          "description": "",
+          "storageIdentifier": "surf://store:186eb7a641f-ba8faa59c361",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 321,
+          "originalFileName": "free_spelling_performances.csv",
+          "UNF": "UNF:6:iT50ZiDnbghWPhug7tWd5w==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a7e80945e749747cdec6fa93e9a72726f6058e76"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2015-06-30",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "free_spelling_sentences.txt",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 23777,
+        "dataFile": {
+          "id": 173807,
+          "persistentId": "",
+          "filename": "free_spelling_sentences.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 626,
+          "description": "",
+          "storageIdentifier": "surf://store:186eb7a6591-416c49c49ee1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a3c17a7da7ecfb4b17cc10dcf1c029e3d03e211e"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2015-06-30",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "PloS_ONE_2015_Research_article_Thielen_et_al.pdf",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 23777,
+        "dataFile": {
+          "id": 173813,
+          "persistentId": "",
+          "filename": "PloS_ONE_2015_Research_article_Thielen_et_al.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1633262,
+          "description": "",
+          "storageIdentifier": "surf://store:186eb7a6c04-f901304b048f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fc63d3aabc1ce63dc4f54aa8803d0d4ed0512f01"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2015-06-30",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "pulseresponses.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 23777,
+        "dataFile": {
+          "id": 173812,
+          "persistentId": "",
+          "filename": "pulseresponses.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 10776,
+          "description": "",
+          "storageIdentifier": "surf://store:186eb7a6a39-e452e67a86e7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "37763c47165ed7a46d7cee996922e7d75784d6e9"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2015-06-30",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "spatialfilters.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 23777,
+        "dataFile": {
+          "id": 173809,
+          "persistentId": "",
+          "filename": "spatialfilters.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13470,
+          "description": "",
+          "storageIdentifier": "surf://store:186eb7a66dd-84bcf6908c4b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "68f701bfc59964daca78847226c9877cf99de02c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2015-06-30",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "P.W.M. Desain; J. Thielen, 2015, \"Broad-Band Visually Evoked Potentials: Re(con)volution in Brain-Computer Interfacing.\", https://doi.org/10.17026/DANS-ZTH-37CR, DANS Data Station Social Sciences and Humanities, V2, UNF:6:iT50ZiDnbghWPhug7tWd5w== [fileUNF]"
+  }
+}

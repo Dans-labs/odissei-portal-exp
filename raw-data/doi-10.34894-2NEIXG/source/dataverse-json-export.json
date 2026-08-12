@@ -1,0 +1,272 @@
+{
+  "id": 575979,
+  "identifier": "2NEIXG",
+  "persistentUrl": "https://doi.org/10.34894/2NEIXG",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-01-08",
+  "storageIdentifier": "surf://10.34894/2NEIXG",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32537,
+    "datasetId": 575979,
+    "datasetPersistentId": "doi:10.34894/2NEIXG",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/2NEIXG",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-01-08T18:40:17Z",
+    "releaseTime": "2026-01-08T18:40:17Z",
+    "createTime": "2026-01-08T18:40:15Z",
+    "publicationDate": "2026-01-08",
+    "citationDate": "2026-01-08",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Biodiversity - naturalness"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Klein Goldewijk, Kees"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2714-7507"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Leeuwen, Bas"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset is based on the GLOBIO3 approach, represented by the Mean Species Abundance (MSA) indicator. Due to historical data availability only a selective set of pressures (cropland and grazing) is included here. This dataset  therefore gives an overestimation of remaining biodiversity or naturalness, as compared to other studies in which the GLOBIO approach was used for the more recent time periods, e.g. Environmental Data Compendium (http://www.compendiumvoordeleefomgeving.nl/) and the Global Biodiversity Outlook4 (https://www.cbd.int/gbo4/. GLOBIO3 is built on a set of equations linking environmental drivers and biodiversity impact (cause–effect relationships). Cause–effect relationships are derived from available literature using meta-analyses. GLOBIO3 describes biodiversity as the remaining mean species abundance (MSA) of original species, relative to their abundance in pristine or primary vegetation, which are assumed to be not disturbed by human activities for a prolonged period. MSA is similar to the Biodiversity Integrity Index (Majer and Beeston 1996) and the Biodiversity Intactness Index (Scholes and Biggs 2005) and can be considered as a proxy for the CBD indicator on trends in species abundance (UNEP 2004). The main difference between MSA and BII is that every hectare is given equal weight in MSA, whereas BII gives more weight to species rich areas. MSA is also similar to the Living Planet Index (Loh and others 2005), which compares changes in populations to a 1970 baseline, rather than to primary vegetation. It should be emphasized that MSA does not completely cover the complex biodiversity concept, and complementary indicators should be included, when used in extensive biodiversity assessments (Faith and others 2008). \n\nThe output of GLOBIO is expressed here as MSA, an indicator of naturalness or biodiversity intactness. It is defined as the mean abundance of original species relative to their abundance in undisturbed ecosystems. An area with an MSA of 100% means a biodiversity that is similar to the natural situation. An MSA of 0% means a completely destructed ecosystem, with no original species remaining. Global environmental drivers of biodiversity change are input for GLOBIO3. In this particular case, a simplified method is used since not all required drivers are available for the historical period. Therefore, only historical land use changes are the main driver here. Long term historical expansion of cropland, pasture (land used for grazing livestock, intensive and extensive) and built-up area (urban sprawl, growth of cities and towns) are taken from the HYDE 3.1 database (Klein Goldewijk et al. 2011). GLOBIO3 calculates the overall MSAi value by substracting the individual MSAX maps from the potential maximum available grid cell land area (and dividing with it so a fraction is obtained): \n\nMSAi,t = (Gareai – 0.7* Croplandi,t – 0.3 *Pasturei,t – 0.95 * Built-upi,t)/Gareai \n\nwhere i is a grid cell, t is (historical) time step, MSAi is the overall value for grid cell i, Gareai is the total available land area of grid cell i. Cropland, Pasture and Built-up are the corresponding historical land use areas at time step t. The multipliers are derived from expert judgment, indicating a very high negative impact on biodiversity (0.95), a severe impact (0.7) and a modest impact (0.3)."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2013-06-24"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "biodiversity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "land use"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "cropland"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "pasture"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Please consult the working paper for a description of the data and sources."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van Leeuwen, Bas"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2015-12-14"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/2NEIXG"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:3bc1f574-562c-4b1c-9a06-8cd41778aa79"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-86bdc068-151f-4996-a0c8-25a87dbda09e"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "Naturalness-historical.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32537,
+        "dataFile": {
+          "id": 575980,
+          "persistentId": "",
+          "filename": "Naturalness-historical.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 142142,
+          "description": "",
+          "storageIdentifier": "surf://store:19b9ee8bda4-1c8ed025bc34",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fbbc64acefd996a61512c6df0c7bc31cc3da2036"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-08",
+          "publicationDate": "2026-01-08",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Naturalness.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32537,
+        "dataFile": {
+          "id": 575981,
+          "persistentId": "",
+          "filename": "Naturalness.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 594346,
+          "description": "",
+          "storageIdentifier": "surf://store:19b9ee8bf50-9405bec34895",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "11d70beb08d93af1522207081da1c44bf03b4762"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-08",
+          "publicationDate": "2026-01-08",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Klein Goldewijk, Kees, 2026, \"Biodiversity - naturalness\", https://doi.org/10.34894/2NEIXG, DataverseNL, V1"
+  }
+}

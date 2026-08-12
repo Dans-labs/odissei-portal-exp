@@ -1,0 +1,3351 @@
+{
+  "id": 402107,
+  "identifier": "8QYQZP",
+  "persistentUrl": "https://doi.org/10.34894/8QYQZP",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-02-02",
+  "storageIdentifier": "surf://10.34894/8QYQZP",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25903,
+    "datasetId": 402107,
+    "datasetPersistentId": "doi:10.34894/8QYQZP",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/8QYQZP",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-02-02T08:45:05Z",
+    "releaseTime": "2024-02-02T08:45:05Z",
+    "createTime": "2024-02-01T12:49:06Z",
+    "publicationDate": "2024-02-02",
+    "citationDate": "2024-02-02",
+    "termsOfUse": "See UMC Utrecht license",
+    "confidentialityDeclaration": "no",
+    "specialPermissions": "no",
+    "restrictions": "no",
+    "citationRequirements": "We ask researchers to include an acknowledgment on behalf of the UMC Utrecht. If you use this dataset in a publication, please cite the dataset, and include the following in the citation: author; year; dataset title; dataset DOI; datase version; repository.",
+    "disclaimer": "It is expressly understood that UMC Utrecht does not make any warranties regarding the data and specifically does not warrant or guarantee that the data will be accurate, be merchantable or useful for any particular purpose. Use of the data is at your own risk. UMC Utrecht cannot and shall not be held liable for any claims or damages by you or any third party, in connection with or as a result of the use of data by you. ",
+    "termsOfAccess": "By downloading or otherwise accessing the materials, the downloader represents his/her acceptance of the Terms of Use. ",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Discrepancies Between Transcutaneous and Estimated Glomerular Filtration Rate in Rats with Chronic Kidney Disease"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tobias T. Pieters"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-8020-477X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Paul J. Besseling"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-5636-6277"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jaap A. Joles"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Datamanagement Internal Medicine and Dermatology"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This data repository contains two csv files with the data that were used for the analyses. One dataset contains the data of the Utrecht cohort, containing rat identification numbers, strain, weight, serum creatinine, serum urea, mGFR measured with sinistrin clearance and eGFR. The other dataset contains the data of the Rotterdam cohort, containing rat identification numbers, whether the rat was a control subject or not, the weight, serum creatinine, serum urea, tGFR calculated with the one compartment assumption, days between the tGFR measurement and the serum creatinine/urea measurement, Quality of the curve, and tGFR calculated with the three compartment model. Furthermore we added csv files of all the raw data produced by the transcutaneous measurements in the Rotterdam cohort."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GFR"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rat"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Pieters, Tobias"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-02-01"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/8QYQZP"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:1462a6fd-b969-4b89-9f58-57b190b1c3ff"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-5cece62e-47c6-429c-862c-a9c52ac6f4c0"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Data of the Rotterdam cohort",
+        "label": "data_rotterdam.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402189,
+          "persistentId": "",
+          "filename": "data_rotterdam.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 7822,
+          "description": "Data of the Rotterdam cohort",
+          "storageIdentifier": "surf://store:18d64b09ebd-b251fb3c3744",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0ed06a8baf4dbeab8e0db243d3ff67afeb3d54fd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Data of the Utrecht cohort",
+        "label": "data_utrecht.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402201,
+          "persistentId": "",
+          "filename": "data_utrecht.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 26160,
+          "description": "Data of the Utrecht cohort",
+          "storageIdentifier": "surf://store:18d64b09f38-71ceab5231f4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "395661747b0be2a0e4320e14ceb07e91902baf27"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 10 T=2 08-03-2018_UD_000756_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402206,
+          "persistentId": "",
+          "filename": "D RAT 10 T=2 08-03-2018_UD_000756_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 241427,
+          "storageIdentifier": "surf://store:18d64b1080b-bc68dbd7f2e5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "81433bfc41c91d99699f1b957854ecd85cf1d37d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 11 T=2 08-03-2018_UD_000949_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402135,
+          "persistentId": "",
+          "filename": "D RAT 11 T=2 08-03-2018_UD_000949_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234324,
+          "storageIdentifier": "surf://store:18d64b108e5-fec0bd67b9d8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8be1c21af0c317cdb087cba5ad23ba079cc802dd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 12 T=2 09-03-18_UD_000756_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402129,
+          "persistentId": "",
+          "filename": "D RAT 12 T=2 09-03-18_UD_000756_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234640,
+          "storageIdentifier": "surf://store:18d64b109c1-260e79f5c827",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cfdb611af4b29f82c828feb7f9ef4698bb4211b6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 13 T=2 09-03-18_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402140,
+          "persistentId": "",
+          "filename": "D RAT 13 T=2 09-03-18_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234593,
+          "storageIdentifier": "surf://store:18d64b10b38-9fe4373e0ace",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5d255428b6abcb3b69896ec236dcbae18c545225"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 14 T=2 22-03-2018_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402215,
+          "persistentId": "",
+          "filename": "D RAT 14 T=2 22-03-2018_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234458,
+          "storageIdentifier": "surf://store:18d64b10c2d-d0378961c745",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d908ce0dec5355fb1ea9f63cb51567402c8c5446"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 15 T=2 22-03-2018_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402210,
+          "persistentId": "",
+          "filename": "D RAT 15 T=2 22-03-2018_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234613,
+          "storageIdentifier": "surf://store:18d64b10d95-5d638e6fc2e3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83cf906f17b06ccb8e1a7f85bae6a9bbaec32ef5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 16 T=2 22-03-2018_UD_000756_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402184,
+          "persistentId": "",
+          "filename": "D RAT 16 T=2 22-03-2018_UD_000756_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234628,
+          "storageIdentifier": "surf://store:18d64b11057-5d498bd74edc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f2481ef1a2b9f3e7ae2f55f74dc00200991e1b2a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 17 T=2 22-03-2018_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402133,
+          "persistentId": "",
+          "filename": "D RAT 17 T=2 22-03-2018_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234590,
+          "storageIdentifier": "surf://store:18d64b1113c-f4b890ebe148",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9293cd831efa36e9aec88960e64d0b323f0d0136"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 18 T=2 22-03-2018_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402196,
+          "persistentId": "",
+          "filename": "D RAT 18 T=2 22-03-2018_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234524,
+          "storageIdentifier": "surf://store:18d64b113a9-35b70212cff7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1d8176e3b593fae48ecb8378dc5ec5bf5fb5c8c7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 19 T=2 22-03-2018_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402165,
+          "persistentId": "",
+          "filename": "D RAT 19 T=2 22-03-2018_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234612,
+          "storageIdentifier": "surf://store:18d64b114c7-43c267cd8891",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8025b1695c1378913e38ae2b22ef835ec58a9789"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 1 T=2 02-08-2018_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402207,
+          "persistentId": "",
+          "filename": "D RAT 1 T=2 02-08-2018_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234614,
+          "storageIdentifier": "surf://store:18d64b106d8-f7ef594e5a95",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "93cc7c2e8d68b7093f41c0519ddcf6749a9900b1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 20 T=2 22-03-2018_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402220,
+          "persistentId": "",
+          "filename": "D RAT 20 T=2 22-03-2018_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 237310,
+          "storageIdentifier": "surf://store:18d64b12844-5500ca4aca56",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0231313bb9286bf03f6179bd18b1a2922ec3a0aa"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 21 T=2 24-05-18_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402209,
+          "persistentId": "",
+          "filename": "D RAT 21 T=2 24-05-18_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b12958-9a41410b9221",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "822d58fa84e523e0906d4280dc1272b5ae0d20ec"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 22 T=2 24-05-18_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402232,
+          "persistentId": "",
+          "filename": "D RAT 22 T=2 24-05-18_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234602,
+          "storageIdentifier": "surf://store:18d64b12a6a-1cac9536e5fe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "183aacbdb8f366a988cdda609a98363c3a48a50c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 23 T=2 24-05-18_UD_000949_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402120,
+          "persistentId": "",
+          "filename": "D RAT 23 T=2 24-05-18_UD_000949_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234374,
+          "storageIdentifier": "surf://store:18d64b12b58-e13796f35d6d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ce022efc79fe379828031e65533c724b07a686aa"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 24 T=2 24-05-18_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402153,
+          "persistentId": "",
+          "filename": "D RAT 24 T=2 24-05-18_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234247,
+          "storageIdentifier": "surf://store:18d64b12c36-84426b4aa540",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5d2104561c2c598070d01e1439cc5e54fb8ce982"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 25 T=2 24-05-18_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402131,
+          "persistentId": "",
+          "filename": "D RAT 25 T=2 24-05-18_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234609,
+          "storageIdentifier": "surf://store:18d64b12d43-9d8f02f76be3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "14b110226c869a8d82cf670141a2cd6abf0fb879"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 26 T=2 24-05-18_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402136,
+          "persistentId": "",
+          "filename": "D RAT 26 T=2 24-05-18_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 235110,
+          "storageIdentifier": "surf://store:18d64b12e63-ad79e9c66ad3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b887d3508c177085b6709eee366e62efa522ee07"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 27 T=2 24-05-18_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402212,
+          "persistentId": "",
+          "filename": "D RAT 27 T=2 24-05-18_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234613,
+          "storageIdentifier": "surf://store:18d64b12f9a-a539de8a723f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fab1d24f7bd66f2663611b7f0b9dcb7b7459b569"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 28 T=2 24-05-18_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402170,
+          "persistentId": "",
+          "filename": "D RAT 28 T=2 24-05-18_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b13132-5da34aeda796",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "89b475d75c4318602864f392d121003a076c57c8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 29 T=2 8-6-18_UD_000949_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402122,
+          "persistentId": "",
+          "filename": "D RAT 29 T=2 8-6-18_UD_000949_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234181,
+          "storageIdentifier": "surf://store:18d64b13254-9b135d8a2ab2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76e72733c5a4fc55f615e4a15a135279528d1d8a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 2 T=2 09-02-18_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402218,
+          "persistentId": "",
+          "filename": "D RAT 2 T=2 09-02-18_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b115ab-435093dc2393",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "00c18fcefd938ef32d402bf6754364aedc9d0ceb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 30 T=2 8-6-18_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402141,
+          "persistentId": "",
+          "filename": "D RAT 30 T=2 8-6-18_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234058,
+          "storageIdentifier": "surf://store:18d64b134d7-c8b987a51edb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "77d64f34d0e9b3dd7abb91b45a38fae4e064a173"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 31 T=2 7-06-18_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402204,
+          "persistentId": "",
+          "filename": "D RAT 31 T=2 7-06-18_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234617,
+          "storageIdentifier": "surf://store:18d64b1362a-e80bf63e68e0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fc6f8c8e8ee89822d839600d2a3a55c7343749da"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 32 T=2 16-08-18_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402181,
+          "persistentId": "",
+          "filename": "D RAT 32 T=2 16-08-18_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b1374d-29f4aca097a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c49ff2b121978e618f56b11a0c7db46c68d72a6e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 33 T=2 17-08-18_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402234,
+          "persistentId": "",
+          "filename": "D RAT 33 T=2 17-08-18_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 230931,
+          "storageIdentifier": "surf://store:18d64b13883-8425ac9d23cb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "71e1686e18d9034c8c6cd25275c0101e51ddfa3f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 34 T=2 17-08-18_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402178,
+          "persistentId": "",
+          "filename": "D RAT 34 T=2 17-08-18_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 233117,
+          "storageIdentifier": "surf://store:18d64b13963-429fdae883e6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "00db9b393434f89638fd9ed1b80fee036a50368a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 35 T=2 06-09-18_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402166,
+          "persistentId": "",
+          "filename": "D RAT 35 T=2 06-09-18_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234243,
+          "storageIdentifier": "surf://store:18d64b13a41-859674cd8258",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5394721364976eca4b2ac7420517429ad3b73fc7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 36 T=2 06-09-18_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402160,
+          "persistentId": "",
+          "filename": "D RAT 36 T=2 06-09-18_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b13b97-51f0d0b83b23",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cbbe4f0cae1f348913f2c91371a4b0dc44206bb5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 37 T=2 06-09-18_UD_000949_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402132,
+          "persistentId": "",
+          "filename": "D RAT 37 T=2 06-09-18_UD_000949_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 230112,
+          "storageIdentifier": "surf://store:18d64b149e3-5051e71f3987",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9325ca1b73a2b3fc676065f20d3fa37bb204b494"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 38 T=2 11-10-18_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402158,
+          "persistentId": "",
+          "filename": "D RAT 38 T=2 11-10-18_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 240903,
+          "storageIdentifier": "surf://store:18d64b14ad3-819f5839ae6d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efecfd9fb66419140e127b23f004d6e6af99d18a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 39 T=2 11-10-18_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402187,
+          "persistentId": "",
+          "filename": "D RAT 39 T=2 11-10-18_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234620,
+          "storageIdentifier": "surf://store:18d64b14be2-2e7a5a3bfcb0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cbf6a7eb7a8aa17e8561ff26fb3a69cdd760cce9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 3 T=2 02-08-2018_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402134,
+          "persistentId": "",
+          "filename": "D RAT 3 T=2 02-08-2018_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234617,
+          "storageIdentifier": "surf://store:18d64b133bc-96a8dcdd47eb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "049a91617192359a287de4400ea88b4d663fe873"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 40 T=2 11-10-18_UD_000756_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402138,
+          "persistentId": "",
+          "filename": "D RAT 40 T=2 11-10-18_UD_000756_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 241146,
+          "storageIdentifier": "surf://store:18d64b14dd4-98eb0a27e810",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7c73dea9884aaf467ae0163db2bfbabc95b0afb8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 41 T=2 15-10-18_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402173,
+          "persistentId": "",
+          "filename": "D RAT 41 T=2 15-10-18_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 226442,
+          "storageIdentifier": "surf://store:18d64b14ed5-c4e589b67d7a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cccd587a6253c9f6d062e0950949d5f9f74efb8d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 42 T=2 11-10-18_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402146,
+          "persistentId": "",
+          "filename": "D RAT 42 T=2 11-10-18_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b14fc7-fa39eeb840e5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "72ffe684d7cd4f1185cd6f4157ef625f0ddcb1eb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 43 T=2 22-11-18_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402167,
+          "persistentId": "",
+          "filename": "D RAT 43 T=2 22-11-18_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234614,
+          "storageIdentifier": "surf://store:18d64b1508b-621551a117e4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8665dcccb61dad58ffd7d0e41a89e08476c7eb11"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 44 T=2 22-11-18_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402177,
+          "persistentId": "",
+          "filename": "D RAT 44 T=2 22-11-18_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234614,
+          "storageIdentifier": "surf://store:18d64b15140-a2c440c8a245",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e6ca2cf8fafbfb767ba63d65b74b47c425c69e54"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 45 T=2 23-11-18_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402186,
+          "persistentId": "",
+          "filename": "D RAT 45 T=2 23-11-18_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234619,
+          "storageIdentifier": "surf://store:18d64b15207-9ae4006735f8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c4ccace5c92af71c70c73eb732436fd39e5f244b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 46 T=2 22-11-18_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402112,
+          "persistentId": "",
+          "filename": "D RAT 46 T=2 22-11-18_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b1530b-c967df7e5e33",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c4ba49a46379d0681166e65c4966a8f1e8f26483"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 47 T=2 23-11-18_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402143,
+          "persistentId": "",
+          "filename": "D RAT 47 T=2 23-11-18_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234614,
+          "storageIdentifier": "surf://store:18d64b153de-52ea2ac70b03",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e9a9b97b871533caada1ea479df0af9c93d506bf"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 48 T=2 22-11-18_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402115,
+          "persistentId": "",
+          "filename": "D RAT 48 T=2 22-11-18_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 226429,
+          "storageIdentifier": "surf://store:18d64b154bc-5209f05b4d6c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ef3bd2a32907d1320f75f6cd8a36e8dea475e088"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 49 T=2 22-11-18_UD_000756_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402217,
+          "persistentId": "",
+          "filename": "D RAT 49 T=2 22-11-18_UD_000756_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 228268,
+          "storageIdentifier": "surf://store:18d64b155c0-217ea987b69c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6475a1030448cc41838fc8e183bf26b8ab07b4d5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 4 T=2 02-08-2018_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402231,
+          "persistentId": "",
+          "filename": "D RAT 4 T=2 02-08-2018_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b14cca-54783bb50f17",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "275314f573ab25023bde3c8bdd538a5c11513a0f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 50 T=2 22-11-18_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402221,
+          "persistentId": "",
+          "filename": "D RAT 50 T=2 22-11-18_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 238352,
+          "storageIdentifier": "surf://store:18d64b1583e-ed2e4f6fed47",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f7cd45561b252e774dedf90114a2aa973613b01e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 51 T=2 29-11-18_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402213,
+          "persistentId": "",
+          "filename": "D RAT 51 T=2 29-11-18_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 235624,
+          "storageIdentifier": "surf://store:18d64b1590c-2bc76ca6414e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "25d7dbbfa54d87d47fa7d5dc3a5a64cc47b0b0a6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 52 T=2 29-11-18_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402176,
+          "persistentId": "",
+          "filename": "D RAT 52 T=2 29-11-18_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234610,
+          "storageIdentifier": "surf://store:18d64b159c5-f2d25a158263",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f8bd70e9cc4b90cb1813b285f60bb94dcf7d5678"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 53 T=2 29-11-18_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402200,
+          "persistentId": "",
+          "filename": "D RAT 53 T=2 29-11-18_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b15a98-3beaa2571293",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1b55006dc114244db5cff0a2d3f7a18072a5ba98"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 54 T=2 29-11-18_UD_000756_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402139,
+          "persistentId": "",
+          "filename": "D RAT 54 T=2 29-11-18_UD_000756_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 224109,
+          "storageIdentifier": "surf://store:18d64b15b66-221d62dcec62",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fb56979e864e37c7c60f337003edc337d29edda7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 55 T=2 29-11-18_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402179,
+          "persistentId": "",
+          "filename": "D RAT 55 T=2 29-11-18_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b15c63-4b152d1bdb40",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9410e243001be38208e970efc3e3bd4e75cdb96a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 56 T=2 29-11-18_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402144,
+          "persistentId": "",
+          "filename": "D RAT 56 T=2 29-11-18_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 225386,
+          "storageIdentifier": "surf://store:18d64b15d33-efda32fd9ca6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "406568a9cef792642332403a339aae11f21fc65f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 57 T=2 29-11-18_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402191,
+          "persistentId": "",
+          "filename": "D RAT 57 T=2 29-11-18_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 223659,
+          "storageIdentifier": "surf://store:18d64b15df4-32997c10f1bb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b8752118f61fa2f2e2c8c9e7b416b7ffcc1e4613"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 58 T=2 29-11-18_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402152,
+          "persistentId": "",
+          "filename": "D RAT 58 T=2 29-11-18_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 210976,
+          "storageIdentifier": "surf://store:18d64b15f46-919a06c5eeec",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "152fdc722caa30cfc82ead6d6f2ac7001a19cccc"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 59 T=2 7-1-19_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402148,
+          "persistentId": "",
+          "filename": "D RAT 59 T=2 7-1-19_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234607,
+          "storageIdentifier": "surf://store:18d64b1600b-e98458a44b3c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "546f2d1d20b41f8fd600014fe574dadd6b0a25cf"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 5 T=2 02-08-2018_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402202,
+          "persistentId": "",
+          "filename": "D RAT 5 T=2 02-08-2018_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234537,
+          "storageIdentifier": "surf://store:18d64b156a6-122cf19c2276",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "072451a742dee84ac8becd9ba2afbd39601a6231"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 60 T=2 10-01-2019_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402117,
+          "persistentId": "",
+          "filename": "D RAT 60 T=2 10-01-2019_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234613,
+          "storageIdentifier": "surf://store:18d64b161f6-3a1799e1470c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "23a5cc12bf61d1689697e7c2910ab89f89a61360"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 61 T=2 10-01-2019_UD_000949_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402197,
+          "persistentId": "",
+          "filename": "D RAT 61 T=2 10-01-2019_UD_000949_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 233828,
+          "storageIdentifier": "surf://store:18d64b162aa-f03ccbd03f08",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4b4f527640a7fab1dbe59b7e2d46f3c3ddfc0944"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 62 T=2 07-01-2019_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402223,
+          "persistentId": "",
+          "filename": "D RAT 62 T=2 07-01-2019_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234614,
+          "storageIdentifier": "surf://store:18d64b1643a-c040d1115581",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d529e46d378e5c76151e264d47bd940b0c0ce177"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 63 T=2 29-03-2019_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402164,
+          "persistentId": "",
+          "filename": "D RAT 63 T=2 29-03-2019_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234554,
+          "storageIdentifier": "surf://store:18d64b164fc-71cae60ef937",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8fe6be61b1ee0ac0259b6ffceb66cdaa922b3fd4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 64 T=2 28-03-2019_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402163,
+          "persistentId": "",
+          "filename": "D RAT 64 T=2 28-03-2019_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234613,
+          "storageIdentifier": "surf://store:18d64b165ca-a01ce49276e3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a99e8b69c2f34f63e1a0f7ce7afbb93493c8825a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 65 T=2 14-05-19_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402225,
+          "persistentId": "",
+          "filename": "D RAT 65 T=2 14-05-19_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b16694-b86cc30695d0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "57f91558af63fc75bac9b2675c3f8b8488ee0b15"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 66 T=2 14-5-19_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402194,
+          "persistentId": "",
+          "filename": "D RAT 66 T=2 14-5-19_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b16755-91fed05bd407",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "672a9645819e8c62cb71ad65e17da420c749519a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 67 T=2 14-5-19_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402161,
+          "persistentId": "",
+          "filename": "D RAT 67 T=2 14-5-19_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 233900,
+          "storageIdentifier": "surf://store:18d64b16859-888abc59b723",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f6c416cece1562a388f05ad36dcebc0e9875355d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 68 T=2 14-5-19_UD_000756_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402222,
+          "persistentId": "",
+          "filename": "D RAT 68 T=2 14-5-19_UD_000756_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b1693b-586906aff92a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f01565364a563240f5f75e67b71d476ccff0bfcf"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 69 T=2 14-5-19_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402169,
+          "persistentId": "",
+          "filename": "D RAT 69 T=2 14-5-19_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 190258,
+          "storageIdentifier": "surf://store:18d64b169f9-305484d5e26a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a394b4f5fce7aaeac6dca2181ee55ab4251d8100"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 6 T=2 09-02-18_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402172,
+          "persistentId": "",
+          "filename": "D RAT 6 T=2 09-02-18_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 235040,
+          "storageIdentifier": "surf://store:18d64b160d5-136b4af3a8a9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76aa3c87005deb85254edd3b6ffacf7c550e0129"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 7 T=2 02-08-2018_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402192,
+          "persistentId": "",
+          "filename": "D RAT 7 T=2 02-08-2018_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234287,
+          "storageIdentifier": "surf://store:18d64b16ad6-7e9aa70e2add",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6369a0f75f72dfc1fd871d4670bcb9973b1cd638"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 8 T=2 02-08-2018_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402183,
+          "persistentId": "",
+          "filename": "D RAT 8 T=2 02-08-2018_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234613,
+          "storageIdentifier": "surf://store:18d64b16bae-becb4c5f76c6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b73b38b4a119c6ccc278a82b4f0231480bda40e2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "D RAT 9 T=2 08-03-18_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402157,
+          "persistentId": "",
+          "filename": "D RAT 9 T=2 08-03-18_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 238977,
+          "storageIdentifier": "surf://store:18d64b16cc4-ab5ee2f5965c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e92241c2d1f6404fd4d57b36552442720bff7498"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 100 EOS 29 Nov 2019_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402228,
+          "persistentId": "",
+          "filename": "Rat 100 EOS 29 Nov 2019_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b16deb-3c54b8729e22",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "27118a75f48d4d22e24a6ba162f673960001d24f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 101 EOS 28 Feb 2020_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402235,
+          "persistentId": "",
+          "filename": "Rat 101 EOS 28 Feb 2020_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234609,
+          "storageIdentifier": "surf://store:18d64b16eae-5a15c1b7c8ff",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e1f03c39e28c78613c14e6d9366089ba90d11f36"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 102 EOS 28 Feb 2020_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402216,
+          "persistentId": "",
+          "filename": "Rat 102 EOS 28 Feb 2020_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b16fab-f64c4faaef4c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "98304b8f9558edd21f352f738ae5f83d760e145a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 103 EOS 28 Feb 2020_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402205,
+          "persistentId": "",
+          "filename": "Rat 103 EOS 28 Feb 2020_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234613,
+          "storageIdentifier": "surf://store:18d64b170e0-6f46610090de",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "707023455decc2d3e091cb95304e254404bd8cd3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 104 EOS 01 April 2020_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402171,
+          "persistentId": "",
+          "filename": "Rat 104 EOS 01 April 2020_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b171b9-3c51b0e65194",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1edb343c237dc0ea7945e396a3834e43608f160d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 105 EOS April 01 2020_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402174,
+          "persistentId": "",
+          "filename": "Rat 105 EOS April 01 2020_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b17274-8647f776093c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "17eb95ec344d3b04f99741a8c64d6ef379571ed6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 106 EOS 02 April 2020_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402110,
+          "persistentId": "",
+          "filename": "Rat 106 EOS 02 April 2020_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b17376-c734d2564273",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9303f782e63470d19e5460b46e836a192150cf5e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 107 EOS 03 April 2020_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402168,
+          "persistentId": "",
+          "filename": "Rat 107 EOS 03 April 2020_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234617,
+          "storageIdentifier": "surf://store:18d64b17441-b4db18d2e741",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9621125809d8547e9b82afb438fd7b0e7785b70f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 108 EOS 08 May 2020_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402130,
+          "persistentId": "",
+          "filename": "Rat 108 EOS 08 May 2020_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234596,
+          "storageIdentifier": "surf://store:18d64b17515-4454c784a843",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f852741459d06d6ada8db950687415340404c854"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 109 EOS 08 May 2020_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402126,
+          "persistentId": "",
+          "filename": "Rat 109 EOS 08 May 2020_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b17619-637ce95c3b72",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0156935ad9ce05df88f84e013818d60ad065b2d7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 110 EOS 08 May 2020_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402203,
+          "persistentId": "",
+          "filename": "Rat 110 EOS 08 May 2020_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b176fb-d8885cac2f8b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d3155cae2ec79f6fc68c5aa728dc2edc61902014"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 111 EOS 23 May 2020_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402182,
+          "persistentId": "",
+          "filename": "Rat 111 EOS 23 May 2020_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234597,
+          "storageIdentifier": "surf://store:18d64b177fc-c21f5cdb36f9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d77657241acc7e17dd224070b7f0a20302ede5dc"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 112 EOS 22 May 2020_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402109,
+          "persistentId": "",
+          "filename": "Rat 112 EOS 22 May 2020_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234580,
+          "storageIdentifier": "surf://store:18d64b178c5-124230d74e09",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "253d27f0457511f3fbe5a0b9ab0fd3d5d3e7166d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 113 EOS 23 May 2020_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402226,
+          "persistentId": "",
+          "filename": "Rat 113 EOS 23 May 2020_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234170,
+          "storageIdentifier": "surf://store:18d64b179cd-c3696e1654d2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d2c9797eb5ba687ea77be544a1621cfea0c90ad4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 114 EOS 22 May 2020_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402190,
+          "persistentId": "",
+          "filename": "Rat 114 EOS 22 May 2020_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234581,
+          "storageIdentifier": "surf://store:18d64b17ab0-35a872a7c4f3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b92ca1a1897e9423776cac4474dd917b03ce7475"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 115 EOS 07 Aug 2020_UD_000756_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402224,
+          "persistentId": "",
+          "filename": "Rat 115 EOS 07 Aug 2020_UD_000756_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 238062,
+          "storageIdentifier": "surf://store:18d64b17b7a-126929d05af2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b9857f3983aa3a2eb2e0f8408e910ab7cecc4693"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 116 EOS 07 Aug 2020_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402198,
+          "persistentId": "",
+          "filename": "Rat 116 EOS 07 Aug 2020_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234611,
+          "storageIdentifier": "surf://store:18d64b17c3f-bf6bdc227f6d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "217795283427b88fbc63f8d660df478d3e1baaa8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 117 EOS 07 Aug 2020_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402156,
+          "persistentId": "",
+          "filename": "Rat 117 EOS 07 Aug 2020_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234462,
+          "storageIdentifier": "surf://store:18d64b17d2c-af9df5fe33f9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eb3730593951d1786358cc078bc063ea67b82b17"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 118 EOS 07 Aug 2020_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402230,
+          "persistentId": "",
+          "filename": "Rat 118 EOS 07 Aug 2020_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b17e33-2e647580d0d7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0791524b336de24fc7d807280377a4cc2e217330"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 119 EOS 21 Aug 2020_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402119,
+          "persistentId": "",
+          "filename": "Rat 119 EOS 21 Aug 2020_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 233833,
+          "storageIdentifier": "surf://store:18d64b17f7a-df33d2b6c2fa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "938bab618abfbe39e174b49a9ec2b6e32ce51867"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 120 EOS 22 Aug 2020_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402137,
+          "persistentId": "",
+          "filename": "Rat 120 EOS 22 Aug 2020_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234611,
+          "storageIdentifier": "surf://store:18d64b18074-16da590e9a9d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d4964f704bd64876e5df313a41973e8e533af85e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 121 EOS 21 Aug 2020_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402125,
+          "persistentId": "",
+          "filename": "Rat 121 EOS 21 Aug 2020_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234163,
+          "storageIdentifier": "surf://store:18d64b18134-42f22ef98ad2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f1cc19a093f0a08ace922e9d46f8de7a9613e698"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 122 EOS 22 Aug 2020_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402127,
+          "persistentId": "",
+          "filename": "Rat 122 EOS 22 Aug 2020_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 239126,
+          "storageIdentifier": "surf://store:18d64b1821e-9dfb6ff58110",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "798449bd349a4e816a0b76366c12286bce22ec4c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 123 EOS 25 Aug 2020_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402114,
+          "persistentId": "",
+          "filename": "Rat 123 EOS 25 Aug 2020_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 235313,
+          "storageIdentifier": "surf://store:18d64b182e6-7ad1e8f7b995",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "212c8784a0550e4f5af2764738d9bc197cf010fc"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 124 EOS 21 Aug 2020_UD_000949_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402149,
+          "persistentId": "",
+          "filename": "Rat 124 EOS 21 Aug 2020_UD_000949_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234234,
+          "storageIdentifier": "surf://store:18d64b183c7-92b2ff3f9093",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "62ba955876f34c625a841db7ad24dbafca3dae11"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 125 EOS 11 Sep 2020_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402159,
+          "persistentId": "",
+          "filename": "Rat 125 EOS 11 Sep 2020_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b184a6-aba3cb777986",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bf87c4484295ecf1478a98857853290d2107b888"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 126 EOS 11 Sep 2020_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402219,
+          "persistentId": "",
+          "filename": "Rat 126 EOS 11 Sep 2020_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b1856d-3937b1794d53",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "72e6b780ef1511f5d76f87f9292622d133b7235a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 127 EOS 11 Sep 2020_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402180,
+          "persistentId": "",
+          "filename": "Rat 127 EOS 11 Sep 2020_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 229954,
+          "storageIdentifier": "surf://store:18d64b18681-fab778dd5597",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9e1a04b94e6746a4c94a1f4c2d3a899ae36b79b3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 70 t=2 20-6-19_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402155,
+          "persistentId": "",
+          "filename": "Rat 70 t=2 20-6-19_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 237174,
+          "storageIdentifier": "surf://store:18d64b1873e-c43c850c8f6b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e67d0f81e0f3d9d7004791783a1ce5b7f19e534c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 71 t=2 20-6-19_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402116,
+          "persistentId": "",
+          "filename": "Rat 71 t=2 20-6-19_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b1887b-e6bdf78ecbab",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "215956abf95a64f86f9650ca336ba12c5b7a0ce6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 72 t=2 21-6-19_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402188,
+          "persistentId": "",
+          "filename": "Rat 72 t=2 21-6-19_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234183,
+          "storageIdentifier": "surf://store:18d64b1897a-c16ef4fb99bf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d7932e66626a4d5cc98140acb511605e753764e6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 73 t=2 20-6-19_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402142,
+          "persistentId": "",
+          "filename": "Rat 73 t=2 20-6-19_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 239566,
+          "storageIdentifier": "surf://store:18d64b18abe-835569fbf75e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "01f3c21c8983b8b176c7624956b438787170b77b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 74 t=2 20-6-19_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402121,
+          "persistentId": "",
+          "filename": "Rat 74 t=2 20-6-19_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234368,
+          "storageIdentifier": "surf://store:18d64b18ba6-2a443525ae6a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "834377c33e5ae68bd9060c877129f848cde5ebba"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 75 t=2 20-6-19_UD_000949_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402151,
+          "persistentId": "",
+          "filename": "Rat 75 t=2 20-6-19_UD_000949_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 231048,
+          "storageIdentifier": "surf://store:18d64b18c65-4777a5eca0fe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a6dc2edc509d6b33da2dd13c46c73948d0649bf2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 76 t=2 21-6-19_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402118,
+          "persistentId": "",
+          "filename": "Rat 76 t=2 21-6-19_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234191,
+          "storageIdentifier": "surf://store:18d64b18d63-0c0450b29f8a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e01dbad8eec3607700b81863bb44be82d8a2383d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 77 t=2 20-6-19_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402229,
+          "persistentId": "",
+          "filename": "Rat 77 t=2 20-6-19_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 236924,
+          "storageIdentifier": "surf://store:18d64b18e64-cc77c6578237",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3f8559631ad15bb89b588bf84e1bead0d9621aa3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 78 EOS 25-06-19_UD_000757_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402162,
+          "persistentId": "",
+          "filename": "Rat 78 EOS 25-06-19_UD_000757_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234617,
+          "storageIdentifier": "surf://store:18d64b18f4c-204d592787e3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dc7fcd0b7ac9c49d2df3e6340599ef5f72c95607"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 79 EOS 24-06-19_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402113,
+          "persistentId": "",
+          "filename": "Rat 79 EOS 24-06-19_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b19006-dcc1b3fc3138",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "80fc97f4c7682fed1065145a9f3ee6e870becf70"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 80 EOS 24-06-19_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402175,
+          "persistentId": "",
+          "filename": "Rat 80 EOS 24-06-19_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b1911e-a2b085882898",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2306b7bb060d054d7403fbceac1f190a6d446ffd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 81 EOS 24-06-19_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402128,
+          "persistentId": "",
+          "filename": "Rat 81 EOS 24-06-19_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 233950,
+          "storageIdentifier": "surf://store:18d64b191e6-f3d31b980da0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f1bf99d461362b019bbe65d128762a7bfb832530"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 82 EOS 25-06-19_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402150,
+          "persistentId": "",
+          "filename": "Rat 82 EOS 25-06-19_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234106,
+          "storageIdentifier": "surf://store:18d64b192a2-7b575c010b8c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bc34e36354c8cc2c6f201f8fd58f9dabb1643f80"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 83 EOS 24-06-19_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402108,
+          "persistentId": "",
+          "filename": "Rat 83 EOS 24-06-19_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b193b6-11964397b4d9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5f7407d2923908c6d175bfb961675851a33013f5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 84 EOS 21 Aug 2019_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402147,
+          "persistentId": "",
+          "filename": "Rat 84 EOS 21 Aug 2019_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234614,
+          "storageIdentifier": "surf://store:18d64b19488-2ea3c6dcbec3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "351c0f3051576eaaaa3591341a4cdf6fa2d93388"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 85 EOS 20 Aug 2019_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402236,
+          "persistentId": "",
+          "filename": "Rat 85 EOS 20 Aug 2019_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234609,
+          "storageIdentifier": "surf://store:18d64b1953b-fe5413c8f927",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b87a7e4cd38ee84564a74b7858076f3fabfbb424"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 86 EOS 20 Aug 2019_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402214,
+          "persistentId": "",
+          "filename": "Rat 86 EOS 20 Aug 2019_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234615,
+          "storageIdentifier": "surf://store:18d64b1960b-6e38e70b0fdf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "62f817f59283cc834e5b8a9bdfd333e4ab2f564b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 87 EOS 12 Sep 2019_UD_000759_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402227,
+          "persistentId": "",
+          "filename": "Rat 87 EOS 12 Sep 2019_UD_000759_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234606,
+          "storageIdentifier": "surf://store:18d64b196ca-a63f991e4594",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ef7ff76eddfa3fefd78192dbabfdb84b76e54ede"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 88 EOS 12 Sep 2019_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402185,
+          "persistentId": "",
+          "filename": "Rat 88 EOS 12 Sep 2019_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234691,
+          "storageIdentifier": "surf://store:18d64b197a1-e11ae0582393",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2745de6a984c9bab56588e07e9afad330f06cac8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 89 EOS 13 Sept 2019 Repeat_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402195,
+          "persistentId": "",
+          "filename": "Rat 89 EOS 13 Sept 2019 Repeat_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234601,
+          "storageIdentifier": "surf://store:18d64b198c8-0274f7dfdb41",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9e652f3d43d212d40540acdd913b756b5e3c6df9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 90 EOS 12 Sep 2019_UD_000756_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402208,
+          "persistentId": "",
+          "filename": "Rat 90 EOS 12 Sep 2019_UD_000756_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234666,
+          "storageIdentifier": "surf://store:18d64b1999c-b6729a28ae8f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83001702b4e6a67c7f3b660efd26fe67590086f9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 91 EOS 12 Sep 2019_UD_000949_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402145,
+          "persistentId": "",
+          "filename": "Rat 91 EOS 12 Sep 2019_UD_000949_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 231741,
+          "storageIdentifier": "surf://store:18d64b19a4d-6efee5303a50",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4777781bf7172ad0bbd336b6395b6ac184f048a2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 92 EOS 16-09-19_UD_000760_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402233,
+          "persistentId": "",
+          "filename": "Rat 92 EOS 16-09-19_UD_000760_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234624,
+          "storageIdentifier": "surf://store:18d64b19b42-3afa2b20b2a7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f2b8648809b787e08b3ba86a83c079a711298ff6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 93 EOS 16-09-19_UD_000946_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402211,
+          "persistentId": "",
+          "filename": "Rat 93 EOS 16-09-19_UD_000946_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234609,
+          "storageIdentifier": "surf://store:18d64b19c13-3b4e3cdd6e64",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d0863e91460626c5ba01ca6897af5c29fe84ad7d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 94 EOS 17-9-19_UD_000950_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402193,
+          "persistentId": "",
+          "filename": "Rat 94 EOS 17-9-19_UD_000950_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234614,
+          "storageIdentifier": "surf://store:18d64b19cdf-7a686fd4f587",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "51d15b94507327941b6c3068ac31cd0fa806505c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 95 EOS 17-09-19_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402123,
+          "persistentId": "",
+          "filename": "Rat 95 EOS 17-09-19_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234592,
+          "storageIdentifier": "surf://store:18d64b19db2-20504facdb92",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7ced9636e20de3e23621becb7660577075c3cd72"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 96 EOS 19 Nov 2019_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402111,
+          "persistentId": "",
+          "filename": "Rat 96 EOS 19 Nov 2019_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234613,
+          "storageIdentifier": "surf://store:18d64b19e6c-0cf05fc4d7b7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fd2e2234bb81162fed0bd39651e4fec533361e75"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 97 EOS 20 Nov 2019_UD_000948_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402124,
+          "persistentId": "",
+          "filename": "Rat 97 EOS 20 Nov 2019_UD_000948_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234617,
+          "storageIdentifier": "surf://store:18d64b19f3e-eb6e7ad30e5f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "63e9c588934575a4fb1ba9be2b8961acb4bfe341"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 98 EOS 29 Nov 2019_UD_000947_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402199,
+          "persistentId": "",
+          "filename": "Rat 98 EOS 29 Nov 2019_UD_000947_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b1a022-3fcc19123416",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "75ac084934972435d481da76afd609715400f608"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Rat 99 EOS 29 Nov 2019_UD_000755_B.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25903,
+        "dataFile": {
+          "id": 402154,
+          "persistentId": "",
+          "filename": "Rat 99 EOS 29 Nov 2019_UD_000755_B.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 234616,
+          "storageIdentifier": "surf://store:18d64b1a106-708fdeed91f4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6c2f5106375fccc3e0104a9a194ac91ce3eec4a6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-02-01",
+          "publicationDate": "2024-02-02",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Tobias T. Pieters; Paul J. Besseling; Jaap A. Joles, 2024, \"Replication Data for: Discrepancies Between Transcutaneous and Estimated Glomerular Filtration Rate in Rats with Chronic Kidney Disease\", https://doi.org/10.34894/8QYQZP, DataverseNL, V1"
+  }
+}

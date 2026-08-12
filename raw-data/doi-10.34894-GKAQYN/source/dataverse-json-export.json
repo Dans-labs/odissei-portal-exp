@@ -1,0 +1,307 @@
+{
+  "id": 47206,
+  "identifier": "GKAQYN",
+  "persistentUrl": "https://doi.org/10.34894/GKAQYN",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-02-19",
+  "storageIdentifier": "surf://10.34894/GKAQYN",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3470,
+    "datasetId": 47206,
+    "datasetPersistentId": "doi:10.34894/GKAQYN",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/GKAQYN",
+    "versionNumber": 1,
+    "internalVersionNumber": 3,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-02-19T15:44:54Z",
+    "releaseTime": "2021-02-19T15:44:54Z",
+    "createTime": "2021-02-19T15:44:47Z",
+    "publicationDate": "2021-02-19",
+    "citationDate": "2021-02-19",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Detection of illicit accounts over the Ethereum blockchain"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Azzopardi, George"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0001-6552-2596"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Farrugia, Steven"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ellul, Joshua"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Malta"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-4796-5665"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Research Data Office"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The recent technological advent of cryptocurrencies and their respective benefits have been shrouded with a number of illegal activities operating over the network such as money laundering, bribery, phishing, fraud, among others. In this work we focus on the Ethereum network, which has seen over 400 million transactions since its inception. Using 2179 accounts flagged by the Ethereum community for their illegal activity coupled with 2502 normal accounts, we seek to detect illicit accounts based on their transaction history using the XGBoost classifier. Using 10 fold cross-validation, XGBoost achieved an average accuracy of 0.963 ( ± 0.006) with an average AUC of 0.994 ( ± 0.0007). The top three features with the largest impact on the final model output were established to be ‘Time diff between first and last (Mins)’, ‘Total Ether balance’ and ‘Min value received’. Based on the results we conclude that the proposed approach is highly effective in detecting illicit accounts over the Ethereum network. Our contribution is multi-faceted; firstly, we propose an effective method to detect illicit accounts over the Ethereum network; secondly, we provide insights about the most important features; and thirdly, we publish the compiled data set as a benchmark for future related works."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-11-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "S. Farrugia, J. Ellul, and G. Azzopardi, “Detection of illicit over the Ethereal Blockchain”, Expert Systems with Applications, vol. 150, 113318, 2020"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.eswa.2020.113318"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Azzopardi, George"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-01-11"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/GKAQYN"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:bc61c3b9-0d18-4cc0-ab81-80a91839ff54"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-7530deb8-cff2-4f0f-9a63-d4d9b62a65a5"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Complete.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3470,
+        "dataFile": {
+          "id": 47207,
+          "persistentId": "",
+          "filename": "Complete.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1016388,
+          "storageIdentifier": "surf://store:176f2ef5853-3ef430c49927",
+          "rootDataFileId": -1,
+          "md5": "c76a3939d3c099b5e27347b93204800f",
+          "checksum": {
+            "type": "MD5",
+            "value": "c76a3939d3c099b5e27347b93204800f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-11",
+          "publicationDate": "2021-02-19",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Readme.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3470,
+        "dataFile": {
+          "id": 49029,
+          "persistentId": "",
+          "filename": "Readme.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 506,
+          "storageIdentifier": "surf://store:177b702e6c4-81b4f0b6cf32",
+          "rootDataFileId": -1,
+          "md5": "3d24ae4b3caa5bebbd9ff82934eb8b63",
+          "checksum": {
+            "type": "MD5",
+            "value": "3d24ae4b3caa5bebbd9ff82934eb8b63"
+          },
+          "tabularData": false,
+          "creationDate": "2021-02-18",
+          "publicationDate": "2021-02-19",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Azzopardi, George; Farrugia, Steven; Ellul, Joshua, 2021, \"Detection of illicit accounts over the Ethereum blockchain\", https://doi.org/10.34894/GKAQYN, DataverseNL, V1"
+  }
+}

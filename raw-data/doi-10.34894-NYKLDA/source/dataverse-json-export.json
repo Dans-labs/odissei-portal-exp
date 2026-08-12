@@ -1,0 +1,846 @@
+{
+  "id": 381506,
+  "identifier": "NYKLDA",
+  "persistentUrl": "https://doi.org/10.34894/NYKLDA",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-10-12",
+  "storageIdentifier": "surf://10.34894/NYKLDA",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30255,
+    "datasetId": 381506,
+    "datasetPersistentId": "doi:10.34894/NYKLDA",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/NYKLDA",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-02-18T16:27:28Z",
+    "releaseTime": "2025-02-18T16:27:28Z",
+    "createTime": "2025-02-18T16:26:21Z",
+    "publicationDate": "2023-10-12",
+    "citationDate": "2023-10-12",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Circulating miRNA expression in extracellular vesicles is associated with specific injuries after multiple trauma and surgical invasiveness"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groven, Rald"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-8733-289X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Griensven, Martijn"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-5104-9881"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groven, Rald"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hebels, Dennie"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Griensven, Martijn"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dataverse Support Contact"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Introduction Two known multiple trauma treatment principles are Early Total Care (ETC), and Damage Control Orthopedics (DCO). Cellular mechanisms that underlie the connection between surgical treatment type, its systemic effects, and tissue regeneration are not fully known. Therefore, we defined two aims: 1) to profile the expression of microRNAs (miRNAs) in plasma derived Extracellular Vesicles (EVs) from a porcine multiple trauma model at different timepoints after trauma, comparing two different surgical treatment modalities; and 2) to determine and validate the miRNA’s messengerRNA (mRNA) targets.\nMethods The porcine multiple trauma model consisted of blunt chest trauma, liver laceration, bilateral femur fractures, and controlled haemorrhagic shock. Animals were operatively and medically stabilised and monitored under Intensive Care Unit-standards for 72 hours. The control group consisted of six sham animals. Two treatment methods were applied, ETC (n=8), and DCO (n=8). Blood was sampled at 1.5, 2.5, 24, and 72 hours after trauma, and EVs were harvested from plasma. MiRNAs were isolated, transcribed, and pooled for quantitative Polymerase Chain Reaction array analysis. MRNA targets were identified via in silico target analyses. Systemic effects of the most deregulated miRNAs were examined in vivo by profiling the expression of mRNAs in lung and liver tissue.\nResults The arrays showed distinct EV-packed miRNA expression patterns throughout all timepoints after multiple trauma. Treatment specific miRNAs were identified and miRNAs related to the overall multiple trauma, and the individual injuries. Overall, EV-packed miRNA expression in the ETC group was more pro-inflammatory in nature, indicating potentially decreased tissue regenerative capacities in the acute post-traumatic phase. In silico target prediction revealed several mRNA targets that overlapped between the identified miRNAs, among others A Disintegrin and Metalloproteinase domain-containing protein 10, Collagen Type 1 Alpha 1 Chain, Catenin Beta Interacting Protein 1, and Signal Transducers and Activators of Transcription 3. Validation of these four mRNA targets in the lung showed significant, treatment specific deregulations which matched the expression of their upstream miRNAs. No significant mRNA deregulations were observed in the liver.\nDiscussion This study showed treatment specific, EV-packed miRNA expression patterns in the acute post-traumatic phase that correlated with mRNA expressions in the lungs, a target organ over distance. Various of the identified miRNAs showed involvements in (systemic) inflammation and tissue regenerative processes which were associated to key injuries from the multiple trauma model. It was demonstrated that EV-transported miRNAs have a clear systemic involvement in multiple trauma, warranting for further research into tissue-tissue talk after multiple trauma and therapeutic applications of EVs."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023-09-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Hebels, Dennie"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-09-01"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/NYKLDA"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:70d6897a-1559-4ead-8c8f-01753ec301e4"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-fbb5ca0b-14aa-4ad4-b2b4-dc0a456aaa48"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "DCO_1.5H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382684,
+          "persistentId": "",
+          "filename": "DCO_1.5H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86238,
+          "storageIdentifier": "surf://store:18afbc7898f-8daf0b51246d",
+          "rootDataFileId": -1,
+          "md5": "b74f32a43c0043fb252d3df2c7df8dd5",
+          "checksum": {
+            "type": "MD5",
+            "value": "b74f32a43c0043fb252d3df2c7df8dd5"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DCO_1.5H_YAHS-106YD_Panel2_GrovenRVM.pdf.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382677,
+          "persistentId": "",
+          "filename": "DCO_1.5H_YAHS-106YD_Panel2_GrovenRVM.pdf.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85548,
+          "storageIdentifier": "surf://store:18afbc78ad4-2caea939f77a",
+          "rootDataFileId": -1,
+          "md5": "28743d7515e7241ef156b7443aea091c",
+          "checksum": {
+            "type": "MD5",
+            "value": "28743d7515e7241ef156b7443aea091c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DCO_24H_YAHS-106YD_Panel1_GrovenRVM.pdf.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382692,
+          "persistentId": "",
+          "filename": "DCO_24H_YAHS-106YD_Panel1_GrovenRVM.pdf.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86144,
+          "storageIdentifier": "surf://store:18afbc78e8d-042a4c4eaad0",
+          "rootDataFileId": -1,
+          "md5": "545c29a11733b5cdbd44b669ccd72071",
+          "checksum": {
+            "type": "MD5",
+            "value": "545c29a11733b5cdbd44b669ccd72071"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DCO_24H_YAHS-106YD_Panel2_GrovenRVM.pdf.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382690,
+          "persistentId": "",
+          "filename": "DCO_24H_YAHS-106YD_Panel2_GrovenRVM.pdf.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85599,
+          "storageIdentifier": "surf://store:18afbc78fb5-6baeca52ebdd",
+          "rootDataFileId": -1,
+          "md5": "0fa3d79291e015b832658a26d4efcedd",
+          "checksum": {
+            "type": "MD5",
+            "value": "0fa3d79291e015b832658a26d4efcedd"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DCO_2.5H_YAHS-106YD_Panel1_GrovenRVM.pdf.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382696,
+          "persistentId": "",
+          "filename": "DCO_2.5H_YAHS-106YD_Panel1_GrovenRVM.pdf.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86270,
+          "storageIdentifier": "surf://store:18afbc78c05-82beb42ff634",
+          "rootDataFileId": -1,
+          "md5": "6a5590c51b36007b518848c24a35fd95",
+          "checksum": {
+            "type": "MD5",
+            "value": "6a5590c51b36007b518848c24a35fd95"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DCO_2.5H_YAHS-106YD_Panel2_GrovenRVM.pdf.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382688,
+          "persistentId": "",
+          "filename": "DCO_2.5H_YAHS-106YD_Panel2_GrovenRVM.pdf.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85733,
+          "storageIdentifier": "surf://store:18afbc78d5f-2169188ba17a",
+          "rootDataFileId": -1,
+          "md5": "0635edd045e2ed64fc363c5706cffb75",
+          "checksum": {
+            "type": "MD5",
+            "value": "0635edd045e2ed64fc363c5706cffb75"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DCO_72H_YAHS-106YD_Panel1_GrovenRVM.pdf.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382685,
+          "persistentId": "",
+          "filename": "DCO_72H_YAHS-106YD_Panel1_GrovenRVM.pdf.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86242,
+          "storageIdentifier": "surf://store:18afbc790e7-cac48e4ebb68",
+          "rootDataFileId": -1,
+          "md5": "f06b2ea0dc26df5bab8a977f39382edb",
+          "checksum": {
+            "type": "MD5",
+            "value": "f06b2ea0dc26df5bab8a977f39382edb"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DCO_72H_YAHS-106YD_Panel2_GrovenRVM.pdf.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382691,
+          "persistentId": "",
+          "filename": "DCO_72H_YAHS-106YD_Panel2_GrovenRVM.pdf.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85433,
+          "storageIdentifier": "surf://store:18afbc79222-66fb01043ce5",
+          "rootDataFileId": -1,
+          "md5": "98c3aa34d207a04b89699ec3686c6161",
+          "checksum": {
+            "type": "MD5",
+            "value": "98c3aa34d207a04b89699ec3686c6161"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ETC_1.5H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382682,
+          "persistentId": "",
+          "filename": "ETC_1.5H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86390,
+          "storageIdentifier": "surf://store:18afbc767f4-cf101e4eeec4",
+          "rootDataFileId": -1,
+          "md5": "6cd1f4508b818da64ff5c03e63563b32",
+          "checksum": {
+            "type": "MD5",
+            "value": "6cd1f4508b818da64ff5c03e63563b32"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ETC_1.5H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382695,
+          "persistentId": "",
+          "filename": "ETC_1.5H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85857,
+          "storageIdentifier": "surf://store:18afbc76949-90e58daa6be8",
+          "rootDataFileId": -1,
+          "md5": "527455ff43513148966321c914c4b027",
+          "checksum": {
+            "type": "MD5",
+            "value": "527455ff43513148966321c914c4b027"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ETC_24H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382686,
+          "persistentId": "",
+          "filename": "ETC_24H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86270,
+          "storageIdentifier": "surf://store:18afbc76be7-1e539256c8d0",
+          "rootDataFileId": -1,
+          "md5": "10dc028b4137a5ac80e74df7fa60608b",
+          "checksum": {
+            "type": "MD5",
+            "value": "10dc028b4137a5ac80e74df7fa60608b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ETC_24H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382678,
+          "persistentId": "",
+          "filename": "ETC_24H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85572,
+          "storageIdentifier": "surf://store:18afbc76cc1-94b636ffc29f",
+          "rootDataFileId": -1,
+          "md5": "198be14dd8e0b18836e6248289f36407",
+          "checksum": {
+            "type": "MD5",
+            "value": "198be14dd8e0b18836e6248289f36407"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ETC_2.5H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382683,
+          "persistentId": "",
+          "filename": "ETC_2.5H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86387,
+          "storageIdentifier": "surf://store:18afbc76a32-f890d4062f89",
+          "rootDataFileId": -1,
+          "md5": "fa3b92f5a1b6ee211f5d54b8af36bdc6",
+          "checksum": {
+            "type": "MD5",
+            "value": "fa3b92f5a1b6ee211f5d54b8af36bdc6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ETC_2.5H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382700,
+          "persistentId": "",
+          "filename": "ETC_2.5H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85825,
+          "storageIdentifier": "surf://store:18afbc76afa-f9c384a0763b",
+          "rootDataFileId": -1,
+          "md5": "d7bdeb78c7ba4a9f726f48e1b1897ffe",
+          "checksum": {
+            "type": "MD5",
+            "value": "d7bdeb78c7ba4a9f726f48e1b1897ffe"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ETC_72H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382697,
+          "persistentId": "",
+          "filename": "ETC_72H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86342,
+          "storageIdentifier": "surf://store:18afbc76da0-24efeb544480",
+          "rootDataFileId": -1,
+          "md5": "da2975d05e14326511d6fbf0c7225ed2",
+          "checksum": {
+            "type": "MD5",
+            "value": "da2975d05e14326511d6fbf0c7225ed2"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ETC_72H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382681,
+          "persistentId": "",
+          "filename": "ETC_72H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85712,
+          "storageIdentifier": "surf://store:18afbc76e67-3b67077c96ad",
+          "rootDataFileId": -1,
+          "md5": "c9d61c1fc1097e135ff66e6584099cf8",
+          "checksum": {
+            "type": "MD5",
+            "value": "c9d61c1fc1097e135ff66e6584099cf8"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sham_1.5H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382689,
+          "persistentId": "",
+          "filename": "Sham_1.5H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86351,
+          "storageIdentifier": "surf://store:18afbc72c29-bfe20f21d579",
+          "rootDataFileId": -1,
+          "md5": "de3211e35e14ff8b50ecd8088f2dfe1a",
+          "checksum": {
+            "type": "MD5",
+            "value": "de3211e35e14ff8b50ecd8088f2dfe1a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sham_1.5H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382699,
+          "persistentId": "",
+          "filename": "Sham_1.5H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85527,
+          "storageIdentifier": "surf://store:18afbc72cb9-fabf0d705461",
+          "rootDataFileId": -1,
+          "md5": "5519f13ef791c6e532a44ec3697292f9",
+          "checksum": {
+            "type": "MD5",
+            "value": "5519f13ef791c6e532a44ec3697292f9"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sham_24H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382698,
+          "persistentId": "",
+          "filename": "Sham_24H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86357,
+          "storageIdentifier": "surf://store:18afbc72dfd-63c0af9046a5",
+          "rootDataFileId": -1,
+          "md5": "b2c15fb2e05324bc84e5f8d65e269d8c",
+          "checksum": {
+            "type": "MD5",
+            "value": "b2c15fb2e05324bc84e5f8d65e269d8c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sham_24H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382694,
+          "persistentId": "",
+          "filename": "Sham_24H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85866,
+          "storageIdentifier": "surf://store:18afbc72e79-46912a780fed",
+          "rootDataFileId": -1,
+          "md5": "0d451475dbea30fb4560bd0c236ad183",
+          "checksum": {
+            "type": "MD5",
+            "value": "0d451475dbea30fb4560bd0c236ad183"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sham_2.5H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382680,
+          "persistentId": "",
+          "filename": "Sham_2.5H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86267,
+          "storageIdentifier": "surf://store:18afbc72d28-3213ac5a9097",
+          "rootDataFileId": -1,
+          "md5": "25b9907c77f049514fb9242ddd027d64",
+          "checksum": {
+            "type": "MD5",
+            "value": "25b9907c77f049514fb9242ddd027d64"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sham_2.5H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382679,
+          "persistentId": "",
+          "filename": "Sham_2.5H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85625,
+          "storageIdentifier": "surf://store:18afbc72d8a-988ef6054540",
+          "rootDataFileId": -1,
+          "md5": "ba65700e31368a207653f66c0fe17ec0",
+          "checksum": {
+            "type": "MD5",
+            "value": "ba65700e31368a207653f66c0fe17ec0"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sham_72H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382687,
+          "persistentId": "",
+          "filename": "Sham_72H_YAHS-106YD_Panel1_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86224,
+          "storageIdentifier": "surf://store:18afbc72ece-e860c1b2e2f1",
+          "rootDataFileId": -1,
+          "md5": "b2483decd773b7d3ee3247099b3143e0",
+          "checksum": {
+            "type": "MD5",
+            "value": "b2483decd773b7d3ee3247099b3143e0"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sham_72H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30255,
+        "dataFile": {
+          "id": 382693,
+          "persistentId": "",
+          "filename": "Sham_72H_YAHS-106YD_Panel2_GrovenRVM.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 85646,
+          "storageIdentifier": "surf://store:18afbc72f34-b4db7a88a3ac",
+          "rootDataFileId": -1,
+          "md5": "41c876156b5e9b04b4c7ae2c83e461ab",
+          "checksum": {
+            "type": "MD5",
+            "value": "41c876156b5e9b04b4c7ae2c83e461ab"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-04",
+          "publicationDate": "2023-10-12",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Groven, Rald; van Griensven, Martijn, 2023, \"Circulating miRNA expression in extracellular vesicles is associated with specific injuries after multiple trauma and surgical invasiveness\", https://doi.org/10.34894/NYKLDA, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,4531 @@
+{
+  "id": 642463,
+  "identifier": "ZY8DQY",
+  "persistentUrl": "https://doi.org/10.34894/ZY8DQY",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-05-28",
+  "storageIdentifier": "surf://10.34894/ZY8DQY",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34823,
+    "datasetId": 642463,
+    "datasetPersistentId": "doi:10.34894/ZY8DQY",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/ZY8DQY",
+    "versionNumber": 1,
+    "internalVersionNumber": 155,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-05-28T13:30:21Z",
+    "releaseTime": "2026-05-28T13:30:21Z",
+    "createTime": "2026-05-28T13:29:42Z",
+    "publicationDate": "2026-05-28",
+    "citationDate": "2026-05-28",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Jedidiah Morse, The American Gazetteer (Boston 1797) [Ground Truth]"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6394-260X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains the digitalised text of Jedidiah Morse's <em>The American Gazetteer</em> (Boston 1797). The text was digitalised using scans provided by the John Adams Library at the Boston Public Library (<a href=\"https://archive.org/details/americangazettee00mors\" target=\"_blank\">Internet Archive</a>) and the HTR software <a href=\"http://www.transkribus.eu/\" target=\"_blank\">Transkribus</a>.<br><br>\r\n\r\nThis dataset contains the Ground Truth files, the transcriptions that were manually created in order to train the Transkribus HTR model. The files are available in several formats (plain text, TEI/XML, ALTO word, ALTO line, and Transkribus PAGE/XML)."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-01-31"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stapel, Rombert"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-01-31"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/ZY8DQY"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:214428b7-f089-44ab-9086-4536eb7c72da"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-be212806-1333-4f35-a884-e772f3ee9ced"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "americangazettee00mors_0007.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642465,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0007.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 40729,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6ccf9-3ebfda2de8a7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9e426e70e4d2dfcc43856247945b0ffab7ed9f79"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0007.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642464,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0007.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 11750,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6cc62-5576f9ed7323",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "48a6c0e3dff57424285f20e3fec6e290b8f8b680"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0007.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642466,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0007.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 23027,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6cd87-661186633690",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "17a7e2ef0457cb33c4e2acdb012376c80ae6ba34"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0008.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642469,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0008.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 5256,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6cf6d-397cc3f27fec",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8a7c62868bf9d9eac04b2f7f3454724d53db9ac3"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0008.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642468,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0008.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 6966,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6ceb0-841dcd2c08fd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "25f3b2bfe59a4f28673b3aefec05a9084d7f6d0d"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0008.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642467,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0008.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 2437,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6ce10-6afcd978e388",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2c095ae1fb69736a9bdd1b4b37462f5c6c63ed5f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0009.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642470,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0009.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 9193,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6cfff-1ad61ec7e634",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c1f30465de126a5ec51b3fe0c21eef7d676fb7fc"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0009.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642472,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0009.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 34586,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d12f-2ef2d5adf0a8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "de7bc786f01a9f43e83ed7b6a0bc0dfaf7eae190"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0009.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642471,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0009.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26754,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d094-ba80c39dde12",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "187628b0fe94aec2a930150fb8c0fbb0e5a9ccf5"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0010.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642473,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0010.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 9779,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d1cd-18f04e0a12e6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ee5d0b91f81307014ff4fbc3004bb2dfb264b0d3"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0010.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642474,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0010.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 23532,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d266-c568bac63637",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "127928adf366a7323baf56b1a9bbc3c724a15fdc"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0010.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642475,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0010.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 36035,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d314-70871ca3b424",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "54196100049980ffc7cf3d57495a1c490edd9a46"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0011.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642477,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0011.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 10032,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d498-156b8b00445b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a29b5b6ec5bc33d1142fb6b57caf76ab40259476"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0011.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642478,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0011.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 29804,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d538-c5c5e88e2917",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e817db005dbfe4aeff81eae371ceb487f08d7c8f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0011.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642476,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0011.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 37174,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d403-cbee54116cf6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "58c450f9260507de3d2a3e0cb0669356bfe77d3c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0012.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642480,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0012.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 37197,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d67c-953e668bd5b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1a6487c7c4b817efb06880890fbde9960b1cd11e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0012.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642479,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0012.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 10016,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d5d9-84f3fb315d6e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c6043e7a61b0d89f9a21147c959f7df55bdfdfb2"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0012.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642481,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0012.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 31432,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d72a-664fdcba657a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "724a865581c7c619cb7d045015873ed9bddd80e0"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0013.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642483,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0013.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 28562,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d872-90281c7688bb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bd66e3a4b2f7c0cb2a034092137b438a62defc74"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0013.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642484,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0013.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 9724,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d91e-e485a108c88a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cd3601b44a745114a33e78872d1b0fe1df581711"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0013.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642482,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0013.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 36331,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d7ca-bacb9c46931d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "12829a560d1f4e340846d91d44b90fa2a8b4d78b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0014.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642485,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0014.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 9730,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6d9af-5a0f4310b89a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c327676a8443e1689dcb39c740c1a172c6229221"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0014.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642487,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0014.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 36350,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6daef-143cc717730d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9e6fa7471a939c26f58afa1f7e86af7015d4eb4b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0014.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642486,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0014.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 28011,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6da55-ac01767e7a3e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "714194141652c7704ce4eaaf4a16e02c610756c4"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0025.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642490,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0025.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 73196,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6dea5-d8052990ca8e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2d0be3eaf11e7d9e3a52bbb200df6ace3ded3081"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0025.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642489,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0025.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 44187,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6ddc9-f7eb9abf1652",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "21e058b85b0964603b32d4dd6fea52edfb1c1f74"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0025.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642488,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0025.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 18824,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6dd2a-106201162050",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "964b43ec762cfb115f40b4f7bbfea822bcb7beca"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0026.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642493,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0026.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 71875,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e0ae-a034c990976e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4a6dee13947411bde476835ca9f9997425d8deb2"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0026.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642491,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0026.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26750,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6df47-747baeedd749",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0a01fa2fe9e2780289e855a710ab26f2cb616f2e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0026.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642492,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0026.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 107202,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6dfff-57eed50812db",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "feb19dca642df1c3b6d3f6afb171ccbea955d5e8"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0027.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642494,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0027.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26389,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e188-866007f8060b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cd5e0efe0140991f349444eaca19bd8e87256f15"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0027.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642495,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0027.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68475,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e228-78e615fc8033",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a4a8381e7c0b22caeb513791094990c3214040c9"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0027.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642496,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0027.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 107221,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e2dd-416e244a9cd3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "454dfe4fe63eee960b2e09f42a31300830bae2cd"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0028.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642497,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0028.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 107211,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e398-252c775e24fe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d5eef5db2588b8a14e3fd9f547d361f8dd06f110"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0028.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642499,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0028.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26503,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e501-3df64900cf29",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5153a5ef1244062c8a2d7075c92138666c2ee18d"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0028.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642498,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0028.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 67181,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e457-f4a1fb349525",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e7153abd426c4b9a5161f29d56d7a64cd95f7f0c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0029.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642501,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0029.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 106057,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e6f2-7dd8283ee1e6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "72c10cf83437dd912c8d79fd90a36b526b982410"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0029.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642502,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0029.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 69142,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e7d0-93dcc3cc24e4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "505f259f482fdf5116a14d259847a692ff504961"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0029.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642500,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0029.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26604,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e59f-723eeea0431c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4eb5829517ae5d9897caa69f326b44d3448d24bd"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0030.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642503,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0030.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 67404,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e896-7007da197720",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dbe59d96762df737b3a56d66488e83d63bc476e1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0030.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642504,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0030.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 107830,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6e96f-f22e0e9f4ab7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c981b291c26a3924517fd7bc095b13d820291a40"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0030.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642505,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0030.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26699,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6ea2b-967b5fe9fa0c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8e01c6b90d20b699c37302c7d8dbd8543358a779"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0031.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642506,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0031.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 64182,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6eb00-bc5bd8eda14f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "62621f43014686d274108eb21e047329af8f357f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0031.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642508,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0031.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26404,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6eca1-ddb1a59cbed4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ba8de903a2149be53e487daa643f68d6eee8a3af"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0031.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642507,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0031.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 106767,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6ebe2-c0ae540a78f0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bdf0c83fbaf069e9cc285a2c892b66f580bcaefb"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0032.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642510,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0032.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 106296,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6ee30-d46e67ecfc49",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "512c51ab95a20e114872a8480ef29c88ad660e7c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0032.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642511,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0032.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 64205,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6ef00-1e926a176ab3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "714e03a5b0c2eec5de1a6fde25ed7eb4eb8b45fa"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0032.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642509,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0032.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26487,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6ed6b-435d6790cbe9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cb21ab4eaf2fbbaa6a3c16711316e9c7cfd56a33"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0015.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642514,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0015.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26440,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f176-26ef49ae6bf6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "db5e547054b8689c7ef653c9d59e9aeefe24bc1f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0015.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642512,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0015.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68482,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6efc6-6279323838bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1f1fb10b405aa4bdd1c0435779652b3d7083ed4a"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0015.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642513,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0015.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 106723,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f09c-eefda74f406a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "86f4d3d7aa70ef32eff68045379679bbf2738e80"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0016.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642515,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0016.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 69078,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f23d-476e0f0b2557",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "971612ab0ac0dafe911e420fe8e9ecacbac543f4"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0016.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642517,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0016.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 109382,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f3ea-14c180c3833d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "30fd7736f6efa6c128f8573d0a2001c01ec62420"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0016.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642516,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0016.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26794,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f316-07239b06bc12",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "63a933585ab693067d76fd2e23f11314af3c5913"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0019.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642518,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0019.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 106225,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f4ac-b0c125b53498",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a0e78f673a82a165bac7351b0ddc2318b6d36cb5"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0019.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642519,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0019.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 65376,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f56b-57efbd176f27",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bde7dc189679170bb2896aeef45e09d50ff4699e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0019.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642520,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0019.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26464,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f62e-33a719976e81",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2b5041085755caaf449fae758eeb05d0cc9ada9b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0020.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642521,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0020.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26598,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f6ef-ec33f2cd3ca2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "da0f7a73a8bbdc4a5a3ff1c14e0f1e8b58f2c57f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0020.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642522,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0020.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 63798,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f7b0-de39a6f95ef8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "29339bca972da769c1bc4fff6a91db6b7d85f275"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0020.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642523,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0020.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 108038,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f8ab-405212a8e5a9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "61b6d16bd0651587085b5f1029522ce79e34e21f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0021.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642526,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0021.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26358,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6fb21-81fbc6bd99b8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ade35467e5d54afd0befe84177614b893100797e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0021.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642525,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0021.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 105810,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6fa5c-e3618896927b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e54129e04824288bf3b82a561492f5818e8c6315"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0021.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642524,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0021.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 66007,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6f98a-699107f7597e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "95bce0ba6bec2d1a8fadcf3133d3e16093b78046"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0022.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642527,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0022.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26515,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6fbd9-7a02fd56be6f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e3d47efdf4779c76d3872a27991db114b0da2c3a"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0022.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642529,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0022.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 105812,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6fd71-159951245dd1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cdd3762714c997e7073c5c8dd9e023d2ec0a41f8"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0022.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642528,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0022.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 65438,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6fca4-2bd0f92d4d6c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e90860d4004f9f86c8cc8a674157247ded1e4a30"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0023.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642530,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0023.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26496,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6fe3b-40b4881c33af",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "caab955d863576d2863c1a0c92c221ec25dfdacc"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0023.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642532,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0023.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 106713,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70007-a464c3ad89bf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "09e9a6b1fadd195901b7e3ddd90c7101215a85fa"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0023.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642531,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0023.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 69998,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec6ff34-3f71ede55d5e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0640496215788270614628293261b38e497532fd"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0024.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642533,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0024.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 71646,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec700e1-cf3cc34bcf55",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "35f506128ad520be460b1be3976a40f5d22aa199"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0024.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642535,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0024.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26685,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70294-a4883a86e643",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d7b360cbea349f04942d2419d7e5e1d68ac96548"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0033_0024.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642534,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0033_0024.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 107855,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec701c0-40c37090a893",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "69531e814c7cd658e86f8116fdfce6ff1e628272"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0065.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642537,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0065.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26247,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70478-4bd16a2b9324",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d2795aaf8cfc4174a70670575ad515048a9a548b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0065.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642536,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0065.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68836,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70394-2d25fb9617c8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9bd1cf2e2c6fb32599fe575e7bc0bc6a7cef766e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0065.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642538,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0065.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 104735,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70552-b64c409edeba",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4cfdaca2340e21aa8fd02a171291b735316682fa"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0073.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642540,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0073.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 69205,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70777-37a403d8205f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "78196f156f5197b9bfea306ed7492a58db4620f0"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0073.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642539,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0073.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 108176,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec706b2-9712990bc36e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "648f2610bea5b7fa5b84a583777310dbb2590bc6"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0073.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642541,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0073.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26548,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70853-dcb6944ed84b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "de625e5fa57d38ee64105173df2d675d8f863c9d"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0104.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642543,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0104.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 107217,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70a2d-0568c70daf4a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b91485557c7ce681a8168b64dfedd72fac0bbeab"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0104.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642544,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0104.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26602,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70b16-5373d5a42311",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3c0fd0a40ece5f2e47a17a1d715b0f21ff753769"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0104.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642542,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0104.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 67183,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70919-8af1958828b8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "763f378a142f517e6b335d5f21a3da5939d80f60"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0108.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642545,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0108.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 831932,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70c38-8c5a829d9283",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "78ea8ed2c0811c653a0755e97adedb9bf5e648ba"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0108.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642547,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0108.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26670,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70ddd-dcbaaf1657fe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "102cf7a7d1b82ed4949ce24d404c71e66d0dca3e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0108.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642546,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0108.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 69177,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70d1e-dc97bb60830a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "af4f0a777633d9fb6b54c906cf721eba16675279"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0182.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642549,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0182.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 106931,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70f91-4e0d962cde5a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "64a1fbe531d74ffc0d3b397a7567234cca66681b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0182.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642548,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0182.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26649,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec70eab-7b7a9332bf0c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "185ed7dd9ac567aab09a3a86d2ee160063a563a0"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0182.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642550,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0182.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68425,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec71067-2334ca915436",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0660d7dc905d2832239b2e2060a9c9b83a68ead7"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0194.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642552,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0194.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 69833,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec71225-8ba2f826c9df",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9a1b9c737434cdcacb1296c33da5e4b759a43863"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0194.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642553,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0194.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26578,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec71318-70163f51291e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "43a73416a54f69d591220c1edc24980d6bb64d3c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0194.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642551,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0194.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 107269,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec71153-bc46c65c8a6f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c433204a9b37fbbf480ee4fa1d1d3cef87c90f3b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0214.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642555,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0214.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26925,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec714c6-481cd5921284",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "240230de74c6fdcc48ab9c097e20c231de52f1e3"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0214.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642556,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0214.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68103,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7159c-ccde6b437d80",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d0326aa4ad78bb03d928665822e0fca975bbe2aa"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0214.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642554,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0214.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 108433,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec713eb-ac80054e8a6d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "61e962466982079ace0bf4113c58f74809f08b10"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0222.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642559,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0222.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 66391,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7190b-a443b067a0ee",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f7aa26199736991ed35b1e4f652c8c3cc67386ad"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0222.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642558,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0222.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 27047,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec717c7-f49860262107",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3265d354ba9c5ad66c4db96fe77632af5cb0b4b0"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0222.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642557,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0222.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 107571,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec716c3-21d64a006573",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "793fa880c2ca8f6f8856486346a5d7a7e991af84"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0262.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642560,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0262.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 27098,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec71a98-2b4ce6a7a48e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5aea20896316b0d261f2a3a21f2b173a55990ed8"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0262.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642561,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0262.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 71513,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec71c01-b9132317e6eb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "88a173c1b8d187e6b0e8b5dd1a01cbc8ca004794"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0262.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642562,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0262.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 110430,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec71d03-075663cf3a96",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c189630a720fa913213d64c7622818d75bdf893b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0263.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642565,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0263.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 107484,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7206f-06f7c5459c1f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b43119064bbba29f6d5da6cca76cb0cfe32881bc"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0263.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642564,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0263.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 67543,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec71f69-b7f5b6e04950",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "caa7f8cad1804d2d4ac2f0e57d43cc53542e4efc"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0263.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642563,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0263.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26753,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec71e6e-82202df27ba9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d52ef4dbafb4868c2ddd5c12a493c583f20124f5"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0270.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642567,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0270.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 109198,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec72299-5ab27f4bb561",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4ccd7253a5348c7681a517f8d46e9d179a0fc63c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0270.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642566,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0270.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 69686,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7218f-064ef699b9cf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4846a14c8d960c16fa49022421f48f455b32db79"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0270.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642568,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0270.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 27134,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7239d-7050bed83925",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "de0e09b597bf9a6f425a8d7fe27bcb15c92da027"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0277.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642570,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0277.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 106768,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec72638-8176751527db",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "55f764a8d72e11b70a6d8f01cedada7348354c2e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0277.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642571,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0277.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26751,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec727a3-efe69880235d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "057bb324977ce502c600eaa8bf259640b0eb85d5"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0277.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642569,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0277.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 66516,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec72530-9b2156e21e31",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e82275e9eb3f743dab69fcc725189d7bfb5ec9f8"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0399.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642573,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0399.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 101571,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec72a18-78bdf7a33f1a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "af394034b63e5f855fee6df7f3adb67c894b7c58"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0399.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642574,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0399.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26329,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec72c57-050226987d46",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8097336d7eba8aaa3a93417aa5d0d8c71340cdb1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0399.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642572,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0399.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 65613,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec728d1-17adcb03f169",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d0d4e4e78e5d5904a50cbe925c2baca455216db7"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0438.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642577,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0438.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 109582,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec73039-894f5a2943c3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "34c9acd73af747a41cae8b57e9115cded40db2fc"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0438.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642575,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0438.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 27091,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec72d9d-8cd4d81e56a5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0414d60c32ab390eb1047f9ccdfd1ddffea8d4ab"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0438.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642576,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0438.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68244,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec72f32-c496884f6f9f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d78a97345bcb3f655e492224c8136aec4a009503"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0455.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642578,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0455.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26777,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec73143-020d54832334",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e23ead4ccaf7457fc17152c6ce7aa35f58bc0128"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0455.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642579,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0455.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 107682,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec73244-75d70ccd987d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b70bd8ed13e6b04bbeb76b32b1c18e7984e84eaf"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0455.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642580,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0455.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 70464,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec73349-53aee6e6141c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ed0d43b5bf7a23ec2c2ea96888952f7a4443e43b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0504.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642581,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0504.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68434,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7344c-481c1e1d7c1e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "17ee90a9c2b19836bbeca7f01261c321d0306989"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0504.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642582,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0504.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26944,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec735a2-85902f5f3f23",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "45b7939bcb1d0686c42edabfe2f209a7a5ab8b51"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0504.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642583,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0504.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 108233,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec73775-f98e589c2a5c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eeb155548abba05298e554400e75dab42e8f2e4b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0505.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642585,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0505.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26885,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec73ab5-baef5b7d7337",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1729812ecbf7e1544daed041385d14c219396186"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0505.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642584,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0505.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 109149,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7393d-eb0c16bd1e7d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d7f01089745b4de2869ada1c3400ebaec21d99ac"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0505.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642586,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0505.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68987,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec73be3-960bedc5e6a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "beb4bb06f3863f1191abd9bdf7f0ba249841b1f1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0521.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642588,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0521.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 110887,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec73e6c-83c4f3c94a60",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "67f01daf2838c7cf9e6e1c1dde8637d87c901dd3"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0521.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642589,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0521.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 27182,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec73fa6-dc0083ed01bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "39f46d9882e4db4d584daf05b7a9a69a8b2e8d0a"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0521.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642587,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0521.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 74577,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec73d40-c6b63fa85291",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ac5c2ba330932af0f02138642e4a216db74a6b37"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0540.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642592,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0540.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 105776,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec74491-bde9f76e21f6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a0421fd28f4c41d3c3ff78d9cffda61de02763f1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0540.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642590,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0540.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26122,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7415f-4c8f6ce286d0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4dc03598452875f23231b57a5d4f59c7d26f0f76"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0540.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642591,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0540.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 65965,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec742dc-9471d5c67623",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2bc546aa424a5710c9583cc52f59a24b77286927"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0557.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642594,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0557.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 26664,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec747b1-f4f1432bbb47",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6e81e55f6a2aff6fa5b536c73b38bce127fa943e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0557.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642595,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0557.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68266,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7495b-b03116655108",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5ba2b56c118147fdd71bfe71c301a6e6ec2d3104"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0557.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642593,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0557.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 105582,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec74611-7045878cf954",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e7406c38ea852e0fcce75922b1a26d145178011e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0558.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642596,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0558.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 70094,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec74b06-3635d2dc585f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e7f1fdfe75b875c7ceac9af3435965aa361ac856"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0558.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642598,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0558.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 27319,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec74d65-103a28ca96aa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b6ba70d0000df8a5c6804b699478cf823c63ae9a"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0558.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642597,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0558.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 111818,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec74c50-a3708907780c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0978d47882e8d8147bef90af9e5d4b19a9eb444c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0582.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642601,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0582.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 52438,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec75157-364b5cdb59e4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7bd06a03ec14dab873a488583fd663d0e2a702ae"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0582.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642600,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0582.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 131432,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7501f-174e648587d5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d8073d6e9d7903df0946d370ce577d2640d9fe29"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0582.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642599,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0582.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 57349,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec74e85-931d41c4f2d4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d5fa818567b81506b03fc3c7fc3acbc88c887f2f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0603.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642604,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0603.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 117356,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec75391-850718c21881",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bd6699b9f955fc81a371c57e72d985f7a3ade09e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0603.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642602,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0603.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 67221,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec75265-c274ba81e270",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6e7e9238c3150b1961c3529eb9b0f439de1acfd4"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0603.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642605,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0603.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 31174,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec754aa-9d0cc6bea71b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ca969dcf767742455561bffbcd1769a652b5d10d"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0618.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642607,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0618.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 65880,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec755e2-a9c5bdd7b55a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "42aa4d577e8cda4b520c1ab38b293381f413586c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0618.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642608,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0618.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 25376,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7571a-52832cd58240",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "96f790282c7a3bedcb931d1813485f09c74f0446"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0618.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642609,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0618.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 101003,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec75851-7af4c7488084",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c97cf99b7e3bba20ec4625cccce522107508ecbb"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0631.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642611,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0631.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 71155,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7598c-773dec22bc95",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "73d9b2dbb6126ec9b984b9cc2dd6fa6a90fc8cf1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./page",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0631.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642613,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0631.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 40348,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec75c8c-3096ac43e20c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2d83bb2172fec8a18a256087858886655868a734"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .word",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "americangazettee00mors_0631.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642612,
+          "persistentId": "",
+          "filename": "americangazettee00mors_0631.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 19460,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec75af2-7a01d9a8f9be",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "681cf9be90728c8e879175ee5c3a9a782bbcd4af"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT./alto .line",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "metadata.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth/The_American_Gazetteer .GT",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642614,
+          "persistentId": "",
+          "filename": "metadata.xml",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 1313,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec75db8-9b4ad185486f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1d8b5226b32bf63e1d7ee2373021b7eb46ad931d"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth/The_American_Gazetteer .GT",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "The_American_Gazetteer (GT)_tei.xml",
+        "restricted": false,
+        "directoryLabel": "Ground Truth",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642615,
+          "persistentId": "",
+          "filename": "The_American_Gazetteer (GT)_tei.xml",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 12626193,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec7607c-bcc4ff589f18",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1a2b2dbd22435f83d5733122a3ce8fd582aee14b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "The_American_Gazetteer (GT).txt",
+        "restricted": false,
+        "directoryLabel": "Ground Truth",
+        "version": 1,
+        "datasetVersionId": 34823,
+        "dataFile": {
+          "id": 642616,
+          "persistentId": "",
+          "filename": "The_American_Gazetteer (GT).txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 185383,
+          "description": "",
+          "storageIdentifier": "surf://store:19e6ec762c1-86522a74f06d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "65f980306d679a3df64bf4e6215929b979814bb0"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-28",
+          "publicationDate": "2026-05-28",
+          "directoryLabel": "Ground Truth",
+          "lastUpdateTime": "2026-05-28T13:30:21Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Stapel, Rombert, 2026, \"Jedidiah Morse, The American Gazetteer (Boston 1797) [Ground Truth]\", https://doi.org/10.34894/ZY8DQY, DataverseNL, V1"
+  }
+}

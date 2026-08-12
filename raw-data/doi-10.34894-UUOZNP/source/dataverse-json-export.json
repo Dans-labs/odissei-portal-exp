@@ -1,0 +1,683 @@
+{
+  "id": 574594,
+  "identifier": "UUOZNP",
+  "persistentUrl": "https://doi.org/10.34894/UUOZNP",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-12-31",
+  "storageIdentifier": "surf://10.34894/UUOZNP",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32441,
+    "datasetId": 574594,
+    "datasetPersistentId": "doi:10.34894/UUOZNP",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/UUOZNP",
+    "versionNumber": 1,
+    "internalVersionNumber": 13,
+    "versionMinorNumber": 2,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2025-12-31T14:50:07Z",
+    "releaseTime": "2025-12-31T14:50:07Z",
+    "createTime": "2025-12-31T14:50:01Z",
+    "publicationDate": "2025-12-31",
+    "citationDate": "2025-12-31",
+    "termsOfUse": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\"><img alt=\"Creative Commons-Licentie\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png\" /></a><br />Dit werk valt onder een <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-nc-nd/4.0/\">Creative Commons Naamsvermelding-NietCommercieel-GeenAfgeleideWerken 4.0 Internationaal-licentie</a>.",
+    "termsOfAccess": "Access is restricted until permission is acquired from the original authors of the publication.",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Fiscal repartitions for the Duchy of Brabant (1383-1572)"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oostindiër, Arend Elias"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6394-260X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains a number of files containing subsidies (<em>bede</em> or <em>aide</em>) for the Duchy of Brabant, starting from 1383. The dataset is linked to the GIS dataset <a href=\"https://hdl.handle.net/10622/PGFYTM\" target=\"_blank\">Historical Atlas of the Low Countries (1350-1800)</a>.\n<br><br>The 1383/1385 data was collected and digitised with the great help of Bastiaan van den Akker, who worked in 2018/19 as an intern at the International Institute of Social History and, as part of the NWO-funded project 'Imagining a Territory (led by Dr. Mario Damen), at the University of Amsterdam.<br>\nThe data on the 100th penny (1569-1572) comes from P. Stabel and F. Vermeylen, <em>Het fiscale vermogen in Brabant, Vlaanderen en de heerlijkheid Mechelen. De Honderdste Penning van de hertog van Alva (1569-1572)</em>. Académie royale de Belgique. Commission royale d’histoire. Publications gr. in-8 (Bruxelles: Académie Royale de Belgique 1997). This data (currently not made open access) was digitised and linked to the GIS codes by us.\n<br><br>The methodology behind these files is described in A.E. Oostindiër and R.J. Stapel, 'Demographic Shifts and the Politics of Taxation in the Making of Fifteenth-Century Brabant', in: M.J.M. Damen and K. Overlaet eds., <em>Constructing and Representing Territory in Late Medieval and Early Modern Europe</em> (Amsterdam: Amsterdam University Press), which is currently under review.<br>\nThe files in the folder \"summary\" refer to data files prepared for further analysis, by disaggregating counts of combined areas using the disaggregated hearth censuses made available <a href=\"https://hdl.handle.net/10622/YGRTHJ\" target=\"_blank\">here</a>. The hearth censuses were disaggregated using known ratios of other years, by interpolating missing values using nearest-neighbour-analysis of growth rates, and by creating a consistent time series by relating each figure to a predefined spatial part of the duchy which remains fixed.<br><br>For users not familiar with creating spatial joins in GIS, we would like refer to <a href=\"https://hdl.handle.net/10622/UOKBYL\" target=\"_blank\">this related dataset</a>. It contains a number of specially prepared GIS layers for the Duchy of Brabant, that store some of the data available below."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-05-09"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "fiscal documents"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "subsidies"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "taxation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Brabant"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mechelen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "repartitions"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "beden"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "aides"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "aids"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A.E. Oostindiër and R.J. Stapel, 'Demographic Shifts and the Politics of Taxation in the Making of Fifteenth-Century Brabant', in: M.J.M. Damen and K. Overlaet eds., <em>Constructing and Representing Territory in Late Medieval and Early Modern Europe</em> (Amsterdam: Amsterdam University Press 2022), 141-178."
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://library.oapen.org/bitstream/handle/20.500.12657/52143/9789048551804.pdf?sequence=1#page=142"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stapel, Rombert"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-05-09"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1383"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1572"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "relatedDatasets",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://hdl.handle.net/10622/PGFYTM"
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "P. Stabel and F. Vermeylen, <em>Het fiscale vermogen in Brabant, Vlaanderen en de heerlijkheid Mechelen. De Honderdste Penning van de hertog van Alva (1569-1572)</em>. Académie royale de Belgique. Commission royale d’histoire. Publications gr. in-8 (Bruxelles: Académie Royale de Belgique 1997)",
+              "Brussels, State Archive of Belgium, Cour des Comptes, inv. nr. 15.716",
+              "Brussels, State Archive of Belgium, Cour des Comptes, inv. nr. 15.722"
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Antwerpen"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Waals-Brabant"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vlaams-Brabant"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Brussel"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Netherlands"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Noord-Brabant"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/UUOZNP"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.2"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:665fb34d-7983-476a-963d-3c097eee29cd"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-dea1a070-4819-45c4-b1e0-54e184249fa2"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "100th penny (1569-1572) codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1569-1572",
+        "version": 1,
+        "datasetVersionId": 32441,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574595,
+          "persistentId": "",
+          "filename": "100th penny (1569-1572) codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 805,
+          "description": "",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e2e6a7-233d5a8cda58",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fcadb63f55c82ca2cce0c3eb6e0b923fdd424e0a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Duchy of Brabant and Lordship of Mechelen, not including the County of Flanders",
+        "label": "100th penny (1569-1572).tsv",
+        "restricted": false,
+        "directoryLabel": "1569-1572",
+        "version": 2,
+        "datasetVersionId": 32441,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574596,
+          "persistentId": "",
+          "filename": "100th penny (1569-1572).tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 230115,
+          "description": "Duchy of Brabant and Lordship of Mechelen, not including the County of Flanders",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e2e8c5-513193ef112a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6ed03bfc79125b79a3fd0e301d74b877c8c7b08b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Aid 1383-1385 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1383-1385",
+        "version": 1,
+        "datasetVersionId": 32441,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574597,
+          "persistentId": "",
+          "filename": "Aid 1383-1385 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 884,
+          "description": "",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e2ea75-1fbfb3664f11",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "da0259ecc6f53892c289a71dad3bb68b2a2c1572"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Aid 1383-1385.tsv",
+        "restricted": false,
+        "directoryLabel": "1383-1385",
+        "version": 1,
+        "datasetVersionId": 32441,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574598,
+          "persistentId": "",
+          "filename": "Aid 1383-1385.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 129015,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e2ec51-5a22d0b0e71c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4737d0e79665f74f09a46f366ba8f62585cf01d1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Aid 1436-1442 codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "1436-1442",
+        "version": 1,
+        "datasetVersionId": 32441,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574599,
+          "persistentId": "",
+          "filename": "Aid 1436-1442 codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 2879,
+          "description": "",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e2ee44-9b6f646b8ad8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "12112629108a0667c48c560f4cc39887e9e62220"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Only includes the quarters of Brussels, Leuven, and 's-Hertogenbosch, as well as the contributing prelates. The quarters of Antwerp, Tienen, and Walloon Brabant (or Nivelles) are not digitised.",
+        "label": "Aid 1436-1442 (prelates, Brussels, Leuven, 's-Hertogenbosch).tsv",
+        "restricted": false,
+        "directoryLabel": "1436-1442",
+        "version": 1,
+        "datasetVersionId": 32441,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574600,
+          "persistentId": "",
+          "filename": "Aid 1436-1442 (prelates, Brussels, Leuven, 's-Hertogenbosch).tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 69155,
+          "description": "Only includes the quarters of Brussels, Leuven, and 's-Hertogenbosch, as well as the contributing prelates. The quarters of Antwerp, Tienen, and Walloon Brabant (or Nivelles) are not digitised.",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e2f010-1df133dbec9b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3800371260cfd8e0c58fe69cd64524e8bc245028"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Summary (disaggregated) codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "summary",
+        "version": 1,
+        "datasetVersionId": 32441,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 574601,
+          "persistentId": "",
+          "filename": "Summary (disaggregated) codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1054,
+          "description": "",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19b74e2f1e5-1b3557ac776b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5caa53ca3e034a4569288ad8002eb0de1af2a969"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Summary (disaggregated).tsv",
+        "restricted": false,
+        "directoryLabel": "summary",
+        "version": 1,
+        "datasetVersionId": 32441,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 574602,
+          "persistentId": "",
+          "filename": "Summary (disaggregated).tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 57314,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19b74e2f3fa-1f244e6ac169",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "40c29e1f1e3cecb718fa29760cd94c8048caff0d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-31",
+          "publicationDate": "2025-12-31",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Oostindiër, Arend Elias; Stapel, Rombert, 2025, \"Fiscal repartitions for the Duchy of Brabant (1383-1572)\", https://doi.org/10.34894/UUOZNP, DataverseNL, V1"
+  }
+}

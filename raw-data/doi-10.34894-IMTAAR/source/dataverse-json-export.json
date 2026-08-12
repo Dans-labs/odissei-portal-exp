@@ -1,0 +1,303 @@
+{
+  "id": 1498,
+  "identifier": "IMTAAR",
+  "persistentUrl": "https://doi.org/10.34894/IMTAAR",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2016-11-02",
+  "storageIdentifier": "surf://10411/20839",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 682,
+    "datasetId": 1498,
+    "datasetPersistentId": "doi:10.34894/IMTAAR",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10411/20839",
+    "versionNumber": 1,
+    "internalVersionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "DRAFT",
+    "deaccessionLink": "",
+    "distributionDate": "2016-11-01",
+    "lastUpdateTime": "2016-12-15T12:05:38Z",
+    "releaseTime": "2016-11-02T00:00:00Z",
+    "createTime": "2016-12-15T12:05:38Z",
+    "alternativePersistentId": "hdl:10411/20839",
+    "publicationDate": "2016-11-02",
+    "citationDate": "2016-11-02",
+    "termsOfUse": "This dataset is made available without information on how it can be used. You should communicate with the Contact(s) specified before use.",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "NL, BE and DE first marriages and lifespans 1600-1899 (GO 924 set)"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gellatly, Corry"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Störmer, Charlotte"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "De Moor, Tine"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Corry Gellatly"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>A data set of first marriages (including marriage location and ages of spouses at marriage) and lifespans of spouses (including year and location of births and deaths, where known), for marriages conducted between 1600 and 1899 in the Netherlands, Belgium and Germany. Also included is a binary indicator for whether the marriage, birth or death locations were urban or rural between 1600 and 1800, according to the coding system used by Bosker <em>et al.</em> 2013 [<em>Rev. Econ. Stat.</em>, <st\nrong>95</strong>(4), 1418-1437 doi:10.1162/REST_a_00284]. <br /><br />The data set is derived from a genealogical database, which was constructed from family tree (GEDCOM) files contributed by users of <a href=\"http://www.genealogieonline.nl\">www.genealogieonline.nl</a>. The genealogical data from contributed files was error-checked before being combined into a single database using the <a href=\"https://github.com/cgeltly/treechecker\">TreeChecker application</a>. From the initial pool of >1600 f\niles contributed by the users of <a href=\"http://www.genealogieonline.nl\">www.genealogieonline.nl</a>, 924 files were included in the database after an assessment of the percentage of errors in each file, hence the database is known as the GO 924 set.<br /><br />Duplicate marriages were identified by the year of marriage and the first 7 letters of each spouse surname, whereupon a random duplicate was selected for inclusion in the data set. Note that names of individuals and exact dates of marria\nges, births and deaths are excluded from this data set to prevent identification of individuals, as the genealogical data was provided to our research group on the basis that it would only be published in an aggregated or anonymised format. Access to the un-anonymised data may be granted subject to confidentiality agreements, please contact the authors for further information.\n</p> <p>Marriages were only included where the place of marriage had been checked and geocoded with latitude and longitude coordinates, where (as far as we could ascertain) it was the first marriage of the spouse, age at marriage was &gt; 13 for both spouses, all lifespans were &lt; 111 and no estimated dates were used to calculate spouse lifespan.<br /><br />The dataset is in a long format, in which there is a separate record for each spouse. It can be determined whether the spouse is the husba\nnd or wife (and conversely whether the other is the wife or husband) by the `spouse_sex` variable.\n<br /><br />A description of each variable is included in the text file accompanying the csv data file.</p>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2016-11-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Version Date: 2016-11-01Version Text: 1"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-11-01"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Corry Gellatly"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-11-01"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1600"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1899"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Genealogical"
+            ]
+          }
+        ]
+      },
+      "socialscience": {
+        "displayName": "Social Science and Humanities Metadata",
+        "name": "socialscience",
+        "fields": [
+          {
+            "typeName": "universe",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Married persons in the Netherlands, Belgium and Germany"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/IMTAAR"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:51913c95-be7e-43a8-973f-819cde67c53d"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-9d854042-0fcc-4291-9a1e-ab64f0bd5b6f"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "CSV data file, compressed into bz2 archive.",
+        "label": "GO_924_NL_BE_DE_first_marriages_1600_1899.csv.bz2",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 682,
+        "categories": [
+          "Zip-file"
+        ],
+        "dataFile": {
+          "id": 4004,
+          "persistentId": "",
+          "filename": "GO_924_NL_BE_DE_first_marriages_1600_1899.csv.bz2",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 8069940,
+          "description": "CSV data file, compressed into bz2 archive.",
+          "categories": [
+            "Zip-file"
+          ],
+          "storageIdentifier": "surf://store:2947",
+          "rootDataFileId": -1,
+          "md5": "114cc880c0e61e01cad8893ec3e720f3",
+          "checksum": {
+            "type": "MD5",
+            "value": "114cc880c0e61e01cad8893ec3e720f3"
+          },
+          "tabularData": false,
+          "creationDate": "2016-12-15",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Description of variables",
+        "label": "GO_924_NL_BE_DE_first_marriages_1600_1899_VARIABLE_DESCRIPTIONS.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 682,
+        "categories": [
+          "pdf-file"
+        ],
+        "dataFile": {
+          "id": 4006,
+          "persistentId": "",
+          "filename": "GO_924_NL_BE_DE_first_marriages_1600_1899_VARIABLE_DESCRIPTIONS.txt",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 2965,
+          "description": "Description of variables",
+          "categories": [
+            "pdf-file"
+          ],
+          "storageIdentifier": "surf://store:2949",
+          "rootDataFileId": -1,
+          "md5": "b9cfac12cebaf07d9526c817f29406b8",
+          "checksum": {
+            "type": "MD5",
+            "value": "b9cfac12cebaf07d9526c817f29406b8"
+          },
+          "tabularData": false,
+          "creationDate": "2016-12-15",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Gellatly, Corry; Störmer, Charlotte; De Moor, Tine, 2016, \"NL, BE and DE first marriages and lifespans 1600-1899 (GO 924 set)\", https://doi.org/10.34894/IMTAAR, DataverseNL, V1"
+  }
+}

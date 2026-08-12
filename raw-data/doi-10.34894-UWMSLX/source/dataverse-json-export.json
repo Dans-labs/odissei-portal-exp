@@ -1,0 +1,908 @@
+{
+  "id": 638122,
+  "identifier": "UWMSLX",
+  "persistentUrl": "https://doi.org/10.34894/UWMSLX",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-05-07",
+  "storageIdentifier": "surf://10.34894/UWMSLX",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34573,
+    "datasetId": 638122,
+    "datasetPersistentId": "doi:10.34894/UWMSLX",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/UWMSLX",
+    "versionNumber": 4,
+    "internalVersionNumber": 25,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-05-07T18:56:19Z",
+    "releaseTime": "2026-05-07T18:56:19Z",
+    "createTime": "2026-05-07T18:56:12Z",
+    "publicationDate": "2026-05-07",
+    "citationDate": "2026-05-07",
+    "license": {
+      "name": "CC-BY-SA-4.0",
+      "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Duchy of Brabant GIS Collection"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6394-260X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stapel, Rombert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset, which accompanies the public website <a href=\"https://www.hertogdombrabant.nl\" target=\"_blank\">hertogdombrabant.nl</a>, contains several GIS files associated with the medieval Duchy of Brabant. These files have been adapted to correspond with the <a href=\"https://hdl.handle.net/10622/YGRTHJ\">hearth censuses</a> and <a href=\"https://hdl.handle.net/10622/WGEKRX\">fiscal repartitions</a> collected by myself and Arend-Elias Oostindiër.\n<br>\nThe polygon GIS is an abridged adaptation of the <strong>'Historical Atlas of the Low Countries' (v7)</strong>, <a href=\"https://hdl.handle.net/10622/PGFYTM\">which can be downloaded in full here</a>. The localities GIS contains a substantial summary of the fiscal data that can be downloaded in the links above, and is specially prepared for users not familiar with creating spatial joins. The cartogram GIS was created using <a href=\"http://scapetoad.choros.place\" target=\"_blank\">ScapeToad</a>. It is a collection of hexagons, each hexagon representing an equal share in the census or fiscal repartition. The boundaries GIS contains the borders of the Brabantine quarters, both in 1374 and 1437.\n<br><br>\nTwo special additions are the GIS layer of all religious institutions within Brabant, as well as a few religious institutions outside the duchy that contributed in the ducal aids. The dataset combines the total population living within the walls of the institutions in 1526 (including professed and non-professed members, lay persons, secular priests, and personnel), and information on the institutes participation in the Estates and/or contribution to the ducal taxes. Please note that each administrative quarter interpreted the 1526 census slightly differently. Two examples make this clear. Whereas refuge houses are included in the quarter of Louvain, they are absent elsewhere. The quarter of 's-Hertogenbosch does include much more detailed information on hospices than the other quarters. More regular monastic convents are included in all four quarters.<br>\nLast but not least, the dataset includes a complete list of towns, noblemen, and prelates listed in the convocation of 1406. This list was created together with Dr. Mario Damen, based on a pre-existing edition and justification by Mario Damen <a href=\"https://doi.org/10.3406/bcrh.2016.4335\" target=\"_blank\">which can be found here</a>. It includes, when possible, the suspected place of origin of the person mentioned in the convocation lists. In many cases, only the bailiwick or quarter could be identified. In those cases, the person is listed in the capital of the bailiwick or quarter. This is clearly marked in the dataset.\n\n<br><br>All files are coupled with a QGIS symbology file, which provides the user with an example of how the GIS layers can be visualised."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-06-21"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A.E. Oostindiër and R.J. Stapel, 'Demographic Shifts and the Politics of Taxation in the Making of Fifteenth-Century Brabant', in: M.J.M. Damen and K. Overlaet eds., <em>Constructing and Representing Territory in Late Medieval and Early Modern Europe</em> (Amsterdam: Amsterdam University Press 2022), 141-178."
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://library.oapen.org/bitstream/handle/20.500.12657/52143/9789048551804.pdf?sequence=1#page=142"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "M.J.M. Damen, 'Prelaten, edelen en steden. De samenstelling van de Staten van Brabant in de vijftiende eeuw', <em>Handelingen van de Koninklijke Commissie voor Geschiedenis</em> 182 (2016) pp. 5-274."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stapel, Rombert"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-06-21"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1374"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1526"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "QGIS"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3.8.1"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ScapeToad"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1.1"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Netherlands"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Noord-Brabant"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Antwerpen"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vlaams-Brabant"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hainaut"
+                }
+              },
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Belgium"
+                },
+                "state": {
+                  "typeName": "state",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Brabant wallon"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicUnit",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "parish-level"
+            ]
+          },
+          {
+            "typeName": "geographicBoundingBox",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "westLongitude": {
+                  "typeName": "westLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3.8"
+                },
+                "eastLongitude": {
+                  "typeName": "eastLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "6.8"
+                },
+                "northLatitude": {
+                  "typeName": "northLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "51.9"
+                },
+                "southLatitude": {
+                  "typeName": "southLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "50.4"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/UWMSLX"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "4.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d94cf196-e856-4362-8ce8-fab8b03a6e75"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-65c48c33-46bb-4366-a63f-06b2f0b492b1"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "Brabant - Boundaries quarters (1374 and 1437-38).geojson",
+        "restricted": false,
+        "directoryLabel": "boundaries",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638123,
+          "persistentId": "",
+          "filename": "Brabant - Boundaries quarters (1374 and 1437-38).geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 349525,
+          "description": "",
+          "storageIdentifier": "surf://store:19e03ca885c-d657a3411df8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5efdf32787d7d9050c9d59197362a2a5a41d6d5b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "boundaries",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Brabant - Boundaries quarters (1374 and 1437-38).qml",
+        "restricted": false,
+        "directoryLabel": "boundaries",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638124,
+          "persistentId": "",
+          "filename": "Brabant - Boundaries quarters (1374 and 1437-38).qml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 9656,
+          "description": "",
+          "storageIdentifier": "surf://store:19e03ca89b0-1f2da1043781",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "87d33b96b8737d4c15887c5e265268e61e9a353d"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "boundaries",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Codebook",
+        "label": "Brabant - Cartogram_codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "codebooks",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638134,
+          "persistentId": "",
+          "filename": "Brabant - Cartogram_codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 7082,
+          "description": "Codebook",
+          "storageIdentifier": "surf://store:19e03cb3e39-88330ba59151",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "554d85a1d98da40867be03932c87e5318d1de5b8"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "codebooks",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Brabant - Cartogram.geojson",
+        "restricted": false,
+        "directoryLabel": "cartogram",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638125,
+          "persistentId": "",
+          "filename": "Brabant - Cartogram.geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 133390358,
+          "description": "",
+          "storageIdentifier": "surf://store:19e03caec35-363ce7102db3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "29a5356f3307d670c2a031a784550f67b5f5f0db"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "cartogram",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Brabant - Cartogram.qml",
+        "restricted": false,
+        "directoryLabel": "cartogram",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638126,
+          "persistentId": "",
+          "filename": "Brabant - Cartogram.qml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 8992,
+          "description": "",
+          "storageIdentifier": "surf://store:19e03caefae-c8e86093be5f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cefc962a8352c0fa9bb73e0f7c8a068fd628b82a"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "cartogram",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Codebook",
+        "label": "Brabant - Localities_codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "codebooks",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638135,
+          "persistentId": "",
+          "filename": "Brabant - Localities_codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 4597,
+          "description": "Codebook",
+          "storageIdentifier": "surf://store:19e03cb413b-fba4a6437a2d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7f9e3b13f680e6e84e364ee2b2e7497d165ff8ad"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "codebooks",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Brabant - Localities.geojson",
+        "restricted": false,
+        "directoryLabel": "localities",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638127,
+          "persistentId": "",
+          "filename": "Brabant - Localities.geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 1764071,
+          "description": "",
+          "storageIdentifier": "surf://store:19e03caf258-17d75f4c38dd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76bad525f316067a007e107b8073383d72832fc3"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "localities",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Brabant - Localities.qml",
+        "restricted": false,
+        "directoryLabel": "localities",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638128,
+          "persistentId": "",
+          "filename": "Brabant - Localities.qml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 17761,
+          "description": "",
+          "storageIdentifier": "surf://store:19e03caf3b5-967a4b94dd7b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "05f5327c7206ca2a55d22725c9d9048322ddd01b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "localities",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Example of how to display the 1374 administrative divisions (quarters)",
+        "label": "Brabant - Polygons (ADM3 1374).qml",
+        "restricted": false,
+        "directoryLabel": "polygons",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638129,
+          "persistentId": "",
+          "filename": "Brabant - Polygons (ADM3 1374).qml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 22874,
+          "description": "Example of how to display the 1374 administrative divisions (quarters)",
+          "storageIdentifier": "surf://store:19e03caf4c7-a13cc987f518",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "774abdcc418b0d811e3e9b2a9875f540354c6f58"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "polygons",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Codebook",
+        "label": "Brabant - Polygons_codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "codebooks",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638136,
+          "persistentId": "",
+          "filename": "Brabant - Polygons_codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 2491,
+          "description": "Codebook",
+          "storageIdentifier": "surf://store:19e03cb4526-62b20272efaa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efcb3915219c78915999aaf499cc56b574e714a3"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "codebooks",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Example of how to display the urban and rural distinctions",
+        "label": "Brabant - Polygons.geojson",
+        "restricted": false,
+        "directoryLabel": "polygons",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638130,
+          "persistentId": "",
+          "filename": "Brabant - Polygons.geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 7055178,
+          "description": "Example of how to display the urban and rural distinctions",
+          "storageIdentifier": "surf://store:19e03cafa7e-87d373258c07",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7214ba1bb45e40e48c3d5e2bb00b554ee789e9eb"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "polygons",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Brabant - Polygons.qml",
+        "restricted": false,
+        "directoryLabel": "polygons",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638131,
+          "persistentId": "",
+          "filename": "Brabant - Polygons.qml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 9131,
+          "description": "",
+          "storageIdentifier": "surf://store:19e03cafbff-dd71ec5569a0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "82345dd612ecd2a12545045e83ba52aba1107ac5"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "polygons",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Codebook",
+        "label": "Brabant - Religious institutions_codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "codebooks",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638137,
+          "persistentId": "",
+          "filename": "Brabant - Religious institutions_codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1129,
+          "description": "Codebook",
+          "storageIdentifier": "surf://store:19e03cb480e-cd3779aa6c86",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4e0a6bafcfc89cd93e217b737be66caadb2f46a7"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "codebooks",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Brabant - Religious institutions.geojson",
+        "restricted": false,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638132,
+          "persistentId": "",
+          "filename": "Brabant - Religious institutions.geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 200657,
+          "description": "",
+          "storageIdentifier": "surf://store:19e03cafd44-6272b90778c0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d2e91e64d94e93ebe1577dca88f3bcd9618766a5"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Based on an edition by Mario Damen (2016). Dutch version",
+        "label": "Convocation list Brabant 1406_codebook NL.tsv",
+        "restricted": false,
+        "directoryLabel": "codebooks",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638139,
+          "persistentId": "",
+          "filename": "Convocation list Brabant 1406_codebook NL.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 637,
+          "description": "Based on an edition by Mario Damen (2016). Dutch version",
+          "storageIdentifier": "surf://store:19e03cbe89a-43d3fe2d2b24",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6be52c76040f10c87fe3fc38a73890acf71970e1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "codebooks",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Based on an edition by Mario Damen (2016)",
+        "label": "Convocation list Brabant 1406_codebook.tsv",
+        "restricted": false,
+        "directoryLabel": "codebooks",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638140,
+          "persistentId": "",
+          "filename": "Convocation list Brabant 1406_codebook.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 579,
+          "description": "Based on an edition by Mario Damen (2016)",
+          "storageIdentifier": "surf://store:19e03cbe999-7dd08d7ad2c7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6f2a9d743bcd44deaebab2832d3b54e124bb5e9a"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "codebooks",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Based on an edition by Mario Damen (2016)",
+        "label": "Convocation list Brabant 1406.geojson",
+        "restricted": false,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638143,
+          "persistentId": "",
+          "filename": "Convocation list Brabant 1406.geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 194571,
+          "description": "Based on an edition by Mario Damen (2016)",
+          "storageIdentifier": "surf://store:19e03cc3df7-cb938709dbed",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9ab87d39110125105f0557547fdfe96b2b1d56b7"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Based on an edition by Mario Damen (2016). Dutch version",
+        "label": "Convocation list Brabant 1406 NL.geojson",
+        "restricted": false,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 34573,
+        "dataFile": {
+          "id": 638144,
+          "persistentId": "",
+          "filename": "Convocation list Brabant 1406 NL.geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 235679,
+          "description": "Based on an edition by Mario Damen (2016). Dutch version",
+          "storageIdentifier": "surf://store:19e03cc3f7d-4cc92a107738",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c1af25f1c4b6d6ec0c5c60af804bc1e424ce9ca6"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-07",
+          "publicationDate": "2026-05-07",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-05-07T18:56:19Z",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Stapel, Rombert, 2026, \"Duchy of Brabant GIS Collection\", https://doi.org/10.34894/UWMSLX, DataverseNL, V4"
+  }
+}

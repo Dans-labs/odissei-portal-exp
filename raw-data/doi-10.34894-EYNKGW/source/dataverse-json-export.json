@@ -1,0 +1,236 @@
+{
+  "id": 4100,
+  "identifier": "EYNKGW",
+  "persistentUrl": "https://doi.org/10.34894/EYNKGW",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2017-01-12",
+  "storageIdentifier": "surf://10411/20867",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 721,
+    "datasetId": 4100,
+    "datasetPersistentId": "doi:10.34894/EYNKGW",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10411/20867",
+    "versionNumber": 1,
+    "internalVersionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2017-01-26T10:27:54Z",
+    "releaseTime": "2017-01-12T00:00:00Z",
+    "createTime": "2017-01-26T10:27:54Z",
+    "alternativePersistentId": "hdl:10411/20867",
+    "publicationDate": "2017-01-12",
+    "citationDate": "2017-01-12",
+    "termsOfUse": "This dataset is made available without information on how it can be used. You should communicate with the Contact(s) specified before use.",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Response of bats to light with different colour, light on nature project, 2012-2016"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Spoelstra, Kamiel"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Data on bat activity along experimentally illuminated transects in the Light on Nature study. Data are derived from D500x bat detector collected sound files, analysed with SonoChiro, and pooled into numbers of bats per transect per night. For information on the setup of the study, see Spoelstra et al. 2015"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2017-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2017-01-12"
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2012"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2016"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Datasheets and script files"
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Netherlands"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/EYNKGW"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:8c94f524-fa48-47eb-a645-11422de11dbf"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-51fdf123-5563-4659-8d19-9fecd1d8fb4c"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "analysis script file batpasses*transect*night_lon_2012-2016",
+        "label": "201611_bats_dataverse.R",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 721,
+        "categories": [
+          "datasheet"
+        ],
+        "dataFile": {
+          "id": 4107,
+          "persistentId": "",
+          "filename": "201611_bats_dataverse.R",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 26562,
+          "description": "analysis script file batpasses*transect*night_lon_2012-2016",
+          "categories": [
+            "datasheet"
+          ],
+          "storageIdentifier": "surf://store:2988",
+          "rootDataFileId": -1,
+          "md5": "8663e3b950d52c455b7a87cfb1f2265d",
+          "checksum": {
+            "type": "MD5",
+            "value": "8663e3b950d52c455b7a87cfb1f2265d"
+          },
+          "tabularData": false,
+          "creationDate": "2017-01-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "batpasses*transect*night_lon_2012-2016",
+        "label": "BatsPerTransectPerNight_sonochiro_min5_3gr.txt",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 721,
+        "categories": [
+          "script file"
+        ],
+        "dataFile": {
+          "id": 4106,
+          "persistentId": "",
+          "filename": "BatsPerTransectPerNight_sonochiro_min5_3gr.txt",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 248220,
+          "description": "batpasses*transect*night_lon_2012-2016",
+          "categories": [
+            "script file"
+          ],
+          "storageIdentifier": "surf://store:2987",
+          "rootDataFileId": -1,
+          "md5": "360a2ad2abfd406acdf5eff715df282d",
+          "checksum": {
+            "type": "MD5",
+            "value": "360a2ad2abfd406acdf5eff715df282d"
+          },
+          "tabularData": false,
+          "creationDate": "2017-01-25",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Spoelstra, Kamiel, 2017, \"Response of bats to light with different colour, light on nature project, 2012-2016\", https://doi.org/10.34894/EYNKGW, DataverseNL, V1"
+  }
+}

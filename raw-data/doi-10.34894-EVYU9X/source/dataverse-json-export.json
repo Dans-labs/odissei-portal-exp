@@ -1,0 +1,505 @@
+{
+  "id": 488768,
+  "identifier": "EVYU9X",
+  "persistentUrl": "https://doi.org/10.34894/EVYU9X",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-07-03",
+  "storageIdentifier": "surf://10.34894/EVYU9X",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30781,
+    "datasetId": 488768,
+    "datasetPersistentId": "doi:10.34894/EVYU9X",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/EVYU9X",
+    "versionNumber": 1,
+    "internalVersionNumber": 21,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-07-03T08:15:19Z",
+    "releaseTime": "2025-07-03T08:15:19Z",
+    "createTime": "2025-07-01T08:53:04Z",
+    "publicationDate": "2025-07-03",
+    "citationDate": "2025-07-03",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Systematic review data for the IMPROVE project"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Westerbeek, Emily"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/04pp8hn57",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Utrecht University",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0001-6664-8833"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van de Schoot, Rens"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/04pp8hn57",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Utrecht University",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-7736-2091"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Westerbeek, Emily"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The EU-funded <a href=https://doi.org/10.1016/j.csbj.2024.10.026>IMPROVE</a> project seeks to build a platform that enables the smart use of patient-generated health data (PGHD), thereby enhancing digital healthcare efficiency. This dataset results from a <a href=https://doi.org/10.17605/OSF.IO/BH7FY>large-scale systematic literature search</a> carried out within the IMPROVE project, concerning the use of PGHD in treatments of five categories of chronic diseases: cardiovascular disease, chronic inflammation, neurology, oncology, and ophthalmology. Specifically, the dataset contains the metadata of 12.473 studies returned by databases, such as title, abstract and DOI, as well as inclusion decisions. It can be used to aid the understanding of PGHD use in healthcare and the development of AI-assisted systematic review tools.\n<br><br>\nThe screening process contained various screening steps and quality checks, which are described in a data paper that will be published later. As soon as it is published, we will reference it here.\n<br><br>\nThe file IMPROVE_all_screening_labels_2019_2024.xlsx contains 2 tabs:<br>\n- Data: this tab contains all the metadata and labeling decisions for all records.<br>\n- Codebook: this tab contains the description of all columns in the data tab.\n<br><br>\nFor those without access to excel, we included the files <br> IMPROVE_all_screening_labels_2019_2024.csv and Codebook.pdf. <br>These are exact copies of the excel file, but without the formatting for the csv file."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-07-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Systematic Review"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/2028176"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Patient Generated Health Data"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/2023523"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Value-Based Health Care"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/2103242"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Artificial Intelligence"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68001185"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Manager"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Westerbeek, Emily"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Project Manager"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van de Schoot, Rens"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Innovative Health Initiative"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "101112084"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Westerbeek, Emily"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-07-01"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2019-01-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-06-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://doi.org/10.31234/osf.io/vxg6d\nhttps://doi.org/10.17605/osf.io/bh7fy"
+            ]
+          },
+          {
+            "typeName": "otherReferences",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://doi.org/10.1016/j.csbj.2024.10.026"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/EVYU9X"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:385de0aa-09f4-4f1c-b173-118c61c7f30a"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-80a6d012-cdaf-474e-b9f0-47a715f8c17f"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Describes the columns used in the csv/excel file. This is copy of the Codebook tab of the excel file",
+        "label": "Codebook.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30781,
+        "dataFile": {
+          "id": 488772,
+          "persistentId": "",
+          "filename": "Codebook.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 146682,
+          "description": "Describes the columns used in the csv/excel file. This is copy of the Codebook tab of the excel file",
+          "storageIdentifier": "surf://store:197c568a5c8-5aa27c0f9404",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f320c9ee31fee531788471be509105eff8c89a68"
+          },
+          "tabularData": false,
+          "creationDate": "2025-07-01",
+          "publicationDate": "2025-07-03",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Contains all records screened with metadata and labels. This data is a copy of the Data tab of the excel file. ",
+        "label": "IMPROVE_all_screening_labels_2019_2024.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30781,
+        "dataFile": {
+          "id": 488771,
+          "persistentId": "",
+          "filename": "IMPROVE_all_screening_labels_2019_2024.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 30608233,
+          "description": "Contains all records screened with metadata and labels. This data is a copy of the Data tab of the excel file. ",
+          "storageIdentifier": "surf://store:197c568aa49-0d360e542179",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cc9c52aaade0f083193f4cc0cbfc782e92dfea84"
+          },
+          "tabularData": false,
+          "creationDate": "2025-07-01",
+          "publicationDate": "2025-07-03",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Contains all records screened with metadata and labels and the codebook with a description of all columns used.",
+        "label": "IMPROVE_all_screening_labels_2019_2024.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30781,
+        "dataFile": {
+          "id": 488770,
+          "persistentId": "",
+          "filename": "IMPROVE_all_screening_labels_2019_2024.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14006616,
+          "description": "Contains all records screened with metadata and labels and the codebook with a description of all columns used.",
+          "storageIdentifier": "surf://store:197c568abf6-824766108edc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1f32d8559063a545aaa66ca1a2e39bbd66bea6a5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-07-01",
+          "publicationDate": "2025-07-03",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Westerbeek, Emily; van de Schoot, Rens, 2025, \"Systematic review data for the IMPROVE project\", https://doi.org/10.34894/EVYU9X, DataverseNL, V1"
+  }
+}

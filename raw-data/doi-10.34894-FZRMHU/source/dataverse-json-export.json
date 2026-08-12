@@ -1,0 +1,726 @@
+{
+  "id": 357072,
+  "identifier": "FZRMHU",
+  "persistentUrl": "https://doi.org/10.34894/FZRMHU",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-03-14",
+  "storageIdentifier": "surf://10.34894/FZRMHU",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31783,
+    "datasetId": 357072,
+    "datasetPersistentId": "doi:10.34894/FZRMHU",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/FZRMHU",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-10-09T08:19:47Z",
+    "releaseTime": "2025-10-09T08:19:47Z",
+    "createTime": "2025-10-09T08:19:40Z",
+    "publicationDate": "2023-03-14",
+    "citationDate": "2023-03-14",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "EU KLEMS October 2012 Release"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "EU KLEMS 2012I"
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EU KLEMS"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GGDC"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EU KLEMS Growth and Productivity Accounts: October 2012 Releaes, data in the ISIC Rev. 4 industry classification<br><br>\n\n<b>All series derived from this database need to be referred to as follows:</b><br>\nO’Mahony, Mary and Marcel P. Timmer (2009), <a href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0297.2009.02280.x\" target=\"_blank\">“Output, Input and Productivity Measures at the Industry Level: the EU KLEMS Database”</a>, <i>Economic Journal</i>, 119(538), pp. F374-F403<br><br>\n\nFor more details and analysis, see: <b>Timmer, Inklaar , O'Mahony and van Ark</b>, <i><a href=\"http://www.cambridge.org/gb/knowledge/isbn/item5562703\" target=\"_blank\">Economic Growth in Europe</a></i>, Cambridge University Press, 2010<br><br>\n\n<b>Introduction</b><br>\nThe 2012 EU KLEMS release follows up from the <a href=\"https://doi.org/10.34894/8AWC3R\" target=\"_blank\">previous release in 2009</a> which showed detailed growth accounts up to 2007. This new release is similar in concepts and methodologies to calculate the various growth and productivity variables as its predecessors, but it also has a number of new features;\n\n<ul>\n<li>It provides updates and data for additional years and revisions of longer time-series in case national statistical institutes (NSIs) provided these.</li>\n<li>For labour composition use has been made of the micro-data underlying the European Labour Force Survey (LFS) for recent years.</li>\n<li>New investment data has been provided by the EU KLEMS consortium partners.</li>\n<li>Most importantly, a new industrial classification is used based on the new international ISIC Revision 4 industry classification, which is consistent with the European NACE 2 industry classification. The National Accounts (NA) data in the new classification is typically provided for shorter time series than were previously available in the ISIC Rev. 3 (NACE 1) classification. We back-cast time series of output and labour data using growth rates from the earlier data in the ISIC Rev. 3 classification. These imputations are denoted in grey in the new release.</li></ul><br>\n\n<b>Sources and methods</b><br>\nThe EU KLEMS updates in the new ISIC Rev. 4 industry classification are being done on a country by country basis. Sources and methods documentation is available separately for each country. The following institutes have partnered with us to construct these data, additional information can be found on their respective websites:\n<ul>\n<li><a href=\"http://www.scb.se/en_/Finding-statistics/Statistical-Database/\" target=\"_blank\">STATSWE</a> (Sweden)</li>\n\n<li><a href=\"http://www.stat.fi/index_en.html\" target=\"_blank\">STATFI</a> (Finland)</li>\n\n<li><a href=\"http://www.plan.be/index.php?lang=en&TM=30&IS=61\" target=\"_blank\">FPB</a> (Belgium)</li>\n\n<li><a href=\"http://www.rieti.go.jp/en/database/JIP2012/index.html\" target=\"_blank\">JIP</a> (Japan)</li>\n\n<li><a href=\"http://www.bea.gov/industry/\" target=\"_blank\">BEA/BLS</a> (United States)</li>\n<li><a href=\"http://www.cbs.nl/en-GB/menu/home/default.htm?Languageswitch=on\" target=\"_blank\">CBS</a> (Netherlands)</li>\n<li><a href=\"http://www.niesr.ac.uk/\" target=\"_blank\">NIESR</a> (United Kingdom)</li>\n<li><a href=\"http://www.diw.de/en\" target=\"_blank\">DIW</a> (Germany)</li>\n<li><a href=\"http://www.istat.it/en/\" target=\"_blank\">ISTAT</a> (Italy)</li>\n<li><a href=\"http://www.wifo.ac.at/\" target=\"_blank\">WIFO</a> (Austria)</li>\n<li><a href=\"http://www.cepii.fr/anglaisgraph/news/accueilengl.htm\" target=\"_blank\">CEPII</a> (France)</li>\n<li><a href=\"http://www.ivie.es/indexb.php?idioma=EN\" target=\"_blank\">IVIE</a> (Spain)</li>\n</ul>\n<br>\n\nMore information on additional EU KLEMS releases can be found on the website of the <a href=\"https://www.rug.nl/ggdc/productivity/eu-klems/\" target=\"_blank\"> Groningen Growth and Development Centre (GGDC)</a>. <br><br>\n\nThe original website of the EU KLEMS project, on which these data were first released, has been archived, but is still available through the <a href=\"https://web.archive.org/web/20211105161700/http://euklems.net/\" target=\"_blank\">Internet Archive</a>.<br><br>\n\n<i>This update of the EU KLEMS database is part of the <a href=\"https://cordis.europa.eu/project/id/244709\" target=\"_blank\">INDICSER project</a>. This project is funded by the European Commission, Research Directorate General as part of the 7th Framework Programme, Theme 8: Socio-Economic Sciences and Humanities. Grant Agreement no: 244 709 Any errors or omissions in this update of the EU KLEMS database are entirely the responsibility of the <a href=\"https://www.rug.nl/ggdc/\" target=\"_blank\">GGDC (Groningen Growth and Development Centre)</a>.</i>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2012-10-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "productivity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "economic growth"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "growth accounting"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "total factor productivity"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "O’Mahony, Mary and Marcel P. Timmer (2009), “Output, Input and Productivity Measures at the Industry Level: the EU KLEMS Database”, <i>Economic Journal</i>, 119(538), pp. F374-F403"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0297.2009.02280.x"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Gouma, Reitze"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-03-14"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/FZRMHU"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d6dcb304-e0ea-459a-b369-a5e7b184557c"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-266522cd-3fc5-409b-8cd6-d3a1c042cd47"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Capital data file in long format, for more details see the meta file. (CSV format)",
+        "label": "12I_capital.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357087,
+          "persistentId": "",
+          "filename": "12I_capital.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 17369910,
+          "description": "Capital data file in long format, for more details see the meta file. (CSV format)",
+          "storageIdentifier": "surf://store:186e0709cd0-ee6d9faa6e6c",
+          "rootDataFileId": -1,
+          "md5": "057a1bcfbc016eb0b03a01f808510963",
+          "checksum": {
+            "type": "MD5",
+            "value": "057a1bcfbc016eb0b03a01f808510963"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Meta file for the capital data. (Excel format)",
+        "label": "12I_capital_meta.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357085,
+          "persistentId": "",
+          "filename": "12I_capital_meta.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 25211,
+          "description": "Meta file for the capital data. (Excel format)",
+          "storageIdentifier": "surf://store:186e070891d-b705c1d4baed",
+          "rootDataFileId": -1,
+          "md5": "323f73a1322446d1cacd1323bf53dce5",
+          "checksum": {
+            "type": "MD5",
+            "value": "323f73a1322446d1cacd1323bf53dce5"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Labour data file in long format, for more details see the meta file. (CSV format)",
+        "label": "12I_labour.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357089,
+          "persistentId": "",
+          "filename": "12I_labour.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2727859,
+          "description": "Labour data file in long format, for more details see the meta file. (CSV format)",
+          "storageIdentifier": "surf://store:186e0708be6-e5205b91188e",
+          "rootDataFileId": -1,
+          "md5": "177d927328419ee294b63bc4301db4d8",
+          "checksum": {
+            "type": "MD5",
+            "value": "177d927328419ee294b63bc4301db4d8"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Meta file for the labour data. (Excel format)",
+        "label": "12I_labour_meta.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357086,
+          "persistentId": "",
+          "filename": "12I_labour_meta.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12177,
+          "description": "Meta file for the labour data. (Excel format)",
+          "storageIdentifier": "surf://store:186e070896a-2ec311c2dbcc",
+          "rootDataFileId": -1,
+          "md5": "0c1b2a2d08a7d8a1e692e42644a8826e",
+          "checksum": {
+            "type": "MD5",
+            "value": "0c1b2a2d08a7d8a1e692e42644a8826e"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Output data file in long format, for more details see the meta file. (CSV format)",
+        "label": "12I_output.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357090,
+          "persistentId": "",
+          "filename": "12I_output.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 22331962,
+          "description": "Output data file in long format, for more details see the meta file. (CSV format)",
+          "storageIdentifier": "surf://store:186e070ae71-cbcb16a68294",
+          "rootDataFileId": -1,
+          "md5": "befbd2564753b5a2f93614e848b32962",
+          "checksum": {
+            "type": "MD5",
+            "value": "befbd2564753b5a2f93614e848b32962"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Meta file for the output data. (Excel format)",
+        "label": "12I_output_meta.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357088,
+          "persistentId": "",
+          "filename": "12I_output_meta.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 21498,
+          "description": "Meta file for the output data. (Excel format)",
+          "storageIdentifier": "surf://store:186e07089bd-77f0ee7278d9",
+          "rootDataFileId": -1,
+          "md5": "7f6dadb44b95dff2a5ee1d0049a7668b",
+          "checksum": {
+            "type": "MD5",
+            "value": "7f6dadb44b95dff2a5ee1d0049a7668b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for Austria (PDF)",
+        "label": "aut_sources_12i.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357081,
+          "persistentId": "",
+          "filename": "aut_sources_12i.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1104792,
+          "description": "Sources and methods for Austria (PDF)",
+          "storageIdentifier": "surf://store:186e068cb15-8640d7e70a7e",
+          "rootDataFileId": -1,
+          "md5": "0ab750e5bf74c00ae796c92fb626c13a",
+          "checksum": {
+            "type": "MD5",
+            "value": "0ab750e5bf74c00ae796c92fb626c13a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for Belgium (PDF)",
+        "label": "BEL_sources_13i.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357074,
+          "persistentId": "",
+          "filename": "BEL_sources_13i.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 699985,
+          "description": "Sources and methods for Belgium (PDF)",
+          "storageIdentifier": "surf://store:186e068d598-f7120389428a",
+          "rootDataFileId": -1,
+          "md5": "2d397b4da284d73d9ad2262cf6d3f28e",
+          "checksum": {
+            "type": "MD5",
+            "value": "2d397b4da284d73d9ad2262cf6d3f28e"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for Spain (PDF)",
+        "label": "esp_sources_12i.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357078,
+          "persistentId": "",
+          "filename": "esp_sources_12i.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1177397,
+          "description": "Sources and methods for Spain (PDF)",
+          "storageIdentifier": "surf://store:186e068c60f-5b831d703acd",
+          "rootDataFileId": -1,
+          "md5": "4cacdf10bc0507ba389de62ce001b3a2",
+          "checksum": {
+            "type": "MD5",
+            "value": "4cacdf10bc0507ba389de62ce001b3a2"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for Finland (PDF)",
+        "label": "FIN_sources_13i.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357073,
+          "persistentId": "",
+          "filename": "FIN_sources_13i.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 143665,
+          "description": "Sources and methods for Finland (PDF)",
+          "storageIdentifier": "surf://store:186e068d7bf-ec92907721e4",
+          "rootDataFileId": -1,
+          "md5": "e22513ca7ea70156efc8f968729d0a69",
+          "checksum": {
+            "type": "MD5",
+            "value": "e22513ca7ea70156efc8f968729d0a69"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for France (PDF)",
+        "label": "fra_sources_12i.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357077,
+          "persistentId": "",
+          "filename": "fra_sources_12i.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1106430,
+          "description": "Sources and methods for France (PDF)",
+          "storageIdentifier": "surf://store:186e068c96f-9acc71d6a2d2",
+          "rootDataFileId": -1,
+          "md5": "2b4b7700466279de8936c95d77056293",
+          "checksum": {
+            "type": "MD5",
+            "value": "2b4b7700466279de8936c95d77056293"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for Germany (PDF)",
+        "label": "ger_sources_12i_update_may.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357076,
+          "persistentId": "",
+          "filename": "ger_sources_12i_update_may.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1152993,
+          "description": "Sources and methods for Germany (PDF)",
+          "storageIdentifier": "surf://store:186e068d043-1b7894ba3806",
+          "rootDataFileId": -1,
+          "md5": "ea204ac86e682b40fd2661960b194452",
+          "checksum": {
+            "type": "MD5",
+            "value": "ea204ac86e682b40fd2661960b194452"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for Italy (PDF)",
+        "label": "ita_sources_12i.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357083,
+          "persistentId": "",
+          "filename": "ita_sources_12i.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1094545,
+          "description": "Sources and methods for Italy (PDF)",
+          "storageIdentifier": "surf://store:186e068c7fb-520c9d061d58",
+          "rootDataFileId": -1,
+          "md5": "aae52789a9122984594cb59e1c542f96",
+          "checksum": {
+            "type": "MD5",
+            "value": "aae52789a9122984594cb59e1c542f96"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for Japan (PDF)",
+        "label": "JPN_sources_12i.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357082,
+          "persistentId": "",
+          "filename": "JPN_sources_12i.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 661952,
+          "description": "Sources and methods for Japan (PDF)",
+          "storageIdentifier": "surf://store:186e068d348-3aa65dc6d94a",
+          "rootDataFileId": -1,
+          "md5": "f38a4eac4e5245f099e9be9e1ba250dd",
+          "checksum": {
+            "type": "MD5",
+            "value": "f38a4eac4e5245f099e9be9e1ba250dd"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for the Netherlands (PDF)",
+        "label": "nld_sources_12i_update_may.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357084,
+          "persistentId": "",
+          "filename": "nld_sources_12i_update_may.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1589792,
+          "description": "Sources and methods for the Netherlands (PDF)",
+          "storageIdentifier": "surf://store:186e068cec4-dca51c5c29e8",
+          "rootDataFileId": -1,
+          "md5": "15dc1c0fa55aec03321d156fd9ef60d3",
+          "checksum": {
+            "type": "MD5",
+            "value": "15dc1c0fa55aec03321d156fd9ef60d3"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for Sweden (PDF)",
+        "label": "SWE_sources_13i.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357080,
+          "persistentId": "",
+          "filename": "SWE_sources_13i.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 406568,
+          "description": "Sources and methods for Sweden (PDF)",
+          "storageIdentifier": "surf://store:186e068d69e-d1a8ea6cc87d",
+          "rootDataFileId": -1,
+          "md5": "b9a77e87a966d295a511353cfde3ffb6",
+          "checksum": {
+            "type": "MD5",
+            "value": "b9a77e87a966d295a511353cfde3ffb6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for the United Kingdom (PDF)",
+        "label": "uk_sources_12i.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357075,
+          "persistentId": "",
+          "filename": "uk_sources_12i.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1113808,
+          "description": "Sources and methods for the United Kingdom (PDF)",
+          "storageIdentifier": "surf://store:186e068ccb7-339064dbfc99",
+          "rootDataFileId": -1,
+          "md5": "39a02216f2fe715634fd186446b917ef",
+          "checksum": {
+            "type": "MD5",
+            "value": "39a02216f2fe715634fd186446b917ef"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Sources and methods for the United States (PDF)",
+        "label": "USA_sources_12i.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31783,
+        "dataFile": {
+          "id": 357079,
+          "persistentId": "",
+          "filename": "USA_sources_12i.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 737051,
+          "description": "Sources and methods for the United States (PDF)",
+          "storageIdentifier": "surf://store:186e068d1c9-8ad1f73d8bb3",
+          "rootDataFileId": -1,
+          "md5": "4fbb8ec72d8b0b64a262944a4bedf19c",
+          "checksum": {
+            "type": "MD5",
+            "value": "4fbb8ec72d8b0b64a262944a4bedf19c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "EU KLEMS, 2023, \"EU KLEMS October 2012 Release\", https://doi.org/10.34894/FZRMHU, DataverseNL, V1"
+  }
+}

@@ -12,10 +12,13 @@ import {
   LockOpenIcon,
   DocumentDuplicateIcon,
   CheckIcon,
+  XMarkIcon,
 } from "@heroicons/react/24/outline";
 import { SourceBadge, LicenseBadge } from "./Badges";
 import { formatDate, formatBytes } from "#/utils/formatters";
 import { m } from "#/paraglide/messages";
+import { cn } from "#/utils/cn";
+import { card, stats, devider, button } from "#/utils/surfaces";
 
 type Contact = { name: string; affiliation?: string | null };
 
@@ -23,6 +26,7 @@ type DatasetDetail = {
   id: string;
   title: string;
   description?: string;
+  descriptions?: string[];
   authors?: string[];
   contacts?: Contact[];
   rights_holders?: string[];
@@ -72,7 +76,7 @@ export function DatasetDrawer() {
       <Drawer.Portal>
         <Drawer.Backdrop
           className="
-            fixed inset-0 bg-zinc-950/20 backdrop-blur-sm
+            fixed inset-0 bg-gray-950/20 backdrop-blur-sm
             transition-opacity duration-300
             data-ending-style:opacity-0 data-starting-style:opacity-0
           "
@@ -80,14 +84,10 @@ export function DatasetDrawer() {
 
         <Drawer.Viewport className="fixed inset-y-0 right-0 z-50 flex">
           <Drawer.Popup
-            className="
-              h-full w-screen max-w-2xl overflow-y-auto
-              rounded-l-4xl border-l border-zinc-200 bg-[#fafaf9]
-              shadow-2xl
-              transition-[translate,opacity] duration-300 ease-out
-              data-starting-style:translate-x-full
-              data-ending-style:translate-x-full
-            "
+            className={cn(
+              card,
+              "p-0 h-full w-screen max-w-2xl overflow-y-auto rounded-r-none shadow-2xl transition-[translate,opacity] duration-300 ease-out data-starting-style:translate-x-full data-ending-style:translate-x-full",
+            )}
           >
             {dataset && (
               <Drawer.Content>
@@ -125,15 +125,23 @@ export function DatasetDetails({
       <div className="p-4 space-y-4 md:space-y-8 md:p-8">
         <CtaAndStats dataset={dataset} />
 
-        {dataset.description && (
+        {(dataset.description || dataset.descriptions) && (
           <section>
             <SectionTitle>{m.description()}</SectionTitle>
             {isDrawer ? (
-              <Drawer.Description className="mt-3 text-sm leading-7 text-zinc-600">
-                {dataset.description}
-              </Drawer.Description>
+              dataset.descriptions ? (
+                dataset.descriptions.map((desc, index) => (
+                  <Drawer.Description key={index} className="mb-1 text-sm">
+                    {desc}
+                  </Drawer.Description>
+                ))
+              ) : (
+                <Drawer.Description className="mb-1 text-sm">
+                  {dataset.description}
+                </Drawer.Description>
+              )
             ) : (
-              <p className="mt-3 text-sm leading-7 text-zinc-600">{dataset.description}</p>
+              <p className="text-sm">{dataset.description}</p>
             )}
           </section>
         )}
@@ -147,14 +155,14 @@ export function DatasetDetails({
 function Header({ dataset }: { dataset: DatasetDetail }) {
   return (
     <div
-      className="
-        sticky top-0 z-10 border-b border-zinc-200
-        bg-[#fafaf9]/90 px-4 md:px-8 py-4 md:py-6 backdrop-blur
-      "
+      className={cn(
+        devider,
+        "sticky top-0 z-10 border-b bg-white-100/90 dark:bg-gray-950/90 px-4 md:px-8 py-4 md:py-6 backdrop-blur",
+      )}
     >
       <div className="flex justify-between gap-6">
         <div>
-          <Drawer.Title className="text-2xl font-semibold tracking-tight text-zinc-950">
+          <Drawer.Title className="text-2xl font-semibold tracking-tight">
             {dataset.title}
           </Drawer.Title>
 
@@ -166,13 +174,15 @@ function Header({ dataset }: { dataset: DatasetDetail }) {
 
         <Drawer.Close
           className="
-            flex h-10 w-10 shrink-0 items-center justify-center
-            rounded-full text-zinc-500 transition
-            hover:bg-zinc-200 hover:text-zinc-900
+            flex shrink-0 items-center justify-center
+            rounded-full transition
+            hover:text-cyan-500 
             cursor-pointer
+            hover:scale-120
+            active:scale-95
           "
         >
-          ✕
+          <XMarkIcon className="size-8" />
         </Drawer.Close>
       </div>
     </div>
@@ -190,12 +200,7 @@ function CtaAndStats({ dataset }: { dataset: DatasetDetail }) {
         href={dataset.doi_url ?? (dataset.doi ? `https://doi.org/${dataset.doi}` : "#")}
         target="_blank"
         rel="noopener noreferrer"
-        className="
-          flex w-full items-center justify-center gap-2
-          rounded-2xl bg-linear-to-r from-cyan-500 to-blue-600
-          px-5 py-3 text-sm font-medium text-white shadow-sm
-          transition hover:brightness-110 active:scale-[0.99]
-        "
+        className={cn(button, "w-full")}
       >
         {m.goToDatasetSource()}
         <ArrowTopRightOnSquareIcon className="size-4" />
@@ -230,12 +235,12 @@ function CtaAndStats({ dataset }: { dataset: DatasetDetail }) {
 
 function StatTile({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) {
   return (
-    <div className="rounded-2xl border border-zinc-200 bg-white px-4 py-3">
-      <div className="flex items-center gap-1.5 text-zinc-400">
+    <div className={cn(stats)}>
+      <div className="flex items-center gap-1.5 text-gray-400">
         {icon}
         <span className="text-[11px] font-medium uppercase tracking-wide">{label}</span>
       </div>
-      <div className="mt-1 text-sm font-semibold text-zinc-900">{value}</div>
+      <div className="mt-1 text-sm font-semibold">{value}</div>
     </div>
   );
 }
@@ -245,7 +250,7 @@ function StatTile({ icon, label, value }: { icon: React.ReactNode; label: string
 function DetailTabs({ dataset }: { dataset: DatasetDetail }) {
   return (
     <Tabs.Root defaultValue="people" className="w-full">
-      <Tabs.List className="relative z-1 flex gap-6 border-b border-zinc-200">
+      <Tabs.List className={cn("relative z-1 flex gap-6 border-b", devider)}>
         <TabTrigger value="people">{m.people()}</TabTrigger>
         <TabTrigger value="classification">{m.classification()}</TabTrigger>
         <TabTrigger value="access">{m.rightsAndAccess()}</TabTrigger>
@@ -286,10 +291,12 @@ function TabTrigger({ value, children }: { value: string; children: React.ReactN
       value={value}
       className="
         relative -mb-px cursor-pointer
-        py-3 text-sm font-medium text-zinc-400
+        py-3 text-sm font-medium text-gray-400
         transition-colors
-        hover:text-zinc-700
-        data-active:text-zinc-950
+        hover:text-gray-700
+        dark:hover:text-gray-300
+        data-active:text-gray-950
+        dark:data-active:text-gray-50
         focus-visible:outline-none
       "
     >
@@ -319,24 +326,18 @@ function PeoplePanel({ dataset }: { dataset: DatasetDetail }) {
         <PanelGroup title={m.contacts()}>
           <div className="space-y-2">
             {dataset.contacts!.map((c) => (
-              <div
-                key={c.name}
-                className="
-                  flex items-center gap-3 rounded-2xl border
-                  border-zinc-200 bg-white px-4 py-3
-                "
-              >
+              <div key={c.name} className={cn(stats, "flex items-center gap-3")}>
                 <div
                   className="
                     flex h-9 w-9 shrink-0 items-center justify-center
-                    rounded-full bg-zinc-100 text-zinc-500
+                    rounded-full border-cyan-500 border
                   "
                 >
-                  <UserIcon className="size-4" />
+                  <UserIcon className="size-4 text-cyan-500" />
                 </div>
                 <div>
-                  <div className="text-sm font-medium text-zinc-900">{c.name}</div>
-                  {c.affiliation && <div className="text-xs text-zinc-400">{c.affiliation}</div>}
+                  <div className="text-sm font-medium">{c.name}</div>
+                  {c.affiliation && <div className="text-xs text-gray-400">{c.affiliation}</div>}
                 </div>
               </div>
             ))}
@@ -407,8 +408,8 @@ function ClassificationPanel({ dataset }: { dataset: DatasetDetail }) {
                 rel="noopener noreferrer"
                 className="
                   flex items-center justify-between gap-2 rounded-2xl
-                  border border-zinc-200 bg-white px-4 py-3 text-sm
-                  text-zinc-600 transition hover:border-cyan-300 hover:text-cyan-700
+                  border border-gray-200 bg-white px-4 py-3 text-sm
+                  text-gray-600 transition hover:border-cyan-300 hover:text-cyan-700
                 "
               >
                 <span className="truncate">{url}</span>
@@ -436,8 +437,8 @@ function AccessPanel({ dataset }: { dataset: DatasetDetail }) {
       <MetadataRow label={m.dataSource()} value={dataset.data_source} />
 
       <div className="flex flex-stretch gap-2">
-        <div className="flex flex-1 justify-between gap-4 rounded-2xl border border-zinc-200 bg-white px-4 py-3">
-          <span className="text-sm text-zinc-400">{m.fileAccess()}</span>
+        <div className={cn(stats, "flex flex-1 justify-between gap-4")}>
+          <span className="text-sm text-gray-400">{m.fileAccess()}</span>
           <span
             className={`
               inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5
@@ -458,11 +459,7 @@ function AccessPanel({ dataset }: { dataset: DatasetDetail }) {
             href={`https://dab.surf.nl/dataset?pid=doi:${dataset.doi}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="
-              flex items-center gap-1.5 rounded-2xl bg-linear-to-r from-cyan-500 to-blue-600
-              px-5 py-3 text-sm font-medium text-white shadow-sm
-              transition hover:brightness-110 active:scale-[0.99]
-            "
+            className={cn(button)}
           >
             {m.requestAccess()}
             <ArrowTopRightOnSquareIcon className="size-4" />
@@ -470,8 +467,8 @@ function AccessPanel({ dataset }: { dataset: DatasetDetail }) {
         )}
       </div>
 
-      <div className="flex justify-between gap-4 rounded-2xl border border-zinc-200 bg-white px-4 py-3">
-        <span className="text-sm text-zinc-400">{m.personalDataPresent()}</span>
+      <div className={cn(stats, "flex justify-between gap-4")}>
+        <span className="text-sm text-gray-400">{m.personalDataPresent()}</span>
         <span
           className={`
             inline-flex items-center gap-1.5 rounded-full px-2.5 py-0.5
@@ -501,7 +498,7 @@ function IdentifiersPanel({ dataset }: { dataset: DatasetDetail }) {
 function PanelGroup({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div>
-      <h3 className="text-xs font-semibold uppercase tracking-wider text-zinc-400">{title}</h3>
+      <h3 className="text-xs font-semibold uppercase tracking-wider text-gray-400">{title}</h3>
       <div className="mt-2">{children}</div>
     </div>
   );
@@ -509,16 +506,18 @@ function PanelGroup({ title, children }: { title: string; children: React.ReactN
 
 function SectionTitle({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="text-xs font-semibold uppercase tracking-wider text-zinc-400">{children}</h2>
+    <h2 className="text-xs font-semibold uppercase tracking-wider text-gray-400 mb-2">
+      {children}
+    </h2>
   );
 }
 
 function MetadataRow({ label, value }: { label: string; value?: string }) {
   if (!value) return null;
   return (
-    <div className="flex justify-between gap-4 rounded-2xl border border-zinc-200 bg-white px-4 py-3">
-      <span className="text-sm text-zinc-400">{label}</span>
-      <span className="text-right text-sm font-medium text-zinc-900">{value}</span>
+    <div className={cn(stats, "flex justify-between gap-4")}>
+      <span className="text-sm text-gray-400">{label}</span>
+      <span className="text-right text-sm font-medium">{value}</span>
     </div>
   );
 }
@@ -526,11 +525,14 @@ function MetadataRow({ label, value }: { label: string; value?: string }) {
 function Chip({ children, tone = "zinc" }: { children: React.ReactNode; tone?: "zinc" | "cyan" }) {
   const styles =
     tone === "cyan"
-      ? "bg-cyan-50 text-cyan-700 ring-cyan-200"
-      : "bg-zinc-100 text-zinc-600 ring-zinc-200";
+      ? "bg-cyan-50 text-cyan-500 ring-cyan-500 dark:ring-cyan-700"
+      : "ring-gray-200 dark:ring-gray-700";
   return (
     <span
-      className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-medium ring-1 ring-inset ${styles}`}
+      className={cn(
+        stats,
+        `py-1.5 inline-flex items-center text-xs font-medium ring-1 ring-inset ${styles}`,
+      )}
     >
       {children}
     </span>
@@ -539,7 +541,7 @@ function Chip({ children, tone = "zinc" }: { children: React.ReactNode; tone?: "
 
 function EmptyState() {
   return (
-    <div className="rounded-2xl border border-dashed border-zinc-200 px-4 py-6 text-center text-xs text-zinc-400">
+    <div className="rounded-2xl border border-dashed border-gray-200 px-4 py-6 text-center text-xs text-gray-400">
       {m.noInformationAvailable()}
     </div>
   );
@@ -555,16 +557,16 @@ function CopyableField({ label, value }: { label: string; value: string }) {
   };
 
   return (
-    <div className="rounded-2xl border border-zinc-200 bg-white px-4 py-3">
-      <div className="text-[11px] font-medium uppercase tracking-wide text-zinc-400">{label}</div>
+    <div className={cn(stats)}>
+      <div className="text-[11px] font-medium uppercase tracking-wide text-gray-400">{label}</div>
       <div className="mt-1 flex items-center justify-between gap-3">
-        <span className="truncate font-mono text-sm text-zinc-900">{value}</span>
+        <span className="truncate font-mono text-s">{value}</span>
         <button
           onClick={handleCopy}
           className="
             flex shrink-0 items-center gap-1 rounded-full px-2 py-1
-            text-xs font-medium text-zinc-400 transition
-            hover:bg-zinc-100 hover:text-zinc-700
+            text-xs font-medium text-gray-400 transition
+            hover:bg-gray-100 hover:text-gray-700
             cursor-pointer
           "
         >

@@ -1,0 +1,280 @@
+{
+  "id": 358425,
+  "identifier": "SLVMRX",
+  "persistentUrl": "https://doi.org/10.34894/SLVMRX",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-05-23",
+  "storageIdentifier": "surf://10.34894/SLVMRX",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24853,
+    "datasetId": 358425,
+    "datasetPersistentId": "doi:10.34894/SLVMRX",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/SLVMRX",
+    "versionNumber": 1,
+    "internalVersionNumber": 9,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-05-23T11:24:03Z",
+    "releaseTime": "2023-05-23T11:24:03Z",
+    "createTime": "2023-03-20T12:51:43Z",
+    "publicationDate": "2023-05-23",
+    "citationDate": "2023-05-23",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Cars in Aerial Images of Alkmaar"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stopic, Renato"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SPINlab, Department of Spatial Economics, Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dias, Eduardo"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SPINlab, Department of Spatial Economics, Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stopic, Renato"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SPINlab, Department of Spatial Economics, Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Point data, representing each cars detected in the aerial images from of Alkmaar. The cars were detected using ResNet50 object detection implemented with TensorFlow. The data is available for 2019, 2020, 2021, 2022"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "This research was supported by the NWO-funded Urban Mobility Observatory (UMO) project that aims to collect, store and share traffic, transport and mobility related data. We also gratefully acknowledge the municipality of Alkmaar and data science Alkmaar for additional financial support and access to their parking spot data."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stopic, Renato"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-03-20"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/SLVMRX"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:72220473-ea6e-4579-886e-0875ed4dd5f9"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-702c6892-ccaa-41e3-95f5-c4fe1a936bbb"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "cars_2019.gpkg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24853,
+        "dataFile": {
+          "id": 358429,
+          "persistentId": "",
+          "filename": "cars_2019.gpkg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7413760,
+          "storageIdentifier": "surf://store:186ff134ab8-043acbfd8aa3",
+          "rootDataFileId": -1,
+          "md5": "17378146dbcec4aa859f5449660ab748",
+          "checksum": {
+            "type": "MD5",
+            "value": "17378146dbcec4aa859f5449660ab748"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-20",
+          "publicationDate": "2023-05-23",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "cars_2020.gpkg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24853,
+        "dataFile": {
+          "id": 358428,
+          "persistentId": "",
+          "filename": "cars_2020.gpkg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 9621504,
+          "storageIdentifier": "surf://store:186ff1335c7-aab251bd28f5",
+          "rootDataFileId": -1,
+          "md5": "2d42e4d4ac80b02e7fedffd787d69617",
+          "checksum": {
+            "type": "MD5",
+            "value": "2d42e4d4ac80b02e7fedffd787d69617"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-20",
+          "publicationDate": "2023-05-23",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "cars_2021.gpkg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24853,
+        "dataFile": {
+          "id": 358426,
+          "persistentId": "",
+          "filename": "cars_2021.gpkg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 8740864,
+          "storageIdentifier": "surf://store:186ff133d08-f382316cb706",
+          "rootDataFileId": -1,
+          "md5": "e59860fdb1fcdca2e309204174eec5e1",
+          "checksum": {
+            "type": "MD5",
+            "value": "e59860fdb1fcdca2e309204174eec5e1"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-20",
+          "publicationDate": "2023-05-23",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "cars_2022.gpkg",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24853,
+        "dataFile": {
+          "id": 358427,
+          "persistentId": "",
+          "filename": "cars_2022.gpkg",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 8581120,
+          "storageIdentifier": "surf://store:186ff134433-9a13d82919d2",
+          "rootDataFileId": -1,
+          "md5": "d7e441942226aa86b5ee8a0278822aab",
+          "checksum": {
+            "type": "MD5",
+            "value": "d7e441942226aa86b5ee8a0278822aab"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-20",
+          "publicationDate": "2023-05-23",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Stopic, Renato; Dias, Eduardo, 2023, \"Cars in Aerial Images of Alkmaar\", https://doi.org/10.34894/SLVMRX, DataverseNL, V1"
+  }
+}

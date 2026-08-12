@@ -1,0 +1,371 @@
+{
+  "id": 49625,
+  "identifier": "N9J1WE",
+  "persistentUrl": "https://doi.org/10.34894/N9J1WE",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-04-23",
+  "storageIdentifier": "surf://10.34894/N9J1WE",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30560,
+    "datasetId": 49625,
+    "datasetPersistentId": "doi:10.34894/N9J1WE",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/N9J1WE",
+    "versionNumber": 4,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-05-01T09:19:31Z",
+    "releaseTime": "2025-05-01T09:19:31Z",
+    "createTime": "2025-05-01T09:19:11Z",
+    "publicationDate": "2021-04-23",
+    "citationDate": "2021-04-23",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Estimating and imputing missing tax loss carryforward data to reduce measurement error"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Max, M.M."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wielhouwer, J.L."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wiersma, E."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wielhouwer, J.L."
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>On this page, you find the imputed tax loss carryforward (TLCF) values based on the algorithm presented in <strong>Max, Wielhouwer & Wiersma (2023). Estimating and imputing missing tax loss carryforward data to reduce measurement error. <i>European Accounting Review 32(1), 55-84.  https://doi.org/10.1080/09638180.2021.1924812 </i></strong>. Note that the dataset contains <i>only</i> the imputations for the missing values on Compustat. If the Compustat TLCF is available, we have not included it in the dataset here.</p>\n\n<p>We download all observations from Compustat from the period 1982 up until the most recent year. Missing values on the input variables for the Shevlin (1990) taxable income measure are replaced by zero. We drop firms from the sample if years are missing in their time series.</p>\n\n<p><strong>Note:</strong> We seek to update the dataset each year with the latest imputations, so pay attention to the 'Versions' tab of this dataset. Each update will be posted in a new version.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Business and Management"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "tax loss carryforward"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "TLCF"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "imputation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Compustat"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Max, Wielhouwer & Wiersma (in press). Estimating and imputing missing tax loss carryforward data to reduce measurement error. <i>European Accounting Review</i>."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1080/09638180.2021.1924812"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1080/09638180.2021.1924812"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Max, M.M."
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-03-03"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/N9J1WE"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "4.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:0880b882-a9a9-4020-a47f-d9b622abd594"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-1542972a-d437-4c8a-a7c4-09909d127629"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "imputations until and including fiscal year 2020",
+        "label": "imputation_upload_2021.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30560,
+        "dataFile": {
+          "id": 93298,
+          "persistentId": "",
+          "filename": "imputation_upload_2021.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3617825,
+          "description": "imputations until and including fiscal year 2020",
+          "storageIdentifier": "surf://store:178cffd73d1-fcab7892c4b9",
+          "rootDataFileId": -1,
+          "md5": "48886c897355607f4584e8facbcf631e",
+          "checksum": {
+            "type": "MD5",
+            "value": "48886c897355607f4584e8facbcf631e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-14",
+          "publicationDate": "2021-04-23",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "imputations until and including fiscal year 2021",
+        "label": "imputation_upload_2022.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30560,
+        "dataFile": {
+          "id": 298278,
+          "persistentId": "",
+          "filename": "imputation_upload_2022.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3728396,
+          "description": "imputations until and including fiscal year 2021",
+          "storageIdentifier": "surf://store:1811a42d651-381724d51465",
+          "rootDataFileId": -1,
+          "md5": "490dd70c6b41a2f561939d11ed99a1b9",
+          "checksum": {
+            "type": "MD5",
+            "value": "490dd70c6b41a2f561939d11ed99a1b9"
+          },
+          "tabularData": false,
+          "creationDate": "2022-05-31",
+          "publicationDate": "2022-05-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "imputations until and including fiscal year 2022",
+        "label": "imputation_upload_2023.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30560,
+        "dataFile": {
+          "id": 384890,
+          "persistentId": "",
+          "filename": "imputation_upload_2023.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3690658,
+          "description": "imputations until and including fiscal year 2022",
+          "storageIdentifier": "surf://store:18bf6aad6f2-6709f60e275e",
+          "rootDataFileId": -1,
+          "md5": "663d12be9d36b29f643a4bbaa3ec8439",
+          "checksum": {
+            "type": "MD5",
+            "value": "663d12be9d36b29f643a4bbaa3ec8439"
+          },
+          "tabularData": false,
+          "creationDate": "2023-11-22",
+          "publicationDate": "2023-11-22",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "imputations until and including fiscal year 2023",
+        "label": "imputation_upload_2024.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30560,
+        "dataFile": {
+          "id": 482649,
+          "persistentId": "",
+          "filename": "imputation_upload_2024.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3808750,
+          "description": "imputations until and including fiscal year 2023",
+          "storageIdentifier": "surf://store:1968b245ab8-a598f23e9ed3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "121263f1b6a0d6005fc2d2672004d95a47e8f4a0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-05-01",
+          "publicationDate": "2025-05-01",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Max, M.M.; Wielhouwer, J.L.; Wiersma, E., 2021, \"Estimating and imputing missing tax loss carryforward data to reduce measurement error\", https://doi.org/10.34894/N9J1WE, DataverseNL, V4"
+  }
+}

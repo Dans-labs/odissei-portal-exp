@@ -1,0 +1,324 @@
+{
+  "id": 26145,
+  "identifier": "3ISHX8",
+  "persistentUrl": "https://doi.org/10.34894/3ISHX8",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2020-06-30",
+  "storageIdentifier": "surf://10411/TBLEFB",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 2957,
+    "datasetId": 26145,
+    "datasetPersistentId": "doi:10.34894/3ISHX8",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10411/TBLEFB",
+    "versionNumber": 1,
+    "internalVersionNumber": 3,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2020-06-30T13:17:43Z",
+    "releaseTime": "2020-06-30T13:17:43Z",
+    "createTime": "2020-06-30T13:17:33Z",
+    "alternativePersistentId": "hdl:10411/TBLEFB",
+    "publicationDate": "2020-06-30",
+    "citationDate": "2020-06-30",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Wide lag time distributions break a trade-off between reproduction and survival in bacteria"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Moreno-Gámez, Stefany"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Institute for Evolutionary Life Sciences"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kiviet, Daniel J."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ETH Zurich, Switzerland"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vulin, Clément"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ETH Zurich, Switzerland"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schlegel, Susan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ETH Zurich, Switzerland"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schlegel, Kim"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ETH Zurich, Switzerland"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Doorn, G. Sander"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Institute for Evolutionary Life Sciences"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ackermann, Martin"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ETH Zurich, Switzerland"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Moreno-Gamez, Stefany"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Institute for Evolutionary Life Sciences"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Code and text file with parameter values to replicate simulations presented in Figure 6 of the paper. The code produces two files per replicate with the values of the traits u and v in the population over evolutionary time.\r\nThe parameters can be adjusted in the text file and are: K = carrying capacity; n0= initial size of the population at the start of a growth cycle; doubrate= doubling rate; u0= initial value of u for all individuals in the population; v0= initial value of v for all individuals in the population; u= mutation rate; mutsize= size of a mutational step; numrep= number of evolutionary replicates to run; numcycles = number of growth cycles per replicate (the default is to run each simulation until >95% of the individuals have u=0 but the simulations can also be run for a fixed number of growth cycles per replicate which is set by this parameter. To use this option go to lines 71-72 of the code and change accordingly)."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-05-24"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Moreno-Gámez S,  Kiviet DJ, Vulin C, Schlegel S, Schlegel K, van Doorn GS, Ackermann M (2020). Wide lag time distributions break a trade-off between reproduction and survival in bacteria. Proc Natl Acad  Sci, in press."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Bakker, Joke"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-05-24"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/3ISHX8"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:793b3f82-5709-4c31-9cc3-6dd8c2fa2c40"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-135e9f63-78a5-4463-aee3-8ff44c660507"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Code file",
+        "label": "evstarv.c",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 2957,
+        "dataFile": {
+          "id": 27222,
+          "persistentId": "",
+          "filename": "evstarv.c",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6823,
+          "description": "Code file",
+          "storageIdentifier": "surf://store:173045e257d-c1e2aa5f37cc",
+          "rootDataFileId": -1,
+          "md5": "1a7289e775552c2275302dc941a602c7",
+          "checksum": {
+            "type": "MD5",
+            "value": "1a7289e775552c2275302dc941a602c7"
+          },
+          "tabularData": false,
+          "creationDate": "2020-06-30",
+          "publicationDate": "2020-06-30",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Parameter file",
+        "label": "parameters.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 2957,
+        "dataFile": {
+          "id": 27223,
+          "persistentId": "",
+          "filename": "parameters.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 91,
+          "description": "Parameter file",
+          "storageIdentifier": "surf://store:173045e305f-311c8d3c3102",
+          "rootDataFileId": -1,
+          "md5": "58a009d887a68d6a7e72756789b4f233",
+          "checksum": {
+            "type": "MD5",
+            "value": "58a009d887a68d6a7e72756789b4f233"
+          },
+          "tabularData": false,
+          "creationDate": "2020-06-30",
+          "publicationDate": "2020-06-30",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Moreno-Gámez, Stefany; Kiviet, Daniel J.; Vulin, Clément; Schlegel, Susan; Schlegel, Kim; van Doorn, G. Sander; Ackermann, Martin, 2020, \"Replication Data for: Wide lag time distributions break a trade-off between reproduction and survival in bacteria\", https://doi.org/10.34894/3ISHX8, DataverseNL, V1"
+  }
+}

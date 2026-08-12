@@ -1,0 +1,288 @@
+{
+  "id": 571176,
+  "identifier": "NQZ4JG",
+  "persistentUrl": "https://doi.org/10.34894/NQZ4JG",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-12-04",
+  "storageIdentifier": "surf://10.34894/NQZ4JG",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32196,
+    "datasetId": 571176,
+    "datasetPersistentId": "doi:10.34894/NQZ4JG",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/NQZ4JG",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2025-12-04T14:58:10Z",
+    "releaseTime": "2025-12-04T14:58:10Z",
+    "createTime": "2025-12-04T14:57:45Z",
+    "publicationDate": "2025-12-04",
+    "citationDate": "2025-12-04",
+    "versionNote": "Fixed a Typo in the affiliation. ",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "DANS Vocabulary IdentifierType"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Braukmann, Ricarda"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/008pnp284",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Data Archiving Networked Services (DANS)",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6383-7148"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Braukmann, Ricarda"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains information about the controlled vocabulary IdentifierType used in the DANS Data Station Social Sciences and Humanities (SSH).\n<br>\n<br>\nThe DANS Data Station SSH is a trustworthy digital repository for research data in the SSH domain offered by DANS in the Netherlands. https://ssh.datastations.nl/ \n<br>\n<br>\nIn the DANS Data Station SSH various vocabularies are used. This dataset provides information about the IdentifierType vocabulary. It lists the elements a user can chose from as well as the source from which the vocabulary term was selected (if applicable). \n<br>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vocabulary"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Documentation"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "IsReferencedBy"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Braukmann, Ricarda, 2025, \"DANS Data Station SSH Vocabularies Overview\", https://doi.org/10.34894/1E7QNO, DataverseNL, Version 1"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.34894/1E7QNO"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.34894/1E7QNO"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Braukmann, Ricarda"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-12-04"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/NQZ4JG"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:7ac32fe7-80aa-433a-85bf-d89e06283e98"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-23a1271b-7347-4369-975b-7ce810307bab"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "DANSVocabs-Dec2025-IDType.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32196,
+        "dataFile": {
+          "id": 571177,
+          "persistentId": "",
+          "filename": "DANSVocabs-Dec2025-IDType.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 613,
+          "storageIdentifier": "surf://store:19ae9d3d252-46002b3cd0c3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5fcf73099967eb4a3c9659737b9bad78ab110d1c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-04",
+          "publicationDate": "2025-12-04",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "DANSVocabs-Dec2025-IDType.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32196,
+        "dataFile": {
+          "id": 571178,
+          "persistentId": "",
+          "filename": "DANSVocabs-Dec2025-IDType.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 15973,
+          "storageIdentifier": "surf://store:19ae9d3d324-e0c3a5919d41",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dd20e38bb56ca92c9d9351751cf29b5ef75b433f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-12-04",
+          "publicationDate": "2025-12-04",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Braukmann, Ricarda, 2025, \"DANS Vocabulary IdentifierType\", https://doi.org/10.34894/NQZ4JG, DataverseNL, V1"
+  }
+}

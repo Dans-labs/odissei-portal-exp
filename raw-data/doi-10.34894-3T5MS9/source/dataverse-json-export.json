@@ -1,0 +1,193 @@
+{
+  "id": 17150,
+  "identifier": "3T5MS9",
+  "persistentUrl": "https://doi.org/10.34894/3T5MS9",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2019-10-23",
+  "storageIdentifier": "surf://10411/YVP873",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 1773,
+    "datasetId": 17150,
+    "datasetPersistentId": "doi:10.34894/3T5MS9",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10411/YVP873",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2019-10-23T18:02:03Z",
+    "releaseTime": "2019-10-23T18:02:03Z",
+    "createTime": "2019-09-24T21:34:08Z",
+    "alternativePersistentId": "hdl:10411/YVP873",
+    "publicationDate": "2019-10-23",
+    "citationDate": "2019-10-23",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Minimal navigation solution for a swarm of tiny flying robots to explore an unknown environment"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "McGuire, Kimberly"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Guido de Croon"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This database contains all the logfiles of the simulation and real world experiments of the publication: 'Minimal navigation solution for a swarm of tiny flying robots to explore an unknown environment' in Science robotics (2019). It also contains matlab scripts to recreate the plots and graphs as presented in the paper."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Engineering"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "McGuire, Kimberly"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2019-09-24"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/3T5MS9"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:e7b0d6a4-1368-47d4-9182-48a15b25e832"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-0317ee14-8d02-494c-b00c-dfea63c618cf"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "\tContains all the logging during the simulation testing under the folder ‘log_data/simulation’. Use matlabscript ‘plot_results_simulation.m’ to generate the plots. It also contains all the logging data during the real-world tests in the folder ‘log_data/real-world.m’.  Use matlabscript.m ‘plot_results_realworld.m’ to generate the plots.\r\n\tContains all the experiment videos under the folder ‘videos’, together with the .PDFs of the scanned-in handwritten transcripts.\r\n",
+        "label": "log_data.zip",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 1773,
+        "dataFile": {
+          "id": 17151,
+          "persistentId": "",
+          "filename": "log_data.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 109563318,
+          "description": "\tContains all the logging during the simulation testing under the folder ‘log_data/simulation’. Use matlabscript ‘plot_results_simulation.m’ to generate the plots. It also contains all the logging data during the real-world tests in the folder ‘log_data/real-world.m’.  Use matlabscript.m ‘plot_results_realworld.m’ to generate the plots.\r\n\tContains all the experiment videos under the folder ‘videos’, together with the .PDFs of the scanned-in handwritten transcripts.\r\n",
+          "storageIdentifier": "surf://store:16d6531f042-860bead54405",
+          "rootDataFileId": -1,
+          "md5": "f23eb04c23f1d3b2140c3deeb22d8fc1",
+          "checksum": {
+            "type": "MD5",
+            "value": "f23eb04c23f1d3b2140c3deeb22d8fc1"
+          },
+          "tabularData": false,
+          "creationDate": "2019-09-24",
+          "publicationDate": "2019-10-23",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "McGuire, Kimberly, 2019, \"Minimal navigation solution for a swarm of tiny flying robots to explore an unknown environment\", https://doi.org/10.34894/3T5MS9, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,778 @@
+{
+  "id": 484247,
+  "identifier": "EL2LMH",
+  "persistentUrl": "https://doi.org/10.34894/EL2LMH",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-10-13",
+  "storageIdentifier": "surf://10.34894/EL2LMH",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30636,
+    "datasetId": 484247,
+    "datasetPersistentId": "doi:10.34894/EL2LMH",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/EL2LMH",
+    "versionNumber": 1,
+    "internalVersionNumber": 16,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-10-13T10:54:54Z",
+    "releaseTime": "2025-10-13T10:54:54Z",
+    "createTime": "2025-05-23T16:15:33Z",
+    "publicationDate": "2025-10-13",
+    "citationDate": "2025-10-13",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Dataset: Langmuir-Schaefer Deposition of 2D PbS Quantum Dot Superlattices with Millimetre Square Coverage"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pinna, Jacopo"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/012p63287",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Groningen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-1899-0113"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Experimental source data for the figures in the main text of the related publication <a href=\"https://doi.org/10.1038/s41467-025-64065-y\">doi.org/10.1038/s41467-025-64065-y</a>. <br>\nThe data is divided in subfolders (visible in the tree-view of the files), one for each figure, containing the source data and a README file indicating how to interpret and plot the data."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Chemistry",
+              "Physics"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Quantum dots"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Superlattice"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Langmuir-Schaefer"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Charge transport"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "IsSupplementTo"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pinna, J., Mednicov, A., Mehrabi Koushki, R. et al. Langmuir-Schaefer deposition of 2D PbS quantum dot superlattices with millimetre square coverage. Nat Commun 16, 9008 (2025)."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1038/s41467-025-64065-y"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1038/s41467-025-64065-y"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL network"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS"
+                },
+                "distributorAbbreviation": {
+                  "typeName": "distributorAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DVNL"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://dataverse.nl/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Silva Correia Alves, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-05-23"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/EL2LMH"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:714b782b-b2ee-43df-a008-c89c7b0c66ab"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-99fc491e-d6f2-4565-a4a3-7e48203f3fb7"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Fig1e-isotherm-highcompression.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig1",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552524,
+          "persistentId": "",
+          "filename": "Fig1e-isotherm-highcompression.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 28593,
+          "storageIdentifier": "surf://store:199582dec5d-badbefcf4ccb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4dc4d8d5f7ae6836eedb030d441880e589263df6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig1e-isotherm-lowcompression.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig1",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552526,
+          "persistentId": "",
+          "filename": "Fig1e-isotherm-lowcompression.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 34306,
+          "storageIdentifier": "surf://store:199582dec65-945aeb4cd541",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9f2a2ace3b069cadb34aa26783e73550f2e2fcef"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig3c-voiddensitydistribution-highcompression.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig3",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552528,
+          "persistentId": "",
+          "filename": "Fig3c-voiddensitydistribution-highcompression.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2467,
+          "storageIdentifier": "surf://store:199582dec71-69174a5e9ed0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b17b567171c6b52d7d3f0f7eeb32785e41936167"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig3c-voiddensitydistribution-lowcompression.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig3",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552532,
+          "persistentId": "",
+          "filename": "Fig3c-voiddensitydistribution-lowcompression.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 5480,
+          "storageIdentifier": "surf://store:199582dec77-0851851ca342",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d4a48b1ba3377d2f8f09d93464354a22c2e498c3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig4g-g-r-l0_75.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig4",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552518,
+          "persistentId": "",
+          "filename": "Fig4g-g-r-l0_75.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1650,
+          "storageIdentifier": "surf://store:199582dec89-e70888db97ec",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5bcd58845e8281fca7c268837615e5091918d367"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig4g-g-r-l0_85.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig4",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552527,
+          "persistentId": "",
+          "filename": "Fig4g-g-r-l0_85.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1475,
+          "storageIdentifier": "surf://store:199582dec90-eb753b61e13f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "453ceeb4de966b1966c0052264598900114b4f7d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig4g-g-r-l0_95.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig4",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552515,
+          "persistentId": "",
+          "filename": "Fig4g-g-r-l0_95.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1320,
+          "storageIdentifier": "surf://store:199582dec98-115d6dd1a939",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7d2f09c4b619bb24c0a6d2d6e2189ce57ae3b040"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig4g-r-l0_65.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig4",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552522,
+          "persistentId": "",
+          "filename": "Fig4g-r-l0_65.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1883,
+          "storageIdentifier": "surf://store:199582dec9f-c573f0325345",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c9fdb357c946e3b5e514df54c0b10ac171dbb905"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig5a-lowcompression-outputcurve.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig5",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552516,
+          "persistentId": "",
+          "filename": "Fig5a-lowcompression-outputcurve.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 21404,
+          "storageIdentifier": "surf://store:199582decab-e2dc9fe8f618",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3236a72a6382419efa40a8ec12053148876bec80"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig5b-highcompression-outputcurve.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig5",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552525,
+          "persistentId": "",
+          "filename": "Fig5b-highcompression-outputcurve.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 21281,
+          "storageIdentifier": "surf://store:199582decb2-c6b14fc1ff96",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "61794d766f3dff9b15d5661db0b15c402cd9eaf8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig5c-highcompression-transfercurve.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig5",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552514,
+          "persistentId": "",
+          "filename": "Fig5c-highcompression-transfercurve.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 9729,
+          "storageIdentifier": "surf://store:199582decb9-3a728de94ba3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0ec1b2592549562bac6e7f92257382535016e770"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig5c-lowcompression-transfercurve.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig5",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552531,
+          "persistentId": "",
+          "filename": "Fig5c-lowcompression-transfercurve.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 9616,
+          "storageIdentifier": "surf://store:199582decc0-bb6e342248ff",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "248f32c27b3dee282d35e18b22ceb1e576f2cd54"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig5d-highcompression-statistics.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig5",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552530,
+          "persistentId": "",
+          "filename": "Fig5d-highcompression-statistics.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 299,
+          "storageIdentifier": "surf://store:199582decc6-bdbc4dc34881",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7630db45d19efa8ddf313344ea34a4ed8a773710"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Fig5d-lowcompression-statistics.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig5",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552521,
+          "persistentId": "",
+          "filename": "Fig5d-lowcompression-statistics.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 269,
+          "storageIdentifier": "surf://store:199582deccb-548531c58b17",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b3f184944abaaef41503d622b2341775c7559d97"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Figure3d-e-distributions.csv",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig3",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552523,
+          "persistentId": "",
+          "filename": "Figure3d-e-distributions.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 303,
+          "storageIdentifier": "surf://store:199582dec7e-0d69e8cd808c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e0db4145cce20fa9f220efd3b3208023d99249d2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig3",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552519,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 498,
+          "storageIdentifier": "surf://store:199582dec83-1b6b25e2143d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0f3f2dd09bc856591d4765560fb2ba8b3afd8571"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig1",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552517,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 240,
+          "storageIdentifier": "surf://store:199582dec6d-8b7ecf600165",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9fe4bc04d374db9b475ea66af41c98c7421e9f43"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig5",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552529,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 791,
+          "storageIdentifier": "surf://store:199582deccf-b5ec4c4b7627",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c1f2fe5c0a05897c8115348486aafddb3598125a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "directoryLabel": "Open data repository/Fig4",
+        "version": 1,
+        "datasetVersionId": 30636,
+        "dataFile": {
+          "id": 552520,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 314,
+          "storageIdentifier": "surf://store:199582deca6-fde660d50617",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6d532ea350d1745f7039db6cb14197ffd0c2412f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-17",
+          "publicationDate": "2025-10-13",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Pinna, Jacopo, 2025, \"Dataset: Langmuir-Schaefer Deposition of 2D PbS Quantum Dot Superlattices with Millimetre Square Coverage\", https://doi.org/10.34894/EL2LMH, DataverseNL, V1"
+  }
+}

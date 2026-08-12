@@ -1,5 +1,7 @@
 import { CircleStackIcon, ScaleIcon, DocumentIcon } from "@heroicons/react/24/solid";
 import { m } from "#/paraglide/messages";
+import { cn } from "#/utils/cn";
+import { badge } from "#/utils/surfaces";
 
 type BadgeProps = {
   children: React.ReactNode;
@@ -16,12 +18,36 @@ type LicenseBadgeProps = {
 };
 
 const SOURCE_PALETTE = [
-  { bg: "bg-cyan-50", text: "text-cyan-700", ring: "ring-cyan-200" },
-  { bg: "bg-violet-50", text: "text-violet-700", ring: "ring-violet-200" },
-  { bg: "bg-amber-50", text: "text-amber-700", ring: "ring-amber-200" },
-  { bg: "bg-emerald-50", text: "text-emerald-700", ring: "ring-emerald-200" },
-  { bg: "bg-rose-50", text: "text-rose-700", ring: "ring-rose-200" },
-  { bg: "bg-blue-50", text: "text-blue-700", ring: "ring-blue-200" },
+  {
+    bg: "bg-cyan-50 dark:bg-gray-900",
+    text: "text-cyan-700 dark:text-cyan-300",
+    ring: "ring-cyan-200 dark:ring-cyan-800",
+  },
+  {
+    bg: "bg-violet-50 dark:bg-gray-900",
+    text: "text-violet-700 dark:text-violet-300",
+    ring: "ring-violet-200 dark:ring-violet-800",
+  },
+  {
+    bg: "bg-amber-50 dark:bg-gray-900",
+    text: "text-amber-700 dark:text-amber-300",
+    ring: "ring-amber-200 dark:ring-amber-800",
+  },
+  {
+    bg: "bg-emerald-50 dark:bg-gray-900",
+    text: "text-emerald-700 dark:text-emerald-300",
+    ring: "ring-emerald-200 dark:ring-emerald-800",
+  },
+  {
+    bg: "bg-rose-50 dark:bg-gray-900",
+    text: "text-rose-700 dark:text-rose-300",
+    ring: "ring-rose-200 dark:ring-rose-800",
+  },
+  {
+    bg: "bg-blue-50 dark:bg-gray-900",
+    text: "text-blue-700 dark:text-blue-300",
+    ring: "ring-blue-200 dark:ring-blue-800",
+  },
 ];
 
 // Deterministic color per source name.
@@ -36,31 +62,14 @@ function colorForSource(source: string) {
   return SOURCE_PALETTE[Math.abs(hash) % SOURCE_PALETTE.length];
 }
 
-const badgeClass =
-  "inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-semibold ring-1 ring-inset";
-
 export function Badge({ children, className = "" }: BadgeProps) {
-  return (
-    <span
-      className={`
-        ${badgeClass}
-        ${className}
-      `}
-    >
-      {children}
-    </span>
-  );
+  return <span className={cn(badge, className)}>{children}</span>;
 }
 
 export function LinkBadge({ children, className = "", link }: BadgeProps) {
   return (
     <a
-      className={`
-        ${badgeClass}
-        ${className}
-        transition
-        hover:text-cyan-600 hover:scale-105
-      `}
+      className={cn(badge, className, "transition hover:text-cyan-600 hover:scale-105")}
       href={link}
       target="_blank"
       rel="noopener noreferrer"
@@ -74,7 +83,7 @@ export function SourceBadge({ source }: SourceBadgeProps) {
   const { bg, text, ring } = colorForSource(source);
 
   return (
-    <Badge className={`${bg} ${text} ${ring}`}>
+    <Badge className={cn(bg, text, ring)}>
       <CircleStackIcon className="size-4" />
       {source}
     </Badge>
@@ -83,7 +92,7 @@ export function SourceBadge({ source }: SourceBadgeProps) {
 
 export function LicenseBadge({ license }: LicenseBadgeProps) {
   return (
-    <Badge className="bg-slate-50 text-slate-700 ring-slate-200">
+    <Badge className="bg-slate-50 text-slate-700 ring-slate-200 dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-600">
       <ScaleIcon className="size-4" />
       {license}
     </Badge>
@@ -107,7 +116,7 @@ export function FileCountBadge({
 
   return (
     <BadgeVariant
-      className="bg-zinc-50 text-zinc-500 shrink-0 relative z-10"
+      className="bg-gray-50 text-gray-500 dark:bg-gray-900 dark:text-gray-400 dark:ring-gray-700 shrink-0 relative z-10"
       link={requested ? `https://dab.surf.nl/dataset?pid=doi:${pid}` : undefined}
     >
       <DocumentIcon className="size-4" />

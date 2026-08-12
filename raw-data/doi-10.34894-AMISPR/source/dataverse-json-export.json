@@ -1,0 +1,3715 @@
+{
+  "id": 399992,
+  "identifier": "AMISPR",
+  "persistentUrl": "https://doi.org/10.34894/AMISPR",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-01-26",
+  "storageIdentifier": "surf://10.34894/AMISPR",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25684,
+    "datasetId": 399992,
+    "datasetPersistentId": "doi:10.34894/AMISPR",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/AMISPR",
+    "versionNumber": 1,
+    "internalVersionNumber": 63,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "productionDate": "2020",
+    "lastUpdateTime": "2024-01-26T12:29:41Z",
+    "releaseTime": "2024-01-26T12:29:41Z",
+    "createTime": "2024-01-17T10:16:06Z",
+    "publicationDate": "2024-01-26",
+    "citationDate": "2024-01-26",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Learning from climate change news: Is the world on the same page?"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Eikelboom, Stijn"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-0294-696X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Esteve-Del-Valle, Marc"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-4407-1989"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nissim, Malvina"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ScopusID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "8281949100"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Climate change challenges countries around the world, and news media are key to the public’s awareness and perception of it. But how are news media approaching climate change across countries? With the problem of climate change and its solution being global, it is key to determine whether differences in climate change news reports exist and what they are across countries. This study employs supervised machine learning to uncover topical and terminological differences between newspaper articles on climate change. An original dataset of climate change articles is presented, originating from 7 newspapers and 3 countries across the world, and published in English during 26 Conference of the Parties (COP) meetings from the United Nations Framework Convention on Climate Change (UNFCC). Three aspects are used to discriminate between articles, being (1) countries, (2) political orientations, and (3) COP meetings. Our results reveal differences with regard to how newspaper articles approach climate change globally. Specifically, climate change-related terminology of left-oriented newspapers is more prevalent compared to their right-oriented counterparts. Also, over the years, newspapers’ climate change-related terminology has evolved to convey a greater sense of urgency."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Climate Change"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "News"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Journalism"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Machine Learning"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Computational Linguistics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Eikelboom S, Esteve-Del-Valle M, Nissim M (2024) Learning from climate change news: Is the world on the same page? PLOS ONE."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1371/journal.pone.0297644"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1371/journal.pone.0297644"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Silva Correia Alves, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-01-17"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Newspaper articles",
+              "Most informative features",
+              "Programming code",
+              "Graphs"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nexis Uni"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Python"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "BeautifulSoup"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "4"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "scikit-learn"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0.24.2"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Selenium"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ChromeDriver"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Chromium"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "pdftotext"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Matplotlib"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/AMISPR"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:443b69a5-b510-4e04-97aa-6e75157296ff"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-c07750c9-6010-4f5a-abd5-7c722ea094d3"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Classifier for countries, political orientations and COP meetings",
+        "label": "classification.py",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 6,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400002,
+          "persistentId": "",
+          "filename": "classification.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 29053,
+          "description": "Classifier for countries, political orientations and COP meetings",
+          "storageIdentifier": "surf://store:18d1713c5d7-6353c0a412dd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "59bdb08a2c3a331481eafdebc44a4ee596d84398"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop01_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400039,
+          "persistentId": "",
+          "filename": "cop01_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 54585,
+          "storageIdentifier": "surf://store:18d171c1fb2-53052337a22b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7b4293b0cbbc9ba99104e4f2814b35c2c606f9b3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop01_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400086,
+          "persistentId": "",
+          "filename": "cop01_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 28815,
+          "storageIdentifier": "surf://store:18d171c1f8c-b0df1c533721",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "82736c8ac934d03196b6e613456078e4be934d10"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop01_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400069,
+          "persistentId": "",
+          "filename": "cop01_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44357,
+          "storageIdentifier": "surf://store:18d171c1fa4-c72c986ef60c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "11fab889df303320dddd34fe133a21a08f79bcda"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop01_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400116,
+          "persistentId": "",
+          "filename": "cop01_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41506,
+          "storageIdentifier": "surf://store:18d171c1d3c-0ace0f01a66e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "66cf48c53063da1df86169bebac0a7140c7fe9de"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop02_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400051,
+          "persistentId": "",
+          "filename": "cop02_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 50910,
+          "storageIdentifier": "surf://store:18d171c1f33-67c45e983dbb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f3d014615e607222b0f4828bd08e345bfee8bd61"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop02_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400030,
+          "persistentId": "",
+          "filename": "cop02_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 28442,
+          "storageIdentifier": "surf://store:18d171c1fcf-4072909d8079",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "477233fd9c6583131dac0f8f63585b106dcbad79"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop02_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400076,
+          "persistentId": "",
+          "filename": "cop02_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 43627,
+          "storageIdentifier": "surf://store:18d171c1ea9-e5df40548626",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e2f87d0abb768861e10eb9e2a52b389cd035ed27"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop02_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400065,
+          "persistentId": "",
+          "filename": "cop02_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 40763,
+          "storageIdentifier": "surf://store:18d171c1e58-ba0a9e6c60f7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b9c2f53c0eb7acbced656ff647f133aef6638828"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop03_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400070,
+          "persistentId": "",
+          "filename": "cop03_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 56674,
+          "storageIdentifier": "surf://store:18d171c1d1a-ca3768bc6b6c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a93f58508297253e85c1278c2c2363d22d34231e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop03_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400013,
+          "persistentId": "",
+          "filename": "cop03_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 30362,
+          "storageIdentifier": "surf://store:18d171c1fb9-370b55f09ea4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c16304e834463a857d4a5ad38e7ce207aa46e687"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop03_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400077,
+          "persistentId": "",
+          "filename": "cop03_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41650,
+          "storageIdentifier": "surf://store:18d171c1d04-73ff2f76c479",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8e9acf3ac16c7bfead16e0d395589e00bc72b011"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop03_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400061,
+          "persistentId": "",
+          "filename": "cop03_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 38777,
+          "storageIdentifier": "surf://store:18d171c1d82-693965bf6b3a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5111d2746a107d25a19f1dd6507a24cc80207c61"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop04_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400099,
+          "persistentId": "",
+          "filename": "cop04_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 50506,
+          "storageIdentifier": "surf://store:18d171c1ed0-52ebbe5c56d4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "821df3020611beada9fe54483f7cc4629d302fb2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop04_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400073,
+          "persistentId": "",
+          "filename": "cop04_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 28316,
+          "storageIdentifier": "surf://store:18d171c1f2c-97e7591953cb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "01a2d0e5c89ae722f92853ed511caf0acb3b43be"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop04_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400035,
+          "persistentId": "",
+          "filename": "cop04_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41471,
+          "storageIdentifier": "surf://store:18d171c1e4a-49a7eb8d44e9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d7e6d5c452415f35463ef1d87de198522aa5e889"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop04_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400115,
+          "persistentId": "",
+          "filename": "cop04_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 38485,
+          "storageIdentifier": "surf://store:18d171c1dc7-f1a1a8fd8eee",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c72c463085dad829d113d36a98532374af0971da"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop05_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400046,
+          "persistentId": "",
+          "filename": "cop05_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 51110,
+          "storageIdentifier": "surf://store:18d171c1d92-5e2d63c1d7ca",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fdfaab505d497d056b915350541b95254555b952"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop05_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400094,
+          "persistentId": "",
+          "filename": "cop05_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 27365,
+          "storageIdentifier": "surf://store:18d171c1f49-dc0bbd694453",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "864426fbaf3c33df362e65e832999dc58424326a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop05_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400107,
+          "persistentId": "",
+          "filename": "cop05_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44458,
+          "storageIdentifier": "surf://store:18d171c1f3a-e3a137e49ea8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6324a5d87a1ec0dc413ac95cb935bf30669fd84b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop05_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400028,
+          "persistentId": "",
+          "filename": "cop05_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41462,
+          "storageIdentifier": "surf://store:18d171c1e26-9c9783118a0f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8de4142543102e615c55752686bd1fd7d015464f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop06a_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400106,
+          "persistentId": "",
+          "filename": "cop06a_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 53170,
+          "storageIdentifier": "surf://store:18d171c1fbf-f9ee2bb1936e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ec4b7ce87be6cb1169cb708da2015fc1defc7aae"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop06a_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400037,
+          "persistentId": "",
+          "filename": "cop06a_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29715,
+          "storageIdentifier": "surf://store:18d171c1cc1-5c6d990f1773",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2344d90543947626d976fb1fcfe6bfde165a0d0e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop06a_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400055,
+          "persistentId": "",
+          "filename": "cop06a_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 43955,
+          "storageIdentifier": "surf://store:18d171c1ede-306562c9eeb2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "71e9a2b92d77ecda68678b94f5b0fa903f4d2ca5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop06a_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400010,
+          "persistentId": "",
+          "filename": "cop06a_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41048,
+          "storageIdentifier": "surf://store:18d171c1f01-26a783c8ae91",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2956d1be42c7939fb77a594682a5abe3ddc65f9f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop06_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400027,
+          "persistentId": "",
+          "filename": "cop06_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 54478,
+          "storageIdentifier": "surf://store:18d171c1e3b-38d490ece737",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6836683198e3ce84544c387ed74c5ee78303449e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop06_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400040,
+          "persistentId": "",
+          "filename": "cop06_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29674,
+          "storageIdentifier": "surf://store:18d171c1f50-88b7fba820cb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c0a273912a30b43e549e38caeef35de872b67bfd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop06_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400104,
+          "persistentId": "",
+          "filename": "cop06_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44557,
+          "storageIdentifier": "surf://store:18d171c1efa-63493d8e52b7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3ae3d41bea6dec1073aa2ec0b5c999df7017b839"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop06_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400012,
+          "persistentId": "",
+          "filename": "cop06_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41539,
+          "storageIdentifier": "surf://store:18d171c1cfc-d0a647e06ddb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "308b3cbdbfd470177d3b3edfa50dca394eeb67bc"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop07_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400068,
+          "persistentId": "",
+          "filename": "cop07_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 49232,
+          "storageIdentifier": "surf://store:18d171c1eb1-6fd9517aa17c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ea4d14feda07dfb06f1ae2fdda28b74d3f19aeb0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop07_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400020,
+          "persistentId": "",
+          "filename": "cop07_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 27698,
+          "storageIdentifier": "surf://store:18d171c1f74-8ede9c30fdc9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83fcc6d462b5e32a43fcbb26f154ddd02e72e065"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop07_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400095,
+          "persistentId": "",
+          "filename": "cop07_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44260,
+          "storageIdentifier": "surf://store:18d171c1cb9-136ab25322cd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e051e71ceae0f49c6809150004f9738123a9763d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop07_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400043,
+          "persistentId": "",
+          "filename": "cop07_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41299,
+          "storageIdentifier": "surf://store:18d171c1cf3-63e3994e0385",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fffff1917d1670b199b184cf274dd7b05c0b9ce2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop08_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400114,
+          "persistentId": "",
+          "filename": "cop08_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 48463,
+          "storageIdentifier": "surf://store:18d171c1e2d-366d697db567",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3f431f7f326b8cdb1fe7695a2aa9aaf4a2a90c84"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop08_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400031,
+          "persistentId": "",
+          "filename": "cop08_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 28340,
+          "storageIdentifier": "surf://store:18d171c1ee5-ba3dfb686e60",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8f8f6bb364cc7dc35ea42e69a7965c9c69f359bb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop08_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400036,
+          "persistentId": "",
+          "filename": "cop08_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44520,
+          "storageIdentifier": "surf://store:18d171c1c91-cb42e677a8e7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7310f0b772d05d723b4e60b6bcb06e63689ecb3e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop08_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400093,
+          "persistentId": "",
+          "filename": "cop08_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41537,
+          "storageIdentifier": "surf://store:18d171c1caf-9ceaa120629f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "54993e9b6c021385a6d77e89ecadeca5c6b34662"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop09_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400045,
+          "persistentId": "",
+          "filename": "cop09_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 52976,
+          "storageIdentifier": "surf://store:18d171c1eb8-e42117ae3922",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d82c200eaeafcc9c318309392a319b4b1bd2c041"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop09_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400110,
+          "persistentId": "",
+          "filename": "cop09_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 28146,
+          "storageIdentifier": "surf://store:18d171c1f08-db80dfbbec3b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "da3ee0166603a8676a1f8c074d1a16889d0a0265"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop09_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400071,
+          "persistentId": "",
+          "filename": "cop09_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44560,
+          "storageIdentifier": "surf://store:18d171c1f0e-1a6fe2fa1997",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9581adc4fad500819ae92eb16f1c7588c1452d90"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop09_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400082,
+          "persistentId": "",
+          "filename": "cop09_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41551,
+          "storageIdentifier": "surf://store:18d171c1d61-f5cad05aeb3c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "41512a6cc76530a709d4f8cdec5076a0fbd93986"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop10_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400101,
+          "persistentId": "",
+          "filename": "cop10_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 49470,
+          "storageIdentifier": "surf://store:18d171c1dbf-4fd6817c95f9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6d521cf91afb2761734c1ac02293973f6e83c6b5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop10_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400033,
+          "persistentId": "",
+          "filename": "cop10_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29105,
+          "storageIdentifier": "surf://store:18d171c1e1f-6ccacaf51793",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "317332bf6b589b1321a6edaddc7db8d2ed6ae853"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop10_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400062,
+          "persistentId": "",
+          "filename": "cop10_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 43005,
+          "storageIdentifier": "surf://store:18d171c1f6d-116823a3b4db",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "708712c97655c3360b5c955ef7deae5dbfb2d197"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop10_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400026,
+          "persistentId": "",
+          "filename": "cop10_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 40189,
+          "storageIdentifier": "surf://store:18d171c1cda-a3712b8e7e8f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "070b5c171fd238a3b52135366ce0eb27113ba08a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop11_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400063,
+          "persistentId": "",
+          "filename": "cop11_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 52675,
+          "storageIdentifier": "surf://store:18d171c1f1e-ceed48b6827d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7d66c97ba233d5f9259540a5c1800101ad7073fb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop11_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400102,
+          "persistentId": "",
+          "filename": "cop11_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29060,
+          "storageIdentifier": "surf://store:18d171c1de7-0fa65fbac5e9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4521101775bfe37984541fcc278349af7db30068"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop11_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400024,
+          "persistentId": "",
+          "filename": "cop11_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44510,
+          "storageIdentifier": "surf://store:18d171c1dfe-82f32228179c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d6612d2cab1d39fec98f9d8a30ffe1436171e9a0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop11_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400091,
+          "persistentId": "",
+          "filename": "cop11_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41511,
+          "storageIdentifier": "surf://store:18d171c1d22-377f40f4e11a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4aa67b55c0cf0ff84ce4c52820708f254ff4e546"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop12_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400087,
+          "persistentId": "",
+          "filename": "cop12_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 58629,
+          "storageIdentifier": "surf://store:18d171c1e84-216c0bea856e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1dbe9fa4188b90b85e87a2020cfecb64e1798776"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop12_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400081,
+          "persistentId": "",
+          "filename": "cop12_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 30386,
+          "storageIdentifier": "surf://store:18d171c1e51-80af923d59bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "50bebdb06981e1a88878a4f1ab3e10c5138eb0f8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop12_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400011,
+          "persistentId": "",
+          "filename": "cop12_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44694,
+          "storageIdentifier": "surf://store:18d171c1cd1-43d350a96750",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8d9cfa43d983cc241401ed9b18877eb5f9e387c2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop12_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400025,
+          "persistentId": "",
+          "filename": "cop12_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41622,
+          "storageIdentifier": "surf://store:18d171c1df6-4d1b2bc70449",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f49540630e3a21232295bc58475c05ae7486b0a5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop13_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400066,
+          "persistentId": "",
+          "filename": "cop13_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 57600,
+          "storageIdentifier": "surf://store:18d171c1def-61c93979c387",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "95fe676b2e1541097d41853cfccacd0152d0493f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop13_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400019,
+          "persistentId": "",
+          "filename": "cop13_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 31475,
+          "storageIdentifier": "surf://store:18d171c1e42-7b9946720b0b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7e656ff2c18c03bdeffe17a01fd384b0569ea7b5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop13_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400105,
+          "persistentId": "",
+          "filename": "cop13_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41731,
+          "storageIdentifier": "surf://store:18d171c1ed7-d911e7682e74",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d745cc08334b5e5db6f5286a9ac5b7dbba371cdf"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop13_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400009,
+          "persistentId": "",
+          "filename": "cop13_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 38729,
+          "storageIdentifier": "surf://store:18d171c1dcf-b75ce7d3406d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83217c7eb1dd71df9ce4bc9daa19a96604b56e1c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop14_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400044,
+          "persistentId": "",
+          "filename": "cop14_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 53996,
+          "storageIdentifier": "surf://store:18d171c1f84-8772d95a7aac",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7a407e4cae49efac598546c97490b87190be6522"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop14_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400018,
+          "persistentId": "",
+          "filename": "cop14_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29507,
+          "storageIdentifier": "surf://store:18d171c1d9a-f3bc475ec9b8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0701d748dd15aff5c9109a7f5bc5dc52443a7de8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop14_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400085,
+          "persistentId": "",
+          "filename": "cop14_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44515,
+          "storageIdentifier": "surf://store:18d171c1fab-764dfd0f096e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0d9cbd1aa84fc4e10836fc0bc0a87753e11b73f3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop14_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400032,
+          "persistentId": "",
+          "filename": "cop14_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41727,
+          "storageIdentifier": "surf://store:18d171c1da2-2257b700f8cf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ad2fa4f863b05bb29cd0b499faa9253ed0b1231f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop15_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400041,
+          "persistentId": "",
+          "filename": "cop15_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 59150,
+          "storageIdentifier": "surf://store:18d171c1cc9-d9c2a98a67b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0e27c96490c37ee1380d3bedb991e2f636971592"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop15_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400090,
+          "persistentId": "",
+          "filename": "cop15_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 31957,
+          "storageIdentifier": "surf://store:18d171c1daa-ab42b5631a1a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9172ed75aa5ce8511596eeba900bf1cb30509f07"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop15_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400059,
+          "persistentId": "",
+          "filename": "cop15_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41693,
+          "storageIdentifier": "surf://store:18d171c1db1-c2576206de5f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "56c01c01aeed126345565d1599d77cd8891fd50b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop15_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400098,
+          "persistentId": "",
+          "filename": "cop15_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 38850,
+          "storageIdentifier": "surf://store:18d171c1e35-afbe251bddff",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4c86f43e1f76d91fac64f3ec3012da376de6ffd9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop16_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400047,
+          "persistentId": "",
+          "filename": "cop16_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 55613,
+          "storageIdentifier": "surf://store:18d171c1d51-be94f6c60ca7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d218e0db26bae66dd14cfc68f03d491b041b5339"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop16_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400016,
+          "persistentId": "",
+          "filename": "cop16_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 30097,
+          "storageIdentifier": "surf://store:18d171c1db8-011f0a03c11e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3c6ea6436fe04940f1d9e5f391fa8cb0bfa9ff8c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop16_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400048,
+          "persistentId": "",
+          "filename": "cop16_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 43739,
+          "storageIdentifier": "surf://store:18d171c1d69-b65d98c01a61",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c91aa3775ca5aa972cf26816e9ff310647d4fcd1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop16_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400052,
+          "persistentId": "",
+          "filename": "cop16_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 40806,
+          "storageIdentifier": "surf://store:18d171c1d72-675d574cbb67",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f765b83781f080de1edd82ca79224775834ce5d3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop17_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400029,
+          "persistentId": "",
+          "filename": "cop17_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 56617,
+          "storageIdentifier": "surf://store:18d171c1f5e-5cec27a2f3c4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e33b51f5b0a0800135846e1989d94f18ac64537a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop17_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400096,
+          "persistentId": "",
+          "filename": "cop17_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 30638,
+          "storageIdentifier": "surf://store:18d171c1dd7-8958788314cc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "72f0f9b60d2f948acf5f6d51fdca5e3ed35ad8bd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop17_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400089,
+          "persistentId": "",
+          "filename": "cop17_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 45128,
+          "storageIdentifier": "surf://store:18d171c1e5f-8a7263f932f7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8b63f5d2790ad51be893b69d8802d46ffe982221"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop17_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400080,
+          "persistentId": "",
+          "filename": "cop17_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 42292,
+          "storageIdentifier": "surf://store:18d171c1c9d-a7c566d54d5d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7c43713dc6f8f12c031f4b43f3db89f32e43ba2f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop18_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400074,
+          "persistentId": "",
+          "filename": "cop18_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 58986,
+          "storageIdentifier": "surf://store:18d171c1d44-fd7bb49be9d6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "173fa7b9963d496f83e81ee2b1406ef4da36b37e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop18_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400111,
+          "persistentId": "",
+          "filename": "cop18_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29943,
+          "storageIdentifier": "surf://store:18d171c1d2b-3753c17eb02f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "574032de7b1c7325fa1f643adf73b78acf578735"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop18_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400006,
+          "persistentId": "",
+          "filename": "cop18_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 43598,
+          "storageIdentifier": "surf://store:18d171c1e93-642664456af2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "120eea7c2c15dfec5966717f6b49585264a752c1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop18_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400072,
+          "persistentId": "",
+          "filename": "cop18_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 40672,
+          "storageIdentifier": "surf://store:18d171c1ce1-c4255d558dd0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4dced4f3422f3b0a503a4fa475a1758702c05e9a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop19_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400109,
+          "persistentId": "",
+          "filename": "cop19_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 54969,
+          "storageIdentifier": "surf://store:18d171c1f65-a431a830289f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "80e144d85f461f406a6095aeac1ef33196ea17ca"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop19_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400060,
+          "persistentId": "",
+          "filename": "cop19_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29192,
+          "storageIdentifier": "surf://store:18d171c1d59-435501a2d482",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2cfe242f49a315219ce010db2f52417eb51cadff"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop19_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400004,
+          "persistentId": "",
+          "filename": "cop19_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 42635,
+          "storageIdentifier": "surf://store:18d171c1d33-5d227d2a2ea7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1b6f6a39e746b8628cbb7f3ce7d34b7e6602674c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop19_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400108,
+          "persistentId": "",
+          "filename": "cop19_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 39777,
+          "storageIdentifier": "surf://store:18d171c1d0e-ebc9847fcbe2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e7e066e35b0c330c2a4f8a63b6dbfe1e83f1da58"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop20_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400015,
+          "persistentId": "",
+          "filename": "cop20_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 56774,
+          "storageIdentifier": "surf://store:18d171c1eec-25ab16c2fff5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c494b7380d1b36fe75ce7ab0ec3b642f666a6722"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop20_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400022,
+          "persistentId": "",
+          "filename": "cop20_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 30146,
+          "storageIdentifier": "surf://store:18d171c1e9a-bb439ef684cd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13bac5d1a3d62b0f139d0d2f7386cad3497e9406"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop20_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400005,
+          "persistentId": "",
+          "filename": "cop20_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 43672,
+          "storageIdentifier": "surf://store:18d171c1e17-2a50c2538b41",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9a677b58b651870e5fdab5e175092745931e5588"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop20_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400083,
+          "persistentId": "",
+          "filename": "cop20_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 40744,
+          "storageIdentifier": "surf://store:18d171c1f15-b638d44d8926",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0c43eadea671d2c116602bd9cd0486ebf2c77ae1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop21_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400042,
+          "persistentId": "",
+          "filename": "cop21_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 59672,
+          "storageIdentifier": "surf://store:18d171c1dde-d0a3129e4d0d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7efab187bae39d1e1f821a02e3a25a99e050de4e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop21_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400100,
+          "persistentId": "",
+          "filename": "cop21_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 31295,
+          "storageIdentifier": "surf://store:18d171c1ea1-352c653631de",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d4f6c24159c667dbf199a6a9bdeb7e0a80513c80"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop21_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400084,
+          "persistentId": "",
+          "filename": "cop21_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 45299,
+          "storageIdentifier": "surf://store:18d171c1f56-13ef82c97034",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "712d9a96ecfc5254e35509efba50f5df279bb42b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop21_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400053,
+          "persistentId": "",
+          "filename": "cop21_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 42269,
+          "storageIdentifier": "surf://store:18d171c1e67-342b949d1b34",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f0b79af15f5255e4e76f7760019e7ea916fdae3f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop22_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400054,
+          "persistentId": "",
+          "filename": "cop22_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 58227,
+          "storageIdentifier": "surf://store:18d171c1e05-e106e3511189",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4270f03a2ff5cd6605a97df147a6d4689243b2b7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop22_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400008,
+          "persistentId": "",
+          "filename": "cop22_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29344,
+          "storageIdentifier": "surf://store:18d171c1e76-c09884dc8b29",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e1274d6784390cf9b64e9f72423e8d40619d17a6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop22_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400092,
+          "persistentId": "",
+          "filename": "cop22_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 42854,
+          "storageIdentifier": "surf://store:18d171c1ec8-9c90e8b5e622",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d5b921f05097b1a25d4ef0449f655e13e713fb41"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop22_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400067,
+          "persistentId": "",
+          "filename": "cop22_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 39744,
+          "storageIdentifier": "surf://store:18d171c1f41-7dab666fb5ef",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "15a4b4908b0c3572a684d4dfa8a4e7278469920c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop23_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400050,
+          "persistentId": "",
+          "filename": "cop23_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 53277,
+          "storageIdentifier": "surf://store:18d171c1e6f-4b9876e61df4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e9351f68913e47e18b16339035898f950e345ac3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop23_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400064,
+          "persistentId": "",
+          "filename": "cop23_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29327,
+          "storageIdentifier": "surf://store:18d171c1e8c-eb70df83ec46",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bd0fd7462879b5d690930521e9a464c4f26cc6a2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop23_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400103,
+          "persistentId": "",
+          "filename": "cop23_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 43748,
+          "storageIdentifier": "surf://store:18d171c1ce9-67c31216786f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f2dbe96a5ca22af3c66527aa4e61ecdacb9299e1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop23_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400038,
+          "persistentId": "",
+          "filename": "cop23_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 48280,
+          "storageIdentifier": "surf://store:18d171c1fc7-d75ebd5045fa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fa9177031156ec36720286cae6f24b28cfb21408"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop24_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400021,
+          "persistentId": "",
+          "filename": "cop24_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 59878,
+          "storageIdentifier": "surf://store:18d171c1ca6-89218cd88773",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "296803c2328354dec4bce950f0244972c08d9470"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop24_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400017,
+          "persistentId": "",
+          "filename": "cop24_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29734,
+          "storageIdentifier": "surf://store:18d171c1f26-fc9d15bb88a8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f2fafc6b9bac399e00c911c9caa2e816146a2595"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop24_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400049,
+          "persistentId": "",
+          "filename": "cop24_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44467,
+          "storageIdentifier": "surf://store:18d171c1d7a-9e191131eb21",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5f3fcf14ad31a6e4b80e1cca022e6f1c9ae73551"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop24_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400056,
+          "persistentId": "",
+          "filename": "cop24_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 41689,
+          "storageIdentifier": "surf://store:18d171c1f93-367c0bc17100",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "59beddf1cb968822e2a81242fb3ae87aceb114c1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop25_keywords_absolute_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400097,
+          "persistentId": "",
+          "filename": "cop25_keywords_absolute_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 63228,
+          "storageIdentifier": "surf://store:18d171c1f9b-4bec6d0024d9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1b79db9fee4d6d547788b6599edbb64fead18bcb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop25_keywords_unique.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400023,
+          "persistentId": "",
+          "filename": "cop25_keywords_unique.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 31143,
+          "storageIdentifier": "surf://store:18d171c1ef3-cdbf8bd28a32",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bab2911611db84338dfd1fad82498194c4402ba5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop25_newspapers_filtered.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400014,
+          "persistentId": "",
+          "filename": "cop25_newspapers_filtered.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 44430,
+          "storageIdentifier": "surf://store:18d171c1fd5-2cc9ce715d02",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5ddaf84147c5558e231316bf2efae734e120c3e8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cop25_newspapers.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400057,
+          "persistentId": "",
+          "filename": "cop25_newspapers.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 48937,
+          "storageIdentifier": "surf://store:18d171c1f7b-b34431a4c93a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "112fe72de8e45c16c9ef01ef8062b2986733df87"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Meta data on COP meetings",
+        "label": "cop_meetings.csv",
+        "restricted": false,
+        "directoryLabel": "meta",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400117,
+          "persistentId": "",
+          "filename": "cop_meetings.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5433,
+          "description": "Meta data on COP meetings",
+          "storageIdentifier": "surf://store:18d171ebea7-ad6131703706",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b08b1f2744ef67d9dad7fb7f91b26cc4b9139733"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cops_articles_filtered_3.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400034,
+          "persistentId": "",
+          "filename": "cops_articles_filtered_3.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 28131,
+          "storageIdentifier": "surf://store:18d171c1e0f-b579d87df090",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b7c2c93a3887ebbf345a5f91419045ce67b51643"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cops_articles_filtered_4.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400113,
+          "persistentId": "",
+          "filename": "cops_articles_filtered_4.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 28130,
+          "storageIdentifier": "surf://store:18d171c1d8a-08fd75f9ab92",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "88cbaf22bc65cebc79b7dd0463c454fd896b658c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cops_articles.png",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400007,
+          "persistentId": "",
+          "filename": "cops_articles.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 29555,
+          "storageIdentifier": "surf://store:18d171c1e7d-817e3d3b43a7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9c59ce85145b0f86baf36a7dbef7b379bcde1c61"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Sample credentials file for e-mail notifications",
+        "label": "credentials.example.ini",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 4,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 399996,
+          "persistentId": "",
+          "filename": "credentials.example.ini",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 159,
+          "description": "Sample credentials file for e-mail notifications",
+          "storageIdentifier": "surf://store:18d1713c62b-bf5245860bb7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b6831dd0fe21d353d73b6052ba669dc81d9b4bdd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Dictionary for normalizing English terminology",
+        "label": "english_normalization.py",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 5,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400001,
+          "persistentId": "",
+          "filename": "english_normalization.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 56100,
+          "description": "Dictionary for normalizing English terminology",
+          "storageIdentifier": "surf://store:18d1713c57c-337f436d9a39",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fd22e480920ba7ce72ce7da2647f76df62073389"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Most informative features from the COP meeting classification model",
+        "label": "mif-cop.txt",
+        "restricted": false,
+        "directoryLabel": "results",
+        "version": 3,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400088,
+          "persistentId": "",
+          "filename": "mif-cop.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 96656,
+          "description": "Most informative features from the COP meeting classification model",
+          "storageIdentifier": "surf://store:18d171b6194-bf879c30c714",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a19f4f9676ebd56d4beffd103fc4d47d289a154b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Most informative features from the country classification model",
+        "label": "mif-country.txt",
+        "restricted": false,
+        "directoryLabel": "results",
+        "version": 3,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400058,
+          "persistentId": "",
+          "filename": "mif-country.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 22309,
+          "description": "Most informative features from the country classification model",
+          "storageIdentifier": "surf://store:18d171b6132-8bff27c0ca5b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7c746ca16e7a9844fb144adc7430e8ebd398397f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Most informative features from the political orientation classification model",
+        "label": "mif-orientation.txt",
+        "restricted": false,
+        "directoryLabel": "results",
+        "version": 3,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400075,
+          "persistentId": "",
+          "filename": "mif-orientation.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 7420,
+          "description": "Most informative features from the political orientation classification model",
+          "storageIdentifier": "surf://store:18d171b61d8-5c0b4255aa0a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b8eec69d595656a8adf460210a1a8c017dfe3dd3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Most informative features from the COP meeting regression model",
+        "label": "mif-regression.txt",
+        "restricted": false,
+        "directoryLabel": "results",
+        "version": 3,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400079,
+          "persistentId": "",
+          "filename": "mif-regression.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 20522,
+          "description": "Most informative features from the COP meeting regression model",
+          "storageIdentifier": "surf://store:18d171b6218-8f2b139ef9f7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9694ad05e97ccc57167adeefc734905192b8a544"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Collects articles from Nexis Uni in PDF format",
+        "label": "nexis_collector.py",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 5,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 399993,
+          "persistentId": "",
+          "filename": "nexis_collector.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 11165,
+          "description": "Collects articles from Nexis Uni in PDF format",
+          "storageIdentifier": "surf://store:18d1713c512-396e2233e6d8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9691089cb32eba3c759daab07d28c5bc233228fd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Extracts article data from Nexis Uni PDFs to JSON",
+        "label": "nexis_extractor.py",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 6,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400003,
+          "persistentId": "",
+          "filename": "nexis_extractor.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 9228,
+          "description": "Extracts article data from Nexis Uni PDFs to JSON",
+          "storageIdentifier": "surf://store:18d1713c4ac-d367604dc507",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "908ce6751231636434d323ef35e2fe9dbe201593"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Filters articles by COP, newspapers or keywords",
+        "label": "nexis_filter.py",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 5,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 399998,
+          "persistentId": "",
+          "filename": "nexis_filter.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 5303,
+          "description": "Filters articles by COP, newspapers or keywords",
+          "storageIdentifier": "surf://store:18d1713c71d-a6e819a483aa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1aba54666e53c0d3dbfdf9aad855f4d5e26bab4c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Adds country, political orientation and COP meeting labels to articles ",
+        "label": "nexis_label.py",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 5,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 399999,
+          "persistentId": "",
+          "filename": "nexis_label.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 2625,
+          "description": "Adds country, political orientation and COP meeting labels to articles ",
+          "storageIdentifier": "surf://store:18d1713c6d2-4fd4b4658b67",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c8c57252bdf3af5f8b07a2566ac60d7c6abdd537"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Produces statistics and graphs about articles",
+        "label": "nexis_statistics.py",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400540,
+          "persistentId": "",
+          "filename": "nexis_statistics.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 20635,
+          "description": "Produces statistics and graphs about articles",
+          "storageIdentifier": "surf://store:18d3c11e86e-ba525f389711",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0c82228d51cb791898b883139b4b37d3426f0397"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-24",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Helper script to store away collected Nexis Uni PDFs neatly as ZIPs",
+        "label": "nexis_store.sh",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 5,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400000,
+          "persistentId": "",
+          "filename": "nexis_store.sh",
+          "contentType": "application/x-sh",
+          "friendlyType": "Shell Script",
+          "filesize": 460,
+          "description": "Helper script to store away collected Nexis Uni PDFs neatly as ZIPs",
+          "storageIdentifier": "surf://store:18d1713c67e-64fbbe6ad574",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0697569e134945f710201a8711461ef14c62acda"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "README file about plots files",
+        "label": "README.html",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400930,
+          "persistentId": "",
+          "filename": "README.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 11610,
+          "description": "README file about plots files",
+          "storageIdentifier": "surf://store:18d45860853-18ec3ea795bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5e767dfc5256c7f4123b945e139b9cecd77f28d5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-26",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "README file about results files",
+        "label": "README.html",
+        "restricted": false,
+        "directoryLabel": "results",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400929,
+          "persistentId": "",
+          "filename": "README.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 11103,
+          "description": "README file about results files",
+          "storageIdentifier": "surf://store:18d45860895-343bb2886880",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d18fb7f810466abf5ce02ef49412f73ec2cb864b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-26",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "README file about code files",
+        "label": "README.html",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400931,
+          "persistentId": "",
+          "filename": "README.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 14583,
+          "description": "README file about code files",
+          "storageIdentifier": "surf://store:18d45860801-e1b3701e858c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "84b4844a60bf0b74a9d178ac3080636922de0f3a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-26",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "README about results files",
+        "label": "README.md",
+        "restricted": false,
+        "directoryLabel": "results",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400553,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/x-markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 1629,
+          "description": "README about results files",
+          "storageIdentifier": "surf://store:18d4026cca7-c45b144b511f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "46c7b34ea747e99412290a1685b841b1d6f869d1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-25",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "README about plots files",
+        "label": "README.md",
+        "restricted": false,
+        "directoryLabel": "plots",
+        "version": 2,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400555,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/x-markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 1932,
+          "description": "README about plots files",
+          "storageIdentifier": "surf://store:18d40380c20-0cd7a8bbf64f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0a0a1c4c495d1f8e11d71a7b0bd0ba13d188a964"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-25",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "README about code files",
+        "label": "README.md",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400552,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/x-markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 4371,
+          "description": "README about code files",
+          "storageIdentifier": "surf://store:18d40267861-5972721dcefd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3a1343fae3e108fb8f491fed6cdd99f5a6735b31"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-25",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Regressor for COP meetings",
+        "label": "regression.py",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 1,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 400541,
+          "persistentId": "",
+          "filename": "regression.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 14846,
+          "description": "Regressor for COP meetings",
+          "storageIdentifier": "surf://store:18d3c12451e-31192f877b95",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2b6d96d012201a66b2f082b133b03e7fc86d100d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-24",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Extracts keywords from Wikipedia articles",
+        "label": "wikipedia_keywords.py",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 4,
+        "datasetVersionId": 25684,
+        "dataFile": {
+          "id": 399994,
+          "persistentId": "",
+          "filename": "wikipedia_keywords.py",
+          "contentType": "text/x-python-script",
+          "friendlyType": "Python Source Code",
+          "filesize": 22223,
+          "description": "Extracts keywords from Wikipedia articles",
+          "storageIdentifier": "surf://store:18d1713c806-5412b2d15405",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6438803c80b9366bf3866206ef6bb8c0fbe04bf9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-01-17",
+          "publicationDate": "2024-01-26",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Eikelboom, Stijn; Esteve-Del-Valle, Marc; Nissim, Malvina, 2024, \"Learning from climate change news: Is the world on the same page?\", https://doi.org/10.34894/AMISPR, DataverseNL, V1"
+  }
+}

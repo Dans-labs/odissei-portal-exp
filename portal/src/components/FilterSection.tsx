@@ -19,9 +19,9 @@ export function FilterSection({
       <Collapsible.Trigger
         className="
           flex w-full cursor-pointer items-center justify-between gap-2
-          text-xs font-semibold uppercase tracking-wider text-zinc-400
+          text-xs font-semibold uppercase tracking-wider text-gray-400
           transition-colors
-          hover:text-zinc-600
+          hover:text-gray-600
         "
       >
         <span className="flex items-center gap-1.5">

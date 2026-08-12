@@ -1,0 +1,670 @@
+{
+  "id": 512066,
+  "identifier": "CGWWSO",
+  "persistentUrl": "https://doi.org/10.34894/CGWWSO",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-21",
+  "storageIdentifier": "surf://10.34894/CGWWSO",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31430,
+    "datasetId": 512066,
+    "datasetPersistentId": "doi:10.34894/CGWWSO",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/CGWWSO",
+    "versionNumber": 1,
+    "internalVersionNumber": 18,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2022-03-15",
+    "lastUpdateTime": "2025-08-21T17:21:49Z",
+    "releaseTime": "2025-08-21T17:21:49Z",
+    "createTime": "2025-08-21T17:17:24Z",
+    "publicationDate": "2025-08-21",
+    "citationDate": "2025-08-21",
+    "termsOfUse": "GPL-3.0+ – <a href=\"https://www.gnu.org/licenses/gpl-3.0.html\" target=\"_blank\">https://www.gnu.org/licenses/gpl-3.0.html</a>",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "ROBMED: SPSS R extension bundle for robust mediation analysis"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.19354268"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Alfons, Andreas"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-2513-3788"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Alfons, Andreas"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus School of Economics <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>SPSS R extension bundle for the robust bootstrap test ROBMED (Alfons, Ates & Groenen, 2022) for mediation analysis. It links to the R package robmed.</p>\n<p><br></p>\n<p>Mediation analysis is central to theory building and testing in organizational sciences. Scholars often use linear regression analysis based on normal-theory maximum likelihood estimators to test mediation. However, these estimators are very sensitive to deviations from normality assumptions, such as outliers, heavy tails, or skewness of the observed distribution. This sensitivity seriously threatens the empirical testing of theory about mediation mechanisms. To overcome this threat, we develop a robust mediation method that yields reliable results even when the data deviate from normality assumptions. We demonstrate the mechanics of our proposed method in an illustrative case, while simulation studies show that our method is both superior in estimating the effect size and more reliable in assessing its significance than the existing methods. Furthermore, we provide freely available software in R and SPSS to enhance its accessibility and adoption by empirical researchers.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mediation Analysis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Robust Statistics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bootstrap"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Spss"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "R"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Statistics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Statistics Not Elsewhere Classified"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a eleven-file data package totaling 1.2 MB, containing files in , .xml, .md, .R, .png, .cfe, .txt, .spe and .sav formats.<p><p>If you use this dataset, please cite: Alfons, Andreas (2022). ROBMED: SPSS R extension bundle for robust mediation analysis. Erasmus University Rotterdam (EUR). Software. <a href=\"https://doi.org/10.25397/eur.19354268\" target=\"_blank\">https://doi.org/10.25397/eur.19354268</a><p>"
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "[Funder Name: Dutch Research Council; Grant Label: Robust analysis of (big) rating-scale data in the social sciences; Grant URL: https://app.dimensions.ai/details/grant/grant.9462293]"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "[Grant Code: VI.Vidi.195.141]"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-03-15"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Alfons, Andreas"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-03-14"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://github.com/aalfons/ROBMED-RSPSS\" target=\"_blank\">https://github.com/aalfons/ROBMED-RSPSS</a>",
+              "<a href=\"https://doi.org/10.1177/1094428121999096\" target=\"_blank\">https://doi.org/10.1177/1094428121999096</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/CGWWSO"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:f7f111d7-a704-4ada-812c-35e67cc39f25"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-430fbbad-6722-49b3-9adc-9b58247a0755"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "BSG2014.sav",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512067,
+          "persistentId": "",
+          "filename": "BSG2014.sav",
+          "contentType": "application/x-spss-sav",
+          "friendlyType": "SPSS Binary",
+          "filesize": 9801,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda64c27-2de42f513e5c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a6a779add45a0651f7be661221c665ee5ef366ba"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "LICENSE",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512068,
+          "persistentId": "",
+          "filename": "LICENSE",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 35149,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda64d02-dd54c1422319",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "31a3d460bb3c7d98845187c716a30db81c44b615"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "NEWS",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512069,
+          "persistentId": "",
+          "filename": "NEWS",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 592,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda64dd2-a47e2e043cc6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c640acc2e52dc4f9abb873afe9571751b4477228"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "README.md",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512070,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 9419,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda64eaf-1ca3cf4f5802",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6376d37f2a6e637818276e75963987f2e4f9c0d7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ROBMED.cfe",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43/src",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512076,
+          "persistentId": "",
+          "filename": "ROBMED.cfe",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 291051,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda6587b-19079bd8bcc0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c4e348f68bdfe73b07a67006529381730039e443"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ROBMED-dialog.png",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43/screenshots",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512072,
+          "persistentId": "",
+          "filename": "ROBMED-dialog.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 173187,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda650bc-6146d0148297",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "80a1d280f55916f083d401a9c32e84e9f6530495"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ROBMED-options.png",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43/screenshots",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512073,
+          "persistentId": "",
+          "filename": "ROBMED-options.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 66534,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda651b2-5b44fe7b254b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "736fa686b1824f0258fe7fb37d4fa63cf3d95adf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ROBMED.R",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43/src",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512075,
+          "persistentId": "",
+          "filename": "ROBMED.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 18296,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda653a9-5e348c347f54",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "05274cada4214be448350459b76454de71c4bd83"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ROBMED.spe",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512071,
+          "persistentId": "",
+          "filename": "ROBMED.spe",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 623175,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda64fad-1f67e63f9e29",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2e04563a585493959265a2f8eee978cdb79c34f1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ROBMED-SyntaxDiagram.txt",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43/src",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512074,
+          "persistentId": "",
+          "filename": "ROBMED-SyntaxDiagram.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 573,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda652b8-4bfd296b793d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4b6022ca8b6b462db63c9088d40302bebd2f073c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ROBMED.xml",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.19354268/ROBMED-RSPSS.zip/aalfons-ROBMED-RSPSS-491ec43/src",
+        "version": 1,
+        "datasetVersionId": 31430,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 512077,
+          "persistentId": "",
+          "filename": "ROBMED.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 1450,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198cda6595f-52bbce6906b9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "45079878b2989edae477c51ddc31a93b749808f9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Alfons, Andreas, 2025, \"ROBMED: SPSS R extension bundle for robust mediation analysis\", https://doi.org/10.34894/CGWWSO, DataverseNL, V1"
+  }
+}
