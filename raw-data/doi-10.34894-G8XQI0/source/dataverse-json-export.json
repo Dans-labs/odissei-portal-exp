@@ -1,0 +1,559 @@
+{
+  "id": 318662,
+  "identifier": "G8XQI0",
+  "persistentUrl": "https://doi.org/10.34894/G8XQI0",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-11-10",
+  "storageIdentifier": "surf://10.34894/G8XQI0",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24883,
+    "datasetId": 318662,
+    "datasetPersistentId": "doi:10.34894/G8XQI0",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/G8XQI0",
+    "versionNumber": 4,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-04-02T04:58:03Z",
+    "releaseTime": "2023-04-02T04:58:03Z",
+    "createTime": "2023-04-02T04:56:47Z",
+    "publicationDate": "2022-11-10",
+    "citationDate": "2022-11-10",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "termsOfAccess": "The datasets don't have any access restrictions.",
+    "originalArchive": "Catalogus Epistolarum Neerlandicarum (CEN) database (https://picarta.oclc.org/psi/xslt/DB=3.23/). Data dump obtained from KB/OCLC in 2019.",
+    "sizeOfCollection": "Skillnet has cleaned approx. 10% of the entire CEN dataset (period between 1200 and 1820). The cleaned version contains: 2 .csv files, 1 file with documentation, an external jupyter notebook to browse the datasets (https://doi.org/10.5281/zenodo.7309977).",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Catalogus Epistularum Neerlandicarum (CEN): Letter and person metadata (1270-1820) curated by the SKILLNET project"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SKILLNET project"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Liliana Melgar"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dirk van Miert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<strong>If you wish to explore, query, filter, visualize or export the data with the support of a jupyter notebook, this is provided for direct use here: \n<a href=\"https://edu.nl/bn93d\">https://edu.nl/bn93d</a>.</strong>\n<br>\n<br>\nThis dataset contains curated files derived from the cleaning process of a slice of the Catalogus Epistolarum Neerlandicaron (CEN) metadata. This dataset can be used by researchers interested in the correspondence exchanged during the Early modern period, especially related to Dutch learned men and women of the time.\n<br>\n<br>\nThe CEN is the Dutch national letter catalog, which aggregates letter metadata from different universities in the Netherlands and from the National Library of the Netherlands (KB), among others, since the years 1980's to the present. Since January 2020, one can consult the CEN via Worldcat (https://picarta.on.worldcat.org,last accessed November 9, 2022). The entire database contains more than a million records (according to the KB website consulted on November 9, 2022: https://www.kb.nl/over-ons/diensten/cen). This database is curated by the KB, who owns the rights together with OCLC. \n<br>\n<br>\nA data dump in XML of the CEN database was obtained by Ingeborg van Vugt (https://orcid.org/0000-0002-7703-1791) from the KB and OCLC in October 2019. The dataset has been sliced (years between 1200 to 1820) and cleaned in two phases: (a) manually during Ingeborg's Ph.D. thesis and (b) semi-automatically during the SKILLNET project. The second part of the cleaning process has been carried out together by data manager Liliana Melgar Estrada (https://orcid.org/0000-0003-2003-4200) and Ingeborg van Vugt, receiving the input from different collaborators from the SKILLNET team, student assistant Rosalie Versmissen (https://orcid.org/0000-0001-9558-8510), and some external collaborators.\n<br>\n<br>\nThe curated version of a slice of the entire data is offered in this dataset. It includes the letters between 1270 and 1820 plus some undated letters, which is of interest for the study of Early Modern correspondence. The XML file was converted to a .csv file with the support of the Digital Humanities Center at Utrecht University. The initial XML data dump is not provided in this dataset. It has more than 500 thousand rows (in which each row represents either a letter or a group of letters), however, the cleaning process was non-destructive, which means that the original metadata and links to the original source can be found together with the curated data.\n<br>\n<br>\nThese data underwent a data cleaning process by semi-automatic and manual processes, which resulted in two files that are deposited in this dataset: one containing the letter's metadata, and another one containing the unique person's metadata (which also includes the mappings, i.e., identifiers, to other datasets).\n<br>\n<br>\nThe curation consisted on applying data wrangling operations (parsing, harmonization), adding missing metadata or correction of inaccuracies (dates of birth/death of correspondents, letter dates), validations of correctness (between dates of birth/death and letter dates) and partial reconciliation (adding external identifiers from other letter databases).  \n<br>\n<br>\nThe CEN data is also available for free access online via Picarta (https://picarta.oclc.org/psi/xslt/DB=3.23/) and Worldcat (https://www.worldcat.org/). Some data may have been updated since 2020 in the online versions but, to the best of our knowledge, this doesn't happen often for the period of time (subset) that was cleaned by SKILLNET. In any case, <b>if you use this dataset, it is recommended to give a proper citation to it, which includes the version number and date</b>.\n<br>\n<br>\n<br>\n<strong>If you wish to explore, query, filter, visualize or export the data with the support of a jupyter notebook, this is provided for direct use here: \n<a href=\"https://edu.nl/bn93d\">https://edu.nl/bn93d</a>.</strong>\n<br>\n<br>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-11-09"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "letters (correspondence)"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Getty"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.getty.edu/research/tools/vocabularies/aat/index.html"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "correspondence"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q1784733"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Early modern, 1500-1700"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Library of Congress Subject Headings"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://n2t.net/ark:/99152/p06c6g3"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SKILLNET. (2022). lilimelgar/CEN-catalogus-skillnet-exploration (ADD VERSION HERE). Zenodo. https://doi.org/10.5281/zenodo.7309977"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.5281/zenodo.7309977"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.5281/zenodo.7309977"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The datasets provided by the SKILLNET project have been curated (i.e., cleaned, harmonized, reconciled) using manual and semi-automatic methods. Even though a lot of dedication and effort was put in curating the datasets provided here, some errors, inaccuracies and/or missing data still exist.\n<br>\n<br>\nUntil January 2023 the files will be constantly updated with more cleaned data and mappings. For that reason, it is important that users of the dataset always include the version number in their reports, or wait until January 2023 when the latest version will be deposited."
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Rights Holder"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nationale Bibliotheek (KB)"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Rights Holder"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "OCLC"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Curator"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ingeborg van Vugt"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Manager"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Liliana Melgar-Estrada"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Curator"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rosalie Versmissen"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Project Leader"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dirk van Miert"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ERC"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ERC-2016-COG"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Melgar Estrada, Liliana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-11-10"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1200-01-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1820-12-31"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2019"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-12-31"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Letter and person metadata"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/G8XQI0"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "4.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:a65869db-54b9-431b-9378-d18360a97495"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-9ea0c39d-0c7d-46bf-97c8-10ae18dd747d"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Pdf file with documentation related to the cleaning process of this dataset. It includes a list of the columns in both files (letters and person names) with an explanation of their contents. It also describes the status of the mappings to external sources.",
+        "label": "Accompanying documentation to the CEN dataset.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24883,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 352635,
+          "persistentId": "",
+          "filename": "Accompanying documentation to the CEN dataset.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 195742,
+          "description": "Pdf file with documentation related to the cleaning process of this dataset. It includes a list of the columns in both files (letters and person names) with an explanation of their contents. It also describes the status of the mappings to external sources.",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:185883c2b71-c1e7817b61e0",
+          "rootDataFileId": -1,
+          "md5": "11af8e73fafe0e0593403a89472879c7",
+          "checksum": {
+            "type": "MD5",
+            "value": "11af8e73fafe0e0593403a89472879c7"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file is in .csv format, it contains the letters' metadata of a subset (between 1200 and 1820) of the entire Catalogus Epistolarum Neerlandicarum (CEN) curated during the SKILLNET project. \n\nFor more information about the CEN read the introduction provided to the dataset.\n\nThis letter metadata set has 65.415 rows, each row describes either an individual letter or a group of letters. The names in the columns \"sender\" and \"receiver\" have been cleaned, clustered and, to a great extent, mapped to other persons databases. Those names can be found in the other dataset included in this dataverse (personNames). Other columns have also been cleaned during the SKILLNET project (e.g., letter year, quantity, amongh others). The description of the cleaning process can be found in the documentation added as a separate file to this dataset.\n\nIf you wish to explore, query, filter, visualize or export the data with the support of a jupyter notebook, this is provided for direct use here: https://edu.nl/bn93d.",
+        "label": "letters_CEN_1200to1820_cleanedSkillnet.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24883,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 352633,
+          "persistentId": "",
+          "filename": "letters_CEN_1200to1820_cleanedSkillnet.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 44429235,
+          "description": "This file is in .csv format, it contains the letters' metadata of a subset (between 1200 and 1820) of the entire Catalogus Epistolarum Neerlandicarum (CEN) curated during the SKILLNET project. \n\nFor more information about the CEN read the introduction provided to the dataset.\n\nThis letter metadata set has 65.415 rows, each row describes either an individual letter or a group of letters. The names in the columns \"sender\" and \"receiver\" have been cleaned, clustered and, to a great extent, mapped to other persons databases. Those names can be found in the other dataset included in this dataverse (personNames). Other columns have also been cleaned during the SKILLNET project (e.g., letter year, quantity, amongh others). The description of the cleaning process can be found in the documentation added as a separate file to this dataset.\n\nIf you wish to explore, query, filter, visualize or export the data with the support of a jupyter notebook, this is provided for direct use here: https://edu.nl/bn93d.",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:18588219d26-44458815ac75",
+          "rootDataFileId": 318663,
+          "previousDataFileId": 351685,
+          "md5": "f7ee7ca72d030c91cbae4fcea5796d02",
+          "checksum": {
+            "type": "MD5",
+            "value": "f7ee7ca72d030c91cbae4fcea5796d02"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file is in .csv format, it contains the metadata of the persons who are senders and/or receivers of a CEN subset (between 1200 and 1820) of the entire Catalogus Epistolarum Neerlandicarum (CEN) curated during the SKILLNET project.\n\nFor more information about the CEN read the introduction provided to the dataset.\n\nThis person's metadata set has 45.283 rows, each row describes a single person entity in the CEN letters dataset. These names come from the columns \"sender\" and \"receiver\" from the letters' metadata. They have been cleaned, clustered and, to a great extent, mapped to other persons databases. The description of the cleaning process can be found in the documentation added as a separated file to this dataset.\n\nIf you wish to explore, query, filter, visualize or export the data with the support of a jupyter notebook, this is provided for direct use here: https://edu.nl/bn93d.",
+        "label": "persons_CEN_1200to1800_cleanedSkillnet.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24883,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 352634,
+          "persistentId": "",
+          "filename": "persons_CEN_1200to1800_cleanedSkillnet.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 14209542,
+          "description": "This file is in .csv format, it contains the metadata of the persons who are senders and/or receivers of a CEN subset (between 1200 and 1820) of the entire Catalogus Epistolarum Neerlandicarum (CEN) curated during the SKILLNET project.\n\nFor more information about the CEN read the introduction provided to the dataset.\n\nThis person's metadata set has 45.283 rows, each row describes a single person entity in the CEN letters dataset. These names come from the columns \"sender\" and \"receiver\" from the letters' metadata. They have been cleaned, clustered and, to a great extent, mapped to other persons databases. The description of the cleaning process can be found in the documentation added as a separated file to this dataset.\n\nIf you wish to explore, query, filter, visualize or export the data with the support of a jupyter notebook, this is provided for direct use here: https://edu.nl/bn93d.",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:1858822af39-5e30d0d14487",
+          "rootDataFileId": 318664,
+          "previousDataFileId": 351686,
+          "md5": "1bfc78556aaeb8ffdf5f442f8ff72c6c",
+          "checksum": {
+            "type": "MD5",
+            "value": "1bfc78556aaeb8ffdf5f442f8ff72c6c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-06",
+          "publicationDate": "2023-01-06",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "SKILLNET project, 2022, \"Catalogus Epistularum Neerlandicarum (CEN): Letter and person metadata (1270-1820) curated by the SKILLNET project\", https://doi.org/10.34894/G8XQI0, DataverseNL, V4"
+  }
+}

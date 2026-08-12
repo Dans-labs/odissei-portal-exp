@@ -1,0 +1,447 @@
+{
+  "id": 357057,
+  "identifier": "8AWC3R",
+  "persistentUrl": "https://doi.org/10.34894/8AWC3R",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-03-14",
+  "storageIdentifier": "surf://10.34894/8AWC3R",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31781,
+    "datasetId": 357057,
+    "datasetPersistentId": "doi:10.34894/8AWC3R",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/8AWC3R",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-10-09T08:17:35Z",
+    "releaseTime": "2025-10-09T08:17:35Z",
+    "createTime": "2025-10-09T08:17:27Z",
+    "publicationDate": "2023-03-14",
+    "citationDate": "2023-03-14",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "EU KLEMS November 2009 Release"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "EU KLEMS 2009I"
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EU KLEMS"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GGDC"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EU KLEMS Growth and Productivity Accounts: November 2009 Release<br><br>\n\n<b>All series derived from this database need to be referred to as follows:</b><br>\nO’Mahony, Mary and Marcel P. Timmer (2009), <a href=\"https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0297.2009.02280.x\" target=\"_blank\">“Output, Input and Productivity Measures at the Industry Level: the EU KLEMS Database”</a>, <i>Economic Journal</i>, 119(538), pp. F374-F403<br><br>\n\nFor more details and analysis, see: <b>Timmer, Inklaar , O'Mahony and van Ark</b>, <i><a href=\"http://www.cambridge.org/gb/knowledge/isbn/item5562703” target=\"_blank\">Economic Growth in Europe</a></i>, Cambridge University Press, 2010<br><br>\n\nDocumentation on the sources and methods have been published with the March 2007 Release of the EU KLEMS dataset:\n<ul>\n<li><a href=\"https://dataverse.nl/api/access/datafile/357032\" target=\"_blank\">Methodology of the March 2007 Release</a></li>\n<li><a href=\"https://dataverse.nl/api/access/datafile/357029\" target=\"_blank\">Sources of the March 2007 Release</a></li>\n</ul>\n\nMore information on additional EU KLEMS releases can be found on the website of the <a href=\"https://www.rug.nl/ggdc/productivity/eu-klems/\" target=\"_blank\"> Groningen Growth and Development Centre (GGDC)</a>. <br><br>\n\nThe original website of the EU KLEMS project, on which these data were first released, has been archived, but is still available through the <a href=\"https://web.archive.org/web/20211105161700/http://euklems.net/\" target=\"_blank\">Internet Archive</a>.<br><br>\n\n<b>Consortium members EU KLEMS Project:</b><br>\n<a href=\"http://www.ggdc.net/\" target=\"_blank\">University of Groningen, Groningen Growth and Development Centre (GGDC, Groningen)</a>\n<br>\n<a href=\"http://www.niesr.ac.uk/\" target=\"_blank\">National Institute of Economic and Social Research (NIESR, London)</a>\n<br>\n<a href=\"http://www.cepii.fr/\" target=\"_blank\">Centre d'études prospectives et d'informations internationales (CEPII, Paris)</a>\n<br>\n<a href=\"http://www.cebr.dk/\" target=\"_blank\">Centre for Economic and Business Research (CEBR, Copenhagen)</a>\n<br>\n<a href=\"http://www.cpb.nl/\" target=\"_blank\">Netherlands Bureau for Economic Policy Analysis (CPB, The Hague)</a>\n<br>\n<a href=\"http://www.diw.de/\" target=\"_blank\">Deutsches Institut für Wirtschaftsforschung (DIW, Berlin)</a>\n<br>\n<a href=\"http://www.plan.be/\" target=\"_blank\">Federaal Planbureau (FPB, Brussels)</a>\n<br>\n<a href=\"http://www.isae.it/inglese/bpg/default.asp\">Information on the Istituto di Studi e Analisi Economica (ISAE, Roma)</a>\n<br>\n<a href=\"http://www.ivie.es/\" target=\"_blank\">Instituto Valenciano de Investigationes Económicas (IVIE, Valencia)</a>\n<br>\n<a href=\"http://www.hkkk.fi/english/\" target=\"_blank\">Helsinki School of Economics (HSE, Helsinki)</a>\n<br>\n<a href=\"http://www.wifo.ac.at/\" target=\"_blank\">Österreichisches Institut für Wirtschaftsforschung (WIFO, Vienna)</a>\n<br>\n<a href=\"http://www.wiiw.at/\" target=\"_blank\">Wiener Institut für Internationale Wirtschaftsvergleiche</a>\n<br>\n<a href=\"http://www.feweb.vu.nl/esi/\" target=\"_blank\">AMsterdam Institute for Business and Economic Research, Free University Amsterdam (AMBER)</a>\n<br>\n<a href=\"http://www.conference-board.org/worldwide/europe.cfm\">The Conference Board Europe (TCB, Brussels)</a>\n<br>\n<a href=\"http://www.fh-konstanz.de/\" target=\"_blank\">Fachhochschule Konstanz (FK, Konstanz)</a>\n<br>\n<a href=\"http://www.bham.ac.uk/\" target=\"_blank\">University of Birmingham (UNI-BHAM, Birmingham)</a>\n<br>\n<a href=\"http://www.ptt.fi/\" target=\"_blank\">Pellervo Economic Research Institute (PTT, Helsinki)</a><br><br>\n\n<i>The construction of this database is financially supported by the European Commission, Research Directorate General as part of the 6th Framework Programme, Priority 8, “Policy Support and Anticipating Scientific and Technological Needs” and as part of the 7th Framework Programme, Theme 8: Socio-Economic Sciences and Humanities, Grant agreement no: 225 281. Any errors or omissions are entirely the responsibility of the GGDC (Groningen Growth and Development Centre). <a href=\"https://web.archive.org/web/20211102095555fw_/http://euklems.net/project_site.html\" target=\"_blank\">More about this project.</a></i>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2009-11-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "productivity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "economic growth"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "growth accounting"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "total factor productivity"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "O’Mahony, Mary and Marcel P. Timmer (2009), “Output, Input and Productivity Measures at the Industry Level: the EU KLEMS Database”, <i>Economic Journal</i>, 119(538), pp. F374-F403"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1468-0297.2009.02280.x"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Gouma, Reitze"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-03-14"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/8AWC3R"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:bc6be939-056a-4366-be2d-0891ae7eeb83"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-d31d4300-648c-48a6-b27b-c5529ad04e9f"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Capital data file in long format, for more details see the meta file. (CSV format)",
+        "label": "09I_capital.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31781,
+        "dataFile": {
+          "id": 357065,
+          "persistentId": "",
+          "filename": "09I_capital.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 44263828,
+          "description": "Capital data file in long format, for more details see the meta file. (CSV format)",
+          "storageIdentifier": "surf://store:186dfc3ede0-15ea3fa54b9c",
+          "rootDataFileId": -1,
+          "md5": "d62d597d8838a6557a217ed7dea5efc9",
+          "checksum": {
+            "type": "MD5",
+            "value": "d62d597d8838a6557a217ed7dea5efc9"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Meta file for the capital data. (Excel format)",
+        "label": "09I_capital_meta.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31781,
+        "dataFile": {
+          "id": 357063,
+          "persistentId": "",
+          "filename": "09I_capital_meta.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 38130,
+          "description": "Meta file for the capital data. (Excel format)",
+          "storageIdentifier": "surf://store:186dfc3bcfe-c1c3d7d0c388",
+          "rootDataFileId": -1,
+          "md5": "fb82ac1c1558039360d2ff4b0b618931",
+          "checksum": {
+            "type": "MD5",
+            "value": "fb82ac1c1558039360d2ff4b0b618931"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Output data file in long format, for more details see the meta file. (CSV format)",
+        "label": "09I_output.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31781,
+        "dataFile": {
+          "id": 357059,
+          "persistentId": "",
+          "filename": "09I_output.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 67559425,
+          "description": "Output data file in long format, for more details see the meta file. (CSV format)",
+          "storageIdentifier": "surf://store:186dfc42980-6c7106919ccb",
+          "rootDataFileId": -1,
+          "md5": "26004ec3c4a11f280e492334b126725b",
+          "checksum": {
+            "type": "MD5",
+            "value": "26004ec3c4a11f280e492334b126725b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Meta file for the output data. (Excel format)",
+        "label": "09I_output_meta.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31781,
+        "dataFile": {
+          "id": 357061,
+          "persistentId": "",
+          "filename": "09I_output_meta.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 39259,
+          "description": "Meta file for the output data. (Excel format)",
+          "storageIdentifier": "surf://store:186dfc3bfa9-487d6b087498",
+          "rootDataFileId": -1,
+          "md5": "357116f5dfb463a0a40e3e336004afc4",
+          "checksum": {
+            "type": "MD5",
+            "value": "357116f5dfb463a0a40e3e336004afc4"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Purchasing power parities used for the construction of the regional aggregates. (Excel format)",
+        "label": "09I_ppp.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31781,
+        "dataFile": {
+          "id": 357064,
+          "persistentId": "",
+          "filename": "09I_ppp.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 24317,
+          "description": "Purchasing power parities used for the construction of the regional aggregates. (Excel format)",
+          "storageIdentifier": "surf://store:186dfc3be89-b609d10b4189",
+          "rootDataFileId": -1,
+          "md5": "e08d66e6306b7ffec4a52969a7a1fe86",
+          "checksum": {
+            "type": "MD5",
+            "value": "e08d66e6306b7ffec4a52969a7a1fe86"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Description of variables and starting year for each variable in the November 2009 release (PDF)",
+        "label": "Contents_09I_release.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31781,
+        "dataFile": {
+          "id": 357060,
+          "persistentId": "",
+          "filename": "Contents_09I_release.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 127126,
+          "description": "Description of variables and starting year for each variable in the November 2009 release (PDF)",
+          "storageIdentifier": "surf://store:186dfc153f3-0282564250a0",
+          "rootDataFileId": -1,
+          "md5": "009f51be00f7b7cf5a9e2b73f8be2dc2",
+          "checksum": {
+            "type": "MD5",
+            "value": "009f51be00f7b7cf5a9e2b73f8be2dc2"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Changes in this release compared to the March 2008 EU KLEMS Release (PDF)",
+        "label": "EUKLEMS_November2009_Changes.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31781,
+        "dataFile": {
+          "id": 357062,
+          "persistentId": "",
+          "filename": "EUKLEMS_November2009_Changes.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 49906,
+          "description": "Changes in this release compared to the March 2008 EU KLEMS Release (PDF)",
+          "storageIdentifier": "surf://store:186dfc152ce-de6536d133de",
+          "rootDataFileId": -1,
+          "md5": "e90ac2669f4f8e79018c21df79fcc8a7",
+          "checksum": {
+            "type": "MD5",
+            "value": "e90ac2669f4f8e79018c21df79fcc8a7"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "References to sources and methods documentation (PDF)\nThis includes relevant links to documentation which have already been added to the repository of a previous release",
+        "label": "sources_and_methods_references.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 1,
+        "datasetVersionId": 31781,
+        "dataFile": {
+          "id": 357058,
+          "persistentId": "",
+          "filename": "sources_and_methods_references.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 15554,
+          "description": "References to sources and methods documentation (PDF)\nThis includes relevant links to documentation which have already been added to the repository of a previous release",
+          "storageIdentifier": "surf://store:186dfc1520e-840f4a5c39e0",
+          "rootDataFileId": -1,
+          "md5": "b10eddecf2e42cf4045ecb57fb89eeb1",
+          "checksum": {
+            "type": "MD5",
+            "value": "b10eddecf2e42cf4045ecb57fb89eeb1"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2023-03-14",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "EU KLEMS, 2023, \"EU KLEMS November 2009 Release\", https://doi.org/10.34894/8AWC3R, DataverseNL, V1"
+  }
+}

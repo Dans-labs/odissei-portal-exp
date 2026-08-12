@@ -1,0 +1,272 @@
+{
+  "id": 640375,
+  "identifier": "VMDKIS",
+  "persistentUrl": "https://doi.org/10.34894/VMDKIS",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-05-19",
+  "storageIdentifier": "surf://10.34894/VMDKIS",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34702,
+    "datasetId": 640375,
+    "datasetPersistentId": "doi:10.34894/VMDKIS",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/VMDKIS",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-05-19T12:22:34Z",
+    "releaseTime": "2026-05-19T12:22:34Z",
+    "createTime": "2026-05-19T12:22:33Z",
+    "publicationDate": "2026-05-19",
+    "citationDate": "2026-05-19",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Bolivia, 1970-2012"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Velden, Sjaak"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IISH"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Velden, Sjaak"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IISH"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Number of strikes collected by CERES"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van der Velden, Sjaak"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2019-06-17"
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Bolivia, Plurinational State of"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicBoundingBox",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "westLongitude": {
+                  "typeName": "westLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "-69.6561908972343"
+                },
+                "eastLongitude": {
+                  "typeName": "eastLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "-57.5211178859326"
+                },
+                "northLatitude": {
+                  "typeName": "northLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "-9.67919092519541"
+                },
+                "southLatitude": {
+                  "typeName": "southLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "-22.9011089375093"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/VMDKIS"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:17b4f3b7-b111-4e1b-9774-689f1f7ded51"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-394b9540-f1bd-4624-ad0d-f5832da7c6b4"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "The actual data",
+        "label": "National_Bolivia_1970-2012.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34702,
+        "dataFile": {
+          "id": 640376,
+          "persistentId": "",
+          "filename": "National_Bolivia_1970-2012.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 31179,
+          "description": "The actual data",
+          "storageIdentifier": "surf://store:19e402fd8fc-dfdcc752548a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1a6c1ce4bea77206cca5ab96d7d5eb5a77187b92"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-19",
+          "publicationDate": "2026-05-19",
+          "lastUpdateTime": "2026-05-19T12:22:34Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "National_Bolivia_explanatory text_1970-2012.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34702,
+        "dataFile": {
+          "id": 640377,
+          "persistentId": "",
+          "filename": "National_Bolivia_explanatory text_1970-2012.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 27136,
+          "description": "",
+          "storageIdentifier": "surf://store:19e402fd99e-f1bb9b1a379d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0c46618f38aeb8404c1bbc819da5b5084012f54c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-19",
+          "publicationDate": "2026-05-19",
+          "lastUpdateTime": "2026-05-19T12:22:34Z",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "van der Velden, Sjaak, 2026, \"Bolivia, 1970-2012\", https://doi.org/10.34894/VMDKIS, DataverseNL, V1"
+  }
+}

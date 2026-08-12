@@ -1,0 +1,1610 @@
+{
+  "id": 512089,
+  "identifier": "HY5WD5",
+  "persistentUrl": "https://doi.org/10.34894/HY5WD5",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-21",
+  "storageIdentifier": "surf://10.34894/HY5WD5",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31437,
+    "datasetId": 512089,
+    "datasetPersistentId": "doi:10.34894/HY5WD5",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/HY5WD5",
+    "versionNumber": 3,
+    "internalVersionNumber": 8,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2022-02-09",
+    "lastUpdateTime": "2025-08-21T17:36:19Z",
+    "releaseTime": "2025-08-21T17:36:19Z",
+    "createTime": "2025-08-21T17:34:59Z",
+    "publicationDate": "2025-08-21",
+    "citationDate": "2025-08-21",
+    "termsOfUse": "MIT – <a href=\"license_uri\" target=\"_blank\">license_uri</a>",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Code: A Fast Exact Pricing Algorithm for the Railway Crew Scheduling Problem"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.19115759"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Rossum, Bart"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-8234-5373"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Rossum, Bart"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus School of Economics <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>This is a repository containing the code used for the article A Fast Exact Pricing Algorithm for the Railway Crew Scheduling Problem'. In this article, a new exact pricing algorithm is proposed, and this algorithm is compared to the fastest known exact algorithm from literature.</p>\n<p><br></p>\n<p><strong>Abstract</strong></p>\n<p>The railway crew scheduling problem consists of selecting a least cost set of duties that cover all tasks. Large-scale crew scheduling problems are typically solved with column generation, where in each iteration a pricing problem needs to be solved. When the duty constraints consist in a maximum duty length, a meal break constraint, and the requirement to start and end at the same crew depot, the fastest known exact pricing algorithm has O(|N|<sup>3</sup>) complexity, |N| being the number of tasks. In this work we propose an O(|N|<sup>2</sup>) exact pricing algorithm. We compare the two algorithms on randomly generated instances and show that a reduction in computation time of 95% is attained on instances of size |N|=1,250. </p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Crew Scheduling Problem"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Column Generation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pricing Problem"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Shortest Path Problem With Resource Constraints"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Railway Optimization"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Operations Research"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Operations Research"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a fifty-three-file data package totaling 434.3 KB, containing files in , .java, .md, .csv and .class formats.<p><p>If you use this dataset, please cite: van Rossum, Bart (2022). Code: A Fast Exact Pricing Algorithm for the Railway Crew Scheduling Problem. Erasmus University Rotterdam (EUR). Software. <a href=\"https://doi.org/10.25397/eur.19115759\" target=\"_blank\">https://doi.org/10.25397/eur.19115759</a><p>"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-02-09"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van Rossum, Bart"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-02-03"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://doi.org/10.1016/j.orl.2022.10.011\" target=\"_blank\">https://doi.org/10.1016/j.orl.2022.10.011</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/HY5WD5"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "3.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:59c00549-dc94-445f-b353-d108afbaba15"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-3bdfaca3-0617-490c-a625-77f5c56fd1a0"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "BinarySearch.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/util",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512202,
+          "persistentId": "",
+          "filename": "BinarySearch.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 1373,
+          "storageIdentifier": "surf://store:198cdb3b14e-53dc89a702c2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "96253b3d8896f0b0fac16fce020b75fcd363ba19"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "BinarySearch.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/util",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512223,
+          "persistentId": "",
+          "filename": "BinarySearch.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 1696,
+          "storageIdentifier": "surf://store:198cdb3b1c5-c02b13f7e441",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a05bcfc2ddb712fef620aa31c7456f5260e30439"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": ".classpath",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512210,
+          "persistentId": "",
+          "filename": ".classpath",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 417,
+          "storageIdentifier": "surf://store:198cdb3b0e6-5dcfd4759da7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6b7d5819ac4259ea861ae09528d7489c95eddeaf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ColumnGeneration.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/columnGeneration",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512235,
+          "persistentId": "",
+          "filename": "ColumnGeneration.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 2804,
+          "storageIdentifier": "surf://store:198cdb3b0f7-e02ac73fa909",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f63a1aec7d002b8af13cd3efe45f4908bfbbf245"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ColumnGeneration.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/columnGeneration",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512225,
+          "persistentId": "",
+          "filename": "ColumnGeneration.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 3214,
+          "storageIdentifier": "surf://store:198cdb3b15d-8837ba2e5711",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "37c59e7736445dae3a8345ae30cdc6d591fb6277"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Connection$ConnectionType.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512221,
+          "persistentId": "",
+          "filename": "Connection$ConnectionType.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 1342,
+          "storageIdentifier": "surf://store:198cdb3b10a-e6720860037d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "84b3bbaf876bfd1c57919493dfa6d735d21fa1e7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Connection.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512206,
+          "persistentId": "",
+          "filename": "Connection.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 2542,
+          "storageIdentifier": "surf://store:198cdb3b10e-5ef64b895bf1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a41d0c0adec293dd8a82d3c0d87e73d5cd94f69c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Connection.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512239,
+          "persistentId": "",
+          "filename": "Connection.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 4205,
+          "storageIdentifier": "surf://store:198cdb3b171-b88cba295388",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "150bf1bac22ddda98a04845045b0370a47f48f06"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "CubicBreak.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512241,
+          "persistentId": "",
+          "filename": "CubicBreak.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 5289,
+          "storageIdentifier": "surf://store:198cdb3b132-a88459ba14ed",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a9b4249b3f5178b78ba386183b0f4c083b46f54d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "CubicBreak.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512203,
+          "persistentId": "",
+          "filename": "CubicBreak.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 4948,
+          "storageIdentifier": "surf://store:198cdb3b19e-4d7b1e204db0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "679cd69b969d6635f9f0ec036e1256beb310ef3a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "CubicNoBreak.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512214,
+          "persistentId": "",
+          "filename": "CubicNoBreak.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 3883,
+          "storageIdentifier": "surf://store:198cdb3b136-1567ae6b02c0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "62b13d6731de7a38d4980cbb8ed17f96f4d722e4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "CubicNoBreak.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512215,
+          "persistentId": "",
+          "filename": "CubicNoBreak.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 2895,
+          "storageIdentifier": "surf://store:198cdb3b1a4-160cd8a717a1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "abea352f396e9444cb7a07ae2f2eb06606a81a9a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "DisjointSelector$ReducedCostComparator.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/columnGeneration",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512217,
+          "persistentId": "",
+          "filename": "DisjointSelector$ReducedCostComparator.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 1356,
+          "storageIdentifier": "surf://store:198cdb3b0fb-fc0073df249c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2107c250fc9f94c011267f0f1f38cf437ef46fa3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "DisjointSelector.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/columnGeneration",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512248,
+          "persistentId": "",
+          "filename": "DisjointSelector.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 2275,
+          "storageIdentifier": "surf://store:198cdb3b0ff-f97dec8a7020",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "367a9a2361264c3f5ba4e938012a9bd96d2af236"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "DisjointSelector.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/columnGeneration",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512243,
+          "persistentId": "",
+          "filename": "DisjointSelector.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 2514,
+          "storageIdentifier": "surf://store:198cdb3b162-3cf8dfa98a45",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0bc2cd85533487b2a6e24f4c5eef4220c607d7d7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Duty.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/columnGeneration",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512229,
+          "persistentId": "",
+          "filename": "Duty.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 773,
+          "storageIdentifier": "surf://store:198cdb3b103-0e71c9e589bb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e73b15167de4c544afb4602d19f84b0d8e6284e3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Duty.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/columnGeneration",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512212,
+          "persistentId": "",
+          "filename": "Duty.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 794,
+          "storageIdentifier": "surf://store:198cdb3b167-4514dae23128",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "08d19d382aca0deed388dc19db858dca86ce7340"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": ".gitattributes",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512245,
+          "persistentId": "",
+          "filename": ".gitattributes",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 66,
+          "storageIdentifier": "surf://store:198cdb3b0eb-095e3215ecec",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ba3dfe345280bdcc5e817bb02cf49b8b8d8e1c4c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GraphConstructor.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512237,
+          "persistentId": "",
+          "filename": "GraphConstructor.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 4905,
+          "storageIdentifier": "surf://store:198cdb3b112-190e70a8013a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76ac2d1158935d1a3e95949e54c5d76fea2fedcf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "GraphConstructor.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512231,
+          "persistentId": "",
+          "filename": "GraphConstructor.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 7832,
+          "storageIdentifier": "surf://store:198cdb3b176-8258ff37ff2f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "364f463f7958241f0da1da423b8a7ffd79e8ecd9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Instance.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/instance",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512244,
+          "persistentId": "",
+          "filename": "Instance.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 1124,
+          "storageIdentifier": "surf://store:198cdb3b121-801136c3daaa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2bda1d3002f11d39ec480f729e3995662034b8e2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "InstanceGenerator.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/instance",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512238,
+          "persistentId": "",
+          "filename": "InstanceGenerator.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 1378,
+          "storageIdentifier": "surf://store:198cdb3b125-0d48c499aaa0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0cb86812d2ff03af431119bdc973b68bae3fb3a9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "InstanceGenerator.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/instance",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512227,
+          "persistentId": "",
+          "filename": "InstanceGenerator.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 1575,
+          "storageIdentifier": "surf://store:198cdb3b18e-77031e7dc002",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d5ad945d1ac7cd2eb4961f0f97e362931810944a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Instance.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/instance",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512230,
+          "persistentId": "",
+          "filename": "Instance.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 984,
+          "storageIdentifier": "surf://store:198cdb3b189-079edcf21ce2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e2de4d7e1771da78f3b63d8cbe045e3f6bc59df2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Main.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/scripts",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512242,
+          "persistentId": "",
+          "filename": "Main.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 2755,
+          "storageIdentifier": "surf://store:198cdb3b14b-f2dba6f778f9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b630db5c2c476b65ac93061a8a577d56183335ba"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Main.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/scripts",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512196,
+          "persistentId": "",
+          "filename": "Main.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 2261,
+          "storageIdentifier": "surf://store:198cdb3b1bf-b39da48cbe8a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "752690ea83444c9dcfe9129d661407612d8c7109"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "NodeIndex.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512208,
+          "persistentId": "",
+          "filename": "NodeIndex.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 470,
+          "storageIdentifier": "surf://store:198cdb3b116-44db4fcbe435",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2efdd2be482291ad32af14f4f1372717b2ab4e60"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "NodeIndex.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512197,
+          "persistentId": "",
+          "filename": "NodeIndex.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 514,
+          "storageIdentifier": "surf://store:198cdb3b17b-3673fb2197b8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d0f26e00c71c1838bbbc3e2357f8218da2fd82d4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Pair.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/util",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512240,
+          "persistentId": "",
+          "filename": "Pair.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 851,
+          "storageIdentifier": "surf://store:198cdb3b152-89d80fa5d6d2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "65865897eff1a867b2277d8073812d4c5e8e0f6b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Pair.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/util",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512236,
+          "persistentId": "",
+          "filename": "Pair.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 661,
+          "storageIdentifier": "surf://store:198cdb3b1ca-52ff8b9cee56",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9fdd6d64e46c6ec022675d5a5011ffbccc0dc9d9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Parameters.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/instance",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512201,
+          "persistentId": "",
+          "filename": "Parameters.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 812,
+          "storageIdentifier": "surf://store:198cdb3b129-c120e419e687",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c29f0f01ac5276dce3b10824808ec13163e971fd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Parameters.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/instance",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512211,
+          "persistentId": "",
+          "filename": "Parameters.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 872,
+          "storageIdentifier": "surf://store:198cdb3b193-31ed0fc47a96",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a4013da34f712e33fff414116d5ad037476ea86c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "PricingGraph.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512247,
+          "persistentId": "",
+          "filename": "PricingGraph.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 5277,
+          "storageIdentifier": "surf://store:198cdb3b119-67ad8382d405",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ba34ddf8fc823180fdab471f84a8d8b2e85a1fb2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "PricingGraph.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512219,
+          "persistentId": "",
+          "filename": "PricingGraph.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 7321,
+          "storageIdentifier": "surf://store:198cdb3b17f-cce4399cc0c6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b05610dd8b1cc9027918c733a491749c903f6d9d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "PricingProblemSolver.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512220,
+          "persistentId": "",
+          "filename": "PricingProblemSolver.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 2648,
+          "storageIdentifier": "surf://store:198cdb3b13a-858419888c22",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1a29d64ae4ef78ebc1bbbe8e01e29b4f9e4bb652"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "PricingProblemSolver.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512204,
+          "persistentId": "",
+          "filename": "PricingProblemSolver.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 3333,
+          "storageIdentifier": "surf://store:198cdb3b1a9-dd41eec55385",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b0381cdc3f901dfcd407832f5c7df9f4c7a1ac14"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": ".project",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512234,
+          "persistentId": "",
+          "filename": ".project",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 373,
+          "storageIdentifier": "surf://store:198cdb3b0ee-fe02e157806b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "030a2c5605da5c9d32b15e804a1633fd389a23cf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "QuadraticBreak.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512218,
+          "persistentId": "",
+          "filename": "QuadraticBreak.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 9375,
+          "storageIdentifier": "surf://store:198cdb3b13e-4c9fa6fa7043",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6ec72af000a74536f69ab236c6865c1f54fa7927"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "QuadraticBreak.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512213,
+          "persistentId": "",
+          "filename": "QuadraticBreak.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 10596,
+          "storageIdentifier": "surf://store:198cdb3b1af-98cb5eb9c313",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ad8f59d4762a57be4716042aafc0f7e5ba29c3fd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "QuadraticLogBreak.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512207,
+          "persistentId": "",
+          "filename": "QuadraticLogBreak.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 10671,
+          "storageIdentifier": "surf://store:198cdb3b142-8433e6160cae",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "165a11e48d2f72b2e8528448533520cb13c5b1c1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "QuadraticLogBreak.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512216,
+          "persistentId": "",
+          "filename": "QuadraticLogBreak.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 10392,
+          "storageIdentifier": "surf://store:198cdb3b1b4-c3dc776c2bae",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "684677a6c63b2587fd6d91001c456f3f3b66ae13"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "QuadraticNoBreak.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512233,
+          "persistentId": "",
+          "filename": "QuadraticNoBreak.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 3914,
+          "storageIdentifier": "surf://store:198cdb3b146-cb8c2b5c6e18",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "952a7aca320e16cf6f3f62a9fd14e3e05a988bdf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "QuadraticNoBreak.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/pricingProblem",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512228,
+          "persistentId": "",
+          "filename": "QuadraticNoBreak.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 3037,
+          "storageIdentifier": "surf://store:198cdb3b1ba-dd4893a9d0b1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fb600dab6fc1bd0090a53fea50fe147c40fa7d05"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.md",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512222,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 1325,
+          "storageIdentifier": "surf://store:198cdb3b0f2-0bdfe45edfc0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f130056d79eece03491f493926151ecfb41dbee7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "results.csv",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/results",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512199,
+          "persistentId": "",
+          "filename": "results.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 411,
+          "storageIdentifier": "surf://store:198cdb3b159-20f8c0c1cd07",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8f2bca25e19af505f893bfb16e38374eb03ec74d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "RMP.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/columnGeneration",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512224,
+          "persistentId": "",
+          "filename": "RMP.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 3288,
+          "storageIdentifier": "surf://store:198cdb3b106-0dc56bf70d14",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "624b6d047bb2231fd5372407eebe22a14ab22dcc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "RMP.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/columnGeneration",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512209,
+          "persistentId": "",
+          "filename": "RMP.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 3220,
+          "storageIdentifier": "surf://store:198cdb3b16c-9df2c4056752",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fbc31a24076c3b4cfaa1fcd18f2644ecdeb42303"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ShortestPath.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512232,
+          "persistentId": "",
+          "filename": "ShortestPath.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 3688,
+          "storageIdentifier": "surf://store:198cdb3b11d-d37935d165c0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c1fa4ab5fa811c01b2834eacbe4e12a71a42bb0f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ShortestPath.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/graph",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512246,
+          "persistentId": "",
+          "filename": "ShortestPath.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 5413,
+          "storageIdentifier": "surf://store:198cdb3b184-80777059d714",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5e1c0aa7ec3d5d2a60ae1a721ffa6ce1ae274830"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Task.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/instance",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512198,
+          "persistentId": "",
+          "filename": "Task.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 1184,
+          "storageIdentifier": "surf://store:198cdb3b12d-aea2813de17a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0a805e993e75d3b1ecdccca407b88e2ed6a1b632"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "TaskComparator.class",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/bin/util",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512200,
+          "persistentId": "",
+          "filename": "TaskComparator.class",
+          "contentType": "application/java-vm",
+          "friendlyType": "Java Class",
+          "filesize": 837,
+          "storageIdentifier": "surf://store:198cdb3b156-1bf0a3723b0c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f528d1b40de52e9fb03546e933a9fe829270cec2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "TaskComparator.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/util",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512205,
+          "persistentId": "",
+          "filename": "TaskComparator.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 436,
+          "storageIdentifier": "surf://store:198cdb3b1cf-233fd377dca5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d6b5e3ab1780a3f715945f7b54f6b0a44be55b38"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Task.java",
+        "restricted": false,
+        "directoryLabel": "BartvanRossum-CrewScheduling-3585cd00f1eaf75e1c4278e156982fdc462b9cdc/src/instance",
+        "version": 1,
+        "datasetVersionId": 31437,
+        "dataFile": {
+          "id": 512226,
+          "persistentId": "",
+          "filename": "Task.java",
+          "contentType": "text/x-java-source",
+          "friendlyType": "Java Source Code",
+          "filesize": 1918,
+          "storageIdentifier": "surf://store:198cdb3b198-f5f4649e1d2a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3b94bcf89a0e7fa44646c53651b2c4278c373ed3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-21",
+          "publicationDate": "2025-08-21",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "van Rossum, Bart, 2025, \"Code: A Fast Exact Pricing Algorithm for the Railway Crew Scheduling Problem\", https://doi.org/10.34894/HY5WD5, DataverseNL, V3"
+  }
+}

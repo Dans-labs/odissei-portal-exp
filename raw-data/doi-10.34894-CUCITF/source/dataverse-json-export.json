@@ -1,0 +1,344 @@
+{
+  "id": 452544,
+  "identifier": "CUCITF",
+  "persistentUrl": "https://doi.org/10.34894/CUCITF",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-10-30",
+  "storageIdentifier": "surf://10.34894/CUCITF",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 29720,
+    "datasetId": 452544,
+    "datasetPersistentId": "doi:10.34894/CUCITF",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/CUCITF",
+    "versionNumber": 1,
+    "internalVersionNumber": 14,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-10-30T13:06:11Z",
+    "releaseTime": "2024-10-30T13:06:11Z",
+    "createTime": "2024-09-26T11:44:04Z",
+    "publicationDate": "2024-10-30",
+    "citationDate": "2024-10-30",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Machine Learning Frameworks for Fake News Detection and Datasets"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mohsen, Fadi"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-3876-5781"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Chaushi, Bedir"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Abdelhaq, Hamed"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "An-Najah National University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wang, Kevin"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mohsen, Fadi"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A web framework designed for researchers to perform comparative analysis of various machine learning algorithms in the context of fake news detection. The folder also includes several datasets for experimentation, alongside the source code."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-09-26"
+                }
+              },
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The rise of social media has transformed the landscape of news dissemination, presenting new challenges in combating the spread of fake news. This study addresses the automated detection of misinformation within written content, a task that has prompted extensive research efforts across various methodologies. We evaluate existing benchmarks, introduce a novel hybrid word embedding model, and implement a web framework for text classification. Our approach integrates traditional frequency–inverse document frequency (TF–IDF) methods with sophisticated feature extraction techniques, considering linguistic, psychological, morphological, and grammatical aspects of the text. Through a series of experiments on diverse datasets, applying transfer and incremental learning techniques, we demonstrate the effectiveness of our hybrid model in surpassing benchmarks and outperforming alternative experimental setups. Furthermore, our findings emphasize the importance of dataset alignment and balance in transfer learning, as well as the utility of incremental learning in maintaining high detection performance while reducing runtime. This research offers promising avenues for further advancements in fake news detection methodologies, with implications for future research and development in this critical domain."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "fake news dataset"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "fake news"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mohsen, F.; Chaushi, B.; Abdelhaq, H.; Karastoyanova, D.; Wang, K. Automated Detection of Misinformation: A Hybrid Approach for Fake News Detection. Future Internet 2024, 16, 352."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.3390/fi16100352"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Mohsen, Fadi"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-09-26"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/CUCITF"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:7b63bfdc-6403-4260-8268-7109765dcd99"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-2c26c5ea-7c2e-42bd-9d61-6c330a657c39"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Datasets+Code.rar",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29720,
+        "dataFile": {
+          "id": 452545,
+          "persistentId": "",
+          "filename": "Datasets+Code.rar",
+          "contentType": "application/x-rar-compressed",
+          "friendlyType": "RAR Archive",
+          "filesize": 133821784,
+          "storageIdentifier": "surf://store:1922e251b08-943052277ab3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "018330b0a4d2609dbf95ecb9f06c48e59945747c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-26",
+          "publicationDate": "2024-10-30",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.md",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29720,
+        "dataFile": {
+          "id": 457725,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 6091,
+          "storageIdentifier": "surf://store:192dd5367ce-81e0bd11cb1f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7484ddb500ae58d42560aa37830475d6cf82a6de"
+          },
+          "tabularData": false,
+          "creationDate": "2024-10-30",
+          "publicationDate": "2024-10-30",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Mohsen, Fadi; Chaushi, Bedir; Abdelhaq, Hamed; Wang, Kevin, 2024, \"Machine Learning Frameworks for Fake News Detection and Datasets\", https://doi.org/10.34894/CUCITF, DataverseNL, V1"
+  }
+}

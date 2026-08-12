@@ -1,0 +1,256 @@
+{
+  "id": 576051,
+  "identifier": "AHHX4A",
+  "persistentUrl": "https://doi.org/10.34894/AHHX4A",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-01-08",
+  "storageIdentifier": "surf://10.34894/AHHX4A",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32576,
+    "datasetId": 576051,
+    "datasetPersistentId": "doi:10.34894/AHHX4A",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/AHHX4A",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-01-08T18:43:15Z",
+    "releaseTime": "2026-01-08T18:43:15Z",
+    "createTime": "2026-01-08T18:43:14Z",
+    "publicationDate": "2026-01-08",
+    "citationDate": "2026-01-08",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Total Number of Sheep"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Klein Goldewijk, Kees"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2714-7507"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Leeuwen, Bas"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Historical sheep statistics from Mitchell are first adjusted to match the FAO statistics in 1961 (FAO presents statistics from 1961-present time). Then, the most historical data found in Mitchell is converted in a simple per-capita number, and this number is kept constant further back in time. Apparently for Europe this will result in an underestimate (evidence from Broadberry et al suggest that in Medieval times the per capita sheep number was higher), but for other regions this is probably not the case (Americas and Australia/New Zealand didn’t have livestock at all until the early 16th century resp. late 18th century)."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2013-04-09"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "sheep"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "livestock"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Please consult the working paper for a description of the data and sources."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van Leeuwen, Bas"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2015-12-14"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/AHHX4A"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:de17c464-4a54-4c9e-8f67-ce4f5b6c6a72"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-19a28b45-39bd-4d89-8b20-a71908a8dd35"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "Total_Number_Sheep.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32576,
+        "dataFile": {
+          "id": 576052,
+          "persistentId": "",
+          "filename": "Total_Number_Sheep.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 36864,
+          "description": "",
+          "storageIdentifier": "surf://store:19b9eeb775f-202c6beeac84",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9e740675b7dfe02daa3fc98d9d7f5fb6c1154fc0"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-08",
+          "publicationDate": "2026-01-08",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Total_Number_Sheep-historical.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32576,
+        "dataFile": {
+          "id": 576053,
+          "persistentId": "",
+          "filename": "Total_Number_Sheep-historical.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 152193,
+          "description": "",
+          "storageIdentifier": "surf://store:19b9eeb7880-4a3bb6e0f4b9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "21edd147006a3c55126e846945a738b3efa5a34e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-08",
+          "publicationDate": "2026-01-08",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Klein Goldewijk, Kees, 2026, \"Total Number of Sheep\", https://doi.org/10.34894/AHHX4A, DataverseNL, V1"
+  }
+}

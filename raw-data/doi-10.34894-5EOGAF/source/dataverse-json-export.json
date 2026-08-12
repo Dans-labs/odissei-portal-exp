@@ -1,0 +1,491 @@
+{
+  "id": 100204,
+  "identifier": "5EOGAF",
+  "persistentUrl": "https://doi.org/10.34894/5EOGAF",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-11-25",
+  "storageIdentifier": "surf://10.34894/5EOGAF",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3758,
+    "datasetId": 100204,
+    "datasetPersistentId": "doi:10.34894/5EOGAF",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/5EOGAF",
+    "versionNumber": 1,
+    "internalVersionNumber": 31,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-11-25T14:55:35Z",
+    "releaseTime": "2021-11-25T14:55:35Z",
+    "createTime": "2021-06-21T14:00:57Z",
+    "publicationDate": "2021-11-25",
+    "citationDate": "2021-11-25",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "An Architecture for Meeting Quality-of-Service Requirements in Multi-User Quantum Networks"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Skrzypczyk, Matt"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2688-3780"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wehner, Stephanie"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Skrzypczyk, Matt"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<h1>Quantum Network Architecture Scheduling simulation data</h1>\n\nThe .zip-files in this DataVerse contains data used in the paper: An Architecture for Meeting Quality-of-Service Requirements in Multi-User Quantum Networks\n\n<h2>General info</h2>\n\nAll the raw-data can be found as JSON (.json) files. Simulation parameters used can be found in each .zip file in the folder config.\n\nFor the simulations using the star, H, symmetric, and line topologies, we assume the following properties on each link:\n\n<pre>\nDistance: 5km\nLink Capabilities: [\n    (Fidelity=0.88, Rate=14.16 Hz),\n    (Fidelity=0.83, Rate=20.84 Hz),\n    (Fidelity=0.79, Rate=27.83 Hz),\n    (Fidelity=0.75, Rate=33.98 Hz),\n    (Fidelity=0.70, Rate=39.18 Hz),\n    (Fidelity=0.66, Rate=45.6 Hz),\n    (Fidelity=0.62, Rate=51.26 Hz),\n    (Fidelity=0.57, Rate=57.73 Hz),\n]\n</pre>\n\nFor the simulations using the SURFnet topology, the link lengths are based on fiber data obtained from SURF while we assume each link has a single capability of (Fidelity=0.999, Rate=1.4kHz).\n\nAll simulations were performed using a schedule slot size of 1ms.\n\n<h2>Data Format</h2>\nEach simulation JSON is formatted in the following way:\n<pre>\n{\n    \"date-key\": {\n        \"fidelity-key\": {\n            \"load-key\": {\n                \"scheduler-key\": {\n                    \"jitter\": (maximum jitter),\n                    \"throughput\": (achieved throughput),\n                    \"wcrt\": (maximum worst-case response time),\n                    \"satisfied_demands\": (list of string-encoded (S, D, F, R, ID) tuples),\n                    \"unsatisfied_demands\": (list of string-encoded (S, D, F, R, ID) tuples)\n                },\n                ...\n            },\n            ...\n        },\n        ...\n    },\n}\n</pre>\n\nFor the star, H, symmetric, and line topologies, we simulate minimum fidelity requirements from the set (0.55, 0.6, 0.65, 0.7, 0.75, 0.8, 0.85) while for the SURFnet topology we simulate minimum fidelity requirements from the set (0.98, 0.985, 0.99, 0.995, 0.997).\n\nFor all topologies we simulate network loads from the set (0.5, 1, 2, 3, 4, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 80, 100) ebit/s.\n\n<h2>Reproducing Plots</h2>\n\nThe plots found in the paper may be reproduced using the analysis.py script located within the analysis.zip archive.</br>\nUsage is as follows.</br>\n</br>\n<strong>For the Throughput vs. Load plots:</strong></br>\n<code>python analysis.py <path/to/result/directory/> load --fidelities [space-separated set of fidelities]</code></br>\n</br>\n\n<strong>For the Throughput CDF plots:</strong></br>\n<code>python analysis.py <path/to/result/directory/> cdf --fidelities [space-separated set of fidelities] --load [load]</code></br>\n</br>\n\n<strong>For the Throughput vs. Jitter plots:</strong></br>\n<code>python analysis.py <path/to/result/directory/> jitter --fidelities [space-separated set of fidelities] --load [load]</code></br>\n\n<h2>Other notes</h2>\n\n<ul>\n<li>Here, we only simulate the scheduling of quantum repeater protocols, the execution of the protocols was not simulated.</li>\n<li>The estimated fidelity of each repeater protocol selected only considered fidelity increase/decrease due to entanglement distillation and entanglement swapping.  Each entangled link is assumed to be stored perfectly between operations.</li>\n<li>Repeater protocols are constructed assuming that nodes may perform operations in parallel.</li>\n<li>Repeater protocols are constructed assuming any pair qubits at a network node can be used for entanglement swapping or entanglement distillation.</li>\n<li>Repeater protocols are constructed assuming any pair of communication qubits at two connected nodes can be used to create entanglement.</li>\n</ul>\n\n<h2>Data</h2>\n\nThe DataVerse contains the following zip files:\n<ul>\n<li>analysis.zip - Contains the analysis.py script and a requirements.txt file for producing plots from simulation data.</li>\n<li>20201125-012501-star_topology_simulations*.zip - Contains scheduling simulation data on the three-node star topology.</li>\n<li>20201203-130920-H_topology_simulations*.zip - Contains scheduling simulation data on the H topology.</li>\n<li>20210624-070333-symmetric_topology_simulations*.zip - Contains scheduling simulation data on the symmetric topology.</li>\n<li>20201129-143606-line_topology_simulations*.zip - Contains scheduling simulation data on the line topology.</li>\n<li>20210615-202940-surfnet_topology_simulations*.zip - Contains scheduling simulation data on the SURFnet topology.</li>\n</ul>\n\n(2021-06-21)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Engineering",
+              "Physics"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Skrzypczyk, Matt"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-06-21"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/5EOGAF"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:f681209b-a67f-4843-a9eb-1e147b04166b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-f2f77555-27a8-4829-b64c-808edc7097ca"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "20201125-012501-star_topology_simulations-part1.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102344,
+          "persistentId": "",
+          "filename": "20201125-012501-star_topology_simulations-part1.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 20198285,
+          "storageIdentifier": "surf://store:17a3e9294ec-dcd926978ecd",
+          "rootDataFileId": -1,
+          "md5": "4167d5c126ab05f451df2b36e65b8da4",
+          "checksum": {
+            "type": "MD5",
+            "value": "4167d5c126ab05f451df2b36e65b8da4"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "20201125-012501-star_topology_simulations-part2.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102343,
+          "persistentId": "",
+          "filename": "20201125-012501-star_topology_simulations-part2.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1013068,
+          "storageIdentifier": "surf://store:17a3e929b2c-26aaa4c9604d",
+          "rootDataFileId": -1,
+          "md5": "6fd42eaddad374941d44ccf7ace36f6b",
+          "checksum": {
+            "type": "MD5",
+            "value": "6fd42eaddad374941d44ccf7ace36f6b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "20201129-143606-line_topology_simulations-part1.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102352,
+          "persistentId": "",
+          "filename": "20201129-143606-line_topology_simulations-part1.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 22397271,
+          "storageIdentifier": "surf://store:17a3e954c5e-9b45647324aa",
+          "rootDataFileId": -1,
+          "md5": "492c22ac84a5ed9d1a03135519976d7e",
+          "checksum": {
+            "type": "MD5",
+            "value": "492c22ac84a5ed9d1a03135519976d7e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "20201129-143606-line_topology_simulations-part2.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102346,
+          "persistentId": "",
+          "filename": "20201129-143606-line_topology_simulations-part2.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 717977,
+          "storageIdentifier": "surf://store:17a3e955236-99d936ba691e",
+          "rootDataFileId": -1,
+          "md5": "3483669d98270e07a93af51e9a20572c",
+          "checksum": {
+            "type": "MD5",
+            "value": "3483669d98270e07a93af51e9a20572c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "20201203-130920-H_topology_simulations-part1.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102345,
+          "persistentId": "",
+          "filename": "20201203-130920-H_topology_simulations-part1.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 31775279,
+          "storageIdentifier": "surf://store:17a3e952b1f-d9eed84debbe",
+          "rootDataFileId": -1,
+          "md5": "ca3363a71e9005de8070b22017c16aae",
+          "checksum": {
+            "type": "MD5",
+            "value": "ca3363a71e9005de8070b22017c16aae"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "20201203-130920-H_topology_simulations-part2.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102350,
+          "persistentId": "",
+          "filename": "20201203-130920-H_topology_simulations-part2.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1850933,
+          "storageIdentifier": "surf://store:17a3e9534ba-f3da0a955573",
+          "rootDataFileId": -1,
+          "md5": "8d42a47518829c0df93e594a047d0322",
+          "checksum": {
+            "type": "MD5",
+            "value": "8d42a47518829c0df93e594a047d0322"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "20210615-202940-surfnet_topology_simulations-part1.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102349,
+          "persistentId": "",
+          "filename": "20210615-202940-surfnet_topology_simulations-part1.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 20259650,
+          "storageIdentifier": "surf://store:17a3e9506e2-c64b5dbfb87e",
+          "rootDataFileId": -1,
+          "md5": "cf1e28eb512a0bff55e57666cd4bad65",
+          "checksum": {
+            "type": "MD5",
+            "value": "cf1e28eb512a0bff55e57666cd4bad65"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "20210615-202940-surfnet_topology_simulations-part2.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102351,
+          "persistentId": "",
+          "filename": "20210615-202940-surfnet_topology_simulations-part2.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 610986,
+          "storageIdentifier": "surf://store:17a3e950b7a-08205fd0d54a",
+          "rootDataFileId": -1,
+          "md5": "c1ed29943296cf5107b1fc2940015b74",
+          "checksum": {
+            "type": "MD5",
+            "value": "c1ed29943296cf5107b1fc2940015b74"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "20210624-070333-symmetric_topology_simulations-part1.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102348,
+          "persistentId": "",
+          "filename": "20210624-070333-symmetric_topology_simulations-part1.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 44460884,
+          "storageIdentifier": "surf://store:17a3e94e3c5-011be777d2ad",
+          "rootDataFileId": -1,
+          "md5": "22168938319f519e108fe2bf1504d0b6",
+          "checksum": {
+            "type": "MD5",
+            "value": "22168938319f519e108fe2bf1504d0b6"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "20210624-070333-symmetric_topology_simulations-part2.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102347,
+          "persistentId": "",
+          "filename": "20210624-070333-symmetric_topology_simulations-part2.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 357680,
+          "storageIdentifier": "surf://store:17a3e94f20f-d7e72c9a1cb9",
+          "rootDataFileId": -1,
+          "md5": "ddb9b4b7f530be37f15918c0dfdd3ce2",
+          "checksum": {
+            "type": "MD5",
+            "value": "ddb9b4b7f530be37f15918c0dfdd3ce2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "analysis.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102481,
+          "persistentId": "",
+          "filename": "analysis.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 3070,
+          "storageIdentifier": "surf://store:17a5dabac72-53c559c64ef3",
+          "rootDataFileId": -1,
+          "md5": "e9d43e91185e267b316907148168c7eb",
+          "checksum": {
+            "type": "MD5",
+            "value": "e9d43e91185e267b316907148168c7eb"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-30",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README.md",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3758,
+        "dataFile": {
+          "id": 102358,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 2452,
+          "storageIdentifier": "surf://store:17a3ef164ff-f567e93133dc",
+          "rootDataFileId": -1,
+          "md5": "6efc7301a6e3bd5b5a49f209c5f5b334",
+          "checksum": {
+            "type": "MD5",
+            "value": "6efc7301a6e3bd5b5a49f209c5f5b334"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-11-25",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Skrzypczyk, Matt; Wehner, Stephanie, 2021, \"An Architecture for Meeting Quality-of-Service Requirements in Multi-User Quantum Networks\", https://doi.org/10.34894/5EOGAF, DataverseNL, V1"
+  }
+}

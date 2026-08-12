@@ -1,0 +1,215 @@
+{
+  "id": 26688,
+  "identifier": "9HENTF",
+  "persistentUrl": "https://doi.org/10.34894/9HENTF",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-03-10",
+  "storageIdentifier": "surf://10411/KZMTND",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 2895,
+    "datasetId": 26688,
+    "datasetPersistentId": "doi:10.34894/9HENTF",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10411/KZMTND",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-03-10T13:20:09Z",
+    "releaseTime": "2021-03-10T13:20:09Z",
+    "createTime": "2020-05-29T13:26:43Z",
+    "alternativePersistentId": "hdl:10411/KZMTND",
+    "publicationDate": "2021-03-10",
+    "citationDate": "2021-03-10",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Raw Yawn Data csv."
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Massen, Jorg"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Massen, Jorg"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Raw Data of Massen et al. \"Brain size and neuron numbers drive differences in yawn duration across mammals and birds\""
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Massen, Jorg"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-05-29"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/9HENTF"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:2f6deeea-9a10-46a9-ac5c-f816052b85d6"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-bdfd77c9-e77d-4fba-9a85-c2d8251a1b61"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "bird_individual data.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 2895,
+        "dataFile": {
+          "id": 40461,
+          "persistentId": "",
+          "filename": "bird_individual data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 62987,
+          "storageIdentifier": "surf://store:175dacdd611-95273966ed12",
+          "rootDataFileId": -1,
+          "md5": "eff9258ef23d41148fc9b0f014483015",
+          "checksum": {
+            "type": "MD5",
+            "value": "eff9258ef23d41148fc9b0f014483015"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-18",
+          "publicationDate": "2021-03-10",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "mammal_individual data.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 2895,
+        "dataFile": {
+          "id": 40462,
+          "persistentId": "",
+          "filename": "mammal_individual data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 47470,
+          "storageIdentifier": "surf://store:175dacdd6cc-2bbc834901b4",
+          "rootDataFileId": -1,
+          "md5": "13a250128dbaa39f6c2c8d4bd5d2d2bf",
+          "checksum": {
+            "type": "MD5",
+            "value": "13a250128dbaa39f6c2c8d4bd5d2d2bf"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-18",
+          "publicationDate": "2021-03-10",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Massen, Jorg, 2021, \"Raw Yawn Data csv.\", https://doi.org/10.34894/9HENTF, DataverseNL, V1"
+  }
+}

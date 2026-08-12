@@ -1,0 +1,648 @@
+{
+  "id": 177162,
+  "identifier": "dans-24j-68qr",
+  "persistentUrl": "https://doi.org/10.17026/DANS-24J-68QR",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2016-09-21",
+  "storageIdentifier": "surf://10.17026/dans-24j-68qr",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 33551,
+    "datasetId": 177162,
+    "datasetPersistentId": "doi:10.17026/DANS-24J-68QR",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-24j-68qr",
+    "versionNumber": 2,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2016-08-15",
+    "productionDate": "2016-08-15",
+    "UNF": "UNF:6:l6dA7fHjxGTPAEMWKPORpQ==",
+    "lastUpdateTime": "2026-07-19T23:41:42Z",
+    "releaseTime": "2026-07-19T23:41:42Z",
+    "createTime": "2026-07-19T23:41:31Z",
+    "publicationDate": "2016-09-21",
+    "citationDate": "2016-09-21",
+    "versionNote": "The Python package langdetect was used to semi-automatically identify the languages used in the metadata. Human curators verified and corrected the results. If you notice any inaccuracies, please contact DANS.",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "termsOfAccess": "N/a",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Sarcastic Soulmates: Intimacy and irony markers in social media messaging"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:65746"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FA Kunneman"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Florian  Kunneman"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>We research the use of sarcasm on Twitter, and show that a computer has more difficulty to detect sarcasm shared among peers than sarcasm shared with any interested audience. This data set features the data used for training machine learning classifiers, and annotations of the output.</p>"
+                }
+              },
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>- Usercategory (and User) indicates whether the element is a feature of the classifier on the basis of USER-tweets or NOUSER-tweets.<br>- Featurerankwithincategory indicates the importance of the feature for the respecting classifier.<br>- Frequencyelementwithinusertweets indicates how often the feature was observed in the complete set with USER-tweets.<br>- Frequencyelementwithinnouser indicates how often the feature was observed in the complete set with NOUSER-tweets.<br>- Totalamountofmarkers is the sum of irony markers (Hyperbole, Interjections, Repetition, Hashtag, Capitals, Punctuation Marks and Emoticons).<br>- The values of each marker indicate the presence of the marker, a 1 indicates the presence and a 0 indicates the absence. The marker ‘polarity’ forms an exception. In this case a value of 0 indicates no evaluation, 1 indicates a negative polarity of the evaluation and 2 indicates a positive polarity of the evaluation.</p><p>Radboud University supplied the 'top_features_annotations' file in .xlsx format.  For preservation purposes,  DANS added the .csv format.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Twitter"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Verbal Irony"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Evaluative markers"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-08-15"
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "K Hallmann (Radboud University)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-08-15"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2016-08-15"
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "All tweets ID's in this dataset were queried from the TwiNL dataset (see http://ifarm.nl/erikt/twinl/), who downloaded them from the Twitter API (https://dev.twitter.com/rest/public)."
+            ]
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Unknown"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D36100"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D36100",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Linguistics"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Linguïstiek"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "16/12/2010 - 31/01/2013"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageText",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "The Netherlands"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/DANS-24J-68QR"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d211cabd-4962-4e1d-965d-9dd705080ac9"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-o2a6-6k"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "collect_sarcasme_nousertweets.ini",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177204,
+          "persistentId": "",
+          "filename": "collect_sarcasme_nousertweets.ini",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 158,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba56218-92fa538e8c5c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ba11ba659dbff0ba9fe1c0635e720a0bbba3e21a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "collect_sarcasme_usertweets.ini",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177200,
+          "persistentId": "",
+          "filename": "collect_sarcasme_usertweets.ini",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 152,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba55ec6-15704c623a70",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ece11dff98f1296df80ad4c1cca977416e436926"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177198,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 19148,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba55a99-f1955bf1cfeb",
+          "rootDataFileId": 177164,
+          "previousDataFileId": 177164,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4274a0e98eec84d054536ecd61ca5f8c9d1a6861"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "README",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177201,
+          "persistentId": "",
+          "filename": "README",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 4936,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba55ff4-1472f19ccb80",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "93e7a7daff833f8066b7528038fb0fa4b4e9f000"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "sarcasme_nouser.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177167,
+          "persistentId": "",
+          "filename": "sarcasme_nouser.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6987481,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba51a29-88b7b1ef8d8e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "de9d8f558a6d021f6b7b940a2d11b550b07d0d70"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "sarcasme_user.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177165,
+          "persistentId": "",
+          "filename": "sarcasme_user.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2557729,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba517d9-77268b286f8a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "676b817ea9e3dbd2cfc4c402446e14403b9e6aee"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "sarcastic-soulmates.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177207,
+          "persistentId": "",
+          "filename": "sarcastic-soulmates.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 548209,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba5646a-4d85ae5df51e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6fc092180840631c6f5b765bee087e6ad278affc"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "top_features_annotations.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177206,
+          "persistentId": "",
+          "filename": "top_features_annotations.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 191384,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba56325-3c82e0de48ff",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "73d129a83f4bfe157e9fcc0848a817fcd5da83be"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "top_features_annotations.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177203,
+          "persistentId": "",
+          "filename": "top_features_annotations.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 170803,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba560f6-ce3cefea230e",
+          "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "originalFormatLabel": "MS Excel Spreadsheet",
+          "originalFileSize": 163587,
+          "originalFileName": "top_features_annotations.xlsx",
+          "UNF": "UNF:6:l6dA7fHjxGTPAEMWKPORpQ==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8ae0eece04d770a9687043ed8ddc62bacf03bfb7"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "top_features_nouser_sorted.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177169,
+          "persistentId": "",
+          "filename": "top_features_nouser_sorted.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 18697,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba51c3f-dac1aac4f2fd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2583ea150549a27530e2e2183121b6378cf527f8"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "top_features_user_sorted.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33551,
+        "dataFile": {
+          "id": 177168,
+          "persistentId": "",
+          "filename": "top_features_user_sorted.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 18210,
+          "description": "",
+          "storageIdentifier": "surf://store:186eba51b4a-197019ddd016",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2f7e6849031ed1c04b65123451be421e4a2332d4"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2016-09-21",
+          "lastUpdateTime": "2026-07-19T23:41:42Z",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "FA Kunneman, 2016, \"Sarcastic Soulmates: Intimacy and irony markers in social media messaging\", https://doi.org/10.17026/DANS-24J-68QR, DANS Data Station Social Sciences and Humanities, V2, UNF:6:l6dA7fHjxGTPAEMWKPORpQ== [fileUNF]"
+  }
+}

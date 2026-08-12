@@ -1,0 +1,471 @@
+{
+  "id": 579006,
+  "identifier": "JPS8TB",
+  "persistentUrl": "https://doi.org/10.34894/JPS8TB",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-01-20",
+  "storageIdentifier": "surf://10.34894/JPS8TB",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 33963,
+    "datasetId": 579006,
+    "datasetPersistentId": "doi:10.34894/JPS8TB",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/JPS8TB",
+    "versionNumber": 2,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-02-06T17:14:43Z",
+    "releaseTime": "2026-02-06T17:14:43Z",
+    "createTime": "2026-02-06T17:14:25Z",
+    "publicationDate": "2026-01-20",
+    "citationDate": "2026-01-20",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "GLOBALISE Laypa Baseline Model – August 2023"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Klut, Stefan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KNAW Humanities Cluster, Digital Infrastructure"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-1957-2442"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Koert, Rutger van"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KNAW Humanities Cluster, Digital Infrastructure"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6535-2849"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maas, Martijn"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KNAW Humanities Cluster, Digital Infrastructure"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Klut, Stefan"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KNAW Humanities Cluster, Digital Infrastructure"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IISG Data"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IISG"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This is a Laypa baseline detection model that was created to detect baselines on the scans of the GLOBALISE VOC corpus. It was finetuned using Ground Truth that is also available in this Dataverse (<a href=\"https://hdl.handle.net/10622/QJZKZ2\" target=\"_top\">GLOBALISE Ground Truth for Handwritten Text and Layout Recognition</a>) and applied using the <a href=\"https://github.com/knaw-huc/loghi\" target=\"_top\">Loghi Handwritten Text Recognition tools</a> to generate <a href=\"https://hdl.handle.net/10622/LVXSBW\" target=\"_top\">VOC transcriptions v2 - GLOBALISE</a>. The model's hyperparameters are available in the file <code>config.yaml</code>."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-03-15"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "handwriting recognition"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.wikidata.org/entity/Q2440634"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "artificial intelligence model"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.wikidata.org/entity/Q117349473"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GLOBALISE Ground Truth for Handwritten Text and Layout Recognition"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "handle"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10622/QJZKZ2"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://hdl.handle.net/10622/QJZKZ2"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "VOC transcriptions v2 - GLOBALISE"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "handle"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10622/LVXSBW"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://hdl.handle.net/10622/LVXSBW"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stefan Klut, Rutger van Koert, and Ronald Sluijter. 2023. Laypa: A Novel Framework for Applying Segmentation Networks to Historical Documents. In 7th International Workshop on Historical Document Imaging and Processing (HIP ’23), August 25–26, 2023, San Jose, CA, USA. ACM, New York, NY, USA, 6 pages."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1145/3604951.3605520"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1145/3604951.3605520"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "This dataset was migrated from the IISH Data Collection to DataverseNL in January 2026. It was previously published as: Klut, Stefan; Koert, Rutger van; Maas, Martijn, 2026, \"GLOBALISE Laypa Baseline Model – August 2023\", https://hdl.handle.net/10622/VMSCBR, IISH Data Collection, V1 under the persistent identifier hdl:10622/VMSCBR."
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GLOBALISE project"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://globalise.huygens.knaw.nl/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Petram, Lodewijk"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-10-10"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/JPS8TB"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:5bfb2630-506c-4b9f-920a-88e51e0089bd"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-b60f2e19-eac8-4dc4-a9f6-5f5e59d92e85"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "config.yaml",
+        "restricted": false,
+        "directoryLabel": "RUN_2023-08-04_17-52-40",
+        "version": 1,
+        "datasetVersionId": 33963,
+        "dataFile": {
+          "id": 579007,
+          "persistentId": "",
+          "filename": "config.yaml",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 9855,
+          "description": "",
+          "storageIdentifier": "surf://store:19bda9eeaee-5ea866886c93",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a46d0a32d5017790fdbf2b1d9438a30515bac130"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-20",
+          "publicationDate": "2026-01-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "metadata.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33963,
+        "dataFile": {
+          "id": 579008,
+          "persistentId": "",
+          "filename": "metadata.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 14894,
+          "description": "",
+          "storageIdentifier": "surf://store:19bda9eebe0-2901859d7196",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2511ec94d1fab39082eca83421a33ce6458510c9"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-20",
+          "publicationDate": "2026-01-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "model_best_mIoU.pth",
+        "restricted": false,
+        "directoryLabel": "RUN_2023-08-04_17-52-40",
+        "version": 1,
+        "datasetVersionId": 33963,
+        "dataFile": {
+          "id": 579009,
+          "persistentId": "",
+          "filename": "model_best_mIoU.pth",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 455414785,
+          "description": "",
+          "storageIdentifier": "surf://store:19bda9fd3fd-981e01ea6b4c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "96d0880c220424add8b2418c7d8e0af4de2b9d6f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-20",
+          "publicationDate": "2026-01-20",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Klut, Stefan; Koert, Rutger van; Maas, Martijn, 2026, \"GLOBALISE Laypa Baseline Model – August 2023\", https://doi.org/10.34894/JPS8TB, DataverseNL, V2"
+  }
+}

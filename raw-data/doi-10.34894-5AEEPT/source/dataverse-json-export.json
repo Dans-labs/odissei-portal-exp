@@ -1,0 +1,378 @@
+{
+  "id": 508585,
+  "identifier": "5AEEPT",
+  "persistentUrl": "https://doi.org/10.34894/5AEEPT",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-08-19",
+  "storageIdentifier": "surf://10.34894/5AEEPT",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31352,
+    "datasetId": 508585,
+    "datasetPersistentId": "doi:10.34894/5AEEPT",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/5AEEPT",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2021-04-29",
+    "lastUpdateTime": "2025-08-19T19:55:37Z",
+    "releaseTime": "2025-08-19T19:55:37Z",
+    "createTime": "2025-08-19T19:52:40Z",
+    "publicationDate": "2025-08-19",
+    "citationDate": "2025-08-19",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Italian Municipality characteristics affecting Covid-19 contagion"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Figshare"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.25397/eur.14500449"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mazzola, Francesco"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2570-5245"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bongaerts, Dion"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wagner, Wolf"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mazzola, Francesco"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rotterdam School of Management <https://ror.org/057w15z03>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<div>We construct measures of business shutdown exposure using granular data on employment and establishments of Italian firms made available by the Italian Statistical Agency (ISTAT, see References). The dataset provides sectoral data at the municipality-level from the year 2017, including information on the number of employees and business owners, revenues and number of establishments. We construct a continuous municipality-level shutdown exposure (\"Shutdown11\" column)  by dividing the number of employees and business owners in sectors shut down on March 11th by the total number of all employees and business owners in the municipality. We exclude employment in schooling and sports from the denominator, since these sectors were already shut down weeks before. For the list of shutdown sectors by NACE code see the decree in the References. We construct an equivalent measure of the second shutdown, Shutdown25, using the employment ratio of sectors that were incrementally shut down on March 25th.</div><div>We also collect data on population density (\"PopDensity\"), education (educ), income inequality (IncIneq), age structure (dip_anziani), and the degree  of internal commuting (IntMob). </div><div>The \"capacity_p\" variable is the hospital capacity in a province, measured as the sum of the number of beds available in hospitals, as a fraction of the total population. The \"WeekArrival\" variable is the number of weeks that elapsed between the arrival of the virus (calculated as described above) and the effective date of the first policy (March 21st). </div><div>Finally, we create exposure variables for all three sectors (food, retail, and personal services) following the same approach as for the total exposure (Shutdown11) variable.</div><div>The sample period excludes municipalities that were never hit by the Covid-19 disease within the first four months of 2020, i.e. cumulative mortality rate among residents of a municipality did not reach a threshold of 100 deaths per 100,000 inhabitants.</div>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Containment Policies"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Covid-19 Data"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lockdown Effects"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Government Intervention"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Municipality Level Data"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Italy"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Business Closures"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Demography Not Elsewhere Classified"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Demography Not Elsewhere Classified"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a one-file data package totaling 452.9 KB, containing a file in .csv format.<p><p>If you use this dataset, please cite: Mazzola, Francesco; Bongaerts, Dion; Wagner, Wolf (2021). Italian Municipality characteristics affecting Covid-19 contagion. Erasmus University Rotterdam (EUR). Dataset. <a href=\"https://doi.org/10.25397/eur.14500449\" target=\"_blank\">https://doi.org/10.25397/eur.14500449</a><p>"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-04-29"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Mazzola, Francesco"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-04-28"
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://www.istat.it/en/\" target=\"_blank\">https://www.istat.it/en/</a>",
+              "<a href=\"https://www.gazzettaufficiale.it/eli/id/2020/03/11/20A01605/sg\" target=\"_blank\">https://www.gazzettaufficiale.it/eli/id/2020/03/11/20A01605/sg</a>",
+              "<a href=\"https://doi.org/10.1371/journal.pone.0251373\" target=\"_blank\">https://doi.org/10.1371/journal.pone.0251373</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/5AEEPT"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:3b6976ad-6ebe-4442-8948-1b530d58cc4e"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-60893e0c-09d9-445f-bd01-b894a6a6bffe"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "MuniCharacteristics.csv",
+        "restricted": false,
+        "directoryLabel": "10.25397_eur.14500449",
+        "version": 1,
+        "datasetVersionId": 31352,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 508586,
+          "persistentId": "",
+          "filename": "MuniCharacteristics.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 459629,
+          "description": "",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:198c3e41468-4bd9242144f3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "27145d770e90dc02e7a0c3bd01400ec6dfe35769"
+          },
+          "tabularData": false,
+          "creationDate": "2025-08-19",
+          "publicationDate": "2025-08-19",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Mazzola, Francesco; Bongaerts, Dion; Wagner, Wolf, 2025, \"Italian Municipality characteristics affecting Covid-19 contagion\", https://doi.org/10.34894/5AEEPT, DataverseNL, V1"
+  }
+}

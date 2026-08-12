@@ -1,0 +1,350 @@
+{
+  "id": 458832,
+  "identifier": "ZBBDJP",
+  "persistentUrl": "https://doi.org/10.34894/ZBBDJP",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-11-29",
+  "storageIdentifier": "surf://10.34894/ZBBDJP",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 29950,
+    "datasetId": 458832,
+    "datasetPersistentId": "doi:10.34894/ZBBDJP",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/ZBBDJP",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-01-07T15:11:03Z",
+    "releaseTime": "2025-01-07T15:11:03Z",
+    "createTime": "2024-12-04T14:39:48Z",
+    "publicationDate": "2024-11-29",
+    "citationDate": "2024-11-29",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "termsOfAccess": "Verwijder elementen die niet relevant of van toepassing zijn. Mis je een element? Voeg het dan gerust toe. \n\nVoor welk doel:\n-\tvoor wetenschappelijk of praktijkgericht onderzoek\n-\tvoor vervolgonderzoek\n\nVoor wie:\n-\tvoor onderzoekers van de Hogeschool Utrecht\n-\tvoor onderzoekers van Hoger Onderwijs instellingen\n-\tvoor medewerkers en studenten van de Hogeschool Utrecht\n\nVereiste acties:\n-\ttoestemming van datasteward\n-\ttoestemming van projectleider / hoofdonderzoeker\n-\tbij aanvraag vermelden van volledige naams- en contactgegevens en gegevens van de instelling waarbij u werkt\n-\tbij aanvraag volledig onderzoeksontwerp bijvoegen (vanwege bepalingen in de AVG* m.b.t. grondslagen voor onderzoek)\n-\tondertekenen van een Data Transfer Agreement / Data Sharing Agreement / Verwerkersovereenkomst (AVG)\n\nAlgemene voorwaarden, de ontvanger van de datasets zal:\n-\tde data alleen gebruiken voor het doel waarvoor ze zijn opgevraagd\n-\tgeen toegang bieden tot de datasets aan derden buiten het onderzoeksteam, en daarbinnen alleen aan onderzoekers die voor de uitoefening van het onderzoek geautoriseerd zijn om te werken met de ruwe data\n-\tde dataset(s) niet verder delen en verspreiden zonder toestemming van de onderzoeker die de data heeft verstrekt\n",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Conversational Agents and Trust"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Al-Othmani, Rhied"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/028z9kw20"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0004-0362-5927"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HU Onderzoeksupport"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hogeschool Utrecht"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Al-Othmani, Rhied"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hogeschool Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset consists of references of collected papers for a literature study on conversational agents and trust.  The papers included were analyzed and coded. The following data was extracted from these papers: Paper Title, Authors, Publication year, Journal, Discipline, Abstract, DOI, Author keywords, Methodology, Trust definition, Trust Operationalisation and Source of Trust Operationalisation. \n\nThis dataset was collected to get an overview of how Trust has been defined and measured when it comes to Conversational Agents. \n\nTo identify relevant papers, a search strategy based on CA-related keywords was developed. Using the keyword ‘trust’ was sufficient to capture variations of the term in the search results (e.g., ‘trustworthy’). Only papers published between 2015 and 2023 were included, sourced from databases such as Web of Science, Wiley, Elicit, IEEE, ACM, Tandfonline, Ebscohost, and the HU University of Applied Sciences Utrecht digital library. In total, 1,240 papers were initially retrieved. After removing duplicates, 1,094 papers remained. Next, papers that did not focus on Trust and Conversational Agents (chatbots, assistants etc.) were excluded. The final dataset consists of 74 papers. \n\nData collection took place from November 2022 to November 2023. \n\nWith this dataset, a Jupyter Notebook is (will be) included used to analyse the data."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-11"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Systematic Literature Review"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Conversational Agents"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Trust"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Trust"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Conversational Agents"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NWO"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This publication is part of the project Bots of Trust: An interdisciplinary discourse (with  project number 023.020.030 which is financed by the Dutch Research Council  (NWO)."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Al-Othmani, Rhied"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-11-21"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2015"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-11"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023-11"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "List of references of papers collected for a Systematic Literature Review"
+            ]
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "A Jupyter Notebook was used to analyse the data."
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/ZBBDJP"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:1370f9f2-e7e1-4e98-8335-f9b87f594e23"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-ace50de9-7488-4483-9bc8-bfa5113874f3"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "BOT_Analysis_of_papers_on_Conversational_Agents_and_Trust.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29950,
+        "dataFile": {
+          "id": 458833,
+          "persistentId": "",
+          "filename": "BOT_Analysis_of_papers_on_Conversational_Agents_and_Trust.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 85332,
+          "storageIdentifier": "surf://store:1934fa21227-252e5c0bfd79",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "804cfffdf36da63ee100f879229e0a439615776f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-21",
+          "publicationDate": "2024-11-29",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Al-Othmani, Rhied, 2024, \"Conversational Agents and Trust\", https://doi.org/10.34894/ZBBDJP, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,2340 @@
+{
+  "id": 426450,
+  "identifier": "ZE4SVO",
+  "persistentUrl": "https://doi.org/10.34894/ZE4SVO",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-12-02",
+  "storageIdentifier": "surf://10.34894/ZE4SVO",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 28449,
+    "datasetId": 426450,
+    "datasetPersistentId": "doi:10.34894/ZE4SVO",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/ZE4SVO",
+    "versionNumber": 1,
+    "internalVersionNumber": 11,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-12-02T20:20:51Z",
+    "releaseTime": "2024-12-02T20:20:51Z",
+    "createTime": "2024-06-24T11:55:42Z",
+    "publicationDate": "2024-12-02",
+    "citationDate": "2024-12-02",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Multilingual Literary Sentiment Annotation Dataset of Borges's book < Ficciones >"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dong, Zijian"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dong, Zijian"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dataverse Support Contact"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UM LIbrary"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset is part of a bachelor thesis work, focusing on the annotation of emotional and sentiment content in literary translations. It involves the annotation of excerpts from Jorge Luis Borges' \"Ficciones\" in four languages: Spanish, Finnish, English, and Chinese.\n\nA total of 100 fragments were annotated in Spanish and Chinese, with Spanish fragments being annotated by two people to avoid bias. Additionally, 37 fragments were consistently annotated across all four languages, allowing for parallel comparison of sentiment across these languages. In total, 411 excerpts were annotated. This dataset aims to support research in cross-lingual sentiment analysis and the preservation of emotional content in translations."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-06-17"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Borges, Ficciones, Natural language Processing, Sentiment Annotation, Machine Translation, transformer architecture, Polarity Detection"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Natural Language Processing (NLP), Machine Translation, Sentiment Analysis, Computational Linguistics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "R. Plutchik, “The Nature of Emotions,” American Scientist, vol. 89, no. 4, pp. 344-350, 2001.\nR. Plutchik, “The Nature of Emotions: Clinical Implications,” in Emotions and Psychopathology, M. Clynes and J. Panksepp, Eds. Boston, MA: Springer, 1988, pp. 1-20. DOI: 10.1007/978-1-4757-1987-1_1."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The sentiment categories are based on plutchik's wheel of emotions"
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Chinese",
+              "English",
+              "Finnish",
+              "Spanish, Castilian"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Supervisor"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Aki Härmä"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Dong, Zijian"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-06-24"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-02-17"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-06-17"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-02-17"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-06-17"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              ".xlsx",
+              ".txt"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Microsoft Excel"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Manual annotations are performed by native speakers of each language."
+            ]
+          },
+          {
+            "typeName": "originOfSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The book <fictions> by Jorge Luis Borges\nPlutchik's wheel of emotions"
+          },
+          {
+            "typeName": "accessToSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Microsoft Office"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/ZE4SVO"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:db12d729-ae98-4471-a8b3-50b84c761d9c"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-7db2d362-0920-4940-b35b-a1b4dc041524"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "~$Summary of Spanish annotation.xlsx",
+        "restricted": false,
+        "directoryLabel": "DataSet/Annotation",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460620,
+          "persistentId": "",
+          "filename": "~$Summary of Spanish annotation.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 165,
+          "storageIdentifier": "surf://store:193890543c2-ae00acd3e39b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "331adef8899bdab3097c8bb77cc34a48a6aa09f0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "All Translation annotation.xlsx",
+        "restricted": false,
+        "directoryLabel": "DataSet/Annotation",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460646,
+          "persistentId": "",
+          "filename": "All Translation annotation.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 116332,
+          "storageIdentifier": "surf://store:193890543d9-699522aa7270",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7e95fde6cf320d4668102f7fc07c5ab0442215bd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Annotation Guideline.pdf",
+        "restricted": false,
+        "directoryLabel": "DataSet/Annotation",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460669,
+          "persistentId": "",
+          "filename": "Annotation Guideline.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 2125506,
+          "storageIdentifier": "surf://store:193890543de-2de4f94a664c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c0fa7b0508436537101f7e9002fcf09f752259b7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 10.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460688,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 10.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 8535,
+          "storageIdentifier": "surf://store:193890544b6-99a49233f0df",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "aa9d0c442113f2cad07ff6a097f40487cc591554"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 11.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460623,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 11.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 22226,
+          "storageIdentifier": "surf://store:1938905449e-09387d3119b7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "126f86c0640f227524009b06786eb2d56d0b1bc8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 12.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460632,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 12.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 13274,
+          "storageIdentifier": "surf://store:193890544be-7a8ff16430e6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ec5269e309704e595ff7bba095a4d74ca00177d6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 13.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460648,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 13.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 11607,
+          "storageIdentifier": "surf://store:193890544d6-8bb97d6d747a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5af795d247ef8230b0367f9162beaa0c12a62ef0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 14.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460676,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 14.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 5156,
+          "storageIdentifier": "surf://store:1938905447a-85dee41d8d18",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "39169409da7563eb9849bc1291a880ddbc694d28"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 15.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460696,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 15.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6097,
+          "storageIdentifier": "surf://store:19389054496-6888dd94aa67",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "95ed8eee9d8247a3b59ef04c7b86292bfbca45fa"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 16.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460686,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 16.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 12695,
+          "storageIdentifier": "surf://store:19389054470-05a3c2ce693f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f82eb98564c74c3dd31107f05d71f993088df0f7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 1.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460653,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 23921,
+          "storageIdentifier": "surf://store:19389054463-8e8f8b44308b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f386bbf38c84bf67180c30d3075b1664c2b22615"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 2.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460621,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 20282,
+          "storageIdentifier": "surf://store:1938905448d-5a3feab416ae",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "720fd76cfb37e5ce173839c175ad706cfe169351"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 3.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460647,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 10720,
+          "storageIdentifier": "surf://store:19389054483-dd6542b20c7e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "14365a2d85a8d5b3c4b442e052bdaec3996c22dd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 4.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460627,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 4.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 12332,
+          "storageIdentifier": "surf://store:193890544ce-7dc64323c7d7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5a165376e37e7c90f012dbd129b4cf4f090e14f9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 5.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460661,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 5.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 9569,
+          "storageIdentifier": "surf://store:193890544c6-95d4e633898f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bb98fbd7a0c4f03cbb15d6399ecf38cc42da6a0e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 6.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460687,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 6.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 15759,
+          "storageIdentifier": "surf://store:193890544a7-5afdd50f1afa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "55b906cb1e07f0fb76c056b012fa5e26af7dc9fd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_chapter7 .pdf",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460691,
+          "persistentId": "",
+          "filename": "Chinese_chapter7 .pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 460114,
+          "storageIdentifier": "surf://store:19389054407-44e99b87aea2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fe40f01f7a6f18b599bf05b4d96be666856dcbf8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 7.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460634,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 7.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 21463,
+          "storageIdentifier": "surf://store:193890544af-b3cf2d708fa5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c7888202bf9e62ab23d18ac4aca1512f0daef53d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 8.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460683,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 8.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 17122,
+          "storageIdentifier": "surf://store:19389054456-36c74e0fa1d6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2763c4de0d2721daa50b4705553cd3a34d367258"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_Chapter 9.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Chinese_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460649,
+          "persistentId": "",
+          "filename": "Chinese_Chapter 9.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 10880,
+          "storageIdentifier": "surf://store:1938905444e-65d861459e61",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "623835bc0bb3dd7653704876cf0bfe755fde025d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Chinese_marked.png",
+        "restricted": false,
+        "directoryLabel": "DataSet/Annotation/plutchik.s wheel of emotions Chart",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460630,
+          "persistentId": "",
+          "filename": "Chinese_marked.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 317119,
+          "storageIdentifier": "surf://store:1938905440e-13a3d4a7ae68",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0bc5805f7c736f626cc83df5038c0d667514e175"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 10.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460619,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 10.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 8054,
+          "storageIdentifier": "surf://store:19389054566-6af692ae83a2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "57556d566e59bcccd110c33ddaf7acb5e127da19"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 11.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460645,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 11.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 26438,
+          "storageIdentifier": "surf://store:19389054560-aea13d8afe97",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "39ddbe25d793ae561eecd435d555f18d8318032c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 12.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460682,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 12.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 15703,
+          "storageIdentifier": "surf://store:1938905456d-e9e28fcbb0e1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7bd1ea8f8850368499d2c2a8e5120d9ac01bcd76"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 13.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460631,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 13.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 12961,
+          "storageIdentifier": "surf://store:19389054573-f77d171a37e0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a88d610bf8b8c889b8ac1abcaeca8dad6c1e5445"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 14.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460636,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 14.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6325,
+          "storageIdentifier": "surf://store:19389054552-a3e370cabc51",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3fb8baad1f3b595674658f820cf3cdb7044bce55"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 15.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460652,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 15.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6725,
+          "storageIdentifier": "surf://store:19389054559-90fea9367617",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9da0c72c542742444da88dbde6d27dda723830a2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 16.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460667,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 16.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 15614,
+          "storageIdentifier": "surf://store:1938905454c-31ee18a50904",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a17d133f1fd201b3270d6ae031bad3757a0325e1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 17.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460633,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 17.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 0,
+          "storageIdentifier": "surf://store:19389054544-1ee812f5e296",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 1.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460635,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 38695,
+          "storageIdentifier": "surf://store:1938905459b-706d1219c5c1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "84f50dc279cdbcdbf8772a12a832f5eefa606d9e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 2.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460654,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 20197,
+          "storageIdentifier": "surf://store:19389054595-420fd0f007b0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "962fa3c08aabebae81a3507f60b88d6c8aba7961"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 3.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460693,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 12935,
+          "storageIdentifier": "surf://store:19389054590-a116c6bc84a3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ccb00c8a40d08c458f593c4f3829aa9a56bd981c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 4.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460675,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 4.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 15009,
+          "storageIdentifier": "surf://store:1938905457e-a697224e6f84",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "08a439f645a1ebcbad7504d333d214b040860027"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 5.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460641,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 5.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 10831,
+          "storageIdentifier": "surf://store:19389054578-bb4d55754c21",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6d3b1c5fe1985fde14efd2bd5a09b1d0032ad161"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 6.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460694,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 6.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 18864,
+          "storageIdentifier": "surf://store:19389054584-5990da11f9b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f06bccb864f244b5df6f4a5f8763e1dc11236536"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 7.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460679,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 7.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 25047,
+          "storageIdentifier": "surf://store:1938905458a-f36052eebf3f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5772f5b2139a5cbc59f63289252a0d4443553ffa"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 8.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460644,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 8.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 18160,
+          "storageIdentifier": "surf://store:193890545a8-f867d63013cd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "651064f5804010a5511f6259c6bbfd9b7dfe286b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Dutch_Chapter 9.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Dutch_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460642,
+          "persistentId": "",
+          "filename": "Dutch_Chapter 9.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 12094,
+          "storageIdentifier": "surf://store:193890545a1-376393caef1c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eb2b0fb6c92f60e2bfe50fa8974c91d977c74e7c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 10.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460660,
+          "persistentId": "",
+          "filename": "English_Chapter 10.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 8131,
+          "storageIdentifier": "surf://store:193890545ee-359ad9e217aa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7f1157f7cdf9b255212a373216e4a1b1fc3a44c7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 11.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460681,
+          "persistentId": "",
+          "filename": "English_Chapter 11.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 25085,
+          "storageIdentifier": "surf://store:193890545e7-44f34b18a807",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3e957145029010e6daf36b889f170331b8ef02da"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 12.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460629,
+          "persistentId": "",
+          "filename": "English_Chapter 12.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 14612,
+          "storageIdentifier": "surf://store:193890545f4-42ee844c4fdf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d852f0c7b1b1131790e1483072d40015eec8e715"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 13.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460657,
+          "persistentId": "",
+          "filename": "English_Chapter 13.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 12133,
+          "storageIdentifier": "surf://store:193890545fb-c22e676e9457",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "880c6a8f8ead560fcd17306ee17dca80a0b7b2e3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 14.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460678,
+          "persistentId": "",
+          "filename": "English_Chapter 14.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6731,
+          "storageIdentifier": "surf://store:19389054608-733d6da347d1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "18b9b14153f132f5430d62b6291b39836d360728"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 15.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460624,
+          "persistentId": "",
+          "filename": "English_Chapter 15.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6860,
+          "storageIdentifier": "surf://store:1938905460f-1fe6c15d21fd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "78068a0da06cb24952767fcdeb2ada44ae8ffd46"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 16.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460673,
+          "persistentId": "",
+          "filename": "English_Chapter 16.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 15301,
+          "storageIdentifier": "surf://store:19389054601-af026ef71867",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "af325a24e09826e82fe8293a71e81b5954ed15a3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 1.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460622,
+          "persistentId": "",
+          "filename": "English_Chapter 1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 37039,
+          "storageIdentifier": "surf://store:193890545ad-7a790d17eab7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "542cbe67f7bd9146bb17cf6ce77d18c38891a126"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 2.5.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460640,
+          "persistentId": "",
+          "filename": "English_Chapter 2.5.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 19425,
+          "storageIdentifier": "surf://store:193890545e1-d528ec1aba48",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4dc77b89d6c84943d0a979f36ec466acb58ec634"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 2.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460672,
+          "persistentId": "",
+          "filename": "English_Chapter 2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 14736,
+          "storageIdentifier": "surf://store:193890545b9-1383ed31ba71",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "40c96734bd028ed97892e5e4c45b5b571ac0b8b9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 3.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460670,
+          "persistentId": "",
+          "filename": "English_Chapter 3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 12606,
+          "storageIdentifier": "surf://store:193890545b3-ecdd7025c3ee",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cf4d751afbeb3bec900b7b558d590e9025eed3d5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 4.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460671,
+          "persistentId": "",
+          "filename": "English_Chapter 4.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 14209,
+          "storageIdentifier": "surf://store:193890545d0-136b94a6b097",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3aeeca6b3cfd20a5e02ae84e850736063afb63f3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 5.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460637,
+          "persistentId": "",
+          "filename": "English_Chapter 5.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 10275,
+          "storageIdentifier": "surf://store:193890545cb-20432b9c3a6d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d20b2bdd4f175cbc06478a1fd57cb56cc8d981ed"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 6.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460658,
+          "persistentId": "",
+          "filename": "English_Chapter 6.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 18383,
+          "storageIdentifier": "surf://store:193890545bf-40a2a0383e92",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a43ba49c38a7f98055f32fb7ce6ae5d9c0d9a1e8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 7.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460692,
+          "persistentId": "",
+          "filename": "English_Chapter 7.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 24545,
+          "storageIdentifier": "surf://store:193890545c5-b3f793ece8d9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "08c9678d910b1f83512aed79d3839f6fa264933c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 8.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460697,
+          "persistentId": "",
+          "filename": "English_Chapter 8.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 17442,
+          "storageIdentifier": "surf://store:193890545db-bb859a7fb43f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b9f7b1f48f5f10d66b86800dd23ba4b9573cea5d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Chapter 9.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/English_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460674,
+          "persistentId": "",
+          "filename": "English_Chapter 9.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 10960,
+          "storageIdentifier": "surf://store:193890545d6-6714e036c72b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9e44456980cc1af6e1615267ea9cffb161d49934"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_Garden of forking path.pdf",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460643,
+          "persistentId": "",
+          "filename": "English_Garden of forking path.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 243135,
+          "storageIdentifier": "surf://store:193890543f8-a7641739282d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c2930dca65a10478c242decc6349d93cbd780fdd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "English_marked.png",
+        "restricted": false,
+        "directoryLabel": "DataSet/Annotation/plutchik.s wheel of emotions Chart",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460656,
+          "persistentId": "",
+          "filename": "English_marked.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1603904,
+          "storageIdentifier": "surf://store:1938905441a-044b8c5d750a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eab83cb71781133b59413718ec68a93a487d95b5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Finnish_Chapter7 Forking Garden_fixed.xlsx",
+        "restricted": false,
+        "directoryLabel": "DataSet/Annotation",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460628,
+          "persistentId": "",
+          "filename": "Finnish_Chapter7 Forking Garden_fixed.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 16192,
+          "storageIdentifier": "surf://store:193890543d5-4d09fb0c68c1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fed54eb03191aef99809ccd8a45ae351395f1d48"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Greek_Chapter7_Garden.pdf",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460680,
+          "persistentId": "",
+          "filename": "Greek_Chapter7_Garden.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 126044,
+          "storageIdentifier": "surf://store:19389054403-32635a3fa9a8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f725127377e6b9020a8ce9d8aa109594532078a4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "marked_Finnish.png",
+        "restricted": false,
+        "directoryLabel": "DataSet/Annotation/plutchik.s wheel of emotions Chart",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460665,
+          "persistentId": "",
+          "filename": "marked_Finnish.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 462835,
+          "storageIdentifier": "surf://store:1938905443a-3c9504857a27",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "30c85ca62eade515e83d9000e45f3b85a81a7d14"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "plutchik's wheel of emotions.png",
+        "restricted": false,
+        "directoryLabel": "DataSet/Annotation/plutchik.s wheel of emotions Chart",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460666,
+          "persistentId": "",
+          "filename": "plutchik's wheel of emotions.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 531497,
+          "storageIdentifier": "surf://store:19389054444-b9d84e3602b7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e3278fb4507268baf5bb5255e4d561dcab977f9c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Polish Chapter7_Garden.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460626,
+          "persistentId": "",
+          "filename": "Polish Chapter7_Garden.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 21283,
+          "storageIdentifier": "surf://store:193890543fd-0ea9505d4c9a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2d703e9df351ffce530072e5ae92d2a251e79120"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 10.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460659,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 10.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 7592,
+          "storageIdentifier": "surf://store:19389054507-fe2ce572bc30",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "59c51129b9d47f93fce8c1e05ed2f69369ef30f7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 11.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460639,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 11.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 23780,
+          "storageIdentifier": "surf://store:19389054500-24165c5424f2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fb29efbdada644623a11f411ad3771d32a7cebbb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 12.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460668,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 12.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 13855,
+          "storageIdentifier": "surf://store:193890544e5-e4766c1af983",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1aee7cecf5eb69b889007c2df2f8da4cf40be70e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 13.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460638,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 13.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 11626,
+          "storageIdentifier": "surf://store:193890544eb-a51f846c84dc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "22b0fff15870f4b0e02379cace38478deeb0c2dd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 14.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460663,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 14.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 5606,
+          "storageIdentifier": "surf://store:19389054518-66672708d8a0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2364cf6d06ad2eff5cffaeab4f180b2ccbcc64d9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 15.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460618,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 15.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6194,
+          "storageIdentifier": "surf://store:1938905451e-504bbcdb2760",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "598615b8ba20a7583bd2e466e7232c1c8a90a0f8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 16.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460651,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 16.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 13852,
+          "storageIdentifier": "surf://store:19389054529-d6140e44a237",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "aa71277d02729cdcdaa25411a92184f8d15efe3c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 1.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460684,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 34913,
+          "storageIdentifier": "surf://store:19389054530-3638116634bc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a57d748eb2d5c34ec097e9cc208a30f126640b73"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 2.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460689,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 13650,
+          "storageIdentifier": "surf://store:19389054524-8ba02088b422",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c452b0156a2ae18d4ba3cb60c2ceccf94d28a0e0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 3.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460655,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 11895,
+          "storageIdentifier": "surf://store:19389054512-e3587c51c1c1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "32db2cc465779f65445a74d8459d0bc55554107c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 4.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460677,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 4.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 13539,
+          "storageIdentifier": "surf://store:193890544f1-1354ef340f5b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "809d078c15be0c2321ba9dd51d49986230b12b49"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 5.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460695,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 5.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 9718,
+          "storageIdentifier": "surf://store:193890544df-c151554e3eda",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "79e75e46748641709d0e1873ac2fd37687fc3527"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 6.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460650,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 6.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 17603,
+          "storageIdentifier": "surf://store:193890544fa-dd133c563d1c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4d1fa8111d5ac3b09e5d91e11ee86d2a2eb7d3a8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 7.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460690,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 7.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 22751,
+          "storageIdentifier": "surf://store:1938905450d-e11ffca76210",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3197fcc6d2a0d12e6d7af5327eb1a3a022b1cd99"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 8.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460685,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 8.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 16258,
+          "storageIdentifier": "surf://store:1938905453d-dbd97c2ac3c5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "305c9e9ef75227a6fb29def6d279424b3f131dde"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_Chapter 9.txt",
+        "restricted": false,
+        "directoryLabel": "DataSet/TextFiles/Spanish_Chapters_txt",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460662,
+          "persistentId": "",
+          "filename": "Spanish_Chapter 9.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 10470,
+          "storageIdentifier": "surf://store:19389054537-ef20d9fb4898",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1132917f3cc5dd2121a3727a5de14641700b8d0a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Spanish_marked copy.png",
+        "restricted": false,
+        "directoryLabel": "DataSet/Annotation/plutchik.s wheel of emotions Chart",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460664,
+          "persistentId": "",
+          "filename": "Spanish_marked copy.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 812323,
+          "storageIdentifier": "surf://store:1938905442d-19b20bfe8a89",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "024b249e25502cc09bd354509b3fac5d181cc517"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Summary of Spanish annotation.xlsx",
+        "restricted": false,
+        "directoryLabel": "DataSet/Annotation",
+        "version": 1,
+        "datasetVersionId": 28449,
+        "dataFile": {
+          "id": 460625,
+          "persistentId": "",
+          "filename": "Summary of Spanish annotation.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 23483,
+          "storageIdentifier": "surf://store:193890543d1-512936b850f5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "941be7414dac5592d96ff09bf0caa04ff7f9a153"
+          },
+          "tabularData": false,
+          "creationDate": "2024-12-02",
+          "publicationDate": "2024-12-02",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Dong, Zijian, 2024, \"Multilingual Literary Sentiment Annotation Dataset of Borges's book < Ficciones >\", https://doi.org/10.34894/ZE4SVO, DataverseNL, V1"
+  }
+}

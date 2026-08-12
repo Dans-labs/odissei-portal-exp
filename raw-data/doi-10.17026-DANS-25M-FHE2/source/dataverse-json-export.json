@@ -1,0 +1,614 @@
+{
+  "id": 9696,
+  "identifier": "dans-25m-fhe2",
+  "persistentUrl": "https://doi.org/10.17026/DANS-25M-FHE2",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2018-02-08",
+  "storageIdentifier": "surf://10.17026/dans-25m-fhe2",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 29781,
+    "datasetId": 9696,
+    "datasetPersistentId": "doi:10.17026/DANS-25M-FHE2",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-25m-fhe2",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2019-03-11",
+    "productionDate": "2018-02-08",
+    "lastUpdateTime": "2026-07-19T12:49:54Z",
+    "releaseTime": "2026-07-19T12:49:54Z",
+    "createTime": "2026-07-19T12:49:43Z",
+    "publicationDate": "2018-02-08",
+    "citationDate": "2018-02-08",
+    "versionNote": "The Python package langdetect was used to semi-automatically identify the languages used in the metadata. Human curators verified and corrected the results. If you notice any inaccuracies, please contact DANS.",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "termsOfAccess": "",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Semantic Query Analysis from the Global Science Gateway"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:120618"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "C. Carlesi"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Istituto di Scienze e Tecnologie dell’informazione “A. Faedo”, CNR-ISTI, Italy"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "D.  Farace"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GreyNet International, Grey Literature Network Service"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Nowadays web portals play an essential role in searching and retrieving information in the several fields of knowledge: they are ever more technologically advanced and designed for supporting the storage of a huge amount of information in natural language originating from the queries launched by users worldwide.<br>A good example is given by the WorldWideScience search engine:<br>The database is available at <http://worldwidescience.org/>. It is based on a similar gateway, Science.gov, which is the major path to U.S. government science information, as it pulls together Web-based resources from various agencies. The information in the database is intended to be of high quality and authority, as well as the most current available from the participating countries in the Alliance, so users will find that the results will be more refined than those from a general search of Google. It covers the fields of medicine, agriculture, the environment, and energy, as well as basic sciences. Most of the information may be obtained free of charge (the database itself may be used free of charge) and is considered ‘‘open domain.’’ As of this writing, there are about 60 countries participating in WorldWideScience.org, providing access to 50+databases and information portals. Not all content is in English. (Bronson, 2009)<br>Given this scenario, we focused on building a corpus constituted by the query logs registered by the GreyGuide: Repository and Portal to Good Practices and Resources in Grey Literature  and received by the WorldWideScience.org  (The Global Science Gateway) portal: the aim is to retrieve information related to social media which as of today represent a considerable source of data more and more widely used for research ends.<br>This project includes eight months of query logs  registered between July 2017 and February 2018 for a total of 445,827 queries. The analysis mainly concentrates on the semantics of the queries received from the portal clients: it is a process of information retrieval from a rich digital catalogue whose language is dynamic, is evolving and follows – as well as reflects – the cultural changes of our modern society.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Information Extraction"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Query Log"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "WorldWideScience Alliance"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Information gateways"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Social Media"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Grey Literature"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Interdisciplinary sciences"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Science and Technology"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Linguistics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2018-02-08"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2019-03-11"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2019-03-11"
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Unknown"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D31000",
+              "https://www.narcis.nl/classification/E10000",
+              "https://www.narcis.nl/classification/D10000",
+              "https://www.narcis.nl/classification/D36100"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D31000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Paleography, bibliology, bibliography, library science"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Boekwetenschappen, bibliotheekwetenschappen en informatiewetenschappen"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/E10000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Interdisciplinaire wetenschappen"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Interdisciplinary sciences"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D10000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Science and technology"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Natuurwetenschappen en techniek"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D36100",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Linguistics"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Linguïstiek"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansCollection",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://vocabularies.dans.knaw.nl/collections/ssh/d84775f0-d4ca-43cb-ad9c-46f7daaa2f0d"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://vocabularies.dans.knaw.nl/collections/ssh/d84775f0-d4ca-43cb-ad9c-46f7daaa2f0d",
+                "vocabularyUri": "https://vocabularies.dans.knaw.nl/collections"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GreyNet International, Grey Literature Network Service"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.greynet.org"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GreyGuide Portal and Repository"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://greyguiderep.isti.cnr.it/"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "WorldWideScience.org"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://worldwidescience.org"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "2017-2018"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/DANS-25M-FHE2"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d6ff2127-cddc-4a51-94c1-e85603e59e8b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-3f-m1jy"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29781,
+        "dataFile": {
+          "id": 9699,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 19837,
+          "description": "",
+          "storageIdentifier": "surf://store:186df615d06-5fda7fe777e3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "104ed7174ac8c366aa43062e3dab8985f8287801"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2018-02-08",
+          "lastUpdateTime": "2026-07-19T12:49:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "GL20 Poster Goggi et al.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29781,
+        "dataFile": {
+          "id": 9705,
+          "persistentId": "",
+          "filename": "GL20 Poster Goggi et al.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1349455,
+          "description": "",
+          "storageIdentifier": "surf://store:186df61621a-926d0f158d6d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d0728924c9f710cbbdd68e2fff3d0c5870d84f69"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2018-02-08",
+          "lastUpdateTime": "2026-07-19T12:49:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Goggi et al.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29781,
+        "dataFile": {
+          "id": 9706,
+          "persistentId": "",
+          "filename": "Goggi et al.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1431355,
+          "description": "",
+          "storageIdentifier": "surf://store:186df616369-a110376f9965",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b86d784bd31ad58a9e98c8bbb7919f6e85585fc0"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2018-02-08",
+          "lastUpdateTime": "2026-07-19T12:49:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "QueryRemoteWWC.txt-08022017_18",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29781,
+        "dataFile": {
+          "id": 9703,
+          "persistentId": "",
+          "filename": "QueryRemoteWWC.txt-08022017_18",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 19672036,
+          "description": "",
+          "storageIdentifier": "surf://store:186df6160be-1cd0ce14200c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5c8e829550c706fbc80067178b4abdb42d9059d9"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2018-02-08",
+          "lastUpdateTime": "2026-07-19T12:49:54Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "QueryRemoteWWC.txt-08022017_18.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29781,
+        "dataFile": {
+          "id": 9701,
+          "persistentId": "",
+          "filename": "QueryRemoteWWC.txt-08022017_18.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 14994765,
+          "description": "",
+          "storageIdentifier": "surf://store:186df615e83-d9a4905b9c41",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c2897f6fa428ff5f7115e6ef4520f5b26d3619cc"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2018-02-08",
+          "lastUpdateTime": "2026-07-19T12:49:54Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "C. Carlesi, 2018, \"Semantic Query Analysis from the Global Science Gateway\", https://doi.org/10.17026/DANS-25M-FHE2, DANS Data Station Social Sciences and Humanities, V1"
+  }
+}

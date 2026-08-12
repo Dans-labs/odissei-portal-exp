@@ -1,0 +1,402 @@
+{
+  "id": 420742,
+  "identifier": "GZQMQV",
+  "persistentUrl": "https://doi.org/10.34894/GZQMQV",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-04-23",
+  "storageIdentifier": "surf://10.34894/GZQMQV",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 27587,
+    "datasetId": 420742,
+    "datasetPersistentId": "doi:10.34894/GZQMQV",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/GZQMQV",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-04-23T13:57:01Z",
+    "releaseTime": "2024-04-23T13:57:01Z",
+    "createTime": "2024-04-23T12:30:50Z",
+    "publicationDate": "2024-04-23",
+    "citationDate": "2024-04-23",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Instances for \"A New Perspective on Carrier Collaboration: Collaborative Vehicle Utilization\""
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Asgharieh Ahari, S."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bakir, I."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-3160-526X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Roodbergen, K.J."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-4083-2106"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "To reduce the environmental impact and costs associated with road transport, carriers can collaborate with each other in making deliveries to their customers, typically sharing any additional profits. Our proposed collaborative vehicle utilization framework allows participating carriers to borrow trucks from each other. <br> <br>\n\nThe datasets are organized according to the geographical scenarios discussed in the paper. <br>\n\nEach Excel file is named following the format dfx_y_comp_n_z, where: <br>\n- x represents the instance number,<br>\n- y indicates the number of carriers (companies), and <br>\n- z denotes the total number of customers.<br> <br>\n\nWithin each Excel file, the following columns are included:<br>\n\n- X-Coord: Indicates the coordinate along the x-axis.<br>\n- Y-Coord: Indicates the coordinate along the y-axis.<br>\n- Demand: Represents the demand of each customer.<br>\n- Profit: Indicates the profit associated with visiting each customer.<br>\n- Customer_Company: Specifies the carrier to which each customer belongs.<br>\n- Company_vehicle: Indicates the number of vehicles owned by each carrier."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-04"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Business and Management"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Horizontal carrier collaboration"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Collaborative vehicle utilization"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Order sharing"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Branch-and-price"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Constraint generation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Integer programming"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cooperative game theory"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Logistics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A New Perspective on carrier collaboration: Collaborative vehicle utilization\nAsgharieh Ahari, S., Bakir, I. & Roodbergen, K. J., 2024, (In preparation) In: Transportation Research Part C: Emerging Technologies."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "url"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://dx.doi.org/10.2139/ssrn.4436902"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL Network"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS"
+                },
+                "distributorAbbreviation": {
+                  "typeName": "distributorAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DVNL"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://dataverse.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Elsenga, Christina"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-04-23"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/GZQMQV"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:4b6aa863-9036-42be-8dfd-e78a151bc1bf"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-0b33ebfd-964a-4a74-98f5-0911f8d649c3"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Zip-file containing 1081 files",
+        "label": "CVUP_Data_2.7z",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27587,
+        "categories": [
+          "Data",
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 420743,
+          "persistentId": "",
+          "filename": "CVUP_Data_2.7z",
+          "contentType": "application/x-7z-compressed",
+          "friendlyType": "7Z Archive",
+          "filesize": 6474347,
+          "description": "Zip-file containing 1081 files",
+          "categories": [
+            "Data",
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:18f0aef7024-cda371bd855f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6a768efbc30eef9c517fc255302ac74ba05f884d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-04-23",
+          "publicationDate": "2024-04-23",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Asgharieh Ahari, S.; Bakir, I.; Roodbergen, K.J., 2024, \"Instances for \"A New Perspective on Carrier Collaboration: Collaborative Vehicle Utilization\"\", https://doi.org/10.34894/GZQMQV, DataverseNL, V1"
+  }
+}

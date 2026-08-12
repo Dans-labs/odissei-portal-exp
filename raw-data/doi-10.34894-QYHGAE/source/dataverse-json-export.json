@@ -1,0 +1,233 @@
+{
+  "id": 36290,
+  "identifier": "QYHGAE",
+  "persistentUrl": "https://doi.org/10.34894/QYHGAE",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2020-10-13",
+  "storageIdentifier": "surf://10.34894/QYHGAE",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3036,
+    "datasetId": 36290,
+    "datasetPersistentId": "doi:10.34894/QYHGAE",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/QYHGAE",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2020-10-13T09:07:26Z",
+    "releaseTime": "2020-10-13T09:07:26Z",
+    "createTime": "2020-09-08T14:33:51Z",
+    "publicationDate": "2020-10-13",
+    "citationDate": "2020-10-13",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "TSP QUBO Repository."
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wils, Kevin"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wils, Kevin"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Python code for setting up a TSP QUBO matrix, and submitting the problem to the D-Wave quantum annealer. A brute-force analysis is included that calculates the distance of every possible route. Make sure to paste your D-Wave user Token in the txt file before use."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-09-08"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Engineering"
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Wils, Kevin"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-09-08"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/QYHGAE"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:eda9f59a-6f43-49be-925a-c549d3b2989e"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-b56f891f-93d6-4486-be30-ea329ceef473"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Text file should contain your D-Wave user Token. ",
+        "label": "DWave_Token.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3036,
+        "dataFile": {
+          "id": 36291,
+          "persistentId": "",
+          "filename": "DWave_Token.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 44,
+          "description": "Text file should contain your D-Wave user Token. ",
+          "storageIdentifier": "surf://store:1746e1e7ea6-a64424ed88d1",
+          "rootDataFileId": -1,
+          "md5": "5a015910db6b023c71eeafcd30b20a81",
+          "checksum": {
+            "type": "MD5",
+            "value": "5a015910db6b023c71eeafcd30b20a81"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-08",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Python code for setting up a TSP QUBO matrix, and submitting the problem to the D-Wave quantum annealer. A brute-force analysis is included that calculates the distance of every possible route. Make sure to paste your D-Wave user Token in the txt file before use. ",
+        "label": "TSP QUBO.py",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3036,
+        "dataFile": {
+          "id": 36292,
+          "persistentId": "",
+          "filename": "TSP QUBO.py",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 11125,
+          "description": "Python code for setting up a TSP QUBO matrix, and submitting the problem to the D-Wave quantum annealer. A brute-force analysis is included that calculates the distance of every possible route. Make sure to paste your D-Wave user Token in the txt file before use. ",
+          "storageIdentifier": "surf://store:1746e1caff4-28c67b361ca7",
+          "rootDataFileId": -1,
+          "md5": "8cc93689258b3894f68f3f9d2083518d",
+          "checksum": {
+            "type": "MD5",
+            "value": "8cc93689258b3894f68f3f9d2083518d"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-08",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Wils, Kevin, 2020, \"TSP QUBO Repository.\", https://doi.org/10.34894/QYHGAE, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "id": 191044,
+  "identifier": "ZUWAPS",
+  "persistentUrl": "https://doi.org/10.34894/ZUWAPS",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-11-29",
+  "storageIdentifier": "surf://10.34894/ZUWAPS",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 8810,
+    "datasetId": 191044,
+    "datasetPersistentId": "doi:10.34894/ZUWAPS",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/ZUWAPS",
+    "versionNumber": 1,
+    "internalVersionNumber": 12,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-11-29T22:18:47Z",
+    "releaseTime": "2021-11-29T22:18:47Z",
+    "createTime": "2021-09-29T08:10:36Z",
+    "publicationDate": "2021-11-29",
+    "citationDate": "2021-11-29",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "EXCEPTIUS Corpus"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Caselli, Tommaso"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0003-2936-0256"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Egger, Clara"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tziafas, Georgios"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "De Saint-Phalle, Eugenie"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Caselli, Tommaso"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EXCEPTIUS Corpus v1.0, containing the following data:<br>\n- raw documents for 21 countries at national level<br>\n- pre-processed data with spacy-udpipe v1.0<br>\n- automatically annotated documents for the identification of exceptional measures at sentence level<br>\n\n<br>\nCountry list (ISO 3166-1 alpha-2): AT, BE, HR, CY, CZ, DK, FR, DE, HU, IE, IT, LV, LT, NL, NO, PL, SI, SE, CH, UK \n<br>\n<br>\nFolder structure: each country has a dedicated folder. Inside each folder you will find the following subfolders: <br>\n- raw_text: the raw text data (.txt format) <br> \n- processed: the output of the spacy-udpipe v1.0 - each line is a sentence, containing the following info: tokens, lemma, POS, UD dependency relations<br>\n- model: the predictions of the trained model (XML pre@36 as reported in Table 4 of the paper). Each line is a sentence, separate by 9 tab - each for a exceptional measure class. 1: signals presence of a class.\n<br>\n<br>\nThe Italy and Norway folder misses the predictions of the models."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-11-26"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Law",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SARS-CoV-2"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Natural Language Processing"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Multilingual Text Processing"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Exceptional Legislation"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tziafas, G., De Saint-Phalle, E., de Vries, W., Egger, C., & Caselli, T. (2021). A Multilingual Approach to Identify and Classify Exceptional Measures against COVID-19. In N. Aletras, I. Androutsopoulos, L. Barrett, C. Goanta, & D. Preotiuc-Pietro (Eds.), Proceedings of the Natural Legal Language Processing Workshop 2021 (pp. 46-62). Association for Computational Linguistics (ACL)."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "isbn"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "978-1-954085-98-5"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://aclanthology.org/2021.nllp-1.5/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Croatian",
+              "Czech",
+              "Danish",
+              "Dutch",
+              "English",
+              "French",
+              "German",
+              "Greek (modern)",
+              "Hungarian",
+              "Italian",
+              "Latvian",
+              "Lithuanian",
+              "Norwegian Bokmål",
+              "Polish",
+              "Slovenian",
+              "Spanish, Castilian",
+              "Swedish"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ZonMw"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10430032010026"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Elsenga, Christina"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-09-29"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-02-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-06-30"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "legal texts"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/ZUWAPS"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:ed600124-50be-4b3d-9dd1-48722427beab"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-000b59e6-014e-4299-bd68-8b8d9c87d94e"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Automated data collection.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 8810,
+        "dataFile": {
+          "id": 199821,
+          "persistentId": "",
+          "filename": "Automated data collection.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 6820,
+          "storageIdentifier": "surf://store:17d5cc48ecb-9074532c1214",
+          "rootDataFileId": -1,
+          "md5": "e10800b1f18665df6a4082278a84699b",
+          "checksum": {
+            "type": "MD5",
+            "value": "e10800b1f18665df6a4082278a84699b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-11-26",
+          "publicationDate": "2021-11-29",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Collecting the documents for the corpus - Guidelines.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 8810,
+        "dataFile": {
+          "id": 199819,
+          "persistentId": "",
+          "filename": "Collecting the documents for the corpus - Guidelines.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 7681,
+          "storageIdentifier": "surf://store:17d5cc44847-76d0bb2cf8a8",
+          "rootDataFileId": -1,
+          "md5": "6baab5e5e39def82c863efbd8d03872b",
+          "checksum": {
+            "type": "MD5",
+            "value": "6baab5e5e39def82c863efbd8d03872b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-11-26",
+          "publicationDate": "2021-11-29",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Full corpus data for all the countries",
+        "label": "EXCEPTIUS_v1.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 8810,
+        "dataFile": {
+          "id": 199822,
+          "persistentId": "",
+          "filename": "EXCEPTIUS_v1.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 233842395,
+          "description": "Full corpus data for all the countries",
+          "storageIdentifier": "surf://store:17d5ccc012c-bbf59f14a54c",
+          "rootDataFileId": -1,
+          "md5": "09daa2c5dc6d5663ed89f9c2c36bbc7f",
+          "checksum": {
+            "type": "MD5",
+            "value": "09daa2c5dc6d5663ed89f9c2c36bbc7f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-11-26",
+          "publicationDate": "2021-11-29",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Keywords ACA.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 8810,
+        "dataFile": {
+          "id": 199820,
+          "persistentId": "",
+          "filename": "Keywords ACA.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 9233,
+          "storageIdentifier": "surf://store:17d5cc448d1-da47452b1300",
+          "rootDataFileId": -1,
+          "md5": "f43e7f6ee8a4ae8232ce0723c9c696d3",
+          "checksum": {
+            "type": "MD5",
+            "value": "f43e7f6ee8a4ae8232ce0723c9c696d3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-11-26",
+          "publicationDate": "2021-11-29",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Caselli, Tommaso; Egger, Clara; Tziafas, Georgios; De Saint-Phalle, Eugenie, 2021, \"EXCEPTIUS Corpus\", https://doi.org/10.34894/ZUWAPS, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "id": 51034,
+  "identifier": "TCNKPJ",
+  "persistentUrl": "https://doi.org/10.34894/TCNKPJ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-04-13",
+  "storageIdentifier": "surf://10.34894/TCNKPJ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3536,
+    "datasetId": 51034,
+    "datasetPersistentId": "doi:10.34894/TCNKPJ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/TCNKPJ",
+    "versionNumber": 1,
+    "internalVersionNumber": 18,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-04-13T07:37:31Z",
+    "releaseTime": "2021-04-13T07:37:31Z",
+    "createTime": "2021-03-18T16:38:19Z",
+    "publicationDate": "2021-04-13",
+    "citationDate": "2021-04-13",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Spatial priorities for vertebrate species and nature's contributions to people in Europe"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Louise O'Connor"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Univ. Grenoble Alpes, Univ. Savoie Mont Blanc, CNRS, LECA, Laboratoire d’Écologie Alpine F- 38000 Grenoble, France"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Louise O'Connor"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Univ. Grenoble Alpes"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains the code and data products associated to several spatial prioritizations performed at a 1.44 km² resolution for three important values of nature in Europe: (i) biodiversity (all 785 vertebrate species known to occur in the study area, including 124 threatened species); (ii) regulating NCP (carbon sequestration, air quality regulation, flood control and pollination); and (iii) cultural NCP (heritage agriculture, heritage forests, foraging areas for wild foods, and nature tourism). The NCP data are derived from a combination of land cover, land use and socio-economic variables. We considered the demand for NCP so that NCP priorities are ecosystems where a high capacity of providing NCP coincides with a high demand. The study area includes EU27 countries (excluding Croatia and including the UK). In a first set of prioritizations, we identified spatial priorities separately for each value (species, cultural, and regulating NCP) for the entire European Union (EU) regardless of protection status (optimal scenario), and we quantify the incidental gains and losses for different nature’s values within these top priorities. A second set of prioritizations includes the existing Natura 2000 network of protected areas as a categorical mask. In these prioritizations, the land within Natura 2000 is ranked *separately* from the unprotected land, which is ranked in a way that *complements* the existing network of Natura 2000 sites. We used the cell removal algorithm CAZ (core area Zonation). This emphasizes the irreplaceability of a grid cell for individual features (species or NCP). A supplementary set of prioritizations test the sensitivity of the results to changes in input data and spatial resolution (i.e. using a 100-fold coarser resolution for comparison). Full details can be found in the Material and Methods of the publication (for details on the supplementary runs in particular, see Appendices 2-4). Details on file content is found in the README.txt file."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "spatial conservation planning"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "biodiversityspatial conservation planning"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Louise M. J. O’Connor, Laura J. Pollock, Julien Renaud, Willem Verhagen, Peter H. Verburg, Sandra Lavorel, Luigi Maiorano, and Wilfried Thuiller: “Balancing conservation priorities for nature and for people in Europe” (2021)."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Belmont Forum and BiodivERsA"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FutureWeb"
+                }
+              },
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The Dutch Research Council NWO"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "E10005"
+                }
+              },
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Agence Nationale pour la Recherche"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ANR- 18-EBI4-0009"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Dou, Yue"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-03-18"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/TCNKPJ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:53505566-ee13-45fa-9576-b03c7bb91f92"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-9ac650d0-df40-40e2-9bc0-cb36810b9605"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "0_filesForUpload.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93252,
+          "persistentId": "",
+          "filename": "0_filesForUpload.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1857,
+          "storageIdentifier": "surf://store:178c78448dc-f5061bad0e74",
+          "rootDataFileId": -1,
+          "md5": "a39c14aa1f91542128e718972eeae796",
+          "checksum": {
+            "type": "MD5",
+            "value": "a39c14aa1f91542128e718972eeae796"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "1_EntireCode.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93250,
+          "persistentId": "",
+          "filename": "1_EntireCode.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 123236,
+          "storageIdentifier": "surf://store:178c78449da-28bd525654bb",
+          "rootDataFileId": -1,
+          "md5": "24f9b120bfc8024dcea17a2749c0ec1e",
+          "checksum": {
+            "type": "MD5",
+            "value": "24f9b120bfc8024dcea17a2749c0ec1e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "1_functions.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93253,
+          "persistentId": "",
+          "filename": "1_functions.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 25288,
+          "storageIdentifier": "surf://store:178c7844a6e-00e3be9ee8f8",
+          "rootDataFileId": -1,
+          "md5": "9e7adc61e3feba3bc99f26b7f603cc7d",
+          "checksum": {
+            "type": "MD5",
+            "value": "9e7adc61e3feba3bc99f26b7f603cc7d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DATA_all_curv_files.RData",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93246,
+          "persistentId": "",
+          "filename": "DATA_all_curv_files.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 41475009,
+          "storageIdentifier": "surf://store:178c784ce1e-50eb60c0b7ed",
+          "rootDataFileId": -1,
+          "md5": "ad445451febaa2a47e396aca6050d2ad",
+          "checksum": {
+            "type": "MD5",
+            "value": "ad445451febaa2a47e396aca6050d2ad"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DATA_all_feature_info_files.RData",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93240,
+          "persistentId": "",
+          "filename": "DATA_all_feature_info_files.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 910357,
+          "storageIdentifier": "surf://store:178c784d24a-4aeb6aad9d19",
+          "rootDataFileId": -1,
+          "md5": "8b628f727b6b5bc6b3cc2a5a5e1cdfa2",
+          "checksum": {
+            "type": "MD5",
+            "value": "8b628f727b6b5bc6b3cc2a5a5e1cdfa2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DATA_all_rank_tif_files.RData",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93249,
+          "persistentId": "",
+          "filename": "DATA_all_rank_tif_files.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 4321,
+          "storageIdentifier": "surf://store:178c784d2f0-62cb3f4cd895",
+          "rootDataFileId": -1,
+          "md5": "a664d990571925cc89ce94e7a1cdffe2",
+          "checksum": {
+            "type": "MD5",
+            "value": "a664d990571925cc89ce94e7a1cdffe2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "FIG1_3values_optimal_1k_top10.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93245,
+          "persistentId": "",
+          "filename": "FIG1_3values_optimal_1k_top10.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 2067811,
+          "storageIdentifier": "surf://store:178c784e510-c4c9856a6fdb",
+          "rootDataFileId": -1,
+          "md5": "de8774297d03430b59b4f0ab87ad1e89",
+          "checksum": {
+            "type": "MD5",
+            "value": "de8774297d03430b59b4f0ab87ad1e89"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "FIG2_3values_expand_top5.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93244,
+          "persistentId": "",
+          "filename": "FIG2_3values_expand_top5.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 2362050,
+          "storageIdentifier": "surf://store:178c784ef4d-18afce0fb067",
+          "rootDataFileId": -1,
+          "md5": "d8d7ce14e9c1e19e4ee9068e4f5b8150",
+          "checksum": {
+            "type": "MD5",
+            "value": "d8d7ce14e9c1e19e4ee9068e4f5b8150"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "FIG2_3values_within_largeN2K_top2.5.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93241,
+          "persistentId": "",
+          "filename": "FIG2_3values_within_largeN2K_top2.5.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 2073331,
+          "storageIdentifier": "surf://store:178c784f55b-cdebd6beb71f",
+          "rootDataFileId": -1,
+          "md5": "95b56759b25755ed14dd15d2d7da701d",
+          "checksum": {
+            "type": "MD5",
+            "value": "95b56759b25755ed14dd15d2d7da701d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "FIG2_3values_within_smallN2K_top2.5.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93242,
+          "persistentId": "",
+          "filename": "FIG2_3values_within_smallN2K_top2.5.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 2046793,
+          "storageIdentifier": "surf://store:178c7850a78-9f45d66dcce2",
+          "rootDataFileId": -1,
+          "md5": "bd7f3ec52821e8aa3c3ed12bfa8b7b2d",
+          "checksum": {
+            "type": "MD5",
+            "value": "bd7f3ec52821e8aa3c3ed12bfa8b7b2d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93243,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 8190,
+          "storageIdentifier": "surf://store:178c7850b5b-31e51e5e545c",
+          "rootDataFileId": -1,
+          "md5": "cc78211a49e88caec9279d1c81daa2f3",
+          "checksum": {
+            "type": "MD5",
+            "value": "cc78211a49e88caec9279d1c81daa2f3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "SuppFile_3values_optimal_1k_top5.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93251,
+          "persistentId": "",
+          "filename": "SuppFile_3values_optimal_1k_top5.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 1781488,
+          "storageIdentifier": "surf://store:178c7851b7c-ac9808d1c6fb",
+          "rootDataFileId": -1,
+          "md5": "6ebabbe7b37af3e1b159d02dd6b24d79",
+          "checksum": {
+            "type": "MD5",
+            "value": "6ebabbe7b37af3e1b159d02dd6b24d79"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "SuppFile_allfeatures_dataframe.RData",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93247,
+          "persistentId": "",
+          "filename": "SuppFile_allfeatures_dataframe.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 15678,
+          "storageIdentifier": "surf://store:178c7851f42-89f014f3aace",
+          "rootDataFileId": -1,
+          "md5": "6a15b5b42d02c155e869fa5711795260",
+          "checksum": {
+            "type": "MD5",
+            "value": "6a15b5b42d02c155e869fa5711795260"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "SuppFile_distribution_top_priorities_EUcountries.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93254,
+          "persistentId": "",
+          "filename": "SuppFile_distribution_top_priorities_EUcountries.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 75927,
+          "storageIdentifier": "surf://store:178c78527d7-fb37364512dd",
+          "rootDataFileId": -1,
+          "md5": "a8bbbc8387c00fe4f04c147777a37a16",
+          "checksum": {
+            "type": "MD5",
+            "value": "a8bbbc8387c00fe4f04c147777a37a16"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "SuppFile_ED_summary.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3536,
+        "dataFile": {
+          "id": 93248,
+          "persistentId": "",
+          "filename": "SuppFile_ED_summary.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 65217,
+          "storageIdentifier": "surf://store:178c7852b8d-a0c087411e45",
+          "rootDataFileId": -1,
+          "md5": "ace4cc27451c821b153bb2750f72d206",
+          "checksum": {
+            "type": "MD5",
+            "value": "ace4cc27451c821b153bb2750f72d206"
+          },
+          "tabularData": false,
+          "creationDate": "2021-04-12",
+          "publicationDate": "2021-04-13",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Louise O'Connor, 2021, \"Spatial priorities for vertebrate species and nature's contributions to people in Europe\", https://doi.org/10.34894/TCNKPJ, DataverseNL, V1"
+  }
+}

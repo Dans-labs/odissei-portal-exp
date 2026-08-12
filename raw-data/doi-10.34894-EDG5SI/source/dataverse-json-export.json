@@ -1,0 +1,828 @@
+{
+  "id": 556064,
+  "identifier": "EDG5SI",
+  "persistentUrl": "https://doi.org/10.34894/EDG5SI",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-11-13",
+  "storageIdentifier": "surf://10.34894/EDG5SI",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31914,
+    "datasetId": 556064,
+    "datasetPersistentId": "doi:10.34894/EDG5SI",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/EDG5SI",
+    "versionNumber": 1,
+    "internalVersionNumber": 17,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-11-13T13:23:18Z",
+    "releaseTime": "2025-11-13T13:23:18Z",
+    "createTime": "2025-11-07T14:58:11Z",
+    "publicationDate": "2025-11-13",
+    "citationDate": "2025-11-13",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Drift-diffusion modeling of perovskite solar cells: A systematic approach"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heester, Sander"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/012p63287",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Groningen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-5954-895X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ventosinos, Federico"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/043nxc105",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Universitat de València",
+                    "@type": "https://schema.org/Organization"
+                  }
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gil-Escrig, Lidón"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/043nxc105",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Universitat de València",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-4766-7833"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sessolo, Michele"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/043nxc105",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Universitat de València",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-9189-3005"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bolink, Henk J."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/043nxc105",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Universitat de València",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-9784-6253"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Koster, L. Jan Anton"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/012p63287",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Groningen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-6558-5295"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "In this work we present a systematic and elaborate approach for drift-diffusion modelling of perovskite solar cells. This approach enables the quantification of how much reliable, physically meaningful information can actually be extracted from experimental data, taking into account the spread in experimental data. It is aimed to go beyond just obtaining a single 'best-fit' result. We demonstrate its use by applying it to a use case with a state-of-the-art perovskite solar cell, where we studied the effect of chloride addition on the performance of the cells.\n\nThis dataset consists of the datafiles related to the use case with the state-of-the-art perovskite solar cell. It has the experimentally current density-voltage (J-V) curves for the three samples with varying amounts of chloride added, each measured under 5 light intensities. The datafile Input_simulations.txt contains the input/setup for the automated fitting of simulated to experimental data."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Engineering",
+              "Physics"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Perovskite solar cell"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Drift-diffusion modelling"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Electronic transport"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bayesian optimization"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "S. Heester, F. Ventosinos, L. Gil-Escrig, M. Sessolo, H. J. Bolink, L. J. A. Koster; Drift-diffusion modeling of perovskite solar cells: A systematic approach. APL Energy 1 September 2025; 3 (3): 036106."
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1063/5.0268013"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL network"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS"
+                },
+                "distributorAbbreviation": {
+                  "typeName": "distributorAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DVNL"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://dataverse.nl/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Silva Correia Alves, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-11-07"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/EDG5SI"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:95ff4157-568e-49fd-876c-38160104a311"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-4b50d4cf-d973-41f6-b79e-6b59e2f19ca4"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "01Cl_01sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556070,
+          "persistentId": "",
+          "filename": "01Cl_01sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1947,
+          "storageIdentifier": "surf://store:19a6d4a79fa-9a1fffcdeef6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "162d5f72e4812def90eb724daeafe5c9be8443b6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "01Cl_038sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556077,
+          "persistentId": "",
+          "filename": "01Cl_038sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1939,
+          "storageIdentifier": "surf://store:19a6d4a7aa0-240fb5e16cb8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9c1ee686c4ea4788001d53ff4b7d49414f0f2692"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "01Cl_053sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556069,
+          "persistentId": "",
+          "filename": "01Cl_053sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 2016,
+          "storageIdentifier": "surf://store:19a6d4a798b-df3a3f46cfeb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a8543b4bf9f8eb7ab53ecc54608225cc917d96db"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "01Cl_083sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556078,
+          "persistentId": "",
+          "filename": "01Cl_083sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 2051,
+          "storageIdentifier": "surf://store:19a6d4a7950-2f16ffd20893",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ce3b34243e7dff00f8bcfb222a139fbb365ae752"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "01Cl_1sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556079,
+          "persistentId": "",
+          "filename": "01Cl_1sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 2054,
+          "storageIdentifier": "surf://store:19a6d4a788d-860917bd9650",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6814258010b85b82d160c37d4741dd891e945bfd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "02Cl_01sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556071,
+          "persistentId": "",
+          "filename": "02Cl_01sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1940,
+          "storageIdentifier": "surf://store:19a6d4a7b4c-b205bca879d8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "af9cfd656e33892c77397201c597646c1e041b8f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "02Cl_038sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556073,
+          "persistentId": "",
+          "filename": "02Cl_038sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1931,
+          "storageIdentifier": "surf://store:19a6d4a7a6a-2e8e8183bee8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "201ea97958e8c4f95c02da7377a4aac855f053a5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "02Cl_053sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556075,
+          "persistentId": "",
+          "filename": "02Cl_053sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1933,
+          "storageIdentifier": "surf://store:19a6d4a7ada-cff366a23c07",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d00a964086880e0a43a5f3540167a96e88cd045b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "02Cl_083sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556083,
+          "persistentId": "",
+          "filename": "02Cl_083sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 2054,
+          "storageIdentifier": "surf://store:19a6d4a79c5-70e40674b726",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3130f72fb8e996c1ce2230c660949bbd17d46651"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "02Cl_1sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556068,
+          "persistentId": "",
+          "filename": "02Cl_1sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 2058,
+          "storageIdentifier": "surf://store:19a6d4a7b16-891df482a2c2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "be56ba7b4fcaf07e00cfac532bc7acb217f63771"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "06Cl_01sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556074,
+          "persistentId": "",
+          "filename": "06Cl_01sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 2057,
+          "storageIdentifier": "surf://store:19a6d4a7916-575977378fd9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "05eb49c5e22e072a54885174d91fc43ca3ff9a5b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "06Cl_038sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556081,
+          "persistentId": "",
+          "filename": "06Cl_038sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 2053,
+          "storageIdentifier": "surf://store:19a6d4a7a34-bd12f9409250",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "94cc04a3beb309810e5bd411246f92f5e3188874"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "06Cl_053sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556080,
+          "persistentId": "",
+          "filename": "06Cl_053sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 2056,
+          "storageIdentifier": "surf://store:19a6d4a7b8c-a2306a9bc317",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e83d4e1083df009fd7bd972fe74414dbc9a00cf3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "06Cl_083sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556076,
+          "persistentId": "",
+          "filename": "06Cl_083sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 2055,
+          "storageIdentifier": "surf://store:19a6d4a7848-ddb58570cf4f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f6693d016dca4be0b848d13532c935e3c48e7f71"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "06Cl_1sun_fwd_JV.dat",
+        "restricted": false,
+        "directoryLabel": "Data/JV_curves",
+        "version": 1,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556072,
+          "persistentId": "",
+          "filename": "06Cl_1sun_fwd_JV.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 2067,
+          "storageIdentifier": "surf://store:19a6d4a78db-46f3243ec5a0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1b16e72fa07eda050d4c85468873f9a14440693c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "input_simulations.txt",
+        "restricted": false,
+        "directoryLabel": "Data",
+        "version": 2,
+        "datasetVersionId": 31914,
+        "dataFile": {
+          "id": 556082,
+          "persistentId": "",
+          "filename": "input_simulations.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2256,
+          "storageIdentifier": "surf://store:19a6d4a7bce-e7c4069d5407",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c1826398494b88f8c73574d330c88e7146ac2c8e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-10",
+          "publicationDate": "2025-11-13",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Heester, Sander; Ventosinos, Federico; Gil-Escrig, Lidón; Sessolo, Michele; Bolink, Henk J.; Koster, L. Jan Anton, 2025, \"Drift-diffusion modeling of perovskite solar cells: A systematic approach\", https://doi.org/10.34894/EDG5SI, DataverseNL, V1"
+  }
+}

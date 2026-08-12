@@ -1,0 +1,569 @@
+{
+  "id": 567058,
+  "identifier": "8MVA17",
+  "persistentUrl": "https://doi.org/10.34894/8MVA17",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-11-29",
+  "storageIdentifier": "surf://10.34894/8MVA17",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32038,
+    "datasetId": 567058,
+    "datasetPersistentId": "doi:10.34894/8MVA17",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/8MVA17",
+    "versionNumber": 1,
+    "internalVersionNumber": 13,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2025-11-29T13:02:21Z",
+    "releaseTime": "2025-11-29T13:02:21Z",
+    "createTime": "2025-11-29T13:01:23Z",
+    "publicationDate": "2025-11-29",
+    "citationDate": "2025-11-29",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "GLOBALISE Loghi Handwritten Text Recognition Model – August 2023"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Koert, Rutger van"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KNAW Humanities Cluster, Digital Infrastructure"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6535-2849"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Klut, Stefan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KNAW Humanities Cluster, Digital Infrastructure"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-1957-2442"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maas, Martijn"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KNAW Humanities Cluster, Digital Infrastructure"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Koert, Rutger van"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KNAW Humanities Cluster, Digital Infrastructure"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IISG Data"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IISG"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This is a Loghi Handwritten Text Recognition (HTR) model that was created to transcribe text on the scans of the GLOBALISE VOC corpus. It was finetuned using Ground Truth that is also available in this Dataverse (<a href=\"https://hdl.handle.net/10622/QJZKZ2\" target=\"_top\">GLOBALISE Ground Truth for Handwritten Text and Layout Recognition</a>) and applied using the <a href=\"https://github.com/knaw-huc/loghi\" target=\"_top\">Loghi HTR tools</a> to generate <a href=\"https://hdl.handle.net/10622/LVXSBW\" target=\"_top\">VOC transcriptions v2 - GLOBALISE</a>. The model's hyperparameters are available in the file <code>metadata.json</code>."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "handwriting recognition"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.wikidata.org/entity/Q2440634"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "artificial intelligence model"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.wikidata.org/entity/Q117349473"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GLOBALISE Ground Truth for Handwritten Text and Layout Recognition"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "handle"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10622/QJZKZ2"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://hdl.handle.net/10622/QJZKZ2"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "VOC transcriptions v2 - GLOBALISE"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "handle"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10622/LVXSBW"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://hdl.handle.net/10622/LVXSBW"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GLOBALISE project"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://globalise.huygens.knaw.nl/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Petram, Lodewijk"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-10-10"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Loghi HTR Model"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/8MVA17"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:96a88ffb-1460-45da-ba58-5bbe47e0f588"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-bb2349c3-28e3-47c3-b5e3-fa1fa952ae25"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "charlist.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32038,
+        "dataFile": {
+          "id": 567059,
+          "persistentId": "",
+          "filename": "charlist.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 931,
+          "description": "",
+          "storageIdentifier": "surf://store:19acfb43038-0451dd44ee07",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "04efd11861091b1ecd80022451adc6b3b8e70fb9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "config.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32038,
+        "dataFile": {
+          "id": 567060,
+          "persistentId": "",
+          "filename": "config.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 50507,
+          "description": "",
+          "storageIdentifier": "surf://store:19acfb4313b-27d9242829e2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c829221195c244d112ac3a047dd4a0e24df09524"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "fingerprint.pb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32038,
+        "dataFile": {
+          "id": 567061,
+          "persistentId": "",
+          "filename": "fingerprint.pb",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 55,
+          "description": "",
+          "storageIdentifier": "surf://store:19acfb4322c-090357740320",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ff8692704eec63ac83dd58d6e45a024cd59edea7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "keras_metadata.pb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32038,
+        "dataFile": {
+          "id": 567062,
+          "persistentId": "",
+          "filename": "keras_metadata.pb",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 410169,
+          "description": "",
+          "storageIdentifier": "surf://store:19acfb43374-505a75b4a3b1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "abbf96b898eb34f0ae94e67e41338b31e17a34a6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "metadata.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32038,
+        "dataFile": {
+          "id": 567063,
+          "persistentId": "",
+          "filename": "metadata.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 54621,
+          "description": "",
+          "storageIdentifier": "surf://store:19acfb434ab-32badaf72d9b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5d2aeabc418c60a4d841720ef8917f8ba399db21"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "saved_model.pb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32038,
+        "dataFile": {
+          "id": 567064,
+          "persistentId": "",
+          "filename": "saved_model.pb",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 16196662,
+          "description": "",
+          "storageIdentifier": "surf://store:19acfb43dc9-ef4cc067340f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1d2d7b3e05bdd46a0a8a6b1f181ce226c930d196"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "variables.data-00000-of-00001",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32038,
+        "dataFile": {
+          "id": 567065,
+          "persistentId": "",
+          "filename": "variables.data-00000-of-00001",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 401725803,
+          "description": "",
+          "storageIdentifier": "surf://store:19acfb4fd58-2dd666946025",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "af20dda7edab5bc9abfe2e4bfae96d6e30a7325f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "variables.index",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32038,
+        "dataFile": {
+          "id": 567066,
+          "persistentId": "",
+          "filename": "variables.index",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 43357,
+          "description": "",
+          "storageIdentifier": "surf://store:19acfb50d37-1a7ba4239ad3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e22fa024594f2a62fad5b6113d2636a34950e90a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Koert, Rutger van; Klut, Stefan; Maas, Martijn, 2025, \"GLOBALISE Loghi Handwritten Text Recognition Model – August 2023\", https://doi.org/10.34894/8MVA17, DataverseNL, V1"
+  }
+}

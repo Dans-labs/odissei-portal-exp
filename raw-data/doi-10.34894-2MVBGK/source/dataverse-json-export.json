@@ -1,0 +1,522 @@
+{
+  "id": 465762,
+  "identifier": "2MVBGK",
+  "persistentUrl": "https://doi.org/10.34894/2MVBGK",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-04-30",
+  "storageIdentifier": "surf://10.34894/2MVBGK",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30036,
+    "datasetId": 465762,
+    "datasetPersistentId": "doi:10.34894/2MVBGK",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/2MVBGK",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "productionDate": "2024-12-23",
+    "lastUpdateTime": "2025-04-30T11:32:29Z",
+    "releaseTime": "2025-04-30T11:32:29Z",
+    "createTime": "2025-01-06T12:50:57Z",
+    "publicationDate": "2025-04-30",
+    "citationDate": "2025-04-30",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "MEANtools: multi-omics integration towards metabolite anticipation and biosynthetic pathway prediction"
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "https://www.biorxiv.org/content/10.1101/2024.12.22.629970v1"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Singh, Kumar Saurabh"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0001-8352-5897"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Singh, Kumar Saurabh"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UB Dataverse support"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "During evolution, plants have developed the ability to produce a vast array of specialized metabolites, which play crucial roles in helping plants adapt to different environmental niches. However, their biosynthetic pathways remain largely elusive. In the past decades, increasing numbers of plant biosynthetic pathways have been elucidated based on approaches utilizing genomics, transcriptomics, and metabolomics. These efforts, however, are limited by the fact that they typically adopt a target-based approach, requiring prior knowledge. Here, we present MEANtools, a systematic and unsupervised computational integrative omics workflow to predict candidate metabolic pathways de novo by leveraging knowledge of general reaction rules and metabolic structures stored in public databases. In our approach, possible connections between metabolites and transcripts that show correlated abundance across samples are identified using reaction rules linked to the transcript-encoded enzyme families. MEANtools thus assesses whether these reactions can connect transcript-correlated mass features within a candidate metabolic pathway. We validate MEANtools using a paired transcriptomic-metabolomic dataset recently generated to reconstruct the falcarindiol biosynthetic pathway in tomato. MEANtools correctly anticipated five out of seven steps of the characterized pathway and also identified other candidate pathways involved in specialized metabolism, which demonstrates its potential for hypothesis generation. Altogether, MEANtools represents a significant advancement to integrate multi-omics data for the elucidation of biochemical pathways in plants and beyond."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-01-06"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "multi-omics data"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "bioinformatics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Singh KS, van der Hooft JJJ, van Wees SCM, Medema MH. Integrative omics approaches for biosynthetic pathway discovery in plants. Nat Prod Rep. 2022 Sep 21;39(9):1876-1896. doi: 10.1039/d2np00032f. PMID: 35997060; PMCID: PMC9491492."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1039/D2NP00032F"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1039/D2NP00032F"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wolters FC, Del Pup E, Singh KS, Bouwmeester K, Schranz ME, van der Hooft JJJ, Medema MH. Pairing omics to decode the diversity of plant-specialized metabolism. Curr Opin Plant Biol. 2024 Dec;82:102657. doi: 10.1016/j.pbi.2024.102657. Epub 2024 Nov 10. PMID: 39527852."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1016/j.pbi.2024.102657"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.pbi.2024.102657"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Contains data for the meantools repository https://github.com/kumarsaurabh20/meantools\n\nData:\n\n1. Lotus database in SQLite format\n2. RetroRules formatted data (loose, medium and strict dataset)\n3. EC-pfam IDs map"
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Singh, Kumar Saurabh"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              },
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Singh, Kumar Saurabh"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wageningen University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-12-23"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Wageningen"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Manager"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Singh, Kumar Saurabh"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NWO"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "OCENW.GROOT.2019.063"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Singh, Kumar Saurabh"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-01-06"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-01-06"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2030-01-06"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "SQLite database",
+              "Text formatted data"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "meantools"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1.0.0"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/2MVBGK"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:015eca5b-abbc-4c16-8df5-c0d44eaa12e7"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-cecc3196-efc4-4104-a397-8eb4c92a0d84"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "RetroRules database cross-referenced with KEGG orthology and Rhea databases",
+        "label": "Combined_strict_middle_loose_datasets.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30036,
+        "dataFile": {
+          "id": 465763,
+          "persistentId": "",
+          "filename": "Combined_strict_middle_loose_datasets.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 239905790,
+          "description": "RetroRules database cross-referenced with KEGG orthology and Rhea databases",
+          "storageIdentifier": "surf://store:1943ba81682-b71d1fa8d1f9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d18e00bfcbb1c8037cb996875a2015018a984541"
+          },
+          "tabularData": false,
+          "creationDate": "2025-01-06",
+          "publicationDate": "2025-04-30",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "EC-PFAM ID mappings",
+        "label": "EC-Pfam_calculated_associations_Extended.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30036,
+        "dataFile": {
+          "id": 465765,
+          "persistentId": "",
+          "filename": "EC-Pfam_calculated_associations_Extended.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 809150,
+          "description": "EC-PFAM ID mappings",
+          "storageIdentifier": "surf://store:1943ba9324e-9586b6ea08fa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5130702f70b2c0bd8ca58ae1ed364e11a3a05b29"
+          },
+          "tabularData": false,
+          "creationDate": "2025-01-06",
+          "publicationDate": "2025-04-30",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "LOTUS database in SQLite format",
+        "label": "lotus_v101023.sqlite",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30036,
+        "dataFile": {
+          "id": 465764,
+          "persistentId": "",
+          "filename": "lotus_v101023.sqlite",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 260972544,
+          "description": "LOTUS database in SQLite format",
+          "storageIdentifier": "surf://store:1943ba5b5b0-8d1022b1c57d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e18d32f4773551d6fb89fe86c3b6762b33ec4127"
+          },
+          "tabularData": false,
+          "creationDate": "2025-01-06",
+          "publicationDate": "2025-04-30",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Singh, Kumar Saurabh, 2025, \"MEANtools: multi-omics integration towards metabolite anticipation and biosynthetic pathway prediction\", https://doi.org/10.34894/2MVBGK, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,3247 @@
+{
+  "id": 449256,
+  "identifier": "RBMEUY",
+  "persistentUrl": "https://doi.org/10.34894/RBMEUY",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-09-20",
+  "storageIdentifier": "surf://10.34894/RBMEUY",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 29611,
+    "datasetId": 449256,
+    "datasetPersistentId": "doi:10.34894/RBMEUY",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/RBMEUY",
+    "versionNumber": 1,
+    "internalVersionNumber": 49,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-09-20T09:36:27Z",
+    "releaseTime": "2024-09-20T09:36:27Z",
+    "createTime": "2024-08-29T12:12:28Z",
+    "publicationDate": "2024-09-20",
+    "citationDate": "2024-09-20",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "termsOfAccess": "By downloading or otherwise accessing the materials, the downloader represents his/her acceptance of the License/Data Use Agreement. ",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Dataset for \"Pediatric autoimmune uveitis is associated with intraocular antibodies against Epstein-Barr virus Nuclear Antigen 1 (EBNA-1)\""
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hendrikse, Jytte"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kuiper, Jonas"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "De Boer, Joke"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Datamanagement Surgical Specialties"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jytte Hendrikse"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains the IgG antibody profile as measured using a peptide microarrays containing 3,760 linear B-cell epitopes from 196 human pathogens from 18 patients with pediatric uveitis (18 serum samples and 17 paired aqueous humor samples) and 6 age-matched controls (6 serum samples and 5 paired aqueous humor samples). \n<br>\n<br>\nThis dataverseNL dataset contains the original tif. files from the microarray scans, raw data, processed data, data results and metadata (see <a href=\"https://dataverse.nl/api/access/datafile/449761\">readme</a> file and R notebooks (R script and Image) used for the analysis in the manuscript:\n\n<br>\n<br>\n<i>Hendrikse et al. Pediatric autoimmune uveitis is associated with intraocular antibodies against Epstein-Barr virus Nuclear Antigen 1 (EBNA-1).</i>\n<br><br>\n\n\n<b>Raw IgG intensity data (all samples combined and calculated mean per peptide)</b><br>\n<a href=\"https://dataverse.nl/api/access/datafile/449756\" >\"Raw_data_microarrays.csv\"</a>\n<br><br>\n<b>R scripts with step by step analysis</b>\n<br>\n'Statistical analysis' (see <a href=\"https://dataverse.nl/api/access/datafile/449759\">Analysis.html</a>)\n<br>\n'Figure 1' (see <a href=\"https://dataverse.nl/api/access/datafile/449647\" >\"Figure_1.html\"</a>)\n<br>\n'Figure 2 and 3' (see <a href=\"https://dataverse.nl/api/access/datafile/449656\" >\"Figure-2_3.html\"</a>)\n<br><br>\n<b>Infectious disease peptide annotation map</b><br>\n<a href=\"https://dataverse.nl/api/access/datafile/449657\" >\"Peptide_Map_Infectious_Disease_Epitope_Microarray.csv\"</a>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-08-29"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pediatric uveitis, IgG, antibody, microarray"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Deep profiling of the antibody-repertoire of patients with non-infectious uveitis may reveal a distinct natural history of microbial exposure that may increase the susceptibility to non-infectious uveitis. This may be reflected by enrichment for IgG antibodies towards distinct pathogenic species or antibody epitope motifs. We used peptide microarrays containing 3,760 linear B-cell epitopes from 196 human pathogens to profile IgG levels in eye fluid biopsies and paired serum samples from 18 Dutch pediatric patients and 6 age-matched controls. We compared intensities of single epitopes and clusters based on overlapping amino acid sequence of peptides. Next-generation sequencing data was obtained to determine the HLA-DRB1*15:01 genotype. Intraocular antibodies against an immunogenic epitope of EBV associated with HLA-DRB1*15:01 is implicated in pediatric uveitis and suggests altered host immune responses to EBV infection in autoimmune uveitis."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Hendrikse, Jytte"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-08-29"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/RBMEUY"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d396dc96-1eb5-4f49-8a76-65ebd860fe8e"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-399c1eeb-949e-4673-a088-1020a727c4a4"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "All_normalized_data.csv",
+        "restricted": false,
+        "directoryLabel": "Figure2_and_3",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449655,
+          "persistentId": "",
+          "filename": "All_normalized_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3338843,
+          "storageIdentifier": "surf://store:191dbf88475-826ed4e879ab",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8e8b5f06b043341ae2ebcc7ad44298052cf71305"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "All_normalized_data.csv",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449644,
+          "persistentId": "",
+          "filename": "All_normalized_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3338843,
+          "storageIdentifier": "surf://store:191dbf54197-8aadad1dec9d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8e8b5f06b043341ae2ebcc7ad44298052cf71305"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "All_samples_filtered.csv",
+        "restricted": false,
+        "directoryLabel": "Figure2_and_3",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449654,
+          "persistentId": "",
+          "filename": "All_samples_filtered.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3179843,
+          "storageIdentifier": "surf://store:191dbf884a1-3c885fae3a1a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5008f60adf880f4c076d90209020ed76cac3a2db"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "All_samples_filtered.csv",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449643,
+          "persistentId": "",
+          "filename": "All_samples_filtered.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3179843,
+          "storageIdentifier": "surf://store:191dbf541c0-e09d42b2d585",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5008f60adf880f4c076d90209020ed76cac3a2db"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Analysis.html",
+        "restricted": false,
+        "directoryLabel": "Statistical_analysis",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449759,
+          "persistentId": "",
+          "filename": "Analysis.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 791456,
+          "storageIdentifier": "surf://store:191dbfe0225-3a78b4aa1d3c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2fb8e01fc11f3d5a739e4f4757150119c674202c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Analysis.Rmd",
+        "restricted": false,
+        "directoryLabel": "Statistical_analysis",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449760,
+          "persistentId": "",
+          "filename": "Analysis.Rmd",
+          "contentType": "text/x-r-notebook",
+          "friendlyType": "R Notebook",
+          "filesize": 7029,
+          "storageIdentifier": "surf://store:191dbfe0233-d0f8bbb7bda0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d003f3a98917bb5c35ea3599fe7ea208342ea50b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_control10.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449723,
+          "persistentId": "",
+          "filename": "AqH_control10.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 23404828,
+          "storageIdentifier": "surf://store:191dbfa08c9-d2bfb37e1159",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2d1ee968ad90b946a7a777de2c309c0e7e6215f0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_control10.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449669,
+          "persistentId": "",
+          "filename": "AqH_control10.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 356605,
+          "storageIdentifier": "surf://store:191dbfa0a93-e4584ea8622a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eb8187cd0439c87ed816b88ef6f4bb226cd1a8b4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_control11.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449695,
+          "persistentId": "",
+          "filename": "AqH_control11.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 21864356,
+          "storageIdentifier": "surf://store:191dbfa0aa0-9d8bb0c37eb7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c6abf2d13d943a315cbb7216652a03fc14a3ac5f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_control11.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449684,
+          "persistentId": "",
+          "filename": "AqH_control11.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 332006,
+          "storageIdentifier": "surf://store:191dbfa0c97-0b69367682e4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "89f5827c08def7daf9ee88bb2076baddc041c93a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_control12.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449681,
+          "persistentId": "",
+          "filename": "AqH_control12.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 11395284,
+          "storageIdentifier": "surf://store:191dbfa0ca1-cb90f535cac5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4d5c422cfb39a8c5c655b4e697d4e8a62ef89b4d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_control12.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449729,
+          "persistentId": "",
+          "filename": "AqH_control12.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 352065,
+          "storageIdentifier": "surf://store:191dbfa0cef-bc8c7ff7e9b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "961b43034e5394daeec53711d73329326d0537e0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_control14.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449715,
+          "persistentId": "",
+          "filename": "AqH_control14.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 22323220,
+          "storageIdentifier": "surf://store:191dbfa0cf9-21f11cecc20c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "170d5ff4cafe3f0a2a8c8c57094bb04135f25f70"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_control14.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449745,
+          "persistentId": "",
+          "filename": "AqH_control14.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 345902,
+          "storageIdentifier": "surf://store:191dbfa0e6c-cab81904a38d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b9aa9ac822a18bf4fb5bd539f0964b278527ced9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_control17.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449690,
+          "persistentId": "",
+          "filename": "AqH_control17.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 20848300,
+          "storageIdentifier": "surf://store:191dbfa0e75-623cb3ea968b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6682d2e41ef1c1d812df26b5c399427cbf513f95"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_control17.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449712,
+          "persistentId": "",
+          "filename": "AqH_control17.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 351291,
+          "storageIdentifier": "surf://store:191dbfa1000-094241b27988",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f2d73a707b96fc579f06167ac06211a8e2ea6157"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient13.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449721,
+          "persistentId": "",
+          "filename": "AqH_patient13.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 19766692,
+          "storageIdentifier": "surf://store:191dbfa10f0-acd1de58de6f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a12abba1e3db400bc03280b644df2eeb99d8ff84"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient13.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449718,
+          "persistentId": "",
+          "filename": "AqH_patient13.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 351386,
+          "storageIdentifier": "surf://store:191dbfa1263-de42bdd9332a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0c1489223d9a1cdc9ccd3c8d7f9f441a3946e8c4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient15.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449726,
+          "persistentId": "",
+          "filename": "AqH_patient15.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 20848300,
+          "storageIdentifier": "surf://store:191dbfa126d-ec70a006552a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6a88761fea9ddd19a512ad75971aaeb3b2d7a596"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient15.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449666,
+          "persistentId": "",
+          "filename": "AqH_patient15.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 385895,
+          "storageIdentifier": "surf://store:191dbfa13cf-2af885155a8b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c50a197b2ce67e12d55b26a8062af0bdb23501bd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient16.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449724,
+          "persistentId": "",
+          "filename": "AqH_patient16.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 20848300,
+          "storageIdentifier": "surf://store:191dbfa13d9-b55dc0a193f0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ff9c7203462170acaf77312fd5cadd6f62b781f1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient16.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449754,
+          "persistentId": "",
+          "filename": "AqH_patient16.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 351918,
+          "storageIdentifier": "surf://store:191dbfa1539-01c2227b7ef6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cec83c86672a2cad4a21f24a6abb37544cb730e6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient18.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449752,
+          "persistentId": "",
+          "filename": "AqH_patient18.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 19766692,
+          "storageIdentifier": "surf://store:191dbfa1543-6d6b90b61d80",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "049a028116119bfdc1b95b4c30a85b95275062d3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient18.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449725,
+          "persistentId": "",
+          "filename": "AqH_patient18.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 356950,
+          "storageIdentifier": "surf://store:191dbfa16df-e38e3df95bb4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7b47fe96e79a40abe696bd3e0dc9eb92a9b270b0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient19.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449711,
+          "persistentId": "",
+          "filename": "AqH_patient19.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 21864356,
+          "storageIdentifier": "surf://store:191dbfa16ec-3034df66708a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7fcc6eb6a4d525a843b5ab8715ee82a1764cb134"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient19.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449675,
+          "persistentId": "",
+          "filename": "AqH_patient19.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 349279,
+          "storageIdentifier": "surf://store:191dbfa187a-997da26dca67",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "442c80bf9bafcfb6a25a9d02cd5c80fbe1154e8a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient1.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449702,
+          "persistentId": "",
+          "filename": "AqH_patient1.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 16517065,
+          "storageIdentifier": "surf://store:191dbfa100a-a7e569c011c4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "075e8cacfdd67a15c2c1cda7990d27de33be7c1d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient1.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449708,
+          "persistentId": "",
+          "filename": "AqH_patient1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 495834,
+          "storageIdentifier": "surf://store:191dbfa10e4-880873b501ab",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "64d4c9c1cfd5df0da7d5284fea0fe2d0661c9bf6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient20.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449668,
+          "persistentId": "",
+          "filename": "AqH_patient20.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 19307828,
+          "storageIdentifier": "surf://store:191dbfa19bd-94f5acbd368c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e45c859549e5d6f0bf1dd78062346ddefabb66a0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient20.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449667,
+          "persistentId": "",
+          "filename": "AqH_patient20.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 339869,
+          "storageIdentifier": "surf://store:191dbfa1b14-48422366428f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e292828813278ae568077fda2be0255f2d838a12"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient21.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449709,
+          "persistentId": "",
+          "filename": "AqH_patient21.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 20684420,
+          "storageIdentifier": "surf://store:191dbfa1b21-63d0350426bc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0fb1d8fb157ad13885551810cb6b0f58eceaff69"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient21.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449663,
+          "persistentId": "",
+          "filename": "AqH_patient21.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 348370,
+          "storageIdentifier": "surf://store:191dbfa1ca9-8184a41285a9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0920c3052a787611aac82c806dd1530c7dac28e7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient22.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449714,
+          "persistentId": "",
+          "filename": "AqH_patient22.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 19766692,
+          "storageIdentifier": "surf://store:191dbfa1cb2-fa6457c2021d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3825903cc1f2cf2793c110788add00e673160045"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient22.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449719,
+          "persistentId": "",
+          "filename": "AqH_patient22.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 348797,
+          "storageIdentifier": "surf://store:191dbfa1dfc-88711cf2b1bf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f7be0545c55fd1b332e218731a5db585aa452ac9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient23.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449664,
+          "persistentId": "",
+          "filename": "AqH_patient23.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 21864356,
+          "storageIdentifier": "surf://store:191dbfa1e05-5d76c0469679",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "408788712ea30f4beeb16e9196c5c2b3b4a959eb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient23.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449660,
+          "persistentId": "",
+          "filename": "AqH_patient23.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 330045,
+          "storageIdentifier": "surf://store:191dbfa1f74-02a5e2adb1d6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2423733280424e91a8b2bc868cea78113b6751f5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient24.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449688,
+          "persistentId": "",
+          "filename": "AqH_patient24.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 20684420,
+          "storageIdentifier": "surf://store:191dbfa1f7e-f55788974d62",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "48c55730feef02e8904ea3a593566d00f92c7baa"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient24.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449734,
+          "persistentId": "",
+          "filename": "AqH_patient24.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 291489,
+          "storageIdentifier": "surf://store:191dbfa20db-5c5c2ea9cb6f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "db2882d8a7079a9c0d7ffe909b5eeb76f5b6d53d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient2.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449747,
+          "persistentId": "",
+          "filename": "AqH_patient2.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 16515523,
+          "storageIdentifier": "surf://store:191dbfa1884-46f9d5300603",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2a27e65b969ffa4e4a48fde570dd69e047699291"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient2.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449739,
+          "persistentId": "",
+          "filename": "AqH_patient2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 501567,
+          "storageIdentifier": "surf://store:191dbfa19af-9da4747b28df",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2cf3a400d58dfb01381855e448b2fbae23dfa707"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient3.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449735,
+          "persistentId": "",
+          "filename": "AqH_patient3.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 16515385,
+          "storageIdentifier": "surf://store:191dbfa20ec-e5963c546b52",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "60fe046cf52ed4739ba1680fdc04734f1fb92161"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient3.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449731,
+          "persistentId": "",
+          "filename": "AqH_patient3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 494045,
+          "storageIdentifier": "surf://store:191dbfa21e2-bce267f104c3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d93646fe1f03cbe3d8b8b7bfd95379e7f55e214e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient5.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449741,
+          "persistentId": "",
+          "filename": "AqH_patient5.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 10470292,
+          "storageIdentifier": "surf://store:191dbfa21f8-933234ee8da0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "739f562392e684859b7a27200bd2f8b12c50620c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient5.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449746,
+          "persistentId": "",
+          "filename": "AqH_patient5.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 355422,
+          "storageIdentifier": "surf://store:191dbfa2265-774f3e38219b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6c3c0a10c2d29d5ec3cbb364634cdc4b32e2b852"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient6.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449730,
+          "persistentId": "",
+          "filename": "AqH_patient6.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 21339940,
+          "storageIdentifier": "surf://store:191dbfa2273-212ee27adeda",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4e7580040352953868aee9ca965cd99d8448f4d0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient6.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449736,
+          "persistentId": "",
+          "filename": "AqH_patient6.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 300101,
+          "storageIdentifier": "surf://store:191dbfa23f0-c79078463ef2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0cf25aec9888682ced9a51805c7d767b8003c846"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient7.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449749,
+          "persistentId": "",
+          "filename": "AqH_patient7.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 10415268,
+          "storageIdentifier": "surf://store:191dbfa23f9-d06c5a85ed19",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e8bbcadc2ee83c8e5a8db3866d05fa416f9bab51"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient7.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449738,
+          "persistentId": "",
+          "filename": "AqH_patient7.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 322919,
+          "storageIdentifier": "surf://store:191dbfa2442-9b45b1b82f5c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ed2b48b60a02e763e6bdecaf2ebeaf416afc04e3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient8.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449727,
+          "persistentId": "",
+          "filename": "AqH_patient8.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 12855700,
+          "storageIdentifier": "surf://store:191dbfa244c-4e688ef81c77",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "16fbb9553c1e332eedd92145221a6c52c2439f7a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient8.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449753,
+          "persistentId": "",
+          "filename": "AqH_patient8.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 351108,
+          "storageIdentifier": "surf://store:191dbfa24a7-0abfa8ba18fd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f0c78c4fa45167123355fb533dced0a9e28dff39"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient9.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449743,
+          "persistentId": "",
+          "filename": "AqH_patient9.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 11913460,
+          "storageIdentifier": "surf://store:191dbfa24b1-01beadb874d2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8bde2f0eea6401ffc7eeefb0c51202ae249c8a9d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "AqH_patient9.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449680,
+          "persistentId": "",
+          "filename": "AqH_patient9.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 353970,
+          "storageIdentifier": "surf://store:191dbfa2504-4dfb62921e24",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "91ee6a0965783bb52221b3de1c7736883ebc8755"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Data_management_plan.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 450201,
+          "persistentId": "",
+          "filename": "Data_management_plan.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 56408,
+          "storageIdentifier": "surf://store:1920eac651f-4391b9945127",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "357e5b843b268b80ad6b1879b8bb58babc86fc9f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-20",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "diff_expr_eye.csv",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449650,
+          "persistentId": "",
+          "filename": "diff_expr_eye.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 527100,
+          "storageIdentifier": "surf://store:191dbf541e5-3d12c171f8a1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "30cad94676799300e53bde3ffa845f8440227771"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "diff_expr_eye.csv",
+        "restricted": false,
+        "directoryLabel": "Figure2_and_3",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449659,
+          "persistentId": "",
+          "filename": "diff_expr_eye.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 527100,
+          "storageIdentifier": "surf://store:191dbf884cc-762237b6776e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "30cad94676799300e53bde3ffa845f8440227771"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "diff_expr_serum.csv",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449648,
+          "persistentId": "",
+          "filename": "diff_expr_serum.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 527495,
+          "storageIdentifier": "surf://store:191dbf541f2-7bce03dd9ca1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "536224bc847cb67a8570a2aec4d8ee50c24e807d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "diff_expr_serum.csv",
+        "restricted": false,
+        "directoryLabel": "Figure2_and_3",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449651,
+          "persistentId": "",
+          "filename": "diff_expr_serum.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 527495,
+          "storageIdentifier": "surf://store:191dbf884da-f7e09abb92fe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "536224bc847cb67a8570a2aec4d8ee50c24e807d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Figure_1.html",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449647,
+          "persistentId": "",
+          "filename": "Figure_1.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 726763,
+          "storageIdentifier": "surf://store:191dbf54204-0c3f7e7e1a85",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7072bc964ddb238f5c1c7c4dd946ff69cf4a77c3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Figure_1.RData",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449645,
+          "persistentId": "",
+          "filename": "Figure_1.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 7823291,
+          "storageIdentifier": "surf://store:191dbf54215-3c79e192388d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "15334dadac6c80ae81c42d77b8833d9565401b9f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Figure_1.Rmd",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449649,
+          "persistentId": "",
+          "filename": "Figure_1.Rmd",
+          "contentType": "text/x-r-notebook",
+          "friendlyType": "R Notebook",
+          "filesize": 5859,
+          "storageIdentifier": "surf://store:191dbf54284-815b7d8c2990",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d7dd8ada026c3333a4d4d0d0245991e8a8510379"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Figure-2_3.html",
+        "restricted": false,
+        "directoryLabel": "Figure2_and_3",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449656,
+          "persistentId": "",
+          "filename": "Figure-2_3.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 1120443,
+          "storageIdentifier": "surf://store:191dbf884ec-1c5ef5fc0a3e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c9cc0dbe646c9e3d60eb2c948b7e3b02b68f2e0a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Figure2_3.RData",
+        "restricted": false,
+        "directoryLabel": "Figure2_and_3",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449652,
+          "persistentId": "",
+          "filename": "Figure2_3.RData",
+          "contentType": "application/x-rlang-transport",
+          "friendlyType": "R Data",
+          "filesize": 18776611,
+          "storageIdentifier": "surf://store:191dbf884ff-de4ead1644e8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2a2afdaff2043ef060a7f979982fdca317ea4e62"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Figure 2_3.Rmd",
+        "restricted": false,
+        "directoryLabel": "Figure2_and_3",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449653,
+          "persistentId": "",
+          "filename": "Figure 2_3.Rmd",
+          "contentType": "text/x-r-notebook",
+          "friendlyType": "R Notebook",
+          "filesize": 28917,
+          "storageIdentifier": "surf://store:191dbf884e6-86c893dfd7a3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1d1458b2e29758cdd07db0f5ef980223844310bd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Peptide_Map_Infectious_Disease_Epitope_Microarray.csv",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449646,
+          "persistentId": "",
+          "filename": "Peptide_Map_Infectious_Disease_Epitope_Microarray.csv",
+          "contentType": "text/comma-separated-values",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 725030,
+          "storageIdentifier": "surf://store:191dbf5428a-a88c5285670d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "14065f37c855d36c8ecf0c26cb30ead9152a40e2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Peptide_Map_Infectious_Disease_Epitope_Microarray.csv",
+        "restricted": false,
+        "directoryLabel": "Figure2_and_3",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449657,
+          "persistentId": "",
+          "filename": "Peptide_Map_Infectious_Disease_Epitope_Microarray.csv",
+          "contentType": "text/comma-separated-values",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 725030,
+          "storageIdentifier": "surf://store:191dbf8862e-31ed3f830144",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "14065f37c855d36c8ecf0c26cb30ead9152a40e2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Peptide_Map_Infectious_Disease_Epitope_Microarray.csv",
+        "restricted": false,
+        "directoryLabel": "Statistical_analysis",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449758,
+          "persistentId": "",
+          "filename": "Peptide_Map_Infectious_Disease_Epitope_Microarray.csv",
+          "contentType": "text/comma-separated-values",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 725030,
+          "storageIdentifier": "surf://store:191dbfe0239-a80ce72b2124",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "14065f37c855d36c8ecf0c26cb30ead9152a40e2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Raw_data_microarrays.csv",
+        "restricted": false,
+        "directoryLabel": "Statistical_analysis",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449756,
+          "persistentId": "",
+          "filename": "Raw_data_microarrays.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 860104,
+          "storageIdentifier": "surf://store:191dbfe0244-96bd1b0f690a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e3d3874ebb399ea93a019041a1e16b46ee67b1ea"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449761,
+          "persistentId": "",
+          "filename": "README.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 10486,
+          "storageIdentifier": "surf://store:191dbfee93f-6fdd3f11fe59",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bb10bdde914356c9baa42071a9a4d93c7879794e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control10.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449701,
+          "persistentId": "",
+          "filename": "Serum_control10.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 10703508,
+          "storageIdentifier": "surf://store:191dbfa250d-ab734e26a25f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ca507af1555929e3840ed9f5e4fb943a400922f4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control10.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449750,
+          "persistentId": "",
+          "filename": "Serum_control10.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 349260,
+          "storageIdentifier": "surf://store:191dbfa255d-a7f212929d00",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c6fc36c82920f7f8481d5f76c97f98bbb6bcd0be"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control11.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449683,
+          "persistentId": "",
+          "filename": "Serum_control11.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 11693132,
+          "storageIdentifier": "surf://store:191dbfa2566-ae478c9f1090",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ed991897c098769328bd40a6e7fdc2be9bb21993"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control11.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449717,
+          "persistentId": "",
+          "filename": "Serum_control11.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 351017,
+          "storageIdentifier": "surf://store:191dbfa25bd-7c9cf5245992",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dc2269a38faeb13d3e3cefcbdd726aa8d1b34079"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control12.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449676,
+          "persistentId": "",
+          "filename": "Serum_control12.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 10363876,
+          "storageIdentifier": "surf://store:191dbfa25c8-479a19fb4c0f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7fef4c28803f44c746c4541505ccd9ca3e5eed8f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control12.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449706,
+          "persistentId": "",
+          "filename": "Serum_control12.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 350436,
+          "storageIdentifier": "surf://store:191dbfa260f-a1801ef92e39",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ea2cb7b7ba3cac8f12cd465704c38f89c0fe069d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control14.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449677,
+          "persistentId": "",
+          "filename": "Serum_control14.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 10540172,
+          "storageIdentifier": "surf://store:191dbfa2618-54745aae138e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cdf64ee30dd102a09dcab9698b477507a82f1c54"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control14.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449713,
+          "persistentId": "",
+          "filename": "Serum_control14.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 351459,
+          "storageIdentifier": "surf://store:191dbfa2666-2d26d36f522f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c50b3f63e9ce9477632d2b5b81a87b7d030fb910"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control17.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449689,
+          "persistentId": "",
+          "filename": "Serum_control17.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 22388772,
+          "storageIdentifier": "surf://store:191dbfa267d-21d6c455c96a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "18da19ca1b746d6509f98c743fc95f2420f705c4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control17.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449687,
+          "persistentId": "",
+          "filename": "Serum_control17.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 351514,
+          "storageIdentifier": "surf://store:191dbfa2815-ef3244ae39f0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d90c3b9afa19b2d1dfa86d7b5afb28bafc88cb57"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control25.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449673,
+          "persistentId": "",
+          "filename": "Serum_control25.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 20684420,
+          "storageIdentifier": "surf://store:191dbfa282b-77f9aba23e56",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d27b6d36ab7902788878074696efb2d7d2a9790e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_control25.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449682,
+          "persistentId": "",
+          "filename": "Serum_control25.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 371645,
+          "storageIdentifier": "surf://store:191dbfa2993-6def1896093a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "750af289024b1cef25b6340f20fcb6bf864fe1fb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient13.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449691,
+          "persistentId": "",
+          "filename": "Serum_patient13.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 19766692,
+          "storageIdentifier": "surf://store:191dbfa2ab8-5f1f8a6712e8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "76859e2c9642cb3068e05424acdba7d2d89ad38d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient13.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449733,
+          "persistentId": "",
+          "filename": "Serum_patient13.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 349991,
+          "storageIdentifier": "surf://store:191dbfa2c0e-6c4740dd444b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dfdee00e5d238ddce7fe9360209a874a805b3fed"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient15.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449699,
+          "persistentId": "",
+          "filename": "Serum_patient15.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 12106276,
+          "storageIdentifier": "surf://store:191dbfa2c18-6a5b92508a7c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83df5360c0b3e72079e47e150cbafc5c799198bf"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient15.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449686,
+          "persistentId": "",
+          "filename": "Serum_patient15.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 349239,
+          "storageIdentifier": "surf://store:191dbfa2c6d-50e1775302f3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6786457a261ba738f095e48ab87b8c8dc1c7a5d5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient16.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449697,
+          "persistentId": "",
+          "filename": "Serum_patient16.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 24879748,
+          "storageIdentifier": "surf://store:191dbfa2c77-a1e2598565d1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "10e00b63d760945bacdf17da223068347c19be80"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient16.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449728,
+          "persistentId": "",
+          "filename": "Serum_patient16.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 347051,
+          "storageIdentifier": "surf://store:191dbfa2e14-3b6d13169ff4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a6bea2997de08ea59ff3dae9ad07ce2ec9349b6b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient18.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449662,
+          "persistentId": "",
+          "filename": "Serum_patient18.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 23470840,
+          "storageIdentifier": "surf://store:191dbfa2e1e-d1373e2420dc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7c464c38ea4e063f05b01b4fe24ed8c0e7ee5ef9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient18.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449740,
+          "persistentId": "",
+          "filename": "Serum_patient18.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 370112,
+          "storageIdentifier": "surf://store:191dbfa2fc7-62fe27dbce72",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "26c46d4814023db66d946bfd6465ae378089c9fc"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient19.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449705,
+          "persistentId": "",
+          "filename": "Serum_patient19.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 21339940,
+          "storageIdentifier": "surf://store:191dbfa2fd2-3ad8293c0cd2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "87d713be238e3e4404403530e357b537fbd5f78a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient19.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449707,
+          "persistentId": "",
+          "filename": "Serum_patient19.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 334513,
+          "storageIdentifier": "surf://store:191dbfa314e-0af0525bcb62",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f421d3be7b34314a1ebcbd297c0afff6e508af92"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient1.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449742,
+          "persistentId": "",
+          "filename": "Serum_patient1.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 16515225,
+          "storageIdentifier": "surf://store:191dbfa299d-e1e94fbe27a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fc851dd2ee03a9d47dd2e70660f2a70a4b42769c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient1.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449692,
+          "persistentId": "",
+          "filename": "Serum_patient1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2010991,
+          "storageIdentifier": "surf://store:191dbfa2a9b-f6b20632b2cd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3ec28ea24a64d2a5de272c7718e7a6375f410b16"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient20.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449700,
+          "persistentId": "",
+          "filename": "Serum_patient20.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 21864356,
+          "storageIdentifier": "surf://store:191dbfa3296-2fb4babaf062",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "58888b5c7e7561705b04b7b75f4d787f381bbf1e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient20.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449685,
+          "persistentId": "",
+          "filename": "Serum_patient20.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 333373,
+          "storageIdentifier": "surf://store:191dbfa341a-6fd2f52b2764",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "06ca860bab3312dd2c2ce7164cb4b153e861074c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient21.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449674,
+          "persistentId": "",
+          "filename": "Serum_patient21.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 19307828,
+          "storageIdentifier": "surf://store:191dbfa3424-9ff1315cb89d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a43cf4044cd2a614db27102438db40d1436d0528"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient21.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449748,
+          "persistentId": "",
+          "filename": "Serum_patient21.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 356825,
+          "storageIdentifier": "surf://store:191dbfa3571-ad4fb1099a53",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ef80d95e40910b032921106f8a23b2756352f2e2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient22.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449694,
+          "persistentId": "",
+          "filename": "Serum_patient22.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 19307828,
+          "storageIdentifier": "surf://store:191dbfa357b-615be67ed8e3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a5a568a7bec4e96cdb865e649900f789c03b816a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient22.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449679,
+          "persistentId": "",
+          "filename": "Serum_patient22.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 355515,
+          "storageIdentifier": "surf://store:191dbfa36e3-1e109d3a8762",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "684c37683a3bfb39a3a86352ef3ef97fa13dca29"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient23.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449737,
+          "persistentId": "",
+          "filename": "Serum_patient23.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 20848300,
+          "storageIdentifier": "surf://store:191dbfa36ee-f03ac3f74430",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0249fb6a0a823ef53f2a32f4aae00409e8400516"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient23.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449678,
+          "persistentId": "",
+          "filename": "Serum_patient23.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 346761,
+          "storageIdentifier": "surf://store:191dbfa3859-6f55836b8664",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5d81889aabcc95175550655781ab977f9301f6ae"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient24.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449744,
+          "persistentId": "",
+          "filename": "Serum_patient24.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 20848300,
+          "storageIdentifier": "surf://store:191dbfa3863-49a643c9eea7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "25f0bf74d0a233136fe25d3897cd19e28ed34b8e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient24.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449671,
+          "persistentId": "",
+          "filename": "Serum_patient24.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 348932,
+          "storageIdentifier": "surf://store:191dbfa39d4-60fd4e2f625e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "87a14ec7e7aeb1083e749f2bc71f796c6a2eb08e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient2.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449732,
+          "persistentId": "",
+          "filename": "Serum_patient2.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 16515499,
+          "storageIdentifier": "surf://store:191dbfa315c-97231e2e0c0b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "56de3ab9448a5de7b06684bb6e5edcbd75c5e61b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient2.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449703,
+          "persistentId": "",
+          "filename": "Serum_patient2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 416943,
+          "storageIdentifier": "surf://store:191dbfa328a-0f8157e114ed",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "309a0cb6d3f3088e5c80702b700dda1d4692234e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient3.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449751,
+          "persistentId": "",
+          "filename": "Serum_patient3.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 16518257,
+          "storageIdentifier": "surf://store:191dbfa39de-345d219c206f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5f61bc487cf3487e5ff7b2dfd0c91d6a1001209d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient3.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449720,
+          "persistentId": "",
+          "filename": "Serum_patient3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 522608,
+          "storageIdentifier": "surf://store:191dbfa3ae6-698172644ca0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c300dd4b1bfaefbd36a5f5b49953cb4e81bb9e32"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient4.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449665,
+          "persistentId": "",
+          "filename": "Serum_patient4.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 9032092,
+          "storageIdentifier": "surf://store:191dbfa3af3-d702af36a1a0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cdc5fd95fb0d91b4bc4d26b0a6342de80c695603"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient4.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449716,
+          "persistentId": "",
+          "filename": "Serum_patient4.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 277902,
+          "storageIdentifier": "surf://store:191dbfa3b32-00393b753e86",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f4c570ebcaf7c111ce03a20bc08f85a22315fd2b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient5.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449710,
+          "persistentId": "",
+          "filename": "Serum_patient5.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 9915652,
+          "storageIdentifier": "surf://store:191dbfa3b3a-7bbbde380ed4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "39a74d5e8e58ddb0a79f28b7414f5d30a2bb6154"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient5.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449661,
+          "persistentId": "",
+          "filename": "Serum_patient5.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 350145,
+          "storageIdentifier": "surf://store:191dbfa3b85-cd685456cac1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5c14d9d4f3e5502801b6904ac7e25ac60a789a22"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient6.TIF",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449722,
+          "persistentId": "",
+          "filename": "Serum_patient6.TIF",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 26224024,
+          "storageIdentifier": "surf://store:191dbfa3b8f-bb840c02c2c1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "784572d33d0fb6c5901888297f2aa5b915560385"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient6.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449670,
+          "persistentId": "",
+          "filename": "Serum_patient6.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 300669,
+          "storageIdentifier": "surf://store:191dbfa3d42-1149e6a89e96",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "84e0d9db4d5d86dd0d1344b628c0f57b454b4d85"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient7.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449755,
+          "persistentId": "",
+          "filename": "Serum_patient7.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 11620852,
+          "storageIdentifier": "surf://store:191dbfa3d4a-4e1627681b3b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "19058aec076c3364f4c48f5384f3e043adf9debd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient7.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449672,
+          "persistentId": "",
+          "filename": "Serum_patient7.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 290132,
+          "storageIdentifier": "surf://store:191dbfa3d96-b1cbed3c0431",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "56bdd0617d90178d643c41f52b05de976cbc7af5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient8.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449696,
+          "persistentId": "",
+          "filename": "Serum_patient8.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 10838020,
+          "storageIdentifier": "surf://store:191dbfa3d9f-575d99858fff",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e6f0f398d419fe13fa07020528ed551b6a954c18"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient8.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449704,
+          "persistentId": "",
+          "filename": "Serum_patient8.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 350778,
+          "storageIdentifier": "surf://store:191dbfa3df7-d6c213b838f3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "30210a962d631a7ba2d7254bd461e213ba4370f3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient9.tif",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449693,
+          "persistentId": "",
+          "filename": "Serum_patient9.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 11818036,
+          "storageIdentifier": "surf://store:191dbfa3e00-da3a6a639c51",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1d68dd4a890cdde8e3cb5b6470bbdcabee1eb6ce"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Serum_patient9.txt",
+        "restricted": false,
+        "directoryLabel": "Raw_sample_files",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449698,
+          "persistentId": "",
+          "filename": "Serum_patient9.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 356017,
+          "storageIdentifier": "surf://store:191dbfa3e51-fb0c7bc5981a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "18a674fcbfba51ed9eb8eded1730af0fcc9b7553"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "sim_matrix.csv",
+        "restricted": false,
+        "directoryLabel": "Figure2_and_3",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449658,
+          "persistentId": "",
+          "filename": "sim_matrix.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 160236372,
+          "storageIdentifier": "surf://store:191dbf8863c-c0cd9429ae12",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c4c02c299f9ef66a35bf7103b04d21aa9e62a17b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "sim_matrix.csv",
+        "restricted": false,
+        "directoryLabel": "Figure_1",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449642,
+          "persistentId": "",
+          "filename": "sim_matrix.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 160236372,
+          "storageIdentifier": "surf://store:191dbf54294-7fa2a3779f95",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c4c02c299f9ef66a35bf7103b04d21aa9e62a17b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Statistical_analysis.RData",
+        "restricted": false,
+        "directoryLabel": "Statistical_analysis",
+        "version": 1,
+        "datasetVersionId": 29611,
+        "dataFile": {
+          "id": 449757,
+          "persistentId": "",
+          "filename": "Statistical_analysis.RData",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 11015816,
+          "storageIdentifier": "surf://store:191dbfe025b-e2a7e50675b2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "120c2ed545fade65160cf6959ea4980233e46a94"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-10",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Hendrikse, Jytte; Kuiper, Jonas; De Boer, Joke, 2024, \"Dataset for \"Pediatric autoimmune uveitis is associated with intraocular antibodies against Epstein-Barr virus Nuclear Antigen 1 (EBNA-1)\"\", https://doi.org/10.34894/RBMEUY, DataverseNL, V1"
+  }
+}

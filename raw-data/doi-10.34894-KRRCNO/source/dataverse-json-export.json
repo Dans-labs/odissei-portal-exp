@@ -1,0 +1,798 @@
+{
+  "id": 419408,
+  "identifier": "KRRCNO",
+  "persistentUrl": "https://doi.org/10.34894/KRRCNO",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-10-25",
+  "storageIdentifier": "surf://10.34894/KRRCNO",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 27569,
+    "datasetId": 419408,
+    "datasetPersistentId": "doi:10.34894/KRRCNO",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/KRRCNO",
+    "versionNumber": 1,
+    "internalVersionNumber": 38,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-10-25T10:02:08Z",
+    "releaseTime": "2024-10-25T10:02:08Z",
+    "createTime": "2024-04-18T08:19:40Z",
+    "publicationDate": "2024-10-25",
+    "citationDate": "2024-10-25",
+    "termsOfUse": "The dataset can be made available to researchers affiliated with universities or independent, non-commercial research institutes for research purposes only. ",
+    "confidentialityDeclaration": "Signing of a Data Transfer Agreement, provided by the University of Groningen.",
+    "restrictions": "The data contains sensitive information about the subjects and is therefore restricted from openly sharing it. ",
+    "termsOfAccess": "Permission for re-use can be granted by the University of Groningen Digital Competence Centre on behalf of the researchers responsible for the dataset after assessment of credentials and the reason for request. The procedure starts with a request for access via this dataset at DataverseNL. Signing of a Data Transfer Agreement is part of the procedure for re-use of the data.\n",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Data and R code for \"Critical Fluctuations as an Early Warning Signal of Sports Injuries? A Proof of Concept Using Football Monitoring Data\""
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Neumann, Niklas"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2062-1958"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jur J. Brauers"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCG, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-1717-4977"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nico W. Van Yperen"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2116-8841"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mees van der Linde"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Football club Groningen"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Koen A.P.M. Lemmink"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCG, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-7403-8082"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Michel S. Brink"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMCG, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-0730-1979"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fred Hasselman"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-1384-8361"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ruud J.R. den Hartigh"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-0094-8307"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ruud J.R. den Hartigh"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Niklas Neumann"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This environment contains the data and the R code. The data set consists of time series from psychological and physiological self-reports as well as GPS sensors, across two consecutive football season of multiple individual professional youth players. More detailed information about what kind of data we collected and how can be retrieved from the article."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-04-23"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences",
+              "Social Sciences",
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Complex Adaptive Systems"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dynamical Systems"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Football"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Soccer"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nonlinear time series analysis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sports"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dynamic Complexity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Injuries"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Critical Fluctuations"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Early Warning Signals"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Prediction"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Phase Transitions"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tipping Point"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Monitoring"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Multidisciplinarity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ergodicity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Personalized Approach"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nonlinearity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EMA (Ecological momentary assessment)"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sports sciences"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sport psychology"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Prediction of Sports Injuries"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "producerAbbreviation": {
+                  "typeName": "producerAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UG"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.rug.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Groningen"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ZonMw"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Grant number 546003004"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL network"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS"
+                },
+                "distributorAbbreviation": {
+                  "typeName": "distributorAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DVNL"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://dataverse.nl/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Silva Correia Alves, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-04-18"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "GPS sensor data",
+              "Time series",
+              "Multidisciplinary data",
+              "App data",
+              "Experience Sampling Method",
+              "Ecological Momentary Assesment",
+              "Longitudinal data",
+              "Self-report single-item questions"
+            ]
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Niklas D. Neumann; Nico W. Van Yperen; Carolin R. Arens; Jur J. Brauers; Koen A.M.P. Lemmink; Ando C. Emerencia; Laurentius A. Meerhoff; Wouter G.P. Frencken; Michel S. Brink; Ruud J.R. Den Hartigh, 2024, \"Data and R code for \"How Do Psychological and Physiological Performance Determinants Interact Within Individual Athletes? An Analytical Network Approach\"\", https://doi.org/10.34894/HNA8QQ, DataverseNL, V2",
+              "Niklas D. Neumann; Nico W. Van Yperen; Jur J. Brauers; Wouter G.P. Frencken; Michel S. Brink; Koen A.M.P. Lemmink; Laurentius A. Meerhoff; Ruud J.R. Den Hartigh, 2023, \"Data and R code for \"Nonergodicity in Load and Recovery: Group Results Do Not Generalize to Individuals\"\", https://doi.org/10.34894/KXP5QZ, DataverseNL, V1"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/KRRCNO"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:dec1b6b6-fc73-479f-8ac5-2fd267b69bb5"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-9cd5a8d4-5c44-442f-b887-b639b03e989e"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "The R script contains the pre-processing of the data, the EWS calculation, and the proof of concept calculation of sensitivity and specificity metrics.",
+        "label": "Dynamic Complexity.R",
+        "restricted": false,
+        "version": 2,
+        "datasetVersionId": 27569,
+        "dataFile": {
+          "id": 449245,
+          "persistentId": "",
+          "filename": "Dynamic Complexity.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 23045,
+          "description": "The R script contains the pre-processing of the data, the EWS calculation, and the proof of concept calculation of sensitivity and specificity metrics.",
+          "storageIdentifier": "surf://store:19193bd69c0-554adb46a006",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fcec688054cf4d4037185e78b42cfa222694c74c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-08-27",
+          "publicationDate": "2024-10-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Imputed and normalized data",
+        "label": "Imputed and normalized data.csv",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 27569,
+        "dataFile": {
+          "id": 449244,
+          "persistentId": "",
+          "filename": "Imputed and normalized data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 784835,
+          "description": "Imputed and normalized data",
+          "storageIdentifier": "surf://store:19193b2848d-e6c3ca60a276",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dd6b63ed860d608923d0d20154234237c42552aa"
+          },
+          "tabularData": false,
+          "creationDate": "2024-08-27",
+          "publicationDate": "2024-10-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Original data",
+        "label": "restructured_without_names_WITH_polar_succinct_pseudomized.csv",
+        "restricted": true,
+        "version": 3,
+        "datasetVersionId": 27569,
+        "dataFile": {
+          "id": 422601,
+          "persistentId": "",
+          "filename": "restructured_without_names_WITH_polar_succinct_pseudomized.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 11000861,
+          "description": "Original data",
+          "storageIdentifier": "surf://store:18f5706f8a8-c336ece2f22a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8b547fb4c34c6908bb0cd71b1a5cd5a09cf409da"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-08",
+          "publicationDate": "2024-10-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Sensitivity and Specificity values",
+        "label": "Sensitivity and Specificity.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27569,
+        "dataFile": {
+          "id": 449243,
+          "persistentId": "",
+          "filename": "Sensitivity and Specificity.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1425,
+          "description": "Sensitivity and Specificity values",
+          "storageIdentifier": "surf://store:19193b164a7-691b42eb1688",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "57e2280098310cac8fca7547beb012f3f5e2a58a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-08-27",
+          "publicationDate": "2024-10-25",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Neumann, Niklas; Jur J. Brauers; Nico W. Van Yperen; Mees van der Linde; Koen A.P.M. Lemmink; Michel S. Brink; Fred Hasselman; Ruud J.R. den Hartigh, 2024, \"Data and R code for \"Critical Fluctuations as an Early Warning Signal of Sports Injuries? A Proof of Concept Using Football Monitoring Data\"\", https://doi.org/10.34894/KRRCNO, DataverseNL, V1"
+  }
+}

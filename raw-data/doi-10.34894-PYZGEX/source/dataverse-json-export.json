@@ -1,0 +1,1291 @@
+{
+  "id": 36312,
+  "identifier": "PYZGEX",
+  "persistentUrl": "https://doi.org/10.34894/PYZGEX",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2020-10-13",
+  "storageIdentifier": "surf://10.34894/PYZGEX",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3043,
+    "datasetId": 36312,
+    "datasetPersistentId": "doi:10.34894/PYZGEX",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/PYZGEX",
+    "versionNumber": 1,
+    "internalVersionNumber": 16,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2020-10-13T09:07:06Z",
+    "releaseTime": "2020-10-13T09:07:06Z",
+    "createTime": "2020-09-11T11:44:08Z",
+    "publicationDate": "2020-10-13",
+    "citationDate": "2020-10-13",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Truss Sizing Optimization: Symbolic Finite Element Method QUBO Repository"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wils, Kevin"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wils, Kevin"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delft University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This repository contains the codes, datasheets, and text files related to the symbolic finite-element truss QUBO method chapter in my thesis. Please view the README txt file to better understand what the contents of this repository are."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2020-09-11"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Engineering"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Wils, Kevin"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-09-11"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/PYZGEX"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:5877bcaf-f37e-418f-acb8-0de30fc9be05"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-43857229-c174-4c9e-b6c7-c907c0eba969"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "This is a simple Abaqus FEM model to verify the stresses in the two-truss problem, using the mid-sized choices for the cross-sectional areas. ",
+        "label": "2TrussStressVerification.cae",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 2,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36572,
+          "persistentId": "",
+          "filename": "2TrussStressVerification.cae",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 65536,
+          "description": "This is a simple Abaqus FEM model to verify the stresses in the two-truss problem, using the mid-sized choices for the cross-sectional areas. ",
+          "storageIdentifier": "surf://store:174c4e0d02f-99c605abee2b",
+          "rootDataFileId": -1,
+          "md5": "e1fdcfd310d32ea3d39ec67dde259fce",
+          "checksum": {
+            "type": "MD5",
+            "value": "e1fdcfd310d32ea3d39ec67dde259fce"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-25",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Ajagekar_target.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/standalone/2",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36387,
+          "persistentId": "",
+          "filename": "Ajagekar_target.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3166,
+          "storageIdentifier": "surf://store:17496df2a43-14f71ef4a577",
+          "rootDataFileId": -1,
+          "md5": "a12605e75800c1934a5d1c1d4ff8395e",
+          "checksum": {
+            "type": "MD5",
+            "value": "a12605e75800c1934a5d1c1d4ff8395e"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "BF_energy_data.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/3",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36425,
+          "persistentId": "",
+          "filename": "BF_energy_data.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1782,
+          "storageIdentifier": "surf://store:17496df2940-1faf6f36fd1f",
+          "rootDataFileId": -1,
+          "md5": "18a84dbc6bd410201b0afb5fc60caca6",
+          "checksum": {
+            "type": "MD5",
+            "value": "18a84dbc6bd410201b0afb5fc60caca6"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "BF_energy_data.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/4",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36423,
+          "persistentId": "",
+          "filename": "BF_energy_data.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6561,
+          "storageIdentifier": "surf://store:17496df2974-48da64bed152",
+          "rootDataFileId": -1,
+          "md5": "a506526422206e05b7789b9c842b3ad7",
+          "checksum": {
+            "type": "MD5",
+            "value": "a506526422206e05b7789b9c842b3ad7"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "BF_energy_data.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/2",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36405,
+          "persistentId": "",
+          "filename": "BF_energy_data.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 459,
+          "storageIdentifier": "surf://store:17496df291c-00efade32508",
+          "rootDataFileId": -1,
+          "md5": "f7f314d96d25cb5bc5d2ecd5a5fea80b",
+          "checksum": {
+            "type": "MD5",
+            "value": "f7f314d96d25cb5bc5d2ecd5a5fea80b"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Brute_force_final.m",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36414,
+          "persistentId": "",
+          "filename": "Brute_force_final.m",
+          "contentType": "text/x-matlab",
+          "friendlyType": "MATLAB Source Code",
+          "filesize": 13270,
+          "storageIdentifier": "surf://store:17496df29dc-f32c5fc987e2",
+          "rootDataFileId": -1,
+          "md5": "8492178e8c68e0464f390ecfb5703c50",
+          "checksum": {
+            "type": "MD5",
+            "value": "8492178e8c68e0464f390ecfb5703c50"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DataProcess.py",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36395,
+          "persistentId": "",
+          "filename": "DataProcess.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 20183,
+          "storageIdentifier": "surf://store:17496df29e3-29ab75a0b0f5",
+          "rootDataFileId": -1,
+          "md5": "ca689e1cff93ce9ee47eb18a55be8498",
+          "checksum": {
+            "type": "MD5",
+            "value": "ca689e1cff93ce9ee47eb18a55be8498"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DWave_Token.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 2,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36426,
+          "persistentId": "",
+          "filename": "DWave_Token.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 44,
+          "storageIdentifier": "surf://store:17497363e78-1b20524377cb",
+          "rootDataFileId": -1,
+          "md5": "5a015910db6b023c71eeafcd30b20a81",
+          "checksum": {
+            "type": "MD5",
+            "value": "5a015910db6b023c71eeafcd30b20a81"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Effect of truncating high order terms.xlsx",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36420,
+          "persistentId": "",
+          "filename": "Effect of truncating high order terms.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 10576,
+          "storageIdentifier": "surf://store:17496df29ee-c644d11b7396",
+          "rootDataFileId": -1,
+          "md5": "33af49459d88c44b95e35ed6e222f5cb",
+          "checksum": {
+            "type": "MD5",
+            "value": "33af49459d88c44b95e35ed6e222f5cb"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Fractional_target.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/4",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36398,
+          "persistentId": "",
+          "filename": "Fractional_target.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 359336,
+          "storageIdentifier": "surf://store:17496df297d-cc268423edf2",
+          "rootDataFileId": -1,
+          "md5": "1401bb0d64d7e1bfc6ca1f3c3fe53832",
+          "checksum": {
+            "type": "MD5",
+            "value": "1401bb0d64d7e1bfc6ca1f3c3fe53832"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Fractional_target.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/2",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36394,
+          "persistentId": "",
+          "filename": "Fractional_target.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 4086,
+          "storageIdentifier": "surf://store:17496df2922-36f93ff8962c",
+          "rootDataFileId": -1,
+          "md5": "c14cef9c6b5bbb97eef7bc7b1695f8c3",
+          "checksum": {
+            "type": "MD5",
+            "value": "c14cef9c6b5bbb97eef7bc7b1695f8c3"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Fractional_target.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/3",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36391,
+          "persistentId": "",
+          "filename": "Fractional_target.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 43395,
+          "storageIdentifier": "surf://store:17496df2946-d9f9cdb4912d",
+          "rootDataFileId": -1,
+          "md5": "51c609bc49fbb620dc57e7fa6cd47225",
+          "checksum": {
+            "type": "MD5",
+            "value": "51c609bc49fbb620dc57e7fa6cd47225"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "From_Ksym_to_RFV5_2_standalone.m",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36393,
+          "persistentId": "",
+          "filename": "From_Ksym_to_RFV5_2_standalone.m",
+          "contentType": "text/x-matlab",
+          "friendlyType": "MATLAB Source Code",
+          "filesize": 20191,
+          "storageIdentifier": "surf://store:17496df29fa-a27951e081c2",
+          "rootDataFileId": -1,
+          "md5": "a682760a522dc025cf08b84d57a291b9",
+          "checksum": {
+            "type": "MD5",
+            "value": "a682760a522dc025cf08b84d57a291b9"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "From_Ksym_to_RFV5.m",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36389,
+          "persistentId": "",
+          "filename": "From_Ksym_to_RFV5.m",
+          "contentType": "text/x-matlab",
+          "friendlyType": "MATLAB Source Code",
+          "filesize": 6861,
+          "storageIdentifier": "surf://store:17496df29f3-bc50a52d51e0",
+          "rootDataFileId": -1,
+          "md5": "fa52aa03eeb18f01621f2b45690a1a2e",
+          "checksum": {
+            "type": "MD5",
+            "value": "fa52aa03eeb18f01621f2b45690a1a2e"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "From_RF_to_QUBO_solveV2_1.py",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36422,
+          "persistentId": "",
+          "filename": "From_RF_to_QUBO_solveV2_1.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 24158,
+          "storageIdentifier": "surf://store:17496df2a01-eac1aeca9fc5",
+          "rootDataFileId": -1,
+          "md5": "ed4f3b88febacb61e1114774cf82810e",
+          "checksum": {
+            "type": "MD5",
+            "value": "ed4f3b88febacb61e1114774cf82810e"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "From_truss_to_Ksym.py",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36411,
+          "persistentId": "",
+          "filename": "From_truss_to_Ksym.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 2867,
+          "storageIdentifier": "surf://store:17496df2a07-d663c80f78bb",
+          "rootDataFileId": -1,
+          "md5": "aa8bd835fcc1d1e3526befca7d3b67de",
+          "checksum": {
+            "type": "MD5",
+            "value": "aa8bd835fcc1d1e3526befca7d3b67de"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Improved_target.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/standalone/2",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36384,
+          "persistentId": "",
+          "filename": "Improved_target.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6561,
+          "storageIdentifier": "surf://store:17496df2a50-e29713dd9c1e",
+          "rootDataFileId": -1,
+          "md5": "b4b545981e632570e6fb1d679da4a6e8",
+          "checksum": {
+            "type": "MD5",
+            "value": "b4b545981e632570e6fb1d679da4a6e8"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Initial_target.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/standalone/2",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36390,
+          "persistentId": "",
+          "filename": "Initial_target.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 4755,
+          "storageIdentifier": "surf://store:17496df2a56-2e203a478aa6",
+          "rootDataFileId": -1,
+          "md5": "7f1fa87565ab63938e664172bfb08eb7",
+          "checksum": {
+            "type": "MD5",
+            "value": "7f1fa87565ab63938e664172bfb08eb7"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Ksym_to_matlab.py",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36415,
+          "persistentId": "",
+          "filename": "Ksym_to_matlab.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 1802,
+          "storageIdentifier": "surf://store:17496df2a0e-5b60b646d9a3",
+          "rootDataFileId": -1,
+          "md5": "732c05103faca4c78410b4557dc38285",
+          "checksum": {
+            "type": "MD5",
+            "value": "732c05103faca4c78410b4557dc38285"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Main.py",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36399,
+          "persistentId": "",
+          "filename": "Main.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 8579,
+          "storageIdentifier": "surf://store:17496df2a15-5d346af49343",
+          "rootDataFileId": -1,
+          "md5": "da7674085d41cbc7d1651ef7b0938425",
+          "checksum": {
+            "type": "MD5",
+            "value": "da7674085d41cbc7d1651ef7b0938425"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Problem_definitions.py",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36406,
+          "persistentId": "",
+          "filename": "Problem_definitions.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 7086,
+          "storageIdentifier": "surf://store:17496df2a1c-fbc230236c98",
+          "rootDataFileId": -1,
+          "md5": "f77470b871e14e6e09fe95cbf5864d86",
+          "checksum": {
+            "type": "MD5",
+            "value": "f77470b871e14e6e09fe95cbf5864d86"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 2,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 38131,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 4391,
+          "storageIdentifier": "surf://store:1750273e5e1-121d7f77e7d3",
+          "rootDataFileId": -1,
+          "md5": "10a4d885d1acb24daab3aff1f75279e5",
+          "checksum": {
+            "type": "MD5",
+            "value": "10a4d885d1acb24daab3aff1f75279e5"
+          },
+          "tabularData": false,
+          "creationDate": "2020-10-07",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "RESULTS.xlsx",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36409,
+          "persistentId": "",
+          "filename": "RESULTS.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 930755,
+          "storageIdentifier": "surf://store:17496df2a38-8f02d335533e",
+          "rootDataFileId": -1,
+          "md5": "2970dd33b8d5b588a335e210d384ca5c",
+          "checksum": {
+            "type": "MD5",
+            "value": "2970dd33b8d5b588a335e210d384ca5c"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sigma_LaTeX1.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/2",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36400,
+          "persistentId": "",
+          "filename": "Sigma_LaTeX1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1736,
+          "storageIdentifier": "surf://store:17496df2928-438f2a185d77",
+          "rootDataFileId": -1,
+          "md5": "9734602c68bfe5201155fd4d8da0e619",
+          "checksum": {
+            "type": "MD5",
+            "value": "9734602c68bfe5201155fd4d8da0e619"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sigma_LaTeX1.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/3",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36396,
+          "persistentId": "",
+          "filename": "Sigma_LaTeX1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 9534,
+          "storageIdentifier": "surf://store:17496df294d-c542dda5e74b",
+          "rootDataFileId": -1,
+          "md5": "20d093e81394da86399a274d6250f6e4",
+          "checksum": {
+            "type": "MD5",
+            "value": "20d093e81394da86399a274d6250f6e4"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sigma_LaTeX1.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/4",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36402,
+          "persistentId": "",
+          "filename": "Sigma_LaTeX1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 146196,
+          "storageIdentifier": "surf://store:17496df2987-2be4403c1a5b",
+          "rootDataFileId": -1,
+          "md5": "b12cc780d540f4edca0878e2893002af",
+          "checksum": {
+            "type": "MD5",
+            "value": "b12cc780d540f4edca0878e2893002af"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sigma_LaTeX2.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/3",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36386,
+          "persistentId": "",
+          "filename": "Sigma_LaTeX2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 9534,
+          "storageIdentifier": "surf://store:17496df2952-47a3aca5efae",
+          "rootDataFileId": -1,
+          "md5": "164e8d7fbb77b067f74c0feb2330b4ce",
+          "checksum": {
+            "type": "MD5",
+            "value": "164e8d7fbb77b067f74c0feb2330b4ce"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sigma_LaTeX2.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/2",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36413,
+          "persistentId": "",
+          "filename": "Sigma_LaTeX2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1738,
+          "storageIdentifier": "surf://store:17496df292e-edcf05e99804",
+          "rootDataFileId": -1,
+          "md5": "b6b67c70f9a2e3f919efa0402e837a83",
+          "checksum": {
+            "type": "MD5",
+            "value": "b6b67c70f9a2e3f919efa0402e837a83"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sigma_LaTeX2.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/4",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36421,
+          "persistentId": "",
+          "filename": "Sigma_LaTeX2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 146196,
+          "storageIdentifier": "surf://store:17496df298f-c523f982e0eb",
+          "rootDataFileId": -1,
+          "md5": "03e4a4175f6dcf8a6e222e204f464303",
+          "checksum": {
+            "type": "MD5",
+            "value": "03e4a4175f6dcf8a6e222e204f464303"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sigma_LaTeX3.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/3",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36404,
+          "persistentId": "",
+          "filename": "Sigma_LaTeX3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 10041,
+          "storageIdentifier": "surf://store:17496df2958-401144d945ca",
+          "rootDataFileId": -1,
+          "md5": "abdb572da73992e37b757a11ee556231",
+          "checksum": {
+            "type": "MD5",
+            "value": "abdb572da73992e37b757a11ee556231"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sigma_LaTeX3.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/4",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36403,
+          "persistentId": "",
+          "filename": "Sigma_LaTeX3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 172589,
+          "storageIdentifier": "surf://store:17496df2997-998e4c8231dd",
+          "rootDataFileId": -1,
+          "md5": "03329ee4efd20c2354a9a354a2168f9a",
+          "checksum": {
+            "type": "MD5",
+            "value": "03329ee4efd20c2354a9a354a2168f9a"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sigma_LaTeX4.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/4",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36407,
+          "persistentId": "",
+          "filename": "Sigma_LaTeX4.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 169051,
+          "storageIdentifier": "surf://store:17496df299f-19e77f4811f8",
+          "rootDataFileId": -1,
+          "md5": "2922229c5219f168954f1d9505309659",
+          "checksum": {
+            "type": "MD5",
+            "value": "2922229c5219f168954f1d9505309659"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Target1.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/2",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36417,
+          "persistentId": "",
+          "filename": "Target1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6218,
+          "storageIdentifier": "surf://store:17496df2934-589d76c18eb2",
+          "rootDataFileId": -1,
+          "md5": "34651a8bf21ad4a07595548853ab14ec",
+          "checksum": {
+            "type": "MD5",
+            "value": "34651a8bf21ad4a07595548853ab14ec"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Target1.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/3",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36392,
+          "persistentId": "",
+          "filename": "Target1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60343,
+          "storageIdentifier": "surf://store:17496df295e-95cf030d09bb",
+          "rootDataFileId": -1,
+          "md5": "cae9d545ff2613d8a186f9b8ced03a5e",
+          "checksum": {
+            "type": "MD5",
+            "value": "cae9d545ff2613d8a186f9b8ced03a5e"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Target1.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/4",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36397,
+          "persistentId": "",
+          "filename": "Target1.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 490581,
+          "storageIdentifier": "surf://store:17496df29aa-eea5d4d13a59",
+          "rootDataFileId": -1,
+          "md5": "c9d50106f018141b3e3851c9a02016a2",
+          "checksum": {
+            "type": "MD5",
+            "value": "c9d50106f018141b3e3851c9a02016a2"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Target2.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/3",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36408,
+          "persistentId": "",
+          "filename": "Target2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60341,
+          "storageIdentifier": "surf://store:17496df2967-c46616831c35",
+          "rootDataFileId": -1,
+          "md5": "fa20ca4a0827727e99feb20faff412df",
+          "checksum": {
+            "type": "MD5",
+            "value": "fa20ca4a0827727e99feb20faff412df"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Target2.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/4",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36416,
+          "persistentId": "",
+          "filename": "Target2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 490581,
+          "storageIdentifier": "surf://store:17496df29b7-09bfdd62fb39",
+          "rootDataFileId": -1,
+          "md5": "eb0b01c869273f407e17dd2fef18cc9a",
+          "checksum": {
+            "type": "MD5",
+            "value": "eb0b01c869273f407e17dd2fef18cc9a"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Target2.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/2",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36419,
+          "persistentId": "",
+          "filename": "Target2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6162,
+          "storageIdentifier": "surf://store:17496df293a-937b584a4f86",
+          "rootDataFileId": -1,
+          "md5": "c0a9eeebf48fa6f7a5034ad292e277aa",
+          "checksum": {
+            "type": "MD5",
+            "value": "c0a9eeebf48fa6f7a5034ad292e277aa"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Target3.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/4",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36401,
+          "persistentId": "",
+          "filename": "Target3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 525581,
+          "storageIdentifier": "surf://store:17496df29c4-37622e730f76",
+          "rootDataFileId": -1,
+          "md5": "62756a66c3c66ce198744d9abefd5c14",
+          "checksum": {
+            "type": "MD5",
+            "value": "62756a66c3c66ce198744d9abefd5c14"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Target3.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/3",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36410,
+          "persistentId": "",
+          "filename": "Target3.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 60271,
+          "storageIdentifier": "surf://store:17496df296e-8ea3c731d627",
+          "rootDataFileId": -1,
+          "md5": "1ac5c7771681b3d628d13491086a443a",
+          "checksum": {
+            "type": "MD5",
+            "value": "1ac5c7771681b3d628d13491086a443a"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Target4.txt",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission/4",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36385,
+          "persistentId": "",
+          "filename": "Target4.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 521970,
+          "storageIdentifier": "surf://store:17496df29d2-17e4e40a9256",
+          "rootDataFileId": -1,
+          "md5": "58826e7173acf2388e0f64f9bb54bffd",
+          "checksum": {
+            "type": "MD5",
+            "value": "58826e7173acf2388e0f64f9bb54bffd"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Truss2D.py",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36418,
+          "persistentId": "",
+          "filename": "Truss2D.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 9267,
+          "storageIdentifier": "surf://store:17496df2a76-543c2068e7b7",
+          "rootDataFileId": -1,
+          "md5": "1009cb0288325cadc50734d1e774017a",
+          "checksum": {
+            "type": "MD5",
+            "value": "1009cb0288325cadc50734d1e774017a"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "TrussUtilities.py",
+        "restricted": false,
+        "directoryLabel": "Dataverse submission",
+        "version": 1,
+        "datasetVersionId": 3043,
+        "dataFile": {
+          "id": 36412,
+          "persistentId": "",
+          "filename": "TrussUtilities.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 10752,
+          "storageIdentifier": "surf://store:17496df2a7c-a47adaba4487",
+          "rootDataFileId": -1,
+          "md5": "8c90ffc46921298e41bbd3e3d5537f12",
+          "checksum": {
+            "type": "MD5",
+            "value": "8c90ffc46921298e41bbd3e3d5537f12"
+          },
+          "tabularData": false,
+          "creationDate": "2020-09-16",
+          "publicationDate": "2020-10-13",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Wils, Kevin, 2020, \"Truss Sizing Optimization: Symbolic Finite Element Method QUBO Repository\", https://doi.org/10.34894/PYZGEX, DataverseNL, V1"
+  }
+}

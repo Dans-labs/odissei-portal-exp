@@ -1,0 +1,785 @@
+{
+  "id": 569905,
+  "identifier": "QBVEMX",
+  "persistentUrl": "https://doi.org/10.34894/QBVEMX",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-11-29",
+  "storageIdentifier": "surf://10.34894/QBVEMX",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32058,
+    "datasetId": 569905,
+    "datasetPersistentId": "doi:10.34894/QBVEMX",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/QBVEMX",
+    "versionNumber": 1,
+    "internalVersionNumber": 26,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2025-11-29T19:06:55Z",
+    "releaseTime": "2025-11-29T19:06:55Z",
+    "createTime": "2025-11-29T19:06:49Z",
+    "publicationDate": "2025-11-29",
+    "citationDate": "2025-11-29",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "GLOBALISE - VOC Document Segmentation Dataset"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Smit, Renate"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huygens Institute"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0009-0005-1070-636X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pepping, Kay"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huygens Instituut"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains detailed annotations of Dutch East India Company (VOC) archival documents based on the TANAP (Towards a New Age of Partnership) project. The dataset provides precise boundaries and classifications for documents within digitized archival volumes, serving as training data for machine learning approaches to historical document segmentation and classification. This work supports the broader goal of making VOC archives more accessible beyond traditional finding aids that often reflect colonial perspectives."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "archive"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "WikiData"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q166118"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dutch East India Company"
+                },
+                "topicClassVocab": {
+                  "typeName": "topicClassVocab",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "WikiData"
+                },
+                "topicClassVocabURI": {
+                  "typeName": "topicClassVocabURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q159766"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schnober, C., Smit, R., Kuruppath, M., Pepping, K., van Wissen, L., & Petram, L. (2024). Page Embeddings: Extracting and Classifying Historical Documents with Generic Vector Representations. In Proceedings of the Computational Humanities Research Conference 2024: Aarhus, Denmark, December 4-6, 2024 (Vol. 3834, pp. 999-1011). (CEUR Workshop Proceedings). https://ceur-ws.org/Vol-3834/paper73.pdf"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ceur-ws.org/Vol-3834/paper73.pdf"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Pepping, Kay"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-09-01"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/QBVEMX"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:b6bfb050-5964-41d5-ad49-58632f1ceee9"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-e537dd4c-78ff-42c0-a111-0e6f550df93b"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "1120 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569906,
+          "persistentId": "",
+          "filename": "1120 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 36846,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102c052-c9f70de88354",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ccdcd4cb04ed0bdf54f6209dbc26968b8873d12c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1267 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569907,
+          "persistentId": "",
+          "filename": "1267 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 54078,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102c144-5e8b9db1b64d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8d47e2d296b589d6b75e406b9e8c9ce06e5ed2e3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1274 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569908,
+          "persistentId": "",
+          "filename": "1274 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 70503,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102c243-3d8446794ab9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "74e607238e1f43b00a49fb764f476932f7a96e94"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1539 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569909,
+          "persistentId": "",
+          "filename": "1539 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 56850,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102c34c-ebfda93fc201",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2a6f633d8f292104e0f0ab9e589a2716b3fe6dea"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1547 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569910,
+          "persistentId": "",
+          "filename": "1547 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 27253,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102c42a-0c2c14c617a1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6ebbeb521f0658682e02a71ada0cc885049f0b54"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "1557 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569911,
+          "persistentId": "",
+          "filename": "1557 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 68000,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102c57e-c00909f9fccd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bebf4af385b6e263e4cd3245e333e22a5ff9ed31"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "2448 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569912,
+          "persistentId": "",
+          "filename": "2448 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 100734,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102c689-44e6d69ea0df",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bb98c3c1f8e8c4a9cb6e4fe331c470acaa5f157c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "2548 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569913,
+          "persistentId": "",
+          "filename": "2548 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 100399,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102c7b7-1dd041180a2b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e68a9c8724a0391c68a601b4ec82d7c913ee3bb9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "2555 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569914,
+          "persistentId": "",
+          "filename": "2555 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 44683,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102c8d0-d06e6c74085d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "63b5845215eeff658bcbb177b9884bbbd90a5f62"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "2775 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569915,
+          "persistentId": "",
+          "filename": "2775 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 27791,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102c9b6-a2bb7abd440c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "37cf1288a0908a8a9ed8e8bc55ca0049fa671688"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "3142 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569916,
+          "persistentId": "",
+          "filename": "3142 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 30615,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102caac-a03489a8b554",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a2ccb784dedb9c9cd7f0dca061348d93e4717f42"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "3891 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569917,
+          "persistentId": "",
+          "filename": "3891 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 34039,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102cb97-6e14c5d661b2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "24ba87595a606b85d35a75d5abad3de6bb3af960"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "7923 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569918,
+          "persistentId": "",
+          "filename": "7923 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 6993,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102cc82-1881d8e05f61",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "729f111625ad457d8ff8164d442a35ee0b2a1730"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "8023 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569919,
+          "persistentId": "",
+          "filename": "8023 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 6073,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102cd59-43b58e8e27b0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0345f4856f8caafe32de693c7e27c3c19973c7a9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "8121 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569920,
+          "persistentId": "",
+          "filename": "8121 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 28961,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102ce39-b8cefc38884d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bc4c90e10f61b19fb08c0356ddf2434847909d02"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "8237 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569921,
+          "persistentId": "",
+          "filename": "8237 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 8415,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102cf16-27c0ec869422",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "322e3d16b423d2e6680e2ea4add4355aa127ae8b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "8276 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569922,
+          "persistentId": "",
+          "filename": "8276 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 7168,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102d01a-a759f492cc3a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fb2fb421cebbc18ec2063a6b69b2e36817923a31"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "8284 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569923,
+          "persistentId": "",
+          "filename": "8284 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 9005,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102d121-afe4b3958e4c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9eefb3912e862d8be411f47900190970a75ecadf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "8697 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569924,
+          "persistentId": "",
+          "filename": "8697 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 9750,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102d20c-82188b25d413",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "60c62b92c3f2797edbb1472c605a2f4393082e44"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "8834 - Document Segmentation.tab",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569925,
+          "persistentId": "",
+          "filename": "8834 - Document Segmentation.tab",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 26174,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102d306-7ab36258f580",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f2453753adbe6464f7d9621739049c04b07b20c3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "README - GLOBALISE - VOC Document Segmentation Dataset.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32058,
+        "dataFile": {
+          "id": 569926,
+          "persistentId": "",
+          "filename": "README - GLOBALISE - VOC Document Segmentation Dataset.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 185805,
+          "description": "",
+          "storageIdentifier": "surf://store:19ad102d47c-b2fcf536b8fb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "54e679e173876d1132c4d810b7a2e02e00e3308d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-29",
+          "publicationDate": "2025-11-29",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Smit, Renate, 2025, \"GLOBALISE - VOC Document Segmentation Dataset\", https://doi.org/10.34894/QBVEMX, DataverseNL, V1"
+  }
+}

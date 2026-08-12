@@ -1,0 +1,581 @@
+{
+  "id": 353369,
+  "identifier": "SEJA5T",
+  "persistentUrl": "https://doi.org/10.34894/SEJA5T",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-05-10",
+  "storageIdentifier": "surf://10.34894/SEJA5T",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 27715,
+    "datasetId": 353369,
+    "datasetPersistentId": "doi:10.34894/SEJA5T",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/SEJA5T",
+    "versionNumber": 2,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-05-11T18:22:06Z",
+    "releaseTime": "2024-05-11T18:22:06Z",
+    "createTime": "2024-05-11T18:21:54Z",
+    "publicationDate": "2024-05-10",
+    "citationDate": "2024-05-10",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Viscoelasticity of diverse biological samples quantified by  Acoustic Force Microrheology (AFMR)"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bergamaschi, Giulia"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Taris, Kees-Karel"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Biebricher, Andreas"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Seymonson, Xamanie"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Witt, Hannes"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Peterman, Erwin"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wuite, Gijs"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bergamaschi, Giulia"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Code for processing microrheology data from AFS measurements, and extract elastic and viscous moduli."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023-01-13"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Physics"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Bergamaschi, Giulia"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-01-13"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/SEJA5T"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:16a40b51-e63a-43b1-9973-0fc2bc9cf22d"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-230dd0bd-3ba6-4639-9383-240597a464a3"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Code used to calculate and plot elastic and viscous moduli of collagen gel.",
+        "label": "Analysis_Final_results_with_prefactor_savevalues_collhard.py",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 353371,
+          "persistentId": "",
+          "filename": "Analysis_Final_results_with_prefactor_savevalues_collhard.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 28787,
+          "description": "Code used to calculate and plot elastic and viscous moduli of collagen gel.",
+          "storageIdentifier": "surf://store:185ac00c6fd-2982c2c12575",
+          "rootDataFileId": -1,
+          "md5": "cf178e284196b5aedbc72b7d1938caea",
+          "checksum": {
+            "type": "MD5",
+            "value": "cf178e284196b5aedbc72b7d1938caea"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-13",
+          "publicationDate": "2024-05-10",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Code used to calculate and plot elastic and viscous moduli of red blood cells.",
+        "label": "Analysis_Final_results_with_prefactor_savevalues_RBCS.py",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 353372,
+          "persistentId": "",
+          "filename": "Analysis_Final_results_with_prefactor_savevalues_RBCS.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 27835,
+          "description": "Code used to calculate and plot elastic and viscous moduli of red blood cells.",
+          "storageIdentifier": "surf://store:185ac00c794-4c3722373e83",
+          "rootDataFileId": -1,
+          "md5": "22823575af379f026c741c47e3524c39",
+          "checksum": {
+            "type": "MD5",
+            "value": "22823575af379f026c741c47e3524c39"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-13",
+          "publicationDate": "2024-05-10",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Code used to extract distance and force amplitudes and FD phase shifts.",
+        "label": "Analysis_Force_Displ_curves_update_coll.py",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 353370,
+          "persistentId": "",
+          "filename": "Analysis_Force_Displ_curves_update_coll.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 16823,
+          "description": "Code used to extract distance and force amplitudes and FD phase shifts.",
+          "storageIdentifier": "surf://store:185ac00c81d-1dd700e60bbd",
+          "rootDataFileId": -1,
+          "md5": "1e547f8ebf53f7e5789808a9437bbf16",
+          "checksum": {
+            "type": "MD5",
+            "value": "1e547f8ebf53f7e5789808a9437bbf16"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-13",
+          "publicationDate": "2024-05-10",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Average results hgf.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 422645,
+          "persistentId": "",
+          "filename": "Average results hgf.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1105,
+          "storageIdentifier": "surf://store:18f68dab81f-86ac53d5588b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9f54eeb013a8bdaec5bd62fff8d30ae9bb97fb03"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-11",
+          "publicationDate": "2024-05-11",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Average results RBCs.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 422644,
+          "persistentId": "",
+          "filename": "Average results RBCs.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1611,
+          "storageIdentifier": "surf://store:18f68d82584-eb298c0b9531",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5079269efe436a33b14019c473d867a9f24ab744"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-11",
+          "publicationDate": "2024-05-11",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "avg results collagen-hardgel.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 422651,
+          "persistentId": "",
+          "filename": "avg results collagen-hardgel.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1461,
+          "storageIdentifier": "surf://store:18f68de0c63-fab05d894218",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6bfacff7ef29ffea70e7692ab61e79833a8561e2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-11",
+          "publicationDate": "2024-05-11",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "avg results collagen-softgel.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 422643,
+          "persistentId": "",
+          "filename": "avg results collagen-softgel.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1497,
+          "storageIdentifier": "surf://store:18f68de9dd0-b2984274176d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "90f82af8223bdaf3e486a9422f22f22142d8a819"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-11",
+          "publicationDate": "2024-05-11",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "avg results treated hgf.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 422650,
+          "persistentId": "",
+          "filename": "avg results treated hgf.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 943,
+          "storageIdentifier": "surf://store:18f68db36d9-5d8e4ac10883",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "358ea1c90ea45d5e8c22bcbea18781571f063933"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-11",
+          "publicationDate": "2024-05-11",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "collagen-soft-single beads.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 422652,
+          "persistentId": "",
+          "filename": "collagen-soft-single beads.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 111412,
+          "storageIdentifier": "surf://store:18f68dec064-ace5d33c7208",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "06dd439f8bfe72730b45ae876b0ff1c9be249286"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-11",
+          "publicationDate": "2024-05-11",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Hard collagen single beads.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 422647,
+          "persistentId": "",
+          "filename": "Hard collagen single beads.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 45350,
+          "storageIdentifier": "surf://store:18f68de254c-114e31aa0c17",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "94a84b77aa8ea923290fac551e09263f46239883"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-11",
+          "publicationDate": "2024-05-11",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Hgf data single beads.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 422649,
+          "persistentId": "",
+          "filename": "Hgf data single beads.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 17672,
+          "storageIdentifier": "surf://store:18f68dab890-bf6267fa4dc6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e62d134c1c753ae31d5bfc5469e0681e69007c06"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-11",
+          "publicationDate": "2024-05-11",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "RBCs data single beads.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 422648,
+          "persistentId": "",
+          "filename": "RBCs data single beads.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 38045,
+          "storageIdentifier": "surf://store:18f68d7dfa7-f641df39bd6d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2d7a008dbd34d16de48d480a3a9cd10bb939ff11"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-11",
+          "publicationDate": "2024-05-11",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "treated hgf single beads.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 27715,
+        "dataFile": {
+          "id": 422646,
+          "persistentId": "",
+          "filename": "treated hgf single beads.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 17758,
+          "storageIdentifier": "surf://store:18f68db3668-ae55634d00b8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "75e1a6e1cc975b4a7eb3b0bce29842edaafa8336"
+          },
+          "tabularData": false,
+          "creationDate": "2024-05-11",
+          "publicationDate": "2024-05-11",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Bergamaschi, Giulia; Taris, Kees-Karel; Biebricher, Andreas; Seymonson, Xamanie; Witt, Hannes; Peterman, Erwin; Wuite, Gijs, 2024, \"Viscoelasticity of diverse biological samples quantified by Acoustic Force Microrheology (AFMR)\", https://doi.org/10.34894/SEJA5T, DataverseNL, V2"
+  }
+}

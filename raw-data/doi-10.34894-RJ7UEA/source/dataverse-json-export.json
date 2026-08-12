@@ -1,0 +1,682 @@
+{
+  "id": 615565,
+  "identifier": "RJ7UEA",
+  "persistentUrl": "https://doi.org/10.34894/RJ7UEA",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-04-07",
+  "storageIdentifier": "surf://10.34894/RJ7UEA",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34251,
+    "datasetId": 615565,
+    "datasetPersistentId": "doi:10.34894/RJ7UEA",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/RJ7UEA",
+    "versionNumber": 1,
+    "internalVersionNumber": 9,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2026-04-07",
+    "productionDate": "2018",
+    "lastUpdateTime": "2026-04-07T07:38:17Z",
+    "releaseTime": "2026-04-07T07:38:17Z",
+    "createTime": "2026-03-31T13:01:47Z",
+    "publicationDate": "2026-04-07",
+    "citationDate": "2026-04-07",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Dutch-Asiatic Shipping (DAS) – Enriched Dataset"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Petram, Lodewijk"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huygens Institute"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-7246-4176"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Petram, Lodewijk"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huygens Institute"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huygens Institute, Data & Collections department"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huygens Institute"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset provides an enriched and normalized version of the Dutch-Asiatic Shipping (DAS) database, which records direct shipping traffic between the Netherlands and Asia from 1595 to 1795. The DAS database covers the voyages of the so-called Voorcompagnieën and subsequently those of the Verenigde Oostindische Compagnie (VOC), totalling 4,722 outbound and 3,359 homebound voyages. For the historical scope, source criticism and documentation of the underlying data, see <a href=\"https://resources.huygens.knaw.nl/das\" target=_top>https://resources.huygens.knaw.nl/das</a> and the introductory volume: J.R. Bruijn, F.S. Gaastra and I. Schöffer, Dutch-Asiatic shipping in the 17th and 18th centuries, vol. I, The Hague, 1987.\n</p>\n<p>\nThe starting point for this enriched dataset was a dump of the original DAS SQL database, provided by Rik Hoekstra (Huygens Institute) to Lodewijk Petram (Huygens Institute) on 16 January 2018. This dump consists of three CSV files (<code>original/onboard.csv</code>, <code>original/voyage.csv</code>, <code>original/yards.csv</code>). The enriched dataset restructures these into nine interlinked CSV files (<code>enriched/</code>) with stable entity identifiers, including for unique VOC ships, normalized dates, structured name fields, and external links to reference datasets."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-04-07"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dutch East India Company"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q159766"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "IsSupplementTo"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dutch-Asiatic Shipping in the 17th and 18th centuries:"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "url"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://resources.huygens.knaw.nl/das"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2018"
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Manager"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Petram, Lodewijk"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-04-07"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Petram, Lodewijk"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-03-31"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1595"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1795"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "relatedDatasets",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://resources.huygens.knaw.nl/das"
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://resources.huygens.knaw.nl/das"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/RJ7UEA"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:4a1fa22c-20b9-47e5-912f-8f4c55ac8114"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-ab71507b-4b11-4fe5-9b9d-53b7a19924cc"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "das_chamber.csv",
+        "restricted": false,
+        "directoryLabel": "enriched",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615570,
+          "persistentId": "",
+          "filename": "das_chamber.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 851,
+          "storageIdentifier": "surf://store:19d43fc2cf1-bcf86d60cfef",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6ae9316e7c61fde9afdacc401ddd09f30bd6bf23"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "enriched",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "das_master.csv",
+        "restricted": false,
+        "directoryLabel": "enriched",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615568,
+          "persistentId": "",
+          "filename": "das_master.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 91122,
+          "storageIdentifier": "surf://store:19d43fc2cd9-f98344bc353a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3aba6629b38a81431f6a9f799e433a5c5c0f2b11"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "enriched",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "das_onboard.csv",
+        "restricted": false,
+        "directoryLabel": "enriched",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615566,
+          "persistentId": "",
+          "filename": "das_onboard.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 637067,
+          "storageIdentifier": "surf://store:19d43fc2d1f-52b180c17c52",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e29eaa870c6c482d64fdcd5214b112df5e427a82"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "enriched",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "das_place.csv",
+        "restricted": false,
+        "directoryLabel": "enriched",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615575,
+          "persistentId": "",
+          "filename": "das_place.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 4580,
+          "storageIdentifier": "surf://store:19d43fc2d44-52fd95f0aa2e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "27ec5db662547a667209be5d4719922d65cda115"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "enriched",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "das_ship.csv",
+        "restricted": false,
+        "directoryLabel": "enriched",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615574,
+          "persistentId": "",
+          "filename": "das_ship.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 86765,
+          "storageIdentifier": "surf://store:19d43fc2d5d-e728a074a8e6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3ca5afc7dac16a3341c1d60965cd4f99df996870"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "enriched",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "das_shipNameVariant.csv",
+        "restricted": false,
+        "directoryLabel": "enriched",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615567,
+          "persistentId": "",
+          "filename": "das_shipNameVariant.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 87068,
+          "storageIdentifier": "surf://store:19d43fc2d00-0255d2a068e5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3f6340938103869787a7a8a94c83d586e3336fbf"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "enriched",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "das_shipType.csv",
+        "restricted": false,
+        "directoryLabel": "enriched",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615571,
+          "persistentId": "",
+          "filename": "das_shipType.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1944,
+          "storageIdentifier": "surf://store:19d43fc2d53-6601122d7f25",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "90a5ddec4a3cede5708b999dc27439ed27dbca56"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "enriched",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "das_voyage.csv",
+        "restricted": false,
+        "directoryLabel": "enriched",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615572,
+          "persistentId": "",
+          "filename": "das_voyage.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2409826,
+          "storageIdentifier": "surf://store:19d43fc2ca9-77468f04870a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0ef312ad10eb289247ebabf766523d5c8ad008c6"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "enriched",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "das_yard.csv",
+        "restricted": false,
+        "directoryLabel": "enriched",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615576,
+          "persistentId": "",
+          "filename": "das_yard.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 618,
+          "storageIdentifier": "surf://store:19d43fc2d6f-5dbb73c3af27",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7f5662ad3c16cd25284b0b4b66212bb384f1d85c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "enriched",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Documentation",
+        "label": "dataset-documentation.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615585,
+          "persistentId": "",
+          "filename": "dataset-documentation.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 86518,
+          "description": "Documentation",
+          "storageIdentifier": "surf://store:19d441165c1-c061d54d566f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "501666f3062d1b18979dd884fa2749486f21d496"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "onboard.csv",
+        "restricted": false,
+        "directoryLabel": "original",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615577,
+          "persistentId": "",
+          "filename": "onboard.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 944994,
+          "storageIdentifier": "surf://store:19d43fc2c59-0111f29f2bc9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "92c1c7ee128adf778c3d7dc9631fe0fc5ec11e31"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "original",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "voyage.csv",
+        "restricted": false,
+        "directoryLabel": "original",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615569,
+          "persistentId": "",
+          "filename": "voyage.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2334014,
+          "storageIdentifier": "surf://store:19d43fc2c78-2c2b7b751dc9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "838d69219a665f929c722635f98da506b95d3bae"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "original",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "yards.csv",
+        "restricted": false,
+        "directoryLabel": "original",
+        "version": 1,
+        "datasetVersionId": 34251,
+        "dataFile": {
+          "id": 615573,
+          "persistentId": "",
+          "filename": "yards.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 94,
+          "storageIdentifier": "surf://store:19d43fc2ca2-d1c612565ddc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "99e867ee7792fb350dc0d2c36e139b2b227defa2"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-31",
+          "publicationDate": "2026-04-07",
+          "directoryLabel": "original",
+          "lastUpdateTime": "2026-04-07T07:38:17Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Petram, Lodewijk, 2026, \"Dutch-Asiatic Shipping (DAS) – Enriched Dataset\", https://doi.org/10.34894/RJ7UEA, DataverseNL, V1"
+  }
+}

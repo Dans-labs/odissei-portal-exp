@@ -1,0 +1,234 @@
+{
+  "id": 554091,
+  "identifier": "YBNKVV",
+  "persistentUrl": "https://doi.org/10.34894/YBNKVV",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-10-15",
+  "storageIdentifier": "surf://10.34894/YBNKVV",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31775,
+    "datasetId": 554091,
+    "datasetPersistentId": "doi:10.34894/YBNKVV",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/YBNKVV",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-10-15T12:10:01Z",
+    "releaseTime": "2025-10-15T12:10:01Z",
+    "createTime": "2025-10-08T09:25:29Z",
+    "publicationDate": "2025-10-15",
+    "citationDate": "2025-10-15",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Altered Microbial and Volatile Metabolic Responses to Bread in Non-Coeliac Wheat Sensitivity: An Ex Vivo Fermentation Study"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Skawiński, Michał"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0009-0009-1526-685X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Agnieszka Smolinska"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maastrichtuniversity.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This repository contains data supporting the publication \"Altered Microbial and Volatile Metabolic Responses to Bread in Non-Coeliac Wheat Sensitivity: An Ex Vivo Fermentation Study\".\n\nRepository contains:\n- processed untargeted GC-MS data with volatile organic compounds (excel)\n- processed 16S rRNA microbiota profiling data (R, phyloseq object)"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-10-08"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Skawiński, Michał"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-10-08"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/YBNKVV"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:00f4f542-fc3e-4fbd-9a9b-cb8d1238f44b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-269815ba-76ed-48b0-b331-ec9599b307cb"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "processed 16S rRNA microbiota data: phyloseq object",
+        "label": "microbiota_phyloseq_obj.rds",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31775,
+        "dataFile": {
+          "id": 554093,
+          "persistentId": "",
+          "filename": "microbiota_phyloseq_obj.rds",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 225021,
+          "description": "processed 16S rRNA microbiota data: phyloseq object",
+          "storageIdentifier": "surf://store:199c322ed2e-26b6ee5aba31",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13ae50d6d37bad0dc946713963a7f4c7b18e60cf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-10-08",
+          "publicationDate": "2025-10-15",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "excel file containing processed untargeted GC-MS volatile organic compounds data and metadata",
+        "label": "VOCs_data.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31775,
+        "dataFile": {
+          "id": 554092,
+          "persistentId": "",
+          "filename": "VOCs_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 16196,
+          "description": "excel file containing processed untargeted GC-MS volatile organic compounds data and metadata",
+          "storageIdentifier": "surf://store:199c322ed37-e1003f3e06c5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "647ab45ee55ec385d5c1cf55505780b36dc415a8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-10-08",
+          "publicationDate": "2025-10-15",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Skawiński, Michał, 2025, \"Replication Data for: Altered Microbial and Volatile Metabolic Responses to Bread in Non-Coeliac Wheat Sensitivity: An Ex Vivo Fermentation Study\", https://doi.org/10.34894/YBNKVV, DataverseNL, V1"
+  }
+}

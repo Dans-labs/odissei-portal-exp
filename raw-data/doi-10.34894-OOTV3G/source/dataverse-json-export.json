@@ -1,0 +1,317 @@
+{
+  "id": 383596,
+  "identifier": "OOTV3G",
+  "persistentUrl": "https://doi.org/10.34894/OOTV3G",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-12-07",
+  "storageIdentifier": "surf://10.34894/OOTV3G",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25458,
+    "datasetId": 383596,
+    "datasetPersistentId": "doi:10.34894/OOTV3G",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/OOTV3G",
+    "versionNumber": 1,
+    "internalVersionNumber": 27,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-12-07T08:03:05Z",
+    "releaseTime": "2023-12-07T08:03:05Z",
+    "createTime": "2023-10-19T07:50:26Z",
+    "publicationDate": "2023-12-07",
+    "citationDate": "2023-12-07",
+    "termsOfUse": "Users interested in the use of DuST for research purposes may obtain the dataset in the publicly distributable format and in the full text format. Users can freely download the publicly distributable format from the GitHub repository (<a href=\"https://github.com/projecte-aina/dynamic-stance-analysis\">https://github.com/projecte-aina/dynamic-stance-analysis</a>). Researchers affiliated with universities or not-for-profit research institutes may use the full version of DuST in accordance with the Data Transfer Agreement provided by the University of Groningen. The data may be used only for the purpose of conducting not-for-profit scientific research. It is not allowed to actively search online for any of the information contained in the full version of DuST. It is not allowed to disclose the full version of DuST to any third party or otherwise use it for your own benefit or for the benefit of a third party, without first obtaining written consent from the University of Groningen.",
+    "restrictions": "Signing of a Data Transfer Agreement provided by the University of Groningen is part of the procedure for re-use of the full version of DuST. The agreement will enter into force as of the date both parties have signed it. The agreement will continue to be effective during the period that you possess the data. During that period, you cannot terminate the agreement. The University of Groningen may terminate the agreement if you have not cured a breach of the agreement within a reasonable period of being notified of such a breach. At the request of the University of Groningen, you will return or destroy all copies of the full version of DuST.",
+    "termsOfAccess": "Permission for re-use can be granted by the University of Groningen Digital Competence Centre on behalf of the first author after inspecting credentials and the reason for request. The procedure starts with a request for access via this dataset at DataverseNL. Signing of a Data Transfer Agreement is part of the procedure for re-use of the data.",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "DuST - Dutch  Stance Twitter"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "DuST"
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Caselli, Tommaso"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2936-0256"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This repository contains the full text format and the annotations for the Dutch Stance Twitter (DuST) dataset. The dataset is part of larger annotation initiative, the Dynamic Stance Corpus (DySC), a multi-lingual, and multi-topic corpus in Catalan and Dutch to model dynamic stance in online interactions in social media platforms.\n<br><br>\nFull description of the dataset, including the publicly distributable format, is available at <a href=\"https://github.com/projecte-aina/dynamic-stance-analysis\">https://github.com/projecte-aina/dynamic-stance-analysis</a>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "stance detection"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "multilingual"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "dynamic stance"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Calvo Figueras, B., Baucells, I., and Caselli, T. 2023. Dynamic Stance: Modeling Discussions by Labeling the Interactions. In: Findings of the Association for Computational Linguistics: EMNLP 2023, Singapore. Association for Computational Linguistics"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Other"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Logtenberg, Jesmer"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Other"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Browers, Ruben"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Everhardt, Marita"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-10-19"
+          },
+          {
+            "typeName": "relatedDatasets",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "The Catalan components of DySC are available via Hugging Face datasets:\n<ul>\n  <li>Catalan Stance and Emotions Twitter dataset (CaSET): <a href=\"https://huggingface.co/datasets/projecte- aina/ CaSET-catalan-stance-emotions-twitter\">https://huggingface.co/datasets/projecte- aina/ CaSET-catalan-stance-emotions-twitter</a></li>\n  <li>Catalan Stance and Emotion Racó dataset (CaSERa): <a href=\"https://huggingface.co/datasets/projecte- aina/ CaSERa-catalan-stance-emotions-raco\">https://huggingface.co/datasets/projecte- aina/ CaSERa-catalan-stance-emotions-raco</a></li>\n</ul>"
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Twitter"
+            ]
+          },
+          {
+            "typeName": "originOfSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Twitter"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/OOTV3G"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:6234a59d-19d9-455a-a3c5-b49ee2638c46"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-b46230eb-6d74-418a-8d91-8bb92ff65a9f"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "full text format with annotations",
+        "label": "root_reply_gold_standard_nl_clean.tsv",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 25458,
+        "dataFile": {
+          "id": 383722,
+          "persistentId": "",
+          "filename": "root_reply_gold_standard_nl_clean.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 2117092,
+          "description": "full text format with annotations",
+          "storageIdentifier": "surf://store:18b470ea71e-5143e66e2d61",
+          "rootDataFileId": -1,
+          "md5": "2304e4625ff0f7f45d2cd9f74b861cb4",
+          "checksum": {
+            "type": "MD5",
+            "value": "2304e4625ff0f7f45d2cd9f74b861cb4"
+          },
+          "tabularData": false,
+          "creationDate": "2023-10-19",
+          "publicationDate": "2023-12-07",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Caselli, Tommaso, 2023, \"DuST - Dutch Stance Twitter\", https://doi.org/10.34894/OOTV3G, DataverseNL, V1"
+  }
+}

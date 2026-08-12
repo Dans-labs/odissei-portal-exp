@@ -1,0 +1,393 @@
+{
+  "id": 47753,
+  "identifier": "ZLSPFG",
+  "persistentUrl": "https://doi.org/10.34894/ZLSPFG",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-05-31",
+  "storageIdentifier": "surf://10.34894/ZLSPFG",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3410,
+    "datasetId": 47753,
+    "datasetPersistentId": "doi:10.34894/ZLSPFG",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/ZLSPFG",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-05-31T10:30:35Z",
+    "releaseTime": "2021-05-31T10:30:35Z",
+    "createTime": "2021-01-28T10:07:32Z",
+    "publicationDate": "2021-05-31",
+    "citationDate": "2021-05-31",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Summary statistics for GWAS of voluntary exercise behaviors in the Netherlands"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Zee, Matthijs D."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-4076-9167"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Zee, Matthijs D."
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "These files contain the GWAS summary statistics as described in van der Zee, M.D., et al. (2021, manuscript submitted). If summary statistics are used, please make sure to include a reference to the original manuscript."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-05-31"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Zee, M.D., Ehli, E.A., Pool, R., Hottenga, J.J., van der Mee, D.J., Ligthart, L., Bartels, M., van Dongen, J.  & de Geus, E.J.C. (manuscript in preparation). Genome-wide association study of voluntary exercise behaviors in the Netherlands"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "In this directory you can find GWAS summary statistics for total volume of exercise (MET_Total), team-based exercise (MET_Team), solitary exercise (MET_Comp), competitive exercise (MET_Comp), non-competitive exercise (MET_Ncomp), externally paced exercise (MET_PaceE) and internally paced exercise (MET_PaceI). All files are tab-delimited, and gzipped. \r\nAll files include the following columns: \r\n - RSID: persistent rs-identifier of SNP if available, otherwise missing\r\n - Chr: Chromsome number (chromosome 23 represents the X-chromosome), build 37\r\n - bp: basepair position, build 37\r\n - A1: effect allele\r\n - A2: other allele\r\n - EAF: effect allele frequency\r\n - OAF: other allele frequency\r\n - MAF: minor allele frequency\r\n - Info: Imputation quality\r\n - b: Beta\r\n - se: Standard error\r\n - p: Associated p-value\r\n - N: Number of GWAS samples"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van der Zee, Matthijs D."
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-01-28"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/ZLSPFG"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:1a622894-6ead-4b90-9dbe-b83864a3eba1"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-1de47a06-b604-41ce-9644-3a5a0ec7c0d3"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "GWAS summary statistics for competitive exercise.",
+        "label": "NTR_Exercise_GWAS_MET_Comp.tsv.gz",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3410,
+        "dataFile": {
+          "id": 47755,
+          "persistentId": "",
+          "filename": "NTR_Exercise_GWAS_MET_Comp.tsv.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 186724635,
+          "description": "GWAS summary statistics for competitive exercise.",
+          "storageIdentifier": "surf://store:177487388f9-d6b746315213",
+          "rootDataFileId": -1,
+          "md5": "e42e8adf8a5b1ecc04fdf2a971fc9012",
+          "checksum": {
+            "type": "MD5",
+            "value": "e42e8adf8a5b1ecc04fdf2a971fc9012"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-28",
+          "publicationDate": "2021-05-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "GWAS summary statistics for non-competitive exercise.",
+        "label": "NTR_Exercise_GWAS_MET_Ncomp.tsv.gz",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3410,
+        "dataFile": {
+          "id": 47758,
+          "persistentId": "",
+          "filename": "NTR_Exercise_GWAS_MET_Ncomp.tsv.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 186948978,
+          "description": "GWAS summary statistics for non-competitive exercise.",
+          "storageIdentifier": "surf://store:1774873af11-9e2129011052",
+          "rootDataFileId": -1,
+          "md5": "cc06d8832bf350edaf64490f6fd1fbad",
+          "checksum": {
+            "type": "MD5",
+            "value": "cc06d8832bf350edaf64490f6fd1fbad"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-28",
+          "publicationDate": "2021-05-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "GWAS summary statistics for externally paced exercise.",
+        "label": "NTR_Exercise_GWAS_MET_PaceE.tsv.gz",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3410,
+        "dataFile": {
+          "id": 47757,
+          "persistentId": "",
+          "filename": "NTR_Exercise_GWAS_MET_PaceE.tsv.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 186703566,
+          "description": "GWAS summary statistics for externally paced exercise.",
+          "storageIdentifier": "surf://store:1774873d6c4-aa7b92035067",
+          "rootDataFileId": -1,
+          "md5": "4b8201c83f26e45f8b224b20500ea687",
+          "checksum": {
+            "type": "MD5",
+            "value": "4b8201c83f26e45f8b224b20500ea687"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-28",
+          "publicationDate": "2021-05-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "GWAS summary statistics for internally paced exercise.",
+        "label": "NTR_Exercise_GWAS_MET_PaceI.tsv.gz",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3410,
+        "dataFile": {
+          "id": 47759,
+          "persistentId": "",
+          "filename": "NTR_Exercise_GWAS_MET_PaceI.tsv.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 187274172,
+          "description": "GWAS summary statistics for internally paced exercise.",
+          "storageIdentifier": "surf://store:1774873ff3a-bd8df2eb04cb",
+          "rootDataFileId": -1,
+          "md5": "aa7d2a618e0ffd202cdd433e1df66118",
+          "checksum": {
+            "type": "MD5",
+            "value": "aa7d2a618e0ffd202cdd433e1df66118"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-28",
+          "publicationDate": "2021-05-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "GWAS summary statistics for solitary exercise.",
+        "label": "NTR_Exercise_GWAS_MET_Sol.tsv.gz",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3410,
+        "dataFile": {
+          "id": 47760,
+          "persistentId": "",
+          "filename": "NTR_Exercise_GWAS_MET_Sol.tsv.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 186762569,
+          "description": "GWAS summary statistics for solitary exercise.",
+          "storageIdentifier": "surf://store:17748743928-ea761f671fe1",
+          "rootDataFileId": -1,
+          "md5": "95589812f58eed9a9ac087f691686848",
+          "checksum": {
+            "type": "MD5",
+            "value": "95589812f58eed9a9ac087f691686848"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-28",
+          "publicationDate": "2021-05-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "GWAS summary statistics for team-based exercise.",
+        "label": "NTR_Exercise_GWAS_MET_Team.tsv.gz",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3410,
+        "dataFile": {
+          "id": 47754,
+          "persistentId": "",
+          "filename": "NTR_Exercise_GWAS_MET_Team.tsv.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 187355067,
+          "description": "GWAS summary statistics for team-based exercise.",
+          "storageIdentifier": "surf://store:1774874692a-1e2051982231",
+          "rootDataFileId": -1,
+          "md5": "73149559163a526c439c2f71626ff32a",
+          "checksum": {
+            "type": "MD5",
+            "value": "73149559163a526c439c2f71626ff32a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-28",
+          "publicationDate": "2021-05-31",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "GWAS summary statistics for total volume of exercise.",
+        "label": "NTR_Exercise_GWAS_MET_Total.tsv.gz",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3410,
+        "dataFile": {
+          "id": 47756,
+          "persistentId": "",
+          "filename": "NTR_Exercise_GWAS_MET_Total.tsv.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 187048008,
+          "description": "GWAS summary statistics for total volume of exercise.",
+          "storageIdentifier": "surf://store:17748749eae-522993b6e5d2",
+          "rootDataFileId": -1,
+          "md5": "fc09565eb5d42d8793d392870a64b06a",
+          "checksum": {
+            "type": "MD5",
+            "value": "fc09565eb5d42d8793d392870a64b06a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-01-28",
+          "publicationDate": "2021-05-31",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "van der Zee, Matthijs D., 2021, \"Summary statistics for GWAS of voluntary exercise behaviors in the Netherlands\", https://doi.org/10.34894/ZLSPFG, DataverseNL, V1"
+  }
+}

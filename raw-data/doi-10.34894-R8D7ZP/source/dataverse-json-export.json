@@ -1,0 +1,566 @@
+{
+  "id": 615235,
+  "identifier": "R8D7ZP",
+  "persistentUrl": "https://doi.org/10.34894/R8D7ZP",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-05-29",
+  "storageIdentifier": "surf://10.34894/R8D7ZP",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34208,
+    "datasetId": 615235,
+    "datasetPersistentId": "doi:10.34894/R8D7ZP",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/R8D7ZP",
+    "versionNumber": 1,
+    "internalVersionNumber": 24,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-05-29T14:35:23Z",
+    "releaseTime": "2026-05-29T14:35:23Z",
+    "createTime": "2026-03-19T21:36:25Z",
+    "publicationDate": "2026-05-29",
+    "citationDate": "2026-05-29",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Generative AI Evaluation in Healthcare Systems and Implementation Standard (GENAISIS)"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Chen, Yu-Wen"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "umcutrecht.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Chen, Yu-Wen"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "umcutrecht.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GENAISIS is a quality framework for responsible development, validation, evaluation, implementation, and monitoring of GenAI applications in healthcare regardless of their specific intended function or purpose. Developed through a large international, multi-stakeholder Delphi process, it provides a clear eight-phase lifecycle and defines a checklist with key criteria for good practice at each phase. This dataset includes four rounds of aggregated survey results, the scripts used to generate the graphics in the survey results documents, as well as the approved Data Management Plan (DMP) and research protocol."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-05-06"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Other"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Chen, Yu-Wen"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-03-19"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/R8D7ZP"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:c17941f0-8dd5-4307-9705-1d03be116650"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-c3e1a83f-6c00-4eb0-a47c-0cd74194d827"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "1st_round_analysis.ipynb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635821,
+          "persistentId": "",
+          "filename": "1st_round_analysis.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 143910,
+          "storageIdentifier": "surf://store:19dfd743d2f-bbe45bf5e926",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a76227f6f39b8dffa2b5c6867e76226b80827085"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "1st_round_results.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635816,
+          "persistentId": "",
+          "filename": "1st_round_results.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 83512,
+          "storageIdentifier": "surf://store:19dfd743817-b4eb56d4cca0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "86b67e9b97079dbaa04a095032b67ab8760a9590"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "1st_round_results.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635815,
+          "persistentId": "",
+          "filename": "1st_round_results.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 214362,
+          "storageIdentifier": "surf://store:19dfd743871-cf5b794a0031",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c45e1e7c26366649c64b89b7859ad3c0e2da2ec0"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2nd_round_analysis.ipynb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635826,
+          "persistentId": "",
+          "filename": "2nd_round_analysis.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 393146,
+          "storageIdentifier": "surf://store:19dfd743d7c-e37a01a2d6c1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bbdb2f962309e3db3742cfbda9843a305ddbf271"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2nd_round_results.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635825,
+          "persistentId": "",
+          "filename": "2nd_round_results.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 396742,
+          "storageIdentifier": "surf://store:19dfd743959-20f622fb6812",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "afde1ee83c43698c6b265f2b6f1c36734f4ed728"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "2nd_round_results.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635830,
+          "persistentId": "",
+          "filename": "2nd_round_results.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 514330,
+          "storageIdentifier": "surf://store:19dfd7439d3-295967bbb4db",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fcc9b7bb36311c0f50e6d3aaf650341769276f89"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "3rd_round_analysis.ipynb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635817,
+          "persistentId": "",
+          "filename": "3rd_round_analysis.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 377140,
+          "storageIdentifier": "surf://store:19dfd743dd5-f587d37e81cb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a116fa09ae141ac788ea6e37ecb21a26d98d480c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "3rd_round_results.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635823,
+          "persistentId": "",
+          "filename": "3rd_round_results.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 404104,
+          "storageIdentifier": "surf://store:19dfd743ab9-b4d18977675f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b1357cc8084324b5bc51f383aabdad7d57077738"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "3rd_round_results.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635828,
+          "persistentId": "",
+          "filename": "3rd_round_results.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 502021,
+          "storageIdentifier": "surf://store:19dfd743b31-aaa9c1ecdf98",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "70f8c0c82fd4d6706ecbc9a0756f894fc5766e34"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "4th_round_analysis.ipynb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635824,
+          "persistentId": "",
+          "filename": "4th_round_analysis.ipynb",
+          "contentType": "application/x-ipynb+json",
+          "friendlyType": "Jupyter Notebook",
+          "filesize": 385171,
+          "storageIdentifier": "surf://store:19dfd743e51-c823b4b5d6a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b31fbf835c09f72f3a5a03fb1d38357bbe9524d8"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "4th_round_results.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635820,
+          "persistentId": "",
+          "filename": "4th_round_results.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 314399,
+          "storageIdentifier": "surf://store:19dfd743bf1-daa09eb2ace3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9fe788d30c515d561fd61eca388ca843aa6b07ef"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "4th_round_results.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635827,
+          "persistentId": "",
+          "filename": "4th_round_results.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 354144,
+          "storageIdentifier": "surf://store:19dfd743c42-68b66485a244",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c12286137cfe6e6c494747e9e3cb870b49d6e291"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "DMP_GENAISIS.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635819,
+          "persistentId": "",
+          "filename": "DMP_GENAISIS.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 65864,
+          "storageIdentifier": "surf://store:19dfd743e94-01affdddc43a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f413711554ddcf0d21b5b95a98a1659ab5e07a21"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635818,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1628,
+          "storageIdentifier": "surf://store:19dfd743ce9-3f9b4d2a7ba3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e4d0b83ea9513031857fa6c1a5f19e55b029af5b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "research_protocol.docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635829,
+          "persistentId": "",
+          "filename": "research_protocol.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 43237,
+          "storageIdentifier": "surf://store:19dfd7436f6-6c62bca2b23c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7cb915e89e0aced114ba009f5459ec3f9d39477d"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "research_protocol.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34208,
+        "dataFile": {
+          "id": 635822,
+          "persistentId": "",
+          "filename": "research_protocol.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 90324,
+          "storageIdentifier": "surf://store:19dfd743754-3ca8181e6a5a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5ab6bc1ea9336b9ba0028c7432376356c13f45bd"
+          },
+          "tabularData": false,
+          "creationDate": "2026-05-06",
+          "publicationDate": "2026-05-29",
+          "lastUpdateTime": "2026-05-29T14:35:23Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Chen, Yu-Wen, 2026, \"Generative AI Evaluation in Healthcare Systems and Implementation Standard (GENAISIS)\", https://doi.org/10.34894/R8D7ZP, DataverseNL, V1"
+  }
+}

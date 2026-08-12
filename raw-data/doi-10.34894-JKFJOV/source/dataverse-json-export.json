@@ -1,0 +1,557 @@
+{
+  "id": 290768,
+  "identifier": "JKFJOV",
+  "persistentUrl": "https://doi.org/10.34894/JKFJOV",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-04-25",
+  "storageIdentifier": "surf://10.34894/JKFJOV",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 19759,
+    "datasetId": 290768,
+    "datasetPersistentId": "doi:10.34894/JKFJOV",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/JKFJOV",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2022-04-25T07:58:17Z",
+    "releaseTime": "2022-04-25T07:58:17Z",
+    "createTime": "2022-04-25T07:57:55Z",
+    "publicationDate": "2022-04-25",
+    "citationDate": "2022-04-25",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Representing large-scale land acquisitions in land use change scenarios for the Lao PDR - land system maps and simulations"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Debonne, Niels"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-3755-3226"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Vliet, Jasper"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heinimann, Andreas"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Centre for Development and Environment (CDE) and Institute of Geography, University ofBern, Bern, Switzerland"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Verburg, Peter"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Debonne, Niels"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Agricultural large-scale land acquisition (LSLA) is a process that is currently not captured by land change models. We present a novel land change modeling approach that includes processes governing LSLAs and simulates their interactions with other land systems. LSLAs differ from other land change processes in two ways: (1) their changes affect hundreds to thousands ofcontiguous hectares at a time, far surpassing other land change processes, e.g., smallholder agriculture, and (2) as policy makers value LSLA as desirable or undesirable, their agency significantly affects LSLA occurrence. To represent these characteristics in a land change model, we allocate LSLAs as multi-cell patches to represent them at scale while preserving detail in the representation of other dynamics. Moreover, LSLA land systems are characterized to respond to an explicit political demand for LSLA effects, in addition to a demand for various agricultural commodities. The model is applied to simulate land change in Laos until 2030, using three contrasting scenarios: (1) a target to quadruple the area of LSLA, (2) a moratorium for new LSLA, and (3) no target for LSLA. Scenarios yield drastically different land change trajectories despite having similar demands for agricultural commodities. A high level of LSLA impedes smallholders’ engagement with rubber or cash crops, while a moratorium on LSLA results in increased smallholder involvement in cash cropping and rubber production. This model goes beyond existing land change models by capturing the heterogeneity ofscales ofland change processes and the competition between different land users instigated by LSLA."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2018-03-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Agricultural Sciences",
+              "Earth and Environmental Sciences",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Land grabbing"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "land systems"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Modeling"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Land use change"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Laos"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Large-scale land acquisition"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Debonne, N., van Vliet, J., Heinimann, A., & Verburg, P. H. (2018). Representing large-scale land acquisitions in land use change scenarios for the Lao PDR. Regional Environmental Change, 18, 1857–1869."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1007/s10113-018-1316-8"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://link.springer.com/article/10.1007/s10113-018-1316-8#article-info"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Debonne, Niels"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-04-25"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/JKFJOV"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:58f9f14e-2aa5-433e-978f-2b86d90bd7b1"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-969ad044-9585-4565-bbda-fce9b6d0f84d"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "2010 land systems",
+        "label": "cov_all.0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19759,
+        "dataFile": {
+          "id": 290770,
+          "persistentId": "",
+          "filename": "cov_all.0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 967717,
+          "description": "2010 land systems",
+          "storageIdentifier": "surf://store:1805fa4b3a9-9005f060b15f",
+          "rootDataFileId": -1,
+          "md5": "4e7aa1111e55db75246978dc2f9d010e",
+          "checksum": {
+            "type": "MD5",
+            "value": "4e7aa1111e55db75246978dc2f9d010e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-25",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "2030 land systems, scenario 1",
+        "label": "cov_all.15_S1.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19759,
+        "dataFile": {
+          "id": 290777,
+          "persistentId": "",
+          "filename": "cov_all.15_S1.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1161404,
+          "description": "2030 land systems, scenario 1",
+          "storageIdentifier": "surf://store:1805fa4b566-a8c6d11b8a9b",
+          "rootDataFileId": -1,
+          "md5": "ed1ea904c980e8fc11efe90b34e1815e",
+          "checksum": {
+            "type": "MD5",
+            "value": "ed1ea904c980e8fc11efe90b34e1815e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-25",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Layer file for arcgis pro visualization",
+        "label": "cov_all.15_S1.asc.lyrx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19759,
+        "dataFile": {
+          "id": 290774,
+          "persistentId": "",
+          "filename": "cov_all.15_S1.asc.lyrx",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 11981,
+          "description": "Layer file for arcgis pro visualization",
+          "storageIdentifier": "surf://store:1805fb08fd4-9a5835327a6c",
+          "rootDataFileId": -1,
+          "md5": "fe42e7003ba7a0e6b86667b154c8e0f4",
+          "checksum": {
+            "type": "MD5",
+            "value": "fe42e7003ba7a0e6b86667b154c8e0f4"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-25",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "2030 land systems, scenario 2",
+        "label": "cov_all.15_S2.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19759,
+        "dataFile": {
+          "id": 290775,
+          "persistentId": "",
+          "filename": "cov_all.15_S2.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1162775,
+          "description": "2030 land systems, scenario 2",
+          "storageIdentifier": "surf://store:1805fa4b108-964dad335ff3",
+          "rootDataFileId": -1,
+          "md5": "f0e064e92d808a247d16e8d73207596a",
+          "checksum": {
+            "type": "MD5",
+            "value": "f0e064e92d808a247d16e8d73207596a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-25",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "2030 land systems, scenario 3",
+        "label": "cov_all.15_S3.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19759,
+        "dataFile": {
+          "id": 290771,
+          "persistentId": "",
+          "filename": "cov_all.15_S3.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1162072,
+          "description": "2030 land systems, scenario 3",
+          "storageIdentifier": "surf://store:1805fa4b269-3a92eb059c7e",
+          "rootDataFileId": -1,
+          "md5": "ba59cfd95f925885e0245e450a5bfbb4",
+          "checksum": {
+            "type": "MD5",
+            "value": "ba59cfd95f925885e0245e450a5bfbb4"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-25",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Script used to make the 2010 land system map",
+        "label": "decisionTreeScript2.py",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19759,
+        "dataFile": {
+          "id": 290773,
+          "persistentId": "",
+          "filename": "decisionTreeScript2.py",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1558,
+          "description": "Script used to make the 2010 land system map",
+          "storageIdentifier": "surf://store:1805f9ecb37-6f22e777860b",
+          "rootDataFileId": -1,
+          "md5": "76e7fbc8284dbbb34b7a37689f35172b",
+          "checksum": {
+            "type": "MD5",
+            "value": "76e7fbc8284dbbb34b7a37689f35172b"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-25",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Visualization of Laos land systems in 2010",
+        "label": "Fig1.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19759,
+        "dataFile": {
+          "id": 290769,
+          "persistentId": "",
+          "filename": "Fig1.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 16802826,
+          "description": "Visualization of Laos land systems in 2010",
+          "storageIdentifier": "surf://store:1805f9af27a-558e8beff1ea",
+          "rootDataFileId": -1,
+          "md5": "9a7574977d6dd9a01f4028964e53ad1b",
+          "checksum": {
+            "type": "MD5",
+            "value": "9a7574977d6dd9a01f4028964e53ad1b"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-25",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Visualizations of scenario outcomes",
+        "label": "Fig3.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19759,
+        "dataFile": {
+          "id": 290776,
+          "persistentId": "",
+          "filename": "Fig3.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 4903724,
+          "description": "Visualizations of scenario outcomes",
+          "storageIdentifier": "surf://store:1805f9b0ffe-a2068a387694",
+          "rootDataFileId": -1,
+          "md5": "89aabe6d3a92441d591a986a2117e4bb",
+          "checksum": {
+            "type": "MD5",
+            "value": "89aabe6d3a92441d591a986a2117e4bb"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-25",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "legend of land system map",
+        "label": "legend.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19759,
+        "dataFile": {
+          "id": 290772,
+          "persistentId": "",
+          "filename": "legend.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 356,
+          "description": "legend of land system map",
+          "storageIdentifier": "surf://store:1805fb960af-4ae37b8e4023",
+          "rootDataFileId": -1,
+          "md5": "e45357c1743e404544160568c7576b24",
+          "checksum": {
+            "type": "MD5",
+            "value": "e45357c1743e404544160568c7576b24"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-25",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Debonne, Niels; van Vliet, Jasper; Heinimann, Andreas; Verburg, Peter, 2022, \"Representing large-scale land acquisitions in land use change scenarios for the Lao PDR - land system maps and simulations\", https://doi.org/10.34894/JKFJOV, DataverseNL, V1"
+  }
+}

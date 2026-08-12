@@ -1,0 +1,553 @@
+{
+  "id": 607600,
+  "identifier": "KQ3QGG",
+  "persistentUrl": "https://doi.org/10.34894/KQ3QGG",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-02-13",
+  "storageIdentifier": "surf://10.34894/KQ3QGG",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34020,
+    "datasetId": 607600,
+    "datasetPersistentId": "doi:10.34894/KQ3QGG",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/KQ3QGG",
+    "versionNumber": 1,
+    "internalVersionNumber": 9,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2026-02-13",
+    "productionDate": "2024",
+    "lastUpdateTime": "2026-02-13T10:53:59Z",
+    "releaseTime": "2026-02-13T10:53:59Z",
+    "createTime": "2026-02-13T10:18:14Z",
+    "publicationDate": "2026-02-13",
+    "citationDate": "2026-02-13",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "termsOfAccess": "Verwijder elementen die niet relevant of van toepassing zijn. Mis je een element? Voeg het dan gerust toe. \n\nVoor welk doel:\n-\tvoor wetenschappelijk of praktijkgericht onderzoek\n-\tvoor vervolgonderzoek\n\nVoor wie:\n-\tvoor onderzoekers van de Hogeschool Utrecht\n-\tvoor onderzoekers van Hoger Onderwijs instellingen\n-\tvoor medewerkers en studenten van de Hogeschool Utrecht\n\nVereiste acties:\n-\ttoestemming van datasteward\n-\ttoestemming van projectleider / hoofdonderzoeker\n-\tbij aanvraag vermelden van volledige naams- en contactgegevens en gegevens van de instelling waarbij u werkt\n-\tbij aanvraag volledig onderzoeksontwerp bijvoegen (vanwege bepalingen in de AVG* m.b.t. grondslagen voor onderzoek)\n-\tondertekenen van een Data Transfer Agreement / Data Sharing Agreement / Verwerkersovereenkomst (AVG)\n\nAlgemene voorwaarden, de ontvanger van de datasets zal:\n-\tde data alleen gebruiken voor het doel waarvoor ze zijn opgevraagd\n-\tgeen toegang bieden tot de datasets aan derden buiten het onderzoeksteam, en daarbinnen alleen aan onderzoekers die voor de uitoefening van het onderzoek geautoriseerd zijn om te werken met de ruwe data\n-\tde dataset(s) niet verder delen en verspreiden zonder toestemming van de onderzoeker die de data heeft verstrekt\n",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Broken Connection - conversational survey data"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Nat, Renée"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/028z9kw20"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-7481-4440"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HU Onderzoeksupport"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hogeschool Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains the software code, script and prompts used to create a conversational survey. For this survey we used a large language model to incorporate short interviews with respondents. The research aims to deepen our understanding of news dissatisfaction."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-02-13"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "conversational survey"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "large language model"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "news dissatisfaction"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "news consumption"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Nat, Renée"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Applied Sciences Utrecht"
+                }
+              },
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heijkant, Joris"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "independent"
+                }
+              },
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "De Haan, Yael"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Applied Sciences Utrecht"
+                }
+              },
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Duvekot, Sophie"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Applied Sciences Utrecht"
+                }
+              },
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wijnkers, Winnefred"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Applied Sciences Utrecht"
+                }
+              },
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Turnhout, Koen"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Applied Sciences Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "The Netherlands"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Collector"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ipsos/I&O"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SIA-Raak"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Nat, Renée"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Applied Sciences Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-02-13"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van der Nat, Renée"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-02-13"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-09"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-09"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "24-09"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "software code",
+              "script",
+              "prompts"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "LLAMA"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Miro"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Photoshop"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "otherReferences",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Software doi: 10.5281/zenodo.15260644"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/KQ3QGG"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:ff7a9e4e-a9aa-4c4f-b5d0-ef0e7012d072"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-f0af562e-ddd4-4a38-917c-724fb9014303"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Conversational survey - prompt (NL) .docx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34020,
+        "dataFile": {
+          "id": 607601,
+          "persistentId": "",
+          "filename": "Conversational survey - prompt (NL) .docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 25010,
+          "storageIdentifier": "surf://store:19c56807cfe-caccec6ec924",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "91a1e5236a72518ffe779fdeb11d91929439fe20"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-13",
+          "publicationDate": "2026-02-13",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "script_conversational_survey.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34020,
+        "dataFile": {
+          "id": 607602,
+          "persistentId": "",
+          "filename": "script_conversational_survey.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 3568208,
+          "storageIdentifier": "surf://store:19c56812d6b-204368892cf8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4e5f7b150dde2ca8ec51f6b6d3dbf4fe35419b5f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-02-13",
+          "publicationDate": "2026-02-13",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "van der Nat, Renée, 2026, \"Broken Connection - conversational survey data\", https://doi.org/10.34894/KQ3QGG, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,873 @@
+{
+  "id": 40229,
+  "identifier": "RZTSWA",
+  "persistentUrl": "https://doi.org/10.34894/RZTSWA",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2020-11-18",
+  "storageIdentifier": "surf://10.34894/RZTSWA",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3266,
+    "datasetId": 40229,
+    "datasetPersistentId": "doi:10.34894/RZTSWA",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/RZTSWA",
+    "versionNumber": 1,
+    "internalVersionNumber": 4,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "productionDate": "2017-03",
+    "lastUpdateTime": "2020-11-18T14:53:21Z",
+    "releaseTime": "2020-11-18T14:53:21Z",
+    "createTime": "2020-11-18T14:52:26Z",
+    "publicationDate": "2020-11-18",
+    "citationDate": "2020-11-18",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "(Not) alone in the world: Cheating in the presence of a virtual observer [Dataset]"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mol, Jantsje"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-8833-5125"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Heijden, Eline"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ISNI"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://isni.org/isni/0000000357870261"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Potters, Jan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0003-3670-4512"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Potters, Jan"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "We conducted an experiment in a high-immersive virtual reality environment to study the effect of the presence of a virtual observer on cheating behavior. Participants were placed in a virtual room and played 30 rounds of a cheating game without a chance of their cheating being detected. We varied whether or not a virtual observer (an avatar) was present in the room, and, if so, whether the avatar was actively staring at the decision maker or passively seated in a corner watching his smartphone. \r\n\r\nThis dataset contains: \r\n<ul>\r\n  <li>appendix (instructions + informed consent)</li>\r\n  <li>clean data (cleaned data in stata dta format)</li>\r\n  <li>code (stata do-files)</li>\r\n  <li>input (raw data files)</li>\r\n  <li>output (figures and LaTeX tables)</li>\r\n</ul>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mol, J.M., van der Heijden, E.C.M. & Potters, J.J.M. (Not) alone in the world: Cheating in the presence of a virtual observer. Exp Econ 23, 961–978 (2020)."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "s10683-020-09644-0"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1007/s10683-020-09644-0"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2017-03"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "DAF Technology Lab, Tilburg"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Mol, Jantsje"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-11-17"
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": []
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/RZTSWA"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:a954f217-93fc-4c30-a54f-3985bb2aaa43"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-08663db0-2aeb-45bc-9c48-50ced1ea6953"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "activepassive.jpg",
+        "restricted": false,
+        "directoryLabel": "output/figures/VR environment",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40270,
+          "persistentId": "",
+          "filename": "activepassive.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 867894,
+          "storageIdentifier": "surf://store:175d587264f-170e0d031b5c",
+          "rootDataFileId": -1,
+          "md5": "7385285924d5080220e02e10afaa3ffc",
+          "checksum": {
+            "type": "MD5",
+            "value": "7385285924d5080220e02e10afaa3ffc"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "stata-do files for complete analysis",
+        "label": "analysis.do",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40273,
+          "persistentId": "",
+          "filename": "analysis.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 28065,
+          "description": "stata-do files for complete analysis",
+          "storageIdentifier": "surf://store:175d587261f-a658a9af932b",
+          "rootDataFileId": -1,
+          "md5": "6cc15d04486558beb19748952f70019d",
+          "checksum": {
+            "type": "MD5",
+            "value": "6cc15d04486558beb19748952f70019d"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "box_conditions.png",
+        "restricted": false,
+        "directoryLabel": "output/figures",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40267,
+          "persistentId": "",
+          "filename": "box_conditions.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 32791,
+          "storageIdentifier": "surf://store:175d5872634-ca18f3b8dac7",
+          "rootDataFileId": -1,
+          "md5": "2e8f5917900477be6959f3b6ee159e8c",
+          "checksum": {
+            "type": "MD5",
+            "value": "2e8f5917900477be6959f3b6ee159e8c"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "cdfplot.png",
+        "restricted": false,
+        "directoryLabel": "output/figures",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40257,
+          "persistentId": "",
+          "filename": "cdfplot.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 47747,
+          "storageIdentifier": "surf://store:175d5872638-a65d65f63c30",
+          "rootDataFileId": -1,
+          "md5": "039e500c2fb950b72fda0cd4b93c4631",
+          "checksum": {
+            "type": "MD5",
+            "value": "039e500c2fb950b72fda0cd4b93c4631"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "raw data of choices in VR lab",
+        "label": "choices_VR.txt",
+        "restricted": false,
+        "directoryLabel": "input",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40263,
+          "persistentId": "",
+          "filename": "choices_VR.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 212225,
+          "description": "raw data of choices in VR lab",
+          "storageIdentifier": "surf://store:175d587262a-f17ae2ba60a9",
+          "rootDataFileId": -1,
+          "md5": "fcc87d5aae640c8bf552715c169561f4",
+          "checksum": {
+            "type": "MD5",
+            "value": "fcc87d5aae640c8bf552715c169561f4"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "CloseRemy.jpg",
+        "restricted": false,
+        "directoryLabel": "output/figures/VR environment",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40265,
+          "persistentId": "",
+          "filename": "CloseRemy.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 2092828,
+          "storageIdentifier": "surf://store:175d587266e-9e28c6526d2d",
+          "rootDataFileId": -1,
+          "md5": "b5cff795ee2ca60da2f8f5b5ac80b5db",
+          "checksum": {
+            "type": "MD5",
+            "value": "b5cff795ee2ca60da2f8f5b5ac80b5db"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "informed consent agreement",
+        "label": "Consent.pdf",
+        "restricted": false,
+        "directoryLabel": "appendix",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40261,
+          "persistentId": "",
+          "filename": "Consent.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 98814,
+          "description": "informed consent agreement",
+          "storageIdentifier": "surf://store:175d58725e9-5611c6331538",
+          "rootDataFileId": -1,
+          "md5": "dde823a3af6db58a4e87d2904a4c8f99",
+          "checksum": {
+            "type": "MD5",
+            "value": "dde823a3af6db58a4e87d2904a4c8f99"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "dynamicpanel2.tex",
+        "restricted": false,
+        "directoryLabel": "output/tables",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40256,
+          "persistentId": "",
+          "filename": "dynamicpanel2.tex",
+          "contentType": "application/x-tex",
+          "friendlyType": "LaTeX",
+          "filesize": 1717,
+          "storageIdentifier": "surf://store:175d58726a2-02bbdb24f326",
+          "rootDataFileId": -1,
+          "md5": "f2da9d63f9f0dc694cd2fd716f919f13",
+          "checksum": {
+            "type": "MD5",
+            "value": "f2da9d63f9f0dc694cd2fd716f919f13"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "GLS.tex",
+        "restricted": false,
+        "directoryLabel": "output/tables",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40272,
+          "persistentId": "",
+          "filename": "GLS.tex",
+          "contentType": "application/x-tex",
+          "friendlyType": "LaTeX",
+          "filesize": 4103,
+          "storageIdentifier": "surf://store:175d58726a6-b54fb567848e",
+          "rootDataFileId": -1,
+          "md5": "fb017696d5dc073bcc1aa2e7002f0ab9",
+          "checksum": {
+            "type": "MD5",
+            "value": "fb017696d5dc073bcc1aa2e7002f0ab9"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "histogram_bytreatment.png",
+        "restricted": false,
+        "directoryLabel": "output/figures",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40266,
+          "persistentId": "",
+          "filename": "histogram_bytreatment.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 35520,
+          "storageIdentifier": "surf://store:175d587263b-4b8545e6d030",
+          "rootDataFileId": -1,
+          "md5": "5a12cb9afc53c4fb3998a094351cad4e",
+          "checksum": {
+            "type": "MD5",
+            "value": "5a12cb9afc53c4fb3998a094351cad4e"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "histogram_cheaters.png",
+        "restricted": false,
+        "directoryLabel": "output/figures",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40255,
+          "persistentId": "",
+          "filename": "histogram_cheaters.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 43892,
+          "storageIdentifier": "surf://store:175d587263f-cfd033b5fe4a",
+          "rootDataFileId": -1,
+          "md5": "faa2efbee3371b8e6579747e280b355b",
+          "checksum": {
+            "type": "MD5",
+            "value": "faa2efbee3371b8e6579747e280b355b"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "instructions for participants",
+        "label": "Instructions.pdf",
+        "restricted": false,
+        "directoryLabel": "appendix",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40252,
+          "persistentId": "",
+          "filename": "Instructions.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1750929,
+          "description": "instructions for participants",
+          "storageIdentifier": "surf://store:175d5872601-059d6849de28",
+          "rootDataFileId": -1,
+          "md5": "e2a1dccf6020d10ca2178e547d44ba17",
+          "checksum": {
+            "type": "MD5",
+            "value": "e2a1dccf6020d10ca2178e547d44ba17"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "interaction.tex",
+        "restricted": false,
+        "directoryLabel": "output/tables",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40271,
+          "persistentId": "",
+          "filename": "interaction.tex",
+          "contentType": "application/x-tex",
+          "friendlyType": "LaTeX",
+          "filesize": 3222,
+          "storageIdentifier": "surf://store:175d58726aa-718f93205fae",
+          "rootDataFileId": -1,
+          "md5": "9ba49207d34f54c58e649e76aa3267e5",
+          "checksum": {
+            "type": "MD5",
+            "value": "9ba49207d34f54c58e649e76aa3267e5"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "stata-do file to read and clean questionnaire data",
+        "label": "prepare_questionnaire.do",
+        "restricted": false,
+        "directoryLabel": "code",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40254,
+          "persistentId": "",
+          "filename": "prepare_questionnaire.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 7925,
+          "description": "stata-do file to read and clean questionnaire data",
+          "storageIdentifier": "surf://store:175d5872624-9b02370d5a30",
+          "rootDataFileId": -1,
+          "md5": "e3680c4aad1145308f862be86ae3edd1",
+          "checksum": {
+            "type": "MD5",
+            "value": "e3680c4aad1145308f862be86ae3edd1"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "raw post-experimental questionnaire data",
+        "label": "questionnaire_afterVR_raw.csv",
+        "restricted": false,
+        "directoryLabel": "input",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40268,
+          "persistentId": "",
+          "filename": "questionnaire_afterVR_raw.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 34358,
+          "description": "raw post-experimental questionnaire data",
+          "storageIdentifier": "surf://store:175d587262f-391e96539c8c",
+          "rootDataFileId": -1,
+          "md5": "01837cc6d401a0939cf1552db6d41edb",
+          "checksum": {
+            "type": "MD5",
+            "value": "01837cc6d401a0939cf1552db6d41edb"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Stata dta file with questionnaire data",
+        "label": "questionnaire_clean.dta",
+        "restricted": false,
+        "directoryLabel": "clean data",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40259,
+          "persistentId": "",
+          "filename": "questionnaire_clean.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 75721,
+          "description": "Stata dta file with questionnaire data",
+          "storageIdentifier": "surf://store:175d587260e-fba8f39efc44",
+          "rootDataFileId": -1,
+          "md5": "d449a4a4bd3e480116338e7763f950e8",
+          "checksum": {
+            "type": "MD5",
+            "value": "d449a4a4bd3e480116338e7763f950e8"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Stata dta file for regressions",
+        "label": "Regression.dta",
+        "restricted": false,
+        "directoryLabel": "clean data",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40264,
+          "persistentId": "",
+          "filename": "Regression.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 754972,
+          "description": "Stata dta file for regressions",
+          "storageIdentifier": "surf://store:175d5872611-9bcba3b2a9fe",
+          "rootDataFileId": -1,
+          "md5": "32b0e24d07e7887f10debed665b9ef92",
+          "checksum": {
+            "type": "MD5",
+            "value": "32b0e24d07e7887f10debed665b9ef92"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Stata dta file for regressions",
+        "label": "Regression_stored.dta",
+        "restricted": false,
+        "directoryLabel": "clean data",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40253,
+          "persistentId": "",
+          "filename": "Regression_stored.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 773360,
+          "description": "Stata dta file for regressions",
+          "storageIdentifier": "surf://store:175d5872617-cbb4e450e39f",
+          "rootDataFileId": -1,
+          "md5": "b6a9bdf5f954fa364e7ef15475f6ad41",
+          "checksum": {
+            "type": "MD5",
+            "value": "b6a9bdf5f954fa364e7ef15475f6ad41"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Stata dta file for regressions (wide format)",
+        "label": "Regression_wide.dta",
+        "restricted": false,
+        "directoryLabel": "clean data",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40258,
+          "persistentId": "",
+          "filename": "Regression_wide.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 458767,
+          "description": "Stata dta file for regressions (wide format)",
+          "storageIdentifier": "surf://store:175d587261c-a22f3135a34e",
+          "rootDataFileId": -1,
+          "md5": "c5075a8ba58f243fd036ec3d1c4d97ae",
+          "checksum": {
+            "type": "MD5",
+            "value": "c5075a8ba58f243fd036ec3d1c4d97ae"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "slot machine.PNG",
+        "restricted": false,
+        "directoryLabel": "output/figures/VR environment",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40260,
+          "persistentId": "",
+          "filename": "slot machine.PNG",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 1451117,
+          "storageIdentifier": "surf://store:175d587268c-2df7ba2c9bc2",
+          "rootDataFileId": -1,
+          "md5": "419d588a3aa631803bf31e76b3d80ba8",
+          "checksum": {
+            "type": "MD5",
+            "value": "419d588a3aa631803bf31e76b3d80ba8"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "steps.jpg",
+        "restricted": false,
+        "directoryLabel": "output/figures/VR environment",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40262,
+          "persistentId": "",
+          "filename": "steps.jpg",
+          "contentType": "image/jpeg",
+          "friendlyType": "JPEG Image",
+          "filesize": 728416,
+          "storageIdentifier": "surf://store:175d587269d-c5f77592f077",
+          "rootDataFileId": -1,
+          "md5": "240cd195e74bd4f4aefce1c0b707a464",
+          "checksum": {
+            "type": "MD5",
+            "value": "240cd195e74bd4f4aefce1c0b707a464"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "trend3.png",
+        "restricted": false,
+        "directoryLabel": "output/figures",
+        "version": 1,
+        "datasetVersionId": 3266,
+        "dataFile": {
+          "id": 40269,
+          "persistentId": "",
+          "filename": "trend3.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 65375,
+          "storageIdentifier": "surf://store:175d5872643-226d5ba3e7f7",
+          "rootDataFileId": -1,
+          "md5": "b7bdb138310e9bf80be6e646ec21104a",
+          "checksum": {
+            "type": "MD5",
+            "value": "b7bdb138310e9bf80be6e646ec21104a"
+          },
+          "tabularData": false,
+          "creationDate": "2020-11-17",
+          "publicationDate": "2020-11-18",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Mol, Jantsje; van der Heijden, Eline; Potters, Jan, 2020, \"(Not) alone in the world: Cheating in the presence of a virtual observer [Dataset]\", https://doi.org/10.34894/RZTSWA, DataverseNL, V1"
+  }
+}

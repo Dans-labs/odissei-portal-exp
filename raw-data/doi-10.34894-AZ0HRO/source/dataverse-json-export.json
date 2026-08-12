@@ -1,0 +1,496 @@
+{
+  "id": 358851,
+  "identifier": "AZ0HRO",
+  "persistentUrl": "https://doi.org/10.34894/AZ0HRO",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-04-18",
+  "storageIdentifier": "surf://10.34894/AZ0HRO",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24970,
+    "datasetId": 358851,
+    "datasetPersistentId": "doi:10.34894/AZ0HRO",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/AZ0HRO",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-04-18T11:04:21Z",
+    "releaseTime": "2023-04-18T11:04:21Z",
+    "createTime": "2023-04-18T11:03:56Z",
+    "publicationDate": "2023-04-18",
+    "citationDate": "2023-04-18",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Land footprint and ecological impacts of six American diets"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Laroche, Perrine"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schulp, Nynke"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This folder contains eight datasets. See scientific paper for more details on the methodology.\nFour datasets \"land footprint_total/feed/food/grass.csv\" indicate the spatial distribution (country level) of the land footprint (in m2 per year) for six diets of consumers in the United States of America: (aad (standard diet), non-vegetarian, semi-vegetarian, eat (diet recommended by the Lancet), lacto-ovo vegetarian, vegan), and three average diets (meat-rich (aad + non-vegetarian), low-meat (semi-vegetarian + eat), no-meat (lacto-ovo vegetarian + vegan)). _food = for food only (excluding animal products); _feed = for animal feed (corn, sorghum, barley, oat, soybean, wheat) embedded in the consumption of animal products (poultry, beef, pork, milk, eggs); _grass = grass embedded in the consumption of milk and beef.\nFour datasets indicate the spatial distribution of ecological impacts associated to the six diets of consumers in the United States of America. _nitrogen indicates the potential for nitrogen fixation (in m2 per year). Three indicators per diet: nitro = all legume crops considered; no.soya = all legume crops excluding soya; soya = only soya considered. _pollination indicates the reliance on pollination (in m2 per year). Two indicators per diet: polli = area needing pollinator visit; extra: extra land footprint in absence of pollinator visit (due to lower crop yield when pollination does not occur). _wf indicates the volumetric water footprint (in m3 per year). Two indicators per diet: bluewf = water extracted from freshwater ecosystems; greywf = water polluted in freshwater ecosystems. wsi_wf indicates the stress-weighed water footprint -i.e. the pressure put on freshwater ecosystems - obtained by multiplying the volumetric water footprint by water-stress characterization factors at the national level (from Ridoutt and Pfister, 2010). FAO codes, ISO3 or ISO2 of the countries of origin of the crops can be used to visualise the data in GIS."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "dietary change"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "United States of America"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Land footprint"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Water footprint"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pollination"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nitrogen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ecosystem services"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Telecoupling"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Laroche, P. C. S. J., et al. (2020). \"Telecoupled environmental impacts of current and alternative Western diets.\" Global Environmental Change 62: 102066."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1016/j.gloenvcha.2020.102066"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Schulp, Nynke"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-04-18"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/AZ0HRO"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:84cb4dda-d66a-4ca6-b6f8-5aeb65b28e73"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-809f7e98-3493-4f62-95c8-1f4add50190a"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Diets_USA_land footprint_feed.csv",
+        "restricted": false,
+        "directoryLabel": "Chapter diet",
+        "version": 1,
+        "datasetVersionId": 24970,
+        "dataFile": {
+          "id": 358857,
+          "persistentId": "",
+          "filename": "Diets_USA_land footprint_feed.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 19063,
+          "storageIdentifier": "surf://store:1879408a3f1-ba8ea4f17544",
+          "rootDataFileId": -1,
+          "md5": "98fbf05ab27319886fb445137ec901aa",
+          "checksum": {
+            "type": "MD5",
+            "value": "98fbf05ab27319886fb445137ec901aa"
+          },
+          "tabularData": false,
+          "creationDate": "2023-04-18",
+          "publicationDate": "2023-04-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Diets_USA_land footprint_food.csv",
+        "restricted": false,
+        "directoryLabel": "Chapter diet",
+        "version": 1,
+        "datasetVersionId": 24970,
+        "dataFile": {
+          "id": 358856,
+          "persistentId": "",
+          "filename": "Diets_USA_land footprint_food.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 23059,
+          "storageIdentifier": "surf://store:1879408a3fa-3109ae036bce",
+          "rootDataFileId": -1,
+          "md5": "8b8a49c6e4d37fd3b037a93e1a1d984c",
+          "checksum": {
+            "type": "MD5",
+            "value": "8b8a49c6e4d37fd3b037a93e1a1d984c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-04-18",
+          "publicationDate": "2023-04-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Diets_USA_land footprint_grass.csv",
+        "restricted": false,
+        "directoryLabel": "Chapter diet",
+        "version": 1,
+        "datasetVersionId": 24970,
+        "dataFile": {
+          "id": 358854,
+          "persistentId": "",
+          "filename": "Diets_USA_land footprint_grass.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 17967,
+          "storageIdentifier": "surf://store:1879408a401-dc10eafc683c",
+          "rootDataFileId": -1,
+          "md5": "83e49d4dd03fd0ab634e31367bd072c4",
+          "checksum": {
+            "type": "MD5",
+            "value": "83e49d4dd03fd0ab634e31367bd072c4"
+          },
+          "tabularData": false,
+          "creationDate": "2023-04-18",
+          "publicationDate": "2023-04-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Diets_USA_land footprint_total.csv",
+        "restricted": false,
+        "directoryLabel": "Chapter diet",
+        "version": 1,
+        "datasetVersionId": 24970,
+        "dataFile": {
+          "id": 358860,
+          "persistentId": "",
+          "filename": "Diets_USA_land footprint_total.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 23246,
+          "storageIdentifier": "surf://store:1879408a40c-968afd38fb59",
+          "rootDataFileId": -1,
+          "md5": "73293a0de0b053cafa0d12c19c7fef75",
+          "checksum": {
+            "type": "MD5",
+            "value": "73293a0de0b053cafa0d12c19c7fef75"
+          },
+          "tabularData": false,
+          "creationDate": "2023-04-18",
+          "publicationDate": "2023-04-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Diets_USA_nitrogen.csv",
+        "restricted": false,
+        "directoryLabel": "Chapter diet",
+        "version": 1,
+        "datasetVersionId": 24970,
+        "dataFile": {
+          "id": 358853,
+          "persistentId": "",
+          "filename": "Diets_USA_nitrogen.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 26923,
+          "storageIdentifier": "surf://store:1879408a414-90831091dccf",
+          "rootDataFileId": -1,
+          "md5": "9e4b92108bbc3909ab0948ec18898656",
+          "checksum": {
+            "type": "MD5",
+            "value": "9e4b92108bbc3909ab0948ec18898656"
+          },
+          "tabularData": false,
+          "creationDate": "2023-04-18",
+          "publicationDate": "2023-04-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Diets_USA_pollination.csv",
+        "restricted": false,
+        "directoryLabel": "Chapter diet",
+        "version": 1,
+        "datasetVersionId": 24970,
+        "dataFile": {
+          "id": 358852,
+          "persistentId": "",
+          "filename": "Diets_USA_pollination.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 38125,
+          "storageIdentifier": "surf://store:1879408a41c-2c80c9421ebb",
+          "rootDataFileId": -1,
+          "md5": "c38c158f1c185fb5d9c8dc10a25623fa",
+          "checksum": {
+            "type": "MD5",
+            "value": "c38c158f1c185fb5d9c8dc10a25623fa"
+          },
+          "tabularData": false,
+          "creationDate": "2023-04-18",
+          "publicationDate": "2023-04-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Diets_USA_wf.csv",
+        "restricted": false,
+        "directoryLabel": "Chapter diet",
+        "version": 1,
+        "datasetVersionId": 24970,
+        "dataFile": {
+          "id": 358855,
+          "persistentId": "",
+          "filename": "Diets_USA_wf.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 27225,
+          "storageIdentifier": "surf://store:1879408a425-5426f3f07d1c",
+          "rootDataFileId": -1,
+          "md5": "268902d372cb0b9462762dbdbd184604",
+          "checksum": {
+            "type": "MD5",
+            "value": "268902d372cb0b9462762dbdbd184604"
+          },
+          "tabularData": false,
+          "creationDate": "2023-04-18",
+          "publicationDate": "2023-04-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Diets_USA_wsi_wf.csv",
+        "restricted": false,
+        "directoryLabel": "Chapter diet",
+        "version": 1,
+        "datasetVersionId": 24970,
+        "dataFile": {
+          "id": 358858,
+          "persistentId": "",
+          "filename": "Diets_USA_wsi_wf.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 21256,
+          "storageIdentifier": "surf://store:1879408a42c-4a0ec6e6f03b",
+          "rootDataFileId": -1,
+          "md5": "f86c7a9970f5350ba6adb47face71d71",
+          "checksum": {
+            "type": "MD5",
+            "value": "f86c7a9970f5350ba6adb47face71d71"
+          },
+          "tabularData": false,
+          "creationDate": "2023-04-18",
+          "publicationDate": "2023-04-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "READ ME.txt",
+        "restricted": false,
+        "directoryLabel": "Chapter diet",
+        "version": 1,
+        "datasetVersionId": 24970,
+        "dataFile": {
+          "id": 358859,
+          "persistentId": "",
+          "filename": "READ ME.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2252,
+          "storageIdentifier": "surf://store:1879408a435-bf107866b2cb",
+          "rootDataFileId": -1,
+          "md5": "d428185c032fab4ae85a0f4d767c2e05",
+          "checksum": {
+            "type": "MD5",
+            "value": "d428185c032fab4ae85a0f4d767c2e05"
+          },
+          "tabularData": false,
+          "creationDate": "2023-04-18",
+          "publicationDate": "2023-04-18",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Laroche, Perrine, 2023, \"Land footprint and ecological impacts of six American diets\", https://doi.org/10.34894/AZ0HRO, DataverseNL, V1"
+  }
+}

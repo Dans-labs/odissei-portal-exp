@@ -1,0 +1,351 @@
+{
+  "id": 325461,
+  "identifier": "SVJDYA",
+  "persistentUrl": "https://doi.org/10.34894/SVJDYA",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-01-05",
+  "storageIdentifier": "surf://10.34894/SVJDYA",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24624,
+    "datasetId": 325461,
+    "datasetPersistentId": "doi:10.34894/SVJDYA",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/SVJDYA",
+    "versionNumber": 1,
+    "internalVersionNumber": 4,
+    "versionMinorNumber": 2,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-01-05T15:36:31Z",
+    "releaseTime": "2023-01-05T15:36:31Z",
+    "createTime": "2023-01-05T15:36:03Z",
+    "publicationDate": "2023-01-05",
+    "citationDate": "2023-01-05",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Epistolarium database: Letter metadata with mappings to persons from the Catalogus Epistolarum Neerlandicarum (CEN) curated by the SKILLNET project"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SKILLNET project"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Liliana Melgar"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dirk van Miert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains the metadata of all the letters from the Epistolarium database (https://ckcc.huygens.knaw.nl/epistolarium/) which was downloaded from that site. During the SKILLNET project, we added the person mappings between the Epistolarium correspondents and the curated version of the Catalogus Epistolarum Neerlandicarum (CEN) (https://doi.org/10.34894/G8XQI0). This dataset includes the mapped person Ids."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-12-12"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "letters (correspondence)"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Getty"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.getty.edu/research/tools/vocabularies/aat/index.html"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "correspondence"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q1784733"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The datasets provided by the SKILLNET project have been curated (i.e., cleaned, harmonized, reconciled) using manual and semi-automatic methods. Even though a lot of dedication and effort was put in curating the datasets provided here, some errors, inaccuracies and/or missing data still exist.\n\nUntil January 2023 the dataset will be constantly updated with more cleaned data. For that reason, it is important that users of the dataset always include the version number in their reports."
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Manager"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Liliana Melgar-Estrada"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Curator"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "﻿Liliana Melgar-Estrada"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Curator"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Samuele Zandonella Dall'Aquila (intern)"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Curator"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rosalie Versmissen"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Project Leader"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dirk van Miert"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Melgar Estrada, Liliana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-12-12"
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Epistolarium database (https://ckcc.huygens.knaw.nl/epistolarium/)"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/SVJDYA"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.2"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:55785322-997b-4d2c-b671-06908b0baa34"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-a041c266-63c8-436f-9968-ade625f8777e"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Each row represents a letter in the Epistolarium database with its original letter Id.  When there was a mapping to the CEN, the corresponding SKpersonId from the CEN dataset (https://doi.org/10.34894/G8XQI0, DataverseNL, V2; persons_CEN_1200to1800_cleanedSkillnet.csv [fileName]) is added. For non-mapped names, we added an epistolarium person Id, this Id is not provided by the Epistolarium, it was just made up by us for practical reasons.",
+        "label": "epistolarium_allPersons_allCorrespondences_and_mappings_to_CEN_persons.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24624,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 352534,
+          "persistentId": "",
+          "filename": "epistolarium_allPersons_allCorrespondences_and_mappings_to_CEN_persons.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5574891,
+          "description": "Each row represents a letter in the Epistolarium database with its original letter Id.  When there was a mapping to the CEN, the corresponding SKpersonId from the CEN dataset (https://doi.org/10.34894/G8XQI0, DataverseNL, V2; persons_CEN_1200to1800_cleanedSkillnet.csv [fileName]) is added. For non-mapped names, we added an epistolarium person Id, this Id is not provided by the Epistolarium, it was just made up by us for practical reasons.",
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:185828ac676-dd02464dda2a",
+          "rootDataFileId": -1,
+          "md5": "9e72b1d339b6223930cbcf14c99bc94c",
+          "checksum": {
+            "type": "MD5",
+            "value": "9e72b1d339b6223930cbcf14c99bc94c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-01-05",
+          "publicationDate": "2023-01-05",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "SKILLNET project, 2023, \"Epistolarium database: Letter metadata with mappings to persons from the Catalogus Epistolarum Neerlandicarum (CEN) curated by the SKILLNET project\", https://doi.org/10.34894/SVJDYA, DataverseNL, V1"
+  }
+}

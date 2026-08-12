@@ -1,0 +1,1731 @@
+{
+  "id": 101258,
+  "identifier": "ANJOPR",
+  "persistentUrl": "https://doi.org/10.34894/ANJOPR",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-06-24",
+  "storageIdentifier": "surf://10.34894/ANJOPR",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3762,
+    "datasetId": 101258,
+    "datasetPersistentId": "doi:10.34894/ANJOPR",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/ANJOPR",
+    "versionNumber": 1,
+    "internalVersionNumber": 37,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-06-24T19:18:56Z",
+    "releaseTime": "2021-06-24T19:18:56Z",
+    "createTime": "2021-06-24T06:12:12Z",
+    "publicationDate": "2021-06-24",
+    "citationDate": "2021-06-24",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Pitfalls in quantifying exploration in reward-based motor learning: simulated datasets"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mastrigt, van, Nina"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-8531-9568"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Kooij, Katinka"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-4190-7827"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Smeets, Jeroen"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-3794-0579"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mastrigt, van, Nina"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "When learning a movement based on binary success information, one is more variable\r\nfollowing failure than following success. Theoretically, the additional variability post\r\nfailure might reflect exploration of possibilities to obtain success. When average\r\nbehavior is changing (as in learning), variability can be estimated from differences\r\nbetween subsequent movements. Can one estimate exploration reliably from such\r\ntrial-to-trial changes when studying reward-based motor learning? To answer this\r\nquestion, we tried to reconstruct the exploration underlying learning as described by\r\nfour existing reward-based motor learning models. We simulated learning for various\r\nlearner and task characteristics. If we simply determined the additional change post\r\nfailure, estimates of exploration were sensitive to learner and task characteristics. We\r\nidentified two pitfalls in quantifying exploration based on trial-to-trial changes. Firstly,\r\nperformance-dependent feedback can cause correlated samples of motor noise and\r\nexploration on successful trials, which biases exploration estimates. Secondly, the trial\r\nrelative to which trial-to-trial change is calculated may also contain exploration, which\r\ncauses underestimation. As a solution, we developed the additional trial-to-trial change\r\n(ATTC) method. By moving the reference trial one trial back and subtracting trial-to-trial\r\nchanges following specific sequences of trial outcomes, exploration can be estimated\r\nreliably for the three models that explore based on the outcome of only the previous\r\ntrial. Since ATTC estimates are based on a selection of trial sequences, this method\r\nrequires many trials. In conclusion, if exploration is a binary function of previous trial\r\noutcome, the ATTC method allows for a model-free quantification of exploration."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-06-23"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "exploration"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://osf.io/w2v7q/\r\nDataset 20201208T141221 Default reward criterion = adaptive (mean).\r\nDataset 20201210T101138 Default reward criterion = random. \r\nOrganized into five folders: Var alfa, var eta, var mn, var rewcrit and var target.\r\nSee readme files."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "url"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "See the OSF page: https://osf.io/x7hp9/"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Mastrigt, van, Nina"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-06-23"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/ANJOPR"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:7ecc50bf-5dd0-44e2-a1a7-a4f5d9a30a1b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-b90e6336-fed8-4d62-aadb-bb9569e0a28a"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Read me.",
+        "label": "20201208T141221 ADAPTIVE Manuscript v20.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101259,
+          "persistentId": "",
+          "filename": "20201208T141221 ADAPTIVE Manuscript v20.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 141,
+          "description": "Read me.",
+          "storageIdentifier": "surf://store:17a3ca75f4c-aaa04b655bb8",
+          "rootDataFileId": -1,
+          "md5": "9e57938c0223d1483bee340e016fe67a",
+          "checksum": {
+            "type": "MD5",
+            "value": "9e57938c0223d1483bee340e016fe67a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Read me.",
+        "label": "20201210T101138 RANDOM Manuscript v20.txt",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101285,
+          "persistentId": "",
+          "filename": "20201210T101138 RANDOM Manuscript v20.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 138,
+          "description": "Read me.",
+          "storageIdentifier": "surf://store:17a3e316a16-61059fde1262",
+          "rootDataFileId": -1,
+          "md5": "b5cfd7e600a36c6a5bb512fd37292a17",
+          "checksum": {
+            "type": "MD5",
+            "value": "b5cfd7e600a36c6a5bb512fd37292a17"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; m = 1.",
+        "label": "M4_S1k_T500_m1_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var mn",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101272,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m1_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1121201545,
+          "description": "All default; m = 1.",
+          "storageIdentifier": "surf://store:17a3d87d834-51ef07c00c74",
+          "rootDataFileId": -1,
+          "md5": "7b5e160afe032f6bb96a0bb61d19c40d",
+          "checksum": {
+            "type": "MD5",
+            "value": "7b5e160afe032f6bb96a0bb61d19c40d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; m = 1. ",
+        "label": "M4_S1k_T500_m1_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var mn",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102357,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m1_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1023053315,
+          "description": "All default; m = 1. ",
+          "storageIdentifier": "surf://store:17a3e7ec3b7-ba43fbe738ec",
+          "rootDataFileId": -1,
+          "md5": "1f1d58b9c98de3235fef8b3d62567421",
+          "checksum": {
+            "type": "MD5",
+            "value": "1f1d58b9c98de3235fef8b3d62567421"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "m = 2",
+        "label": "M4_S1k_T500_m2_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var mn",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101270,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m2_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1174226061,
+          "description": "m = 2",
+          "storageIdentifier": "surf://store:17a3d8b92dc-157b5cbc5d59",
+          "rootDataFileId": -1,
+          "md5": "931e2bad821ec208ac32ff434da18ed9",
+          "checksum": {
+            "type": "MD5",
+            "value": "931e2bad821ec208ac32ff434da18ed9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; m = 2. ",
+        "label": "M4_S1k_T500_m2_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var mn",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102354,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m2_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1071043438,
+          "description": "All default; m = 2. ",
+          "storageIdentifier": "surf://store:17a3e843b83-a19dfbd0d98b",
+          "rootDataFileId": -1,
+          "md5": "a902ae38a7fe2cdb6043c4df6300a746",
+          "checksum": {
+            "type": "MD5",
+            "value": "a902ae38a7fe2cdb6043c4df6300a746"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; eta=1",
+        "label": "M4_S1k_T500_m3_eta10_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var eta",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101267,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta10_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1205080657,
+          "description": "All default; eta=1",
+          "storageIdentifier": "surf://store:17a3d149e1e-45d149950870",
+          "rootDataFileId": -1,
+          "md5": "85d88a3d2be55ff3378e2d97ff7af11e",
+          "checksum": {
+            "type": "MD5",
+            "value": "85d88a3d2be55ff3378e2d97ff7af11e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; eta = 1",
+        "label": "M4_S1k_T500_m3_eta10_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var eta",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102338,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta10_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1069140918,
+          "description": "All default; eta = 1",
+          "storageIdentifier": "surf://store:17a3e5ae366-7881df0a2ca4",
+          "rootDataFileId": -1,
+          "md5": "aa675c890364b6a7341f646fce869e5c",
+          "checksum": {
+            "type": "MD5",
+            "value": "aa675c890364b6a7341f646fce869e5c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Eta=2",
+        "label": "M4_S1k_T500_m3_eta20_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var eta",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101265,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta20_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1199544010,
+          "description": "Eta=2",
+          "storageIdentifier": "surf://store:17a3d1cbc72-ffa4955e3c28",
+          "rootDataFileId": -1,
+          "md5": "384e2d58be363b3cc3a8164e94a0dd76",
+          "checksum": {
+            "type": "MD5",
+            "value": "384e2d58be363b3cc3a8164e94a0dd76"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; eta = 2",
+        "label": "M4_S1k_T500_m3_eta20_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var eta",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102341,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta20_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1070829005,
+          "description": "All default; eta = 2",
+          "storageIdentifier": "surf://store:17a3e5fcc79-980297301b91",
+          "rootDataFileId": -1,
+          "md5": "0d673501b17e8f858ee0921c68b8efee",
+          "checksum": {
+            "type": "MD5",
+            "value": "0d673501b17e8f858ee0921c68b8efee"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; alfa = 0. ",
+        "label": "M4_S1k_T500_m3_eta40_a0_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var alfa",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101260,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a0_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1089021971,
+          "description": "All default; alfa = 0. ",
+          "storageIdentifier": "surf://store:17a3cb22cd5-4f24af50f4e0",
+          "rootDataFileId": -1,
+          "md5": "9852ab46a5b45638350c064b86748917",
+          "checksum": {
+            "type": "MD5",
+            "value": "9852ab46a5b45638350c064b86748917"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; alfa = 0",
+        "label": "M4_S1k_T500_m3_eta40_a0_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var alfa",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101290,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a0_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1004304126,
+          "description": "All default; alfa = 0",
+          "storageIdentifier": "surf://store:17a3e36bb47-4ff2bedcebf4",
+          "rootDataFileId": -1,
+          "md5": "28d08dd35d81039239364aec507e4f82",
+          "checksum": {
+            "type": "MD5",
+            "value": "28d08dd35d81039239364aec507e4f82"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Alfa = 1",
+        "label": "M4_S1k_T500_m3_eta40_a100_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var alfa",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101264,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a100_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1153787181,
+          "description": "Alfa = 1",
+          "storageIdentifier": "surf://store:17a3ccf88ae-e419077513a2",
+          "rootDataFileId": -1,
+          "md5": "42fb63030e6908123fb58c938843ddb1",
+          "checksum": {
+            "type": "MD5",
+            "value": "42fb63030e6908123fb58c938843ddb1"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Alfa = 1",
+        "label": "M4_S1k_T500_m3_eta40_a100_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var alfa",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101287,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a100_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1046068115,
+          "description": "Alfa = 1",
+          "storageIdentifier": "surf://store:17a3e41a6a8-c8b2dbd41ad7",
+          "rootDataFileId": -1,
+          "md5": "23f12be4ce36a375c9df2532f90118ed",
+          "checksum": {
+            "type": "MD5",
+            "value": "23f12be4ce36a375c9df2532f90118ed"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Alfa = 0.10",
+        "label": "M4_S1k_T500_m3_eta40_a10_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var alfa",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101261,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a10_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 667435365,
+          "description": "Alfa = 0.10",
+          "storageIdentifier": "surf://store:17a3cb99aba-1bf8eae2ce4c",
+          "rootDataFileId": -1,
+          "md5": "6e8688e6e9e4f624d9171849061a2ff5",
+          "checksum": {
+            "type": "MD5",
+            "value": "6e8688e6e9e4f624d9171849061a2ff5"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Alfa = 0.10",
+        "label": "M4_S1k_T500_m3_eta40_a10_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var alfa",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101286,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a10_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 633132204,
+          "description": "Alfa = 0.10",
+          "storageIdentifier": "surf://store:17a3e390757-2f1f4bbd8b9d",
+          "rootDataFileId": -1,
+          "md5": "adf46cdfdddb64c28a3cbd4539add8e5",
+          "checksum": {
+            "type": "MD5",
+            "value": "adf46cdfdddb64c28a3cbd4539add8e5"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; target = 0.",
+        "label": "M4_S1k_T500_m3_eta40_a15_t0_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var target",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101283,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t0_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1166720488,
+          "description": "All default; target = 0.",
+          "storageIdentifier": "surf://store:17a3e18431a-e1c3267b68eb",
+          "rootDataFileId": -1,
+          "md5": "05bd642de9aacaf6c40b88f658e5ebfb",
+          "checksum": {
+            "type": "MD5",
+            "value": "05bd642de9aacaf6c40b88f658e5ebfb"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; Target = 0",
+        "label": "M4_S1k_T500_m3_eta40_a15_t0_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var target",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102365,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t0_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1070843043,
+          "description": "All default; Target = 0",
+          "storageIdentifier": "surf://store:17a3f4595f2-b611ba9770da",
+          "rootDataFileId": -1,
+          "md5": "464d2e41ccc61987e895e6fecc29005c",
+          "checksum": {
+            "type": "MD5",
+            "value": "464d2e41ccc61987e895e6fecc29005c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "target = 2",
+        "label": "M4_S1k_T500_m3_eta40_a15_t200_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var target",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101280,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t200_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1173227601,
+          "description": "target = 2",
+          "storageIdentifier": "surf://store:17a3e1c0f3d-e891ca7ea9cd",
+          "rootDataFileId": -1,
+          "md5": "e611593e679963320212d03265990584",
+          "checksum": {
+            "type": "MD5",
+            "value": "e611593e679963320212d03265990584"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Fixed (lower target). ",
+        "label": "M4_S1k_T500_m3_eta40_a15_t200_fixedlowt_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var rewcrit",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101278,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t200_fixedlowt_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1102405155,
+          "description": "Fixed (lower target). ",
+          "storageIdentifier": "surf://store:17a3de3490b-cc59eff9baee",
+          "rootDataFileId": -1,
+          "md5": "b9140dca4a4c6a4131f31e88d3d7cbbd",
+          "checksum": {
+            "type": "MD5",
+            "value": "b9140dca4a4c6a4131f31e88d3d7cbbd"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; rewcrit = fixed (low)",
+        "label": "M4_S1k_T500_m3_eta40_a15_t200_fixedlowt_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var rewcrit",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102361,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t200_fixedlowt_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1101822798,
+          "description": "All default; rewcrit = fixed (low)",
+          "storageIdentifier": "surf://store:17a3f2964fa-3383dad30fe7",
+          "rootDataFileId": -1,
+          "md5": "23414ae5063e9a402ddf5c178558ffb3",
+          "checksum": {
+            "type": "MD5",
+            "value": "23414ae5063e9a402ddf5c178558ffb3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Target = 2",
+        "label": "M4_S1k_T500_m3_eta40_a15_t200_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var target",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102367,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t200_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1070796867,
+          "description": "Target = 2",
+          "storageIdentifier": "surf://store:17a3f48f938-cc550aadb60c",
+          "rootDataFileId": -1,
+          "md5": "50228b6349fd1a22d9d6f4044de0abd2",
+          "checksum": {
+            "type": "MD5",
+            "value": "50228b6349fd1a22d9d6f4044de0abd2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Eta=4",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var eta",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101268,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1176973143,
+          "description": "Eta=4",
+          "storageIdentifier": "surf://store:17a3d22d6c9-c616c446592c",
+          "rootDataFileId": -1,
+          "md5": "7c49800c8ca57d2bf4456fad3b7b8ffc",
+          "checksum": {
+            "type": "MD5",
+            "value": "7c49800c8ca57d2bf4456fad3b7b8ffc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Alfa = 0.15",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var alfa",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101262,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 646893680,
+          "description": "Alfa = 0.15",
+          "storageIdentifier": "surf://store:17a3cbf9878-df70f91710dc",
+          "rootDataFileId": -1,
+          "md5": "bcf2c12a0f0fb5ddf6a63286fb395636",
+          "checksum": {
+            "type": "MD5",
+            "value": "bcf2c12a0f0fb5ddf6a63286fb395636"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "m = 3",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var mn",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101273,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1176011277,
+          "description": "m = 3",
+          "storageIdentifier": "surf://store:17a3d90a072-ec093ef02bc9",
+          "rootDataFileId": -1,
+          "md5": "e4d7781c457108ac1cd2dc266300b35b",
+          "checksum": {
+            "type": "MD5",
+            "value": "e4d7781c457108ac1cd2dc266300b35b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "target = 4",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var target",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101284,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1177378778,
+          "description": "target = 4",
+          "storageIdentifier": "surf://store:17a3e1fe689-5fd2f574c0b5",
+          "rootDataFileId": -1,
+          "md5": "b870cd661b2ee9f4ec2d4d93375ea40c",
+          "checksum": {
+            "type": "MD5",
+            "value": "b870cd661b2ee9f4ec2d4d93375ea40c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Adaptive (mean)",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var rewcrit",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101277,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1177906031,
+          "description": "Adaptive (mean)",
+          "storageIdentifier": "surf://store:17a3de7d187-c508bf643138",
+          "rootDataFileId": -1,
+          "md5": "12384d3f522573b5419173758d1a0a1c",
+          "checksum": {
+            "type": "MD5",
+            "value": "12384d3f522573b5419173758d1a0a1c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "rewcrit = Adaptive (mean)",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var rewcrit",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102363,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1177631194,
+          "description": "rewcrit = Adaptive (mean)",
+          "storageIdentifier": "surf://store:17a3f2d3374-ee8ed4fa607f",
+          "rootDataFileId": -1,
+          "md5": "c32031d7416170dec5a1a911710bde5b",
+          "checksum": {
+            "type": "MD5",
+            "value": "c32031d7416170dec5a1a911710bde5b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Adaptive (median)",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_adaptmdn_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var rewcrit",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101275,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_adaptmdn_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1173615922,
+          "description": "Adaptive (median)",
+          "storageIdentifier": "surf://store:17a3deca937-ef1f055cfcc8",
+          "rootDataFileId": -1,
+          "md5": "edf6eaedac268ca5db32e4adad8ff565",
+          "checksum": {
+            "type": "MD5",
+            "value": "edf6eaedac268ca5db32e4adad8ff565"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "rewcrit = adaptive (median)",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_adaptmdn_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var rewcrit",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102360,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_adaptmdn_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1173698068,
+          "description": "rewcrit = adaptive (median)",
+          "storageIdentifier": "surf://store:17a3f3114da-b7a8c7aa8ac8",
+          "rootDataFileId": -1,
+          "md5": "2c26fcb97de7c9146a48f0ebdbcb70a8",
+          "checksum": {
+            "type": "MD5",
+            "value": "2c26fcb97de7c9146a48f0ebdbcb70a8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Fixed",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_fixed_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var rewcrit",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101279,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_fixed_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1041570787,
+          "description": "Fixed",
+          "storageIdentifier": "surf://store:17a3df09ab1-7fe53b17e6d3",
+          "rootDataFileId": -1,
+          "md5": "ca241e6d70df45b2cefb1230bc0269bb",
+          "checksum": {
+            "type": "MD5",
+            "value": "ca241e6d70df45b2cefb1230bc0269bb"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "rewcrit = fixed",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_fixed_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var rewcrit",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102359,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_fixed_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1038487867,
+          "description": "rewcrit = fixed",
+          "storageIdentifier": "surf://store:17a3f34a681-0143187e1558",
+          "rootDataFileId": -1,
+          "md5": "3b2654218bfbb868a9e773b8c9766f1a",
+          "checksum": {
+            "type": "MD5",
+            "value": "3b2654218bfbb868a9e773b8c9766f1a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Random",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var rewcrit",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101276,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1070547577,
+          "description": "Random",
+          "storageIdentifier": "surf://store:17a3df49a43-6ed643b2305b",
+          "rootDataFileId": -1,
+          "md5": "183d59edfaa864906aa9d3d934a41211",
+          "checksum": {
+            "type": "MD5",
+            "value": "183d59edfaa864906aa9d3d934a41211"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; m = 3",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var mn",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102356,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1070969531,
+          "description": "All default; m = 3",
+          "storageIdentifier": "surf://store:17a3e87fe70-1b10e18b20dc",
+          "rootDataFileId": -1,
+          "md5": "10175aea01b3957599749bd1d05a3f65",
+          "checksum": {
+            "type": "MD5",
+            "value": "10175aea01b3957599749bd1d05a3f65"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; eta = 4",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var eta",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102342,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1071220359,
+          "description": "All default; eta = 4",
+          "storageIdentifier": "surf://store:17a3e648612-e8e039d8ee89",
+          "rootDataFileId": -1,
+          "md5": "e9d5e84b0736bb5708fddfca757a85cf",
+          "checksum": {
+            "type": "MD5",
+            "value": "e9d5e84b0736bb5708fddfca757a85cf"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "rewcrit = random",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var rewcrit",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102362,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1071193861,
+          "description": "rewcrit = random",
+          "storageIdentifier": "surf://store:17a3f381666-e3eda604a9db",
+          "rootDataFileId": -1,
+          "md5": "f5a173764113b8904d1ee0235ebeec04",
+          "checksum": {
+            "type": "MD5",
+            "value": "f5a173764113b8904d1ee0235ebeec04"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Target = 4",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var target",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102366,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1071206176,
+          "description": "Target = 4",
+          "storageIdentifier": "surf://store:17a3f4cedca-7d13e0cace63",
+          "rootDataFileId": -1,
+          "md5": "c5b5714a7d0bac237c3cb596cc6650ff",
+          "checksum": {
+            "type": "MD5",
+            "value": "c5b5714a7d0bac237c3cb596cc6650ff"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Alfa = 0.15",
+        "label": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var alfa",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101289,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 616115447,
+          "description": "Alfa = 0.15",
+          "storageIdentifier": "surf://store:17a3e3b5ab1-eba5f451018b",
+          "rootDataFileId": -1,
+          "md5": "1926c983fd3d5c1c4bb93506d6bb75b6",
+          "checksum": {
+            "type": "MD5",
+            "value": "1926c983fd3d5c1c4bb93506d6bb75b6"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "target = 6",
+        "label": "M4_S1k_T500_m3_eta40_a15_t600_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var target",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101282,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t600_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1180577955,
+          "description": "target = 6",
+          "storageIdentifier": "surf://store:17a3e23d632-d35c4f061027",
+          "rootDataFileId": -1,
+          "md5": "e677021de2807a1c023448e795c2ef94",
+          "checksum": {
+            "type": "MD5",
+            "value": "e677021de2807a1c023448e795c2ef94"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Target = 6",
+        "label": "M4_S1k_T500_m3_eta40_a15_t600_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var target",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102364,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t600_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1071211174,
+          "description": "Target = 6",
+          "storageIdentifier": "surf://store:17a3f5074da-487435ba36e2",
+          "rootDataFileId": -1,
+          "md5": "6e8933496a05c42df323b65d164edf06",
+          "checksum": {
+            "type": "MD5",
+            "value": "6e8933496a05c42df323b65d164edf06"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "target = 8",
+        "label": "M4_S1k_T500_m3_eta40_a15_t800_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var target",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101281,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t800_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1185633963,
+          "description": "target = 8",
+          "storageIdentifier": "surf://store:17a3e27d1df-4fbd0b10fa70",
+          "rootDataFileId": -1,
+          "md5": "81d4d7217ee2a58071c505c5ccfc1a97",
+          "checksum": {
+            "type": "MD5",
+            "value": "81d4d7217ee2a58071c505c5ccfc1a97"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Target = 8",
+        "label": "M4_S1k_T500_m3_eta40_a15_t800_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var target",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102368,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a15_t800_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1071261370,
+          "description": "Target = 8",
+          "storageIdentifier": "surf://store:17a3f5479b5-5123db52bd68",
+          "rootDataFileId": -1,
+          "md5": "3e96c0364d5c834c9897b7490560455d",
+          "checksum": {
+            "type": "MD5",
+            "value": "3e96c0364d5c834c9897b7490560455d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Alfa = 0.20",
+        "label": "M4_S1k_T500_m3_eta40_a20_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var alfa",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101263,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a20_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 645484960,
+          "description": "Alfa = 0.20",
+          "storageIdentifier": "surf://store:17a3cc4d16f-49d4143da275",
+          "rootDataFileId": -1,
+          "md5": "fa4333f73479f30463e6af5aff18a4db",
+          "checksum": {
+            "type": "MD5",
+            "value": "fa4333f73479f30463e6af5aff18a4db"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Alfa = 0.20",
+        "label": "M4_S1k_T500_m3_eta40_a20_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var alfa",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101288,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta40_a20_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 615970135,
+          "description": "Alfa = 0.20",
+          "storageIdentifier": "surf://store:17a3e3da49a-efe170a35502",
+          "rootDataFileId": -1,
+          "md5": "32d2d42bda5f6287ec18da842a20e33c",
+          "checksum": {
+            "type": "MD5",
+            "value": "32d2d42bda5f6287ec18da842a20e33c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Eta=6",
+        "label": "M4_S1k_T500_m3_eta60_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var eta",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101269,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta60_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1162880954,
+          "description": "Eta=6",
+          "storageIdentifier": "surf://store:17a3d275008-b719c58d57fe",
+          "rootDataFileId": -1,
+          "md5": "39bd286a0e4d03367623e94957e6e17a",
+          "checksum": {
+            "type": "MD5",
+            "value": "39bd286a0e4d03367623e94957e6e17a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; eta = 6",
+        "label": "M4_S1k_T500_m3_eta60_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var eta",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102339,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta60_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1070618981,
+          "description": "All default; eta = 6",
+          "storageIdentifier": "surf://store:17a3e6ab4b0-55d9360202ce",
+          "rootDataFileId": -1,
+          "md5": "5319d12f1cce688fad025a5c454ce9e7",
+          "checksum": {
+            "type": "MD5",
+            "value": "5319d12f1cce688fad025a5c454ce9e7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Eta=8",
+        "label": "M4_S1k_T500_m3_eta80_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var eta",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101266,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta80_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1153923775,
+          "description": "Eta=8",
+          "storageIdentifier": "surf://store:17a3d2f6d89-6a5c9c8d64f1",
+          "rootDataFileId": -1,
+          "md5": "38e320c2c3c687d7ea4a4915f74f70a2",
+          "checksum": {
+            "type": "MD5",
+            "value": "38e320c2c3c687d7ea4a4915f74f70a2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; eta = 8",
+        "label": "M4_S1k_T500_m3_eta80_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var eta",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102340,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m3_eta80_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1070054187,
+          "description": "All default; eta = 8",
+          "storageIdentifier": "surf://store:17a3e7153c7-8e8c378b1427",
+          "rootDataFileId": -1,
+          "md5": "4a4aa13a0c17956a249309c4fa6237bc",
+          "checksum": {
+            "type": "MD5",
+            "value": "4a4aa13a0c17956a249309c4fa6237bc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "m = 4",
+        "label": "M4_S1k_T500_m4_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var mn",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101274,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m4_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1177172807,
+          "description": "m = 4",
+          "storageIdentifier": "surf://store:17a3d959162-55fd5fc243c8",
+          "rootDataFileId": -1,
+          "md5": "087e8f4de8e1daa6df3c7e651d463eab",
+          "checksum": {
+            "type": "MD5",
+            "value": "087e8f4de8e1daa6df3c7e651d463eab"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; m = 4",
+        "label": "M4_S1k_T500_m4_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var mn",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102353,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m4_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1070685194,
+          "description": "All default; m = 4",
+          "storageIdentifier": "surf://store:17a3e8ba65b-d34b35c22b8d",
+          "rootDataFileId": -1,
+          "md5": "a9797a1d67f5ab606eb18ebf2fc43c5f",
+          "checksum": {
+            "type": "MD5",
+            "value": "a9797a1d67f5ab606eb18ebf2fc43c5f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "m = 5",
+        "label": "M4_S1k_T500_m5_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetAdaptiveCriterion/Var mn",
+        "version": 2,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 101271,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m5_eta40_a15_t400_adaptm_18_sim_sens2learning_all_v18_20201208T141221.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1177225833,
+          "description": "m = 5",
+          "storageIdentifier": "surf://store:17a3d9958e5-37f8207cf8b4",
+          "rootDataFileId": -1,
+          "md5": "9e722ec23d2ef4fee4f9b82f4374bf2a",
+          "checksum": {
+            "type": "MD5",
+            "value": "9e722ec23d2ef4fee4f9b82f4374bf2a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "All default; m = 5",
+        "label": "M4_S1k_T500_m5_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+        "restricted": false,
+        "directoryLabel": "DatasetRandomRewcrit/Var mn",
+        "version": 1,
+        "datasetVersionId": 3762,
+        "dataFile": {
+          "id": 102355,
+          "persistentId": "",
+          "filename": "M4_S1k_T500_m5_eta40_a15_t400_rand_18_sim_sens2learning_all_v18_20201210T101138.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 1070291648,
+          "description": "All default; m = 5",
+          "storageIdentifier": "surf://store:17a3e8f9e7b-8f6db688bc92",
+          "rootDataFileId": -1,
+          "md5": "1ad6dc6ed6c791578ddb375b5f0201b2",
+          "checksum": {
+            "type": "MD5",
+            "value": "1ad6dc6ed6c791578ddb375b5f0201b2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-06-24",
+          "publicationDate": "2021-06-24",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Mastrigt, van, Nina; van der Kooij, Katinka; Smeets, Jeroen, 2021, \"Pitfalls in quantifying exploration in reward-based motor learning: simulated datasets\", https://doi.org/10.34894/ANJOPR, DataverseNL, V1"
+  }
+}

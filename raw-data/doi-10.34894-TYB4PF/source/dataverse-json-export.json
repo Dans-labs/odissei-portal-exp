@@ -1,0 +1,2807 @@
+{
+  "id": 94572,
+  "identifier": "TYB4PF",
+  "persistentUrl": "https://doi.org/10.34894/TYB4PF",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-05-18",
+  "storageIdentifier": "surf://10.34894/TYB4PF",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3669,
+    "datasetId": 94572,
+    "datasetPersistentId": "doi:10.34894/TYB4PF",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/TYB4PF",
+    "versionNumber": 1,
+    "internalVersionNumber": 21,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2021-05-18T19:32:58Z",
+    "releaseTime": "2021-05-18T19:32:58Z",
+    "createTime": "2021-05-10T15:33:01Z",
+    "publicationDate": "2021-05-18",
+    "citationDate": "2021-05-18",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Content Type Dataset - v1.5"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "CTD v1.5"
+            ]
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "https://github.com/johnnymoretti/ContentTypes"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Caselli, Tommaso"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2936-0256"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sprugnoli, Rachele"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Università Cattolica del Sacro Cuore, Milan"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6861-5595"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Moretti, Giovanni"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Università Cattolica del Sacro Cuore, Milan"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Research Data Office"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This repository contains: <br/>\r\n\r\n- the Content Type Dataset Version 1.5 (in the folder \"Datasets\"); <br />\r\n- the latest version of the guidelines for annotating Content Types;<br />\r\nthe data statement related to CTD V1.5;<br />\r\n- a set of spreadsheets containing metadata about the documents included in the dataset, e.g. year of publication, author's name, author's nationality, author's gender (in the folder \"Documents_Metadata\");<br />\r\n- the data to replicate a set of experiments for the identification of Content Types (in the folder \"Datasets\");<br />\r\n- the best model for the identification of Content Types obtained adopting the BiLSTM-CNN-CRF with ELMo-Representations for Sequence Tagging implementation by Nils Reimers and Iryna Gurevych (in the folder \"Best_Model\");<br />\r\n- the data used to calculate the Inter-Annotator Agreement (in the folder \"IAA\"): the script used for calculating Cohen's k is available here: https://github.com/johnnymoretti/CAT_R_Kappa_Cohen \r\n\r\n<br />\r\n<br />\r\n<b>To replicate the experiments / Run the models </b>\r\n<br />\r\n\r\nTo replicate the experiments or run the models, you have to clone and install the BiLSTM-CNN-CRF with ELMo-Representations for Sequence Tagging implementation by Nils Reimers and Iryna Gurevych available at https://github.com/UKPLab/elmo-bilstm-cnn-crf \r\n<br />\r\n<br />\r\nTo replicate the experiments, you have to rename the data in Datasets/Cross-Genre and Datasets/Cross-Time to \"train.txt\", \"dev.txt\", and \"test.txt\"\r\n<br />\r\n<br />\r\nTo run the model on new data, the input file must be in CoNLL-like format one token per line with empty lines separating sentences. From the BiLSTM-CNN-CRF with ELMo-Representations repository you can use \"RunModel_CoNLL_Format.py\"\r\n<br />\r\n<br />\r\n\r\n<b>Data statement </b>\r\n<br />\r\n\r\nCURATION RATIONALE: <br />\r\n\r\nWe adopt a broad perspective on texts selection assuming that good computational models for NLP must be able to deal with different genres (synchronic dimension) as well as with different times (diachronic dimension). This approach aims at facilitating the re-use of models in different fields of study, and promoting the cross-fertilisation among disciplines, especially in the area of Humanities. On the basis of this approach, we collected texts in English from three different genres: newspaper articles, travel reports, and travel guides. For each of these genres, we collected data published between the second half of the 1800s and the beginning of the 2000s. In designing the corpus, one of our goals was to keep the combination of time and genre as much balanced as possible, in terms of number of tokens and clauses. Furthermore, given the phenomenon under study, we decided to preserve documents' integrity rather than truncating them. <br />\r\n\r\nLANGUAGE VARIETY: <br />\r\n\r\nen-GB, en-US, en-AU. <br />\r\n\r\nANNOTATOR DEMOGRAPHIC <br />\r\n\r\nAnnotator #1: Age: 36 years old Gender: female Race/ethnicity: caucasian Native language: Italian Socioeconomic status Training in linguistics/other relevant discipline: MA in Computational Linguistics <br />\r\n\r\nAnnotator #2: Age: 37 years old Gender: male Race/ethnicity: caucasian Native language: Italian Socioeconomic status Training in linguistics/other relevant discipline: PhD in Computational Linguistics <br />\r\n\r\nAnnotator #3: Age: 25 years old Gender: female Race/ethnicity: caucasian Native language: Italian Socioeconomic status Training in linguistics/other relevant discipline: MA in Linguistics <br />\r\n\r\nSPEAKER DEMOGRAPHIC & SPEECH SITUATION: <br />\r\n\r\nInformation included in the spreadsheets.<br />"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "content types"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "text type classification"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Elsenga, Christina"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-05-10"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1860"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2017"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "textual data (news articles, travel reports; travel guides)"
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "TEXT CHARACTERISTICS:\r\n\r\nThe combination of the time and genre dimensions gives rise to 6 sub-corpora within our dataset: Contemporary News, Historical News, Contemporary Travel Reports, Historical Travel Reports, Contemporary Travel Guides, Historical Travel Guides."
+            ]
+          },
+          {
+            "typeName": "originOfSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "See the Documents_Metadata folder"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/TYB4PF"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:56f91245-2f06-49ca-990a-d3fa0689a22b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-96e8ea20-ba15-4432-ab62-ccc081a33be0"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "10)NAPLES, March 7th.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-hist/travel-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94662,
+          "persistentId": "",
+          "filename": "10)NAPLES, March 7th.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 45538,
+          "storageIdentifier": "surf://store:17966829a5f-23d4248496a4",
+          "rootDataFileId": -1,
+          "md5": "021aad1df7a12d1316f0e0e42e25ddbd",
+          "checksum": {
+            "type": "MD5",
+            "value": "021aad1df7a12d1316f0e0e42e25ddbd"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "10)NAPLES, March 7th.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-hist/travel-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94639,
+          "persistentId": "",
+          "filename": "10)NAPLES, March 7th.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 45565,
+          "storageIdentifier": "surf://store:17966829a6f-103f71c977d3",
+          "rootDataFileId": -1,
+          "md5": "861091fcb978d82c55b1c3fbeea812a4",
+          "checksum": {
+            "type": "MD5",
+            "value": "861091fcb978d82c55b1c3fbeea812a4"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "1)ITALY_30May2004.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-cont/travel-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94658,
+          "persistentId": "",
+          "filename": "1)ITALY_30May2004.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 34758,
+          "storageIdentifier": "surf://store:17966829a9a-f591692f624e",
+          "rootDataFileId": -1,
+          "md5": "7ff0c67284e04c1142f2555ae643b5d9",
+          "checksum": {
+            "type": "MD5",
+            "value": "7ff0c67284e04c1142f2555ae643b5d9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "1)ITALY_30May2004.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-cont/travel-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94636,
+          "persistentId": "",
+          "filename": "1)ITALY_30May2004.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 34946,
+          "storageIdentifier": "surf://store:17966829a7e-20938a621170",
+          "rootDataFileId": -1,
+          "md5": "ab046e2092fb4d2fb014e296396f9df0",
+          "checksum": {
+            "type": "MD5",
+            "value": "ab046e2092fb4d2fb014e296396f9df0"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2)ITALY_31May2004.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-cont/travel-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94661,
+          "persistentId": "",
+          "filename": "2)ITALY_31May2004.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 43923,
+          "storageIdentifier": "surf://store:17966829aa6-dfec92d36a74",
+          "rootDataFileId": -1,
+          "md5": "8a174b8a1087d00aebbd0fb2c5958b4e",
+          "checksum": {
+            "type": "MD5",
+            "value": "8a174b8a1087d00aebbd0fb2c5958b4e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "2)ITALY_31May2004.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-cont/travel-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94633,
+          "persistentId": "",
+          "filename": "2)ITALY_31May2004.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 44243,
+          "storageIdentifier": "surf://store:17966829a8b-9f0e5466200a",
+          "rootDataFileId": -1,
+          "md5": "5a7d61fa78bb9c63c4fd45a2a5823f3d",
+          "checksum": {
+            "type": "MD5",
+            "value": "5a7d61fa78bb9c63c4fd45a2a5823f3d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "6)Viareggio_February.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-hist/travel-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94627,
+          "persistentId": "",
+          "filename": "6)Viareggio_February.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 259566,
+          "storageIdentifier": "surf://store:17966829a68-e86ba453c66a",
+          "rootDataFileId": -1,
+          "md5": "5ccf6c3fdde1fd020d909203d501da2e",
+          "checksum": {
+            "type": "MD5",
+            "value": "5ccf6c3fdde1fd020d909203d501da2e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "6)Viareggio_February.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-hist/travel-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94635,
+          "persistentId": "",
+          "filename": "6)Viareggio_February.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 259412,
+          "storageIdentifier": "surf://store:17966829a77-591e85ab1b5c",
+          "rootDataFileId": -1,
+          "md5": "408d870bca01b04425000d28309d9448",
+          "checksum": {
+            "type": "MD5",
+            "value": "408d870bca01b04425000d28309d9448"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Annotation Guidelines",
+        "label": "Annotation_of_content_types_V2.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94593,
+          "persistentId": "",
+          "filename": "Annotation_of_content_types_V2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 134831,
+          "description": "Annotation Guidelines",
+          "storageIdentifier": "surf://store:179666cff68-84f74912d4c7",
+          "rootDataFileId": -1,
+          "md5": "6dfb2caa40d99b3b8524e951b0c40b87",
+          "checksum": {
+            "type": "MD5",
+            "value": "6dfb2caa40d99b3b8524e951b0c40b87"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ARMENIA_PREPARED_FOR_A_HARD_FIGHT.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94679,
+          "persistentId": "",
+          "filename": "ARMENIA_PREPARED_FOR_A_HARD_FIGHT.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 27303,
+          "storageIdentifier": "surf://store:17966829b26-a01b5a1bbf67",
+          "rootDataFileId": -1,
+          "md5": "63b0548937dbe2392e861b079b2b8ce4",
+          "checksum": {
+            "type": "MD5",
+            "value": "63b0548937dbe2392e861b079b2b8ce4"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ARMENIA_PREPARED_FOR_A_HARD_FIGHT.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94644,
+          "persistentId": "",
+          "filename": "ARMENIA_PREPARED_FOR_A_HARD_FIGHT.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 27697,
+          "storageIdentifier": "surf://store:17966829af4-1c45299ae731",
+          "rootDataFileId": -1,
+          "md5": "d9351b25e5f6a857014916a926524d56",
+          "checksum": {
+            "type": "MD5",
+            "value": "d9351b25e5f6a857014916a926524d56"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Automobile_Race_Ended.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94646,
+          "persistentId": "",
+          "filename": "Automobile_Race_Ended.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 52677,
+          "storageIdentifier": "surf://store:17966829b39-974164cd5f26",
+          "rootDataFileId": -1,
+          "md5": "209e7609c38a3eea5edb1f58ba976f28",
+          "checksum": {
+            "type": "MD5",
+            "value": "209e7609c38a3eea5edb1f58ba976f28"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Automobile_Race_Ended.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94670,
+          "persistentId": "",
+          "filename": "Automobile_Race_Ended.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 52424,
+          "storageIdentifier": "surf://store:17966829b05-eb1870969fef",
+          "rootDataFileId": -1,
+          "md5": "910bda0f1eb4b1b6b3b634cd43667c0c",
+          "checksum": {
+            "type": "MD5",
+            "value": "910bda0f1eb4b1b6b3b634cd43667c0c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "BIOF1Validation.py",
+        "restricted": false,
+        "directoryLabel": "Evaluation_script/evaluator",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94623,
+          "persistentId": "",
+          "filename": "BIOF1Validation.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 6997,
+          "storageIdentifier": "surf://store:1796682404c-ac7a762382b7",
+          "rootDataFileId": -1,
+          "md5": "9513af6dd9043bd83c28af8b0f11e9f2",
+          "checksum": {
+            "type": "MD5",
+            "value": "9513af6dd9043bd83c28af8b0f11e9f2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "CERTOSA_DI_SAN_MARTINO_DK.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-cont/guide-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94673,
+          "persistentId": "",
+          "filename": "CERTOSA_DI_SAN_MARTINO_DK.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 86291,
+          "storageIdentifier": "surf://store:17966829ada-e3ca1396eadf",
+          "rootDataFileId": -1,
+          "md5": "e6270fb503b738a0768690de5ad1b14d",
+          "checksum": {
+            "type": "MD5",
+            "value": "e6270fb503b738a0768690de5ad1b14d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "CERTOSA_DI_SAN_MARTINO_DK.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-cont/guide-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94660,
+          "persistentId": "",
+          "filename": "CERTOSA_DI_SAN_MARTINO_DK.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 85918,
+          "storageIdentifier": "surf://store:17966829abf-5fcbc7f0ec00",
+          "rootDataFileId": -1,
+          "md5": "7996cea46a5f7d7590006de9ac72d143",
+          "checksum": {
+            "type": "MD5",
+            "value": "7996cea46a5f7d7590006de9ac72d143"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Climate.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-cont/guide-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94649,
+          "persistentId": "",
+          "filename": "Climate.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 40649,
+          "storageIdentifier": "surf://store:17966829ab8-843298398a84",
+          "rootDataFileId": -1,
+          "md5": "72a8a980b21e883795b418225d8f165c",
+          "checksum": {
+            "type": "MD5",
+            "value": "72a8a980b21e883795b418225d8f165c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Climate.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-cont/guide-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94628,
+          "persistentId": "",
+          "filename": "Climate.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 40732,
+          "storageIdentifier": "surf://store:17966829ad2-21a58a1e6cc2",
+          "rootDataFileId": -1,
+          "md5": "24ef1678663bbb3f987e4be8f076c0eb",
+          "checksum": {
+            "type": "MD5",
+            "value": "24ef1678663bbb3f987e4be8f076c0eb"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "conllFunctions.py",
+        "restricted": false,
+        "directoryLabel": "Evaluation_script/evaluator",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94622,
+          "persistentId": "",
+          "filename": "conllFunctions.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 6441,
+          "storageIdentifier": "surf://store:17966824040-d22eda39df2d",
+          "rootDataFileId": -1,
+          "md5": "92895563a996797cec6970cebf614eff",
+          "checksum": {
+            "type": "MD5",
+            "value": "92895563a996797cec6970cebf614eff"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "CoNLL.py",
+        "restricted": false,
+        "directoryLabel": "Evaluation_script/evaluator",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94625,
+          "persistentId": "",
+          "filename": "CoNLL.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 3586,
+          "storageIdentifier": "surf://store:17966824047-6fd8ef3750a0",
+          "rootDataFileId": -1,
+          "md5": "5ee7aba68f6b6bfafb35811d7afc7971",
+          "checksum": {
+            "type": "MD5",
+            "value": "5ee7aba68f6b6bfafb35811d7afc7971"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Contemporary_News.ods",
+        "restricted": false,
+        "directoryLabel": "Documents_Metadata",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94597,
+          "persistentId": "",
+          "filename": "Contemporary_News.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 18935,
+          "storageIdentifier": "surf://store:179666d8b32-a7518f14d742",
+          "rootDataFileId": -1,
+          "md5": "466e429e1dfc29a4e080977bb689f030",
+          "checksum": {
+            "type": "MD5",
+            "value": "466e429e1dfc29a4e080977bb689f030"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Contemporary_Travel_Guides.ods",
+        "restricted": false,
+        "directoryLabel": "Documents_Metadata",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94595,
+          "persistentId": "",
+          "filename": "Contemporary_Travel_Guides.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 17305,
+          "storageIdentifier": "surf://store:179666d895d-9f5ea0ae4109",
+          "rootDataFileId": -1,
+          "md5": "d2e68dd76f3c6764822db55a652815a9",
+          "checksum": {
+            "type": "MD5",
+            "value": "d2e68dd76f3c6764822db55a652815a9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Contemporary_Travel_Reports.ods",
+        "restricted": false,
+        "directoryLabel": "Documents_Metadata",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94592,
+          "persistentId": "",
+          "filename": "Contemporary_Travel_Reports.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 29203,
+          "storageIdentifier": "surf://store:179666d8c31-dbd44d19a8ec",
+          "rootDataFileId": -1,
+          "md5": "dcc43c1e7eac7d5837e195ab8ce161a0",
+          "checksum": {
+            "type": "MD5",
+            "value": "dcc43c1e7eac7d5837e195ab8ce161a0"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "CT_conll_sentence_IOB220190206_0.6468_0.6070_15.h5",
+        "restricted": false,
+        "directoryLabel": "BestModel_sentence_input",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94601,
+          "persistentId": "",
+          "filename": "CT_conll_sentence_IOB220190206_0.6468_0.6070_15.h5",
+          "contentType": "application/x-h5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 17137096,
+          "storageIdentifier": "surf://store:179666f995d-2416e3480580",
+          "rootDataFileId": -1,
+          "md5": "1195b1eb9150663fbeb60735f0b3625b",
+          "checksum": {
+            "type": "MD5",
+            "value": "1195b1eb9150663fbeb60735f0b3625b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "CTD_V1.5_0.7527_0.7425_2.h5",
+        "restricted": false,
+        "directoryLabel": "Best_Model",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94606,
+          "persistentId": "",
+          "filename": "CTD_V1.5_0.7527_0.7425_2.h5",
+          "contentType": "application/x-h5",
+          "friendlyType": "Hierarchical Data Format",
+          "filesize": 17136776,
+          "storageIdentifier": "surf://store:179666f3645-12701159324c",
+          "rootDataFileId": -1,
+          "md5": "f6d57de3b87fdeccba9960cd7b7a7e14",
+          "checksum": {
+            "type": "MD5",
+            "value": "f6d57de3b87fdeccba9960cd7b7a7e14"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "dev_cont.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Time/cross-train-cont",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94881,
+          "persistentId": "",
+          "filename": "dev_cont.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 177885,
+          "storageIdentifier": "surf://store:179808beb4f-36e50485b832",
+          "rootDataFileId": -1,
+          "md5": "16184b7ec2b493d425d59ca6836c4db9",
+          "checksum": {
+            "type": "MD5",
+            "value": "16184b7ec2b493d425d59ca6836c4db9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "dev_guide.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Genre",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94878,
+          "persistentId": "",
+          "filename": "dev_guide.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 124913,
+          "storageIdentifier": "surf://store:179808beb03-2e1e4926d3dc",
+          "rootDataFileId": -1,
+          "md5": "576822173c11a596b7e8af694f12fd7b",
+          "checksum": {
+            "type": "MD5",
+            "value": "576822173c11a596b7e8af694f12fd7b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "dev_hist.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Time/cross-train-hist",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94882,
+          "persistentId": "",
+          "filename": "dev_hist.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 181383,
+          "storageIdentifier": "surf://store:179808beb70-21880fbbacc4",
+          "rootDataFileId": -1,
+          "md5": "b41853e16d7be475900bd0de6582fb42",
+          "checksum": {
+            "type": "MD5",
+            "value": "b41853e16d7be475900bd0de6582fb42"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "dev_news.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Genre",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94871,
+          "persistentId": "",
+          "filename": "dev_news.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 114078,
+          "storageIdentifier": "surf://store:179808beb0a-ddbbf7e4e2d4",
+          "rootDataFileId": -1,
+          "md5": "42d3ff45e79e61959853f6ec04b320b0",
+          "checksum": {
+            "type": "MD5",
+            "value": "42d3ff45e79e61959853f6ec04b320b0"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "dev_report.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Genre",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94873,
+          "persistentId": "",
+          "filename": "dev_report.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 120306,
+          "storageIdentifier": "surf://store:179808beb1d-56d787c9c52c",
+          "rootDataFileId": -1,
+          "md5": "1dc19bcaea1369b515afb26bbf31c951",
+          "checksum": {
+            "type": "MD5",
+            "value": "1dc19bcaea1369b515afb26bbf31c951"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "dev.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/CTD_V1.5",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94876,
+          "persistentId": "",
+          "filename": "dev.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 359250,
+          "storageIdentifier": "surf://store:179808bead5-47fcc80835d9",
+          "rootDataFileId": -1,
+          "md5": "91ce7ffffc8019a64a451d909961b3e8",
+          "checksum": {
+            "type": "MD5",
+            "value": "91ce7ffffc8019a64a451d909961b3e8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Edmonton_Bulletin_account_of_public_meeting.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94626,
+          "persistentId": "",
+          "filename": "Edmonton_Bulletin_account_of_public_meeting.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 70387,
+          "storageIdentifier": "surf://store:17966829b46-b34d4a768e53",
+          "rootDataFileId": -1,
+          "md5": "c0e9d4db9a7dec1f64866809889a05dc",
+          "checksum": {
+            "type": "MD5",
+            "value": "c0e9d4db9a7dec1f64866809889a05dc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Edmonton_Bulletin_account_of_public_meeting.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94650,
+          "persistentId": "",
+          "filename": "Edmonton_Bulletin_account_of_public_meeting.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 71017,
+          "storageIdentifier": "surf://store:17966829b12-8461c3778d51",
+          "rootDataFileId": -1,
+          "md5": "bc26931f1a469b33824cc35958c82692",
+          "checksum": {
+            "type": "MD5",
+            "value": "bc26931f1a469b33824cc35958c82692"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eval.py",
+        "restricted": false,
+        "directoryLabel": "Evaluation_script/evaluator",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94621,
+          "persistentId": "",
+          "filename": "eval.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 2700,
+          "storageIdentifier": "surf://store:17966824052-295ed8240b36",
+          "rootDataFileId": -1,
+          "md5": "71953837143a7d84ddb320e1b7efda2a",
+          "checksum": {
+            "type": "MD5",
+            "value": "71953837143a7d84ddb320e1b7efda2a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eval_scores.txt",
+        "restricted": false,
+        "directoryLabel": "Clause_evaluation",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94602,
+          "persistentId": "",
+          "filename": "eval_scores.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1857,
+          "storageIdentifier": "surf://store:179666fe8b0-369b04684533",
+          "rootDataFileId": -1,
+          "md5": "9dfce66fd479e82e6a82840d4b7c9399",
+          "checksum": {
+            "type": "MD5",
+            "value": "9dfce66fd479e82e6a82840d4b7c9399"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Historical_News.ods",
+        "restricted": false,
+        "directoryLabel": "Documents_Metadata",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94598,
+          "persistentId": "",
+          "filename": "Historical_News.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 28087,
+          "storageIdentifier": "surf://store:179666d8a1a-0b8b86aa8837",
+          "rootDataFileId": -1,
+          "md5": "e36ea4469bf6e384100c80a09f7e1df3",
+          "checksum": {
+            "type": "MD5",
+            "value": "e36ea4469bf6e384100c80a09f7e1df3"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Historical_Travel_Guides.ods",
+        "restricted": false,
+        "directoryLabel": "Documents_Metadata",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94594,
+          "persistentId": "",
+          "filename": "Historical_Travel_Guides.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 14065,
+          "storageIdentifier": "surf://store:179666d8bae-dff9b1140163",
+          "rootDataFileId": -1,
+          "md5": "89f7c614e9f7c17a8578e035c11ba901",
+          "checksum": {
+            "type": "MD5",
+            "value": "89f7c614e9f7c17a8578e035c11ba901"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Historical_Travel_Reports.ods",
+        "restricted": false,
+        "directoryLabel": "Documents_Metadata",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94596,
+          "persistentId": "",
+          "filename": "Historical_Travel_Reports.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 23724,
+          "storageIdentifier": "surf://store:179666d8ab6-9e3db32cbb49",
+          "rootDataFileId": -1,
+          "md5": "485cba9075d9a41e822925fa1c457df2",
+          "checksum": {
+            "type": "MD5",
+            "value": "485cba9075d9a41e822925fa1c457df2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MURDER_IN_WESTMINSTER.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94669,
+          "persistentId": "",
+          "filename": "MURDER_IN_WESTMINSTER.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 47640,
+          "storageIdentifier": "surf://store:17966829b00-6b713b3cb3b8",
+          "rootDataFileId": -1,
+          "md5": "b9bcfe0adbcf8593280cc3b8be298501",
+          "checksum": {
+            "type": "MD5",
+            "value": "b9bcfe0adbcf8593280cc3b8be298501"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "MURDER_IN_WESTMINSTER.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94665,
+          "persistentId": "",
+          "filename": "MURDER_IN_WESTMINSTER.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 47761,
+          "storageIdentifier": "surf://store:17966829b33-31268059705d",
+          "rootDataFileId": -1,
+          "md5": "62851523bdb028fe7e88b302d2633448",
+          "checksum": {
+            "type": "MD5",
+            "value": "62851523bdb028fe7e88b302d2633448"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "NAPLES_capri.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-hist/guide-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94663,
+          "persistentId": "",
+          "filename": "NAPLES_capri.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 92864,
+          "storageIdentifier": "surf://store:17966829b7b-f26dba42b05d",
+          "rootDataFileId": -1,
+          "md5": "961a5712a82bea2d1150fb590aa87290",
+          "checksum": {
+            "type": "MD5",
+            "value": "961a5712a82bea2d1150fb590aa87290"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "NAPLES_capri.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-hist/guide-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94652,
+          "persistentId": "",
+          "filename": "NAPLES_capri.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 93384,
+          "storageIdentifier": "surf://store:17966829b5d-b6966076d81f",
+          "rootDataFileId": -1,
+          "md5": "fc58406565d635769ac224e7f01a5aef",
+          "checksum": {
+            "type": "MD5",
+            "value": "fc58406565d635769ac224e7f01a5aef"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "NAPLES_CATHEDRAL_CITIES_1.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-hist/guide-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94681,
+          "persistentId": "",
+          "filename": "NAPLES_CATHEDRAL_CITIES_1.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 105200,
+          "storageIdentifier": "surf://store:17966829b54-bf35fcadf3e9",
+          "rootDataFileId": -1,
+          "md5": "733946ffcf2a9140ac51b8d8d75d6b96",
+          "checksum": {
+            "type": "MD5",
+            "value": "733946ffcf2a9140ac51b8d8d75d6b96"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "NAPLES_CATHEDRAL_CITIES_1.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-hist/guide-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94655,
+          "persistentId": "",
+          "filename": "NAPLES_CATHEDRAL_CITIES_1.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 104460,
+          "storageIdentifier": "surf://store:17966829b73-c9fa02a712b8",
+          "rootDataFileId": -1,
+          "md5": "450b265931d7c6f201870d3f05da967e",
+          "checksum": {
+            "type": "MD5",
+            "value": "450b265931d7c6f201870d3f05da967e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Naples_on_a_plate_LP.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-cont/guide-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94671,
+          "persistentId": "",
+          "filename": "Naples_on_a_plate_LP.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 122461,
+          "storageIdentifier": "surf://store:17966829acc-a18c54adf01a",
+          "rootDataFileId": -1,
+          "md5": "ba11b6ab29fb5fda0f92badb95bdfaea",
+          "checksum": {
+            "type": "MD5",
+            "value": "ba11b6ab29fb5fda0f92badb95bdfaea"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Naples_on_a_plate_LP.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-cont/guide-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94651,
+          "persistentId": "",
+          "filename": "Naples_on_a_plate_LP.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 121350,
+          "storageIdentifier": "surf://store:17966829ab2-667f57623990",
+          "rootDataFileId": -1,
+          "md5": "ce34b4d49625d0cae28e9dc24ed6532d",
+          "checksum": {
+            "type": "MD5",
+            "value": "ce34b4d49625d0cae28e9dc24ed6532d"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "NAPLES.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-hist/guide-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94632,
+          "persistentId": "",
+          "filename": "NAPLES.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 22231,
+          "storageIdentifier": "surf://store:17966829b4c-070850f82a38",
+          "rootDataFileId": -1,
+          "md5": "cf629c065f646a60b8235b4f9c5ca8df",
+          "checksum": {
+            "type": "MD5",
+            "value": "cf629c065f646a60b8235b4f9c5ca8df"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "NAPLES.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-hist/guide-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94645,
+          "persistentId": "",
+          "filename": "NAPLES.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 22011,
+          "storageIdentifier": "surf://store:17966829b6a-57d43cbec7f3",
+          "rootDataFileId": -1,
+          "md5": "957f6e00c10030c49ee15388260458ee",
+          "checksum": {
+            "type": "MD5",
+            "value": "957f6e00c10030c49ee15388260458ee"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Neapolitan_Street_Party.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-cont/travel-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94677,
+          "persistentId": "",
+          "filename": "Neapolitan_Street_Party.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 135484,
+          "storageIdentifier": "surf://store:17966829a85-e044eb67bea6",
+          "rootDataFileId": -1,
+          "md5": "375a8dfa788d749ef2f26cb2138fd13e",
+          "checksum": {
+            "type": "MD5",
+            "value": "375a8dfa788d749ef2f26cb2138fd13e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Neapolitan_Street_Party.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-cont/travel-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94630,
+          "persistentId": "",
+          "filename": "Neapolitan_Street_Party.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 133679,
+          "storageIdentifier": "surf://store:17966829aa0-15366011a86d",
+          "rootDataFileId": -1,
+          "md5": "4a50996d06af5cc252f793b2855d3fc7",
+          "checksum": {
+            "type": "MD5",
+            "value": "4a50996d06af5cc252f793b2855d3fc7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Obituary_Mark_Twain.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94672,
+          "persistentId": "",
+          "filename": "Obituary_Mark_Twain.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 67151,
+          "storageIdentifier": "surf://store:17966829b0b-3de6381b2b10",
+          "rootDataFileId": -1,
+          "md5": "9742152d176cd96c5b7c2845ca02019e",
+          "checksum": {
+            "type": "MD5",
+            "value": "9742152d176cd96c5b7c2845ca02019e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Obituary_Mark_Twain.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94678,
+          "persistentId": "",
+          "filename": "Obituary_Mark_Twain.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 67110,
+          "storageIdentifier": "surf://store:17966829b3f-15ac027ea51d",
+          "rootDataFileId": -1,
+          "md5": "eaac4ef7f5c8fe9993daecf8a47e5a75",
+          "checksum": {
+            "type": "MD5",
+            "value": "eaac4ef7f5c8fe9993daecf8a47e5a75"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "preprocessing_lite.py",
+        "restricted": false,
+        "directoryLabel": "Evaluation_script/evaluator",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94624,
+          "persistentId": "",
+          "filename": "preprocessing_lite.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 3610,
+          "storageIdentifier": "surf://store:17966824057-35ef1ee8fe7d",
+          "rootDataFileId": -1,
+          "md5": "29b15c04b96e4743f24c5e0b0508df53",
+          "checksum": {
+            "type": "MD5",
+            "value": "29b15c04b96e4743f24c5e0b0508df53"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "See.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-cont/guide-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94680,
+          "persistentId": "",
+          "filename": "See.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 17031,
+          "storageIdentifier": "surf://store:17966829ac6-349167d13a05",
+          "rootDataFileId": -1,
+          "md5": "31af686f6fe1d7e93c26cc6217233856",
+          "checksum": {
+            "type": "MD5",
+            "value": "31af686f6fe1d7e93c26cc6217233856"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "See.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-cont/guide-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94676,
+          "persistentId": "",
+          "filename": "See.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 17020,
+          "storageIdentifier": "surf://store:17966829ae0-35e015b190a2",
+          "rootDataFileId": -1,
+          "md5": "02f714b45478883b3638b9dd1bedca19",
+          "checksum": {
+            "type": "MD5",
+            "value": "02f714b45478883b3638b9dd1bedca19"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "TEMPLE_OF_APOLLO.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-hist/guide-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94629,
+          "persistentId": "",
+          "filename": "TEMPLE_OF_APOLLO.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 50541,
+          "storageIdentifier": "surf://store:17966829b64-3ed2794a5ef6",
+          "rootDataFileId": -1,
+          "md5": "6476cf16fa4f98d88cfbec3c804ee121",
+          "checksum": {
+            "type": "MD5",
+            "value": "6476cf16fa4f98d88cfbec3c804ee121"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "TEMPLE_OF_APOLLO.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/guide-hist/guide-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94675,
+          "persistentId": "",
+          "filename": "TEMPLE_OF_APOLLO.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 50116,
+          "storageIdentifier": "surf://store:17966829b83-3f4172ddeb35",
+          "rootDataFileId": -1,
+          "md5": "e8aab0b89ef4d01e066af679e7255054",
+          "checksum": {
+            "type": "MD5",
+            "value": "e8aab0b89ef4d01e066af679e7255054"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "testClause-crf_out-evaluationFormat.png",
+        "restricted": false,
+        "directoryLabel": "Clause_evaluation",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94608,
+          "persistentId": "",
+          "filename": "testClause-crf_out-evaluationFormat.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 65310,
+          "storageIdentifier": "surf://store:179666fec54-30a02185097e",
+          "rootDataFileId": -1,
+          "md5": "fd4c2ecb7514a20e6b48b0d6b030250e",
+          "checksum": {
+            "type": "MD5",
+            "value": "fd4c2ecb7514a20e6b48b0d6b030250e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "testClause-crf_out-evaluationFormat.txt",
+        "restricted": false,
+        "directoryLabel": "Clause_evaluation/predictions",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94603,
+          "persistentId": "",
+          "filename": "testClause-crf_out-evaluationFormat.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 727066,
+          "storageIdentifier": "surf://store:179666ff3d6-67c095cb8bd4",
+          "rootDataFileId": -1,
+          "md5": "0929363e26783e9aabad7b8bd62ae7e7",
+          "checksum": {
+            "type": "MD5",
+            "value": "0929363e26783e9aabad7b8bd62ae7e7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "testClause_elmo-w2v_out.png",
+        "restricted": false,
+        "directoryLabel": "Clause_evaluation",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94604,
+          "persistentId": "",
+          "filename": "testClause_elmo-w2v_out.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 65066,
+          "storageIdentifier": "surf://store:179666feed2-936812e6a67a",
+          "rootDataFileId": -1,
+          "md5": "da6853b11b334fca1036361f43125685",
+          "checksum": {
+            "type": "MD5",
+            "value": "da6853b11b334fca1036361f43125685"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "testClause_elmo-w2v_out.txt",
+        "restricted": false,
+        "directoryLabel": "Clause_evaluation/predictions",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94599,
+          "persistentId": "",
+          "filename": "testClause_elmo-w2v_out.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 727332,
+          "storageIdentifier": "surf://store:179666ff26e-1e33b8b34bef",
+          "rootDataFileId": -1,
+          "md5": "97711ca9cdf287d6e2ffa40fce7e3605",
+          "checksum": {
+            "type": "MD5",
+            "value": "97711ca9cdf287d6e2ffa40fce7e3605"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "testClause_Gold.txt",
+        "restricted": false,
+        "directoryLabel": "Clause_evaluation",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94607,
+          "persistentId": "",
+          "filename": "testClause_Gold.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 736102,
+          "storageIdentifier": "surf://store:179666feb81-606e309c8870",
+          "rootDataFileId": -1,
+          "md5": "494b4cf0636b11ac8865b2e1d79b232f",
+          "checksum": {
+            "type": "MD5",
+            "value": "494b4cf0636b11ac8865b2e1d79b232f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "testClause-mostFrequent_out.png",
+        "restricted": false,
+        "directoryLabel": "Clause_evaluation",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94600,
+          "persistentId": "",
+          "filename": "testClause-mostFrequent_out.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 38488,
+          "storageIdentifier": "surf://store:179666fedbe-bacbe83acc9e",
+          "rootDataFileId": -1,
+          "md5": "ac6c21baaca2bda5bc26ff8dc411bde4",
+          "checksum": {
+            "type": "MD5",
+            "value": "ac6c21baaca2bda5bc26ff8dc411bde4"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "testClause-mostFrequent_out.txt",
+        "restricted": false,
+        "directoryLabel": "Clause_evaluation/predictions",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94605,
+          "persistentId": "",
+          "filename": "testClause-mostFrequent_out.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 690974,
+          "storageIdentifier": "surf://store:179666ff0f5-7f39b18f46b0",
+          "rootDataFileId": -1,
+          "md5": "f58731fdf3519158fb8d723bf2fa5a85",
+          "checksum": {
+            "type": "MD5",
+            "value": "f58731fdf3519158fb8d723bf2fa5a85"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "test_cont.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Time/cross-train-cont",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94877,
+          "persistentId": "",
+          "filename": "test_cont.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 369898,
+          "storageIdentifier": "surf://store:179808beb68-60db37a95f3a",
+          "rootDataFileId": -1,
+          "md5": "5c8c750a0cc96c8480eb4e64a4d0bcdf",
+          "checksum": {
+            "type": "MD5",
+            "value": "5c8c750a0cc96c8480eb4e64a4d0bcdf"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "test_guide.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Genre",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94874,
+          "persistentId": "",
+          "filename": "test_guide.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 237640,
+          "storageIdentifier": "surf://store:179808beb2a-fd1ac2759c5b",
+          "rootDataFileId": -1,
+          "md5": "5c1aa436daa348b752dc5ef7921edcb8",
+          "checksum": {
+            "type": "MD5",
+            "value": "5c1aa436daa348b752dc5ef7921edcb8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "test_hist.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Time/cross-train-hist",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94875,
+          "persistentId": "",
+          "filename": "test_hist.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 362041,
+          "storageIdentifier": "surf://store:179808beb78-a2418ff3e232",
+          "rootDataFileId": -1,
+          "md5": "3815470b3d47df4d60536d4c0f46b076",
+          "checksum": {
+            "type": "MD5",
+            "value": "3815470b3d47df4d60536d4c0f46b076"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "test_news.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Genre",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94880,
+          "persistentId": "",
+          "filename": "test_news.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 251627,
+          "storageIdentifier": "surf://store:179808beb3c-3f4cc9b727b9",
+          "rootDataFileId": -1,
+          "md5": "f21965ead6ab4ae92b0883c088a0a1fc",
+          "checksum": {
+            "type": "MD5",
+            "value": "f21965ead6ab4ae92b0883c088a0a1fc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "test_report.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Genre",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94879,
+          "persistentId": "",
+          "filename": "test_report.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 242727,
+          "storageIdentifier": "surf://store:179808beb23-99a4110efe7d",
+          "rootDataFileId": -1,
+          "md5": "2ec3c0bfd20bb5231d45cf3446135a90",
+          "checksum": {
+            "type": "MD5",
+            "value": "2ec3c0bfd20bb5231d45cf3446135a90"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "test.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/CTD_V1.5",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94870,
+          "persistentId": "",
+          "filename": "test.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 731927,
+          "storageIdentifier": "surf://store:179808beafa-f07ef0e5c09b",
+          "rootDataFileId": -1,
+          "md5": "d8eec8970ca1d4cb52e037adcdda4d9f",
+          "checksum": {
+            "type": "MD5",
+            "value": "d8eec8970ca1d4cb52e037adcdda4d9f"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "The_great_race.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94659,
+          "persistentId": "",
+          "filename": "The_great_race.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68651,
+          "storageIdentifier": "surf://store:17966829b20-ab6ea8996aa3",
+          "rootDataFileId": -1,
+          "md5": "d821e6753151b1056fadaeb5674531e7",
+          "checksum": {
+            "type": "MD5",
+            "value": "d821e6753151b1056fadaeb5674531e7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "The_great_race.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94674,
+          "persistentId": "",
+          "filename": "The_great_race.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 68661,
+          "storageIdentifier": "surf://store:17966829aed-0f45b7461f04",
+          "rootDataFileId": -1,
+          "md5": "6bd12b232fd5b0281efae658cf22eb26",
+          "checksum": {
+            "type": "MD5",
+            "value": "6bd12b232fd5b0281efae658cf22eb26"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "The_Lynching_of_John_Heith.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94640,
+          "persistentId": "",
+          "filename": "The_Lynching_of_John_Heith.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 66813,
+          "storageIdentifier": "surf://store:17966829b18-fdd352f490b7",
+          "rootDataFileId": -1,
+          "md5": "e2714198f9b50b2694d01945874b3c26",
+          "checksum": {
+            "type": "MD5",
+            "value": "e2714198f9b50b2694d01945874b3c26"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "The_Lynching_of_John_Heith.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94668,
+          "persistentId": "",
+          "filename": "The_Lynching_of_John_Heith.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 66382,
+          "storageIdentifier": "surf://store:17966829ae6-a1592ee07c9d",
+          "rootDataFileId": -1,
+          "md5": "039c0ca9ac37d3fe57df9b90aaaf73d9",
+          "checksum": {
+            "type": "MD5",
+            "value": "039c0ca9ac37d3fe57df9b90aaaf73d9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "The_New_Council.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94657,
+          "persistentId": "",
+          "filename": "The_New_Council.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 88040,
+          "storageIdentifier": "surf://store:17966829af9-4560bfe3c8d2",
+          "rootDataFileId": -1,
+          "md5": "4fdad434f1f1d05477e64744a011d064",
+          "checksum": {
+            "type": "MD5",
+            "value": "4fdad434f1f1d05477e64744a011d064"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "The_New_Council.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-hist/news-hist-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94654,
+          "persistentId": "",
+          "filename": "The_New_Council.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 88408,
+          "storageIdentifier": "surf://store:17966829b2d-4239f3dbbfe3",
+          "rootDataFileId": -1,
+          "md5": "114e8113d66f987463d1a0aa4f1841d8",
+          "checksum": {
+            "type": "MD5",
+            "value": "114e8113d66f987463d1a0aa4f1841d8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "train_cont.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Time/cross-train-cont",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94885,
+          "persistentId": "",
+          "filename": "train_cont.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1296668,
+          "storageIdentifier": "surf://store:179808beb5b-a70de78d0958",
+          "rootDataFileId": -1,
+          "md5": "d67ee457d2a35043ffac4d941cbd685c",
+          "checksum": {
+            "type": "MD5",
+            "value": "d67ee457d2a35043ffac4d941cbd685c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "train_guide.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Genre",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94886,
+          "persistentId": "",
+          "filename": "train_guide.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 896085,
+          "storageIdentifier": "surf://store:179808beb13-aa192de2c0a7",
+          "rootDataFileId": -1,
+          "md5": "d9403168955bdeff9eb747e1630b53b2",
+          "checksum": {
+            "type": "MD5",
+            "value": "d9403168955bdeff9eb747e1630b53b2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "train_hist.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Time/cross-train-hist",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94884,
+          "persistentId": "",
+          "filename": "train_hist.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1280791,
+          "storageIdentifier": "surf://store:179808beb87-cde8ec8e7acf",
+          "rootDataFileId": -1,
+          "md5": "7b6bd31a1861d0ff227bbe28ed3f3445",
+          "checksum": {
+            "type": "MD5",
+            "value": "7b6bd31a1861d0ff227bbe28ed3f3445"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "train_news.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Genre",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94872,
+          "persistentId": "",
+          "filename": "train_news.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 845509,
+          "storageIdentifier": "surf://store:179808beb46-74870fa7bda7",
+          "rootDataFileId": -1,
+          "md5": "c638d1539ae3e6384cd134487107946a",
+          "checksum": {
+            "type": "MD5",
+            "value": "c638d1539ae3e6384cd134487107946a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "train_report.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/Cross-Genre",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94883,
+          "persistentId": "",
+          "filename": "train_report.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 833919,
+          "storageIdentifier": "surf://store:179808beb33-f9ba2fb77b31",
+          "rootDataFileId": -1,
+          "md5": "c44169b4b9b5b7bd16a7d8023977107c",
+          "checksum": {
+            "type": "MD5",
+            "value": "c44169b4b9b5b7bd16a7d8023977107c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "train.txt",
+        "restricted": false,
+        "directoryLabel": "Datasets/CTD_V1.5",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94887,
+          "persistentId": "",
+          "filename": "train.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2577459,
+          "storageIdentifier": "surf://store:179808beae8-dc26945b62a0",
+          "rootDataFileId": -1,
+          "md5": "80f93a49cb8b97bad9abdc64dbe8ed46",
+          "checksum": {
+            "type": "MD5",
+            "value": "80f93a49cb8b97bad9abdc64dbe8ed46"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-18",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "WHAT_TO_DO_IN_NAPLES.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-cont/travel-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94638,
+          "persistentId": "",
+          "filename": "WHAT_TO_DO_IN_NAPLES.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 76363,
+          "storageIdentifier": "surf://store:17966829a94-e103f6fd711c",
+          "rootDataFileId": -1,
+          "md5": "f0dfeb068bd5c6854d336c39afc10e23",
+          "checksum": {
+            "type": "MD5",
+            "value": "f0dfeb068bd5c6854d336c39afc10e23"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "WHAT_TO_DO_IN_NAPLES.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/travel-cont/travel-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94653,
+          "persistentId": "",
+          "filename": "WHAT_TO_DO_IN_NAPLES.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 75628,
+          "storageIdentifier": "surf://store:17966829aac-ca15349ec52d",
+          "rootDataFileId": -1,
+          "md5": "3e807dbbda3742f9f87716561a6ba032",
+          "checksum": {
+            "type": "MD5",
+            "value": "3e807dbbda3742f9f87716561a6ba032"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_0329.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94643,
+          "persistentId": "",
+          "filename": "wsj_0329.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 17306,
+          "storageIdentifier": "surf://store:17966829bbf-c301165f4d0e",
+          "rootDataFileId": -1,
+          "md5": "75c402262e34b4040be9a9655a368a72",
+          "checksum": {
+            "type": "MD5",
+            "value": "75c402262e34b4040be9a9655a368a72"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_0329.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94667,
+          "persistentId": "",
+          "filename": "wsj_0329.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 17424,
+          "storageIdentifier": "surf://store:17966829b97-ec378b6b7af7",
+          "rootDataFileId": -1,
+          "md5": "8bdd2885d434d941a742fe329b30b713",
+          "checksum": {
+            "type": "MD5",
+            "value": "8bdd2885d434d941a742fe329b30b713"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_0346.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94666,
+          "persistentId": "",
+          "filename": "wsj_0346.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 17278,
+          "storageIdentifier": "surf://store:17966829bd4-383f4e7168a3",
+          "rootDataFileId": -1,
+          "md5": "14dbb21319109f8f52c62acdc4a3d808",
+          "checksum": {
+            "type": "MD5",
+            "value": "14dbb21319109f8f52c62acdc4a3d808"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_0346.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94656,
+          "persistentId": "",
+          "filename": "wsj_0346.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 17397,
+          "storageIdentifier": "surf://store:17966829baa-d70c5ff52416",
+          "rootDataFileId": -1,
+          "md5": "90af29e8260826efbda65816f1529646",
+          "checksum": {
+            "type": "MD5",
+            "value": "90af29e8260826efbda65816f1529646"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_0505.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94637,
+          "persistentId": "",
+          "filename": "wsj_0505.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 19868,
+          "storageIdentifier": "surf://store:17966829b91-84de9bcadacd",
+          "rootDataFileId": -1,
+          "md5": "a459bde69b208808857d6c12b0b16611",
+          "checksum": {
+            "type": "MD5",
+            "value": "a459bde69b208808857d6c12b0b16611"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_0505.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94648,
+          "persistentId": "",
+          "filename": "wsj_0505.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 19832,
+          "storageIdentifier": "surf://store:17966829bb6-9518f777d3be",
+          "rootDataFileId": -1,
+          "md5": "76564cd11262886b7db939b31e247aaa",
+          "checksum": {
+            "type": "MD5",
+            "value": "76564cd11262886b7db939b31e247aaa"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_0542.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94642,
+          "persistentId": "",
+          "filename": "wsj_0542.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 36183,
+          "storageIdentifier": "surf://store:17966829ba4-99a8b8ab03bc",
+          "rootDataFileId": -1,
+          "md5": "fc0414b6e16839ae13e506f1b8dd622b",
+          "checksum": {
+            "type": "MD5",
+            "value": "fc0414b6e16839ae13e506f1b8dd622b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_0542.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94664,
+          "persistentId": "",
+          "filename": "wsj_0542.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 36037,
+          "storageIdentifier": "surf://store:17966829bce-54cda413dacb",
+          "rootDataFileId": -1,
+          "md5": "50832ecb6d6b471a6172c94da8c23548",
+          "checksum": {
+            "type": "MD5",
+            "value": "50832ecb6d6b471a6172c94da8c23548"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_0583.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94647,
+          "persistentId": "",
+          "filename": "wsj_0583.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 100579,
+          "storageIdentifier": "surf://store:17966829bc7-cb2083da191a",
+          "rootDataFileId": -1,
+          "md5": "d2f67cdc69db9bb3c9d49b2ea6ce1bfa",
+          "checksum": {
+            "type": "MD5",
+            "value": "d2f67cdc69db9bb3c9d49b2ea6ce1bfa"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_0583.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94634,
+          "persistentId": "",
+          "filename": "wsj_0583.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 101523,
+          "storageIdentifier": "surf://store:17966829b9e-acfe6cc3e905",
+          "rootDataFileId": -1,
+          "md5": "e0beed04153c2b6a3efad52729dc0ed8",
+          "checksum": {
+            "type": "MD5",
+            "value": "e0beed04153c2b6a3efad52729dc0ed8"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_1006.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A1",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94641,
+          "persistentId": "",
+          "filename": "wsj_1006.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 65737,
+          "storageIdentifier": "surf://store:17966829b8a-b24010814290",
+          "rootDataFileId": -1,
+          "md5": "91c72cec7be9bfc7547b487991745eaf",
+          "checksum": {
+            "type": "MD5",
+            "value": "91c72cec7be9bfc7547b487991745eaf"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "wsj_1006.xml.conll.txt.xml",
+        "restricted": false,
+        "directoryLabel": "IAA/news-cont/news-cont-A3",
+        "version": 1,
+        "datasetVersionId": 3669,
+        "dataFile": {
+          "id": 94631,
+          "persistentId": "",
+          "filename": "wsj_1006.xml.conll.txt.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 65205,
+          "storageIdentifier": "surf://store:17966829bb0-0cb51956eacb",
+          "rootDataFileId": -1,
+          "md5": "15929991143482104c9adbdce55a946a",
+          "checksum": {
+            "type": "MD5",
+            "value": "15929991143482104c9adbdce55a946a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-05-13",
+          "publicationDate": "2021-05-18",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Caselli, Tommaso; Sprugnoli, Rachele; Moretti, Giovanni, 2021, \"Content Type Dataset - v1.5\", https://doi.org/10.34894/TYB4PF, DataverseNL, V1"
+  }
+}

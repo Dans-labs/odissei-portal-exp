@@ -1,0 +1,806 @@
+{
+  "id": 555965,
+  "identifier": "CVJYIK",
+  "persistentUrl": "https://doi.org/10.34894/CVJYIK",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-11-20",
+  "storageIdentifier": "surf://10.34894/CVJYIK",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31892,
+    "datasetId": 555965,
+    "datasetPersistentId": "doi:10.34894/CVJYIK",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/CVJYIK",
+    "versionNumber": 1,
+    "internalVersionNumber": 17,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-11-20T08:30:29Z",
+    "releaseTime": "2025-11-20T08:30:29Z",
+    "createTime": "2025-11-04T14:18:47Z",
+    "publicationDate": "2025-11-20",
+    "citationDate": "2025-11-20",
+    "termsOfUse": "The data are sensitive since they involve personal information of patients. There are restrictions on use by commercial parties and on sharing openly, based on (inter)national laws and regulations and written informed consent. Therefore these data (and additional clinical data) are only available upon signing a Joint Data Registry Agreement (see Terms of Access).",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Heart Valve Society Mitral and Tricuspid Valve Database"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "HVS Mitral and Tricuspid Valve Database"
+            ]
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "https://heartvalvesociety.org/Mitral/"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Veen, Kevin"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "erasmusmc.nl"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2806-8384"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Girdauskas, Evaldas"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/01zgy1s35",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University Medical Center Hamburg-Eppendorf",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-1571-4244"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "de Geest, Donna"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus MC"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Veen, Kevin"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus MC"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Database e-mail"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heart Valve Society"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The Heart Valve Society (HVS) Mitral and Tricuspid Valve Database is an international, prospective, multicenter registry designed to monitor and improve care for patients with mitral and/or tricuspid valve disease. This collaborative initiative brings together expertise across cardiology, cardiac surgery, and cardiovascular research to support international standardization and improve lifelong outcomes for valve disease patients. The database captures detailed clinical, imaging, procedural, and patient-reported information on adult patients undergoing surgical or transcatheter interventions for valve stenosis, regurgitation, or prosthetic valve dysfunction.\n\nThe registry supports ambispective observational cohort studies and is open to centers performing mitral and/or tricuspid valve interventions. Participating centers may enroll patients consecutively or within project-based cohorts. Data elements include 293 baseline and case-mix variables, 78 clinical and imaging outcome measures, and two validated patient-reported outcome instruments (EQ-5D-5L and the Impact on Mental Health & Daily Activities questionnaire). Outcomes and definitions are harmonized with the International Consortium for Health Outcomes Measurement (ICHOM) heart valve disease standard set. \n\nControllership is regulated through a Joint Data Registry Agreement, under which all participating centers are joint controllers.The system complies with GDPR and HIPAA requirements, ensuring patient privacy through pseudonymized and anonymized data extracts.\n\nResearchers can request access to multicenter data by submitting a research or project proposal. Users may work with data already available in the registry or initiate project-based data collection by defining a specific patient population and timeframe. After review and approval by the Scientific Committee, researchers receive a double-pseudonymized dataset suitable for analysis.\n\nAdditional documentation, including guidance on proposal requirements, registry standards, and supporting materials, is available at:\nhttps://heartvalvesociety.org/Mitral/Registry/Documents/\nAll documents provided through this link and on this Dataverse page are available under a CC-BY license."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-11-04"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Registries"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68012042"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68012042"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Patient Reported Outcome Measures"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68012042"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68012042"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mitral Valve"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68008943"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68008943"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tricuspid Valve"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68014261"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68014261"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cardiac Surgical Procedures"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68006348"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68006348"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Quality of Life"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=quality+of+life"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=quality+of+life"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Diagnostic Imaging"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68003952"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68003952"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heart Valve Diseases"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=heart+valve+disease"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=heart+valve+disease"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mitral Valve Stenosis"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=mitral+stenosis"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=mitral+stenosis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mitral Valve Insufficiency"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=mitral+insufficiency"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=mitral+insufficiency"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tricuspid Valve Insufficiency"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=tricuspid+insufficiency"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=tricuspid+insufficiency"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tricuspid Valve Stenosis"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=tricuspid+stenosis"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/?term=tricuspid+stenosis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Minimally Invasive Surgical Procedures"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68019060"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68019060"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cardiology"
+                },
+                "keywordTermURI": {
+                  "typeName": "keywordTermURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68002309"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.ncbi.nlm.nih.gov/mesh/68002309"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Cites"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Veen, K. M., de Geest, D., Hahn, R. T., Hatoum, H., Delgado, V., Thourani, V. H., ... & Girdauskas, E. (2025). Data Resource Profile: The Heart Valve Society (HVS) Mitral and Tricuspid Valve Database. Journal of the Heart Valve Society, 30494826241313425."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1177/30494826241313425"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://journals.sagepub.com/doi/pdf/10.1177/30494826241313425"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heart Valve Society"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heart Valve Society"
+                },
+                "producerAbbreviation": {
+                  "typeName": "producerAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "HVS"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://heartvalvesociety.org/"
+                },
+                "producerLogoURL": {
+                  "typeName": "producerLogoURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://heartvalvesociety.org/multimedia/images/logos/HVS.png"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Manager"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus MC"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Edwards Lifesciences"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ER1MCQ4E1677"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/CVJYIK"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:9e72360f-a39f-4592-83ef-41137cba3d46"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-24e46c94-54aa-49f3-b201-ad3ba7f126a0"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Case-Report-Form-HVS-MTV-Database-v4.2024.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31892,
+        "dataFile": {
+          "id": 555968,
+          "persistentId": "",
+          "filename": "Case-Report-Form-HVS-MTV-Database-v4.2024.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 924806,
+          "storageIdentifier": "surf://store:19a4f4e81ce-75bb36cd5f02",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "920f47257d0e4b0fbc629d5577c3c03c85d13122"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-04",
+          "publicationDate": "2025-11-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "HVS-MTV-Database-Data-Dictionairy-V4.2025.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31892,
+        "dataFile": {
+          "id": 555967,
+          "persistentId": "",
+          "filename": "HVS-MTV-Database-Data-Dictionairy-V4.2025.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 18295,
+          "storageIdentifier": "surf://store:19a4f446d33-f08fb004adcf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "43c5682c710db42adb7e50c19406397d9a20ce0c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-04",
+          "publicationDate": "2025-11-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "HVS-MTV-Registry-Project-Plan-V1.0.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 31892,
+        "dataFile": {
+          "id": 555966,
+          "persistentId": "",
+          "filename": "HVS-MTV-Registry-Project-Plan-V1.0.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 526748,
+          "storageIdentifier": "surf://store:19a4f41e876-79266dfe2034",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "642dfcf666d8a9fb623e805443db0bee9ac043a5"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-04",
+          "publicationDate": "2025-11-20",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Veen, Kevin; Girdauskas, Evaldas, 2025, \"Heart Valve Society Mitral and Tricuspid Valve Database\", https://doi.org/10.34894/CVJYIK, DataverseNL, V1"
+  }
+}

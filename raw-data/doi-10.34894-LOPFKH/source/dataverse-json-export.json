@@ -1,0 +1,205 @@
+{
+  "id": 633485,
+  "identifier": "LOPFKH",
+  "persistentUrl": "https://doi.org/10.34894/LOPFKH",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-04-22",
+  "storageIdentifier": "surf://10.34894/LOPFKH",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34365,
+    "datasetId": 633485,
+    "datasetPersistentId": "doi:10.34894/LOPFKH",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/LOPFKH",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-04-22T11:45:26Z",
+    "releaseTime": "2026-04-22T11:45:26Z",
+    "createTime": "2026-04-22T11:43:18Z",
+    "publicationDate": "2026-04-22",
+    "citationDate": "2026-04-22",
+    "termsOfUse": "Terms follow the Five Safes License: https://github.com/odissei-data/ODISSEI-Five-Safes-license",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "A test dataset for developing the Data Access Broker"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hesam, Ahmad"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SURF"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hesam, Ahmad"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SURF"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A test dataset designed to support the development, testing, and validation of the Data Access Broker (DAB). It mimics realistic data access scenarios, including varying access conditions, policy constraints, and metadata structures, enabling developers to evaluate policy matching, workflow automation, and audit capabilities in a controlled environment without using sensitive or restricted data."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Hesam, Ahmad"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-04-22"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/LOPFKH"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:11210e70-8aa5-4e36-bd64-c58851ac7cb0"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-72dc2eb7-1d76-441d-8b24-ca74c254a790"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "five_safes_license.ttl",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34365,
+        "dataFile": {
+          "id": 633486,
+          "persistentId": "",
+          "filename": "five_safes_license.ttl",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3233,
+          "storageIdentifier": "surf://store:19db5003bf4-23acc7ea0438",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "975583cee8ad3e7faf19efa43fb0656af234a763"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-22",
+          "publicationDate": "2026-04-22",
+          "lastUpdateTime": "2026-04-22T11:45:26Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sensitive_data.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 34365,
+        "dataFile": {
+          "id": 633487,
+          "persistentId": "",
+          "filename": "sensitive_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 219414,
+          "storageIdentifier": "surf://store:19db4fe96eb-aed456fadf29",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7e8baa34de58c99d3e9e5de474230f973d01317a"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-22",
+          "publicationDate": "2026-04-22",
+          "lastUpdateTime": "2026-04-22T11:45:26Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Hesam, Ahmad, 2026, \"A test dataset for developing the Data Access Broker\", https://doi.org/10.34894/LOPFKH, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "id": 299570,
+  "identifier": "6WEAUR",
+  "persistentUrl": "https://doi.org/10.34894/6WEAUR",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-09-13",
+  "storageIdentifier": "surf://10.34894/6WEAUR",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 21430,
+    "datasetId": 299570,
+    "datasetPersistentId": "doi:10.34894/6WEAUR",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/6WEAUR",
+    "versionNumber": 1,
+    "internalVersionNumber": 13,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2022-09-13T14:17:33Z",
+    "releaseTime": "2022-09-13T14:17:33Z",
+    "createTime": "2022-06-16T15:08:03Z",
+    "publicationDate": "2022-09-13",
+    "citationDate": "2022-09-13",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "availabilityStatus": "Due to third-party rights, the data are not available through Dataverse, but are stored on Tilburg University's secure network drive.",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "A dataset containing tweets and their meta data for understanding social media conversations around movies during their release."
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Tweets that talk about a particular movie during its release for 2020 and 2021"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Michielsen, Joost"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lelli, Francesco"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-1900-9171"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Lelli, Francesco"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "We are sharing a dataset that contains a collection of tweets generated as reactions of the release of 50 different movies. The dataset can be used for gaining useful insights regarding the conversation that is generated around a particular movie. It is particularly suitable for conducting sentiment analysis and other NLP techniques. The dataset contains approximately 2.5 million tweets with their related meta data and cover 50 movies. For each movie, its IMDb rating is included. The movies are the 25 releases with the highest number of votes during 2020 and 2021. The collected tweets represent the reactions of the twitter community during the first week of the release date in US of that particular movie. The tweets per movie ranged from 1.000 to approximately 200.000 tweets with an average of 50.000 per release.  We used The Internet Archive Wayback Machine in order to retrieve the IMDb movie rating after one week of the US release date. The tweets and related metadata have been collected using the Tweet Downloader tool.\nContact at Tilburg University: <a href=\"https://francescolelli.info/contacts/\" >Francesco Lelli</a>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-06-16"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Business and Management",
+              "Computer and Information Science",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Michielsen, J.; Lelli, F. A Dataset Containing Tweets and Their Meta Data for Understanding Social Media Conversations around Movies during Their Release . Preprints 2022, 2022060246 (doi: 10.20944/preprints202206.0246.v1)"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.20944/preprints202206.0246.v1"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.preprints.org/manuscript/202206.0246/v1"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Due to third-party rights, the data are not available through Dataverse, but are stored on Tilburg University's secure network drive."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Lelli, Francesco"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-06-16"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/6WEAUR"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:3db649f3-4415-4de9-9865-c6e36c0444cc"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-5b4c5591-d25d-4184-a9cf-009ea2c0d474"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Data_Report.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 21430,
+        "dataFile": {
+          "id": 299572,
+          "persistentId": "",
+          "filename": "Data_Report.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 87344,
+          "storageIdentifier": "surf://store:1816d0d7b4b-fe23dd003623",
+          "rootDataFileId": -1,
+          "md5": "3c9d3baf5d68807db92a433ab14e0fe0",
+          "checksum": {
+            "type": "MD5",
+            "value": "3c9d3baf5d68807db92a433ab14e0fe0"
+          },
+          "tabularData": false,
+          "creationDate": "2022-06-16",
+          "publicationDate": "2022-09-13",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Michielsen, Joost; Lelli, Francesco, 2022, \"A dataset containing tweets and their meta data for understanding social media conversations around movies during their release.\", https://doi.org/10.34894/6WEAUR, DataverseNL, V1"
+  }
+}

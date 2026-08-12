@@ -1,0 +1,907 @@
+{
+  "id": 459036,
+  "identifier": "BGPHRA",
+  "persistentUrl": "https://doi.org/10.34894/BGPHRA",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-11-25",
+  "storageIdentifier": "surf://10.34894/BGPHRA",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 29915,
+    "datasetId": 459036,
+    "datasetPersistentId": "doi:10.34894/BGPHRA",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/BGPHRA",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-11-25T09:59:33Z",
+    "releaseTime": "2024-11-25T09:59:33Z",
+    "createTime": "2024-11-25T09:59:10Z",
+    "publicationDate": "2024-11-25",
+    "citationDate": "2024-11-25",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for Chapter 2 - Non-standard employment and automation: Stepping stone or dead end?"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jaccoud, Florencia"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UNU-MERIT, Maastricht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0006-7411-5021"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Notten, Ad"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains the following information:\n\n- do_files: the codes to reproduce the analysis of chapter 2 in STATA can be found.\n- data: it provides the dataset with the automation index used in the analysis\n- a ReadMe file explaining the analysis\n\nThe data used in this chapter comes from the European Union Survey for Living Conditions (EU-SILC) and the European Union Labour Force Survey (EU-LFS). This data cannot not be made available due to Eurostat regulations."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-11-25"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Notten, Ad"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-11-25"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/BGPHRA"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:ec9387d5-3f76-41d5-a906-d5e5b989506e"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-386231ed-9e24-4daa-ad44-58fe385f4da3"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "cleaning_long_2005.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459041,
+          "persistentId": "",
+          "filename": "cleaning_long_2005.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1759,
+          "storageIdentifier": "surf://store:19362c110a7-b51cff37122d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eab0cc040a8dc2c48a10f06c85d9d31c321a478f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2006.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459039,
+          "persistentId": "",
+          "filename": "cleaning_long_2006.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1829,
+          "storageIdentifier": "surf://store:19362c110ae-fb5181bd6318",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "efab9ac98979b1c6b83280d965a0fff8eb8534bf"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2007.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459054,
+          "persistentId": "",
+          "filename": "cleaning_long_2007.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1836,
+          "storageIdentifier": "surf://store:19362c110b4-ec79bdc6a4fe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "25f16b27aab0cd21162baed7a6f7b5fdfc81b1e9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2008.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459057,
+          "persistentId": "",
+          "filename": "cleaning_long_2008.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1835,
+          "storageIdentifier": "surf://store:19362c110b9-a634ee792534",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "92f99ab78039d48f25eea65bec91f51f33ff40bd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2009.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459061,
+          "persistentId": "",
+          "filename": "cleaning_long_2009.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1847,
+          "storageIdentifier": "surf://store:19362c110bf-d24f58017454",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d58c1f79efd48e16a6cebf9f38bd77e1517dfd2a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2010.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459056,
+          "persistentId": "",
+          "filename": "cleaning_long_2010.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1836,
+          "storageIdentifier": "surf://store:19362c110c5-3a3f8b119448",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f3aeff66a755be16eff0767e7521f3c0a56a8a06"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2011.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459060,
+          "persistentId": "",
+          "filename": "cleaning_long_2011.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1847,
+          "storageIdentifier": "surf://store:19362c110cb-7ab191b4de2a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "46c574d4b3d0823e54e3be4ce58cf5ef9309161c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2012.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459049,
+          "persistentId": "",
+          "filename": "cleaning_long_2012.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1848,
+          "storageIdentifier": "surf://store:19362c110d0-a0f9c0a16f97",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6d33e8caefaffed66f4379df984d441c1b18f2af"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2013.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459040,
+          "persistentId": "",
+          "filename": "cleaning_long_2013.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1853,
+          "storageIdentifier": "surf://store:19362c110d6-f0eb643d24c7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "82390a7c84af0ca2890ffa4d0d49dea88f2f4f52"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2014.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459062,
+          "persistentId": "",
+          "filename": "cleaning_long_2014.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1865,
+          "storageIdentifier": "surf://store:19362c110dc-6ebfe7bac79b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4f31837d844f9926f8b12044107ef231f314485d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2015.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459038,
+          "persistentId": "",
+          "filename": "cleaning_long_2015.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1865,
+          "storageIdentifier": "surf://store:19362c110e1-0ae55c701aad",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "13e08ca4fa6563762efce9c9a4620f106b1f9cba"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2016.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459044,
+          "persistentId": "",
+          "filename": "cleaning_long_2016.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1865,
+          "storageIdentifier": "surf://store:19362c110e7-f0d8462d69b1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "980ed9565e0d23057cc24548403bf8d5ad762449"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2017.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459065,
+          "persistentId": "",
+          "filename": "cleaning_long_2017.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1859,
+          "storageIdentifier": "surf://store:19362c110ec-1c8960a17f86",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a00f1ff0b898a6d6278208e9dabbf5955f76b147"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2018.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459063,
+          "persistentId": "",
+          "filename": "cleaning_long_2018.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 3629,
+          "storageIdentifier": "surf://store:19362c110f5-f76ba08ac83c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "32e5fd37a9b5e6cb541af393cd10225ad2884d91"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "cleaning_long_2019.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459043,
+          "persistentId": "",
+          "filename": "cleaning_long_2019.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1835,
+          "storageIdentifier": "surf://store:19362c110fe-9c39f07f11e2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "563eb19ddaff33f83cdbb15ba0ab7286605f05db"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "correlations_nse_ser_automation_risk.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459037,
+          "persistentId": "",
+          "filename": "correlations_nse_ser_automation_risk.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 12550,
+          "storageIdentifier": "surf://store:19362c11105-a34c45326568",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9a826e39a323c1b516387c2687504a5834928f15"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "descriptives_SER_NSE.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459055,
+          "persistentId": "",
+          "filename": "descriptives_SER_NSE.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 7144,
+          "storageIdentifier": "surf://store:19362c1110c-23c3164ed8fb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "65a756a12bfd9ff042df693e3cb0e2d9224eacfd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "descriptives_SER_NSE_index.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459042,
+          "persistentId": "",
+          "filename": "descriptives_SER_NSE_index.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 8091,
+          "storageIdentifier": "surf://store:19362c11112-7d88f4fb1d84",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "56b2c497a4513e3c504c1c5af17cb7b40069693f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MNL_data_construction_2005_2011.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459064,
+          "persistentId": "",
+          "filename": "MNL_data_construction_2005_2011.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 7064,
+          "storageIdentifier": "surf://store:19362c1107d-f46b34e8b735",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "71617afdbc963745adca70d44fbd2e0e6a43436a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MNL_data_construction_2012_2014.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459045,
+          "persistentId": "",
+          "filename": "MNL_data_construction_2012_2014.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 5106,
+          "storageIdentifier": "surf://store:19362c11082-acca4d9f706d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5c448ba6b1bce9718fd67566618cf6ac13e31b47"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MNL_data_construction_2015_2018.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459047,
+          "persistentId": "",
+          "filename": "MNL_data_construction_2015_2018.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 5080,
+          "storageIdentifier": "surf://store:19362c11088-749dd187d354",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7d4271706ca5d43241af43e7ccbbaa6550cd7633"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MNL_regressions.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459051,
+          "persistentId": "",
+          "filename": "MNL_regressions.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 30116,
+          "storageIdentifier": "surf://store:19362c1108d-dc59008cf2e8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7f5c89219830618f29a8fe05c431cdffc38005ea"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MNL_Test IID.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459058,
+          "persistentId": "",
+          "filename": "MNL_Test IID.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 3429,
+          "storageIdentifier": "surf://store:19362c11077-b60dd10ad97f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1f1605114d1e44d72a3c4f1b92f386c225240d1d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MNL_transition_matrices.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459048,
+          "persistentId": "",
+          "filename": "MNL_transition_matrices.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 2902,
+          "storageIdentifier": "surf://store:19362c11093-959744302327",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c815623b1a120c9b6b3e49a14aa31a8c303b3873"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "MNP_regressions_probit.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459046,
+          "persistentId": "",
+          "filename": "MNP_regressions_probit.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 4509,
+          "storageIdentifier": "surf://store:19362c11099-d2fd94031a7c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1f87d7b1c423a39dbf20fa40a913c38101bc4ae4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README_chapter2.txt",
+        "restricted": false,
+        "directoryLabel": "chapter_2",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459053,
+          "persistentId": "",
+          "filename": "README_chapter2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2195,
+          "storageIdentifier": "surf://store:19362c110a0-06234573453d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fdb6615040c2c1435b4aae6d2e16c9d8fe718f7c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Risk4Florencia_2D.dta",
+        "restricted": false,
+        "directoryLabel": "chapter_2/data",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459059,
+          "persistentId": "",
+          "filename": "Risk4Florencia_2D.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 3771,
+          "storageIdentifier": "surf://store:19362c110a7-f9bd5bdbd40c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "44bbb62d7259e17717854c7aae83087f30dd8716"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "routineindex2D08.dta",
+        "restricted": false,
+        "directoryLabel": "chapter_2/data",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459050,
+          "persistentId": "",
+          "filename": "routineindex2D08.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 2040,
+          "storageIdentifier": "surf://store:19362c1111c-b2c24f0bbc5b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9c0ac4a76b05e3e26511a158fd99d515a46116a9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "spearman_correlation_indexes.do",
+        "restricted": false,
+        "directoryLabel": "chapter_2/do_files",
+        "version": 1,
+        "datasetVersionId": 29915,
+        "dataFile": {
+          "id": 459052,
+          "persistentId": "",
+          "filename": "spearman_correlation_indexes.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 1541,
+          "storageIdentifier": "surf://store:19362c1111d-9dce52d4494d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5d31a70f999521d4226ba3ed42fd14c63ffab5a3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Jaccoud, Florencia, 2024, \"Replication Data for Chapter 2 - Non-standard employment and automation: Stepping stone or dead end?\", https://doi.org/10.34894/BGPHRA, DataverseNL, V1"
+  }
+}

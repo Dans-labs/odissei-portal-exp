@@ -1,0 +1,1492 @@
+{
+  "id": 380716,
+  "identifier": "HO5GE3",
+  "persistentUrl": "https://doi.org/10.34894/HO5GE3",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-09-18",
+  "storageIdentifier": "surf://10.34894/HO5GE3",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25975,
+    "datasetId": 380716,
+    "datasetPersistentId": "doi:10.34894/HO5GE3",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/HO5GE3",
+    "versionNumber": 1,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2023-09-11",
+    "lastUpdateTime": "2025-07-08T14:33:53Z",
+    "releaseTime": "2025-07-08T14:33:53Z",
+    "createTime": "2024-02-28T14:54:26Z",
+    "publicationDate": "2023-09-18",
+    "citationDate": "2023-09-18",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "EGOFALLS: A visual-audio dataset and benchmark for fall detection using egocentric cameras"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wang, Xueyi"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-2094-5074"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "We've provided a readme.pdf to explain how to use the dataset. Here, we reiterate some of that information to assist others in utilizing the dataset.<br>\nPlease be aware that the files and the dataset are large (approx. 200GB.). It is advised to make sure there is ample storage space for downloading and unzipping. Please download one file at a time.\n<br><br>\n\n<b>Dataset:</b> Our data collection method involved cameras, subjects, environments, and guidelines for data simulation to elucidate the specifics of our process. Notably, our dataset, comprising 10,948 clips, stands out as the largest when compared to others that focus on falls recorded through egocentric cameras.<br>\n\n<b>Equipment:</b> Data was amassed using two wearable camera types: the OnReal G1 and CAMMHD Bodycams. The OnReal G1 is a compact mini action camera, with dimensions of 420 x 420 x 200 mm, and can capture videos in resolutions as high as 1080P at 30 fps. Conversely, the CAMMHD Bodycam, a larger camera measuring 800 x 500 x 300 mm, is outfitted with infrared sensors suitable for night vision. These cameras were strategically affixed to the human body at places like the waist and neck, allowing the collection of extensive visual, motion, and audio information across varied environments. The standard setting for data capture was the 1080p video mode at 30 frames per second. It's worth noting that the OnReal G1 frames consist of distinct R, G, B channels, whereas CAMMHD Bodycam frames feature three identical grayscale channels. This dataset, therefore, is a pivotal resource for this thesis, facilitating a thorough analysis of different events and activities.<br>\n\n<b>Subject:</b> For this study, we had 14 volunteer participants: 12 males and 2 females. This included 12 young, healthy individuals and 2 elderly subjects. All participants gave informed consent, understanding their data might be utilized for research and potentially be publicized. Most subjects (11 out of 14) finished the data collection encompassing four types of falls and nine types of non-falls, both indoor and outdoor. However, three participants couldn't complete the entire data collection due to personal reasons. This study yields significant insights into falls and non-fall behaviors, underscoring the dedication of the majority of our participants.<br>\n\n<b>Environment:</b> Our aim was a comprehensive study of both indoor and outdoor environments. We captured data across 14 different outdoor settings and 15 unique indoor spaces. To introduce variability, participants were prompted to change their positions or directions post each activity. Such an approach ensures a diversified dataset, letting us derive more reliable conclusions and insights.<br>\n\n<b>Data Collection:</b> Our data collection approach encompasses two main perspectives: visual and auditory. For visual data, we adhered to guidelines from existing literature; typical falls and related activities have a duration of 1-3 seconds. We proposed an exhaustive set of trials that cover 20 types of falls, each varying in direction and object interaction. Contrarily, specific guidelines for audio data are scarce, as past research largely centered on visual cues. Our audio dataset comprises three categories: subject audio, subject-object audio, and environment audio. To provide participants a realistic feel of falls, we showed them online videos of real-world fall incidents. These videos accurately render the auditory and visual elements of these events. Upon manual inspection of all clips, we discerned prevalent audio patterns. For falls, subject audio includes elements like yelling and moaning; subject-object audio encapsulates sounds of impacts, and environmental audio captures background noises like traffic or television. Importantly, not all clips contained every sound type. Non-fall activities were bifurcated into three groups based on their audio intensity. Our findings shed light on the audio patterns across activities, potentially enhancing subsequent research in this domain."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-09-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fall detection"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Egocentric vision"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Activity recognition"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Machine learning"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Deep learning"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fall detection"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Activity recognition"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EGOFALLS: A visual-audio dataset and benchmark for fall detection using egocentric cameras."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "arXiv"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2309.04579"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://arxiv.org/abs/2309.04579"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Fall detection with a non-intrusive and first-person vision approach from IEEE Sensors Journal, which has been accepted and will be online soon."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Xueyi Wang"
+                },
+                "producerAffiliation": {
+                  "typeName": "producerAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "producerAbbreviation": {
+                  "typeName": "producerAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "RUG"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.rug.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Collector"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Xueyi Wang"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-09-11"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Everhardt, Marita"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-08-10"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2018-09-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-09-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2018-09-01"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-09-01"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/HO5GE3"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:031dd084-1f89-4ce8-973e-258f8061f440"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-56f50f1a-cf90-4158-b884-15eb64e17ce9"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Here is the explanation about how to use the dataset.",
+        "label": "readme.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25975,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 381650,
+          "persistentId": "",
+          "filename": "readme.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 510707,
+          "description": "Here is the explanation about how to use the dataset.",
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:18a74481e20-12fa32d11d84",
+          "rootDataFileId": -1,
+          "md5": "a14e5a7d8320408336b89cd911ed33be",
+          "checksum": {
+            "type": "MD5",
+            "value": "a14e5a7d8320408336b89cd911ed33be"
+          },
+          "tabularData": false,
+          "creationDate": "2023-09-08",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_D_WD.z01",
+        "restricted": false,
+        "directoryLabel": "S_D_WD_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380751,
+          "persistentId": "",
+          "filename": "S_D_WD.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e56db8b7-1e611180c1bc",
+          "rootDataFileId": -1,
+          "md5": "6a85d188f2a6e9463335fd48b6591180",
+          "checksum": {
+            "type": "MD5",
+            "value": "6a85d188f2a6e9463335fd48b6591180"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_D_WD.zip",
+        "restricted": false,
+        "directoryLabel": "S_D_WD_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380750,
+          "persistentId": "",
+          "filename": "S_D_WD.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 5089523315,
+          "storageIdentifier": "surf://store:189e5601682-503f1dc0145b",
+          "rootDataFileId": -1,
+          "md5": "63f28bf158b382e7953532c7bdcf3500",
+          "checksum": {
+            "type": "MD5",
+            "value": "63f28bf158b382e7953532c7bdcf3500"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_D_W.z01",
+        "restricted": false,
+        "directoryLabel": "S_D_W_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380752,
+          "persistentId": "",
+          "filename": "S_D_W.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e5bb51a6-e7e9cbf9ef20",
+          "rootDataFileId": -1,
+          "md5": "5610bb857a9852f86efadeaa7b516038",
+          "checksum": {
+            "type": "MD5",
+            "value": "5610bb857a9852f86efadeaa7b516038"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_D_W.zip",
+        "restricted": false,
+        "directoryLabel": "S_D_W_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380753,
+          "persistentId": "",
+          "filename": "S_D_W.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 5009407608,
+          "storageIdentifier": "surf://store:189e5acdd88-6d2b9c0ec742",
+          "rootDataFileId": -1,
+          "md5": "159540952357d9ee142bb587e792a101",
+          "checksum": {
+            "type": "MD5",
+            "value": "159540952357d9ee142bb587e792a101"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_FI.zip",
+        "restricted": false,
+        "directoryLabel": "S_FI",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380748,
+          "persistentId": "",
+          "filename": "S_FI.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 5391633841,
+          "storageIdentifier": "surf://store:189e52fcba4-d720696d9154",
+          "rootDataFileId": -1,
+          "md5": "58c9b2b11fd9cf55ea5318457de7b122",
+          "checksum": {
+            "type": "MD5",
+            "value": "58c9b2b11fd9cf55ea5318457de7b122"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_F.zip",
+        "restricted": false,
+        "directoryLabel": "S_F",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380749,
+          "persistentId": "",
+          "filename": "S_F.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 3628430034,
+          "storageIdentifier": "surf://store:189e536b3da-74f33093bfda",
+          "rootDataFileId": -1,
+          "md5": "27e7a44ce338084268aba9a2f0929a1b",
+          "checksum": {
+            "type": "MD5",
+            "value": "27e7a44ce338084268aba9a2f0929a1b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_HB.zip",
+        "restricted": false,
+        "directoryLabel": "S_HB",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380743,
+          "persistentId": "",
+          "filename": "S_HB.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 5919911342,
+          "storageIdentifier": "surf://store:189e4bacb2b-2e7e23eece71",
+          "rootDataFileId": -1,
+          "md5": "4826ccdc08142e6a277bd878ce395ba3",
+          "checksum": {
+            "type": "MD5",
+            "value": "4826ccdc08142e6a277bd878ce395ba3"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_H.z01",
+        "restricted": false,
+        "directoryLabel": "S_H_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380746,
+          "persistentId": "",
+          "filename": "S_H.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e4e2673c-a21269a34137",
+          "rootDataFileId": -1,
+          "md5": "8083d6c5c1321e8bdfcc8180346b3f39",
+          "checksum": {
+            "type": "MD5",
+            "value": "8083d6c5c1321e8bdfcc8180346b3f39"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_H.z02",
+        "restricted": false,
+        "directoryLabel": "S_H_2",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380745,
+          "persistentId": "",
+          "filename": "S_H.z02",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e4f1592c-5d12239e54b6",
+          "rootDataFileId": -1,
+          "md5": "85d0d3f6dc87dfcc7eb3c5df42108be1",
+          "checksum": {
+            "type": "MD5",
+            "value": "85d0d3f6dc87dfcc7eb3c5df42108be1"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_H.zip",
+        "restricted": false,
+        "directoryLabel": "S_H_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380747,
+          "persistentId": "",
+          "filename": "S_H.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 5738257816,
+          "storageIdentifier": "surf://store:189e4d467a9-64fef6b2246c",
+          "rootDataFileId": -1,
+          "md5": "5d44fc6dadb5f98ac31e2b1b311d0945",
+          "checksum": {
+            "type": "MD5",
+            "value": "5d44fc6dadb5f98ac31e2b1b311d0945"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_I_R.z01",
+        "restricted": false,
+        "directoryLabel": "S_I_R_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380741,
+          "persistentId": "",
+          "filename": "S_I_R.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e4788d80-1012911956f9",
+          "rootDataFileId": -1,
+          "md5": "0a55bf760e428e1527f514d9c8b80939",
+          "checksum": {
+            "type": "MD5",
+            "value": "0a55bf760e428e1527f514d9c8b80939"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_I_R.zip",
+        "restricted": false,
+        "directoryLabel": "S_I_R_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380742,
+          "persistentId": "",
+          "filename": "S_I_R.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 6824283419,
+          "storageIdentifier": "surf://store:189e46a37e7-4953edb1b040",
+          "rootDataFileId": -1,
+          "md5": "9949f3e826ec5db68ee4dc979af3f6f8",
+          "checksum": {
+            "type": "MD5",
+            "value": "9949f3e826ec5db68ee4dc979af3f6f8"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_I_W.z01",
+        "restricted": false,
+        "directoryLabel": "S_I_W_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380740,
+          "persistentId": "",
+          "filename": "S_I_W.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e41a3724-2c67c65b9a2a",
+          "rootDataFileId": -1,
+          "md5": "8087419001028f5d09cff34464af6a25",
+          "checksum": {
+            "type": "MD5",
+            "value": "8087419001028f5d09cff34464af6a25"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_I_W.zip",
+        "restricted": false,
+        "directoryLabel": "S_I_W_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380739,
+          "persistentId": "",
+          "filename": "S_I_W.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1170655143,
+          "storageIdentifier": "surf://store:189e40bc7a4-6d953a9e63c5",
+          "rootDataFileId": -1,
+          "md5": "34e958262fb988704382e72c24b72ba1",
+          "checksum": {
+            "type": "MD5",
+            "value": "34e958262fb988704382e72c24b72ba1"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_I_ZJ.z01",
+        "restricted": false,
+        "directoryLabel": "S_I_ZJ_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380738,
+          "persistentId": "",
+          "filename": "S_I_ZJ.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e1f6086a-577846a5b90d",
+          "rootDataFileId": -1,
+          "md5": "7200186fb6168adbc97655f38d033a3c",
+          "checksum": {
+            "type": "MD5",
+            "value": "7200186fb6168adbc97655f38d033a3c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_I_ZJ.zip",
+        "restricted": false,
+        "directoryLabel": "S_I_ZJ_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380737,
+          "persistentId": "",
+          "filename": "S_I_ZJ.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 4499387146,
+          "storageIdentifier": "surf://store:189e1e8dc76-f5bc2bd52ced",
+          "rootDataFileId": -1,
+          "md5": "2f4162f582c179d1f28ead6b76bf0069",
+          "checksum": {
+            "type": "MD5",
+            "value": "2f4162f582c179d1f28ead6b76bf0069"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-11",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_JF.zip",
+        "restricted": false,
+        "directoryLabel": "S_JF",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380736,
+          "persistentId": "",
+          "filename": "S_JF.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 3921336259,
+          "storageIdentifier": "surf://store:189e12f027a-211930a68267",
+          "rootDataFileId": -1,
+          "md5": "2c6ba3c35c709d7f2c15f1f430859f25",
+          "checksum": {
+            "type": "MD5",
+            "value": "2c6ba3c35c709d7f2c15f1f430859f25"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_L.zip",
+        "restricted": false,
+        "directoryLabel": "S_L",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380756,
+          "persistentId": "",
+          "filename": "S_L.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 6077348840,
+          "storageIdentifier": "surf://store:189e716dc58-69af10d9cc52",
+          "rootDataFileId": -1,
+          "md5": "72b0c04329d071c90b9428b492326ca7",
+          "checksum": {
+            "type": "MD5",
+            "value": "72b0c04329d071c90b9428b492326ca7"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-12",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_M.z01",
+        "restricted": false,
+        "directoryLabel": "S_M_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380758,
+          "persistentId": "",
+          "filename": "S_M.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189ea77f245-545ebcfe122d",
+          "rootDataFileId": -1,
+          "md5": "370f2e23fafb89fc0c324ec5770382f4",
+          "checksum": {
+            "type": "MD5",
+            "value": "370f2e23fafb89fc0c324ec5770382f4"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-12",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_M.z02",
+        "restricted": false,
+        "directoryLabel": "S_M_2",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380757,
+          "persistentId": "",
+          "filename": "S_M.z02",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189ea8610e4-5a03f91960da",
+          "rootDataFileId": -1,
+          "md5": "ad2a4e5d43ac5df833df3c527ac51e16",
+          "checksum": {
+            "type": "MD5",
+            "value": "ad2a4e5d43ac5df833df3c527ac51e16"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-12",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_M.z03",
+        "restricted": false,
+        "directoryLabel": "S_M_3",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380759,
+          "persistentId": "",
+          "filename": "S_M.z03",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189ea93ce2d-d358d4a70d89",
+          "rootDataFileId": -1,
+          "md5": "a5e3e18ebde02bfb758a98c88d0d9282",
+          "checksum": {
+            "type": "MD5",
+            "value": "a5e3e18ebde02bfb758a98c88d0d9282"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-12",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_M.zip",
+        "restricted": false,
+        "directoryLabel": "S_M_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380760,
+          "persistentId": "",
+          "filename": "S_M.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 4623739479,
+          "storageIdentifier": "surf://store:189ea6965fa-4c7275bcdf37",
+          "rootDataFileId": -1,
+          "md5": "dd9e1d6fcf8747f1a753ac913e908042",
+          "checksum": {
+            "type": "MD5",
+            "value": "dd9e1d6fcf8747f1a753ac913e908042"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-12",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_Q.z01",
+        "restricted": false,
+        "directoryLabel": "S_Q_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380755,
+          "persistentId": "",
+          "filename": "S_Q.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e69b5990-96ee1b9f1ab5",
+          "rootDataFileId": -1,
+          "md5": "01ead41e3ea42ea7ce00405c14929c00",
+          "checksum": {
+            "type": "MD5",
+            "value": "01ead41e3ea42ea7ce00405c14929c00"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-12",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_Q.zip",
+        "restricted": false,
+        "directoryLabel": "S_Q_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380754,
+          "persistentId": "",
+          "filename": "S_Q.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 1580970093,
+          "storageIdentifier": "surf://store:189e68cc546-4d7092f74569",
+          "rootDataFileId": -1,
+          "md5": "1bcadb74f06b9a8bdc7e59e3631c2c26",
+          "checksum": {
+            "type": "MD5",
+            "value": "1bcadb74f06b9a8bdc7e59e3631c2c26"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-12",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_R.z01",
+        "restricted": false,
+        "directoryLabel": "S_R_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380730,
+          "persistentId": "",
+          "filename": "S_R.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e025cc7b-a446b109f70a",
+          "rootDataFileId": -1,
+          "md5": "4639c00ac45ac5cc3d53c61c4c8aad75",
+          "checksum": {
+            "type": "MD5",
+            "value": "4639c00ac45ac5cc3d53c61c4c8aad75"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_R.z02",
+        "restricted": false,
+        "directoryLabel": "S_R_2",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380731,
+          "persistentId": "",
+          "filename": "S_R.z02",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e02e0ef4-217bb8f9a25d",
+          "rootDataFileId": -1,
+          "md5": "f77ad4a584cc9eeee087984f73686b3a",
+          "checksum": {
+            "type": "MD5",
+            "value": "f77ad4a584cc9eeee087984f73686b3a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_R.z03",
+        "restricted": false,
+        "directoryLabel": "S_R_3",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380733,
+          "persistentId": "",
+          "filename": "S_R.z03",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e03d9700-9b5f1edd44fc",
+          "rootDataFileId": -1,
+          "md5": "0052ce4f9827e3226f21b1914cb07a94",
+          "checksum": {
+            "type": "MD5",
+            "value": "0052ce4f9827e3226f21b1914cb07a94"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_R.z04",
+        "restricted": false,
+        "directoryLabel": "S_R_4",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380735,
+          "persistentId": "",
+          "filename": "S_R.z04",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e050292c-7261002a097c",
+          "rootDataFileId": -1,
+          "md5": "fe5b3d1dd5973b3c112b960c0b3829cb",
+          "checksum": {
+            "type": "MD5",
+            "value": "fe5b3d1dd5973b3c112b960c0b3829cb"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_R.z05",
+        "restricted": false,
+        "directoryLabel": "S_R_5",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380734,
+          "persistentId": "",
+          "filename": "S_R.z05",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189e05f2588-09b6bf9b3f53",
+          "rootDataFileId": -1,
+          "md5": "8c8656f11c5741ae3cd55d6f7d054e48",
+          "checksum": {
+            "type": "MD5",
+            "value": "8c8656f11c5741ae3cd55d6f7d054e48"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_R.zip",
+        "restricted": false,
+        "directoryLabel": "S_R_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380732,
+          "persistentId": "",
+          "filename": "S_R.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 6291630195,
+          "storageIdentifier": "surf://store:189e01d90d3-8e00b3518c22",
+          "rootDataFileId": -1,
+          "md5": "4358b896ffd50e944fb1d5df819cb126",
+          "checksum": {
+            "type": "MD5",
+            "value": "4358b896ffd50e944fb1d5df819cb126"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_W.z01",
+        "restricted": false,
+        "directoryLabel": "S_W_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380722,
+          "persistentId": "",
+          "filename": "S_W.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189df7a4687-e60903b904d8",
+          "rootDataFileId": -1,
+          "md5": "2cdd216cce29635c888f838bbe543d0a",
+          "checksum": {
+            "type": "MD5",
+            "value": "2cdd216cce29635c888f838bbe543d0a"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_W.z02",
+        "restricted": false,
+        "directoryLabel": "S_W_2",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380723,
+          "persistentId": "",
+          "filename": "S_W.z02",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189df8d30a4-5c338eb721e6",
+          "rootDataFileId": -1,
+          "md5": "51ab69e1c5a3ddc9471a45e2e99aaa28",
+          "checksum": {
+            "type": "MD5",
+            "value": "51ab69e1c5a3ddc9471a45e2e99aaa28"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_W.z03",
+        "restricted": false,
+        "directoryLabel": "S_W_3",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380724,
+          "persistentId": "",
+          "filename": "S_W.z03",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189df962eb5-4f60d28798af",
+          "rootDataFileId": -1,
+          "md5": "b34724ac083378a311d8f7fc6295e1af",
+          "checksum": {
+            "type": "MD5",
+            "value": "b34724ac083378a311d8f7fc6295e1af"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_W.z04",
+        "restricted": false,
+        "directoryLabel": "S_W_4",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380725,
+          "persistentId": "",
+          "filename": "S_W.z04",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189df9db043-43cce25fe549",
+          "rootDataFileId": -1,
+          "md5": "cf8ed32681124256e7e6ccf153b369da",
+          "checksum": {
+            "type": "MD5",
+            "value": "cf8ed32681124256e7e6ccf153b369da"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_W.z05",
+        "restricted": false,
+        "directoryLabel": "S_W_5",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380728,
+          "persistentId": "",
+          "filename": "S_W.z05",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189dfcfc64b-a16c6f0523b0",
+          "rootDataFileId": -1,
+          "md5": "63bd341f4991c609ef9e1ff3b0f81a51",
+          "checksum": {
+            "type": "MD5",
+            "value": "63bd341f4991c609ef9e1ff3b0f81a51"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_W.zip",
+        "restricted": false,
+        "directoryLabel": "S_W_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380721,
+          "persistentId": "",
+          "filename": "S_W.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 2571176861,
+          "storageIdentifier": "surf://store:189df6e1901-c88ef7e49c65",
+          "rootDataFileId": -1,
+          "md5": "3e41a173b93a85d7df095180c8548fa1",
+          "checksum": {
+            "type": "MD5",
+            "value": "3e41a173b93a85d7df095180c8548fa1"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_XL.z01",
+        "restricted": false,
+        "directoryLabel": "S_XL_1",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380718,
+          "persistentId": "",
+          "filename": "S_XL.z01",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189df4e7042-92ae8070b419",
+          "rootDataFileId": -1,
+          "md5": "308dffeda1c8d9eabbe45cb47f1c3e24",
+          "checksum": {
+            "type": "MD5",
+            "value": "308dffeda1c8d9eabbe45cb47f1c3e24"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_XL.z02",
+        "restricted": false,
+        "directoryLabel": "S_XL_2",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380719,
+          "persistentId": "",
+          "filename": "S_XL.z02",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189df608027-b4f11d1e950d",
+          "rootDataFileId": -1,
+          "md5": "949bd612a8076a7d73e75e8d71baf0cb",
+          "checksum": {
+            "type": "MD5",
+            "value": "949bd612a8076a7d73e75e8d71baf0cb"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_XL.z03",
+        "restricted": false,
+        "directoryLabel": "S_XL_3",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380720,
+          "persistentId": "",
+          "filename": "S_XL.z03",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7516192768,
+          "storageIdentifier": "surf://store:189df6a00b1-396400321e55",
+          "rootDataFileId": -1,
+          "md5": "ebe8a4785491a1b041c5a4412b6cb902",
+          "checksum": {
+            "type": "MD5",
+            "value": "ebe8a4785491a1b041c5a4412b6cb902"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "S_XL.zip",
+        "restricted": false,
+        "directoryLabel": "S_XL_0",
+        "version": 1,
+        "datasetVersionId": 25975,
+        "dataFile": {
+          "id": 380717,
+          "persistentId": "",
+          "filename": "S_XL.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 4978240984,
+          "storageIdentifier": "surf://store:189df43cd54-f6e9d7346c0c",
+          "rootDataFileId": -1,
+          "md5": "d1f7b25114a34a1270f08eafa6e9219b",
+          "checksum": {
+            "type": "MD5",
+            "value": "d1f7b25114a34a1270f08eafa6e9219b"
+          },
+          "tabularData": false,
+          "creationDate": "2023-08-10",
+          "publicationDate": "2023-09-18",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Wang, Xueyi, 2023, \"EGOFALLS: A visual-audio dataset and benchmark for fall detection using egocentric cameras\", https://doi.org/10.34894/HO5GE3, DataverseNL, V1"
+  }
+}

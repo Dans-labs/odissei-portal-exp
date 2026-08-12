@@ -1,0 +1,279 @@
+{
+  "id": 604676,
+  "identifier": "7P3DAF",
+  "persistentUrl": "https://doi.org/10.34894/7P3DAF",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-01-27",
+  "storageIdentifier": "surf://10.34894/7P3DAF",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 33866,
+    "datasetId": 604676,
+    "datasetPersistentId": "doi:10.34894/7P3DAF",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/7P3DAF",
+    "versionNumber": 2,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-01-27T13:28:24Z",
+    "releaseTime": "2026-01-27T13:28:24Z",
+    "createTime": "2026-01-27T13:28:23Z",
+    "publicationDate": "2026-01-27",
+    "citationDate": "2026-01-27",
+    "termsOfUse": "CC-BY-SA",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Openarch Dutch death certificates"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schalk, Ruben"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mourits, Rick J"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rijpma, Auke"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Institute of Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cleaned, deduplicated and (partially) standardized version of Dutch death certificates (c. 1811-1960), retrieved from <a href=\"https://www.openarch.nl/exports/5cfb55ebaf9fe5aaf216f6da1229c632/\">openarch.nl</a>. The csv files per archive, used to create this dataset, were retrieved in January 2020. Scripts used to create this dataset are available <a href=\"https://github.com/CLARIAH/wp4-civreg\">at Github/wp4-civreg </a>(version 1.0)."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "civil registration"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Note that deduplication may still be imperfect, especially for stillbirths without a full name."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Schalk, Ruben"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-10-20"
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Netherlands"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicBoundingBox",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "westLongitude": {
+                  "typeName": "westLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3.3708631707774"
+                },
+                "eastLongitude": {
+                  "typeName": "eastLongitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "7.21097183227545"
+                },
+                "northLatitude": {
+                  "typeName": "northLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "53.465827133613"
+                },
+                "southLatitude": {
+                  "typeName": "southLatitude",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "50.7538821310873"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/7P3DAF"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:56cf6e48-5b66-48ed-b800-93baa8969a77"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-fc67c3e3-8580-41e5-9cae-4da23755ba64"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Cleaned version of the death register records derived via openarch.nl",
+        "label": "openarch_deaths_oct2020_v2.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33866,
+        "dataFile": {
+          "id": 604677,
+          "persistentId": "",
+          "filename": "openarch_deaths_oct2020_v2.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 4852912599,
+          "description": "Cleaned version of the death register records derived via openarch.nl",
+          "storageIdentifier": "surf://store:19bffa27225-a22affb9bf8a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "90df0c3c403d6db4bd514b8f7e67631895443f40"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-27",
+          "publicationDate": "2026-01-27",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Schalk, Ruben; Mourits, Rick J; Rijpma, Auke, 2026, \"Openarch Dutch death certificates\", https://doi.org/10.34894/7P3DAF, DataverseNL, V2"
+  }
+}

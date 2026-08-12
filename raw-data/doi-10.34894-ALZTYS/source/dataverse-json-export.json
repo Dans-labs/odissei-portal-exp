@@ -1,0 +1,3241 @@
+{
+  "id": 310082,
+  "identifier": "ALZTYS",
+  "persistentUrl": "https://doi.org/10.34894/ALZTYS",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-09-21",
+  "storageIdentifier": "surf://10.34894/ALZTYS",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24283,
+    "datasetId": 310082,
+    "datasetPersistentId": "doi:10.34894/ALZTYS",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/ALZTYS",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2022-09-21T11:42:46Z",
+    "releaseTime": "2022-09-21T11:42:46Z",
+    "createTime": "2022-09-19T15:28:47Z",
+    "publicationDate": "2022-09-21",
+    "citationDate": "2022-09-21",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Continental Land Use Change scenarios and stylized fuel management scenarios"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Neidermeier, Alexandra"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Neidermeier, Alexandra"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Historic baseline data was provided via the HILDA+ dataset, which combines several open data streams to estimate land use change (LUC). The future land use scenarios were simulated using CLUMondo, a spatially explicit and dynamic land system change model. We adopted Shared Socioeconomic Pathways (SSP) 1 (“Sustainability”) and SSP3 (“Regional rivalry”) to explore the effects on land use of divergent developmental paths for Europe. While the time series developed is based on a 1-km resolution, we made a conversion in aggregating the data to a 9-km resolution and an aggregated land cover class legend to match that used natively in the DGVMs. (2022-09-16)"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-9-16"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Neidermeier, Alexandra"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-09-19"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1960-01-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2050-12-31"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "land use"
+            ]
+          },
+          {
+            "typeName": "series",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "seriesName": {
+                  "typeName": "seriesName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Timeseries data of land use in Europe"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/ALZTYS"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:ecf37114-6d27-4053-b6d9-eeaa3761fa27"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-058c0748-3f91-4576-ac86-0d772770db9c"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Aggregation_percentages_3.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310291,
+          "persistentId": "",
+          "filename": "Aggregation_percentages_3.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 130860,
+          "storageIdentifier": "surf://store:1835fdaf4f5-c60daa71b039",
+          "rootDataFileId": -1,
+          "md5": "398576e7f1c9546e9bdf7676295c14ad",
+          "checksum": {
+            "type": "MD5",
+            "value": "398576e7f1c9546e9bdf7676295c14ad"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2020_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310162,
+          "persistentId": "",
+          "filename": "C1_2020_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1608308,
+          "storageIdentifier": "surf://store:183570f8507-a7a8c8b7b32c",
+          "rootDataFileId": -1,
+          "md5": "d61d668d7047d4e96a1a21ac6c2393e8",
+          "checksum": {
+            "type": "MD5",
+            "value": "d61d668d7047d4e96a1a21ac6c2393e8"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2020_Bare9k_0.prj",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310160,
+          "persistentId": "",
+          "filename": "C1_2020_Bare9k_0.prj",
+          "contentType": "application/prj",
+          "friendlyType": "ESRI Shapefile",
+          "filesize": 380,
+          "storageIdentifier": "surf://store:183570f85a0-daf0d0d1315c",
+          "rootDataFileId": -1,
+          "md5": "6f4743405b4fc3336612a10dd95aa9b7",
+          "checksum": {
+            "type": "MD5",
+            "value": "6f4743405b4fc3336612a10dd95aa9b7"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2020_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310145,
+          "persistentId": "",
+          "filename": "C1_2020_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1861063,
+          "storageIdentifier": "surf://store:183570f89d0-0d0847d8f04d",
+          "rootDataFileId": -1,
+          "md5": "c9bbd96877b9235680e614ba49406456",
+          "checksum": {
+            "type": "MD5",
+            "value": "c9bbd96877b9235680e614ba49406456"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2020_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310139,
+          "persistentId": "",
+          "filename": "C1_2020_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1937184,
+          "storageIdentifier": "surf://store:183570f8e28-96b3225a3f6b",
+          "rootDataFileId": -1,
+          "md5": "62c1fe5af9d5b633cc8f6ae57b40cf52",
+          "checksum": {
+            "type": "MD5",
+            "value": "62c1fe5af9d5b633cc8f6ae57b40cf52"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2020_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310161,
+          "persistentId": "",
+          "filename": "C1_2020_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1860079,
+          "storageIdentifier": "surf://store:183570f91bf-1c10f8f90e1e",
+          "rootDataFileId": -1,
+          "md5": "45f185332b022e181227946f71375cfb",
+          "checksum": {
+            "type": "MD5",
+            "value": "45f185332b022e181227946f71375cfb"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2020_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310164,
+          "persistentId": "",
+          "filename": "C1_2020_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1938810,
+          "storageIdentifier": "surf://store:183570f95f0-81c81859128b",
+          "rootDataFileId": -1,
+          "md5": "7a2a6ea2b30db99f56a1bc263a66ac0f",
+          "checksum": {
+            "type": "MD5",
+            "value": "7a2a6ea2b30db99f56a1bc263a66ac0f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2020_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310143,
+          "persistentId": "",
+          "filename": "C1_2020_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1871683,
+          "storageIdentifier": "surf://store:183570f9b11-56669ae298ee",
+          "rootDataFileId": -1,
+          "md5": "56548b9f066b10c084a2f23046e56630",
+          "checksum": {
+            "type": "MD5",
+            "value": "56548b9f066b10c084a2f23046e56630"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2020_Water9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310154,
+          "persistentId": "",
+          "filename": "C1_2020_Water9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1813351,
+          "storageIdentifier": "surf://store:183570f9f44-325c1e874b27",
+          "rootDataFileId": -1,
+          "md5": "e7b766a77483761df5b98b17c3b82fb5",
+          "checksum": {
+            "type": "MD5",
+            "value": "e7b766a77483761df5b98b17c3b82fb5"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2030_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310141,
+          "persistentId": "",
+          "filename": "C1_2030_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1651941,
+          "storageIdentifier": "surf://store:183570fa30a-e534c183c3bf",
+          "rootDataFileId": -1,
+          "md5": "81aaa3e948099dd0156606b40667cb1c",
+          "checksum": {
+            "type": "MD5",
+            "value": "81aaa3e948099dd0156606b40667cb1c"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2030_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310146,
+          "persistentId": "",
+          "filename": "C1_2030_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1836449,
+          "storageIdentifier": "surf://store:183570fa917-085754547ec8",
+          "rootDataFileId": -1,
+          "md5": "b6e1259ebd0cbe72c5179c4bc6b2e76c",
+          "checksum": {
+            "type": "MD5",
+            "value": "b6e1259ebd0cbe72c5179c4bc6b2e76c"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2030_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310147,
+          "persistentId": "",
+          "filename": "C1_2030_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1945292,
+          "storageIdentifier": "surf://store:183570fad9f-deb281e1230c",
+          "rootDataFileId": -1,
+          "md5": "371a9bbae50d77f24fb5fc8e624ce230",
+          "checksum": {
+            "type": "MD5",
+            "value": "371a9bbae50d77f24fb5fc8e624ce230"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2030_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310157,
+          "persistentId": "",
+          "filename": "C1_2030_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1834313,
+          "storageIdentifier": "surf://store:183570fbb16-af24e3e5571f",
+          "rootDataFileId": -1,
+          "md5": "d81b23b29e3f1c4cd2b5b192f54d56e3",
+          "checksum": {
+            "type": "MD5",
+            "value": "d81b23b29e3f1c4cd2b5b192f54d56e3"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2030_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310165,
+          "persistentId": "",
+          "filename": "C1_2030_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1935325,
+          "storageIdentifier": "surf://store:183570fc243-4e637946a9aa",
+          "rootDataFileId": -1,
+          "md5": "3cd089c9bb03b5d4fb29ed88f082a241",
+          "checksum": {
+            "type": "MD5",
+            "value": "3cd089c9bb03b5d4fb29ed88f082a241"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2030_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310138,
+          "persistentId": "",
+          "filename": "C1_2030_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1842661,
+          "storageIdentifier": "surf://store:183570fc98e-daf966763d3c",
+          "rootDataFileId": -1,
+          "md5": "d7f06b767c3870bed10110b9e338cfa1",
+          "checksum": {
+            "type": "MD5",
+            "value": "d7f06b767c3870bed10110b9e338cfa1"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2030_Water9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310152,
+          "persistentId": "",
+          "filename": "C1_2030_Water9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1816402,
+          "storageIdentifier": "surf://store:183570fcd8b-1a008b6bce32",
+          "rootDataFileId": -1,
+          "md5": "93d736abe77e92c9983e7033f6630051",
+          "checksum": {
+            "type": "MD5",
+            "value": "93d736abe77e92c9983e7033f6630051"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2040_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310140,
+          "persistentId": "",
+          "filename": "C1_2040_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1621501,
+          "storageIdentifier": "surf://store:183570fd402-30946385a26f",
+          "rootDataFileId": -1,
+          "md5": "7a09b5fc662bdc3927b243f13e06d035",
+          "checksum": {
+            "type": "MD5",
+            "value": "7a09b5fc662bdc3927b243f13e06d035"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2040_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310158,
+          "persistentId": "",
+          "filename": "C1_2040_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1834454,
+          "storageIdentifier": "surf://store:183570fd806-336f89f99564",
+          "rootDataFileId": -1,
+          "md5": "1c4edf664f90666f592615b68c9b4249",
+          "checksum": {
+            "type": "MD5",
+            "value": "1c4edf664f90666f592615b68c9b4249"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2040_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310142,
+          "persistentId": "",
+          "filename": "C1_2040_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1952356,
+          "storageIdentifier": "surf://store:183570fde09-df2f76fd032e",
+          "rootDataFileId": -1,
+          "md5": "eee372ba6bdc7079d534f4085ae5b3fd",
+          "checksum": {
+            "type": "MD5",
+            "value": "eee372ba6bdc7079d534f4085ae5b3fd"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2040_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310153,
+          "persistentId": "",
+          "filename": "C1_2040_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1805567,
+          "storageIdentifier": "surf://store:183570fe365-9991233a83c5",
+          "rootDataFileId": -1,
+          "md5": "1063b2ff75a9fcc853e481b914432f04",
+          "checksum": {
+            "type": "MD5",
+            "value": "1063b2ff75a9fcc853e481b914432f04"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2040_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310159,
+          "persistentId": "",
+          "filename": "C1_2040_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1926861,
+          "storageIdentifier": "surf://store:183570fe920-ef5f9490bdc5",
+          "rootDataFileId": -1,
+          "md5": "cfa85639cd881b66eb8e778e9166a52e",
+          "checksum": {
+            "type": "MD5",
+            "value": "cfa85639cd881b66eb8e778e9166a52e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2040_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310148,
+          "persistentId": "",
+          "filename": "C1_2040_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1820000,
+          "storageIdentifier": "surf://store:183570fee3e-f97ee2fb84a4",
+          "rootDataFileId": -1,
+          "md5": "4f59dd2fbc89fbf4817fbb9b9bccc91a",
+          "checksum": {
+            "type": "MD5",
+            "value": "4f59dd2fbc89fbf4817fbb9b9bccc91a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2040_Water9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310137,
+          "persistentId": "",
+          "filename": "C1_2040_Water9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1825860,
+          "storageIdentifier": "surf://store:183570ff1d0-40bed3636904",
+          "rootDataFileId": -1,
+          "md5": "2ec183d2eceff889af9009638eab6f87",
+          "checksum": {
+            "type": "MD5",
+            "value": "2ec183d2eceff889af9009638eab6f87"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2050_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310150,
+          "persistentId": "",
+          "filename": "C1_2050_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1600347,
+          "storageIdentifier": "surf://store:183570ff50e-9b7968ddf8c8",
+          "rootDataFileId": -1,
+          "md5": "ba4a78fc4b57aeb65ceba4e298c91948",
+          "checksum": {
+            "type": "MD5",
+            "value": "ba4a78fc4b57aeb65ceba4e298c91948"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2050_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310144,
+          "persistentId": "",
+          "filename": "C1_2050_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1854535,
+          "storageIdentifier": "surf://store:183570ff969-6aba88a60ca0",
+          "rootDataFileId": -1,
+          "md5": "3624db54a5cc1e2303e9dcb95e9e2a48",
+          "checksum": {
+            "type": "MD5",
+            "value": "3624db54a5cc1e2303e9dcb95e9e2a48"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2050_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310151,
+          "persistentId": "",
+          "filename": "C1_2050_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1968264,
+          "storageIdentifier": "surf://store:183570fff09-ec530eae5d38",
+          "rootDataFileId": -1,
+          "md5": "4b55be07c2b93737bfefcfcce283c5c3",
+          "checksum": {
+            "type": "MD5",
+            "value": "4b55be07c2b93737bfefcfcce283c5c3"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2050_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310155,
+          "persistentId": "",
+          "filename": "C1_2050_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1816589,
+          "storageIdentifier": "surf://store:183571008eb-32178ed7b07c",
+          "rootDataFileId": -1,
+          "md5": "7c1dc73e6b37c3a9c89c1f02670cd7cf",
+          "checksum": {
+            "type": "MD5",
+            "value": "7c1dc73e6b37c3a9c89c1f02670cd7cf"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2050_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310163,
+          "persistentId": "",
+          "filename": "C1_2050_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1917649,
+          "storageIdentifier": "surf://store:18357100d36-aedd1f23c7f0",
+          "rootDataFileId": -1,
+          "md5": "6e2bf1d75efbca836999747a4e3a9bc3",
+          "checksum": {
+            "type": "MD5",
+            "value": "6e2bf1d75efbca836999747a4e3a9bc3"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2050_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310149,
+          "persistentId": "",
+          "filename": "C1_2050_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1849168,
+          "storageIdentifier": "surf://store:1835710114a-6705276d765a",
+          "rootDataFileId": -1,
+          "md5": "90bac39ec7dc54685277af34292b2d7c",
+          "checksum": {
+            "type": "MD5",
+            "value": "90bac39ec7dc54685277af34292b2d7c"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C1_2050_Water9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310156,
+          "persistentId": "",
+          "filename": "C1_2050_Water9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1808782,
+          "storageIdentifier": "surf://store:18357101534-936d9c27bf93",
+          "rootDataFileId": -1,
+          "md5": "fe31c82da468c3fb6d022f8b46874364",
+          "checksum": {
+            "type": "MD5",
+            "value": "fe31c82da468c3fb6d022f8b46874364"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2020_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310190,
+          "persistentId": "",
+          "filename": "C3_2020_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1540184,
+          "storageIdentifier": "surf://store:1835711246c-74089613f728",
+          "rootDataFileId": -1,
+          "md5": "2ed033bf8ad970498750197a2d083240",
+          "checksum": {
+            "type": "MD5",
+            "value": "2ed033bf8ad970498750197a2d083240"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2020_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310188,
+          "persistentId": "",
+          "filename": "C3_2020_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1823605,
+          "storageIdentifier": "surf://store:1835711296b-9a74230ad946",
+          "rootDataFileId": -1,
+          "md5": "adb1217d2baac0a705c4ea3776650377",
+          "checksum": {
+            "type": "MD5",
+            "value": "adb1217d2baac0a705c4ea3776650377"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2020_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310178,
+          "persistentId": "",
+          "filename": "C3_2020_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1942416,
+          "storageIdentifier": "surf://store:18357112d3e-54f37ce5ed97",
+          "rootDataFileId": -1,
+          "md5": "2a2498d5ebb037c6f178494af045d4a9",
+          "checksum": {
+            "type": "MD5",
+            "value": "2a2498d5ebb037c6f178494af045d4a9"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2020_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310176,
+          "persistentId": "",
+          "filename": "C3_2020_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1811746,
+          "storageIdentifier": "surf://store:183571130f3-107b1fdc70e9",
+          "rootDataFileId": -1,
+          "md5": "10f584c61e71d2f913339a01d203ad58",
+          "checksum": {
+            "type": "MD5",
+            "value": "10f584c61e71d2f913339a01d203ad58"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2020_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310179,
+          "persistentId": "",
+          "filename": "C3_2020_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1915630,
+          "storageIdentifier": "surf://store:183571134ad-e50ab9728a2f",
+          "rootDataFileId": -1,
+          "md5": "2d6276a3ed1fda4d294b67f4c6d35ddb",
+          "checksum": {
+            "type": "MD5",
+            "value": "2d6276a3ed1fda4d294b67f4c6d35ddb"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2020_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310186,
+          "persistentId": "",
+          "filename": "C3_2020_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1821759,
+          "storageIdentifier": "surf://store:18357113dd3-34aa2163f89f",
+          "rootDataFileId": -1,
+          "md5": "0cc009134e6582e5bfa0112387a7f4a8",
+          "checksum": {
+            "type": "MD5",
+            "value": "0cc009134e6582e5bfa0112387a7f4a8"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2020_Water9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310171,
+          "persistentId": "",
+          "filename": "C3_2020_Water9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1757982,
+          "storageIdentifier": "surf://store:18357114207-1a1035477899",
+          "rootDataFileId": -1,
+          "md5": "b7a404f3304405ee037028e8b3c0b2e4",
+          "checksum": {
+            "type": "MD5",
+            "value": "b7a404f3304405ee037028e8b3c0b2e4"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2030_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310177,
+          "persistentId": "",
+          "filename": "C3_2030_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1513121,
+          "storageIdentifier": "surf://store:18357114520-618b811c559a",
+          "rootDataFileId": -1,
+          "md5": "b34f75142320c1eed92dd1ba17e3ea7c",
+          "checksum": {
+            "type": "MD5",
+            "value": "b34f75142320c1eed92dd1ba17e3ea7c"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2030_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310170,
+          "persistentId": "",
+          "filename": "C3_2030_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1815658,
+          "storageIdentifier": "surf://store:1835711488e-cda9ca0ecf90",
+          "rootDataFileId": -1,
+          "md5": "bcd5784838129b73bbbb7abc7d24fb7a",
+          "checksum": {
+            "type": "MD5",
+            "value": "bcd5784838129b73bbbb7abc7d24fb7a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2030_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310172,
+          "persistentId": "",
+          "filename": "C3_2030_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1919173,
+          "storageIdentifier": "surf://store:18357114c34-ba1d0f5351c0",
+          "rootDataFileId": -1,
+          "md5": "bddf45ac9756b5a8dec8e285cb5c562f",
+          "checksum": {
+            "type": "MD5",
+            "value": "bddf45ac9756b5a8dec8e285cb5c562f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2030_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310191,
+          "persistentId": "",
+          "filename": "C3_2030_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1763293,
+          "storageIdentifier": "surf://store:18357115035-9a8be6ce8529",
+          "rootDataFileId": -1,
+          "md5": "ac06334c804fffb5c83cd50eaa4bf93d",
+          "checksum": {
+            "type": "MD5",
+            "value": "ac06334c804fffb5c83cd50eaa4bf93d"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2030_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310184,
+          "persistentId": "",
+          "filename": "C3_2030_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1895798,
+          "storageIdentifier": "surf://store:183571153fe-5fa24c0f72e8",
+          "rootDataFileId": -1,
+          "md5": "a6a8258c61176d2cb77ba94574b60aa4",
+          "checksum": {
+            "type": "MD5",
+            "value": "a6a8258c61176d2cb77ba94574b60aa4"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2030_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310181,
+          "persistentId": "",
+          "filename": "C3_2030_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1824729,
+          "storageIdentifier": "surf://store:18357115a4e-96e4afa84600",
+          "rootDataFileId": -1,
+          "md5": "fca473cc515bbde102e262ebe0289915",
+          "checksum": {
+            "type": "MD5",
+            "value": "fca473cc515bbde102e262ebe0289915"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2030_Water9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310189,
+          "persistentId": "",
+          "filename": "C3_2030_Water9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1702436,
+          "storageIdentifier": "surf://store:18357115ef4-8a34bcdc6071",
+          "rootDataFileId": -1,
+          "md5": "e663e477408b7676931eb7d93a4c44ff",
+          "checksum": {
+            "type": "MD5",
+            "value": "e663e477408b7676931eb7d93a4c44ff"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2040_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310187,
+          "persistentId": "",
+          "filename": "C3_2040_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1484936,
+          "storageIdentifier": "surf://store:18357116357-949da6521955",
+          "rootDataFileId": -1,
+          "md5": "8be6fe645bce4f844d9c555721efb4ef",
+          "checksum": {
+            "type": "MD5",
+            "value": "8be6fe645bce4f844d9c555721efb4ef"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2040_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310180,
+          "persistentId": "",
+          "filename": "C3_2040_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1781978,
+          "storageIdentifier": "surf://store:183571166de-1feaf59a3936",
+          "rootDataFileId": -1,
+          "md5": "e66be6bce39efaa54f16687439a3db9e",
+          "checksum": {
+            "type": "MD5",
+            "value": "e66be6bce39efaa54f16687439a3db9e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2040_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310182,
+          "persistentId": "",
+          "filename": "C3_2040_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1909833,
+          "storageIdentifier": "surf://store:18357116a68-09dda986a52c",
+          "rootDataFileId": -1,
+          "md5": "49503a9117465e79ec3c016903d427cf",
+          "checksum": {
+            "type": "MD5",
+            "value": "49503a9117465e79ec3c016903d427cf"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2040_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310169,
+          "persistentId": "",
+          "filename": "C3_2040_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1726306,
+          "storageIdentifier": "surf://store:18357116e38-5875d045db4a",
+          "rootDataFileId": -1,
+          "md5": "653b77a13db93f48ef4bfd6aebbc015a",
+          "checksum": {
+            "type": "MD5",
+            "value": "653b77a13db93f48ef4bfd6aebbc015a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2040_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310174,
+          "persistentId": "",
+          "filename": "C3_2040_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1874611,
+          "storageIdentifier": "surf://store:183571173e5-1dd390b81ac7",
+          "rootDataFileId": -1,
+          "md5": "1b2851b9f88a42ff43d2ae001412565b",
+          "checksum": {
+            "type": "MD5",
+            "value": "1b2851b9f88a42ff43d2ae001412565b"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2040_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310167,
+          "persistentId": "",
+          "filename": "C3_2040_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1767231,
+          "storageIdentifier": "surf://store:183571177e8-c5fbf4f1525b",
+          "rootDataFileId": -1,
+          "md5": "c397b14e1a795da747169bcc0023876f",
+          "checksum": {
+            "type": "MD5",
+            "value": "c397b14e1a795da747169bcc0023876f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2040_Water9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310193,
+          "persistentId": "",
+          "filename": "C3_2040_Water9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1650519,
+          "storageIdentifier": "surf://store:1835711807d-adecfe175290",
+          "rootDataFileId": -1,
+          "md5": "fe9edbc8d828069a0c71d987fdf6f5dc",
+          "checksum": {
+            "type": "MD5",
+            "value": "fe9edbc8d828069a0c71d987fdf6f5dc"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2050_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310192,
+          "persistentId": "",
+          "filename": "C3_2050_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1505521,
+          "storageIdentifier": "surf://store:183571183aa-5b4889d776a9",
+          "rootDataFileId": -1,
+          "md5": "6666d9c6d22b8a880f57cd1050d834be",
+          "checksum": {
+            "type": "MD5",
+            "value": "6666d9c6d22b8a880f57cd1050d834be"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2050_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310168,
+          "persistentId": "",
+          "filename": "C3_2050_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1770850,
+          "storageIdentifier": "surf://store:18357118742-26a8f09c64dd",
+          "rootDataFileId": -1,
+          "md5": "65cd594007f297fce435df9ac6558bd1",
+          "checksum": {
+            "type": "MD5",
+            "value": "65cd594007f297fce435df9ac6558bd1"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2050_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310173,
+          "persistentId": "",
+          "filename": "C3_2050_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1924849,
+          "storageIdentifier": "surf://store:18357118b4b-63922607199e",
+          "rootDataFileId": -1,
+          "md5": "44b2a328a20e2d2eecba7424e7d1e8b6",
+          "checksum": {
+            "type": "MD5",
+            "value": "44b2a328a20e2d2eecba7424e7d1e8b6"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2050_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310166,
+          "persistentId": "",
+          "filename": "C3_2050_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1763104,
+          "storageIdentifier": "surf://store:18357118f5b-29969d34665e",
+          "rootDataFileId": -1,
+          "md5": "891dd74308ff76b9cf1fdb4e1732484f",
+          "checksum": {
+            "type": "MD5",
+            "value": "891dd74308ff76b9cf1fdb4e1732484f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2050_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310175,
+          "persistentId": "",
+          "filename": "C3_2050_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1899984,
+          "storageIdentifier": "surf://store:183571192e1-1e6b21399935",
+          "rootDataFileId": -1,
+          "md5": "c1d8a9d88ef98f13cc089919c19ba362",
+          "checksum": {
+            "type": "MD5",
+            "value": "c1d8a9d88ef98f13cc089919c19ba362"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2050_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310185,
+          "persistentId": "",
+          "filename": "C3_2050_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1777766,
+          "storageIdentifier": "surf://store:183571196ce-e7b75260dfcc",
+          "rootDataFileId": -1,
+          "md5": "5c9abb35b47f6ad06802c671468c54a0",
+          "checksum": {
+            "type": "MD5",
+            "value": "5c9abb35b47f6ad06802c671468c54a0"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "C3_2050_Water9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310183,
+          "persistentId": "",
+          "filename": "C3_2050_Water9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1690393,
+          "storageIdentifier": "surf://store:18357119c00-add8d51d991b",
+          "rootDataFileId": -1,
+          "md5": "fcaabff65748b374363320330e144ce2",
+          "checksum": {
+            "type": "MD5",
+            "value": "fcaabff65748b374363320330e144ce2"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Crosstab_table_2015_2.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310289,
+          "persistentId": "",
+          "filename": "Crosstab_table_2015_2.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 575,
+          "storageIdentifier": "surf://store:1835fdaf52b-686cb04f39aa",
+          "rootDataFileId": -1,
+          "md5": "de02d462301307290096a531390a921a",
+          "checksum": {
+            "type": "MD5",
+            "value": "de02d462301307290096a531390a921a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eu_modeledExtent.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310290,
+          "persistentId": "",
+          "filename": "eu_modeledExtent.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 14189337,
+          "storageIdentifier": "surf://store:1835fdaf77b-7b978835ac70",
+          "rootDataFileId": -1,
+          "md5": "a957811aee91ecc6e429a7f5aa442771",
+          "checksum": {
+            "type": "MD5",
+            "value": "a957811aee91ecc6e429a7f5aa442771"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eu_modeledExtent.tif.aux.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310287,
+          "persistentId": "",
+          "filename": "eu_modeledExtent.tif.aux.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 1108,
+          "storageIdentifier": "surf://store:1835fdaf802-aeaf98b3ad81",
+          "rootDataFileId": -1,
+          "md5": "229010635d672273f6482f91824eef43",
+          "checksum": {
+            "type": "MD5",
+            "value": "229010635d672273f6482f91824eef43"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eu_modeledExtent.tif.ovr",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310284,
+          "persistentId": "",
+          "filename": "eu_modeledExtent.tif.ovr",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 71051,
+          "storageIdentifier": "surf://store:1835fdaf829-84cf25d8ebb1",
+          "rootDataFileId": -1,
+          "md5": "ba27b51f462141f9c3645f17837977d6",
+          "checksum": {
+            "type": "MD5",
+            "value": "ba27b51f462141f9c3645f17837977d6"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Figures and diagram.pptx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310288,
+          "persistentId": "",
+          "filename": "Figures and diagram.pptx",
+          "contentType": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+          "friendlyType": "MS Powerpoint",
+          "filesize": 386633,
+          "storageIdentifier": "surf://store:1835fdaf995-e885bea9e4d5",
+          "rootDataFileId": -1,
+          "md5": "fcd199bf73b94e3729003460946077bf",
+          "checksum": {
+            "type": "MD5",
+            "value": "fcd199bf73b94e3729003460946077bf"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1960_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310128,
+          "persistentId": "",
+          "filename": "H1960_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1080767,
+          "storageIdentifier": "surf://store:183565b951a-6bee3212e799",
+          "rootDataFileId": -1,
+          "md5": "3a93d85fbd64070f85381e647171d1b9",
+          "checksum": {
+            "type": "MD5",
+            "value": "3a93d85fbd64070f85381e647171d1b9"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1960_Bare9k_0.asc.aux.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310094,
+          "persistentId": "",
+          "filename": "H1960_Bare9k_0.asc.aux.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 424,
+          "storageIdentifier": "surf://store:183565b969e-06dab746018f",
+          "rootDataFileId": -1,
+          "md5": "1cebaa82bf195f9f8942e8b578055243",
+          "checksum": {
+            "type": "MD5",
+            "value": "1cebaa82bf195f9f8942e8b578055243"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1960_Bare9k_0.prj",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310087,
+          "persistentId": "",
+          "filename": "H1960_Bare9k_0.prj",
+          "contentType": "application/prj",
+          "friendlyType": "ESRI Shapefile",
+          "filesize": 438,
+          "storageIdentifier": "surf://store:183565b9819-7df255b87e7c",
+          "rootDataFileId": -1,
+          "md5": "314b318f56c10de35db76275c7fe9192",
+          "checksum": {
+            "type": "MD5",
+            "value": "314b318f56c10de35db76275c7fe9192"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1960_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310131,
+          "persistentId": "",
+          "filename": "H1960_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1644971,
+          "storageIdentifier": "surf://store:183565b9b4e-46b81c56c255",
+          "rootDataFileId": -1,
+          "md5": "e6c0b185445d1b35dc034df95ed0a6a1",
+          "checksum": {
+            "type": "MD5",
+            "value": "e6c0b185445d1b35dc034df95ed0a6a1"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1960_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310109,
+          "persistentId": "",
+          "filename": "H1960_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1725730,
+          "storageIdentifier": "surf://store:183565ba176-9912cc90a6b2",
+          "rootDataFileId": -1,
+          "md5": "4614d6f9405bfd86649955f06bc546c0",
+          "checksum": {
+            "type": "MD5",
+            "value": "4614d6f9405bfd86649955f06bc546c0"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1960_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310118,
+          "persistentId": "",
+          "filename": "H1960_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1651041,
+          "storageIdentifier": "surf://store:183565ba6d7-fd8077f8a51c",
+          "rootDataFileId": -1,
+          "md5": "f69111a05f93e2143690f28fd0aaa02c",
+          "checksum": {
+            "type": "MD5",
+            "value": "f69111a05f93e2143690f28fd0aaa02c"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1960_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310096,
+          "persistentId": "",
+          "filename": "H1960_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1646003,
+          "storageIdentifier": "surf://store:183565bae3a-f9465c6023f3",
+          "rootDataFileId": -1,
+          "md5": "b349dc4da99071f1698c5e5c14eebb0a",
+          "checksum": {
+            "type": "MD5",
+            "value": "b349dc4da99071f1698c5e5c14eebb0a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1960_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310116,
+          "persistentId": "",
+          "filename": "H1960_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1418831,
+          "storageIdentifier": "surf://store:183565bb351-07b4a50dc995",
+          "rootDataFileId": -1,
+          "md5": "f220487eed6e5fe8e4b32a71b3a67422",
+          "checksum": {
+            "type": "MD5",
+            "value": "f220487eed6e5fe8e4b32a71b3a67422"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1960_Water9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310129,
+          "persistentId": "",
+          "filename": "H1960_Water9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1196565,
+          "storageIdentifier": "surf://store:183565bb8a5-029774575ea6",
+          "rootDataFileId": -1,
+          "md5": "2823e2388e22157437b02f6ac5b5765e",
+          "checksum": {
+            "type": "MD5",
+            "value": "2823e2388e22157437b02f6ac5b5765e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1970_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310104,
+          "persistentId": "",
+          "filename": "H1970_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1080916,
+          "storageIdentifier": "surf://store:183565bbce7-850b245e40ea",
+          "rootDataFileId": -1,
+          "md5": "10c623b36a6e5227e3b35870c600a66d",
+          "checksum": {
+            "type": "MD5",
+            "value": "10c623b36a6e5227e3b35870c600a66d"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1970_Bare9k_0.asc.aux.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310127,
+          "persistentId": "",
+          "filename": "H1970_Bare9k_0.asc.aux.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 424,
+          "storageIdentifier": "surf://store:183565bbdb2-2e2b423458fc",
+          "rootDataFileId": -1,
+          "md5": "ceb133940b29fbdfdbafa4b12823a7e1",
+          "checksum": {
+            "type": "MD5",
+            "value": "ceb133940b29fbdfdbafa4b12823a7e1"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1970_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310133,
+          "persistentId": "",
+          "filename": "H1970_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1645720,
+          "storageIdentifier": "surf://store:183565bc209-c88d7802f217",
+          "rootDataFileId": -1,
+          "md5": "e839f72db2bce27db3e38d2286462de7",
+          "checksum": {
+            "type": "MD5",
+            "value": "e839f72db2bce27db3e38d2286462de7"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1970_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310100,
+          "persistentId": "",
+          "filename": "H1970_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1737919,
+          "storageIdentifier": "surf://store:183565bc819-1abbe2a2c88d",
+          "rootDataFileId": -1,
+          "md5": "7e81d99eacae8d53b3c52fbdab67d288",
+          "checksum": {
+            "type": "MD5",
+            "value": "7e81d99eacae8d53b3c52fbdab67d288"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1970_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310120,
+          "persistentId": "",
+          "filename": "H1970_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1659105,
+          "storageIdentifier": "surf://store:183565bcd32-f7abc02ebcbd",
+          "rootDataFileId": -1,
+          "md5": "f5867d9e26c8c9efbd1b6f62d0aff095",
+          "checksum": {
+            "type": "MD5",
+            "value": "f5867d9e26c8c9efbd1b6f62d0aff095"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1970_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310095,
+          "persistentId": "",
+          "filename": "H1970_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1627742,
+          "storageIdentifier": "surf://store:183565bd214-49bb760588ec",
+          "rootDataFileId": -1,
+          "md5": "bf66456402e85b5ae519a5f4acb0b02f",
+          "checksum": {
+            "type": "MD5",
+            "value": "bf66456402e85b5ae519a5f4acb0b02f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1970_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310115,
+          "persistentId": "",
+          "filename": "H1970_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1447566,
+          "storageIdentifier": "surf://store:183565bd773-df9b496594a5",
+          "rootDataFileId": -1,
+          "md5": "badb68f6e477cfd0c7199a8708468ed6",
+          "checksum": {
+            "type": "MD5",
+            "value": "badb68f6e477cfd0c7199a8708468ed6"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1980_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310093,
+          "persistentId": "",
+          "filename": "H1980_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1079487,
+          "storageIdentifier": "surf://store:183565be012-619154a0bdb1",
+          "rootDataFileId": -1,
+          "md5": "3b4630ab6bd2425602df908bcaa171ac",
+          "checksum": {
+            "type": "MD5",
+            "value": "3b4630ab6bd2425602df908bcaa171ac"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1980_Bare9k_0.asc.aux.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310107,
+          "persistentId": "",
+          "filename": "H1980_Bare9k_0.asc.aux.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 424,
+          "storageIdentifier": "surf://store:183565be0cc-8575bdebf19a",
+          "rootDataFileId": -1,
+          "md5": "35ebfa78522f1012f8ec7c62cedd27c0",
+          "checksum": {
+            "type": "MD5",
+            "value": "35ebfa78522f1012f8ec7c62cedd27c0"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1980_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310117,
+          "persistentId": "",
+          "filename": "H1980_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1646713,
+          "storageIdentifier": "surf://store:183565be502-d366c1f79728",
+          "rootDataFileId": -1,
+          "md5": "f72a73298eafde8a40fb0487a397b666",
+          "checksum": {
+            "type": "MD5",
+            "value": "f72a73298eafde8a40fb0487a397b666"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1980_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310101,
+          "persistentId": "",
+          "filename": "H1980_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1759452,
+          "storageIdentifier": "surf://store:183565bea49-372fe1d2acd6",
+          "rootDataFileId": -1,
+          "md5": "7068b0f52592179b4ade3d4c791d2745",
+          "checksum": {
+            "type": "MD5",
+            "value": "7068b0f52592179b4ade3d4c791d2745"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1980_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310097,
+          "persistentId": "",
+          "filename": "H1980_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1660978,
+          "storageIdentifier": "surf://store:183565bef8b-7ebb5f3f24de",
+          "rootDataFileId": -1,
+          "md5": "6261856e4167c2028580f8b468b46a0a",
+          "checksum": {
+            "type": "MD5",
+            "value": "6261856e4167c2028580f8b468b46a0a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1980_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310102,
+          "persistentId": "",
+          "filename": "H1980_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1620927,
+          "storageIdentifier": "surf://store:183565bf4b0-75804fe9a672",
+          "rootDataFileId": -1,
+          "md5": "5029acb6bd7e7a5918130ff7ed1fa64a",
+          "checksum": {
+            "type": "MD5",
+            "value": "5029acb6bd7e7a5918130ff7ed1fa64a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1980_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310110,
+          "persistentId": "",
+          "filename": "H1980_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1482463,
+          "storageIdentifier": "surf://store:183565bf9f9-e0c07749ed8f",
+          "rootDataFileId": -1,
+          "md5": "94746da7f05d791d15f6ea437a7cfcbb",
+          "checksum": {
+            "type": "MD5",
+            "value": "94746da7f05d791d15f6ea437a7cfcbb"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1990_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310114,
+          "persistentId": "",
+          "filename": "H1990_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1082139,
+          "storageIdentifier": "surf://store:183565c03ab-766eee49af20",
+          "rootDataFileId": -1,
+          "md5": "369545962b0a1653ebbd9aef5552aff0",
+          "checksum": {
+            "type": "MD5",
+            "value": "369545962b0a1653ebbd9aef5552aff0"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1990_Bare9k_0.asc.aux.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310089,
+          "persistentId": "",
+          "filename": "H1990_Bare9k_0.asc.aux.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 424,
+          "storageIdentifier": "surf://store:183565c051f-2a302e1c6336",
+          "rootDataFileId": -1,
+          "md5": "1954d1f430c26163f823370b42b51c3f",
+          "checksum": {
+            "type": "MD5",
+            "value": "1954d1f430c26163f823370b42b51c3f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1990_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310121,
+          "persistentId": "",
+          "filename": "H1990_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1692334,
+          "storageIdentifier": "surf://store:183565c09c4-3ede7786c50d",
+          "rootDataFileId": -1,
+          "md5": "67cda43e7764b1ca8b2f39bdbecaac58",
+          "checksum": {
+            "type": "MD5",
+            "value": "67cda43e7764b1ca8b2f39bdbecaac58"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1990_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310123,
+          "persistentId": "",
+          "filename": "H1990_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1826997,
+          "storageIdentifier": "surf://store:183565c0fc6-6373c92f0e70",
+          "rootDataFileId": -1,
+          "md5": "f1fb8e97cab2e31a5c641b5a9ed5c549",
+          "checksum": {
+            "type": "MD5",
+            "value": "f1fb8e97cab2e31a5c641b5a9ed5c549"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1990_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310099,
+          "persistentId": "",
+          "filename": "H1990_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1671426,
+          "storageIdentifier": "surf://store:183565c14f0-ec8e75bb22aa",
+          "rootDataFileId": -1,
+          "md5": "7291dd216fc72ea0e2e15e2265da4ca7",
+          "checksum": {
+            "type": "MD5",
+            "value": "7291dd216fc72ea0e2e15e2265da4ca7"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1990_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310125,
+          "persistentId": "",
+          "filename": "H1990_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1644256,
+          "storageIdentifier": "surf://store:183565c1965-2af0d5ab89d2",
+          "rootDataFileId": -1,
+          "md5": "e5de53c982e07f2587998c749833e5bd",
+          "checksum": {
+            "type": "MD5",
+            "value": "e5de53c982e07f2587998c749833e5bd"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H1990_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310122,
+          "persistentId": "",
+          "filename": "H1990_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1546256,
+          "storageIdentifier": "surf://store:183565c1e53-439495cee423",
+          "rootDataFileId": -1,
+          "md5": "e5ede9cf20fd86934a661317f7510d67",
+          "checksum": {
+            "type": "MD5",
+            "value": "e5ede9cf20fd86934a661317f7510d67"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2000_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310084,
+          "persistentId": "",
+          "filename": "H2000_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1075600,
+          "storageIdentifier": "surf://store:183565c26d7-80805a689375",
+          "rootDataFileId": -1,
+          "md5": "3baa5896bfca6014a963931c9a709822",
+          "checksum": {
+            "type": "MD5",
+            "value": "3baa5896bfca6014a963931c9a709822"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2000_Bare9k_0.asc.aux.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310108,
+          "persistentId": "",
+          "filename": "H2000_Bare9k_0.asc.aux.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 424,
+          "storageIdentifier": "surf://store:183565c276d-9932a92bbc06",
+          "rootDataFileId": -1,
+          "md5": "ad19ef136ee6e8dcbf60343293eb8922",
+          "checksum": {
+            "type": "MD5",
+            "value": "ad19ef136ee6e8dcbf60343293eb8922"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2000_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310105,
+          "persistentId": "",
+          "filename": "H2000_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1710502,
+          "storageIdentifier": "surf://store:183565c2b57-b83e848185c7",
+          "rootDataFileId": -1,
+          "md5": "d442afc4fe4baa18456af5a57728c5c5",
+          "checksum": {
+            "type": "MD5",
+            "value": "d442afc4fe4baa18456af5a57728c5c5"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2000_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310085,
+          "persistentId": "",
+          "filename": "H2000_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1871851,
+          "storageIdentifier": "surf://store:183565c30ee-c09eab2da92c",
+          "rootDataFileId": -1,
+          "md5": "31b056f5d437a71efe1416360a9f6d0f",
+          "checksum": {
+            "type": "MD5",
+            "value": "31b056f5d437a71efe1416360a9f6d0f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2000_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310132,
+          "persistentId": "",
+          "filename": "H2000_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1670130,
+          "storageIdentifier": "surf://store:183565c3783-885ac878fb07",
+          "rootDataFileId": -1,
+          "md5": "ffa7c5052918b1b33c961804a3b0f85e",
+          "checksum": {
+            "type": "MD5",
+            "value": "ffa7c5052918b1b33c961804a3b0f85e"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2000_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310103,
+          "persistentId": "",
+          "filename": "H2000_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1711495,
+          "storageIdentifier": "surf://store:183565c3c72-1bb20ca45f7c",
+          "rootDataFileId": -1,
+          "md5": "961d5728d1483243ef56a544ce259510",
+          "checksum": {
+            "type": "MD5",
+            "value": "961d5728d1483243ef56a544ce259510"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2000_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310088,
+          "persistentId": "",
+          "filename": "H2000_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1575704,
+          "storageIdentifier": "surf://store:183565c40c4-2e50e70c48ad",
+          "rootDataFileId": -1,
+          "md5": "133f19a139db9c5808b7fcf4162780fe",
+          "checksum": {
+            "type": "MD5",
+            "value": "133f19a139db9c5808b7fcf4162780fe"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2010_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310083,
+          "persistentId": "",
+          "filename": "H2010_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1074152,
+          "storageIdentifier": "surf://store:183565c4967-8c96f3026711",
+          "rootDataFileId": -1,
+          "md5": "bcfe532815913f6d63814c2fe4ca51db",
+          "checksum": {
+            "type": "MD5",
+            "value": "bcfe532815913f6d63814c2fe4ca51db"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2010_Bare9k_0.asc.aux.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310086,
+          "persistentId": "",
+          "filename": "H2010_Bare9k_0.asc.aux.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 424,
+          "storageIdentifier": "surf://store:183565c49f4-0582b3bf28f5",
+          "rootDataFileId": -1,
+          "md5": "c6df8ea3710f6f8a8c180eb486b9eda3",
+          "checksum": {
+            "type": "MD5",
+            "value": "c6df8ea3710f6f8a8c180eb486b9eda3"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2010_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310119,
+          "persistentId": "",
+          "filename": "H2010_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1701142,
+          "storageIdentifier": "surf://store:183565c4e40-0432b0e7bfbe",
+          "rootDataFileId": -1,
+          "md5": "4f759256311347dcd9799fee62d6bfb8",
+          "checksum": {
+            "type": "MD5",
+            "value": "4f759256311347dcd9799fee62d6bfb8"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2010_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310130,
+          "persistentId": "",
+          "filename": "H2010_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1879965,
+          "storageIdentifier": "surf://store:183565c52fe-4c1c27e871dd",
+          "rootDataFileId": -1,
+          "md5": "9274c734f6fdd0d364ef26be3e726139",
+          "checksum": {
+            "type": "MD5",
+            "value": "9274c734f6fdd0d364ef26be3e726139"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2010_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310126,
+          "persistentId": "",
+          "filename": "H2010_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1662481,
+          "storageIdentifier": "surf://store:183565c57b3-e9d9a2ae324d",
+          "rootDataFileId": -1,
+          "md5": "2d0f9233dd3d3f866cdeb83deb846a54",
+          "checksum": {
+            "type": "MD5",
+            "value": "2d0f9233dd3d3f866cdeb83deb846a54"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2010_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310090,
+          "persistentId": "",
+          "filename": "H2010_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1792867,
+          "storageIdentifier": "surf://store:183565c5d9a-ed2c54620534",
+          "rootDataFileId": -1,
+          "md5": "37c91e47bf95f96acef7119582cbd1c5",
+          "checksum": {
+            "type": "MD5",
+            "value": "37c91e47bf95f96acef7119582cbd1c5"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2010_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310111,
+          "persistentId": "",
+          "filename": "H2010_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1593794,
+          "storageIdentifier": "surf://store:183565c6287-a30ae697b5b0",
+          "rootDataFileId": -1,
+          "md5": "bbb5fcc4f72052eda9a7c8b4a5e4b5ce",
+          "checksum": {
+            "type": "MD5",
+            "value": "bbb5fcc4f72052eda9a7c8b4a5e4b5ce"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2015_Bare9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310124,
+          "persistentId": "",
+          "filename": "H2015_Bare9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1077277,
+          "storageIdentifier": "surf://store:183565c6b23-33d2c81fe212",
+          "rootDataFileId": -1,
+          "md5": "61b7a051a05f581f8f96287ff6ad6521",
+          "checksum": {
+            "type": "MD5",
+            "value": "61b7a051a05f581f8f96287ff6ad6521"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2015_Bare9k_0.asc.aux.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310091,
+          "persistentId": "",
+          "filename": "H2015_Bare9k_0.asc.aux.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 433,
+          "storageIdentifier": "surf://store:183565c6c4b-1dd8bfdb7798",
+          "rootDataFileId": -1,
+          "md5": "8fb086748a5b01ff9e3ff1e78a20f165",
+          "checksum": {
+            "type": "MD5",
+            "value": "8fb086748a5b01ff9e3ff1e78a20f165"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2015_Crop9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310113,
+          "persistentId": "",
+          "filename": "H2015_Crop9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1673947,
+          "storageIdentifier": "surf://store:183565c70dd-f9475aded819",
+          "rootDataFileId": -1,
+          "md5": "0b83e05c475aac779ce51d2117bb5301",
+          "checksum": {
+            "type": "MD5",
+            "value": "0b83e05c475aac779ce51d2117bb5301"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2015_Forest9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310098,
+          "persistentId": "",
+          "filename": "H2015_Forest9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1869053,
+          "storageIdentifier": "surf://store:183565c76cb-3baa7b0a8ab0",
+          "rootDataFileId": -1,
+          "md5": "dafac5a3c2fd34640ef7998848893607",
+          "checksum": {
+            "type": "MD5",
+            "value": "dafac5a3c2fd34640ef7998848893607"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2015_Grass9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310092,
+          "persistentId": "",
+          "filename": "H2015_Grass9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1617291,
+          "storageIdentifier": "surf://store:183565c7b18-a788d3708942",
+          "rootDataFileId": -1,
+          "md5": "a2f19cdef1c6afb508239ebb191aa1eb",
+          "checksum": {
+            "type": "MD5",
+            "value": "a2f19cdef1c6afb508239ebb191aa1eb"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2015_Shrub9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310106,
+          "persistentId": "",
+          "filename": "H2015_Shrub9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1774871,
+          "storageIdentifier": "surf://store:183565c7f7c-789c00fe6af1",
+          "rootDataFileId": -1,
+          "md5": "a6acab40766ac321c6ad534a7539dbfe",
+          "checksum": {
+            "type": "MD5",
+            "value": "a6acab40766ac321c6ad534a7539dbfe"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "H2015_Urban9k_0.asc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310112,
+          "persistentId": "",
+          "filename": "H2015_Urban9k_0.asc",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 1599211,
+          "storageIdentifier": "surf://store:183565c8494-dc6d05f8b0a5",
+          "rootDataFileId": -1,
+          "md5": "7c88351e56dedd407e688ef4a8b31be2",
+          "checksum": {
+            "type": "MD5",
+            "value": "7c88351e56dedd407e688ef4a8b31be2"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-19",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "HILDA_aggregate.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310280,
+          "persistentId": "",
+          "filename": "HILDA_aggregate.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 5030,
+          "storageIdentifier": "surf://store:1835fdaf9bf-2866edfaa7b5",
+          "rootDataFileId": -1,
+          "md5": "6d500076019810b055853c55d297b07b",
+          "checksum": {
+            "type": "MD5",
+            "value": "6d500076019810b055853c55d297b07b"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "HILDA_DGVM_aggre.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310285,
+          "persistentId": "",
+          "filename": "HILDA_DGVM_aggre.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 195,
+          "storageIdentifier": "surf://store:1835fdaf9e5-21c73524a9bc",
+          "rootDataFileId": -1,
+          "md5": "378555f5587b6875c90fe3b91b432794",
+          "checksum": {
+            "type": "MD5",
+            "value": "378555f5587b6875c90fe3b91b432794"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "HILDAP_2015_p.tif",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310282,
+          "persistentId": "",
+          "filename": "HILDAP_2015_p.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 3862368,
+          "storageIdentifier": "surf://store:1835fdafa69-1bb043c74314",
+          "rootDataFileId": -1,
+          "md5": "01104d13a3ae82b367b909e978da9f01",
+          "checksum": {
+            "type": "MD5",
+            "value": "01104d13a3ae82b367b909e978da9f01"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "HILDAP_2015_p.tif.aux.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310281,
+          "persistentId": "",
+          "filename": "HILDAP_2015_p.tif.aux.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 1578,
+          "storageIdentifier": "surf://store:1835fdafaa4-2291afdbd8f2",
+          "rootDataFileId": -1,
+          "md5": "17ff00b525a96b430a74174f9a1c903d",
+          "checksum": {
+            "type": "MD5",
+            "value": "17ff00b525a96b430a74174f9a1c903d"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "HILDAP_2015_p.tif.ovr",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310286,
+          "persistentId": "",
+          "filename": "HILDAP_2015_p.tif.ovr",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 702960,
+          "storageIdentifier": "surf://store:1835fdafadc-660d8624c719",
+          "rootDataFileId": -1,
+          "md5": "ee864150c8ead7ddba2f8de6c5353d00",
+          "checksum": {
+            "type": "MD5",
+            "value": "ee864150c8ead7ddba2f8de6c5353d00"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Metadata for time series",
+        "label": "README.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310279,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 5623,
+          "description": "Metadata for time series",
+          "storageIdentifier": "surf://store:1835fda074c-eeb7973bb3d1",
+          "rootDataFileId": -1,
+          "md5": "bb1f1a20bc782a6c9eb24cedb0b1c97f",
+          "checksum": {
+            "type": "MD5",
+            "value": "bb1f1a20bc782a6c9eb24cedb0b1c97f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Scenario_aggreg.R",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 24283,
+        "dataFile": {
+          "id": 310283,
+          "persistentId": "",
+          "filename": "Scenario_aggreg.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 5869,
+          "storageIdentifier": "surf://store:1835fdafb72-1f1ac7f5b306",
+          "rootDataFileId": -1,
+          "md5": "4838d3c7f33c9564d794d02cb41e0915",
+          "checksum": {
+            "type": "MD5",
+            "value": "4838d3c7f33c9564d794d02cb41e0915"
+          },
+          "tabularData": false,
+          "creationDate": "2022-09-21",
+          "publicationDate": "2022-09-21",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Neidermeier, Alexandra, 2022, \"Continental Land Use Change scenarios and stylized fuel management scenarios\", https://doi.org/10.34894/ALZTYS, DataverseNL, V1"
+  }
+}

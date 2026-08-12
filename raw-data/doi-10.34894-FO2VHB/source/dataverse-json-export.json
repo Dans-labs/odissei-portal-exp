@@ -1,0 +1,460 @@
+{
+  "id": 294564,
+  "identifier": "FO2VHB",
+  "persistentUrl": "https://doi.org/10.34894/FO2VHB",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-04-28",
+  "storageIdentifier": "surf://10.34894/FO2VHB",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 19815,
+    "datasetId": 294564,
+    "datasetPersistentId": "doi:10.34894/FO2VHB",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/FO2VHB",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2022-04-28T09:00:55Z",
+    "releaseTime": "2022-04-28T09:00:55Z",
+    "createTime": "2022-04-28T08:32:50Z",
+    "publicationDate": "2022-04-28",
+    "citationDate": "2022-04-28",
+    "termsOfUse": "Creative Commons Attribution Non Commercial Share Alike 4.0 International (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "SSHOC - National Gallery - Raphael Research Resource CIDOC CRM Mapped Dataset"
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "https://rdf.ng-london.org.uk/sshoc"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Padfield, Joseph"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The National Gallery"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-2572-6428"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Delaney, Orla"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The National Gallery"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-7114-7929"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Padfield, Joseph"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The National Gallery"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "In 2007 the <a href=\"https://cima.ng-london.org.uk/documentation\">Raphael Research Resource</a>&nbsp;project began to examine how complex conservation, scientific and art historical research could be combined in a flexible digital form. Exploring the presentation of interrelated high resolution images and text, along with how the data could be stored in relation to an event driven ontology in the form of <a href=\"http://www.w3.org/TR/rdf-concepts/\">RDF triples</a>. The original <a href=\"https://cima.ng-london.org.uk/documentation\">main user interface</a>&nbsp;is still live, In 2021/21 as part of the <a href=\"https://www.sshopencloud.eu/\">SSHOC Project</a>&nbsp;the raw data stored within the system was mapped to the <a href=\"https://www.cidoc-crm.org/\">CIDOC CRM</a> using a custom set of Python scripts (<a href=\"https://doi.org/10.5281/zenodo.6461654\">https://doi.org/10.5281/zenodo.6461654</a>).&nbsp;The SSHOC work aimed to make this data more <a href=\"https://www.go-fair.org/fair-principles/\">FAIR</a> so in addition to mapping it to a standard ontology, to increase Interoperability, it has also been made available in the form of <a href=\"http://en.wikipedia.org/wiki/Linked_Data\">open linkable data</a> combined with a <a href=\"http://en.wikipedia.org/wiki/SPARQL\">SPARQL</a> end-point. This live data presentation can been found <a href=\"https://rdf.ng-london.org.uk/sshoc/\">Here</a>.\n\nThis deposit contains the CIDOC-CRM mapped data formatted in XML and an example model diagram representing some of the key relationships covered in the data-set.\n\nLive access to this data, with documentation and worked examples, can be found at: https://rdf.ng-london.org.uk/sshoc"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2022-04-21"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "heritage science"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q17023270"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "cidoc-crm"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q624005"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "FAIR"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q29032644"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Raphael"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q5597"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Conservation Documentation"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "semantic"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.wikidata.org/wiki/Q54837"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "modelling"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Joseph Padfield, & Orla Delaney. (2022). SSHOC - National Gallery - Raphael Research Resource CIDOC CRM Mapped Dataset (1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.6479849"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.5281/zenodo.6479849"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.5281/zenodo.6479849"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Orla Delaney, & Joseph Padfield. (2022). SSHOC - Raphael Resource CIDOC Mapping (v1.0). Zenodo. https://doi.org/10.5281/zenodo.6461654"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.5281/zenodo.6461654"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.5281/zenodo.6461654"
+                }
+              },
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Joseph Padfield. (2022). SSHOC - SPARQL Endpoint Presentation Example (v1.0). Zenodo. https://doi.org/10.5281/zenodo.6462988"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.5281/zenodo.6462988"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.5281/zenodo.6462988"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EU H2020-INFRAEOSC-2018-2020"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "823782"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Padfield, Joseph"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-04-28"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/FO2VHB"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:e0db4314-68b5-4772-9ed3-3664898e3c54"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-69cbf041-c117-4e77-9daa-f898c8121571"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Semantic model demonstrating some of the key semantic relationships modelled within the the SSHOC (https://www.sshopencloud.eu/)Raphael dataset - modelled in relation the CIDOC CRM (https://www.cidoc-crm.org/)",
+        "label": "SSHOC-NG-Raphael_Research_Resource- CIDOC_CRM-Dataset - 1.0 example 01.png",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19815,
+        "dataFile": {
+          "id": 294565,
+          "persistentId": "",
+          "filename": "SSHOC-NG-Raphael_Research_Resource- CIDOC_CRM-Dataset - 1.0 example 01.png",
+          "contentType": "image/png",
+          "friendlyType": "PNG Image",
+          "filesize": 3616978,
+          "description": "Semantic model demonstrating some of the key semantic relationships modelled within the the SSHOC (https://www.sshopencloud.eu/)Raphael dataset - modelled in relation the CIDOC CRM (https://www.cidoc-crm.org/)",
+          "storageIdentifier": "surf://store:1806f43347a-b14c9f15bc92",
+          "rootDataFileId": -1,
+          "md5": "1b32628ae9662e1347f6a4c8deb8a53a",
+          "checksum": {
+            "type": "MD5",
+            "value": "1b32628ae9662e1347f6a4c8deb8a53a"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-28",
+          "publicationDate": "2022-04-28",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "A full example, semantic dataset, created in the SSHOC (https://www.sshopencloud.eu/) project, formatted as XML - describing all of the data taken from the historic Raphael Research Resource (https://cima.ng-london.org.uk/documentation) mapped to the standard cultural heritage ontology CIDOC CRM (https://www.cidoc-crm.org/)",
+        "label": "SSHOC-NG-Raphael_Research_Resource- CIDOC_CRM-Dataset.xml",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 19815,
+        "dataFile": {
+          "id": 294566,
+          "persistentId": "",
+          "filename": "SSHOC-NG-Raphael_Research_Resource- CIDOC_CRM-Dataset.xml",
+          "contentType": "text/xml",
+          "friendlyType": "XML",
+          "filesize": 46874832,
+          "description": "A full example, semantic dataset, created in the SSHOC (https://www.sshopencloud.eu/) project, formatted as XML - describing all of the data taken from the historic Raphael Research Resource (https://cima.ng-london.org.uk/documentation) mapped to the standard cultural heritage ontology CIDOC CRM (https://www.cidoc-crm.org/)",
+          "storageIdentifier": "surf://store:1806f4556f1-5b0f05053924",
+          "rootDataFileId": -1,
+          "md5": "2dbbdb8a7570ac3e348af5d4ac47f9eb",
+          "checksum": {
+            "type": "MD5",
+            "value": "2dbbdb8a7570ac3e348af5d4ac47f9eb"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-28",
+          "publicationDate": "2022-04-28",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Padfield, Joseph; Delaney, Orla, 2022, \"SSHOC - National Gallery - Raphael Research Resource CIDOC CRM Mapped Dataset\", https://doi.org/10.34894/FO2VHB, DataverseNL, V1"
+  }
+}

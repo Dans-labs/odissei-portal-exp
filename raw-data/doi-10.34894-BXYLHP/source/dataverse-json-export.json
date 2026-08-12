@@ -1,0 +1,760 @@
+{
+  "id": 552538,
+  "identifier": "BXYLHP",
+  "persistentUrl": "https://doi.org/10.34894/BXYLHP",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-09-19",
+  "storageIdentifier": "surf://10.34894/BXYLHP",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31615,
+    "datasetId": 552538,
+    "datasetPersistentId": "doi:10.34894/BXYLHP",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/BXYLHP",
+    "versionNumber": 1,
+    "internalVersionNumber": 14,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-09-19T07:27:49Z",
+    "releaseTime": "2025-09-19T07:27:49Z",
+    "createTime": "2025-09-18T08:59:24Z",
+    "publicationDate": "2025-09-19",
+    "citationDate": "2025-09-19",
+    "termsOfUse": "The standard Data Transfer Agreement (DTA) used at the Erasmus MC must be signed without adjustments. This DTA template has been set up in conjunction with legal advisors of all Dutch academic hospitals and serves to facilitate and regulate the transfer of/access to personal data that were previously collected by a Dutch University hospital (“Provider”) from patients, participants and/or volunteers for the purpose of scientific research, by an external not-for-profit party (“Recipient”).\nData transfer agreement: https://elsi.health-ri.nl/sites/elsi/files/2020-07/20.30815%20OenO%20Template%20-%20Data%20Sharing%20Agreement.pdf",
+    "confidentialityDeclaration": "No",
+    "specialPermissions": "Access to the dataset can be requested through the ‘request access’ button. A Data Transfer Agreement (DTA) in line with GDPR regulations and/or a Collaboration Agreement should be signed before data is shared. Only data requests in line with the Terms of Use will be taken into consideration.",
+    "restrictions": "See Data Transfer Agreement",
+    "citationRequirements": "See Data Transfer Agreement",
+    "conditions": "To access and use the dataset please read the Terms of Use and the Terms of Access.",
+    "disclaimer": "See Data Transfer Agreement",
+    "termsOfAccess": "Only data requests in line with the Terms of Use will be taken into consideration. The standard Data Transfer Agreement (DTA) in line with GDPR regulations and/or the Collaboration Agreement should be signed before data is shared. If a data request is approved, the data will be delivered in a safe and secure manner. By signing the DTA and/or Collaboration Agreement and accessing the Materials, the recipient represents his/her acceptance of the Terms of Use.",
+    "contactForAccess": "For conact for access please email: z.gao@erasmusmc.nl and b.bouwen@erasmusmc.nl",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Bouwen et al Nat Comm 2025 scRNAseq"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gao, Zhenyu"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "erasmusmc.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gao, Zhenyu"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "erasmusmc.nl"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bouwen, Bibi"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "erasmusmc.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The file contains single cell sequencing data of cortical neurons from 12 patient samples. 6 seizure and 6 non seizure patients. \n\nI7_1382_01 Non seizure\n - I17-1382-01-H072_cells_S24_L001_R1_001.fastq.gz\n - I17-1382-01-H072_cells_S24_L002_R1_001.fastq.gz\n\nI7_1425_01 Non seizure\n - I17-1425-01-H078_PCs_S6_L001_R1_001.fastq.gz\n - I17-1425-01-H078_PCs_S6_L002_R1_001.fastq.gz\n\nI8_1031_01 Non seizure\n - I18-1031-01-H085_PCs_S49_L001_R1_001.fastq.gz\n - I18-1031-01-H085_PCs_S49_L002_R1_001.fastq.gz\n\nI8_1105_01 Seizure\n - I18-1105-01-H089_PCs_S40_L001_R1_001.fastq.gz\n - I18-1105-01-H089_PCs_S40_L002_R1_001.fastq.gz\n\nI8_1191-01 Non seizure\n - I18-1190-01-H088_PCs_S38_L001_R1_001.fastq.gz\n - I18-1190-01-H088_PCs_S38_L002_R1_001.fastq.gz\n\nI8_1192_01 Seizure\n - I18-1192-01-H093_PC_S18_L001_R1_001.fastq.gz\n - I18-1192-01-H093_PC_S18_L002_R1_001.fastq.gz\n\nI8_1201_01 Seizure\n - I18-1201-01-H094_PC_S4_L001_R1_001.fastq.gz\n - I18-1201-01-H094_PC_S4_L002_R1_001.fastq.gz\n\nI8_1425_01 Non seizure\n - I18-1425-01_S25_L001_R1_001.fastq.gz\n - I18-1425-01_S25_L002_R1_001.fastq.gz\n\nI8_1430_01Non seizure\n - I18-1430-01_S26_L001_R1_001.fastq.gz\n - I18-1430-01_S26_L002_R1_001.fastq.gz\n\nI8_1455_01 Seizure\n - I18-1455-01_S3_L001_R1_001.fastq.gz\n - I18-1455-01_S3_L002_R1_001.fastq.gz\n\nI9_1026_01Non seizure\n - I19-1026-01_S11_L001_R1_001.fastq.gz\n - I19-1026-01_S11_L002_R1_001.fastq.gz\n\nI9_1035_01 Seizure\n - I19-1035-01_S34_L001_R1_001.fastq.gz\n - I19-1035-01_S34_L002_R1_001.fastq.gz\n\n\nPatch-seq using Smart-seq2 protocol for human neurons\nIn a sub set of patient samples we harvested pyramidal cells for modified patchSeq analysis using the protocol for Smart-seq2. From sliced cortical samples, cell contents were harvested and processed according to the methods as described. Next, single-cell mRNA was converted to cDNA and sequencing libraries were created. DNA libraries for sequencing were prepared from cDNA libraries with the Illumina Nextera XT kit. The libraries were sequenced on an Illumina HiSeq2500 sequencer. Reads were generated of 50 base-pairs in length. Sequence adapters and poly-A were removed from the reads prior to alignment."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The data are sensitive since they involve personal information of patients. There are restrictions on use by commercial parties and on sharing openly, based on (inter)national laws and regulations and written informed consent. Therefore these data (and additional clinical data) are only available upon signing a Data Transfer Agreement (see Terms of Access)."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Gao, Zhenyu"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-09-18"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/BXYLHP"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:4d40dcad-d51b-4da8-869e-484abfaca9f2"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-4656b603-b9db-4d97-a085-559963dffb9e"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "I17-1382-01-H072_cells_S24_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552559,
+          "persistentId": "",
+          "filename": "I17-1382-01-H072_cells_S24_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 787318885,
+          "storageIdentifier": "surf://store:1995c040efa-3a70ce9049f7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ae8ec87ced9c9a3d521285a82e3da0e6644e2653"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I17-1382-01-H072_cells_S24_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552548,
+          "persistentId": "",
+          "filename": "I17-1382-01-H072_cells_S24_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 811995033,
+          "storageIdentifier": "surf://store:1995c04a32d-99a3cd2ed6e6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a5a299fb3f1913c3c641489e15a949b35636cad9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I17-1425-01-H078_PCs_S6_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552550,
+          "persistentId": "",
+          "filename": "I17-1425-01-H078_PCs_S6_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 276532705,
+          "storageIdentifier": "surf://store:1995c04e4fd-4c29a6765336",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "242b0958cd5dfacb5c17990526dbc220ae1e55da"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I17-1425-01-H078_PCs_S6_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552549,
+          "persistentId": "",
+          "filename": "I17-1425-01-H078_PCs_S6_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 282939190,
+          "storageIdentifier": "surf://store:1995c051b6c-5cb7f4f95fed",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "63efe423c7fe3921b310b66fee08cd1717ea9f7e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1031-01-H085_PCs_S49_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552558,
+          "persistentId": "",
+          "filename": "I18-1031-01-H085_PCs_S49_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 330526828,
+          "storageIdentifier": "surf://store:1995c055d26-784df8b51c9a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cd41625a45d25f8916131c201883ece961f9838d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1031-01-H085_PCs_S49_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552556,
+          "persistentId": "",
+          "filename": "I18-1031-01-H085_PCs_S49_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 331349520,
+          "storageIdentifier": "surf://store:1995c059b9a-1bef331f89cf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "410277b845541f1a44f97acc7df57e77f1a0c6c1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1105-01-H089_PCs_S40_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552539,
+          "persistentId": "",
+          "filename": "I18-1105-01-H089_PCs_S40_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 281835750,
+          "storageIdentifier": "surf://store:1995c087267-1c6478abeede",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3ae4ffcf1d59b44a17ef68265faa0cf600ab6c33"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1105-01-H089_PCs_S40_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552554,
+          "persistentId": "",
+          "filename": "I18-1105-01-H089_PCs_S40_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 288476990,
+          "storageIdentifier": "surf://store:1995c08b368-92bb865ce28b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a0b4fd538e30661e83b041ce07c0ef67dd8badff"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1190-01-H088_PCs_S38_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552546,
+          "persistentId": "",
+          "filename": "I18-1190-01-H088_PCs_S38_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 274157331,
+          "storageIdentifier": "surf://store:1995c08ed16-b121f27ce4f4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "96414d1b9d507187356c200829021105fa18796d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1190-01-H088_PCs_S38_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552553,
+          "persistentId": "",
+          "filename": "I18-1190-01-H088_PCs_S38_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 280613678,
+          "storageIdentifier": "surf://store:1995c09237b-a0a0bb677499",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3fb7fcbb69ea2b67c478217bfc77b8f5b907675a"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1192-01-H093_PC_S18_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552561,
+          "persistentId": "",
+          "filename": "I18-1192-01-H093_PC_S18_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 420426849,
+          "storageIdentifier": "surf://store:1995c0970c3-b5b83b597d93",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c08e13a9d26e63cb0c276a7e22b7d9235c752b1f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1192-01-H093_PC_S18_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552547,
+          "persistentId": "",
+          "filename": "I18-1192-01-H093_PC_S18_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 425379646,
+          "storageIdentifier": "surf://store:1995c09c821-fb6d188fed8a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2a1b4d40b8cbe8c4311e34a8121c87332ba09ad4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1201-01-H094_PC_S4_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552543,
+          "persistentId": "",
+          "filename": "I18-1201-01-H094_PC_S4_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 421325984,
+          "storageIdentifier": "surf://store:1995c0a2533-0a34cf14243c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9211c2bf942e990100519616c9f1f9e8b7ced76c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1201-01-H094_PC_S4_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552555,
+          "persistentId": "",
+          "filename": "I18-1201-01-H094_PC_S4_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 427108597,
+          "storageIdentifier": "surf://store:1995c0a88d7-183851830528",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6240c22f5fa393bd7910bb4c63e7cfcc7bbcba70"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1425-01_S25_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552540,
+          "persistentId": "",
+          "filename": "I18-1425-01_S25_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 638617268,
+          "storageIdentifier": "surf://store:1995c061437-71d11a892280",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9df2a6f432cfdcfdca632c8af7847a08da4e52bf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1425-01_S25_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552557,
+          "persistentId": "",
+          "filename": "I18-1425-01_S25_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 643243959,
+          "storageIdentifier": "surf://store:1995c068e04-b198584073e5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1d7c45f9e5c50362f900684ec04bd1288b6fb5a4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1430-01_S26_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552544,
+          "persistentId": "",
+          "filename": "I18-1430-01_S26_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 671551588,
+          "storageIdentifier": "surf://store:1995c0708a8-f0f39964f029",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d9a3eea3624e7e1ea860f3ed70a0675547d3e02c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1430-01_S26_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552541,
+          "persistentId": "",
+          "filename": "I18-1430-01_S26_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 677339332,
+          "storageIdentifier": "surf://store:1995c078746-6a1cd2bed82b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8e19731a6aa9066b6c0f850540eea8afca5608cf"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1455-01_S3_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552545,
+          "persistentId": "",
+          "filename": "I18-1455-01_S3_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 440009191,
+          "storageIdentifier": "surf://store:1995c0ae0db-8e50891a861f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "333820ee7a6f13b3d59aac7a96f3f1d0f66bb5de"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I18-1455-01_S3_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552562,
+          "persistentId": "",
+          "filename": "I18-1455-01_S3_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 449974088,
+          "storageIdentifier": "surf://store:1995c0b4e36-d9dab13a7227",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1023d83fa4c9f744a317f444279dec12122c4937"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I19-1026-01_S11_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552542,
+          "persistentId": "",
+          "filename": "I19-1026-01_S11_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 435950259,
+          "storageIdentifier": "surf://store:1995c07dd4c-ea59a6e728b9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e35efb9d463a2a0dd427ac132e5094e42823f1c0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I19-1026-01_S11_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552552,
+          "persistentId": "",
+          "filename": "I19-1026-01_S11_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 436688555,
+          "storageIdentifier": "surf://store:1995c083269-f96881fbbec7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "492b299c4705ff43544e5ff22dd5d427ac3cac59"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I19-1035-01_S34_L001_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552551,
+          "persistentId": "",
+          "filename": "I19-1035-01_S34_L001_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 422287963,
+          "storageIdentifier": "surf://store:1995c0ba7f3-46242ad7ae9d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6bf4edd55c605084e4aed77333d1479a830564fc"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "I19-1035-01_S34_L002_R1_001.fastq.gz",
+        "restricted": true,
+        "version": 2,
+        "datasetVersionId": 31615,
+        "dataFile": {
+          "id": 552560,
+          "persistentId": "",
+          "filename": "I19-1035-01_S34_L002_R1_001.fastq.gz",
+          "contentType": "application/x-gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 420101896,
+          "storageIdentifier": "surf://store:1995c0bfd32-b4908935f85e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eac672381de698873058e934a757d7f0d99a8f9d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-09-18",
+          "publicationDate": "2025-09-19",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Gao, Zhenyu, 2025, \"Bouwen et al Nat Comm 2025 scRNAseq\", https://doi.org/10.34894/BXYLHP, DataverseNL, V1"
+  }
+}

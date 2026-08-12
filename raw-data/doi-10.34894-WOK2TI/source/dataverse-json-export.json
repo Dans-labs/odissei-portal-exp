@@ -1,0 +1,256 @@
+{
+  "id": 576033,
+  "identifier": "WOK2TI",
+  "persistentUrl": "https://doi.org/10.34894/WOK2TI",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-01-08",
+  "storageIdentifier": "surf://10.34894/WOK2TI",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 32564,
+    "datasetId": 576033,
+    "datasetPersistentId": "doi:10.34894/WOK2TI",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/WOK2TI",
+    "versionNumber": 1,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-01-08T18:42:21Z",
+    "releaseTime": "2026-01-08T18:42:21Z",
+    "createTime": "2026-01-08T18:42:19Z",
+    "publicationDate": "2026-01-08",
+    "citationDate": "2026-01-08",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Total Cattle"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Klein Goldewijk, Kees"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-2714-7507"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Leeuwen, Bas"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Historical livestock statistics from Mitchell are first adjusted to match the FAO statistics in 1961 (FAO presents statistics from 1961-present time). Then, the most historical data found in Mitchell is converted in a simple per-capita number, and this number is kept constant further back in time. Apparently for Europe this will result in an underestimate (evidence from Broadberry et al suggest that in Medieval times the per capita livestock number was higher), but for other regions this is probably not the case (Americas and Australia/New Zealand didn’t have livestock at all until the early 16th century resp. late 18th century)."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2013-04-09"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "cattle"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "livestock"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Please consult the working paper for a description of the data and sources."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van Leeuwen, Bas"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2015-12-14"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/WOK2TI"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:aa8f7d91-b16d-495c-aabb-4a87eb82e80f"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-3db81beb-21b6-4cd1-bfa7-dfa60bd55577"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "Total_Cattle.doc",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32564,
+        "dataFile": {
+          "id": 576034,
+          "persistentId": "",
+          "filename": "Total_Cattle.doc",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 36864,
+          "description": "",
+          "storageIdentifier": "surf://store:19b9eeaa293-d1b015e81eeb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "12f9136b21b941e22ed36bb82cd580e231bd5779"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-08",
+          "publicationDate": "2026-01-08",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "",
+        "label": "Total_Cattle-historical.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 32564,
+        "dataFile": {
+          "id": 576035,
+          "persistentId": "",
+          "filename": "Total_Cattle-historical.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 151158,
+          "description": "",
+          "storageIdentifier": "surf://store:19b9eeaa3a4-00d4a24f4098",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8203e207f3055034244ec701cecbda33fff16e91"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-08",
+          "publicationDate": "2026-01-08",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Klein Goldewijk, Kees, 2026, \"Total Cattle\", https://doi.org/10.34894/WOK2TI, DataverseNL, V1"
+  }
+}

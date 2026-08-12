@@ -1,0 +1,900 @@
+{
+  "id": 656685,
+  "identifier": "TE6FXN",
+  "persistentUrl": "https://doi.org/10.34894/TE6FXN",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-07-27",
+  "storageIdentifier": "surf://10.34894/TE6FXN",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 35125,
+    "datasetId": 656685,
+    "datasetPersistentId": "doi:10.34894/TE6FXN",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/TE6FXN",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2026-07-27",
+    "productionDate": "2026-07-27",
+    "lastUpdateTime": "2026-07-27T15:23:27Z",
+    "releaseTime": "2026-07-27T15:23:27Z",
+    "createTime": "2026-07-27T14:48:11Z",
+    "publicationDate": "2026-07-27",
+    "citationDate": "2026-07-27",
+    "license": {
+      "name": "CC-BY-NC-SA-4.0",
+      "uri": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Vectorization of the Kaart van Suriname (Bakhuis and De Quant, 1930)"
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "https://surinametimemachine.org/"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oort, van, Thunnis"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/04x6kq749",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-8912-0508"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Werf, Hinke van der"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Galen, Coen van"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/016xsfp80",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Radboud University Nijmegen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-1423-0686"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oort, van, Thunnis"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "huygens.knaw.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "The dataset is a vectorization of the landmark map \"Kaart van Suriname\" (Map of Suriname), a cartographic work compiled by L.A. Bakhuis and W. de Quant published in 1930. This map represented an update to the earlier colonial geography of J.F.A. Cateau van Rosevelt and J.F.A.E. van Lansberge (published in 1882). While it was partly based on the survey data originally collected Cateau van Rosevelt and Van Lansberge between 1860 and 1879, the 1930 map incorporated new information from scientific expeditions conducted between 1900 and 1927. This map is therefore the most suitable source for creating a precise vector layer of the Surinamese plantation landscape because it combines high geographical accuracy with the historical reality of a plantation system that was fading by 1930.\n\nThe vector annotations derived from the 1930 and 1882 maps are linked to the Suriname Slave and Emancipation Registers, which enables linking information about enslaved people to the geographical location of plantations.\n\nThe dataset consists of the following vector layers: 1) Plantations: Polygons representing Suriname's plantations; 2) Places: Point data for settlements and locations (such as Maroon and Indigenous settlements), including naming on both 1930 and 1882 maps; 3) Rivers and Creeks: Line features depicting the water networks, including names depicted on the 1930 and 1882 maps; 4) Infrastructure: Line features for (rail)roads (1930)."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-07-27"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "plantations"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "colonial history"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "slavery"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "maps"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "historical cartography"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Cites"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "C. Koeman ed., Links with the past. The history of the cartography of Suriname 1500-1971 (Amsterdam 1973)"
+                }
+              },
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Cites"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Carel van Hest, Atlas van plantages in Suriname 1667-1930 (Paramaribo, 2019)"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.yumpu.com/xx/document/view/68569997/atlas-van-plantages-in-suriname-1667-1930"
+                }
+              },
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Cites"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "C. W. van Galen and M.S. Hassankhan, (2018). A research–note on the slave registers of Suriname, 1830–1865. The History of the Family, 23(3), 503–520."
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1080/1081602X.2018.1507917"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-07-27"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Netherlands"
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stichting Pica"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-07-27"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Oort, van, Thunnis"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-07-27"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1862"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1930"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1862"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "geojson vector data",
+              "georeferenced TIF raster data",
+              "documentation"
+            ]
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "The digitized versions of the 1930 and the 1882 maps used for this dataset are online available at the Leiden University Library: https://hdl.handle.net/1887.1/item:91353 (1930) and http://hdl.handle.net/1887.1/item:814811 [1882]; the images are available in IIIF format."
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "country": {
+                  "typeName": "country",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Suriname"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/TE6FXN"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:0e258511-9c9e-46b1-8d3a-b0f79f91d6b6"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-62e925f3-69ac-495b-9c19-d554241dc73b"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "kaart-van-suriname-1930.json",
+        "restricted": false,
+        "directoryLabel": "rasterdata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656691,
+          "persistentId": "",
+          "filename": "kaart-van-suriname-1930.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 17590,
+          "storageIdentifier": "surf://store:19fa3a3b9c0-89b7e9c8a8bc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c676e1fcfd0393daee2ac76c7837dc0bc480bb17"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "rasterdata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Map of Suriname 1930 vectorization.pdf",
+        "restricted": false,
+        "directoryLabel": "documentation",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656692,
+          "persistentId": "",
+          "filename": "Map of Suriname 1930 vectorization.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 130369,
+          "storageIdentifier": "surf://store:19fa40a434b-f3c7172cfe32",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "17b164cc917341bb6d3368c9dedcd4b53961aa89"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "documentation",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "places.geojson",
+        "restricted": false,
+        "directoryLabel": "vectordata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656697,
+          "persistentId": "",
+          "filename": "places.geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 105595,
+          "storageIdentifier": "surf://store:19fa3a480a6-dc3e7888c8ea",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "02597452ef105c3d82599f9ade8d441a7b7c1d8a"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "vectordata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "plantations.geojson",
+        "restricted": false,
+        "directoryLabel": "vectordata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656688,
+          "persistentId": "",
+          "filename": "plantations.geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 1132712,
+          "storageIdentifier": "surf://store:19fa3a4814b-19cf68c49b21",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ec1fb7306a596a5ab489906342c1b68254aa8c1f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "vectordata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "rivers.geojson",
+        "restricted": false,
+        "directoryLabel": "vectordata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656700,
+          "persistentId": "",
+          "filename": "rivers.geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 621276,
+          "storageIdentifier": "surf://store:19fa3a481df-7efd3932e8e9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "741ba023ed72b442a2b2213fb24c727708e0c06b"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "vectordata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "roads.geojson",
+        "restricted": false,
+        "directoryLabel": "vectordata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656694,
+          "persistentId": "",
+          "filename": "roads.geojson",
+          "contentType": "application/geo+json",
+          "friendlyType": "GeoJSON",
+          "filesize": 68999,
+          "storageIdentifier": "surf://store:19fa3a4828d-074fc8cf2eed",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9de4a9ee48c23cdf6b4cbb7bd33e49d49a37c053"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "vectordata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sheet10_1930.tif",
+        "restricted": false,
+        "directoryLabel": "rasterdata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656701,
+          "persistentId": "",
+          "filename": "sheet10_1930.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 48713235,
+          "storageIdentifier": "surf://store:19fa3a3be9b-be56cf608f78",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f6ba694f406f03f3946fc3b3bc4236b41d1706a2"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "rasterdata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sheet11_1930.tif",
+        "restricted": false,
+        "directoryLabel": "rasterdata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656695,
+          "persistentId": "",
+          "filename": "sheet11_1930.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 254561463,
+          "storageIdentifier": "surf://store:19fa3a3d4d5-6099bae31bb8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1498b2c433c872cec83ddc88da3d14b167c912b5"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "rasterdata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sheet3_1930.tif",
+        "restricted": false,
+        "directoryLabel": "rasterdata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656699,
+          "persistentId": "",
+          "filename": "sheet3_1930.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 261491454,
+          "storageIdentifier": "surf://store:19fa3a3ecf2-38154b7deef2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d023043eca10d5b89a016fb075d4c5ebbcba53d2"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "rasterdata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sheet4_1930.tif",
+        "restricted": false,
+        "directoryLabel": "rasterdata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656686,
+          "persistentId": "",
+          "filename": "sheet4_1930.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 251844243,
+          "storageIdentifier": "surf://store:19fa3a40463-3ff71cdfc14b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c8a472a61e5ed60f2f7e3b11cf6436c65d4bcbab"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "rasterdata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sheet5_1930.tif",
+        "restricted": false,
+        "directoryLabel": "rasterdata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656687,
+          "persistentId": "",
+          "filename": "sheet5_1930.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 246775218,
+          "storageIdentifier": "surf://store:19fa3a41bd3-8c872d6c44d1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6fa2756c1dc8dedbe186440dc49d5542cce62ce5"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "rasterdata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sheet6_1930.tif",
+        "restricted": false,
+        "directoryLabel": "rasterdata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656698,
+          "persistentId": "",
+          "filename": "sheet6_1930.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 258968481,
+          "storageIdentifier": "surf://store:19fa3a438cc-1bcc2c89a82e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "72280b8d589d0261732668e46804a470ef2cdda3"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "rasterdata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sheet7_1930.tif",
+        "restricted": false,
+        "directoryLabel": "rasterdata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656693,
+          "persistentId": "",
+          "filename": "sheet7_1930.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 255224040,
+          "storageIdentifier": "surf://store:19fa3a451b4-ad767ff75bab",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "85230404f9bf94986cc7149a2a2a1433bbbd365e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "rasterdata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sheet8_1930.tif",
+        "restricted": false,
+        "directoryLabel": "rasterdata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656689,
+          "persistentId": "",
+          "filename": "sheet8_1930.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 252672540,
+          "storageIdentifier": "surf://store:19fa3a468f7-b6ac6d8ebc54",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c940a23532bab7ec22a4b850b6065fd9e9615e48"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "rasterdata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sheet9_1930.tif",
+        "restricted": false,
+        "directoryLabel": "rasterdata",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656696,
+          "persistentId": "",
+          "filename": "sheet9_1930.tif",
+          "contentType": "image/tiff",
+          "friendlyType": "TIFF Image",
+          "filesize": 246654807,
+          "storageIdentifier": "surf://store:19fa3a47f3c-bf31e9a3f56d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2da0894649cd57fc98fe853d229aaf952396597a"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "rasterdata",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Using a GIS in researching the slage registers of Suriname - H. van der Werf 2020.pdf",
+        "restricted": false,
+        "directoryLabel": "documentation",
+        "version": 1,
+        "datasetVersionId": 35125,
+        "dataFile": {
+          "id": 656690,
+          "persistentId": "",
+          "filename": "Using a GIS in researching the slage registers of Suriname - H. van der Werf 2020.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 6690462,
+          "storageIdentifier": "surf://store:19fa40a4712-812af069c265",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "766c8dc2400c13e929226220dadba8e440d909b1"
+          },
+          "tabularData": false,
+          "creationDate": "2026-07-27",
+          "publicationDate": "2026-07-27",
+          "directoryLabel": "documentation",
+          "lastUpdateTime": "2026-07-27T15:23:27Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Oort, van, Thunnis; Werf, Hinke van der; Galen, Coen van, 2026, \"Vectorization of the Kaart van Suriname (Bakhuis and De Quant, 1930)\", https://doi.org/10.34894/TE6FXN, DataverseNL, V1"
+  }
+}

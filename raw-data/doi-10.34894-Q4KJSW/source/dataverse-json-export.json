@@ -1,0 +1,473 @@
+{
+  "id": 607595,
+  "identifier": "Q4KJSW",
+  "persistentUrl": "https://doi.org/10.34894/Q4KJSW",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-03-06",
+  "storageIdentifier": "surf://10.34894/Q4KJSW",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34018,
+    "datasetId": 607595,
+    "datasetPersistentId": "doi:10.34894/Q4KJSW",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/Q4KJSW",
+    "versionNumber": 1,
+    "internalVersionNumber": 72,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-03-06T10:03:39Z",
+    "releaseTime": "2026-03-06T10:03:39Z",
+    "createTime": "2026-02-12T15:40:26Z",
+    "publicationDate": "2026-03-06",
+    "citationDate": "2026-03-06",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Olympic Athletes & Global Inequality : A Historical Dataset (1896-2024)"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Olympic Athletes -data set and economic/ demographical insights"
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oonk, Gijsbert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/057w15z03",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Erasmus University Rotterdam",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0001-8493-3884"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oonk, Gijsbert"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus University Rotterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<h3> Background </h3>\nThe modern Olympic Games have long been presented as a universal arena where the world meets on equal terms. Yet from their inception in 1896, participation has been shaped by profound global inequalities in wealth, infrastructure, political stability, gender norms, and access to training opportunities. While medal tables and performance records are meticulously documented, far less attention has been paid to the structural conditions that determine who is able to reach the Olympic stage in the first place. The project Olympic Athletes & Global Inequality: A Historical Dataset (1896–2024) builds on a growing body of scholarship that treats international sport as a lens through which broader patterns of inequality, migration, and geopolitical change can be observed. By assembling long-term, athlete-level data, the dataset enables researchers to examine how opportunity in global sport has been distributed across countries, regions, and historical periods.\n\n<h3> Purpose </h3>\nThe primary aim of the dataset is to shift the analytical focus from outcomes (who won) to access (who could participate). It seeks to identify the social, economic, and political conditions under which athletes gain the opportunity to compete at the Olympic Games, as well as the constraints that limit participation for others. In particular, the dataset enables the study of disparities between countries of origin and countries represented, patterns of athlete migration and nationality change, and the relationship between national wealth and Olympic presence. By doing so, it provides an empirical foundation for research on global inequality, citizenship, and mobility, and offers policymakers, journalists, and the broader public a clearer understanding of how international sport both reflects and reproduces uneven global development.\n\n<h3> Methods </h3>\nThe dataset compiles the names and participation records of nearly all Olympic athletes from 1896 to 2024. The primary source is Olympedia (the successor to Sports Reference LLC’s Olympic database), supplemented by Wikidata, official participant lists from the Olympic Studies Centre, and targeted searches in major newspaper archives via LexisNexis to resolve ambiguities and fill gaps. For each athlete, we aimed to identify country of birth, country represented, and events contested. These data were then linked to historical economic indicators, including national GDP and GDP per capita, in order to contextualize participation within broader patterns of global wealth. Extensive data cleaning, cross-referencing, and standardization were conducted to harmonize country names, account for geopolitical changes (such as state dissolution or unification), and ensure longitudinal comparability across the 128-year period covered.\n\n<h3> Results </h3>\nThe dataset reveals persistent and substantial inequalities in Olympic participation. Athletes from high-income countries are consistently overrepresented, while large parts of the Global South remain underrepresented despite population size. At the same time, the data highlight significant patterns of athlete mobility, with a notable number of competitors representing countries other than their birth nations—often moving from less wealthy to more affluent states with stronger sporting infrastructures. These findings demonstrate that the Olympic Games, far from being a level playing field, reflect broader global hierarchies of resources and opportunity. By making these patterns visible across more than a century of Olympic history, the dataset provides a powerful tool for rethinking the Games not only as a sporting event but also as an index of global inequality and change."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2026-02-12"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Athletes"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Olympic"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GDP"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "References"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jansen, J. (2020). Who can represent the nation?: Migration, citizenship, and nationhood in the Olympic Games [Doctoral thesis, Erasmus University Rotterdam]. Erasmus Universiteit Rotterdam."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "handle"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1765/127634"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://hdl.handle.net/1765/127634"
+                }
+              },
+              {
+                "publicationRelationType": {
+                  "typeName": "publicationRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "References"
+                },
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Oonk, G., & Oonk, A. (2023). ‘This is not a problem but an issue’: Chinese‑born table tennis players representing another country at the Olympics, 1988–2020. The International Journal of the History of Sport, 40(4), 350–369. https://doi.org/10.1080/09523367.2023.2186857"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1080/09523367.2023.2186857"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1080/09523367.2023.2186857"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This entry is a six-files data package totaling 137.02 MB, containing files in .ods, .odt, .pdf, .txt and .xlsx formats.</p> <p>If you use this dataset, please cite: <p>Oonk, G. (2026). <i> Olympic Athletes & Global Inequality : A Historical Dataset (1896-2024) </i> (Version V1) [Data set]. DataverseNL. <a href=\"https://doi.org/10.34894/Q4KJSW\" target=\"https://doi.org/10.34894/Q4KJSW\"> https://doi.org/10.34894/Q4KJSW </a></p></p>"
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Oonk, Gijsbert"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2026-02-12"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1896"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2000"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Observational (historical/longitudinal)"
+            ]
+          },
+          {
+            "typeName": "relatedMaterial",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "<a href=\"https://www.olympedia.org/\" target=\"https://www.olympedia.org/\">Olympedia</a>"
+            ]
+          },
+          {
+            "typeName": "relatedDatasets",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.olympedia.org"
+            ]
+          },
+          {
+            "typeName": "originOfSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Gini version 3, please see documentation here:\nhttps://www.gapminder.org/data/documentation/gini/\nGDP per capita in constant PPP dollars version 31, see documentation here:\nhttp://gapminder.org/data/documentation/gd001/\nPopulation by country, see documentation here:\nhttps://www.gapminder.org/data/documentation/gd003/\nFor countries that gapminder did not have population information for, World Bank dataset was used:\nhttps://data.worldbank.org/indicator/SP.POP.TOTL\nDataset used to get athlete death dates, birth dates and other individual characteristics from Olympedia. This is more correct than the original dataset:\nhttps://www.kaggle.com/datasets/vaibhav1056/olympics-athletes-born-data\n\nDataset web scraped from Olympedia, used to add latitude, longitude, places obtained in Olympics, whether the result was a tie and all other non-economic data columns. Also used to double check whether data obtained from olympedia web scraped athlete characteristics file (above) is correct:\nhttps://github.com/KeithGalli/Olympics-Dataset/tree/master"
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": [
+          {
+            "typeName": "geographicCoverage",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherGeographicCoverage": {
+                  "typeName": "otherGeographicCoverage",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gobal"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "geographicUnit",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "state-level"
+            ]
+          }
+        ]
+      },
+      "socialscience": {
+        "displayName": "Social Science and Humanities Metadata",
+        "name": "socialscience",
+        "fields": [
+          {
+            "typeName": "unitOfAnalysis",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Global Perspective. It covers all the countries since 1896"
+            ]
+          },
+          {
+            "typeName": "universe",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Olympic Athletes particpation, nationality and Gini/ GDP per country"
+            ]
+          }
+        ]
+      },
+      "biomedical": {
+        "displayName": "Life Sciences Metadata",
+        "name": "biomedical",
+        "fields": [
+          {
+            "typeName": "studyDesignType",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Not Specified"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/Q4KJSW"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:e2b38564-e427-4cc7-83dc-9ff6ad497467"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-a1b1bcec-3ff8-4bdf-8c33-70429ac04ba8"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "doi-10.34894-q4kjsw_data-package_2026.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34018,
+        "dataFile": {
+          "id": 614437,
+          "persistentId": "",
+          "filename": "doi-10.34894-q4kjsw_data-package_2026.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 135288149,
+          "description": "",
+          "storageIdentifier": "surf://store:19cbd8df436-21f90f3ff854",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bf55a4c855a14b2a41fc21d6d0f2e9da6c1a6da9"
+          },
+          "tabularData": false,
+          "creationDate": "2026-03-05",
+          "publicationDate": "2026-03-06",
+          "lastUpdateTime": "2026-03-06T10:03:39Z",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Oonk, Gijsbert, 2026, \"Olympic Athletes & Global Inequality : A Historical Dataset (1896-2024)\", https://doi.org/10.34894/Q4KJSW, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "id": 17100,
+  "identifier": "F7DI2Z",
+  "persistentUrl": "https://doi.org/10.34894/F7DI2Z",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2019-09-12",
+  "storageIdentifier": "surf://10411/NYLQWW",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 1763,
+    "datasetId": 17100,
+    "datasetPersistentId": "doi:10.34894/F7DI2Z",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10411/NYLQWW",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2019-09-12T15:25:48Z",
+    "releaseTime": "2019-09-12T15:25:48Z",
+    "createTime": "2019-09-12T15:04:04Z",
+    "alternativePersistentId": "hdl:10411/NYLQWW",
+    "publicationDate": "2019-09-12",
+    "citationDate": "2019-09-12",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Administrative level 2 areas exposed to earthquakes (MMI ≥ VIII) and tropical cyclones between 1960 and 2016"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Couasnon, Anaïs"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-9372-841X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "de Ruiter, Marleen C."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-5991-8842"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Couasnon, Anaïs"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>This dataset includes one file per hazard considered: tropical cyclones and earthquakes. Every file contains as first entries the name of the administrative level 2 exposed to the hazard. In the few cases where administrative level area 2 did not exist, we referred to the administrative level area 1. Each entry then contains the date at which the event occurred along with the ID of the event, as reported in the original datasets mentioned below. The date of the event is stored as a string with the following format: ‘year-month-day’. </p>\r\n\r\n<p> For earthquakes, we considered areas subjected to a Modified Mercalli Intensity (MMI) category VIII or higher using a circular radius dependent on the earthquake moment magnitude recorded by the USGS Comprehensive Earthquake Catalog (U.S. Geological Survey 2017). This relationship was derived based on the analysis of 6,320 raster files (USGS ShakeMap) produced by USGS for earthquakes with a moment magnitude of at least 5. Based on this analysis, we find the following:<br>\r\nln A = 2.106 M - 8.160<br>\r\nwhere A  is the area subject to an MMI of category VIII or higher and M  is the moment magnitude of the earthquake.\r\n</p>\r\n\r\n<p> We use equation 1 to create a buffer area around the epicenter for all reported earthquakes by the USGS with a moment magnitude higher than 5. We intersect this area with all administrative level 2 areas exposed to an earthquake intensity of category VIII or higher.  The event ID refers to the event name as stored by the USGS. \r\nFor the areas affected by tropical cyclones, we generated footprints of tropical cyclones when these were either classed as tropical storms or higher intensity by applying a buffer of 80 km both sides from the track, following the method in Tate et al. (2010). We used the IBTrACS dataset v03r10 (Knapp et al. 2010) to indicate the position of the center of the tropical cyclone. The event ID refers to the event name as stored in the IBTrACS dataset. </p>\r\n\r\nReferences<br>\r\n<ul>\r\n<li>GADM. 2018. “GADM - GADM Database of Global Administrative Areas.” https://gadm.org/ (June 14, 2019).</li>\r\n\r\n<li>Knapp, Kenneth R et al. 2010. “THE INTERNATIONAL BEST TRACK ARCHIVE FOR CLIMATE STEWARDSHIP (IBTrACS) Unifying Tropical Cyclone Data.” Bulletin of the American Meteorological Society 91: 363–76. https://journals.ametsoc.org/doi/pdf/10.1175/2009BAMS2755.1.</li>\r\n\r\n<li>Tate, Eric, Susan L Cutter, and Melissa Berry. 2010. “Integrated Multihazard Mapping.” Environment and Planning B: Planning and Design 37: 646–63. http://journals.sagepub.com/doi/pdf/10.1068/b35157.</li>\r\n\r\n<li>U.S. Geological Survey. 2017. “ShakeMap - Earthquake Ground Motion and Shaking Intensity Maps.” https://earthquake.usgs.gov/data/shakemap/. </li>\r\n</ul>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences",
+              "Engineering"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tropical cyclone"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Earthquakes"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Administrative level"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Spatial hazard footprint"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Netherlands Organisation for Scientific Research"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "016.161.324"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Couasnon, Anaïs"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2019-09-12"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1960-01-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2016-12-31"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "name": "geospatial",
+        "fields": []
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/F7DI2Z"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:52fb7e60-c576-44fe-97f6-1b8d72c2c75b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-fbc8e1fb-5e1b-4feb-88ff-6dddd01f2dfe"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Administrative level 2 areas exposed to earthquakes (MMI ≥ VIII) between 1960 and 2016",
+        "label": "EQ_admin2_1960_2016.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 1763,
+        "dataFile": {
+          "id": 17101,
+          "persistentId": "",
+          "filename": "EQ_admin2_1960_2016.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 673812,
+          "description": "Administrative level 2 areas exposed to earthquakes (MMI ≥ VIII) between 1960 and 2016",
+          "storageIdentifier": "surf://store:16d25fc455c-2a64e6f85a57",
+          "rootDataFileId": -1,
+          "md5": "f00f5f6d4a3d0c4dd06c64be6f5a470b",
+          "checksum": {
+            "type": "MD5",
+            "value": "f00f5f6d4a3d0c4dd06c64be6f5a470b"
+          },
+          "tabularData": false,
+          "creationDate": "2019-09-12",
+          "publicationDate": "2019-09-12",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Administrative level 2 areas exposed to tropical cyclones between 1960 and 2016",
+        "label": "TC_admin2_1960_2016.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 1763,
+        "dataFile": {
+          "id": 17102,
+          "persistentId": "",
+          "filename": "TC_admin2_1960_2016.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 5819699,
+          "description": "Administrative level 2 areas exposed to tropical cyclones between 1960 and 2016",
+          "storageIdentifier": "surf://store:16d25fd8420-87cca549d1e6",
+          "rootDataFileId": -1,
+          "md5": "fccf016a3fb2def45b04e8a2506f8ef0",
+          "checksum": {
+            "type": "MD5",
+            "value": "fccf016a3fb2def45b04e8a2506f8ef0"
+          },
+          "tabularData": false,
+          "creationDate": "2019-09-12",
+          "publicationDate": "2019-09-12",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Couasnon, Anaïs; de Ruiter, Marleen C., 2019, \"Administrative level 2 areas exposed to earthquakes (MMI ≥ VIII) and tropical cyclones between 1960 and 2016\", https://doi.org/10.34894/F7DI2Z, DataverseNL, V1"
+  }
+}

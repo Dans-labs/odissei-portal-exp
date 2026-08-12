@@ -1,0 +1,1422 @@
+{
+  "id": 487279,
+  "identifier": "3SK3JG",
+  "persistentUrl": "https://doi.org/10.34894/3SK3JG",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-06-24",
+  "storageIdentifier": "surf://10.34894/3SK3JG",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30734,
+    "datasetId": 487279,
+    "datasetPersistentId": "doi:10.34894/3SK3JG",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/3SK3JG",
+    "versionNumber": 1,
+    "internalVersionNumber": 21,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-06-24T07:40:37Z",
+    "releaseTime": "2025-06-24T07:40:37Z",
+    "createTime": "2025-06-19T13:30:53Z",
+    "publicationDate": "2025-06-24",
+    "citationDate": "2025-06-24",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Instances for \"Consistent Collaborative Vehicle Utilization\""
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ahari, S.A."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/012p63287",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Groningen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-0390-9493"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bakir, I."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/012p63287",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Groningen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-3160-526X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Roodbergen, K.J."
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/012p63287",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "University of Groningen",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-4083-2106"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Groningen Digital Competence Centre"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "rug.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Research project:<br>\nDespite potential cost savings, carriers are often reluctant to collaborate on deliveries. Sustainable collaboration requires preserving competitiveness, customer privacy, and service quality. This study introduces the Consistent Collaborative Vehicle Utilization (CCVU) framework, in which carriers borrow vehicles from each other to improve efficiency. Each customer is served by their designated carrier within a specified time window. We present an integer programming model and a branch-and-price algorithm, supported by heuristics for larger instances.<br> <br>\n\nDataset Description:<br>\nThis archive contains two types of instances: pr-instances and sr-instances. Detailed descriptions and file formats can be found in the accompanying read_me file."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Business and Management"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Carrier collaboration"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Collaborative vehicle utilization"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Time window assignment"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Consistent vehicle routing"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Integer programming"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Branch-and-price"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Consistent Collaborative Vehicle Utilization, Ahari, S.A., Bakir, I., Roodbergen, K.J. (unpublished working paper)."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL Network"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS"
+                },
+                "distributorAbbreviation": {
+                  "typeName": "distributorAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DVNL"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://dataverse.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Silva Correia Alves, Ana"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-06-19"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/3SK3JG"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:21673064-bedc-425b-aea4-d29c764f80ca"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-25873681-4d8f-4bc5-94e4-cb517fdeafdb"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Dataset Information.docx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487335,
+          "persistentId": "",
+          "filename": "Dataset Information.docx",
+          "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          "friendlyType": "MS Word",
+          "filesize": 14038,
+          "storageIdentifier": "surf://store:1978ca41a68-7691eb06d600",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e433fcd2bb169b91678ef7ac1aecb8ed45983657"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Paper_Title_Page.pdf",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487325,
+          "persistentId": "",
+          "filename": "Paper_Title_Page.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 126892,
+          "storageIdentifier": "surf://store:1978ca41a74-1c441ea1b579",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "60d7b90ca838cc2bef14561aef9b095832a7a7c9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr01-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/20 customers- 4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487334,
+          "persistentId": "",
+          "filename": "pr01-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12694,
+          "storageIdentifier": "surf://store:1978ca41b17-0b8df27b84c7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83ffd86de9fcaf801afd3c79959ade8099ae7d0c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr01-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/50 customers- 8 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487349,
+          "persistentId": "",
+          "filename": "pr01-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14261,
+          "storageIdentifier": "surf://store:1978ca41aef-efbe2885f143",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d97341c5f9871f61d69b26ec3e6ead0f59e93ab1"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr02-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/20 customers- 4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487342,
+          "persistentId": "",
+          "filename": "pr02-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12515,
+          "storageIdentifier": "surf://store:1978ca41b24-a7caef4ea069",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2d02d76f18b85364df615971bc2afb32fd47e8f4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr02-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/50 customers- 8 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487341,
+          "persistentId": "",
+          "filename": "pr02-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14071,
+          "storageIdentifier": "surf://store:1978ca41ae0-34e8f9044fca",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "488c01c64e377bc7c2bb3e7d75a69034bf5e57f7"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr03-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/20 customers- 4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487316,
+          "persistentId": "",
+          "filename": "pr03-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12557,
+          "storageIdentifier": "surf://store:1978ca41b20-8922cb3e3e12",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e79c743c911eced94e1fb77ff268caed317a5ca4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr03-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/50 customers- 8 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487338,
+          "persistentId": "",
+          "filename": "pr03-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14019,
+          "storageIdentifier": "surf://store:1978ca41ae4-269af4d5ab4f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "11525207b9ccc0887ce0a7564316d3def58efbe2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr04-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/20 customers- 4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487328,
+          "persistentId": "",
+          "filename": "pr04-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12538,
+          "storageIdentifier": "surf://store:1978ca41b32-b6cb19021b6c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "78a6947161390f22f677a04b0d7663ae51f2a969"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr04-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/50 customers- 8 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487348,
+          "persistentId": "",
+          "filename": "pr04-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14046,
+          "storageIdentifier": "surf://store:1978ca41b00-22d87ec97a29",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "36ffbaa39581b07da7ef11c30bd8b4e5d582eeeb"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr05-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/20 customers- 4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487339,
+          "persistentId": "",
+          "filename": "pr05-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12634,
+          "storageIdentifier": "surf://store:1978ca41b36-2f6637c91bae",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "86f2ebc8fc74a7320e058db8d022c866389f6343"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr05-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/50 customers- 8 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487327,
+          "persistentId": "",
+          "filename": "pr05-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14038,
+          "storageIdentifier": "surf://store:1978ca41afc-96071ac7b370",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c55e162eef928c1dfa0f39fc56702bdfbd895fea"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr06-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/20 customers- 4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487333,
+          "persistentId": "",
+          "filename": "pr06-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12568,
+          "storageIdentifier": "surf://store:1978ca41b2d-3ebd0f67dff1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ca3fd8da873674bc9cfa7d84c44b7fd4ae8350d0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr06-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/50 customers- 8 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487330,
+          "persistentId": "",
+          "filename": "pr06-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14074,
+          "storageIdentifier": "surf://store:1978ca41b05-02196d0e274c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6a0338d95ab5262bfa226993628f2323d2722b7e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr07-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/20 customers- 4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487323,
+          "persistentId": "",
+          "filename": "pr07-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12568,
+          "storageIdentifier": "surf://store:1978ca41b28-1d9d907b38c0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ca22a037fb66737c3206baeecc10e90be95e2d66"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr07-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/50 customers- 8 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487346,
+          "persistentId": "",
+          "filename": "pr07-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14040,
+          "storageIdentifier": "surf://store:1978ca41b09-b4dd7be3fcaf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a77ac6f331971a5b6f806f1b3f5c786ed7dcdda8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr08-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/20 customers- 4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487329,
+          "persistentId": "",
+          "filename": "pr08-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12552,
+          "storageIdentifier": "surf://store:1978ca41b1b-779eda6b830d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b11955f5bbdd41ef5b24ad0f066b0c673b2983da"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr08-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/50 customers- 8 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487324,
+          "persistentId": "",
+          "filename": "pr08-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14080,
+          "storageIdentifier": "surf://store:1978ca41aea-c8b87d6ea372",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c4656d2c03d46f0da1e713298391baa4021cce5c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr09-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/20 customers- 4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487353,
+          "persistentId": "",
+          "filename": "pr09-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12533,
+          "storageIdentifier": "surf://store:1978ca41b0d-79de1b538223",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3f0490fc835aebb61d2c35cb22956271c2d9b4ae"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr09-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/50 customers- 8 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487317,
+          "persistentId": "",
+          "filename": "pr09-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14046,
+          "storageIdentifier": "surf://store:1978ca41af8-c1a8a320171f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e8bfbae6c3b3755069964de50371b0216805c74e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr10-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/20 customers- 4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487354,
+          "persistentId": "",
+          "filename": "pr10-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12603,
+          "storageIdentifier": "surf://store:1978ca41b12-874cdd4f6d56",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "449ef407548d131c12428b0d41bc9cdec8eba322"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "pr10-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/pr-instances/50 customers- 8 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487343,
+          "persistentId": "",
+          "filename": "pr10-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14039,
+          "storageIdentifier": "surf://store:1978ca41af3-2748a7227b52",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "865fb5de7d41029ed5acce596d243078bb742488"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Read_me.rtf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 488454,
+          "persistentId": "",
+          "filename": "Read_me.rtf",
+          "contentType": "application/msword",
+          "friendlyType": "MS Word",
+          "filesize": 59725,
+          "storageIdentifier": "surf://store:197a08f32e1-852d1a06277e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7a6bc073c6f316f8282a61d18e6a38f2062676b2"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-24",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr01-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/20 customers-2 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487315,
+          "persistentId": "",
+          "filename": "sr01-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12634,
+          "storageIdentifier": "surf://store:1978ca41a9b-24ee23a72667",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e48c164165f5433fb4328e4d566ba1186ef79c04"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr01-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/50 customers-4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487337,
+          "persistentId": "",
+          "filename": "sr01-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14274,
+          "storageIdentifier": "surf://store:1978ca41ad1-32ed8d9b7bc8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ae340047e192ecf13b391eced9cc6f5f60a7b64f"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr02-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/20 customers-2 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487322,
+          "persistentId": "",
+          "filename": "sr02-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12526,
+          "storageIdentifier": "surf://store:1978ca41a8f-588be4371060",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9fb9f45f507fbccf57c9181fd15941a2b0729906"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr02-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/50 customers-4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487350,
+          "persistentId": "",
+          "filename": "sr02-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14120,
+          "storageIdentifier": "surf://store:1978ca41adb-32ad4586e046",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6c5940eff5b6c5266332fde3fb04299b45feae64"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr03-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/20 customers-2 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487357,
+          "persistentId": "",
+          "filename": "sr03-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12602,
+          "storageIdentifier": "surf://store:1978ca41a95-aae310517236",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f4b6bdc6e3a6a42dc597fdb0b96f92d7e1d67f50"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr03-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/50 customers-4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487352,
+          "persistentId": "",
+          "filename": "sr03-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14529,
+          "storageIdentifier": "surf://store:1978ca41ad6-10d5002e0230",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "74a5f0e4d4584912a657f327151885d1f8ec74ef"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr04-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/20 customers-2 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487318,
+          "persistentId": "",
+          "filename": "sr04-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12605,
+          "storageIdentifier": "surf://store:1978ca41a7f-524b93ee9502",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "041be71fb4e13f06270c60c98e36b34984d5b70c"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr04-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/50 customers-4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487356,
+          "persistentId": "",
+          "filename": "sr04-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14342,
+          "storageIdentifier": "surf://store:1978ca41ab9-cfba793367b7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e8def82a61554e2a77836a576ccd0dec3ffc00b4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr05-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/20 customers-2 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487336,
+          "persistentId": "",
+          "filename": "sr05-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12702,
+          "storageIdentifier": "surf://store:1978ca41a79-14476a6be04c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ca1f3ff8a31f7cc1d93ff95622392e7f0ffde74b"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr05-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/50 customers-4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487332,
+          "persistentId": "",
+          "filename": "sr05-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14301,
+          "storageIdentifier": "surf://store:1978ca41abe-346b113b9d9d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0e305458492294511957222864017579aa2cafe3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr06-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/20 customers-2 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487320,
+          "persistentId": "",
+          "filename": "sr06-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12791,
+          "storageIdentifier": "surf://store:1978ca41a84-330a31237d80",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "756efcb5b36ea18608c787786b711ac2c503dcec"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr06-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/50 customers-4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487321,
+          "persistentId": "",
+          "filename": "sr06-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14670,
+          "storageIdentifier": "surf://store:1978ca41ab5-06b811cff415",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1f31255042203f613916cfde62380d499da5d372"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr07-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/20 customers-2 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487326,
+          "persistentId": "",
+          "filename": "sr07-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12739,
+          "storageIdentifier": "surf://store:1978ca41a8a-d4f8f409d20c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a9c78aa42db36efc83f9a81cf865408ff20f6df9"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr07-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/50 customers-4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487347,
+          "persistentId": "",
+          "filename": "sr07-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14431,
+          "storageIdentifier": "surf://store:1978ca41ab0-31f829ae2c8b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b9b743e1777d2ff6dbc2c9cf7ac983191481f8b3"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr08-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/20 customers-2 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487345,
+          "persistentId": "",
+          "filename": "sr08-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12735,
+          "storageIdentifier": "surf://store:1978ca41aa1-2a32462dc441",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "26e4506e28f0292bdfb2af7b6d7a3145d90d5048"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr08-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/50 customers-4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487344,
+          "persistentId": "",
+          "filename": "sr08-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14440,
+          "storageIdentifier": "surf://store:1978ca41acc-3b096940ac3e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "711346a6d1806bc64d4638326dbfebb7084d765d"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr09-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/20 customers-2 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487319,
+          "persistentId": "",
+          "filename": "sr09-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12702,
+          "storageIdentifier": "surf://store:1978ca41aa7-9169e1d5d974",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "75bce59011bc13113df841f536c6df8869b7a526"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr09-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/50 customers-4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487331,
+          "persistentId": "",
+          "filename": "sr09-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14668,
+          "storageIdentifier": "surf://store:1978ca41ac8-4e0451d886d7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9360b963d7f329e26b6e34f09fbabc4e22603295"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr10-20.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/20 customers-2 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487351,
+          "persistentId": "",
+          "filename": "sr10-20.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 12813,
+          "storageIdentifier": "surf://store:1978ca41aab-054166dd0683",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f341615eb708b3aa863ab803a5ab762fbea4cd92"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "sr10-50.xlsx",
+        "restricted": false,
+        "directoryLabel": "CCVUP_Instances/sr-instances/50 customers-4 carriers",
+        "version": 1,
+        "datasetVersionId": 30734,
+        "dataFile": {
+          "id": 487340,
+          "persistentId": "",
+          "filename": "sr10-50.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 14380,
+          "storageIdentifier": "surf://store:1978ca41ac3-511ddc65eb99",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fc2e1ee6545a4eb501b7cf0ea700470a4dd6a917"
+          },
+          "tabularData": false,
+          "creationDate": "2025-06-20",
+          "publicationDate": "2025-06-24",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Ahari, S.A.; Bakir, I.; Roodbergen, K.J., 2025, \"Instances for \"Consistent Collaborative Vehicle Utilization\"\", https://doi.org/10.34894/3SK3JG, DataverseNL, V1"
+  }
+}

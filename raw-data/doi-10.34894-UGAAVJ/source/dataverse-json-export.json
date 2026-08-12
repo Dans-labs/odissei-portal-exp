@@ -1,0 +1,521 @@
+{
+  "id": 13975,
+  "identifier": "UGAAVJ",
+  "persistentUrl": "https://doi.org/10.34894/UGAAVJ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2020-08-21",
+  "storageIdentifier": "surf://10411/MR7BQD",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 1523,
+    "datasetId": 13975,
+    "datasetPersistentId": "doi:10.34894/UGAAVJ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10411/MR7BQD",
+    "versionNumber": 1,
+    "internalVersionNumber": 12,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2020-08-21T13:33:24Z",
+    "releaseTime": "2020-08-21T13:33:24Z",
+    "createTime": "2019-03-05T12:26:39Z",
+    "alternativePersistentId": "hdl:10411/MR7BQD",
+    "publicationDate": "2020-08-21",
+    "citationDate": "2020-08-21",
+    "termsOfUse": "The data in this dataset is provided under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. See http://creativecommons.org/licenses/by-nc-sa/4.0/ for the full text.",
+    "citationRequirements": "Başkent, D., & Gaudrain, E. (2016). Musician advantage for speech-on-speech perception. The Journal of the Acoustical Society of America, 139(3), EL51–EL56. https://doi.org/10.1121/1.4942628",
+    "disclaimer": "Unless otherwise separately undertaken by the Licensor, to the extent possible, the Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable. Where disclaimers of warranties are not allowed in full or in part, this disclaimer may not apply to You.\r\n\r\nSee full text at: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode#s5.\r\n",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Musician advantage for speech-on-speech perception"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Başkent, Deniz"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University Medical Center Groningen, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-6560-1451"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gaudrain, Etienne"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University Medical Center Groningen, University of Groningen"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-0490-0295"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Research Data Office"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This repository contains the raw data associated with the publication linked below. The dataset contains the demographics of the human participants (subjects.csv) and the scores they obtained in the experiment (scores.csv). The fields are described below:\r\n\r\n<ul>\r\n    <li><b>subjects.csv</b>: Demographics of the participants.\r\n        <ul>\r\n            <li><i>subject</i>: The identification number of the participant.</li>\r\n            <li><i>age</i>: The age of the participant, in years.</li>\r\n            <li><i>education</i>: Education level, see the article for details.</li>\r\n            <li><i>sex</i>: Male or female.</li>\r\n            <li><i>grp</i>: The group (\"musician\" or \"non-musician\").</li>\r\n            <li><i>musical-training</i>: Years of musical training.</li>\r\n        </ul>\r\n    </li>\r\n    <li><b>scores.csv</b>: Intelligibility scores for the speech on speech task.\r\n        <ul>\r\n            <li><i>id</i>: The entry number.</li>\r\n            <li><i>subject</i>: The identification number of the participant.</li>\r\n            <li><i>grp</i>: The group (\"musician\" or \"non-musician\").</li>\r\n            <li><i>round</i>: The block of testing.</li>\r\n            <li><i>f0</i>: The average fundamental frequency (f0) difference between target and masker, in semitones.</li>\r\n            <li><i>vtl</i>: The apparent vocal-tract length (VTL) difference between target and masker, in semitones.</li>\r\n            <li><i>tmr</i>: Target-to-masker ratio, in decibels.</li>\r\n            <li><i>n_correct</i>: Number of words reported correctly in this condition (across all sentences).</li>\r\n            <li><i>n_words</i>: Number of words presented in this condition (across all sentences).</li>\r\n            <li><i>score</i>: n_correct/n_words.</li>\r\n        </ul>\r\n    </li>\r\n</ul>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2016"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hearing"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://meshb.nlm.nih.gov/"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Speech perception"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://meshb.nlm.nih.gov/"
+                }
+              },
+              {
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MeSH"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://meshb.nlm.nih.gov/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Başkent, D., & Gaudrain, E. (2016). Musician advantage for speech-on-speech perception. The Journal of the Acoustical Society of America, 139(3), EL51–EL56."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1121/1.4942628"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1121/1.4942628"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen, University Medical Center Groningen"
+                },
+                "producerAbbreviation": {
+                  "typeName": "producerAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "RUG / UMCG"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.rug.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Collector"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Chesnaye, Michael"
+                }
+              },
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Collector"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tahapary, Nikki"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NWO"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "VIDI 016.096.39"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University Medical Center Groningen"
+                },
+                "distributorAffiliation": {
+                  "typeName": "distributorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen"
+                },
+                "distributorAbbreviation": {
+                  "typeName": "distributorAbbreviation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UG"
+                },
+                "distributorURL": {
+                  "typeName": "distributorURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://umcg.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Etienne Gaudrain"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2019-03-05"
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2014-05-06"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2014-07-04"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/UGAAVJ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:0f4b6ddc-7f3b-407d-a541-16a9b20b6a18"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-8dcb0b13-2051-4dc6-908e-59ab3625ad6d"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 1523,
+        "dataFile": {
+          "id": 30401,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2844,
+          "storageIdentifier": "surf://store:1741095f439-102e9d904ba2",
+          "rootDataFileId": -1,
+          "md5": "e5f6450694d006c7e0ba3ea5b2222928",
+          "checksum": {
+            "type": "MD5",
+            "value": "e5f6450694d006c7e0ba3ea5b2222928"
+          },
+          "tabularData": false,
+          "creationDate": "2020-08-21",
+          "publicationDate": "2020-08-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Scores in the speech perception task.",
+        "label": "scores.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 1523,
+        "dataFile": {
+          "id": 30399,
+          "persistentId": "",
+          "filename": "scores.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 33546,
+          "description": "Scores in the speech perception task.",
+          "storageIdentifier": "surf://store:174108f0b02-dd762df71042",
+          "rootDataFileId": -1,
+          "md5": "54fa79a28818ad7f2cb8c2eee467a6a4",
+          "checksum": {
+            "type": "MD5",
+            "value": "54fa79a28818ad7f2cb8c2eee467a6a4"
+          },
+          "tabularData": false,
+          "creationDate": "2020-08-21",
+          "publicationDate": "2020-08-21",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Demographics of the participants.",
+        "label": "subjects.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 1523,
+        "dataFile": {
+          "id": 30400,
+          "persistentId": "",
+          "filename": "subjects.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1528,
+          "description": "Demographics of the participants.",
+          "storageIdentifier": "surf://store:174108f0bac-2b164a884cf2",
+          "rootDataFileId": -1,
+          "md5": "967448ad6980bf0938235fe97c82f0e2",
+          "checksum": {
+            "type": "MD5",
+            "value": "967448ad6980bf0938235fe97c82f0e2"
+          },
+          "tabularData": false,
+          "creationDate": "2020-08-21",
+          "publicationDate": "2020-08-21",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Başkent, Deniz; Gaudrain, Etienne, 2020, \"Musician advantage for speech-on-speech perception\", https://doi.org/10.34894/UGAAVJ, DataverseNL, V1"
+  }
+}

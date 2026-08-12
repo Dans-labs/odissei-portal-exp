@@ -1,0 +1,842 @@
+{
+  "id": 21459,
+  "identifier": "dans-xqe-brme",
+  "persistentUrl": "https://doi.org/10.17026/DANS-XQE-BRME",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2021-04-20",
+  "storageIdentifier": "surf://10.17026/dans-xqe-brme",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 30109,
+    "datasetId": 21459,
+    "datasetPersistentId": "doi:10.17026/DANS-XQE-BRME",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-xqe-brme",
+    "versionNumber": 2,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 2,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2021-02-10",
+    "productionDate": "2021-01-01",
+    "lastUpdateTime": "2026-07-19T13:46:37Z",
+    "releaseTime": "2026-07-19T13:46:37Z",
+    "createTime": "2026-07-19T13:46:27Z",
+    "publicationDate": "2021-04-20",
+    "citationDate": "2021-04-20",
+    "versionNote": "The Python package langdetect was used to semi-automatically identify the languages used in the metadata. Human curators verified and corrected the results. If you notice any inaccuracies, please contact DANS.",
+    "license": {
+      "name": "DANS Licence",
+      "uri": "https://doi.org/10.17026/fp39-0x58",
+      "iconUri": ""
+    },
+    "termsOfAccess": "N/a",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "TOPICS-MDS Memorabel 1-4 care receiver-caregiver dyads"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "679395"
+                }
+              },
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:204953"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "M.G.M. Olde Rikkert"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Radboud University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "DAI"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "info:eu-repo/dai/nl/167212737"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "N  Sonneveld"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>The Older Persons and Informal Caregivers Survey - Minimum DataSet (TOPICS-MDS) is a public data repository which contains information on the physical and mental health and well-being of older persons and informal caregivers and their care use across the Netherlands. The database was developed at the start of The National Care for the Elderly Programme (‘Nationaal Programma Ouderenzorg’ - NPO) on behalf of the Organisation of Health Research and Development (ZonMw - The Netherlands), in part to ensure uniform collection of outcome measures, thus promoting comparability between studies.</p><p>Since September 2014, TOPICS-MDS data are also collected within the ZonMw funded ‘Memorabel’ programme, that is specifically aimed at improving the quality of life for people with dementia and the care and support provided to them. In Memorabel round 1 through 4, 11 different research projects have collected TOPICS-MDS data, which has resulted in a pooled database with cross-sectional and (partly) longitudinal data of 1,400 older persons with early onset or advanced dementia and about 950 informal caregivers. Out of these numbers, a number of 919 concerns care receiver - caregiver dyads of whom information on both the care receiver and caregiver is available.</p><p>More background information on both NPO and Memorabel 1-4 can be found in the overall information on TOPICS-MDS under the tab ‘Data files’ in DANS EASY (doi.org/10.17026/dans-xvh-dbbf).</p><p>The 'TOPICS-MDS Memorabel 1-4 care receiver-caregiver dyads' dataset, as part of the Memorabel 1-4 database, contains both care receiver (older person) and informal caregiver data. The dataset includes data on age, gender, country of birth, level of education, marital status and living situation of the care receiver, as well as data on their physical and emotional health and well-being, quality of life, daily functioning and use of care, such as GP visits, home care, day care/treatment and admittance in a hospital, home for the aged or nursing home. The dataset also includes data on age and gender of the caregiver and their relationship with the care receiver, as well as data on their emotional health and well-being, quality of life, time spent on informal caregiving and caregiver burden.</p><p>Although the TOPICS-MDS survey instruments for the care receiver and caregiver were updated in respectively 2017 and 2019, the same initial version of the instruments was used in both NPO and Memorabel 1-4 projects. The TOPICS-MDS care receiver-caregiver dyads data from NPO and Memorabel 1-4 can therefore be easily merged.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Older persons"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "geriatrics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "gerontology"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "dementia"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "community-dwelling"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "frailty (index)"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "EQ-5D-3L+c"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "functional limitations"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "iADL"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ADL"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "KATZ-15"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "(multi)morbidity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "self-perceived health"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "health economics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "health related quality of life"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "self-perceived quality of life"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "personal well-being"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "mood"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "social functioning"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "complex needs"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "use of care"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "hospital"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "primary care"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "nursing home"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "informal caregiving"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "CarerQoL"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "self-rated burden (SRB)"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "objective caregiver"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "(process) utility"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "effects of caregiving"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch",
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-01-01"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-02-10"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-04-06"
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Radboud University"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D20000",
+              "https://www.narcis.nl/classification/D21000",
+              "https://www.narcis.nl/classification/D53000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D20000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Life sciences, medicine and health care"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Levenswetenschappen, geneeskunde en gezondheidszorg"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D21000",
+                "termName": [
+                  {
+                    "lang": "en",
+                    "value": "Life sciences"
+                  },
+                  {
+                    "lang": "nl",
+                    "value": "Levenswetenschappen"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              },
+              {
+                "@id": "https://www.narcis.nl/classification/D53000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Gerontologie"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Gerontology"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Olde Rikkert, M.G.M. (2019). <i>TOPICS-MDS NPO caregiver.</i> DANS EASY [Dataset]. doi: <a href=\"https://doi.org/10.17026/dans-zsf-m5un\" target=\"_blank\">10.17026/dans-zsf-m5un</a>."
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Olde Rikkert, M.G.M. (2020). <i>TOPICS-MDS Memorabel 1-4 care receiver.</i> DANS EASY [Dataset]. doi: <a href=\"https://doi.org/10.17026/dans-xvv-sqbc\" target=\"_blank\">10.17026/dans-xvv-sqbc</a>."
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Olde Rikkert, M.G.M. (2019). <i>TOPICS-MDS NPO care receiver.</i> DANS EASY [Dataset]. doi: <a href=\"https://doi.org/10.17026/dans-xwf-g759\" target=\"_blank\">10.17026/dans-xwf-g759</a>."
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Olde Rikkert, M.G.M. (2019). <i>TOPICS-MDS NPO care receiver-caregiver dyads.</i> DANS EASY [Dataset]. doi: <a href=\"https://doi.org/10.17026/dans-xpz-s8dz\" target=\"_blank\">10.17026/dans-xpz-s8dz</a>."
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Olde Rikkert, M.G.M. (2020). <i>TOPICS-MDS Memorabel 1-4 caregiver.</i> DANS EASY [Dataset]. doi: <a href=\"https://doi.org/10.17026/dans-xj2-ep7t\" target=\"_blank\">10.17026/dans-xj2-ep7t</a>."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Collection period: start=2014-09-01; end=2019-03-31;"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/DANS-XQE-BRME"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.2"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:1841257f-afff-4279-936f-23b9200dc4be"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-ar-qbth"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "01-Questionnaires Dutch.zip",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30109,
+        "dataFile": {
+          "id": 21468,
+          "persistentId": "",
+          "filename": "01-Questionnaires Dutch.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 689029,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfea24ac-04ee3b960efb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "11f39a54932d6cdaa719e39417c8eea3296dc2a6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-04-20",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:46:37Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "02-Dataset.zip",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30109,
+        "dataFile": {
+          "id": 21465,
+          "persistentId": "",
+          "filename": "02-Dataset.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 303609,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfea2133-4bb048921e54",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c78ade8915f96dbe03b5b55ec6ada1ca22bf0cec"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-04-20",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:46:37Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "03-Codebooks.zip",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30109,
+        "dataFile": {
+          "id": 21467,
+          "persistentId": "",
+          "filename": "03-Codebooks.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 574013,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfea2387-61bf202d8bcf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "61667f6ca9a18595c6b33f84cfc0342f2f70d08c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-04-20",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:46:37Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "04-SPSS syntax.zip",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30109,
+        "dataFile": {
+          "id": 21463,
+          "persistentId": "",
+          "filename": "04-SPSS syntax.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 12368,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfea1ebd-b2dc5f89fcb0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "45bb6d3f2d573d00ab8f7051432bf341b64ab604"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-04-20",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:46:37Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Description TOPICS-MDS Memorabel 1-4 CRCG dyads dataset.pdf",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30109,
+        "dataFile": {
+          "id": 21464,
+          "persistentId": "",
+          "filename": "Description TOPICS-MDS Memorabel 1-4 CRCG dyads dataset.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 226057,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfea1fed-e3b797a0e0a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8b8c5b75d9d61f240216c80ac78f2a53049a95ea"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-04-20",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:46:37Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 30109,
+        "dataFile": {
+          "id": 21469,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 25948,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfea62c2-3f781d812355",
+          "rootDataFileId": 21460,
+          "previousDataFileId": 21460,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c4453bd2285db7e461a36607e5be1892f6d9915c"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-04-20",
+          "lastUpdateTime": "2026-07-19T13:46:37Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Read me first - TOPICS-MDS Memorabel 1-4 care receiver-caregiver dyads.pdf",
+        "restricted": true,
+        "directoryLabel": "data",
+        "version": 1,
+        "datasetVersionId": 30109,
+        "dataFile": {
+          "id": 21462,
+          "persistentId": "",
+          "filename": "Read me first - TOPICS-MDS Memorabel 1-4 care receiver-caregiver dyads.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 130231,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfea1d73-63b0495fe4fb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3b92d269cb8f79ee913addc8d00beec1e7f73142"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2021-04-20",
+          "directoryLabel": "data",
+          "lastUpdateTime": "2026-07-19T13:46:37Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "M.G.M. Olde Rikkert, 2021, \"TOPICS-MDS Memorabel 1-4 care receiver-caregiver dyads\", https://doi.org/10.17026/DANS-XQE-BRME, DANS Data Station Social Sciences and Humanities, V2"
+  }
+}

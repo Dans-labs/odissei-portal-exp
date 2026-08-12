@@ -1,0 +1,840 @@
+{
+  "id": 16698,
+  "identifier": "dans-xpv-mwpg",
+  "persistentUrl": "https://doi.org/10.17026/DANS-XPV-MWPG",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2020-08-20",
+  "storageIdentifier": "surf://10.17026/dans-xpv-mwpg",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 29966,
+    "datasetId": 16698,
+    "datasetPersistentId": "doi:10.17026/DANS-XPV-MWPG",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-xpv-mwpg",
+    "versionNumber": 3,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 2,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2020-07-15",
+    "productionDate": "2020-07-15",
+    "UNF": "UNF:6:CaEPoKyvUaq95SzAs/NGcw==",
+    "lastUpdateTime": "2026-07-19T13:21:55Z",
+    "releaseTime": "2026-07-19T13:21:55Z",
+    "createTime": "2026-07-19T13:21:42Z",
+    "publicationDate": "2020-08-20",
+    "citationDate": "2020-08-20",
+    "versionNote": "The Python package langdetect was used to semi-automatically identify the languages used in the metadata. Human curators verified and corrected the results. If you notice any inaccuracies, please contact DANS.",
+    "license": {
+      "name": "DANS Licence",
+      "uri": "https://doi.org/10.17026/fp39-0x58",
+      "iconUri": ""
+    },
+    "termsOfAccess": "N/a",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Onderzoek Onderweg in Nederland - ODiN 2019"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:178556"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Centraal Bureau voor de Statistiek (CBS)"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rijkswaterstaat (RWS-WVL)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ipwvl  Informatiepunt"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rijkswaterstaat"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Het Onderzoek Onderweg in Nederland is een continu dagelijks onderzoek naar het verplaatsingsgedrag van de Nederlanders. Aan de respondenten wordt gevraagd om voor één bepaalde dag van het jaar bij te houden waar ze die dag naartoe gaan, met welk doel, met welk vervoermiddel en hoe lang het duurt om er te komen. Daarnaast wordt gevraagd naar enkele algemene persoons- en huishoudkenmerken en naar zaken zoals rijbewijs- en vervoermiddelenbezit. Op grond van dit onderzoek kan informatie worden verkregen over alle dagelijkse verplaatsingen door Nederlanders op Nederlands grondgebied.</p><p>ODiN is een voortzetting van het Onderzoek Verplaatsingen in Nederland (OViN) dat van 2010 t/m 2017 door CBS is uitgevoerd als opvolger van het Mobiliteitsonderzoek Nederland (MON) dat van 2004 t/m 2009 is uitgevoerd door Rijkswaterstaat. Voor 2004 werd het onderzoek onder naam van Onderzoek Verplaatsingsgedrag (OVG) door CBS uitgevoerd.</p><p>Het ODiN wordt vanaf 2018 op een andere manier uitgevoerd dan voorheen het OViN. Daarom is er sprake van een methodebreuk tussen OViN en ODiN. Resultaten van ODiN analyses kunnen niet zomaar vergeleken worden met OViN analyses.</p><p>Voor een juist gebruik van ODiN is het van groot belang om de onderzoeksbeschrijving te lezen. Weging en correct gebruik van de weegfactoren wordt daarin uitgelegd. In de onderzoeksbeschrijving en Plausibiliteitsrapportage ODiN2019 wordt aandacht besteed aan de methodebreuk tussen OViN en ODiN. Tevens worden in de documentatie voor 2019 enkele belangrijke aandachtspunten en verschillen tussen het ODiN 2018 en ODiN2019 toegelicht.</p><p>Vanaf 15 februari 2022 is een bijgestelde versie van het ODiN 2019 beschikbaar. Na de publicatie op DANS van ODiN 2020 is geconstateerd dat de afleiding voor de afstanden van serieverplaatsingen in de ODiN jaren 2018 t/m 2020 niet correct is. Omdat de fout het reguliere gebruik van ODiN niet raakt is het ODiN 2019 voor gebruikers wel beschikbaar gebleven. Met de nieuwe versie van ODiN 2019 is ook de informatie voor serieverplaatsingen correct. Zie voor meer informatie de “Eindrapportage_heropleveringen_ODiN2018-2020_v1.0”.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mobiliteit"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Modal split"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "vervoer"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Auto"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bus"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tram"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Metro"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "fiets"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "e-bike"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "trein"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "vervoerwijzen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Openbaar vervoer"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Carpoolen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Beroepsmatige mobiliteit"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vervoermiddelen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Reisduur"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Buitenlandse verplaatsingen"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Studenten OV-chipkaart"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Transport"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-07-15"
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Centraal Bureau voor de Statistiek (CBS)"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-07-15"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2020-07-17"
+          },
+          {
+            "typeName": "series",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "seriesInformation": {
+                  "typeName": "seriesInformation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>Het Onderzoek Onderweg in Nederland is een continu dagelijks onderzoek naar het verplaatsingsgedrag van de Nederlanders. Aan de respondenten wordt gevraagd om voor één bepaalde dag van het jaar bij te houden waar ze die dag naartoe gaan, met welk doel, met welk vervoermiddel en hoe lang het duurt om er te komen. Daarnaast wordt gevraagd naar enkele algemene persoons- en huishoudkenmerken en naar zaken zoals rijbewijs- en vervoermiddelenbezit. Op grond van dit onderzoek kan informatie worden verkregen over alle dagelijkse verplaatsingen door Nederlanders op Nederlands grondgebied.</p><p>ODiN is een voortzetting van het Onderzoek Verplaatsingen in Nederland (OViN) dat van 2010 t/m 2017 door CBS is uitgevoerd als opvolger van het Mobiliteitsonderzoek Nederland (MON) dat van 2004 t/m 2009 is uitgevoerd door Rijkswaterstaat. Voor 2004 werd het onderzoek onder naam van Onderzoek Verplaatsingsgedrag (OVG) door CBS uitgevoerd.</p><p>Het ODiN wordt vanaf 2018 op een andere manier uitgevoerd dan voorheen het OViN. Daarom is er sprake van een methodebreuk tussen OViN en ODiN. Resultaten van ODiN analyses kunnen niet zomaar vergeleken worden met OViN analyses.</p><p>Voor een juist gebruik van ODiN is het van groot belang om de onderzoeksbeschrijving te lezen. Weging en correct gebruik van de weegfactoren wordt daarin uitgelegd. In de onderzoeksbeschrijving en Plausibiliteitsrapportage ODiN2020 worden enkele belangrijke aandachtspunten en verschillen tussen het ODiN 2019 en ODiN2020 toegelicht.</p>"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Rijkswaterstaat (RWS)",
+              "Rijkswaterstaat (RWS)"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D44000"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D44000",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Verkeerswetenschappen en vervoerswetenschappen"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Traffic and transport studies"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          },
+          {
+            "typeName": "dansCollection",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://vocabularies.dans.knaw.nl/collections/ssh/38cc6c45-ec22-4c4b-bd3c-0c47a5eb97fa"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://vocabularies.dans.knaw.nl/collections/ssh/38cc6c45-ec22-4c4b-bd3c-0c47a5eb97fa",
+                "vocabularyUri": "https://vocabularies.dans.knaw.nl/collections"
+              }
+            ]
+          },
+          {
+            "typeName": "dansRelation",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Thematische collectie: Onderzoek Onderweg in Nederland"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.17026/dans-zp9-5bap"
+                }
+              },
+              {
+                "dansRelationType": {
+                  "typeName": "dansRelationType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "relation"
+                },
+                "dansRelationText": {
+                  "typeName": "dansRelationText",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Website CBS over het Onderzoek Verplaatsingen in Nederland"
+                },
+                "dansRelationURI": {
+                  "typeName": "dansRelationURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://www.cbs.nl/nl-nl/deelnemers-enquetes/deelnemers-enquetes/personen/onderzoek/lopend/onderweg-in-nederland"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "2019"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageText",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Nederland"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/DANS-XPV-MWPG"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "3.2"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:6e1497c2-488e-40da-8a56-a5b5bf9cb996"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-d9-5wz8"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16714,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 31362,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb37bec-cb3efac4c29d",
+          "rootDataFileId": 16699,
+          "previousDataFileId": 16699,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4ceb63af3a4ef347d0c77619c4ed9dbac04665b7"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Eindrapportage_heropleveringen_ODiN2018-2020_v1.0.pdf",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16715,
+          "persistentId": "",
+          "filename": "Eindrapportage_heropleveringen_ODiN2018-2020_v1.0.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 13009772,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb37f7e-d05317dddb49",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "03fd98904905efe24d5688a08e814d546ec039e9"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ODiN2019_Codeboek_v2.0.ods",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16723,
+          "persistentId": "",
+          "filename": "ODiN2019_Codeboek_v2.0.ods",
+          "contentType": "application/vnd.oasis.opendocument.spreadsheet",
+          "friendlyType": "OpenOffice Spreadsheet",
+          "filesize": 66712,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb39793-be5dda8f45ac",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6b229ddfbe21cbb73df8dcd3c598f9ecefb262eb"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ODiN2019_Codeboek_v2.0.tab",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16706,
+          "persistentId": "",
+          "filename": "ODiN2019_Codeboek_v2.0.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 65080,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb333fb-c9aac53840ed",
+          "originalFileFormat": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "originalFormatLabel": "MS Excel Spreadsheet",
+          "originalFileSize": 125368,
+          "originalFileName": "ODiN2019_Codeboek_v2.0.xlsx",
+          "UNF": "UNF:6:rK8F/8X+pqpJiqhZSKkb1g==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8f08fd4aeea9666be7e2367b7d6f5b6782307fd4"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ODiN2019_Databestand_v2.0.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16719,
+          "persistentId": "",
+          "filename": "ODiN2019_Databestand_v2.0.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 104242032,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb38b17-2751a19f849c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8ab15a170fa8fb900c2e7afc063c4b242d3551e6"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ODiN2019_Databestand_v2.0.dat",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16721,
+          "persistentId": "",
+          "filename": "ODiN2019_Databestand_v2.0.dat",
+          "contentType": "text/x-fixed-field",
+          "friendlyType": "Fixed Field Text Data",
+          "filesize": 114976422,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb39141-7b6926052c82",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cbfe804ffb9614385bcf483f7318d48369c354ff"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ODiN2019_Databestand_v2.0.sps",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16717,
+          "persistentId": "",
+          "filename": "ODiN2019_Databestand_v2.0.sps",
+          "contentType": "application/x-spss-syntax",
+          "friendlyType": "SPSS Syntax",
+          "filesize": 109067,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb38288-3ccb6c8cb73e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5f4b109f54a9ceba03562ebd7dee14d5d6167260"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ODiN2019_Databestand_v2.0.tab",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16704,
+          "persistentId": "",
+          "filename": "ODiN2019_Databestand_v2.0.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 101524994,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb32e93-281360c337b3",
+          "originalFileFormat": "application/x-spss-sav",
+          "originalFormatLabel": "SPSS Binary",
+          "originalFileSize": 98443797,
+          "originalFileName": "ODiN2019_Databestand_v2.0.sav",
+          "UNF": "UNF:6:szlR/h3KGTU/Zm4w+3s3sw==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4905919daad0cc2eb4c574b9fd46dd9eccfd0613"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "ODiN2019_Databestand_v2.0.xlsx",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16707,
+          "persistentId": "",
+          "filename": "ODiN2019_Databestand_v2.0.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 127833454,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb337b1-06f7a8c5c531",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "261bcbd739bf919a87e4930a6c123eea9f9faab0"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Onderzoeksbeschrijving_ODiN 2019_v1-0.pdf",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16702,
+          "persistentId": "",
+          "filename": "Onderzoeksbeschrijving_ODiN 2019_v1-0.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 609330,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb3270c-0126771e0407",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a9ab8831859a9617fa4525361a7455ddd7cfaf41"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Plausibiliteitsrapportage_ODiN2019_v1-0.pdf",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29966,
+        "dataFile": {
+          "id": 16700,
+          "persistentId": "",
+          "filename": "Plausibiliteitsrapportage_ODiN2019_v1-0.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 562508,
+          "description": "",
+          "storageIdentifier": "surf://store:186dfb31eb2-9f2520a6e8d7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83b91ad0952068e59aa62391ee07cef516f6c809"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-14",
+          "publicationDate": "2020-08-20",
+          "lastUpdateTime": "2026-07-19T13:21:55Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Centraal Bureau voor de Statistiek (CBS); Rijkswaterstaat (RWS-WVL), 2020, \"Onderzoek Onderweg in Nederland - ODiN 2019\", https://doi.org/10.17026/DANS-XPV-MWPG, DANS Data Station Social Sciences and Humanities, V3, UNF:6:CaEPoKyvUaq95SzAs/NGcw== [fileUNF]"
+  }
+}

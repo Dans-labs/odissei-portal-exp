@@ -1,0 +1,543 @@
+{
+  "id": 579044,
+  "identifier": "GDEPNF",
+  "persistentUrl": "https://doi.org/10.34894/GDEPNF",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2026-01-20",
+  "storageIdentifier": "surf://10.34894/GDEPNF",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 33969,
+    "datasetId": 579044,
+    "datasetPersistentId": "doi:10.34894/GDEPNF",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/GDEPNF",
+    "versionNumber": 2,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-02-06T17:17:56Z",
+    "releaseTime": "2026-02-06T17:17:56Z",
+    "createTime": "2026-02-06T17:17:47Z",
+    "publicationDate": "2026-01-20",
+    "citationDate": "2026-01-20",
+    "license": {
+      "name": "CC-BY-SA-4.0",
+      "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "GLOBALISE - Weights and Measures in the 18th-Century Indian Ocean World"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vellinga, Henrike"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huygens Insitute"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0002-7232-0065"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Nijman, Brecht"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huygens Insitute"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-4161-1030"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kuruppath, Manjusha"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huygens Insitute"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0002-8032-7013"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GLOBALISE project"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Huygens Institute"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "IISH data"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "International Insitute for Social History"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset provides information on weights and measures used by the Dutch East India Company (VOC). The dataset is meant to be integrated into the GLOBALISE infrastructure, to serve as reference data and to facilitate query expansion in full-text searches of the archives of the VOC.\n</p>\n<p>\nThis dataset contextualizes units of weight and measure which were drawn from the eighteenth-century 'Memoriën van Munten, Maaten, en Gewigten als dezelve op Batavia en op de respective Comptoiren van Indië in gebruik zijn'. To (re)use the dataset and to know more about its scope and contents, please consult the documentation and the data-envelope. \n</p>\n<p>\nThe dataset consists of three different files:</br> \nFile 1: Glossary of weights and measures</br>\nFile 2: Labels for weights and measures</br>\nFile 3: Conversions for weights and measures.</br>\nThere are two file types for the conversions (xlsx and tab). The xlsx file gives a  clear overview of the conversions, the tab file is principally meant for re-use.\n\n</p>\n<p>\nThe documents in the current version of the dataset (Version 1) are dated May 2024."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-05-16"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Arts and Humanities",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "colonial history"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.wikidata.org/entity/Q89269073"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Weights and Measures"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Getty AAT"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://vocab.getty.edu/aat/300386648"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Global history"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.wikidata.org/entity/Q6457238"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dutch East India Company"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Wikidata"
+                },
+                "keywordVocabularyURI": {
+                  "typeName": "keywordVocabularyURI",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "http://www.wikidata.org/entity/Q159766"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "This dataset was migrated from the IISH Data Collection to DataverseNL in January 2026. It was previously published as: Vellinga, Henrike; Nijman, Brecht; Kuruppath, Manjusha, 2026, \"GLOBALISE - Weights and Measures in the 18th-Century Indian Ocean World\", https://hdl.handle.net/10622/MDNVH5, IISH Data Collection, V1 under the persistent identifier hdl:10622/MDNVH5."
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "GLOBALISE project"
+                },
+                "producerURL": {
+                  "typeName": "producerURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://globalise.huygens.knaw.nl/"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Vellinga, Henrike"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-05-16"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1764"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1771"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "VOC (1764-1771). Memoriën van Munten, Maaten, en Gewigten als dezelve op Batavia en op de respective Comptoiren van Indië in gebruik zijn. <a href=\"https://books.google.nl/books?vid=KBNL:UBA000105736\">https://books.google.nl/books?vid=KBNL:UBA000105736</a></br>\nMarc Kooijmans & Judith Schooneveld-Oosterling (2000). VOC-Glossarium. <a href=\"https://resources.huygens.knaw.nl/vocglossarium\">https://resources.huygens.knaw.nl/vocglossarium</a></br>\nMona Lohanda, Tom Hoogervorst, Marco Roling & Nurhayu Santoso (2018). VOC-Glossary Indonesia. <a href=\"https://sejarah-nusantara.anri.go.id/glossary/\">https://sejarah-nusantara.anri.go.id/glossary/</a></br>\nJ.M. Verhoeff (1892). De Oude Nederlandse Maten en gewichten. <a href=\"https://mgw.meertens.knaw.nl/\">https://mgw.meertens.knaw.nl/</a>"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/GDEPNF"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:7b2442dd-8729-44fe-8d4a-940005434653"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-c3e3d537-b45b-44cc-9820-c999635f9770"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "This tab file consists of conversions for weights and measures used by the VOC.",
+        "label": "Conversions for weight and measures.tsv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33969,
+        "dataFile": {
+          "id": 579045,
+          "persistentId": "",
+          "filename": "Conversions for weight and measures.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 196717,
+          "description": "This tab file consists of conversions for weights and measures used by the VOC.",
+          "storageIdentifier": "surf://store:19bdaa22031-7275fecdeeca",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ead9281310c25e370d275ca7079201ae1615a36e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-20",
+          "publicationDate": "2026-01-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file consists of conversions for weights and measures used by the VOC.",
+        "label": "Conversions for weights and measures.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33969,
+        "dataFile": {
+          "id": 579046,
+          "persistentId": "",
+          "filename": "Conversions for weights and measures.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 100111,
+          "description": "This file consists of conversions for weights and measures used by the VOC.",
+          "storageIdentifier": "surf://store:19bdaa22149-f3bb366d328e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e76cd130b987d965a9d4f56469c70c736f6450a0"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-20",
+          "publicationDate": "2026-01-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Data Envelope Dataset Weights and Measures.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33969,
+        "dataFile": {
+          "id": 579047,
+          "persistentId": "",
+          "filename": "Data Envelope Dataset Weights and Measures.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 169206,
+          "description": "",
+          "storageIdentifier": "surf://store:19bdaa222ba-c974e09700cf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4d57f495f3d86bc51ff74d269ef8354bbd295d7f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-20",
+          "publicationDate": "2026-01-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Documentation Dataset Weights and Measures.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33969,
+        "dataFile": {
+          "id": 579048,
+          "persistentId": "",
+          "filename": "Documentation Dataset Weights and Measures.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 203409,
+          "description": "",
+          "storageIdentifier": "surf://store:19bdaa223e5-f20361c02896",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bd28afbe022fd4cb33e3311abeb14e5cfa5abfad"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-20",
+          "publicationDate": "2026-01-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "The glossary lists units of weights and measures used by the VOC, and gives definitions.",
+        "label": "Glossary of weights and measures.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33969,
+        "dataFile": {
+          "id": 579049,
+          "persistentId": "",
+          "filename": "Glossary of weights and measures.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 34464,
+          "description": "The glossary lists units of weights and measures used by the VOC, and gives definitions.",
+          "storageIdentifier": "surf://store:19bdaa224ed-4dcc8545fd71",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "596e80a1d0c6c83632229e94518ac2eeba116727"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-20",
+          "publicationDate": "2026-01-20",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "This file lists the different terms for the units in the glossary.",
+        "label": "Labels for weights and measures.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33969,
+        "dataFile": {
+          "id": 579050,
+          "persistentId": "",
+          "filename": "Labels for weights and measures.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 31832,
+          "description": "This file lists the different terms for the units in the glossary.",
+          "storageIdentifier": "surf://store:19bdaa227ae-3a7ca6a6e63a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "65a5ec1eaf0d42c9dec26f70cdb5ca7eb7d4cfab"
+          },
+          "tabularData": false,
+          "creationDate": "2026-01-20",
+          "publicationDate": "2026-01-20",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Vellinga, Henrike; Nijman, Brecht; Kuruppath, Manjusha, 2026, \"GLOBALISE - Weights and Measures in the 18th-Century Indian Ocean World\", https://doi.org/10.34894/GDEPNF, DataverseNL, V2"
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "id": 450115,
+  "identifier": "7SIGLC",
+  "persistentUrl": "https://doi.org/10.34894/7SIGLC",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-09-24",
+  "storageIdentifier": "surf://10.34894/7SIGLC",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 29678,
+    "datasetId": 450115,
+    "datasetPersistentId": "doi:10.34894/7SIGLC",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/7SIGLC",
+    "versionNumber": 1,
+    "internalVersionNumber": 19,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-09-24T06:44:51Z",
+    "releaseTime": "2024-09-24T06:44:51Z",
+    "createTime": "2024-09-17T13:28:50Z",
+    "publicationDate": "2024-09-24",
+    "citationDate": "2024-09-24",
+    "termsOfUse": "The standard Data Sharing Agreement (DSA) of the UMC Utrecht must be signed without adjustments. This DSA is in compliance with Dutch law. No costs are involved.",
+    "confidentialityDeclaration": "No confidentiality declaration needed under the condition that Terms of Use are met.",
+    "specialPermissions": "To obtain access to the data, a <a href=\"https://www.umcutrecht.nl/en/data-request-form-umc-utrecht\">request form</a> has to be completed. Only if your request is approved, in addition to a completed request form, a Data Sharing Agreement (DSA) in line with GDPR regulations and/or a Research Collaboration Agreement (RCA) should be signed before data is shared. Only data requests in line with the Terms of Use will be taken into consideration.",
+    "restrictions": "Read <a href=\"https://www.umcutrecht.nl/en/research-data-umc-utrecht\">here</a>  for more information about the data request proces and the Data Sharing Agreement. The Data Sharing Agreement is signed by both parties.",
+    "citationRequirements": "Read <a href=\"https://www.umcutrecht.nl/en/research-data-umc-utrecht\">here</a>  for more information about the data request proces and the Data Sharing Agreement. The Data Sharing Agreement is signed by both parties.",
+    "conditions": "To access and use the dataset please read the Terms of Use and the Terms of Access for Restricted Files.",
+    "disclaimer": "Read <a href=\"https://www.umcutrecht.nl/en/research-data-umc-utrecht\">here</a>  for more information about the data request proces and the Data Sharing Agreement. The Data Sharing Agreement is signed by both parties.",
+    "termsOfAccess": "By downloading or otherwise accessing the materials, the downloader represents his/her acceptance of the Terms of Use. ",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Implementation of a simple score to predict sepsis in acutely ill adults presenting at out-of-hours primary care: a feasibility study"
+          },
+          {
+            "typeName": "subtitle",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "HAP Sepsis studie"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10390052210023"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Roderick P. Venekamp"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0002-1446-9614"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Roderick P. Venekamp"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Julius Center for Health Sciences and Primary Care"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Recently, we developed and validated the TeSD-IT sepsis prediction score for use during OOH\nGP cooperative home visits of acutely ill patients. The aims of the mixed methods theory informed feasibility and acceptability study are to evaluate the feasibility and acceptability of the use of the TeSD-IT score by GPs in everyday practice.\n\nA data package containing the raw data, the study protocol describing the methods and materials, the script to process the data,\nthe scripts leading to tables and figures in the publication, a codebook with explanations on the variable names, and a ‘read_me.txt’ file with an overview of files included and their content and use will be be stored at the UMC Utrecht Research Folder Structure for 10 years.\n\nThe datapackage will be shared with third parties after approval of the Principle Investigator. The criteria and time period will be determined on a case-by-case basis. Prior to data sharing, a signed data transfer agreement will have to be in place. Generic data transfer agreements are available for our institution. The legal department of the UMC Utrecht will liaise with drafting the specific set of terms of use for this project.\n\nWe have added meta data files including the study protocol, datamanagement plan, an explenatory 'read_me.txt' file and codebooks with explanations on the variables included in the dataset to Dataverse"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-09-18"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Primary care"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sepsis"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Prediction/recognition"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Feasibility and acceptability"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "grantNumber",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "grantNumberAgency": {
+                  "typeName": "grantNumberAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ZonMw DoelmatigheidsOnderzoek – Voorbereidende studies ronde 2"
+                },
+                "grantNumberValue": {
+                  "typeName": "grantNumberValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10390052210023"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "van Beekhuizen, Sander"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-09-17"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "timePeriodCoveredStart": {
+                  "typeName": "timePeriodCoveredStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2023-09-01"
+                },
+                "timePeriodCoveredEnd": {
+                  "typeName": "timePeriodCoveredEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-08-31"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dateOfCollection",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dateOfCollectionStart": {
+                  "typeName": "dateOfCollectionStart",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-01-01"
+                },
+                "dateOfCollectionEnd": {
+                  "typeName": "dateOfCollectionEnd",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-06-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Quantative and qualitative data"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/7SIGLC"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:4402e8c3-2517-43f0-891f-309c051e4a2e"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-3e0ba6ec-1313-4fb4-9684-394fa0548cba"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "DMP",
+        "label": "DMP_10390052210023_v2.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29678,
+        "dataFile": {
+          "id": 450134,
+          "persistentId": "",
+          "filename": "DMP_10390052210023_v2.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 57609,
+          "description": "DMP",
+          "storageIdentifier": "surf://store:192047bf5ce-256961094677",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9156d973bbb8db236de4646747d511ad566a97e6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-18",
+          "publicationDate": "2024-09-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Research protocol",
+        "label": "HAP_Sepsis_studie_research_protocol_non WMO_versie 1 dd 06-11-2023.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29678,
+        "dataFile": {
+          "id": 450135,
+          "persistentId": "",
+          "filename": "HAP_Sepsis_studie_research_protocol_non WMO_versie 1 dd 06-11-2023.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 436862,
+          "description": "Research protocol",
+          "storageIdentifier": "surf://store:1920491e87d-c419be7d2c81",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "005ef4318d2bb582b29cadacfda6f9367fb007b7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-18",
+          "publicationDate": "2024-09-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Metadata codebook queries",
+        "label": "Metadata_10390052210023_codebook_queries.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29678,
+        "dataFile": {
+          "id": 450133,
+          "persistentId": "",
+          "filename": "Metadata_10390052210023_codebook_queries.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 10830,
+          "description": "Metadata codebook queries",
+          "storageIdentifier": "surf://store:192047b9480-e2e7e475e3fd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ee385f5903e5bcd48811d6788ab773e438063d27"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-18",
+          "publicationDate": "2024-09-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Metadata codebook variables",
+        "label": "Metadata_10390052210023_codebook_variables.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29678,
+        "dataFile": {
+          "id": 450132,
+          "persistentId": "",
+          "filename": "Metadata_10390052210023_codebook_variables.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 11341,
+          "description": "Metadata codebook variables",
+          "storageIdentifier": "surf://store:192047af906-34f67da2c89a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "413f0c6ce947aac9915fb4950dfca4fc1af4b3a4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-18",
+          "publicationDate": "2024-09-24",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Readme_metadata_10390052210023",
+        "label": "Readme_metadata_10390052210023.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29678,
+        "dataFile": {
+          "id": 450319,
+          "persistentId": "",
+          "filename": "Readme_metadata_10390052210023.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1738,
+          "description": "Readme_metadata_10390052210023",
+          "storageIdentifier": "surf://store:19222b4c043-a6b7561a49c6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bcfa8a24e64a9a8c93ad476ba4db11ace066610a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-09-24",
+          "publicationDate": "2024-09-24",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Roderick P. Venekamp, 2024, \"Implementation of a simple score to predict sepsis in acutely ill adults presenting at out-of-hours primary care: a feasibility study\", https://doi.org/10.34894/7SIGLC, DataverseNL, V1"
+  }
+}

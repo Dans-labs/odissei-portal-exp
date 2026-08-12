@@ -1,0 +1,352 @@
+{
+  "id": 102670,
+  "identifier": "JFSC41",
+  "persistentUrl": "https://doi.org/10.34894/JFSC41",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-05-23",
+  "storageIdentifier": "surf://10.34894/JFSC41",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 3775,
+    "datasetId": 102670,
+    "datasetPersistentId": "doi:10.34894/JFSC41",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/JFSC41",
+    "versionNumber": 1,
+    "internalVersionNumber": 9,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-05-23T15:30:11Z",
+    "releaseTime": "2024-05-23T15:30:11Z",
+    "createTime": "2021-07-01T11:28:14Z",
+    "publicationDate": "2024-05-23",
+    "citationDate": "2024-05-23",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: The joint evolution of movement and competition strategies"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gupte, Pratik R"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen, Groningen Institute for Evolutionary Life Sciences"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-5294-7819"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Netz, Christoph FG"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen, Groningen Institute for Evolutionary Life Sciences"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-9309-8964"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Weissing, Franz J"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen, Groningen Institute for Evolutionary Life Sciences"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-3281-663X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gupte, Pratik R"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Groningen, Groningen Institute for Evolutionary Life Sciences"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>The dataset consists of a single zipped folder, data/, which contains subfolders with the simulation specific data. These subfolders are named sim_SCENARIO_rep_NNN_gro_RMAX, where SCENARIO refers to the three scenarios of the model described in our manuscript, NNN is the replicate number, and RMAX is the maximum cell productivity in that simulation.</p>\n<p>Each of the subfolders consists of the following:</p>\n<ol><li>The directory ‘depends/’, which holds the ‘extract.exe’ program. This program is used to extract specific data from the stored simulation output.</li>\n<li>The ‘sourceMe.R’ file allows the ‘extract.exe’ program to be linked to R, delivering the required data as a list object that can be handled in R.</li>\n<li>The stored simulation data on agents, as a series of ‘.arc’ and ‘.bin’ files.</li>\n<li>The ecological snapshots of the landscape, with prey items, foragers, kleptoparasites, and handlers (depending on the scenario), which are stored as PNG files named ‘00NNN.png’, where NNN is a three digit representation of the generation number (e.g. 001 for generation 1).</li>\n<li>Cumulative sums of the numbers of prey items, foragers, kleptoparasites, the intake from foraging (searching for prey), and the intake from the kleptoparasitic strategy (searching for handlers), on each cell of the landscape, for each of the last 9 generations of the simulation, as ‘NNN<LAYER>.txt’, where LAYER may be ‘items’ (prey items), ‘foragers’ (foragers), ‘klepts’ (kleptoparasites), ‘foragers_intake’ (the intake from the foraging strategy), or ‘klepts_intake’ (the intake due the kleptoparasite strategy. NB: These files are not used in our analyses, and may be ignored.</li></ol>\n<p>SCENARIO may be one of “foragers” (scenario 1), “obligate” (scenario 2), or “facultative” (scenario 3).</p>\n<p>NNN may be one of “001”, “002”, or “003”.</p>\n<p>RMAX may be one of “0.001”, “0.005”, “0.01”, “0.02”, “0.03”, “0.04”, or “0.05”. The manuscript presents results for RMAX = 0.01.</p>"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2021-07-01"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences",
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Competition"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Animal movement"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kleptoparasitism"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Individual-Based Model"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Ideal Free Distribution"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Individual Variation"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gupte PR, Netz CFG, Weissing FJ (2023). The joint evolution of movement and competition strategies. Am Nat 202(3): E65-E82,"
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1086/725394"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1086/725394"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "See also the Github repository at: https://github.com/pratikunterwegs/kleptomove-ms"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Bakker, Joke"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-07-01"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/JFSC41"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:aee379a0-faa4-466a-ba17-b645a5d7a270"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-5257181f-d9dc-4ddf-bd52-eb64cce6bf9c"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "The dataset consists of a single zipped folder, data/, which contains subfolders with the simulation specific data. These subfolders are named sim_SCENARIO_rep_NNN_gro_RMAX, where SCENARIO refers to the three scenarios of the model described in our manuscript, NNN is the replicate number, and RMAX is the maximum cell productivity in that simulation.",
+        "label": "data_kleptomove_24_06_2021.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 3775,
+        "dataFile": {
+          "id": 102709,
+          "persistentId": "",
+          "filename": "data_kleptomove_24_06_2021.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 7759631990,
+          "description": "The dataset consists of a single zipped folder, data/, which contains subfolders with the simulation specific data. These subfolders are named sim_SCENARIO_rep_NNN_gro_RMAX, where SCENARIO refers to the three scenarios of the model described in our manuscript, NNN is the replicate number, and RMAX is the maximum cell productivity in that simulation.",
+          "storageIdentifier": "surf://store:17a62fc10a2-cdf96b2d8e53",
+          "rootDataFileId": -1,
+          "md5": "f59e8296217dfb20622663f7ef517c0b",
+          "checksum": {
+            "type": "MD5",
+            "value": "f59e8296217dfb20622663f7ef517c0b"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2024-05-23",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Gupte, Pratik R; Netz, Christoph FG; Weissing, Franz J, 2024, \"Replication Data for: The joint evolution of movement and competition strategies\", https://doi.org/10.34894/JFSC41, DataverseNL, V1"
+  }
+}

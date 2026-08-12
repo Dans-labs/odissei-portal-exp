@@ -1,0 +1,353 @@
+{
+  "id": 269219,
+  "identifier": "XSKKQV",
+  "persistentUrl": "https://doi.org/10.34894/XSKKQV",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-04-22",
+  "storageIdentifier": "surf://10.34894/XSKKQV",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 20341,
+    "datasetId": 269219,
+    "datasetPersistentId": "doi:10.34894/XSKKQV",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/XSKKQV",
+    "versionNumber": 2,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "distributionDate": "2019-02-20",
+    "lastUpdateTime": "2022-06-22T08:32:49Z",
+    "releaseTime": "2022-06-22T08:32:49Z",
+    "createTime": "2022-05-12T10:58:31Z",
+    "publicationDate": "2022-04-22",
+    "citationDate": "2022-04-22",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "SHREC Cryo-ET 2019 Dataset: Classification in Cryo-Electron Tomograms"
+          },
+          {
+            "typeName": "alternativeURL",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "https://www.shrec.net/cryo-et/2019/"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gubins, Ilja"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van der Schot, Gijs"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Veltkamp, Remco"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Forster, Friedrich"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gubins, Ilja"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Utrecht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Different imaging techniques allow us to study the organization of life at different scales. Cryo-electron tomography (cryo-ET) has the ability to three-dimensionally visualize the cellular architecture as well as the structural details of macro-molecular assemblies under near-native conditions. Due to beam sensitivity of biological samples, an inidividual tomogram has a maximal resolution of 5 nanometers. By averaging volumes, each depicting copies of the same type of a molecule, resolutions beyond 4 Å have been achieved. Key in this process is the ability to localize and classify the components of interest, which is challenging due to the low signal-to-noise ratio. Innovation in computational methods remains key to mine biological information from the tomograms.\n\nTo promote such innovation, we organize this SHREC track and provide a simulated dataset with the goal of establishing a benchmark in localization and classification of biological particles in cryo-electron tomograms. The publicly available dataset contains ten reconstructed tomograms obtained from a simulated cell-like volume. Each volume contains twelve different types of proteins, varying in size and structure. Participants had access to 9 out of 10 of the cell-like ground-truth volumes for learning-based methods, and had to predict protein class and location in the test tomogram.\n\nYou can find more details in <a href=\"https://diglib.eg.org/handle/10.2312/3dor20191061\">the related publication</a> and on the <a href=\"https://www.shrec.net/cryo-et/2019/\">contest webpage</a>."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2019-05-05"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gubins, I., Schot, G., Veltkamp, R., Förster, F., Du, X., Zeng, X., Zhu, Z., Chang, L., Xu, M., Moebel, E., Martinez-Sanchez, A., Kervrann, C., Lai, T., Han, X., Terashi, G., Kihara, D., Himes, B., Wan, X., Zhang, J., Gao, S., Hao, Y., Lv, Z., Wan, X., Yang, Z., Ding, Z., Cui, X., & Zhang, F. (2019). Classification in Cryo-Electron Tomograms. In Eurographics Workshop on 3D Object Retrieval. The Eurographics Association."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.2312/3dor.20191061"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://diglib.eg.org/handle/10.2312/3dor20191061"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "This entry includes contest dataset (without test ground truth), additional dataset (test ground truth and evaluation script), as well as the full dataset."
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2019-02-20"
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Gubins, Ilja"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-04-20"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Simulated cryo-electron tomography data"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/XSKKQV"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:6069e9f1-edf7-4fd3-9692-7374fc721789"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-da9014f9-09d5-4f22-bc41-28b863d3fec1"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Contest dataset without test ground truth data",
+        "label": "shrec19_cryoet_contest_dataset.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 20341,
+        "dataFile": {
+          "id": 285772,
+          "persistentId": "",
+          "filename": "shrec19_cryoet_contest_dataset.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 6836692488,
+          "description": "Contest dataset without test ground truth data",
+          "storageIdentifier": "surf://store:1805699c07e-b8fa2d5f8d27",
+          "rootDataFileId": -1,
+          "md5": "87ed967f1a85b4ed9885ebbb61d93b40",
+          "checksum": {
+            "type": "MD5",
+            "value": "87ed967f1a85b4ed9885ebbb61d93b40"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-23",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Additional difference dataset containing test ground truth and evaluation script",
+        "label": "shrec19_cryoet_diff_dataset.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 20341,
+        "dataFile": {
+          "id": 285771,
+          "persistentId": "",
+          "filename": "shrec19_cryoet_diff_dataset.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 199102928,
+          "description": "Additional difference dataset containing test ground truth and evaluation script",
+          "storageIdentifier": "surf://store:180569bcf89-9a649ae8560e",
+          "rootDataFileId": -1,
+          "md5": "f7dcec809be7c2695c6d81c947c0e20d",
+          "checksum": {
+            "type": "MD5",
+            "value": "f7dcec809be7c2695c6d81c947c0e20d"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-23",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Full dataset",
+        "label": "shrec19_cryoet_full_dataset.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 20341,
+        "dataFile": {
+          "id": 285770,
+          "persistentId": "",
+          "filename": "shrec19_cryoet_full_dataset.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 7027892581,
+          "description": "Full dataset",
+          "storageIdentifier": "surf://store:180569e8c0f-9cda034e5bb9",
+          "rootDataFileId": -1,
+          "md5": "9b8ddb8c7c4a17edc5531c0d656731a9",
+          "checksum": {
+            "type": "MD5",
+            "value": "9b8ddb8c7c4a17edc5531c0d656731a9"
+          },
+          "tabularData": false,
+          "creationDate": "2022-04-23",
+          "publicationDate": "2022-04-25",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Gubins, Ilja; van der Schot, Gijs; Veltkamp, Remco; Forster, Friedrich, 2022, \"SHREC Cryo-ET 2019 Dataset: Classification in Cryo-Electron Tomograms\", https://doi.org/10.34894/XSKKQV, DataverseNL, V2"
+  }
+}

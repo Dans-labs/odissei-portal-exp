@@ -1,0 +1,502 @@
+{
+  "id": 299974,
+  "identifier": "05Z4VN",
+  "persistentUrl": "https://doi.org/10.34894/05Z4VN",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-07-05",
+  "storageIdentifier": "surf://10.34894/05Z4VN",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 21664,
+    "datasetId": 299974,
+    "datasetPersistentId": "doi:10.34894/05Z4VN",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/05Z4VN",
+    "versionNumber": 1,
+    "internalVersionNumber": 9,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2022-07-05T12:43:31Z",
+    "releaseTime": "2022-07-05T12:43:31Z",
+    "createTime": "2022-06-24T08:43:57Z",
+    "publicationDate": "2022-07-05",
+    "citationDate": "2022-07-05",
+    "termsOfUse": "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/88x31.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Shifting concerns for the EU ETS: are carbon prices becoming too high?"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gerlagh, Reyer"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University, Tilburg School of Economics and Management"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-9781-9212"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heijmans, Roweno J.R.K"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Swedish University of Agricultural Sciences, SLU"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-7676-5697"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rosendahl, Knut Einar"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Norwegian University of Life Sciences, School of Economics and Business"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-8066-6261"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heijmans, Roweno J.R.K"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Swedish University of Agricultural Sciences, SLU"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gerlagh, Reyer"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University, Tilburg School of Economics and Management"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "There is one programming code in the language GAMS. It simulates data on emissions, banked emissions, auctioning, cancellation of allowances, in various scenarios. The purpose of these scenarios is to assess the impacts of various emission profiles on the Market Stability Reserves, the ETS market and prices. The data are copied (partly directly and partly by hand) into 2 Excel files, which also construct the figures used in the manuscript."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences",
+              "Medicine, Health and Life Sciences",
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Economics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Climate Policy"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Simulation"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gerlagh, R., R.J.R.K. Heijmans and K.E. Rosendahl (2022): \"Shifting concerns for the EU ETS: are carbon prices becoming too high?\" Environmental Research Letters 17, no. 5 (2022): 054018."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1088/1748-9326/ac63d6"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1088/1748-9326/ac63d6"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Method: Simulation data produced by GAMS code written by Knut Einar Rosendahl.\n\n<br><br>\n\nAdditional documentation and metadata can be found in the files 'Data Report June 2022.pdf' and 'readme.txt'."
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "producerName": {
+                  "typeName": "producerName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tilburg University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "distributorName": {
+                  "typeName": "distributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DataverseNL"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Wijnhoven, Kars"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2022-06-24"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Generated data by a simulation model"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/05Z4VN"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:7baa0256-b0ad-470e-b1bb-64650d7bb4ba"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-57b5c499-413b-4f0f-8756-1008967511f7"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Data Report June 2022.pdf",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 21664,
+        "dataFile": {
+          "id": 300207,
+          "persistentId": "",
+          "filename": "Data Report June 2022.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 137921,
+          "storageIdentifier": "surf://store:181b4cb7b72-de0a97755db9",
+          "rootDataFileId": -1,
+          "md5": "d3b1346627d62e764f0981303455061f",
+          "checksum": {
+            "type": "MD5",
+            "value": "d3b1346627d62e764f0981303455061f"
+          },
+          "tabularData": false,
+          "creationDate": "2022-06-30",
+          "publicationDate": "2022-07-05",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ETS MSR Linear Demand Runs.gms",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 21664,
+        "dataFile": {
+          "id": 300208,
+          "persistentId": "",
+          "filename": "ETS MSR Linear Demand Runs.gms",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 6115,
+          "storageIdentifier": "surf://store:181b4cbc8b2-26c1d45c07b7",
+          "rootDataFileId": -1,
+          "md5": "9de4bbd2b38f2692045801358844c772",
+          "checksum": {
+            "type": "MD5",
+            "value": "9de4bbd2b38f2692045801358844c772"
+          },
+          "tabularData": false,
+          "creationDate": "2022-06-30",
+          "publicationDate": "2022-07-05",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ETS MSR Linear Demand Runs.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 21664,
+        "dataFile": {
+          "id": 300210,
+          "persistentId": "",
+          "filename": "ETS MSR Linear Demand Runs.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 6115,
+          "storageIdentifier": "surf://store:181b4cbc940-940204e9d06a",
+          "rootDataFileId": -1,
+          "md5": "9de4bbd2b38f2692045801358844c772",
+          "checksum": {
+            "type": "MD5",
+            "value": "9de4bbd2b38f2692045801358844c772"
+          },
+          "tabularData": false,
+          "creationDate": "2022-06-30",
+          "publicationDate": "2022-07-05",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Fig1and4.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 21664,
+        "dataFile": {
+          "id": 300211,
+          "persistentId": "",
+          "filename": "Fig1and4.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 32875,
+          "storageIdentifier": "surf://store:181b4cbc9c3-a9b22529c657",
+          "rootDataFileId": -1,
+          "md5": "27459b8b936cd11c02ef6d849f4f65e3",
+          "checksum": {
+            "type": "MD5",
+            "value": "27459b8b936cd11c02ef6d849f4f65e3"
+          },
+          "tabularData": false,
+          "creationDate": "2022-06-30",
+          "publicationDate": "2022-07-05",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Fig2and3.xlsx",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 21664,
+        "dataFile": {
+          "id": 300209,
+          "persistentId": "",
+          "filename": "Fig2and3.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 63542,
+          "storageIdentifier": "surf://store:181b4cbca6c-c6d0b963b313",
+          "rootDataFileId": -1,
+          "md5": "6c78570200e6fec32505f62380e547b0",
+          "checksum": {
+            "type": "MD5",
+            "value": "6c78570200e6fec32505f62380e547b0"
+          },
+          "tabularData": false,
+          "creationDate": "2022-06-30",
+          "publicationDate": "2022-07-05",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "readme.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 21664,
+        "dataFile": {
+          "id": 300212,
+          "persistentId": "",
+          "filename": "readme.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1028,
+          "storageIdentifier": "surf://store:181b4cbcaf7-bddc10b9980d",
+          "rootDataFileId": -1,
+          "md5": "84eb2a912f58e3af5d011c3e7388884d",
+          "checksum": {
+            "type": "MD5",
+            "value": "84eb2a912f58e3af5d011c3e7388884d"
+          },
+          "tabularData": false,
+          "creationDate": "2022-06-30",
+          "publicationDate": "2022-07-05",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Gerlagh, Reyer; Heijmans, Roweno J.R.K; Rosendahl, Knut Einar, 2022, \"Replication Data for: Shifting concerns for the EU ETS: are carbon prices becoming too high?\", https://doi.org/10.34894/05Z4VN, DataverseNL, V1"
+  }
+}

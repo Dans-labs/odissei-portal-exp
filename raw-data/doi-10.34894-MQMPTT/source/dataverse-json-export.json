@@ -1,0 +1,300 @@
+{
+  "id": 356808,
+  "identifier": "MQMPTT",
+  "persistentUrl": "https://doi.org/10.34894/MQMPTT",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2023-03-06",
+  "storageIdentifier": "surf://10.34894/MQMPTT",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25120,
+    "datasetId": 356808,
+    "datasetPersistentId": "doi:10.34894/MQMPTT",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/MQMPTT",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2023-06-23T10:54:40Z",
+    "releaseTime": "2023-06-23T10:54:40Z",
+    "createTime": "2023-06-21T12:07:23Z",
+    "publicationDate": "2023-03-06",
+    "citationDate": "2023-03-06",
+    "license": {
+      "name": "CC-BY-SA-4.0",
+      "uri": "http://creativecommons.org/licenses/by-sa/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+    },
+    "termsOfAccess": "Interested parties can request the full dataset from the author.",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Dataset for \"Employability Development in Undergraduate Programmes: How Different Is Liberal Arts Education?\""
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kovacevic, Milan"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://orcid.org/0000-0001-7422-2958"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kovacevic, Milan"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Dekker, Teun"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>This dataset accompanies the research study \"Employability Development in Undergraduate Programmes: How Different Is Liberal Arts Education?\" (https://doi.org/10.1080/13562517.2023.2212602). The study examines how students’ employability develops during undergraduate studies at a Dutch liberal arts college compared to a traditional bachelor’s programme in law at the same university. The study focuses on six skills that enhance employability: creativity, lifelong learning, career decidedness, self-efficacy, resilience, and personal initiative. To measure employability growth, a cross-sectional pseudo-cohort research design is adopted, comparing first-, second-, and third-year student cohorts.</p>\n\n<p>The data was collected via an online survey that ran between September 20 and December 19, 2021. The final sample includes 558 responses.</p>\n\n<p>The dataset includes the following variables:<br>\n- Study_year: Study year;<br>\n- Study_programme: Study programme (1 = liberal arts; 0 = law);<br>\n- Academic_sec_ed: type of secondary education (1 = academic secondary education; 0 = non-academic general or vocational/technical secondary education);<br>\n- High_school_GPA_rank: high school GPA ranking compared to other students in graduating class (on a 5-point scale, ranging from 1 = much lower than the average to 5 = much higher than the average);<br>\n- Gap_year: gap year after high school (1 = yes; 0 = no);<br>\n- First_gen: first-generation university student (1 = yes; 0 = no); <br>\n- Work_before_HE: non-study-related work experience before higher education (1 = one month or more; 0 = less than one month);<br>\n- Work_during_HE: non-study-related work experience during higher education (1 = one month or more; 0 = less than one month);<br>\n- AUT_fluency: fluency score on Guilford’s (1967) Alternate Uses Task, measured as the total number of acceptable uses across two objects (newspaper and umbrella);<br>\n- LLL: Lifelong learning score, measured by Wielkiewicz and Meuwissen’s (2014) WielkLLS 5-point scale;<br>\n- CD: Career decidedness score, measured by the 5-point Likert scale developed by Lounsbury et al. (2005);<br>\n- SE: Self-efficacy score, measured by the 4-point General Self-Efficacy Scale (Schwarzer & Jerusalem, 1995);<br>\n- RSL: Resilience score, measured by the 5-point Brief Resilience Scale (Smith et al., 2008);<br>\n- PI: Personal initiative score, measured by a shortened, 6-item version of Bledow and Frese's (2009) SJT-PI situational judgement test.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "graduate employability"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "employability skills"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "skill development"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "undergraduate students"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "liberal arts education"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kovačević, M., Dekker, T. J., & Van Der Velden, R. (2023). Employability development in undergraduate programmes: How different is liberal arts education? Teaching in Higher Education, 1–21."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1080/13562517.2023.2212602"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1080/13562517.2023.2212602"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "To make sure the students’ privacy is fully protected, data concerning the respondents’ age, gender, and country of high school graduation has been excluded from this dataset. Interested parties can request the full dataset from the author."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Kovacevic, Milan"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-02-24"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/MQMPTT"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:05af0c30-059f-4b5d-9f32-47f43ab807a6"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-0caa9232-eb37-4f73-b821-1e154ee6ef0f"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "Dataset for \"Employability Development in Undergraduate Programmes: How Different Is Liberal Arts Education?\"",
+        "label": "Employability_development_in_undergraduate_programmes.dta",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25120,
+        "dataFile": {
+          "id": 356809,
+          "persistentId": "",
+          "filename": "Employability_development_in_undergraduate_programmes.dta",
+          "contentType": "application/x-stata-14",
+          "friendlyType": "Stata 14 Binary",
+          "filesize": 32890,
+          "description": "Dataset for \"Employability Development in Undergraduate Programmes: How Different Is Liberal Arts Education?\"",
+          "storageIdentifier": "surf://store:18683bb5c23-709d64724120",
+          "rootDataFileId": -1,
+          "md5": "40760b37a281a87b29772e6058c9daff",
+          "checksum": {
+            "type": "MD5",
+            "value": "40760b37a281a87b29772e6058c9daff"
+          },
+          "tabularData": false,
+          "creationDate": "2023-02-24",
+          "publicationDate": "2023-03-06",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Kovacevic, Milan, 2023, \"Dataset for \"Employability Development in Undergraduate Programmes: How Different Is Liberal Arts Education?\"\", https://doi.org/10.34894/MQMPTT, DataverseNL, V1"
+  }
+}

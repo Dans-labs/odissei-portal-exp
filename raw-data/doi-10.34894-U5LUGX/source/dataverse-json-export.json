@@ -1,0 +1,969 @@
+{
+  "id": 571275,
+  "identifier": "U5LUGX",
+  "persistentUrl": "https://doi.org/10.34894/U5LUGX",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-12-18",
+  "storageIdentifier": "surf://10.34894/U5LUGX",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34915,
+    "datasetId": 571275,
+    "datasetPersistentId": "doi:10.34894/U5LUGX",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/U5LUGX",
+    "versionNumber": 10,
+    "internalVersionNumber": 7,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-06-04T09:08:17Z",
+    "releaseTime": "2026-06-04T09:08:17Z",
+    "createTime": "2026-06-04T08:14:40Z",
+    "publicationDate": "2025-12-18",
+    "citationDate": "2025-12-18",
+    "license": {
+      "name": "CC-BY-4.0",
+      "uri": "http://creativecommons.org/licenses/by/4.0",
+      "iconUri": "https://i.creativecommons.org/l/by/4.0/88x31.png"
+    },
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Quantifying Gait Parameters in Parkinson’s Disease Using Augmented Reality"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gerritsen, Joey"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "zuyd.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gerritsen, Joey"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "zuyd.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gait impairments are common in Parkinson’s disease, and cueing strategies can help improve mobility. Augmented Reality (AR) headsets offer personalized cues and can capture gait data, but their validity in varied, clinically relevant walking conditions has not been fully tested. This study evaluates the validity and reliability of gait and balance measures from AR headsets by comparing them to a gold-standard motion capture system.\n\nThis repository includes a processed dataset in .JSON format containing raw 3D position and orientation data from the AR headsets and the motion capture system. \n\nThe motion capture system used is a Vicon system, including 12 Vicon Vero 2.2 camera's, capturing data at 100Hz. A Plug-in Gait lower body model was used, with 4 additional markers on the AR device as seperate segment. \n\nAR headsets used are Magic Leap 2 (OS 1.12.0), capturing positional and rotational data (6-DOF) at ~60Hz.\n\nAll participants (n=24) gave informed consent under the study approved by METC-Z (METCZ20250060)."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Computer and Information Science",
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vicon"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Motion capture"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Augmented Reality"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Concurrent validity"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gait parameters"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Parkinson's Disease"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Each JSON file contains a time series of measurements. Each entry includes AR device data with time, x position, y position, z position, pitch, roll, and yaw. Vicon motion capture data includes x, y, and z positions for each marker. \n\nExplanation of tests and data are included in the README.md."
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Zuyd Hogeschool, Heerlen"
+            ]
+          },
+          {
+            "typeName": "contributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "contributorType": {
+                  "typeName": "contributorType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "Data Collector"
+                },
+                "contributorName": {
+                  "typeName": "contributorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Gerritsen, J."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Gerritsen, Joey"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-12-09"
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "3D position data",
+              "6-DOF headset data"
+            ]
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vicon Nexus"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2.17"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Python"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "3.12"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MATLAB"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "R2023b"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Magic Leap 2 OS"
+                },
+                "softwareVersion": {
+                  "typeName": "softwareVersion",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "1.12.0"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "accessToSources",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The dataset can be loaded using the provided example code. JSON files can be read in Python using the built-in json module and in MATLAB using the jsondecode function. Adjust filename based on actual data. \n\nPython: \nwith open(\"filename.json\", \"r\") as f:\n     data = json.load(f)\n\nMATLAB:\ndata = jsondecode(fileread('filename.json'));"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/U5LUGX"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "10.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:06fd8cf1-da9c-4808-8a26-0517a77d93f7"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-1c7c20fa-df0e-4b6a-9f7a-adb607a91bff"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "5XSTS not included. Missing synchronization squats in AR during cueing tests.",
+        "label": "P01.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 615843,
+          "persistentId": "",
+          "filename": "P01.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 128681464,
+          "description": "5XSTS not included. Missing synchronization squats in AR during cueing tests.",
+          "storageIdentifier": "surf://store:19d671898e0-55e0bb72e91d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "18ac279fc9b8247243d04677a57ded60e7ed17e8"
+          },
+          "tabularData": false,
+          "creationDate": "2026-04-07",
+          "publicationDate": "2026-04-07",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "AR data from TUG missing last seated position. Missing synchronization squats in AR during cueing tests.",
+        "label": "P02.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645985,
+          "persistentId": "",
+          "filename": "P02.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 135611981,
+          "description": "AR data from TUG missing last seated position. Missing synchronization squats in AR during cueing tests.",
+          "storageIdentifier": "surf://store:19e8d78b3bd-f3daa7c8edd4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "006e2462e9c28f94e37a197399f678b2815b6a1c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P03.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645980,
+          "persistentId": "",
+          "filename": "P03.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 139048298,
+          "storageIdentifier": "surf://store:19e8d78c4ae-4b987257e6a4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fca6db665bbc4be7edfa1f2860ddbbc2517b249e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P04.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645978,
+          "persistentId": "",
+          "filename": "P04.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 133573667,
+          "storageIdentifier": "surf://store:19e8d78d482-e71d3af7bb95",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f96822734620963c178490b4857067a083b348a9"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P05.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645972,
+          "persistentId": "",
+          "filename": "P05.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 132865111,
+          "storageIdentifier": "surf://store:19e8d78e40d-b6ea2e562bf3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ae0e71b4fab89444a8c3576428f7bbad62e446b9"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P06.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645990,
+          "persistentId": "",
+          "filename": "P06.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 156366888,
+          "storageIdentifier": "surf://store:19e8d78f274-2c3b2af2493e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "35de0b7d8dfe399885ddd032968945504180d3bc"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P07.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645976,
+          "persistentId": "",
+          "filename": "P07.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 150998565,
+          "storageIdentifier": "surf://store:19e8d78ffa9-bc9259285f6c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "033f45c1658a9a1156752867071a524ac78ee184"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P08.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645982,
+          "persistentId": "",
+          "filename": "P08.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 143095776,
+          "storageIdentifier": "surf://store:19e8d790c20-95298060cbba",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3579c1547458a548ea4c43af0e47356fce22d7c6"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P09.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645986,
+          "persistentId": "",
+          "filename": "P09.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 140366004,
+          "storageIdentifier": "surf://store:19e8d7917be-b447b37e5b04",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6cab7fb058da5f814a744159440cdd5ddc261ccb"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P10.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645969,
+          "persistentId": "",
+          "filename": "P10.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 154465634,
+          "storageIdentifier": "surf://store:19e8d79253c-68f464d61813",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4e778eabf8ad745f44a9686d1a314df30cbd498d"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P11.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645970,
+          "persistentId": "",
+          "filename": "P11.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 157559476,
+          "storageIdentifier": "surf://store:19e8d79327b-8c7ed409bb65",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "253660b349fd3601e5473ad36230994c5529dee9"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P12.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645987,
+          "persistentId": "",
+          "filename": "P12.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 142584445,
+          "storageIdentifier": "surf://store:19e8d793e51-bef7c60f8716",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ed5403694bc1a9297f1d871150eb97e7d5e6225c"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P13.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645989,
+          "persistentId": "",
+          "filename": "P13.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 154535590,
+          "storageIdentifier": "surf://store:19e8d77fb76-db722dbea9d9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fc666d7e06498d278ddd6634851e553b842654ea"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P14.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645979,
+          "persistentId": "",
+          "filename": "P14.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 147936758,
+          "storageIdentifier": "surf://store:19e8d780909-268a2e6d6250",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "aaba28d152e3bf5e8fc488ccc2d7e9603ad37654"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P15.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645968,
+          "persistentId": "",
+          "filename": "P15.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 141840922,
+          "storageIdentifier": "surf://store:19e8d78157f-d8096979d3bf",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a88f52c1d91b8202b12cab773086e8bbb3d9b6e2"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P16.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645983,
+          "persistentId": "",
+          "filename": "P16.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 138606052,
+          "storageIdentifier": "surf://store:19e8d7821d3-599b699a5e89",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e8da1dbc38fdb30ac08b1c2f02682182bbcb9e6f"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P17.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645974,
+          "persistentId": "",
+          "filename": "P17.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 145730903,
+          "storageIdentifier": "surf://store:19e8d783457-e6e6d6ee6d84",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "53010023cd3405f63a9bf7079d934a6802dd8af5"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Cueing not included.",
+        "label": "P18.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645984,
+          "persistentId": "",
+          "filename": "P18.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 119631203,
+          "description": "Cueing not included.",
+          "storageIdentifier": "surf://store:19e8d784065-51a2bf5b0c5e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d924987e72d563d3c653875b3f4965438b243c74"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "Cueing not included. ",
+        "label": "P19.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 646021,
+          "persistentId": "",
+          "filename": "P19.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 117955639,
+          "description": "Cueing not included. ",
+          "storageIdentifier": "surf://store:19e91b39c4a-a1cb75dfe239",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "eb6d633410e35df642d275a38f9225e39d6a1475"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-04",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P20.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645971,
+          "persistentId": "",
+          "filename": "P20.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 141610684,
+          "storageIdentifier": "surf://store:19e8d785df5-e63de71ad7a2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b4eaced890edb221c9726facb5b0622c6ce10ae5"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P21.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645973,
+          "persistentId": "",
+          "filename": "P21.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 146807161,
+          "storageIdentifier": "surf://store:19e8d7871c8-b4db4d4fbc90",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a2d1bf136ec6bff5a4b67a941aac65981beb0b1e"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P22.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645981,
+          "persistentId": "",
+          "filename": "P22.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 145705298,
+          "storageIdentifier": "surf://store:19e8d787f33-d62cd731f5ce",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ea9af460c9417a21f33e81504fd7ad153402da64"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P23.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645975,
+          "persistentId": "",
+          "filename": "P23.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 139212060,
+          "storageIdentifier": "surf://store:19e8d788f7b-e049851d6694",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cee02d73057d4b2bad4cdd6d19e653dc2fda1156"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "P24.json",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645977,
+          "persistentId": "",
+          "filename": "P24.json",
+          "contentType": "application/json",
+          "friendlyType": "JSON",
+          "filesize": 143422791,
+          "storageIdentifier": "surf://store:19e8d78a3ea-cf23492d7f69",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e3e435613f40a244d7fa9a5fae0a221cf003cefd"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "README.md",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34915,
+        "dataFile": {
+          "id": 645991,
+          "persistentId": "",
+          "filename": "README.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 3013,
+          "storageIdentifier": "surf://store:19e8d7ee0fa-c90ebae7b9f5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1a0a568b96b1932a3853946d6fe715cd3f4c4517"
+          },
+          "tabularData": false,
+          "creationDate": "2026-06-03",
+          "publicationDate": "2026-06-04",
+          "lastUpdateTime": "2026-06-04T09:08:17Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Gerritsen, Joey, 2025, \"Quantifying Gait Parameters in Parkinson’s Disease Using Augmented Reality\", https://doi.org/10.34894/U5LUGX, DataverseNL, V10"
+  }
+}

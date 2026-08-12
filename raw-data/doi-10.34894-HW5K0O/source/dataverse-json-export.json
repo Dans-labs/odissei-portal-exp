@@ -1,0 +1,864 @@
+{
+  "id": 556038,
+  "identifier": "HW5K0O",
+  "persistentUrl": "https://doi.org/10.34894/HW5K0O",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2025-11-07",
+  "storageIdentifier": "surf://10.34894/HW5K0O",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 31908,
+    "datasetId": 556038,
+    "datasetPersistentId": "doi:10.34894/HW5K0O",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/HW5K0O",
+    "versionNumber": 1,
+    "internalVersionNumber": 10,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2025-11-07T13:00:59Z",
+    "releaseTime": "2025-11-07T13:00:59Z",
+    "createTime": "2025-11-07T08:57:20Z",
+    "publicationDate": "2025-11-07",
+    "citationDate": "2025-11-07",
+    "termsOfUse": "The standard Data Transfer Agreement (DTA) used at the Erasmus MC must be signed without adjustments. This DTA template has been set up in conjunction with legal advisors of all Dutch academic hospitals and serves to facilitate and regulate the transfer of/access to personal data that were previously collected by a Dutch University hospital (“Provider”) from patients, participants and/or volunteers for the purpose of scientific research, by an external not-for-profit party (“Recipient”).\nData transfer agreement: https://elsi.health-ri.nl/sites/elsi/files/2020-07/20.30815%20OenO%20Template%20-%20Data%20Sharing%20Agreement.pdf\nThe CC-BY-NC-4.0 license is applicable to the openly available data.",
+    "confidentialityDeclaration": "No",
+    "specialPermissions": "Access to the dataset can be requested through the ‘request access’ button. A Data Transfer Agreement (DTA) in line with GDPR regulations and/or a Collaboration Agreement should be signed before data is shared. Only data requests in line with the Terms of Use will be taken into consideration.",
+    "restrictions": "See Data Transfer Agreement",
+    "citationRequirements": "See Data Transfer Agreement",
+    "conditions": "To access and use the dataset please read the Terms of Use and the Terms of Access.",
+    "disclaimer": "See Data Transfer Agreement",
+    "termsOfAccess": "Only data requests in line with the Terms of Use will be taken into consideration. The standard Data Transfer Agreement (DTA) in line with GDPR regulations and/or the Collaboration Agreement should be signed before data is shared. If a data request is approved, the data will be delivered in a safe and secure manner. By signing the DTA and/or Collaboration Agreement and accessing the Materials, the recipient represents his/her acceptance of the Terms of Use.",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "RNAseq data of chondrocytes residing in the zone of calcified cartilage at the human cartilage-bone interface"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Veldman, Judith"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus MC"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0008-9158-6188"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Schwab, Andrea"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/00ggpsq73",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Otto-von-Guericke University Magdeburg",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-4576-558X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Kops, Nicole"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus MC"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0006-1980-828X"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van IJcken, Wilfred"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus MC"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-0421-8301"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Richter, Heiko"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "LLS Rowiak"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0003-2364-6250"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sinram, Merve"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "LLS Rowiak"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0006-1848-8106"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "den Dekker, Xander"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus MC"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-3353-8101"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hiscock, Kayleigh"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus MC"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-8480-1985"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bertrand, Jessica"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://ror.org/00ggpsq73",
+                  "expandedvalue": {
+                    "scheme": "http://www.grid.ac/ontology/",
+                    "termName": "Otto-von-Guericke University Magdeburg",
+                    "@type": "https://schema.org/Organization"
+                  }
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-9511-4999"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Farrell, Eric"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus MC"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6886-6693"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Osch, Gerjo"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Erasmus MC"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-1852-6409"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Osch, Gerjo"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "erasmusmc.nl"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains raw and processed RNA-seq data generated to study the cells residing in the zone of calcified cartilage during osteoarthritis. A detailed description of the background and aim of the analysis can be found in the `Research plan`. The data includes FASTQ files, count matrices, and metadata tables linking samples to experimental conditions. Due to patient privacy concerns of raw transcriptomic data, the FASTQ files will not be published open access, but can only be received upon reasonable request and the completion of a Data Transfer Agreement."
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2025-11-07"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "The data are sensitive since they involve personal information of patients. There are restrictions on use by commercial parties and on sharing openly, based on (inter)national laws and regulations and written informed consent. Therefore these data (and additional clinical data) are only available upon signing a Data Transfer Agreement (see Terms of Access)."
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Veldman, Judith"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2025-11-07"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/HW5K0O"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:d2a805c1-f3cb-4944-96fc-cf83fcf30da2"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-cb35cbdd-6c1b-4750-87f1-fa11cc7a9031"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "Codebook.csv",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 2,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 556049,
+          "persistentId": "",
+          "filename": "Codebook.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1413,
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19a5d855624-cfd5f2a4f5a1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "153542bfd4ef1f27a08981acd34ee27f839752b0"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Culture_barcodes.tsv",
+        "restricted": false,
+        "directoryLabel": "Research data/Count matrices/Culture",
+        "version": 1,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 556045,
+          "persistentId": "",
+          "filename": "Culture_barcodes.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 468,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19a5d79840b-1fa7f3fa8e95",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3e3621baf261fcb4889a20206dab27c68af9b5d4"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Culture_features.tsv",
+        "restricted": false,
+        "directoryLabel": "Research data/Count matrices/Culture",
+        "version": 1,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 556046,
+          "persistentId": "",
+          "filename": "Culture_features.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1479171,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19a5d798aa5-5fc3929d0e57",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7bd405b11f675ab0a72f36bbe59aeb52ec165f12"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Culture_matrix.mtx",
+        "restricted": false,
+        "directoryLabel": "Research data/Count matrices/Culture",
+        "version": 1,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 556039,
+          "persistentId": "",
+          "filename": "Culture_matrix.mtx",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3823500,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19a5d799191-a28803af4413",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0295096a499802fdb2055476b7dc866101169ce8"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Culture_script.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 2,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Code",
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 556050,
+          "persistentId": "",
+          "filename": "Culture_script.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 2387958,
+          "categories": [
+            "Code",
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19a5d85405a-646c768ac4e2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d28d2f84ad560133224bf1e69f72dbcf0ac3fa49"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Data management plan.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 2,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 556048,
+          "persistentId": "",
+          "filename": "Data management plan.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 185771,
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19a5d856006-a19e9294a7bb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "160ca8c5f76901ad424d8e8f45772d973275b367"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "LLS_barcodes.tsv",
+        "restricted": false,
+        "directoryLabel": "Research data/Count matrices/LLS",
+        "version": 1,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 556051,
+          "persistentId": "",
+          "filename": "LLS_barcodes.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 156,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19a5d7b8307-d734c8778bb9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8d2cce6dac8db7863414cd1ae23bb47d51f80c40"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "LLS_features.tsv",
+        "restricted": false,
+        "directoryLabel": "Research data/Count matrices/LLS",
+        "version": 1,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 556047,
+          "persistentId": "",
+          "filename": "LLS_features.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 1479171,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19a5d7b8b31-68a8c97af998",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7bd405b11f675ab0a72f36bbe59aeb52ec165f12"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "LLS_matrix.mtx",
+        "restricted": false,
+        "directoryLabel": "Research data/Count matrices/LLS",
+        "version": 1,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 556042,
+          "persistentId": "",
+          "filename": "LLS_matrix.mtx",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1573390,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19a5d7b937b-e15f3283f6b1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "024e835a213931136b5b3fda5a99ead7459c4d05"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "LLS_script.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 2,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Code",
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 556040,
+          "persistentId": "",
+          "filename": "LLS_script.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 768851,
+          "categories": [
+            "Code",
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19a5d862c34-383cfddce2ad",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f4af649f3b9607141ee2ffd7f735ec3182fbd0bd"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Metadata.xlsx",
+        "restricted": false,
+        "directoryLabel": "Research data",
+        "version": 1,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Data"
+        ],
+        "dataFile": {
+          "id": 556043,
+          "persistentId": "",
+          "filename": "Metadata.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 10833,
+          "categories": [
+            "Data"
+          ],
+          "storageIdentifier": "surf://store:19a5d82c9c0-129271cf5593",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "382bcdf82953bbcafe8a74cc753a2d384ebbb02e"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "ReadME.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 2,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 556041,
+          "persistentId": "",
+          "filename": "ReadME.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 107460,
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19a5d856c7a-901660e5c454",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a4c2c42f0cf6bdaf6ffe9ff7ce0a63e80984bab6"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "label": "Research plan.pdf",
+        "restricted": false,
+        "directoryLabel": "Documentation",
+        "version": 2,
+        "datasetVersionId": 31908,
+        "categories": [
+          "Documentation"
+        ],
+        "dataFile": {
+          "id": 556044,
+          "persistentId": "",
+          "filename": "Research plan.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 170655,
+          "categories": [
+            "Documentation"
+          ],
+          "storageIdentifier": "surf://store:19a5d854a24-2e4a504fe56e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fdfadd311ba65bc2808a0ba918ac19dd9badc536"
+          },
+          "tabularData": false,
+          "creationDate": "2025-11-07",
+          "publicationDate": "2025-11-07",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "Veldman, Judith; Schwab, Andrea; Kops, Nicole; van IJcken, Wilfred; Richter, Heiko; Sinram, Merve; den Dekker, Xander; Hiscock, Kayleigh; Bertrand, Jessica; Farrell, Eric; van Osch, Gerjo, 2025, \"RNAseq data of chondrocytes residing in the zone of calcified cartilage at the human cartilage-bone interface\", https://doi.org/10.34894/HW5K0O, DataverseNL, V1"
+  }
+}

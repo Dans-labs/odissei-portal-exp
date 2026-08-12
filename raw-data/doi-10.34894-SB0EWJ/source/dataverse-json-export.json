@@ -1,0 +1,4079 @@
+{
+  "id": 459114,
+  "identifier": "SB0EWJ",
+  "persistentUrl": "https://doi.org/10.34894/SB0EWJ",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-11-25",
+  "storageIdentifier": "surf://10.34894/SB0EWJ",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 29933,
+    "datasetId": 459114,
+    "datasetPersistentId": "doi:10.34894/SB0EWJ",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/SB0EWJ",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-11-28T11:44:00Z",
+    "releaseTime": "2024-11-28T11:44:00Z",
+    "createTime": "2024-11-28T11:43:51Z",
+    "publicationDate": "2024-11-25",
+    "citationDate": "2024-11-25",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "termsOfAccess": "Under embargo until publshing",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for Chapter 4 - Automation and Employment over the Technology Life Cycle: Evidence from European Regions"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Jaccoud, Florencia"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UNU-MERIT, Maastricht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0009-0006-7411-5021"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Notten, Ad"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This dataset contains the scripts and packages needed to reproduce Chapter 4 in R.\n\n- summeR: contains the functions and packages needed for R\n- RealAutWaves: contains the raw data and the scripts to reproduce the analysis of Chapter 4\n- a ReadMe detailing the analysis\n\nNote: Almost all the raw data used in the chapter is included. However, the data for robots comes from the IFR and we do not have permission to publish it. Therefore, this dataset has been excluded. \n\nDescription of the folder RealAutWaves:\n\nThe folder _data\\_raw contains all the raw data (except the robots data from IFR as it cannot be made public)\n\nThe folder _function contains the codes of functions that are later called in the main script of the analysis\n\nThe folder _script contains:\n\n* a folder named \"_clean\" contains all the scripts to clean the raw data (this data will then be used in script 01-main, see below)\n\n* init: this script is needed to set-up R (it will be used in the main scripts)"
+                },
+                "dsDescriptionDate": {
+                  "typeName": "dsDescriptionDate",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "2024-11-25"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Notten, Ad"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2024-11-25"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/SB0EWJ"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:b9bb9006-01ad-4903-826c-259851fe5a34"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-81df47a5-737d-4346-8c0b-62f69b22bed8"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "01-wave-clustering.Rmd",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459183,
+          "persistentId": "",
+          "filename": "01-wave-clustering.Rmd",
+          "contentType": "text/x-r-notebook",
+          "friendlyType": "R Notebook",
+          "filesize": 22700,
+          "storageIdentifier": "surf://store:19362d19fa0-587e5d3f5917",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d222f46925bd6c8774617742f216f51ff8d43c20"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "02-wave_main.Rmd",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459120,
+          "persistentId": "",
+          "filename": "02-wave_main.Rmd",
+          "contentType": "text/x-r-notebook",
+          "friendlyType": "R Notebook",
+          "filesize": 91905,
+          "storageIdentifier": "surf://store:19362d19fa6-10eb3628a6e8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d6aa86d2a8697d4a4d8d37e930a0398b26679849"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "03-wave_descriptive.Rmd",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459255,
+          "persistentId": "",
+          "filename": "03-wave_descriptive.Rmd",
+          "contentType": "text/x-r-notebook",
+          "friendlyType": "R Notebook",
+          "filesize": 11490,
+          "storageIdentifier": "surf://store:19362d19fac-97844584ca3f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7f47f8d8c528f2fc5986eadf11129667e854c91c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "1-Organizing the dataset.do",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_euklems/_deprecated",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459267,
+          "persistentId": "",
+          "filename": "1-Organizing the dataset.do",
+          "contentType": "application/x-stata-syntax",
+          "friendlyType": "Stata Syntax",
+          "filesize": 3734,
+          "storageIdentifier": "surf://store:19362d19f99-c870e4083e8f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "53d6ead645083053cf258b280b142e4126e309e5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Active Population - Total Labour Force_metadata.html",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459116,
+          "persistentId": "",
+          "filename": "Active Population - Total Labour Force_metadata.html",
+          "contentType": "text/html",
+          "friendlyType": "HTML",
+          "filesize": 77564,
+          "storageIdentifier": "surf://store:19362d19fd7-5ed9ae6af21b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f5a940307bb52d1a448a2846cc647190816f186c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ALFS_EMP_05122022141842640.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_oecd/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459212,
+          "persistentId": "",
+          "filename": "ALFS_EMP_05122022141842640.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2032,
+          "storageIdentifier": "surf://store:19362d19fb1-6fe5f0beddcc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6f4757bdd84b491e47e5680a6c6988aa51f0b6d6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ALFS_EMP_ARCHIVE_16112023153314224.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_oecd/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459222,
+          "persistentId": "",
+          "filename": "ALFS_EMP_ARCHIVE_16112023153314224.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 47172,
+          "storageIdentifier": "surf://store:19362d19fb7-323f5c554904",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dd5268e8289e36df655d4f1f56c75639dab0fc03"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "applypatch-msg.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459245,
+          "persistentId": "",
+          "filename": "applypatch-msg.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 478,
+          "storageIdentifier": "surf://store:19362d1a914-ed81d63c20a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4de88eb95a5e93fd27e78b5fb3b5231a8d8917dd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "app.runtime.config.js.download",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459115,
+          "persistentId": "",
+          "filename": "app.runtime.config.js.download",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 740,
+          "storageIdentifier": "surf://store:19362d1a90e-8221a7980683",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2be5ec1eb084f136b08c637d92a34cb3a00eb7d2"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ardeco_compensation.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459117,
+          "persistentId": "",
+          "filename": "ardeco_compensation.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2037,
+          "storageIdentifier": "surf://store:19362d1a918-cf4d27de1abb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b022a5fac65510c4fe39b4b28b135efec33b731f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ardeco_employment.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459194,
+          "persistentId": "",
+          "filename": "ardeco_employment.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1357,
+          "storageIdentifier": "surf://store:19362d1a91e-be6346f5d2e6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "07beb949d3da7f5f689fd2204d3e88f9533376b6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ardeco_employmentuk.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459182,
+          "persistentId": "",
+          "filename": "ardeco_employmentuk.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3107,
+          "storageIdentifier": "surf://store:19362d1a923-823d55fee58b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "59b80a37d76b2b737a6564107dd688f8b44c2866"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ardeco_gfcf_new.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459170,
+          "persistentId": "",
+          "filename": "ardeco_gfcf_new.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1550,
+          "storageIdentifier": "surf://store:19362d1a92d-8ca1f6f9b4c9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c6dd9ca9e44ec5c217a62a40b94ab42567bb1a9e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ardeco_gfcf.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459197,
+          "persistentId": "",
+          "filename": "ardeco_gfcf.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2278,
+          "storageIdentifier": "surf://store:19362d1a928-9547f94adf93",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5dcd27ba78cd6c7e46a66c063d445e57f2e32476"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ardeco_gva_new.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459228,
+          "persistentId": "",
+          "filename": "ardeco_gva_new.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1408,
+          "storageIdentifier": "surf://store:19362d1a939-e3ff837ebc0d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f61108e31d7c567e33f893eac6a063641630dec4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ardeco_gva.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459232,
+          "persistentId": "",
+          "filename": "ardeco_gva.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3417,
+          "storageIdentifier": "surf://store:19362d1a933-7e87b9fbd825",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7b0c3295474ae0081399c57cb05605109c96eaab"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ardeco_hours.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459122,
+          "persistentId": "",
+          "filename": "ardeco_hours.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1271,
+          "storageIdentifier": "surf://store:19362d1a93e-291535d02a6a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d4267a980b689bf508f7cdf5a77f59e925096ced"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ardeco_population.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459148,
+          "persistentId": "",
+          "filename": "ardeco_population.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 603,
+          "storageIdentifier": "surf://store:19362d1a944-4654dc1fe57c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "87255fb31ddd3f80238354e592a77334e05a6e15"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ARDECO-RNLTN.2016.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459187,
+          "persistentId": "",
+          "filename": "ARDECO-RNLTN.2016.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1119700,
+          "storageIdentifier": "surf://store:19362d19fbd-0e243bbdb362",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fae4f939a357842485fa4a3f784a61cb66fc299b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ARDECO-RNLTN.2021.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459216,
+          "persistentId": "",
+          "filename": "ARDECO-RNLTN.2021.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1307762,
+          "storageIdentifier": "surf://store:19362d19fc9-3dfb6353ad93",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "97e56e8eb29fa1826ac3a33dad4b70817ad05dbd"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "capital accounts.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_euklems",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459200,
+          "persistentId": "",
+          "filename": "capital accounts.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 30662802,
+          "storageIdentifier": "surf://store:19362d1a949-f9e796efc600",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0473982e756e73e55bf38f9b97492e58d199129c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "classification_nuts.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459195,
+          "persistentId": "",
+          "filename": "classification_nuts.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 261,
+          "storageIdentifier": "surf://store:19362d1aa12-98964c24d962",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ac7e0ac02f2efa86fe5b179121a3aad6e4de6f64"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "commit-msg.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459169,
+          "persistentId": "",
+          "filename": "commit-msg.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 896,
+          "storageIdentifier": "surf://store:19362d1aa16-39863d575e0d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ee1ed5aad98a435f2020b6de35c173b75d9affac"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "compensation-of-employees-at-constant-prices__compensation-of-employees-at-constant-prices.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_compensation",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459147,
+          "persistentId": "",
+          "filename": "compensation-of-employees-at-constant-prices__compensation-of-employees-at-constant-prices.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1121928,
+          "storageIdentifier": "surf://store:19362d1aa1b-78947e008ea7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "db162ac8337a5356a6451e11b77bf2f33df84e89"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-a.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_compensation",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459247,
+          "persistentId": "",
+          "filename": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-a.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1078960,
+          "storageIdentifier": "surf://store:19362d1aa28-7f41139c2cab",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a47646a9dd409bb37d18f31c39392801dbc724a0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-b-e.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_compensation",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459138,
+          "persistentId": "",
+          "filename": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-b-e.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1139868,
+          "storageIdentifier": "surf://store:19362d1aa34-a0e8c24337b0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7f885cf13c32cd30e49c11b847ce788f3bb54770"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-f.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_compensation",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459226,
+          "persistentId": "",
+          "filename": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-f.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1099300,
+          "storageIdentifier": "surf://store:19362d1aa40-f1f358cbd050",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2bd46ec5f5cd48bc52e75453c99c13be255607d3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-g-j.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_compensation",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459227,
+          "persistentId": "",
+          "filename": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-g-j.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1129667,
+          "storageIdentifier": "surf://store:19362d1aa4d-a1d057de9f0e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "08cc2b1b26d83b1133929e7b5854f7e4acb18a17"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-k-n.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_compensation",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459223,
+          "persistentId": "",
+          "filename": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-k-n.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1127205,
+          "storageIdentifier": "surf://store:19362d1aa5a-6770f497f421",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b4c769272516e48ad62291d96d46f501018a01da"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-o-u.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_compensation",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459221,
+          "persistentId": "",
+          "filename": "compensation-of-employees-by-nace-sector-at-constant-prices__compensation-of-employees-at-constant-prices-o-u.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1181042,
+          "storageIdentifier": "surf://store:19362d1aa67-b54fa4b638f4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "90331def0ae16d4805150d865dce60088c345217"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "config",
+        "restricted": true,
+        "directoryLabel": "summeR/.git",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459150,
+          "persistentId": "",
+          "filename": "config",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 313,
+          "storageIdentifier": "surf://store:19362d1aa75-de5426e6114b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c1c6bb45bee6bf83cd8950cd1b94fc86b32f2f5b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "cpi.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_oecd/_bcycles",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459205,
+          "persistentId": "",
+          "filename": "cpi.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 35785,
+          "storageIdentifier": "surf://store:19362d1aa79-f57881ef31e5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ce8e12f0a9c34357fde18049de30fc5151b65638"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "description",
+        "restricted": true,
+        "directoryLabel": "summeR/.git",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459263,
+          "persistentId": "",
+          "filename": "description",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 73,
+          "storageIdentifier": "surf://store:19362d1aa7f-346226eb4638",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9635f1b7e12c045212819dd934d809ef07efa2f4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "DP_LIVE_08092021075541478.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_oecd/_exchangerate",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459180,
+          "persistentId": "",
+          "filename": "DP_LIVE_08092021075541478.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 63567,
+          "storageIdentifier": "surf://store:19362d19fdc-46edb3279d63",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0a2dd13fabdff1b3ea66e02a4944c1a59228704b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ec-theme-c_kGlfBR.css",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459231,
+          "persistentId": "",
+          "filename": "ec-theme-c_kGlfBR.css",
+          "contentType": "text/css",
+          "friendlyType": "Cascading Style Sheet",
+          "filesize": 510182,
+          "storageIdentifier": "surf://store:19362d1aa82-34ced20b98b5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0ddd65be87ce6d21d3bd034d126156d1aa5f9147"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "employment-by-nace-sector__employment-a.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459259,
+          "persistentId": "",
+          "filename": "employment-by-nace-sector__employment-a.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1200419,
+          "storageIdentifier": "surf://store:19362d1aab0-419e01a40c84",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f4fda0fb23fdd16d0d4f8e34f973d4e45ce9577c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "employment-by-nace-sector__employment-b-e.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459257,
+          "persistentId": "",
+          "filename": "employment-by-nace-sector__employment-b-e.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1237577,
+          "storageIdentifier": "surf://store:19362d1aabd-86f63f12f1b0",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "982853416ac62b3aeef83cc3e46a3c337acd961e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "employment-by-nace-sector__employment-f.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459261,
+          "persistentId": "",
+          "filename": "employment-by-nace-sector__employment-f.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1202175,
+          "storageIdentifier": "surf://store:19362d1aacb-bc28cb4c78fe",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2ac6bdb565c4e03f85aec51b726502af2ddaf9c4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "employment-by-nace-sector__employment-g-j.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459265,
+          "persistentId": "",
+          "filename": "employment-by-nace-sector__employment-g-j.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1239763,
+          "storageIdentifier": "surf://store:19362d1aad9-bf5f5388f5e2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ca487068ddc544873bfea9261901563b2176331e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "employment-by-nace-sector__employment-k-n.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459149,
+          "persistentId": "",
+          "filename": "employment-by-nace-sector__employment-k-n.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1233884,
+          "storageIdentifier": "surf://store:19362d1aae6-3a3f827e88f4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f2a157d2c2dfdc3d901f6342868a1126b5dabf09"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "employment-by-nace-sector__employment-o-u.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459250,
+          "persistentId": "",
+          "filename": "employment-by-nace-sector__employment-o-u.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1241662,
+          "storageIdentifier": "surf://store:19362d1aaf3-0cb20c133715",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ccc094e81cbbe675ca632f802adb1da7e6d44756"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "empl_uknace.xlsx",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459234,
+          "persistentId": "",
+          "filename": "empl_uknace.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 3161930,
+          "storageIdentifier": "surf://store:19362d1aa8c-1e78f72a55c1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "24e476d3e25f76b168ce71bb22effd8eafed97a3"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "empl_uktot.xlsx",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459177,
+          "persistentId": "",
+          "filename": "empl_uktot.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 557655,
+          "storageIdentifier": "surf://store:19362d1aaa7-0851b18fde8b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5a12ebeaad7d6cc8e6d58092e71ef1891069e330"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ert_bil_eur_a_page_tabular.tsv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_eurostat/_exrate",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459219,
+          "persistentId": "",
+          "filename": "ert_bil_eur_a_page_tabular.tsv",
+          "contentType": "text/tsv",
+          "friendlyType": "Tab-Separated Values",
+          "filesize": 37944,
+          "storageIdentifier": "surf://store:19362d1ab01-1cf3eef5761a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "20c7b56d9aabd70a22b873fc0c27abeaaa72bbe6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ert_bil_eur_a_page_tabular.tsv.gz",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_eurostat/_exrate",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459269,
+          "persistentId": "",
+          "filename": "ert_bil_eur_a_page_tabular.tsv.gz",
+          "contentType": "application/gzip",
+          "friendlyType": "Gzip Archive",
+          "filesize": 14855,
+          "storageIdentifier": "surf://store:19362d1ab06-a70a712f885e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "80b31d450e88e5b1f81885dc193b5851c385794c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "euklems_gfcf.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459146,
+          "persistentId": "",
+          "filename": "euklems_gfcf.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2792,
+          "storageIdentifier": "surf://store:19362d1ab0b-f6678918c9bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "32ada89659ac6fc94146aad167e80413e5af1127"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "euklems_icts_chain.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459262,
+          "persistentId": "",
+          "filename": "euklems_icts_chain.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3693,
+          "storageIdentifier": "surf://store:19362d1ab10-c79e9e6c85fa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9f4bd9b3958ee41ce9a38470098039c29fbdc1a9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "euklems_ictsdb.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459175,
+          "persistentId": "",
+          "filename": "euklems_ictsdb.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2626,
+          "storageIdentifier": "surf://store:19362d1ab16-b70b0840a268",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "955ee90349ba5bc3dd1409ce2f11cd3f0c6cfafb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "EUKLEMSINTANProd_2021_Methods-and-data-description-Rev1.pdf",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_euklems",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459121,
+          "persistentId": "",
+          "filename": "EUKLEMSINTANProd_2021_Methods-and-data-description-Rev1.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 526198,
+          "storageIdentifier": "surf://store:19362d19fe2-e83317553bdb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9ed38776c7b949a85c9ebc745f189266b1c5d77a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eurostat_exrate.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459178,
+          "persistentId": "",
+          "filename": "eurostat_exrate.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1048,
+          "storageIdentifier": "surf://store:19362d1ab1b-572095380afb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a4e657b883671922ae980904259f06f2407f04be"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eurostat_hrsto.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459248,
+          "persistentId": "",
+          "filename": "eurostat_hrsto.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 936,
+          "storageIdentifier": "surf://store:19362d1ab20-e3dd182a6113",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4e50e86c544d185b794c9314cdcc9c1bb8369787"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eurostat_htecemp.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459152,
+          "persistentId": "",
+          "filename": "eurostat_htecemp.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 614,
+          "storageIdentifier": "surf://store:19362d1ab25-caa2b43abbf3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4f926a3e7284d79ba6dd1292b827ac8f096276a0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eurostat_isco.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459184,
+          "persistentId": "",
+          "filename": "eurostat_isco.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 6239,
+          "storageIdentifier": "surf://store:19362d1ab2a-95757cee7763",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b6bd36d68658eea51964bca89c9971f91e42eb3b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eurostat_pat.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459217,
+          "persistentId": "",
+          "filename": "eurostat_pat.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1081,
+          "storageIdentifier": "surf://store:19362d1ab2f-e40afe40c678",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e7bec1ab42ccf4a282f764d09e02ce3052df3c25"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "eurostat_price.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459215,
+          "persistentId": "",
+          "filename": "eurostat_price.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 672,
+          "storageIdentifier": "surf://store:19362d1ab34-a8ea8ae5b1e9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "cdbd25fbcaf73bc58e194bb28ee7417d00494be9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "exclude",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/info",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459160,
+          "persistentId": "",
+          "filename": "exclude",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 240,
+          "storageIdentifier": "surf://store:19362d1ab38-f79d12bf2acb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c879df015d97615050afa7b9641e3352a1e701ac"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "files-pane.pper",
+        "restricted": true,
+        "directoryLabel": "summeR/.Rproj.user/3A434215/pcs",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459156,
+          "persistentId": "",
+          "filename": "files-pane.pper",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 143,
+          "storageIdentifier": "surf://store:19362d1ab3c-e7b474ad0381",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8a5ad2f3e98772ec02ac7c10561a819fad2038db"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "fsmonitor-watchman.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459198,
+          "persistentId": "",
+          "filename": "fsmonitor-watchman.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4655,
+          "storageIdentifier": "surf://store:19362d1ab3f-2ecc39a932dd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "118ff5509f187039734d04456bf01e44c933ac19"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gdp-at-constant-prices__gdp-at-constant-prices.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gdp",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459251,
+          "persistentId": "",
+          "filename": "gdp-at-constant-prices__gdp-at-constant-prices.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 815476,
+          "storageIdentifier": "surf://store:19362d1ab44-d279595b3261",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "95e262a29b26a383137e767bca6023f558345c36"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "get_coef_df.R",
+        "restricted": true,
+        "directoryLabel": "_function",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459225,
+          "persistentId": "",
+          "filename": "get_coef_df.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 706,
+          "storageIdentifier": "surf://store:19362d1ab4f-82a0d68ed5ad",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f84ff6a6e057b67f7ff4982adcd66aeeb388777b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gross-fixed-capital-formation-at-constant-prices__gfcf-at-constant-prices-eur2015.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gfcf",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459129,
+          "persistentId": "",
+          "filename": "gross-fixed-capital-formation-at-constant-prices__gfcf-at-constant-prices-eur2015.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1120974,
+          "storageIdentifier": "surf://store:19362d1ab54-1c15697ba762",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7550d61b35b2f0744e4bcb109facdbe5bc389b80"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-a.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gfcf",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459268,
+          "persistentId": "",
+          "filename": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-a.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1128611,
+          "storageIdentifier": "surf://store:19362d1ab61-6bed050303e6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "997091f3d49db337fb0772d9c480daa6c1ca5fca"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-b-e.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gfcf",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459135,
+          "persistentId": "",
+          "filename": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-b-e.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1171938,
+          "storageIdentifier": "surf://store:19362d1ab6e-a8f7d6e21be4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "42619cdb65e190210a1452c4761238f80d295a7d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-f.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gfcf",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459137,
+          "persistentId": "",
+          "filename": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-f.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1131434,
+          "storageIdentifier": "surf://store:19362d1ab7c-868636917d66",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a991edc67c2daf4fb569944210437877588ed1ea"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-g-j.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gfcf",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459185,
+          "persistentId": "",
+          "filename": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-g-j.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1167815,
+          "storageIdentifier": "surf://store:19362d1ab8a-07ef8d79d8c8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1f2be2571824ee964c59a64c2e505b3c86ed7727"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-k-n.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gfcf",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459181,
+          "persistentId": "",
+          "filename": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-k-n.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1172890,
+          "storageIdentifier": "surf://store:19362d1ab98-4bd73bd6dcb3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dff48f8ab52c780323b141ecf3d84232dd253afa"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-o-u.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gfcf",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459174,
+          "persistentId": "",
+          "filename": "gross-fixed-capital-formation-by-nace-sector-at-constant-prices__gfcf-at-constant-prices-o-u.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1188623,
+          "storageIdentifier": "surf://store:19362d1aba6-2bc78c03afb3",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "08dbe05b914e9102f837b1c4188bda3faab4d675"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gva-at-constant-prices__gva-at-constant-prices.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gva",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459243,
+          "persistentId": "",
+          "filename": "gva-at-constant-prices__gva-at-constant-prices.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 4858917,
+          "storageIdentifier": "surf://store:19362d1abb5-caed942ea2fc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "44dce8c041fc86eafd9f7b9e904e98fafae4f3b4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-a.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gva",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459139,
+          "persistentId": "",
+          "filename": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-a.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 4911068,
+          "storageIdentifier": "surf://store:19362d1abdd-0aa18dbac1f9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bc6ecb28d0455948326b0c6e18631b1b80f932b4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-b-e.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gva",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459157,
+          "persistentId": "",
+          "filename": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-b-e.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5096565,
+          "storageIdentifier": "surf://store:19362d1ac04-59e4abe6f812",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "874706e7fe3edca8c20f87c827023a79c8596bd1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-f.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gva",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459158,
+          "persistentId": "",
+          "filename": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-f.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 4951497,
+          "storageIdentifier": "surf://store:19362d1ac2b-1dbdfee4ef02",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ab903fa5e993b4fb07821dd747ee37c342c96d57"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-g-j.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gva",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459239,
+          "persistentId": "",
+          "filename": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-g-j.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5100932,
+          "storageIdentifier": "surf://store:19362d1ac50-052d202e10b1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8c3372a4d7368d5573f317bc712ee7aaa5a1a631"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-k-n.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gva",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459258,
+          "persistentId": "",
+          "filename": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-k-n.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5099587,
+          "storageIdentifier": "surf://store:19362d1ac77-66abc9962458",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ce9f96141894b88691dd795990f594ad99cd2e8d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-o-u.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gva",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459224,
+          "persistentId": "",
+          "filename": "gva-by-nace-sector-at-constant-prices__gva-at-constant-prices-sector-o-u.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 5107232,
+          "storageIdentifier": "surf://store:19362d1ac9d-b8ffe85802e7",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9c8e803b16b94973ad47d91b7b0f3ddfae8c605c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gva_ct.xlsx",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gva",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459233,
+          "persistentId": "",
+          "filename": "gva_ct.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 703590,
+          "storageIdentifier": "surf://store:19362d1acc5-6b74d18a7229",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "936bba5c51a679323e9043adbb96c3d2f76593ec"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "gva_nace_ct.xlsx",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gva",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459163,
+          "persistentId": "",
+          "filename": "gva_nace_ct.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 3410833,
+          "storageIdentifier": "surf://store:19362d1acce-3e6180e1f730",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f6af96468a17bb58c974b77a78727888342b0f53"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "HEAD1",
+        "restricted": true,
+        "directoryLabel": "summeR/.git",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459128,
+          "persistentId": "",
+          "filename": "HEAD1",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 23,
+          "storageIdentifier": "surf://store:19362d19fe9-8025cbb5e60a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "acbaef275e46a7f14c1ef456fff2c8bbe8c84724"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "HEAD2",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/refs/remotes/origin",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459125,
+          "persistentId": "",
+          "filename": "HEAD2",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 32,
+          "storageIdentifier": "surf://store:19362d19fec-d41119c9389e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d9427cda09aba1cdde5c69c2b13c905bddb0bc51"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "HEAD3",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/logs",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459189,
+          "persistentId": "",
+          "filename": "HEAD3",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 227,
+          "storageIdentifier": "surf://store:19362d19fef-4971032544ee",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1ac39ba0830168a4b2d0dbce3aa447c29ba7decf"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "HEAD4",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/logs/refs/remotes/origin",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459249,
+          "persistentId": "",
+          "filename": "HEAD4",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 227,
+          "storageIdentifier": "surf://store:19362d19ff3-1dd7e2a2ea7b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1ac39ba0830168a4b2d0dbce3aa447c29ba7decf"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "hours-worked-by-nace-sector__hours-worked-a.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_hours",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459211,
+          "persistentId": "",
+          "filename": "hours-worked-by-nace-sector__hours-worked-a.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1056807,
+          "storageIdentifier": "surf://store:19362d1ace9-de010009aff4",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9016f27a45a187ffb50b408ee1c68efb1d0aba19"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "hours-worked-by-nace-sector__hours-worked-b-e.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_hours",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459142,
+          "persistentId": "",
+          "filename": "hours-worked-by-nace-sector__hours-worked-b-e.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1094658,
+          "storageIdentifier": "surf://store:19362d1acf5-4a2bc50e5e3e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "36c561dd067e103801866350465d3d2b28765c6e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "hours-worked-by-nace-sector__hours-worked-f.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_hours",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459204,
+          "persistentId": "",
+          "filename": "hours-worked-by-nace-sector__hours-worked-f.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1062076,
+          "storageIdentifier": "surf://store:19362d1ad01-fd35ad690a85",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "86d2725c39f9b85a23841ca6a048149ba9d39c50"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "hours-worked-by-nace-sector__hours-worked-g-j.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_hours",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459171,
+          "persistentId": "",
+          "filename": "hours-worked-by-nace-sector__hours-worked-g-j.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1092612,
+          "storageIdentifier": "surf://store:19362d1ad0e-1ac4b478588e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0ef4b157c3e2865e190cdf2bb3d9a3440e12e2a0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "hours-worked-by-nace-sector__hours-worked-k-n.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_hours",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459140,
+          "persistentId": "",
+          "filename": "hours-worked-by-nace-sector__hours-worked-k-n.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1088399,
+          "storageIdentifier": "surf://store:19362d1ad1c-a95b77bb4169",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "d424ec7e58d6362898759ad1d57435a845f5e5ee"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "hours-worked-by-nace-sector__hours-worked-o-u.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_hours",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459188,
+          "persistentId": "",
+          "filename": "hours-worked-by-nace-sector__hours-worked-o-u.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1114861,
+          "storageIdentifier": "surf://store:19362d1ad28-9fccf1d18f32",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b88ec64f14385fb031a4de04f7a9d467e6fa0397"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "htec_emp_reg__custom_1971226_linear.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_eurostat",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459132,
+          "persistentId": "",
+          "filename": "htec_emp_reg__custom_1971226_linear.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 17043,
+          "storageIdentifier": "surf://store:19362d1ad36-4084afc2526b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0e16137b2f0b3884c864900d8ee40b3eaaf26a80"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "IFR_robots_by_industry.hc",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ifr",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459193,
+          "persistentId": "",
+          "filename": "IFR_robots_by_industry.hc",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 262144000,
+          "storageIdentifier": "surf://store:19362d19ff6-777570735cab",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9a16dc5fd42db69e2398ca047a3b12ccc0ed134c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "ind_classif.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_oecd/_bcycles",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459244,
+          "persistentId": "",
+          "filename": "ind_classif.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 604,
+          "storageIdentifier": "surf://store:19362d1ad3c-178afd513526",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0ec41454198dd06091c61604abb9b618993cef29"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "index",
+        "restricted": true,
+        "directoryLabel": "summeR/.git",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459230,
+          "persistentId": "",
+          "filename": "index",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1049,
+          "storageIdentifier": "surf://store:19362d1ad41-f1e78bcaa25e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a62d67f999090662c1ad3624d66a483efe7f7c6a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "index-A67Gxijc.css",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459186,
+          "persistentId": "",
+          "filename": "index-A67Gxijc.css",
+          "contentType": "text/css",
+          "friendlyType": "Cascading Style Sheet",
+          "filesize": 65653,
+          "storageIdentifier": "surf://store:19362d1ad45-97f8fc71a094",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b2fa2d77d9a3c5d71974bc3a939a164da0ea520e"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "index-_tlpQ7zY.js.download",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459214,
+          "persistentId": "",
+          "filename": "index-_tlpQ7zY.js.download",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 434347,
+          "storageIdentifier": "surf://store:19362d1ad4b-346cae231b73",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "016ec962e8182e56999c0d454790d06fc5ae0acc"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "init.R",
+        "restricted": true,
+        "directoryLabel": "_script",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459218,
+          "persistentId": "",
+          "filename": "init.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 916,
+          "storageIdentifier": "surf://store:19362d1ad53-57d89c1a0e56",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "35068313dad81ceda3fc53acf04e0fd7522a0282"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "IOTS_2021_23082022121430782.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_oecd/_bcycles",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459151,
+          "persistentId": "",
+          "filename": "IOTS_2021_23082022121430782.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 15529850,
+          "storageIdentifier": "surf://store:19362d1a68c-eeb70d8d02cc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "db2b8b4788297747efd148015ed7dd4bbcdbd450"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "iv_emplbase.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459242,
+          "persistentId": "",
+          "filename": "iv_emplbase.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 1976,
+          "storageIdentifier": "surf://store:19362d1ad58-be3f57d1ad50",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "af4e4298d27a8f7134da5060d64b2f270b913ab9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "KmeansCriterion.R",
+        "restricted": true,
+        "directoryLabel": "_function",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459134,
+          "persistentId": "",
+          "filename": "KmeansCriterion.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 361,
+          "storageIdentifier": "surf://store:19362d1a6fd-a6eb5cbfa698",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c38f5b1220c34733bd125cba8a8bdd44f0c6145c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "labour accounts.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_euklems",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459159,
+          "persistentId": "",
+          "filename": "labour accounts.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 14066442,
+          "storageIdentifier": "surf://store:19362d1ad5e-94dffa1722c6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b3f151dd1cb85267903673e76264347b2a5f2183"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "load.js.download",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459118,
+          "persistentId": "",
+          "filename": "load.js.download",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 101422,
+          "storageIdentifier": "surf://store:19362d1adc2-25c386cbf084",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f6b537cb1bf42b9ff97aa589ec6e227bf00b13ac"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "loc_base.R",
+        "restricted": true,
+        "directoryLabel": "summeR/_script",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459241,
+          "persistentId": "",
+          "filename": "loc_base.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 248,
+          "storageIdentifier": "surf://store:19362d1adc9-01348e4ea42f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0233fd256b6826d89a0e59f7038838b67a823a8b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "main-gt6rjTAS.css",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459235,
+          "persistentId": "",
+          "filename": "main-gt6rjTAS.css",
+          "contentType": "text/css",
+          "friendlyType": "Cascading Style Sheet",
+          "filesize": 6554,
+          "storageIdentifier": "surf://store:19362d1add5-204627ccb317",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "05817e84bbb0c574b4cce95bd79bc464c83cda08"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "main-PXgfWA2Q.css",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459236,
+          "persistentId": "",
+          "filename": "main-PXgfWA2Q.css",
+          "contentType": "text/css",
+          "friendlyType": "Cascading Style Sheet",
+          "filesize": 34040,
+          "storageIdentifier": "surf://store:19362d1adcd-edbe857a1849",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c340b484b96e41689567fde76b01821ac2a1c79c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "master",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/refs/heads",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459123,
+          "persistentId": "",
+          "filename": "master",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 41,
+          "storageIdentifier": "surf://store:19362d1addb-1c35fcbb6bde",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b96fd2dc9e46de38ea362ddfde2e88057aeed397"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "master",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/logs/refs/heads",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459192,
+          "persistentId": "",
+          "filename": "master",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 227,
+          "storageIdentifier": "surf://store:19362d1addf-f202ff96b976",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1ac39ba0830168a4b2d0dbce3aa447c29ba7decf"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Metadata-ybrRNMEn.css",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459167,
+          "persistentId": "",
+          "filename": "Metadata-ybrRNMEn.css",
+          "contentType": "text/css",
+          "friendlyType": "Cascading Style Sheet",
+          "filesize": 913,
+          "storageIdentifier": "surf://store:19362d1a701-bd741083f45e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4d0315d610c718f6bfbf1cb2185cca28a0993243"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "national accounts.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_euklems",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459155,
+          "persistentId": "",
+          "filename": "national accounts.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 14954431,
+          "storageIdentifier": "surf://store:19362d1ade2-0381730d17f8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dded1c8d928fc0ec0efd88de354c2eac7174c2ef"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "oecd_cons.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459119,
+          "persistentId": "",
+          "filename": "oecd_cons.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3074,
+          "storageIdentifier": "surf://store:19362d1ae48-f12858f833e8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a34d7c7da35a71a15958e1391e69b15900261b4f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "oecd_trade.R",
+        "restricted": true,
+        "directoryLabel": "_script/_clean",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459143,
+          "persistentId": "",
+          "filename": "oecd_trade.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 2381,
+          "storageIdentifier": "surf://store:19362d1ae4d-51fe3cd83250",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9f7ca4588a78f1721019d22dbbbc723fdc27d0c8"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "pack-6c047896d094b2725328a4b7fe7c25003011f0b9.idx",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/objects/pack",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459210,
+          "persistentId": "",
+          "filename": "pack-6c047896d094b2725328a4b7fe7c25003011f0b9.idx",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2276,
+          "storageIdentifier": "surf://store:19362d1ae52-ef3dc07c4dde",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "703d4736a1725b6f90d9f073145ce991ffbbaf58"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "pack-6c047896d094b2725328a4b7fe7c25003011f0b9.pack",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/objects/pack",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459127,
+          "persistentId": "",
+          "filename": "pack-6c047896d094b2725328a4b7fe7c25003011f0b9.pack",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 7812,
+          "storageIdentifier": "surf://store:19362d1ae57-b82b79218aec",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1620bd8581eb0117f8a6cdeaae9011473167ed72"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "packages.R",
+        "restricted": true,
+        "directoryLabel": "summeR/_script",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459133,
+          "persistentId": "",
+          "filename": "packages.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 508,
+          "storageIdentifier": "surf://store:19362d1ae5b-88d54697ff04",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "33c31dc063dac53d0a4d282e1f921d3f3ba6c681"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "packed-refs",
+        "restricted": true,
+        "directoryLabel": "summeR/.git",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459131,
+          "persistentId": "",
+          "filename": "packed-refs",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 114,
+          "storageIdentifier": "surf://store:19362d1ae60-53074ea580d9",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fc448c0d4b9eaec5b1a7f2aa141863de8bb5fbec"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "post-update.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459213,
+          "persistentId": "",
+          "filename": "post-update.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 189,
+          "storageIdentifier": "surf://store:19362d1ae63-3ff0afdc852d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b614c2f63da7dca9f1db2e7ade61ef30448fc96c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "prc_hicp_aind__custom_2558071_linear.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_eurostat",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459201,
+          "persistentId": "",
+          "filename": "prc_hicp_aind__custom_2558071_linear.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 79833,
+          "storageIdentifier": "surf://store:19362d1ae67-05dda9899385",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "83a272d1a05556e560a394e9f5f67880837bf9e9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "pre-applypatch.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459203,
+          "persistentId": "",
+          "filename": "pre-applypatch.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 424,
+          "storageIdentifier": "surf://store:19362d1ae6d-38568df3e1bb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f208287c1a92525de9f5462e905a9d31de1e2d75"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "pre-commit.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459190,
+          "persistentId": "",
+          "filename": "pre-commit.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1643,
+          "storageIdentifier": "surf://store:19362d1ae70-9695c8e03a16",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a79d057388ee2c2fe6561d7697f1f5efcff96f23"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "pre-merge-commit.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459154,
+          "persistentId": "",
+          "filename": "pre-merge-commit.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 416,
+          "storageIdentifier": "surf://store:19362d1ae76-71b385eae664",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "04c64e58bc25c149482ed45dbd79e40effb89eb7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "prepare-commit-msg.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459202,
+          "persistentId": "",
+          "filename": "prepare-commit-msg.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1492,
+          "storageIdentifier": "surf://store:19362d1ae89-224cec509ca2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "2584806ba147152ae005cb675aa4f01d5d068456"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "pre-push.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459196,
+          "persistentId": "",
+          "filename": "pre-push.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 1374,
+          "storageIdentifier": "surf://store:19362d1ae7a-22a9bfbd769c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a599b773b930ca83dbc3a5c7c13059ac4a6eaedc"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "pre-rebase.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459256,
+          "persistentId": "",
+          "filename": "pre-rebase.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 4898,
+          "storageIdentifier": "surf://store:19362d1ae7f-02af91205ba5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "288efdc0027db4cfd8b7c47c4aeddba09b6ded12"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "pre-receive.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459164,
+          "persistentId": "",
+          "filename": "pre-receive.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 544,
+          "storageIdentifier": "surf://store:19362d1ae85-76b789c79acc",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "705a17d259e7896f0082fe2e9f2c0c3b127be5ac"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "pseudoR2.R",
+        "restricted": true,
+        "directoryLabel": "summeR/_function",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459166,
+          "persistentId": "",
+          "filename": "pseudoR2.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 355,
+          "storageIdentifier": "surf://store:19362d1ae8f-ba2df613a11b",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e6461be3d53ea8f5346a62f7bdbdacd5fa52c0a9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "push-to-checkout.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459207,
+          "persistentId": "",
+          "filename": "push-to-checkout.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 2783,
+          "storageIdentifier": "surf://store:19362d1ae93-4b4d83541d5c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "508240328c8b55f8157c93c43bf5e291e5d2fbcb"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README1.md",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_population",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459246,
+          "persistentId": "",
+          "filename": "README1.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 1024,
+          "storageIdentifier": "surf://store:19362d1a707-54db79a60d73",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b9f2476de9e80bd0236408cebe87c9516a59ad47"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README2.md",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_hours",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459173,
+          "persistentId": "",
+          "filename": "README2.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 694,
+          "storageIdentifier": "surf://store:19362d1a70d-6ec7d7fd99a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "b105c55f1e5b0ad1d83b0b8e425ec32bad89841a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README3.md",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gva",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459168,
+          "persistentId": "",
+          "filename": "README3.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 949,
+          "storageIdentifier": "surf://store:19362d1a712-a125a7a324bb",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "45ee749760daffc01c6f0bbb328a5857da477792"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README4.md",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_gfcf",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459141,
+          "persistentId": "",
+          "filename": "README4.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 2499,
+          "storageIdentifier": "surf://store:19362d1a718-220f7eda94ce",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ccc726f49ff0a5382f9ccb3adc17f2f13671faf7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README5.md",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459161,
+          "persistentId": "",
+          "filename": "README5.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 1531,
+          "storageIdentifier": "surf://store:19362d1a71f-714888361273",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0e85cd2b58c6acf0f14818989e7e07cbedad38e7"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README6.md",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_compensation",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459229,
+          "persistentId": "",
+          "filename": "README6.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 1034,
+          "storageIdentifier": "surf://store:19362d1a725-08835b0f34a5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a2babddf4bc5eff3fa57823f3738229e9a7c4e4a"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README7.md",
+        "restricted": true,
+        "directoryLabel": "summeR/_script",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459130,
+          "persistentId": "",
+          "filename": "README7.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 190,
+          "storageIdentifier": "surf://store:19362d1a72b-d991df61ca15",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3b0c7d1d009f45ecf370458a3f36361a924ab925"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README8.md",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459124,
+          "persistentId": "",
+          "filename": "README8.md",
+          "contentType": "text/markdown",
+          "friendlyType": "Markdown Text",
+          "filesize": 925,
+          "storageIdentifier": "surf://store:19362d1a72f-72c45c91b836",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e5124e2588d3da0ddf1b399a3741d45c6e5adf19"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "README_chapter4.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459153,
+          "persistentId": "",
+          "filename": "README_chapter4.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1615,
+          "storageIdentifier": "surf://store:19362d1a735-868c484afc37",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "88b1c163f74e4ffbeb0a51ffef0db0f70457b995"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "remove_rownames.R",
+        "restricted": true,
+        "directoryLabel": "_function",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459176,
+          "persistentId": "",
+          "filename": "remove_rownames.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 103,
+          "storageIdentifier": "surf://store:19362d1ae98-42ba4926ad7f",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "818395c00baf75b898db7f504d2981204573c1d0"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "rmd-outputs",
+        "restricted": true,
+        "directoryLabel": "summeR/.Rproj.user/3A434215",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459240,
+          "persistentId": "",
+          "filename": "rmd-outputs",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 5,
+          "storageIdentifier": "surf://store:19362d1ae9b-68ae87ec9173",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "31789ace8fdb0fae2976e8303b614c51d0a139a9"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "roigz_-_gfcf_by_sector_at_constant_prices.xlsx",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459260,
+          "persistentId": "",
+          "filename": "roigz_-_gfcf_by_sector_at_constant_prices.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 793069,
+          "storageIdentifier": "surf://store:19362d1ae9e-d381ebd46501",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "8014bdfc9e8871dcdb10c1607b1ac4e487ccb211"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "saved_source_markers",
+        "restricted": true,
+        "directoryLabel": "summeR/.Rproj.user/3A434215",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459172,
+          "persistentId": "",
+          "filename": "saved_source_markers",
+          "contentType": "text/plain; charset=US-ASCII",
+          "friendlyType": "Plain Text",
+          "filesize": 27,
+          "storageIdentifier": "surf://store:19362d1aea9-d7a443eebcc1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a73e7508f8e59dac6ded601f53dddefa528b603f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "source-pane.pper",
+        "restricted": true,
+        "directoryLabel": "summeR/.Rproj.user/3A434215/pcs",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459145,
+          "persistentId": "",
+          "filename": "source-pane.pper",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 23,
+          "storageIdentifier": "surf://store:19362d1aeac-cb80935b7db2",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "08d47d20053b5caf2e6a382968783806bb8ecec4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Statistical_Capital.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_euklems/_deprecated",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459209,
+          "persistentId": "",
+          "filename": "Statistical_Capital.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 16916972,
+          "storageIdentifier": "surf://store:19362d1a73b-3094a9a57da1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0fc5304231b39d522b73b19d2e005e6b7d38e10c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "tab2kable.R",
+        "restricted": true,
+        "directoryLabel": "summeR/_function",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459162,
+          "persistentId": "",
+          "filename": "tab2kable.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 3418,
+          "storageIdentifier": "surf://store:19362d1aeaf-e18023e02fb5",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "fa793ba42ff47d216adecd09c7bbb419f1e3c739"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "tabular.R",
+        "restricted": true,
+        "directoryLabel": "_function",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459266,
+          "persistentId": "",
+          "filename": "tabular.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 5509,
+          "storageIdentifier": "surf://store:19362d1aeb4-c481b502a460",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "0b02f74a675cc39f140ba66eaff5b63411f22774"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "tabular.R",
+        "restricted": true,
+        "directoryLabel": "summeR/_function",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459165,
+          "persistentId": "",
+          "filename": "tabular.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 4040,
+          "storageIdentifier": "surf://store:19362d1aeba-202bf9b32056",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3dc5cda38f80d9f7209d93c618059f5141728509"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "TIVA_2021_C1_23082022103223794.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_oecd/_trade",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459208,
+          "persistentId": "",
+          "filename": "TIVA_2021_C1_23082022103223794.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 52032211,
+          "storageIdentifier": "surf://store:19362d1a7b1-dc7fe2c88715",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "1628b30662076f3478a537f415af599ed788e5e6"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "tiva_2021_c1_isic2D.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_oecd/_trade",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459237,
+          "persistentId": "",
+          "filename": "tiva_2021_c1_isic2D.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1034716,
+          "storageIdentifier": "surf://store:19362d1af48-b871b5dab4f1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "c34bb61120119daf5aea7fe25cebc18b68667e75"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "tiva2021_fullind.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_oecd/_trade",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459199,
+          "persistentId": "",
+          "filename": "tiva2021_fullind.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 20903199,
+          "storageIdentifier": "surf://store:19362d1aebf-ef57db3e7031",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "6e9f11b3b67a42b1879e56497ef72cfa32da1f0c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "total-employment__total-employment.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_employment",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459238,
+          "persistentId": "",
+          "filename": "total-employment__total-employment.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 4700997,
+          "storageIdentifier": "surf://store:19362d1af55-65c85327ddc6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a4f37ec005263a8fd8064dea16f2806433010a95"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "total-hours-worked__total-hours-worked.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_hours",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459144,
+          "persistentId": "",
+          "filename": "total-hours-worked__total-hours-worked.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1064788,
+          "storageIdentifier": "surf://store:19362d1af78-1434322ee061",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "032add139d9486334f35f4a449b75b3a04a81395"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "total-population-on-1-january-demographic-statistics__total-population.csv",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_population",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459264,
+          "persistentId": "",
+          "filename": "total-population-on-1-january-demographic-statistics__total-population.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 1014886,
+          "storageIdentifier": "surf://store:19362d1af85-d575d4d30919",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "dc34347578aeeb84dfec3b6129be7466fd4ef533"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "update.sample",
+        "restricted": true,
+        "directoryLabel": "summeR/.git/hooks",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459136,
+          "persistentId": "",
+          "filename": "update.sample",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 3650,
+          "storageIdentifier": "surf://store:19362d1af92-131ae0e1f44d",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "730e6bd5225478bab6147b7a62a6e2ae21d40507"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Variable List.xlsx",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_euklems",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459252,
+          "persistentId": "",
+          "filename": "Variable List.xlsx",
+          "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+          "friendlyType": "MS Excel Spreadsheet",
+          "filesize": 16387,
+          "storageIdentifier": "surf://store:19362d1a908-567ceb86b335",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "a5cc27f07ada867e827c6120134403a33d6d8a04"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "vendor-9I-rx6nE.css",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459206,
+          "persistentId": "",
+          "filename": "vendor-9I-rx6nE.css",
+          "contentType": "text/css",
+          "friendlyType": "Cascading Style Sheet",
+          "filesize": 2306,
+          "storageIdentifier": "surf://store:19362d1af97-96b3717978e1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "40ed5d71a4f3087bf0fd655c4d2fae9e01ab86ef"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "webtools.cck.css",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459253,
+          "persistentId": "",
+          "filename": "webtools.cck.css",
+          "contentType": "text/css",
+          "friendlyType": "Cascading Style Sheet",
+          "filesize": 1477,
+          "storageIdentifier": "surf://store:19362d1af9d-1541d2b751aa",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "4ae00fa8385926d9c370569ced20f655c47fc8ac"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "webtools.cck.js.download",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459220,
+          "persistentId": "",
+          "filename": "webtools.cck.js.download",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 17991,
+          "storageIdentifier": "surf://store:19362d1afa2-1a89bf6cc33c",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "5764398afef02fd0a7d4aaf533aac8e07c259ae5"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "webtools.globan.css",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459254,
+          "persistentId": "",
+          "filename": "webtools.globan.css",
+          "contentType": "text/css",
+          "friendlyType": "Cascading Style Sheet",
+          "filesize": 5127,
+          "storageIdentifier": "surf://store:19362d1afa7-61c7e625b0e8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "f776249ebdf15395571a04c8513c4d723057144f"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "webtools.globan.js.download",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459179,
+          "persistentId": "",
+          "filename": "webtools.globan.js.download",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 26940,
+          "storageIdentifier": "surf://store:19362d1afac-3f5aedbb6a27",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "e69fa0eef243f6efeb82824e22c8cb015421754b"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "webtools.theme-ec.css",
+        "restricted": true,
+        "directoryLabel": "_data/_raw/_ardeco/_total_labour_force/Active Population - Total Labour Force_metadata_files",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459126,
+          "persistentId": "",
+          "filename": "webtools.theme-ec.css",
+          "contentType": "text/css",
+          "friendlyType": "Cascading Style Sheet",
+          "filesize": 32775,
+          "storageIdentifier": "surf://store:19362d1afb2-aca494f9d5a1",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7075acc40e49dc2f64d9aa34fae7812ff6dba2c4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "windowlayoutstate.pper",
+        "restricted": true,
+        "directoryLabel": "summeR/.Rproj.user/3A434215/pcs",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459191,
+          "persistentId": "",
+          "filename": "windowlayoutstate.pper",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 283,
+          "storageIdentifier": "surf://store:19362d1afb7-87203c7cfa6e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "9b58ff21f3f16068c00df68b41651ffa4e705eb4"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "workbench-pane.pper",
+        "restricted": true,
+        "directoryLabel": "summeR/.Rproj.user/3A434215/pcs",
+        "version": 1,
+        "datasetVersionId": 29933,
+        "dataFile": {
+          "id": 459270,
+          "persistentId": "",
+          "filename": "workbench-pane.pper",
+          "contentType": "application/octet-stream",
+          "friendlyType": "Unknown",
+          "filesize": 57,
+          "storageIdentifier": "surf://store:19362d1afbb-8bd9d9149084",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "3176118143ba581bd1db83d61204491cfeda186d"
+          },
+          "tabularData": false,
+          "creationDate": "2024-11-25",
+          "publicationDate": "2024-11-25",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Jaccoud, Florencia, 2024, \"Replication Data for Chapter 4 - Automation and Employment over the Technology Life Cycle: Evidence from European Regions\", https://doi.org/10.34894/SB0EWJ, DataverseNL, V1"
+  }
+}

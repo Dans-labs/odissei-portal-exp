@@ -1,0 +1,496 @@
+{
+  "id": 381689,
+  "identifier": "HYRN9H",
+  "persistentUrl": "https://doi.org/10.34894/HYRN9H",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2024-09-20",
+  "storageIdentifier": "surf://10.34894/HYRN9H",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 25343,
+    "datasetId": 381689,
+    "datasetPersistentId": "doi:10.34894/HYRN9H",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/HYRN9H",
+    "versionNumber": 1,
+    "internalVersionNumber": 42,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2024-09-20T12:16:21Z",
+    "releaseTime": "2024-09-20T12:16:21Z",
+    "createTime": "2023-09-14T10:11:35Z",
+    "publicationDate": "2024-09-20",
+    "citationDate": "2024-09-20",
+    "termsOfUse": "See <a href=\"https://assets-eu-01.kc-usercontent.com/546dd520-97db-01b7-154d-79bb6d950a2d/92fcc825-772f-4430-8ca3-6d42dac40974/Data_Access_License_UMC_Utrecht.pdf\">UMC Utrecht License</a>",
+    "confidentialityDeclaration": "no",
+    "specialPermissions": "no",
+    "restrictions": "no",
+    "citationRequirements": "We ask researchers to include an acknowledgment on behalf of the UMC Utrecht. If you use this dataset in a publication, please cite the dataset, and include the following in the citation: author; year; dataset title; dataset DOI; datase version; repository. Please also cite the original article 'Machine learning for (non-)epileptic tissue detection from the intraoperative electrocorticogram' by Hoogteijling et al. Clinical Neurophysiology 2024",
+    "disclaimer": "It is expressly understood that UMC Utrecht does not make any warranties regarding the data and specifically does not warrant or guarantee that the data will be accurate, be merchantable or useful for any particular purpose. Use of the data is at your own risk. UMC Utrecht cannot and shall not be held liable for any claims or damages by you or any third party, in connection with or as a result of the use of data by you. ",
+    "termsOfAccess": "By downloading or otherwise accessing the materials, the downloader represents his/her acceptance of the Terms of Use. ",
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Spectral ioECoG power dataset"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sem Hoogteijling"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-4455-6700"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Eline Schaft"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Evi Dirks"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sven Straumann"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-8163-9812"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Matteo Demuru"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stichitng Epilepsie Instellingen Nederland (SEIN); UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Pieter van Eijsden"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tineke Gebbink"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stichitng Epilepsie Instellingen Nederland (SEIN); UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Geertjan Huiskamp"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0001-6397-5559"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maryse van 't Klooster"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maeike Zijlmans"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stichitng Epilepsie Instellingen Nederland (SEIN); UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0003-1258-5678"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Sem Hoogteijling"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maeike Zijlmans"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Stichitng Epilepsie Instellingen Nederland (SEIN); UMC Utrecht, Brain division, Neurology and Neurosurgery"
+                }
+              },
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Data management"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "UMC Utrecht"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "This data set contains intraoperative electrocorticography (ioECoG) data from 91 patients collected during epilepsy surgery performed in the University Medical Center Utrecht, the Netherlands. It is made public as supplementary data to support the findings of the manuscript by <a href=\"https://doi.org/10.1016/j.clinph.2024.08.012\"> Hoogteijling et al. (2024) </a> entitled <i>'Machine learning for (non-)epileptic tissue detection from the intraoperative electrocorticogram'</i>, published in Clinical Neurophysiology. Please cite this article in any project using this data set. See also: <a href=\"https://github.com/UMCU-EpiLAB/umcuEpi_explainable_AI\">github.com/UMCU-EpiLAB/umcuEpi_explainable_AI</a>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Medicine, Health and Life Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Intracranial EEG"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Intraoperative electrocorticography"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Spectral band power"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Epilepsy surgery"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Hoogteijling et al. 2024. Machine learning for (non-)epileptic tissue detection from the intraoperative electrocorticogram. Clinical Neurophysiology"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1016/j.clinph.2024.08.012"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Hoogteijling, Sem"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2023-09-14"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/HYRN9H"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:ba95c2a1-4af2-41b1-9177-0c095ee9dc46"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-82c90c02-4e88-4371-98bd-caf78896a98d"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "README.txt",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25343,
+        "dataFile": {
+          "id": 425552,
+          "persistentId": "",
+          "filename": "README.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2546,
+          "storageIdentifier": "surf://store:19016db1550-7d70f6d110b8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "736d707a70ee4ccaf87eced0d6f06817ab9ea7cf"
+          },
+          "tabularData": false,
+          "creationDate": "2024-06-14",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Xy_test.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25343,
+        "dataFile": {
+          "id": 412077,
+          "persistentId": "",
+          "filename": "Xy_test.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3827731,
+          "storageIdentifier": "surf://store:18e75b39adb-0f505395770e",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "142b44d8e023767948c1d50040a73e4b6e96a28c"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-25",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Xy_train.csv",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 25343,
+        "dataFile": {
+          "id": 412076,
+          "persistentId": "",
+          "filename": "Xy_train.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 13531204,
+          "storageIdentifier": "surf://store:18e75b3a370-2ef9fe5b44d8",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bdba3aace41f8be7176fd4338bcb40c59d357bf1"
+          },
+          "tabularData": false,
+          "creationDate": "2024-03-25",
+          "publicationDate": "2024-09-20",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Sem Hoogteijling; Eline Schaft; Evi Dirks; Sven Straumann; Matteo Demuru; Pieter van Eijsden; Tineke Gebbink; Geertjan Huiskamp; Maryse van 't Klooster; Maeike Zijlmans, 2024, \"Spectral ioECoG power dataset\", https://doi.org/10.34894/HYRN9H, DataverseNL, V1"
+  }
+}

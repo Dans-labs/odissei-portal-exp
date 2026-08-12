@@ -1,0 +1,598 @@
+{
+  "id": 100101,
+  "identifier": "M4ECBL",
+  "persistentUrl": "https://doi.org/10.34894/M4ECBL",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2021-07-13",
+  "storageIdentifier": "surf://10.34894/M4ECBL",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 34237,
+    "datasetId": 100101,
+    "datasetPersistentId": "doi:10.34894/M4ECBL",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/M4ECBL",
+    "versionNumber": 1,
+    "internalVersionNumber": 5,
+    "versionMinorNumber": 1,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "lastUpdateTime": "2026-03-30T09:24:25Z",
+    "releaseTime": "2026-03-30T09:24:25Z",
+    "createTime": "2026-03-30T09:24:19Z",
+    "publicationDate": "2021-07-13",
+    "citationDate": "2021-07-13",
+    "versionNote": "Added Maastricht University as Depositor\n",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "\"Friends Are Thieves of Time\": Heuristic Attention Sharing in Stable Friendship Networks"
+          },
+          {
+            "typeName": "alternativeTitle",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Heuristics in network formation"
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tenev, Anastas"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-2950-569X"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "SBE Faculty Data Steward"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Maastricht University"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "These are the files necessary to reproduce all simulations in the paper. The main Matlab files contain extensive comments. All other Matlab files are variation on the main file or contain specific functions. \nThe Mathematica notebook transforms files in .g6 format into .mat files for Matlab for the part of the simulations which uses data on non-isomorphic networks up to n=12.\nThe remaining .mat file contains simulated networks for n=20."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Other"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Networks"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "network"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Heuristics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Bilateral communication links"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Social value"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "A13"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "C72"
+                }
+              },
+              {
+                "topicClassValue": {
+                  "typeName": "topicClassValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "D85"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Tenev, A. P. (2020). “Friends Are Thieves of Time\": Heuristic Attention Sharing in Stable Friendship Networks. Maastricht University, Graduate School of Business and Economics. GSBE Research Memoranda No. 026"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.26481/umagsb.2020026"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Maastricht University"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-06-17"
+          },
+          {
+            "typeName": "software",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Mathematica"
+                }
+              },
+              {
+                "softwareName": {
+                  "typeName": "softwareName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "MATLAB"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dataSources",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Simulations"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/M4ECBL"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1.1"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:b416f5c4-7ce0-4e84-87f3-d554bf7f5dae"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-3d66a8fc-7c66-4cf7-ab4f-1bf991d67cc5"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "20_extended.mat",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102739,
+          "persistentId": "",
+          "filename": "20_extended.mat",
+          "contentType": "application/matlab-mat",
+          "friendlyType": "MATLAB Data",
+          "filesize": 219393,
+          "storageIdentifier": "surf://store:17a63fc39c2-3745845d2922",
+          "rootDataFileId": -1,
+          "md5": "5eb0de65d9d9000751121425e5b6f1cc",
+          "checksum": {
+            "type": "MD5",
+            "value": "5eb0de65d9d9000751121425e5b6f1cc"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "add.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102736,
+          "persistentId": "",
+          "filename": "add.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 506,
+          "storageIdentifier": "surf://store:17a63fc1831-08c5727d19ef",
+          "rootDataFileId": -1,
+          "md5": "bc551b60d8b3c4d132ab215e88cd6b47",
+          "checksum": {
+            "type": "MD5",
+            "value": "bc551b60d8b3c4d132ab215e88cd6b47"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "check_stability_list.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102733,
+          "persistentId": "",
+          "filename": "check_stability_list.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 626,
+          "storageIdentifier": "surf://store:17a63fc18ab-363ccbbf1f80",
+          "rootDataFileId": -1,
+          "md5": "9edd910d8ac2b4e56cfbc7411d718ec7",
+          "checksum": {
+            "type": "MD5",
+            "value": "9edd910d8ac2b4e56cfbc7411d718ec7"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "connect.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102738,
+          "persistentId": "",
+          "filename": "connect.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2736,
+          "storageIdentifier": "surf://store:17a63fc191e-7bb59fccc747",
+          "rootDataFileId": -1,
+          "md5": "54bfd9a554d7c1bd988e5292dc5ab54c",
+          "checksum": {
+            "type": "MD5",
+            "value": "54bfd9a554d7c1bd988e5292dc5ab54c"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "irregular_and_different_regular_component.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102730,
+          "persistentId": "",
+          "filename": "irregular_and_different_regular_component.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3880,
+          "storageIdentifier": "surf://store:17a63fc198d-fb6c2d33aba4",
+          "rootDataFileId": -1,
+          "md5": "34699c62e0c6014ff8a21e32876b1997",
+          "checksum": {
+            "type": "MD5",
+            "value": "34699c62e0c6014ff8a21e32876b1997"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "main_count_degrees.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102737,
+          "persistentId": "",
+          "filename": "main_count_degrees.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 1724,
+          "storageIdentifier": "surf://store:17a63fc1a5d-24aad5e4d961",
+          "rootDataFileId": -1,
+          "md5": "2065e823d6c613a9d2aef1501926e8b1",
+          "checksum": {
+            "type": "MD5",
+            "value": "2065e823d6c613a9d2aef1501926e8b1"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "main.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102735,
+          "persistentId": "",
+          "filename": "main.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2288,
+          "storageIdentifier": "surf://store:17a63fc19f4-3477c559a04d",
+          "rootDataFileId": -1,
+          "md5": "02fda00a30c48b5e9ba04536e5143cd9",
+          "checksum": {
+            "type": "MD5",
+            "value": "02fda00a30c48b5e9ba04536e5143cd9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "sever.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102732,
+          "persistentId": "",
+          "filename": "sever.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 2047,
+          "storageIdentifier": "surf://store:17a63fc1b25-9fe900328f5b",
+          "rootDataFileId": -1,
+          "md5": "0afcb2e24a3b531e4dc90658c79e6dd0",
+          "checksum": {
+            "type": "MD5",
+            "value": "0afcb2e24a3b531e4dc90658c79e6dd0"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "splittextfiles.nb",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102734,
+          "persistentId": "",
+          "filename": "splittextfiles.nb",
+          "contentType": "application/vnd.wolfram.nb",
+          "friendlyType": "application/vnd.wolfram.nb",
+          "filesize": 6125,
+          "storageIdentifier": "surf://store:17a63fc1b96-4dff69273974",
+          "rootDataFileId": -1,
+          "md5": "0a1fbdbe3171ce00285746e88d7d2c88",
+          "checksum": {
+            "type": "MD5",
+            "value": "0a1fbdbe3171ce00285746e88d7d2c88"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "weight_2.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102729,
+          "persistentId": "",
+          "filename": "weight_2.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 799,
+          "storageIdentifier": "surf://store:17a63fc1c03-edd9cb9177db",
+          "rootDataFileId": -1,
+          "md5": "75d740cc5af5b3e73600a0333e965553",
+          "checksum": {
+            "type": "MD5",
+            "value": "75d740cc5af5b3e73600a0333e965553"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "welfare.m",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 34237,
+        "dataFile": {
+          "id": 102731,
+          "persistentId": "",
+          "filename": "welfare.m",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 509,
+          "storageIdentifier": "surf://store:17a63fc1c74-51dc84bcd399",
+          "rootDataFileId": -1,
+          "md5": "1e75dab92a6f6e4d2f7d6b064cf04b3e",
+          "checksum": {
+            "type": "MD5",
+            "value": "1e75dab92a6f6e4d2f7d6b064cf04b3e"
+          },
+          "tabularData": false,
+          "creationDate": "2021-07-01",
+          "publicationDate": "2021-07-13",
+          "lastUpdateTime": "2026-03-30T09:24:25Z",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Tenev, Anastas, 2021, \"\"Friends Are Thieves of Time\": Heuristic Attention Sharing in Stable Friendship Networks\", https://doi.org/10.34894/M4ECBL, DataverseNL, V1"
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "id": 185520,
+  "identifier": "dans-24r-225b",
+  "persistentUrl": "https://doi.org/10.17026/DANS-24R-225B",
+  "protocol": "doi",
+  "authority": "10.17026",
+  "separator": "/",
+  "publisher": "DANS Data Station Social Sciences and Humanities",
+  "publicationDate": "2017-03-15",
+  "storageIdentifier": "surf://10.17026/dans-24r-225b",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 33795,
+    "datasetId": 185520,
+    "datasetPersistentId": "doi:10.17026/DANS-24R-225B",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.17026/dans-24r-225b",
+    "versionNumber": 2,
+    "internalVersionNumber": 6,
+    "versionMinorNumber": 2,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "distributionDate": "2019-03-15",
+    "productionDate": "2017-03-15",
+    "UNF": "UNF:6:KuDSduqQk83bsBYJxOMDvw==",
+    "lastUpdateTime": "2026-07-20T00:24:05Z",
+    "releaseTime": "2026-07-20T00:24:05Z",
+    "createTime": "2026-07-20T00:23:54Z",
+    "publicationDate": "2017-03-15",
+    "citationDate": "2017-03-15",
+    "versionNote": "The Python package langdetect was used to semi-automatically identify the languages used in the metadata. Human curators verified and corrected the results. If you notice any inaccuracies, please contact DANS.",
+    "license": {
+      "name": "DANS Licence",
+      "uri": "https://doi.org/10.17026/fp39-0x58",
+      "iconUri": ""
+    },
+    "termsOfAccess": "N/a",
+    "fileAccessRequest": true,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Stem-Consult: Voting Advice Application data for the 2017 parliamentary election in the Netherlands"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "DANS-KNAW"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "easy-dataset:79842"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "K Gemenis"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Twente"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "S.C.J. Bruinsma"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Scuola Normale Superiore"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "C Djouvas"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cyprus University of Technology"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "V Manavopoulos"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Cyprus University of Technology"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "F Mendez"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Zurich"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "K.  Gemenis"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "University of Twente"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "<p>The data presented in the accompanying files were collected through the Voting Advice Application (VAA) Stem-Consult, which was designed for the 2017 election for the House of Representatives (Tweede Kamer) in the Netherlands which took place on March 15th, 2017. VAAs are contemporary technological solutions that aim to lower the cost of information that citizens face during elections. They do so primarily by comparing the positions of voters to the positions of candidates or political parties on a set of relevant policy issues and informing voters about how well their preferences match with those of the parties or candidates. The deposited datafiles contain the responses of those who visited the website and completed the online questionnaire, the estimates for the policy positions of the 14 largest political parties contesting the election, and the information that was used to estimate the positions of the political parties.</p>"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Social Sciences"
+            ]
+          },
+          {
+            "typeName": "language",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Dutch",
+              "English"
+            ]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2017-03-15"
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2019-03-15"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2018-03-29"
+          }
+        ]
+      },
+      "dansRights": {
+        "displayName": "Rights Metadata",
+        "name": "dansRights",
+        "fields": [
+          {
+            "typeName": "dansRightsHolder",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "Unknown"
+            ]
+          },
+          {
+            "typeName": "dansPersonalDataPresent",
+            "multiple": false,
+            "typeClass": "controlledVocabulary",
+            "value": "Unknown"
+          },
+          {
+            "typeName": "dansMetadataLanguage",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "English"
+            ]
+          }
+        ]
+      },
+      "dansRelationMetadata": {
+        "displayName": "Relation Metadata",
+        "name": "dansRelationMetadata",
+        "fields": [
+          {
+            "typeName": "dansAudience",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "https://www.narcis.nl/classification/D42100"
+            ],
+            "expandedvalue": [
+              {
+                "@id": "https://www.narcis.nl/classification/D42100",
+                "termName": [
+                  {
+                    "lang": "nl",
+                    "value": "Politicologie"
+                  },
+                  {
+                    "lang": "en",
+                    "value": "Political science"
+                  }
+                ],
+                "vocabularyUri": "https://www.narcis.nl/classification/"
+              }
+            ]
+          }
+        ]
+      },
+      "dansTemporalSpatial": {
+        "displayName": "Temporal and Spatial Coverage",
+        "name": "dansTemporalSpatial",
+        "fields": [
+          {
+            "typeName": "dansTemporalCoverage",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "begin:01-03-2017  end:15-03-2017"
+            ]
+          },
+          {
+            "typeName": "dansSpatialCoverageText",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": [
+              "The Netherlands"
+            ]
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.17026/DANS-24R-225B"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.2"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:edeed2f7-9009-4841-9e01-c5a67c0e0e72"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-u9-fran"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "Codebook.pdf",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33795,
+        "dataFile": {
+          "id": 185523,
+          "persistentId": "",
+          "filename": "Codebook.pdf",
+          "contentType": "application/pdf",
+          "friendlyType": "Adobe PDF",
+          "filesize": 1146776,
+          "description": "",
+          "storageIdentifier": "surf://store:186ec2b5b73-26db84b707bd",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "ba05a0d67f0627598e577f23094d6d292e9c29e3"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2017-03-15",
+          "lastUpdateTime": "2026-07-20T00:24:05Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "easy-migration.zip",
+        "restricted": false,
+        "version": 1,
+        "datasetVersionId": 33795,
+        "dataFile": {
+          "id": 185527,
+          "persistentId": "",
+          "filename": "easy-migration.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 19837,
+          "description": "",
+          "storageIdentifier": "surf://store:186ec2b9612-af0f2e36ce2a",
+          "rootDataFileId": 185521,
+          "previousDataFileId": 185521,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "43e00accb5f37c6c28a26f5f8e1dc4901ef0c394"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2017-03-15",
+          "lastUpdateTime": "2026-07-20T00:24:05Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Party_coding_codebook.tab",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33795,
+        "dataFile": {
+          "id": 185530,
+          "persistentId": "",
+          "filename": "Party_coding_codebook.tab",
+          "contentType": "text/tab-separated-values",
+          "friendlyType": "Tab-Delimited",
+          "filesize": 3680,
+          "description": "",
+          "storageIdentifier": "surf://store:186ec2b9b90-9308ea6cedeb",
+          "originalFileFormat": "text/csv",
+          "originalFormatLabel": "Comma Separated Values",
+          "originalFileSize": 3397,
+          "originalFileName": "Party_coding_codebook.csv",
+          "UNF": "UNF:6:PEPATAO9k7ZuG3KzECT13g==",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "256599709efd7a8f5c0f8f399514de04272660f9"
+          },
+          "tabularData": true,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2017-03-15",
+          "lastUpdateTime": "2026-07-20T00:24:05Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Party_coding.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33795,
+        "dataFile": {
+          "id": 185529,
+          "persistentId": "",
+          "filename": "Party_coding.csv",
+          "contentType": "text/comma-separated-values",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 2595988,
+          "description": "",
+          "storageIdentifier": "surf://store:186ec2b9a7a-08504288f4a6",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "bb632979108b386db204cad2b95549227bdf7484"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2017-03-15",
+          "lastUpdateTime": "2026-07-20T00:24:05Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "Party_data.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33795,
+        "dataFile": {
+          "id": 185528,
+          "persistentId": "",
+          "filename": "Party_data.csv",
+          "contentType": "text/comma-separated-values",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 152494,
+          "description": "",
+          "storageIdentifier": "surf://store:186ec2b997c-7d16b93d6b9a",
+          "rootDataFileId": -1,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "7a834482e38e6f065cfd6d17804bf6f5e1560b50"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2017-03-15",
+          "lastUpdateTime": "2026-07-20T00:24:05Z",
+          "fileAccessRequest": true
+        }
+      },
+      {
+        "description": "",
+        "label": "User_data.csv",
+        "restricted": true,
+        "version": 1,
+        "datasetVersionId": 33795,
+        "dataFile": {
+          "id": 185526,
+          "persistentId": "",
+          "filename": "User_data.csv",
+          "contentType": "text/csv",
+          "friendlyType": "Comma Separated Values",
+          "filesize": 3509631,
+          "description": "",
+          "storageIdentifier": "surf://store:186ec2b94d9-0b9d93ad39d8",
+          "rootDataFileId": 185522,
+          "previousDataFileId": 185522,
+          "checksum": {
+            "type": "SHA-1",
+            "value": "024c8a7015270fe01a71a76139a5e130faedb781"
+          },
+          "tabularData": false,
+          "creationDate": "2023-03-16",
+          "publicationDate": "2017-03-15",
+          "lastUpdateTime": "2026-07-20T00:24:05Z",
+          "fileAccessRequest": true
+        }
+      }
+    ],
+    "citation": "K Gemenis; S.C.J. Bruinsma; C Djouvas; V Manavopoulos; F Mendez, 2017, \"Stem-Consult: Voting Advice Application data for the 2017 parliamentary election in the Netherlands\", https://doi.org/10.17026/DANS-24R-225B, DANS Data Station Social Sciences and Humanities, V2, UNF:6:KuDSduqQk83bsBYJxOMDvw== [fileUNF]"
+  }
+}

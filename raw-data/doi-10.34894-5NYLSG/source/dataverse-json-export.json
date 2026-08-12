@@ -1,0 +1,517 @@
+{
+  "id": 110480,
+  "identifier": "5NYLSG",
+  "persistentUrl": "https://doi.org/10.34894/5NYLSG",
+  "protocol": "doi",
+  "authority": "10.34894",
+  "separator": "/",
+  "publisher": "DataverseNL",
+  "publicationDate": "2022-01-28",
+  "storageIdentifier": "surf://10.34894/5NYLSG",
+  "datasetType": "dataset",
+  "datasetVersion": {
+    "id": 24592,
+    "datasetId": 110480,
+    "datasetPersistentId": "doi:10.34894/5NYLSG",
+    "datasetType": "dataset",
+    "storageIdentifier": "surf://10.34894/5NYLSG",
+    "versionNumber": 2,
+    "internalVersionNumber": 4,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "latestVersionPublishingState": "RELEASED",
+    "deaccessionLink": "",
+    "lastUpdateTime": "2022-12-22T13:53:48Z",
+    "releaseTime": "2022-12-22T13:53:48Z",
+    "createTime": "2022-12-22T13:53:19Z",
+    "publicationDate": "2022-01-28",
+    "citationDate": "2022-01-28",
+    "license": {
+      "name": "CC0-1.0",
+      "uri": "http://creativecommons.org/publicdomain/zero/1.0",
+      "iconUri": "https://licensebuttons.net/p/zero/1.0/88x31.png",
+      "rightsIdentifier": "CC0-1.0",
+      "rightsIdentifierScheme": "SPDX",
+      "schemeUri": "https://spdx.org/licenses/",
+      "languageCode": "en"
+    },
+    "fileAccessRequest": false,
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "name": "citation",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Replication Data for: Solar park detection from publicly available satellite imagery"
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Plakman, Veerle"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Rosier, Job Fabian"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-6986-8604"
+                }
+              },
+              {
+                "authorName": {
+                  "typeName": "authorName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "van Vliet, Jasper"
+                },
+                "authorAffiliation": {
+                  "typeName": "authorAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                },
+                "authorIdentifierScheme": {
+                  "typeName": "authorIdentifierScheme",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "ORCID"
+                },
+                "authorIdentifier": {
+                  "typeName": "authorIdentifier",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "0000-0002-3996-5278"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "datasetContactName": {
+                  "typeName": "datasetContactName",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vliet, Jasper"
+                },
+                "datasetContactAffiliation": {
+                  "typeName": "datasetContactAffiliation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Vrije Universiteit Amsterdam"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "dsDescriptionValue": {
+                  "typeName": "dsDescriptionValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Detecting large-scale photovoltaic installations, or solar parks, is important to monitor their amount and allocation and assess their. However, existing databases are not complete, as the number of solar parks increase rapidly. Therefore, satellite imagery might offer a solution. While their spectral signature suggests that solar parks can be identified among other land uses, this detection is challenged by their low occurrence. Here, we develop an object-based random forest (RF) classification approach, using publicly available satellite imagery. First, we segmented Sentinel-2 imagery into homogenous objects using a Simple Non-Iterative Clustering algorithm. Subsequently, we calculated for each object the mean, standard deviation, and median for all 10- and 20-meter resolution bands of Sentinel-1 and Sentinel-2, as well as for the VIIRS night-light intensity. These features are subsequently used to train and validate a range of RF models to select the most promising model setup. The training datasets consisted of subsampled presence/absence data, oversampled presence/absence data, and multiple land use categories. The best-performing model used an oversampled dataset trained on all 10- and 20- meter resolution spectral bands and the radar backscatter properties of one period. Independent test results show an overall classification accuracy of 99.97% (Kappa: 0.90). For this result, the producer accuracy was 85.86% for solar park objects and of 99.999% for non-solar park objects. The user accuracy was 92.39% for solar park objects and of 99.999% for non-solar park objects. These high classification accuracies indicate that our approach is suitable for transfer learning and is able to detect solar parks in new study areas."
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "subject",
+            "multiple": true,
+            "typeClass": "controlledVocabulary",
+            "value": [
+              "Earth and Environmental Sciences"
+            ]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Solar photovoltaics"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Land cover"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Remote Sensing"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "publication",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "publicationCitation": {
+                  "typeName": "publicationCitation",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Plakman V, Rosier JF, and van Vliet J (2022) Solar park detection from publicly available satellite imagery. GISscience and Remote Sensing."
+                },
+                "publicationIDType": {
+                  "typeName": "publicationIDType",
+                  "multiple": false,
+                  "typeClass": "controlledVocabulary",
+                  "value": "doi"
+                },
+                "publicationIDNumber": {
+                  "typeName": "publicationIDNumber",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "10.1080/15481603.2022.2036056"
+                },
+                "publicationURL": {
+                  "typeName": "publicationURL",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "https://doi.org/10.1080/15481603.2022.2036056"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "depositor",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Vliet, J"
+          },
+          {
+            "typeName": "dateOfDeposit",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2021-08-18"
+          }
+        ]
+      },
+      "dansDataVaultMetadata": {
+        "displayName": "Data Vault Metadata",
+        "name": "dansDataVaultMetadata",
+        "fields": [
+          {
+            "typeName": "dansDataversePid",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "doi:10.34894/5NYLSG"
+          },
+          {
+            "typeName": "dansDataversePidVersion",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2.0"
+          },
+          {
+            "typeName": "dansBagId",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:uuid:3af3d766-8926-41f9-940a-dd9855fccb7b"
+          },
+          {
+            "typeName": "dansNbn",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "urn:nbn:nl:ui:13-9ae748ce-749d-4f31-b23f-b50deb7a35a5"
+          }
+        ]
+      }
+    },
+    "files": [
+      {
+        "label": "2.Segmented objects.zip",
+        "restricted": false,
+        "directoryLabel": "Detecting PV from space",
+        "version": 1,
+        "datasetVersionId": 24592,
+        "dataFile": {
+          "id": 190994,
+          "persistentId": "",
+          "filename": "2.Segmented objects.zip",
+          "contentType": "application/zipped-shapefile",
+          "friendlyType": "Shapefile as ZIP Archive",
+          "filesize": 15337899,
+          "storageIdentifier": "surf://store:17c2cdaf633-012eb00b0b0e",
+          "rootDataFileId": -1,
+          "md5": "e688547e1aa1482f74a00e1aed53e1a2",
+          "checksum": {
+            "type": "MD5",
+            "value": "e688547e1aa1482f74a00e1aed53e1a2"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-28",
+          "publicationDate": "2022-01-28",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "3.Data_augmentation.zip",
+        "restricted": false,
+        "directoryLabel": "Detecting PV from space",
+        "version": 1,
+        "datasetVersionId": 24592,
+        "dataFile": {
+          "id": 190996,
+          "persistentId": "",
+          "filename": "3.Data_augmentation.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 106400032,
+          "storageIdentifier": "surf://store:17c2cdaf82b-aef9f87064ab",
+          "rootDataFileId": -1,
+          "md5": "d3ce7fca406091a903b8ab16c079e1c5",
+          "checksum": {
+            "type": "MD5",
+            "value": "d3ce7fca406091a903b8ab16c079e1c5"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-28",
+          "publicationDate": "2022-01-28",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "4.Sampling.zip",
+        "restricted": false,
+        "directoryLabel": "Detecting PV from space",
+        "version": 1,
+        "datasetVersionId": 24592,
+        "dataFile": {
+          "id": 190991,
+          "persistentId": "",
+          "filename": "4.Sampling.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 167845085,
+          "storageIdentifier": "surf://store:17c2cdb0203-cf64f4931ef0",
+          "rootDataFileId": -1,
+          "md5": "c10fc18aa771de5f92023bd874d8c58a",
+          "checksum": {
+            "type": "MD5",
+            "value": "c10fc18aa771de5f92023bd874d8c58a"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-28",
+          "publicationDate": "2022-01-28",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "5.RFmodels.zip",
+        "restricted": false,
+        "directoryLabel": "Detecting PV from space",
+        "version": 1,
+        "datasetVersionId": 24592,
+        "dataFile": {
+          "id": 190993,
+          "persistentId": "",
+          "filename": "5.RFmodels.zip",
+          "contentType": "application/zip",
+          "friendlyType": "ZIP Archive",
+          "filesize": 386974586,
+          "storageIdentifier": "surf://store:17c2cdb179f-08e80b2295f1",
+          "rootDataFileId": -1,
+          "md5": "9ce71039d9fe0c382e767aafa2cf84b5",
+          "checksum": {
+            "type": "MD5",
+            "value": "9ce71039d9fe0c382e767aafa2cf84b5"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-28",
+          "publicationDate": "2022-01-28",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "6.Prediction_complete_area.zip",
+        "restricted": false,
+        "directoryLabel": "Detecting PV from space",
+        "version": 1,
+        "datasetVersionId": 24592,
+        "dataFile": {
+          "id": 190995,
+          "persistentId": "",
+          "filename": "6.Prediction_complete_area.zip",
+          "contentType": "application/zipped-shapefile",
+          "friendlyType": "Shapefile as ZIP Archive",
+          "filesize": 1024245660,
+          "storageIdentifier": "surf://store:17c2cdb5377-5d9fbbdeb50c",
+          "rootDataFileId": -1,
+          "md5": "f75d0f5d72fbf7444625eb859c9376f9",
+          "checksum": {
+            "type": "MD5",
+            "value": "f75d0f5d72fbf7444625eb859c9376f9"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-28",
+          "publicationDate": "2022-01-28",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "7.Filtered.zip",
+        "restricted": false,
+        "directoryLabel": "Detecting PV from space",
+        "version": 1,
+        "datasetVersionId": 24592,
+        "dataFile": {
+          "id": 190990,
+          "persistentId": "",
+          "filename": "7.Filtered.zip",
+          "contentType": "application/zipped-shapefile",
+          "friendlyType": "Shapefile as ZIP Archive",
+          "filesize": 22438251,
+          "storageIdentifier": "surf://store:17c2cdbc314-5dab70bf026e",
+          "rootDataFileId": -1,
+          "md5": "9fdb68c16a38b3c2cdf8e09361341171",
+          "checksum": {
+            "type": "MD5",
+            "value": "9fdb68c16a38b3c2cdf8e09361341171"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-28",
+          "publicationDate": "2022-01-28",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "description": "Link to GEE script has been updated",
+        "label": "READ ME-2.txt",
+        "restricted": false,
+        "directoryLabel": "Detecting PV from space",
+        "version": 1,
+        "datasetVersionId": 24592,
+        "dataFile": {
+          "id": 327319,
+          "persistentId": "",
+          "filename": "READ ME-2.txt",
+          "contentType": "text/plain",
+          "friendlyType": "Plain Text",
+          "filesize": 3399,
+          "description": "Link to GEE script has been updated",
+          "storageIdentifier": "surf://store:1853a1bd99d-c4b432c9ef85",
+          "rootDataFileId": 190997,
+          "previousDataFileId": 190997,
+          "md5": "9b561960893ab79b01912285f2461209",
+          "checksum": {
+            "type": "MD5",
+            "value": "9b561960893ab79b01912285f2461209"
+          },
+          "tabularData": false,
+          "creationDate": "2022-12-22",
+          "publicationDate": "2022-12-22",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Sampling&RFmodels-1.R",
+        "restricted": false,
+        "directoryLabel": "Detecting PV from space",
+        "version": 1,
+        "datasetVersionId": 24592,
+        "dataFile": {
+          "id": 190992,
+          "persistentId": "",
+          "filename": "Sampling&RFmodels-1.R",
+          "contentType": "type/x-r-syntax",
+          "friendlyType": "R Syntax",
+          "filesize": 52881,
+          "storageIdentifier": "surf://store:17c2cdbc504-bac0ff53fdd1",
+          "rootDataFileId": -1,
+          "md5": "7f77077d92c66da8d8e6dda0b10a3639",
+          "checksum": {
+            "type": "MD5",
+            "value": "7f77077d92c66da8d8e6dda0b10a3639"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-28",
+          "publicationDate": "2022-01-28",
+          "fileAccessRequest": false
+        }
+      },
+      {
+        "label": "Script data augmentation-1.py",
+        "restricted": false,
+        "directoryLabel": "Detecting PV from space",
+        "version": 1,
+        "datasetVersionId": 24592,
+        "dataFile": {
+          "id": 190998,
+          "persistentId": "",
+          "filename": "Script data augmentation-1.py",
+          "contentType": "text/x-python",
+          "friendlyType": "Python Source Code",
+          "filesize": 4480,
+          "storageIdentifier": "surf://store:17c2cdbc509-b2f13819617f",
+          "rootDataFileId": -1,
+          "md5": "00d1ee29121845f8939ad5c7e33d61da",
+          "checksum": {
+            "type": "MD5",
+            "value": "00d1ee29121845f8939ad5c7e33d61da"
+          },
+          "tabularData": false,
+          "creationDate": "2021-09-28",
+          "publicationDate": "2022-01-28",
+          "fileAccessRequest": false
+        }
+      }
+    ],
+    "citation": "Plakman, Veerle; Rosier, Job Fabian; van Vliet, Jasper, 2022, \"Replication Data for: Solar park detection from publicly available satellite imagery\", https://doi.org/10.34894/5NYLSG, DataverseNL, V2"
+  }
+}
