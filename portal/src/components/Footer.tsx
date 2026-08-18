@@ -1,8 +1,8 @@
-import cbs from "#/assets/cbs-brand.jpg";
+import cbs from "#/assets/cbs-brand.png";
 import cd2 from "#/assets/cd2-logo.png";
-import dans from "#/assets/DANS_Logo_RGB-medium.jpg";
-import dataverse from "#/assets/DataverseNL-logo-1.png";
-import hsn from "#/assets/HSN.png";
+import dans from "#/assets/DANS_Logo_RGB.svg";
+import dataverse from "#/assets/dataverse2.png";
+import hsn from "#/assets/hsn.png";
 import liss from "#/assets/LISS-Panel-Logo-RGB_V2_LISS-geel-panel-byCenterdata.png";
 import { m } from "#/paraglide/messages";
 import { cn } from "#/utils/cn";

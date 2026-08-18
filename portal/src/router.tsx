@@ -2,6 +2,7 @@ import { createRouteMask, createRouter as createTanStackRouter } from "@tanstack
 import { routeTree } from "./routeTree.gen";
 import { setupRouterSsrQueryIntegration } from "@tanstack/react-router-ssr-query";
 import { getContext } from "./integrations/tanstack-query/root-provider";
+import Error from "./components/Error";
 
 const datasetModalMask = createRouteMask({
   routeTree,
@@ -31,7 +32,8 @@ export function getRouter() {
     },
     defaultPreload: "intent",
     defaultPreloadStaleTime: 0,
-    defaultNotFoundComponent: () => <div>404</div>,
+    defaultNotFoundComponent: () => <Error message="404. Page not found" />,
+    defaultErrorComponent: ({ error }) => <Error message={error.message} />,
   });
 
   router.subscribe("onBeforeNavigate", (event) => {

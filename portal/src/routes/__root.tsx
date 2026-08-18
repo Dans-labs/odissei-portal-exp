@@ -58,6 +58,18 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
         href: "/src/assets/odissei-logo-16.png",
       },
     ],
+    scripts: [
+      {
+        children: `
+          (function() {
+            var theme = localStorage.getItem('theme') || 'system';
+            var isDark = theme === 'dark' ||
+              (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
+            document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+          })();
+        `,
+      },
+    ],
   }),
   shellComponent: RootDocument,
 });

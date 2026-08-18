@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Drawer } from "@base-ui/react/drawer";
 import { ClearRefinements, useCurrentRefinements } from "react-instantsearch";
 import { SearchBox } from "#/integrations/instantsearch/SearchBox";
 import { RefinementList } from "#/integrations/instantsearch/RefinementList";
 import { ToggleRefinement } from "#/integrations/instantsearch/ToggleRefinement";
-import { YearFilter } from "#/integrations/instantsearch/YearFilter";
+import { RangeInput } from "#/integrations/instantsearch/RangeInput";
 import { FilterSection } from "./FilterSection";
 import { m } from "#/paraglide/messages";
 import {
@@ -26,20 +26,6 @@ import { card, button } from "#/utils/surfaces";
 // Height of the collapsed "peek" state — handle + search box + padding.
 const PEEK_SNAP_POINT = "98px";
 const EXPANDED_SNAP_POINT = 1;
-
-function useIsDesktop(query = "(min-width: 768px)") {
-  const [isDesktop, setIsDesktop] = useState(false);
-
-  useEffect(() => {
-    const mql = window.matchMedia(query);
-    setIsDesktop(mql.matches);
-    const onChange = (e: MediaQueryListEvent) => setIsDesktop(e.matches);
-    mql.addEventListener("change", onChange);
-    return () => mql.removeEventListener("change", onChange);
-  }, [query]);
-
-  return isDesktop;
-}
 
 function ClearRefinementsButton() {
   const { items } = useCurrentRefinements();
@@ -65,7 +51,7 @@ function FiltersList() {
       </FilterSection>
 
       <FilterSection title={m.publicationYear()} icon={<CalendarIcon className="size-4" />}>
-        <YearFilter attribute="publication_year" />
+        <RangeInput attribute="publication_year" />
       </FilterSection>
 
       <FilterSection title={m.license()} icon={<ScaleIcon className="size-4" />}>
@@ -155,8 +141,8 @@ function MobileFacetDrawer() {
               ${styles.Popup}
               pointer-events-auto
               flex h-[85vh] flex-col
-              rounded-t-3xl border-t border-gray-200/80 dark:border-gray-800/80!
-              bg-white${!isExpanded ? "/80" : ""} dark:bg-gray-950${!isExpanded ? "/80" : ""} shadow-[0_-4px_24px_rgba(0,0,0,0.08)] backdrop-blur
+              rounded-t-3xl border-t border-cyan-400 dark:border-cyan-600 shadow-xl backdrop-blur
+              bg-linear-to-b from-cyan-500 dark:from-cyan-700 to-white to-11% dark:to-gray-950 
             `}
           >
             {/* Handle bar — the ONLY thing that toggles open <-> closed */}
@@ -167,7 +153,7 @@ function MobileFacetDrawer() {
               aria-expanded={isExpanded}
               aria-label={isExpanded ? "Collapse filters" : "Expand filters"}
             >
-              <span className={styles.HandleBar} />
+              <span className="block w-12 h-1.5 rounded-full bg-gray-100 dark:bg-gray-800" />
             </button>
 
             {/* Search box: opens the sheet on focus, but never closes it */}
@@ -180,11 +166,9 @@ function MobileFacetDrawer() {
               <SearchBox />
             </div>
 
-            <Drawer.Content className={styles.Content}>
-              <div className="space-y-5">
-                <ClearRefinementsButton />
-                <FiltersList />
-              </div>
+            <Drawer.Content className="px-6 pb-6 overflow-y-auto space-y-5">
+              <ClearRefinementsButton />
+              <FiltersList />
             </Drawer.Content>
           </Drawer.Popup>
         </Drawer.Viewport>
@@ -194,7 +178,14 @@ function MobileFacetDrawer() {
 }
 
 export function FacetSidebar() {
-  const isDesktop = useIsDesktop();
-
-  return isDesktop ? <DesktopSidebar /> : <MobileFacetDrawer />;
+  return (
+    <>
+      <div className="hidden md:block">
+        <DesktopSidebar />
+      </div>
+      <div className="md:hidden">
+        <MobileFacetDrawer />
+      </div>
+    </>
+  );
 }
