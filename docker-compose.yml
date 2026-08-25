@@ -55,13 +55,13 @@ services:
   tools:
     profiles: ["tools"]
     build:
-      context: ./scripts
+      context: ./typesense
     networks:
       - app-internal
     environment:
       - TYPESENSE_API_KEY=${TYPESENSE_API_KEY:?TYPESENSE_API_KEY must be set}
     volumes:
-      - ./scripts:/app
+      - ./typesense:/app
 
 networks:
   app-internal:
