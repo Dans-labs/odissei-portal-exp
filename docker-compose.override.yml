@@ -1,0 +1,6 @@
+services:
+  typesense:
+    ports:
+      - "8108:8108"
+    environment:
+      - TYPESENSE_ENABLE_CORS=true

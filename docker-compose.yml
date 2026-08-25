@@ -1,0 +1,60 @@
+services:
+  typesense:
+    image: typesense/typesense:27.1
+    restart: unless-stopped
+    networks:
+      - app-internal
+    volumes:
+      - typesense-data:/data
+    environment:
+      # Docker Compose auto-loads a root-level .env file for substituting
+      # ${...} references in this YAML — not the same mechanism as a
+      # service's `env_file:` list. This is what gives us the fail-loud
+      # behavior if TYPESENSE_API_KEY isn't set anywhere.
+      - TYPESENSE_API_KEY=${TYPESENSE_API_KEY:?TYPESENSE_API_KEY must be set}
+      - TYPESENSE_DATA_DIR=/data
+      - TYPESENSE_ENABLE_CORS=${TYPESENSE_ENABLE_CORS:-false}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8108/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  frontend:
+    profiles: ["prod"]
+    build:
+      context: ./portal
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    networks:
+      - app-internal
+    env_file:
+      - ./portal/.env.production   # just the secret: search-only TYPESENSE_API_KEY
+    environment:
+      # Topology, not secret — hardcoded here because it's determined by
+      # this compose file's network, not by any .env.
+      - TYPESENSE_HOST=typesense
+      - TYPESENSE_PORT=8108
+      - TYPESENSE_PROTOCOL=http
+      - TYPESENSE_PATH=
+    depends_on:
+      typesense:
+        condition: service_healthy
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  app-internal:
+    driver: bridge
+
+volumes:
+  typesense-data:

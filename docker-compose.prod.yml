@@ -1,0 +1,40 @@
+services:
+  typesense:
+    networks:
+      - traefik-public
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik-public
+      - traefik.http.routers.typesense.rule=Host(`odissei-index.dansdemo.nl`)
+      - traefik.http.routers.typesense.entrypoints=websecure
+      - traefik.http.routers.typesense.tls.certresolver=letsencrypt
+      - traefik.http.services.typesense.loadbalancer.server.port=8108
+      - traefik.http.routers.typesense.middlewares=typesense-cors,typesense-ratelimit
+      - traefik.http.middlewares.typesense-cors.headers.accesscontrolalloworiginlist=https://odissei-portal.dansdemo.nl
+      - traefik.http.middlewares.typesense-cors.headers.accesscontrolallowmethods=GET,POST,OPTIONS
+      - traefik.http.middlewares.typesense-cors.headers.accesscontrolallowheaders=content-type,x-typesense-api-key
+      - traefik.http.middlewares.typesense-cors.headers.accesscontrolmaxage=3600
+      - traefik.http.middlewares.typesense-ratelimit.ratelimit.average=20
+      - traefik.http.middlewares.typesense-ratelimit.ratelimit.burst=50
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+        reservations:
+          memory: 512m
+
+  frontend:
+    networks:
+      - traefik-public
+    labels:
+      - traefik.enable=true
+      - traefik.docker.network=traefik-public
+      - traefik.http.routers.frontend.rule=Host(`odissei-portal.dansdemo.nl`)
+      - traefik.http.routers.frontend.entrypoints=websecure
+      - traefik.http.routers.frontend.tls.certresolver=letsencrypt
+      - traefik.http.services.frontend.loadbalancer.server.port=3000
+
+networks:
+  traefik-public:
+    external: true
+    name: traefik-public   # <-- must match your actual Traefik network name
