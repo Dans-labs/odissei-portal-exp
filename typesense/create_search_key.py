@@ -38,10 +38,10 @@ def main():
 
     key = client.keys.create({
         "description": "Public search-only key (frontend)",
-        "actions": ["documents:search"],
+        "actions": ["documents:search", "documents:get"],
         "collections": [COLLECTION_NAME],
     })
-
+    
     print("Search-only key created — save this now, it won't be shown again:")
     print(key["value"])
 
