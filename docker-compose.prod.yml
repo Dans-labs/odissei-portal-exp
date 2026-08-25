@@ -1,10 +1,18 @@
 services:
+
   typesense:
     networks:
-      - traefik-public
+      - app-internal
+      - traefik-network
+    deploy:
+      resources:
+        limits:
+          memory: 1g
+        reservations:
+          memory: 512m
     labels:
       - traefik.enable=true
-      - traefik.docker.network=traefik-public
+      - traefik.docker.network=traefik-network
       - traefik.http.routers.typesense.rule=Host(`odissei-index.dansdemo.nl`)
       - traefik.http.routers.typesense.entrypoints=websecure
       - traefik.http.routers.typesense.tls.certresolver=letsencrypt
@@ -16,25 +24,19 @@ services:
       - traefik.http.middlewares.typesense-cors.headers.accesscontrolmaxage=3600
       - traefik.http.middlewares.typesense-ratelimit.ratelimit.average=20
       - traefik.http.middlewares.typesense-ratelimit.ratelimit.burst=50
-    deploy:
-      resources:
-        limits:
-          memory: 1g
-        reservations:
-          memory: 512m
 
   frontend:
     networks:
-      - traefik-public
+      - app-internal
+      - traefik-network
     labels:
       - traefik.enable=true
-      - traefik.docker.network=traefik-public
+      - traefik.docker.network=traefik-network
       - traefik.http.routers.frontend.rule=Host(`odissei-portal.dansdemo.nl`)
       - traefik.http.routers.frontend.entrypoints=websecure
       - traefik.http.routers.frontend.tls.certresolver=letsencrypt
       - traefik.http.services.frontend.loadbalancer.server.port=3000
 
 networks:
-  traefik-public:
+  traefik-network:
     external: true
-    name: traefik-public   # <-- must match your actual Traefik network name
