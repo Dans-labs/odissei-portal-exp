@@ -16,7 +16,7 @@ export const getSearchServerState = createServerFn({ method: "GET" }).handler(as
   );
 
   return {
-    config: getPublicTypesenseConfig(), // <-- this is what the client hydrates with
+    config: getPublicTypesenseConfig(),
     serverState: JSON.parse(JSON.stringify(serverState)),
   };
 });
