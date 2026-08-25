@@ -62,6 +62,7 @@ services:
       - TYPESENSE_API_KEY=${TYPESENSE_API_KEY:?TYPESENSE_API_KEY must be set}
     volumes:
       - ./typesense:/app
+      - ./flattened_output:/data/flattened_output:ro
 
 networks:
   app-internal:
