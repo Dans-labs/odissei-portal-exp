@@ -1,14 +1,66 @@
-version: "3.9"
-
+# docker-compose.yml
 services:
   typesense:
     image: typesense/typesense:27.1
-    restart: on-failure
-    ports:
-      - "8108:8108"
+    restart: unless-stopped
+    # No "ports:" here — Typesense is NOT exposed to the host/internet
+    # directly. Only reachable via the internal Docker network, from the
+    # caddy service below.
+    expose:
+      - "8108"
+    networks:
+      - internal
     volumes:
-      - ./typesense-data:/data
+      - typesense-data:/data
     environment:
-      - TYPESENSE_API_KEY=${TYPESENSE_API_KEY:-xyz-local-dev-key}
+      - TYPESENSE_API_KEY=${TYPESENSE_API_KEY:?TYPESENSE_API_KEY must be set}
       - TYPESENSE_DATA_DIR=/data
-      - TYPESENSE_ENABLE_CORS=true
+      # CORS is handled by Caddy now (see below) — Typesense's own CORS
+      # only matters if something talks to it directly, which nothing
+      # should be able to do anymore.
+      - TYPESENSE_ENABLE_CORS=false
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8108/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+    deploy:
+      resources:
+        limits:
+          # Typesense keeps its index in memory — size this to your actual
+          # dataset. 16k docs is small; this is a conservative floor, raise
+          # it if you add larger collections later.
+          memory: 1g
+        reservations:
+          memory: 512m
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "443:443"
+      - "80:80"   # only used for ACME HTTP-01 challenge / redirect to https
+    networks:
+      - internal
+    depends_on:
+      typesense:
+        condition: service_healthy
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+
+networks:
+  internal:
+    driver: bridge
+
+volumes:
+  typesense-data:
+  caddy-data:
+  caddy-config:
