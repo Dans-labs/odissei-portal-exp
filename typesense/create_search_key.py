@@ -36,7 +36,7 @@ def main():
         "connection_timeout_seconds": 5,
     })
 
-    key = client.keys().create({
+    key = client.keys.create({
         "description": "Public search-only key (frontend)",
         "actions": ["documents:search"],
         "collections": [COLLECTION_NAME],
