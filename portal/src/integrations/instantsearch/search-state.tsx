@@ -2,12 +2,12 @@ import { createServerFn } from "@tanstack/react-start";
 import { renderToString } from "react-dom/server";
 import { getServerState, InstantSearch } from "react-instantsearch";
 import { createSearchClient } from "./client";
-import { getPublicTypesenseConfig } from "./env.server";
+import { getInternalTypesenseConfig, getPublicTypesenseConfig } from "./env.server";
 import SearchWrapper from "./SearchWrapper";
 
 export const getSearchServerState = createServerFn({ method: "GET" }).handler(async () => {
-  const config = getPublicTypesenseConfig();
-  const searchClient = createSearchClient(config);
+  const searchClient = createSearchClient(getInternalTypesenseConfig()); // SSR only
+
   const serverState = await getServerState(
     <InstantSearch searchClient={searchClient} indexName="datasets">
       <SearchWrapper />
@@ -16,7 +16,7 @@ export const getSearchServerState = createServerFn({ method: "GET" }).handler(as
   );
 
   return {
-    config,
+    config: getPublicTypesenseConfig(), // <-- this is what the client hydrates with
     serverState: JSON.parse(JSON.stringify(serverState)),
   };
 });
