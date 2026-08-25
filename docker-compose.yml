@@ -15,7 +15,7 @@ services:
       - TYPESENSE_DATA_DIR=/data
       - TYPESENSE_ENABLE_CORS=${TYPESENSE_ENABLE_CORS:-false}
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8108/health"]
+      test: ["CMD-SHELL", "bash -c 'exec 3<>/dev/tcp/127.0.0.1/8108 && echo -e \"GET /health HTTP/1.1\\r\\nHost: localhost\\r\\nConnection: close\\r\\n\\r\\n\" >&3 && grep -q \"ok\" <&3'"]
       interval: 10s
       timeout: 5s
       retries: 5
@@ -51,6 +51,17 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
+    
+  tools:
+    profiles: ["tools"]
+    build:
+      context: ./scripts
+    networks:
+      - app-internal
+    environment:
+      - TYPESENSE_API_KEY=${TYPESENSE_API_KEY:?TYPESENSE_API_KEY must be set}
+    volumes:
+      - ./scripts:/app
 
 networks:
   app-internal:
